@@ -10,7 +10,7 @@ const routes = [
   { path: "/home", component: HomePage },
   { path: "/login", component: LoginPage },
 ];
-console.log(routes, "routes");
+
 const router = createRouter({
   history: createWebHistory(),
   routes: routes, // Verify that the routes array is correctly passed
