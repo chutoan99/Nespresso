@@ -1,0 +1,303 @@
+@import "../base/global";
+@import "../base/reset";
+@import "../base/variable";
+
+@import "../layouts/footer";
+@import "../layouts/nav";
+@import "../layouts/header";
+@import "../layouts/orther";
+@import "../layouts/header";
+
+#setting {
+  background: #f9f9f9;
+  padding: 2.5rem 0;
+  .setting {
+    display: grid;
+    grid-template-columns: 3fr 9fr;
+    column-gap: 1.5rem;
+  }
+  .setting_aside {
+    &-heading {
+      font-weight: 700;
+      color: $black-800;
+      @extend .font_heading-5;
+      margin-bottom: 0.25rem;
+    }
+    &-title {
+      margin-top: 0.25rem;
+      display: flex;
+      gap: 0.5rem;
+      h3,
+      span {
+        font-weight: 600;
+        color: $black-800;
+        @extend .font_subtitle-2;
+      }
+    }
+    &-content {
+      margin-top: 0.75rem;
+    }
+    &-select {
+      margin-top: 0.25rem;
+      padding: 0.625rem 0.75rem;
+      width: 100%;
+      height: 2.75rem;
+      background: $white;
+      border: 0.0625rem solid $black-100;
+      border-radius: 0.25rem;
+      display: none;
+      option {
+        width: 100%;
+      }
+    }
+    &-list {
+      list-style: none;
+      border-top: 0.0625rem solid $black-100;
+    }
+    &-item {
+      box-sizing: border-box;
+      align-items: center;
+      padding: 1.1875rem 0rem;
+      height: 4.55rem;
+      border-bottom: 0.0625rem solid $black-100;
+      display: flex;
+      gap: 1.5625rem;
+    }
+    &-item-link {
+      text-decoration: none;
+      @extend .font_subtitle-2;
+      font-weight: 400;
+      color: $black-800;
+    }
+    .aside-active {
+      color: #876c43 !important;
+    }
+    input[type="radio"] {
+      display: none;
+      &:checked {
+        + {
+          label {
+            transition: 0.5s;
+            color: $brown-600;
+            background-color: $black-800;
+            + {
+              .aside {
+                display: block;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .setting_main {
+    .setting_label {
+      @extend .font_body-2;
+      height: 3.25rem;
+      background: $black-200;
+      font-weight: 700;
+      color: $black-900;
+    }
+
+    .setting_label2 {
+      @extend .font_caption;
+      height: 2rem;
+      background: $black-100;
+      font-weight: 500;
+      color: $black-900;
+    }
+
+    .setting_label3 {
+      background: $black-50;
+      height: 4.5625rem;
+    }
+
+    .setting_label,
+    .setting_label2,
+    .setting_label3 {
+      display: flex;
+      align-items: center;
+      padding: 1rem;
+      margin-bottom: unset;
+    }
+
+    #setting_my_info {
+      .form {
+        &_btn {
+          width: 100%;
+          display: flex;
+          justify-content: end;
+          button {
+            @extend .font_button;
+            display: flex;
+            justify-content: center;
+            height: 2.5625rem;
+            align-items: center;
+            padding: 1rem 1.5rem;
+            order: 0.0625rem solid $black-900;
+            border-radius: 2.5rem;
+            font-weight: 600;
+            text-align: center;
+            color: $black-800;
+            background-color: unset;
+            &:hover {
+              cursor: pointer;
+              transition: 0.3s;
+              background: #c5c5c5;
+            }
+          }
+        }
+        &_content {
+          width: 100%;
+          &-heading {
+            @extend .font_caption;
+            margin-top: 1.5rem;
+            display: inline-block;
+            width: 100%;
+            margin-bottom: unset;
+            font-weight: 400;
+            color: $black-900;
+          }
+          p {
+            margin-top: 1.5rem;
+            @extend .font_caption;
+            color: $black-800;
+            width: 100%;
+            margin-bottom: unset;
+            font-weight: 400;
+          }
+          &-list {
+            padding-left: 1.875rem;
+            margin-bottom: 0.625rem;
+            &-item {
+              @extend .font_caption;
+              color: $black-800;
+              width: 100%;
+              margin-bottom: unset;
+              font-weight: 400;
+            }
+          }
+          &-field {
+            width: 100%;
+            margin-top: 1.5rem;
+            display: grid;
+            grid-template-columns: 2fr 6fr 2fr;
+            column-gap: 1.5rem;
+            label {
+              padding: 0.875rem 0.75rem;
+              @extend .font_caption;
+              margin-bottom: unset;
+              font-weight: 400;
+              color: $black-900;
+              display: flex;
+              align-items: center;
+            }
+            input {
+              width: 100%;
+              padding: 0.625rem 0.75rem;
+              height: 2.75rem;
+              background: $white;
+              border: 0.0625rem solid $black-100;
+              border-radius: 0.25rem;
+            }
+          }
+          &-wrapper {
+            margin-top: 0.625rem;
+            margin-bottom: 1.5rem;
+            width: 100%;
+            display: grid;
+            grid-template-columns: 2fr 6fr 2fr;
+            column-gap: 1.5rem;
+          }
+          &-mess {
+            width: 100%;
+            display: grid;
+            grid-template-columns: 2fr 6fr 2fr;
+            column-gap: 1.5rem;
+          }
+        }
+      }
+    }
+  }
+}
+/* Tablet: width >= 768px and width < 1024px */
+@media only screen and (min-width: 48rem) and (max-width: 63.938rem) {
+  #setting {
+    margin-top: 3.125rem;
+    .setting {
+      display: flex;
+      flex-direction: column;
+      gap: 0.625rem;
+      margin-right: 1.25rem;
+      margin-left: 1.25rem;
+    }
+  }
+}
+
+/* Mobile: width < 768px */
+@media only screen and (max-width: 47.938em) {
+  #setting {
+    margin-top: 3.125rem;
+    .setting {
+      display: flex;
+      flex-direction: column;
+      gap: 0.625rem;
+      margin-right: 0.625rem;
+      margin-left: 0.625rem;
+    }
+    .form_btn {
+      button {
+        width: 100%;
+        border-radius: 0.3125rem !important;
+        &:hover {
+          cursor: pointer;
+          transition: 0.3s;
+          background: #c5c5c5;
+        }
+      }
+    }
+    .form_content {
+      display: flex !important;
+      gap: 0.3125rem;
+      flex-direction: column;
+      padding: 1rem 0rem !important;
+
+      .form_content-btn {
+        button {
+          width: 100%;
+          border-radius: 0.3125rem !important;
+          &:hover {
+            cursor: pointer;
+            transition: 0.3s;
+            background: #c5c5c5;
+          }
+        }
+      }
+      .form_btn {
+        width: 100%;
+        padding-left: unset !important;
+        padding-right: unset !important;
+      }
+      .form_content-field {
+        margin-top: unset !important;
+        display: flex !important;
+        flex-direction: column;
+        label {
+          &:last-child {
+            display: none !important;
+          }
+        }
+      }
+      .form_content-wrapper,
+      .form_content-mess {
+        display: unset !important;
+      }
+    }
+    .setting_aside-select {
+      display: block !important;
+    }
+    .setting_aside-list {
+      display: none !important;
+    }
+  }
+}

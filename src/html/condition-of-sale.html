@@ -1,0 +1,1578 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./assets/images/LogoN.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./css/pages/condition-of-sale.css" />
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- font-awesome -->
+    <title>Nespresso Vietnam</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="wrapper-innner">
+        <!-- start header -->
+        <header id="header" class="header">
+          <div class="header_inner">
+            <div class="header_logo">
+              <div class="icon_list hide_on-pc show_on-tab">
+                <div class="hamburger-menu">
+                  <input id="menu__toggle" type="checkbox" />
+                  <label class="menu__btn" for="menu__toggle">
+                    <span></span>
+                  </label>
+                  <ul class="menu__box">
+                    <!-- List Item 1: Order -->
+                    <li>
+                      <div class="img_coffee-w">
+                        <img
+                          alt="coffee"
+                          src="./assets/images/header/order.png"
+                        />
+                      </div>
+                      <div class="menu__item-content">
+                        <a class="menu__item" href="#">Order</a>
+                      </div>
+                    </li>
+                    <!-- List Item 2: Coffee -->
+                    <li>
+                      <div class="img_coffee-w">
+                        <img
+                          alt="coffee"
+                          src="./assets/images/header/coffee-capsule.png"
+                        />
+                      </div>
+                      <div class="menu__item-content">
+                        <a class="menu__item" href="./coffee.html">Coffee</a>
+                        <div class="nav_icon">
+                          <svg
+                            width="7"
+                            height="13"
+                            viewBox="0 0 7 13"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M0.162718 0.162718C0.379676 -0.0542395 0.731435 -0.0542395 0.948393 0.162718L6.50395 5.71827C6.72091 5.93523 6.72091 6.28699 6.50395 6.50395L0.948393 12.0595C0.731435 12.2765 0.379676 12.2765 0.162718 12.0595C-0.0542395 11.8425 -0.0542395 11.4908 0.162718 11.2738L5.32544 6.11111L0.162718 0.948393C-0.0542395 0.731435 -0.0542395 0.379676 0.162718 0.162718Z"
+                              fill="white"
+                            />
+                          </svg>
+                        </div>
+                      </div>
+                    </li>
+                    <!-- List Item 3: Machine -->
+                    <li>
+                      <div class="img_machine-w">
+                        <img
+                          alt="machine"
+                          src="./assets/images/header/machine.png"
+                        />
+                      </div>
+                      <div class="menu__item-content">
+                        <a class="menu__item" href="./machines.html">Machine</a>
+                        <div class="nav_icon">
+                          <svg
+                            width="7"
+                            height="13"
+                            viewBox="0 0 7 13"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M0.162718 0.162718C0.379676 -0.0542395 0.731435 -0.0542395 0.948393 0.162718L6.50395 5.71827C6.72091 5.93523 6.72091 6.28699 6.50395 6.50395L0.948393 12.0595C0.731435 12.2765 0.379676 12.2765 0.162718 12.0595C-0.0542395 11.8425 -0.0542395 11.4908 0.162718 11.2738L5.32544 6.11111L0.162718 0.948393C-0.0542395 0.731435 -0.0542395 0.379676 0.162718 0.162718Z"
+                              fill="white"
+                            />
+                          </svg>
+                        </div>
+                      </div>
+                    </li>
+                    <!-- List Item 4: Accessories -->
+                    <li>
+                      <div class="img_accessories-w">
+                        <img
+                          alt="accessories"
+                          src="./assets/images/header/accessories.png"
+                        />
+                      </div>
+                      <div class="menu__item-content">
+                        <a class="menu__item" href="./accessories.html"
+                          >Acceessories</a
+                        >
+                        <div class="nav_icon">
+                          <svg
+                            width="7"
+                            height="13"
+                            viewBox="0 0 7 13"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M0.162718 0.162718C0.379676 -0.0542395 0.731435 -0.0542395 0.948393 0.162718L6.50395 5.71827C6.72091 5.93523 6.72091 6.28699 6.50395 6.50395L0.948393 12.0595C0.731435 12.2765 0.379676 12.2765 0.162718 12.0595C-0.0542395 11.8425 -0.0542395 11.4908 0.162718 11.2738L5.32544 6.11111L0.162718 0.948393C-0.0542395 0.731435 -0.0542395 0.379676 0.162718 0.162718Z"
+                              fill="white"
+                            />
+                          </svg>
+                        </div>
+                      </div>
+                    </li>
+                    <!-- List Item 5: Nespresso Benefits -->
+                    <li>
+                      <div class="img_accessories-w">
+                        <img
+                          alt="accessories"
+                          src="./assets/images/header/Benefits.png"
+                        />
+                      </div>
+                      <div class="menu__item-content">
+                        <a class="menu__item" href="./benefits.html"
+                          >Nespresso Benefits</a
+                        >
+
+                        <div class="nav_icon">
+                          <svg
+                            width="7"
+                            height="13"
+                            viewBox="0 0 7 13"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M0.162718 0.162718C0.379676 -0.0542395 0.731435 -0.0542395 0.948393 0.162718L6.50395 5.71827C6.72091 5.93523 6.72091 6.28699 6.50395 6.50395L0.948393 12.0595C0.731435 12.2765 0.379676 12.2765 0.162718 12.0595C-0.0542395 11.8425 -0.0542395 11.4908 0.162718 11.2738L5.32544 6.11111L0.162718 0.948393C-0.0542395 0.731435 -0.0542395 0.379676 0.162718 0.162718Z"
+                              fill="white"
+                            />
+                          </svg>
+                        </div>
+                      </div>
+                    </li>
+                    <!-- List Item 6: Sustainability & Recycling -->
+                    <li>
+                      <div class="img_recycle-w">
+                        <img
+                          alt="recycle"
+                          src="./assets/images/header/recycle.png"
+                        />
+                      </div>
+                      <div class="menu__item-content">
+                        <a
+                          class="menu__item"
+                          href="./sustainability-recycling.html"
+                          >Sustainability & Recycling</a
+                        >
+
+                        <div class="nav_icon">
+                          <svg
+                            width="7"
+                            height="13"
+                            viewBox="0 0 7 13"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M0.162718 0.162718C0.379676 -0.0542395 0.731435 -0.0542395 0.948393 0.162718L6.50395 5.71827C6.72091 5.93523 6.72091 6.28699 6.50395 6.50395L0.948393 12.0595C0.731435 12.2765 0.379676 12.2765 0.162718 12.0595C-0.0542395 11.8425 -0.0542395 11.4908 0.162718 11.2738L5.32544 6.11111L0.162718 0.948393C-0.0542395 0.731435 -0.0542395 0.379676 0.162718 0.162718Z"
+                              fill="white"
+                            />
+                          </svg>
+                        </div>
+                      </div>
+                    </li>
+                    <!-- List Item 7: Services -->
+                    <li>
+                      <div class="img_service-w">
+                        <img
+                          alt="service"
+                          src="./assets/images/header/service.png"
+                        />
+                      </div>
+                      <div class="menu__item-content">
+                        <a class="menu__item" href="./service.html">Services</a>
+                        <div class="nav_icon">
+                          <svg
+                            width="7"
+                            height="13"
+                            viewBox="0 0 7 13"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M0.162718 0.162718C0.379676 -0.0542395 0.731435 -0.0542395 0.948393 0.162718L6.50395 5.71827C6.72091 5.93523 6.72091 6.28699 6.50395 6.50395L0.948393 12.0595C0.731435 12.2765 0.379676 12.2765 0.162718 12.0595C-0.0542395 11.8425 -0.0542395 11.4908 0.162718 11.2738L5.32544 6.11111L0.162718 0.948393C-0.0542395 0.731435 -0.0542395 0.379676 0.162718 0.162718Z"
+                              fill="white"
+                            />
+                          </svg>
+                        </div>
+                      </div>
+                    </li>
+                    <!-- List Item 8: Store Locator -->
+                    <li>
+                      <div class="img_location-w">
+                        <img
+                          alt="location"
+                          src="./assets/images/header/location.png"
+                        />
+                      </div>
+                      <div class="menu__item-content">
+                        <a class="menu__item" href="./store-location.html"
+                          >Store Locator</a
+                        >
+                        <div class="nav_icon">
+                          <svg
+                            width="7"
+                            height="13"
+                            viewBox="0 0 7 13"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M0.162718 0.162718C0.379676 -0.0542395 0.731435 -0.0542395 0.948393 0.162718L6.50395 5.71827C6.72091 5.93523 6.72091 6.28699 6.50395 6.50395L0.948393 12.0595C0.731435 12.2765 0.379676 12.2765 0.162718 12.0595C-0.0542395 11.8425 -0.0542395 11.4908 0.162718 11.2738L5.32544 6.11111L0.162718 0.948393C-0.0542395 0.731435 -0.0542395 0.379676 0.162718 0.162718Z"
+                              fill="white"
+                            />
+                          </svg>
+                        </div>
+                      </div>
+                    </li>
+                    <!-- List Item 9: SContact -->
+                    <li>
+                      <div class="img_contact-w">
+                        <img
+                          alt="contact"
+                          src="./assets/images/header/contact.png"
+                        />
+                      </div>
+                      <div class="menu__item-content">
+                        <a class="menu__item" href="./contact-us.html"
+                          >Contact</a
+                        >
+                        <div class="nav_icon">
+                          <svg
+                            width="7"
+                            height="13"
+                            viewBox="0 0 7 13"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M0.162718 0.162718C0.379676 -0.0542395 0.731435 -0.0542395 0.948393 0.162718L6.50395 5.71827C6.72091 5.93523 6.72091 6.28699 6.50395 6.50395L0.948393 12.0595C0.731435 12.2765 0.379676 12.2765 0.162718 12.0595C-0.0542395 11.8425 -0.0542395 11.4908 0.162718 11.2738L5.32544 6.11111L0.162718 0.948393C-0.0542395 0.731435 -0.0542395 0.379676 0.162718 0.162718Z"
+                              fill="white"
+                            />
+                          </svg>
+                        </div>
+                      </div>
+                    </li>
+                    <!-- List Item 10: Professional -->
+                    <li>
+                      <div class="img_professional-w">
+                        <img
+                          alt="professional"
+                          src="./assets/images/header/pro.png"
+                        />
+                      </div>
+                      <div class="menu__item-content">
+                        <a class="menu__item" href="./professional.html"
+                          >Professional</a
+                        >
+                        <div class="nav_icon">
+                          <svg
+                            width="7"
+                            height="13"
+                            viewBox="0 0 7 13"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M0.162718 0.162718C0.379676 -0.0542395 0.731435 -0.0542395 0.948393 0.162718L6.50395 5.71827C6.72091 5.93523 6.72091 6.28699 6.50395 6.50395L0.948393 12.0595C0.731435 12.2765 0.379676 12.2765 0.162718 12.0595C-0.0542395 11.8425 -0.0542395 11.4908 0.162718 11.2738L5.32544 6.11111L0.162718 0.948393C-0.0542395 0.731435 -0.0542395 0.379676 0.162718 0.162718Z"
+                              fill="white"
+                            />
+                          </svg>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                  <ul class="sub_list hide_on-pc" id="sub_list">
+                    <li><a href="#"> ORIGINAL </a></li>
+                    <li>
+                      <a href="#"> Order Original Capsules </a>
+                    </li>
+                    <li><a href="#"> About Original </a></li>
+                    <li><a href="#"> VERTUO </a></li>
+                    <li>
+                      <a href="#"> Choose coffee subscription </a>
+                    </li>
+                    <li>
+                      <a href="#"> Choose coffee subscription </a>
+                    </li>
+                    <li>
+                      <a href="#"> About Nespresso Coffee </a>
+                    </li>
+                    <li><a href="#"> Coffee Expertise </a></li>
+                    <li><a href="#"> Coffee Recipes </a></li>
+                    <li><a href="#"> System Quiz </a></li>
+                  </ul>
+                </div>
+              </div>
+              <a href="./index.html">
+                <img
+                  src="./assets/images/logoApp.png"
+                  alt="logoApp"
+                  width="100%"
+                  height="100%"
+                />
+              </a>
+            </div>
+            <div class="header_content">
+              <div style="position: relative">
+                <div
+                  class="search_icon2"
+                  style="width: 3.125rem; display: none"
+                >
+                  <svg
+                    style="width: 1.875rem; height: 1.875rem"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M13.8273 15.172C13.8178 15.1794 13.8167 15.1935 13.8252 15.2019L17.8223 19.199C18.1901 19.5669 18.7866 19.5669 19.1546 19.199C19.5225 18.831 19.5225 18.2345 19.1546 17.8666L15.1576 13.8696C15.1529 13.865 15.1452 13.8654 15.1411 13.8706C14.9592 14.1009 14.762 14.3231 14.5493 14.5358C14.3193 14.7658 14.078 14.978 13.8273 15.172Z"
+                      fill="white"
+                    />
+                    <path
+                      d="M14.0764 14.0628C16.6358 11.5034 16.6358 7.35376 14.0764 4.79435C11.517 2.23494 7.36734 2.23494 4.80793 4.79435C2.24852 7.35376 2.24852 11.5034 4.80793 14.0628C7.36734 16.6222 11.517 16.6222 14.0764 14.0628Z"
+                      fill="white"
+                    />
+                  </svg>
+                </div>
+
+                <div class="header_content-search">
+                  <svg
+                    class="header_content-search-icon"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M13.8273 15.172C13.8178 15.1794 13.8167 15.1935 13.8252 15.2019L17.8223 19.199C18.1901 19.5669 18.7866 19.5669 19.1546 19.199C19.5225 18.831 19.5225 18.2345 19.1546 17.8666L15.1576 13.8696C15.1529 13.865 15.1452 13.8654 15.1411 13.8706C14.9592 14.1009 14.762 14.3231 14.5493 14.5358C14.3193 14.7658 14.078 14.978 13.8273 15.172Z"
+                      fill="white"
+                    />
+                    <path
+                      d="M14.0764 14.0628C16.6358 11.5034 16.6358 7.35376 14.0764 4.79435C11.517 2.23494 7.36734 2.23494 4.80793 4.79435C2.24852 7.35376 2.24852 11.5034 4.80793 14.0628C7.36734 16.6222 11.517 16.6222 14.0764 14.0628Z"
+                      fill="white"
+                    />
+                  </svg>
+                  <input
+                    id="input_search"
+                    class="header_content-search-input"
+                    placeholder="SEARCH..."
+                    type="text"
+                  />
+                </div>
+                <!-- form_search -->
+                <section id="form_search">
+                  <div class="form_search-wrapper">
+                    <div class="form_search-item">
+                      <svg
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          clip-rule="evenodd"
+                          d="M13.8272 15.172C13.8176 15.1794 13.8166 15.1935 13.8251 15.2019L17.8221 19.199C18.19 19.5669 18.7865 19.5669 19.1545 19.199C19.5224 18.831 19.5224 18.2345 19.1545 17.8666L15.1574 13.8696C15.1528 13.865 15.1451 13.8654 15.141 13.8706C14.9591 14.1009 14.7619 14.3231 14.5492 14.5358C14.3192 14.7658 14.0779 14.978 13.8272 15.172Z"
+                          fill="#1B1B1B"
+                        />
+                        <path
+                          d="M13.7227 5.1479C16.0869 7.51205 16.0869 11.3451 13.7227 13.7092C11.3586 16.0734 7.52551 16.0734 5.16136 13.7092C2.79721 11.3451 2.79721 7.51205 5.16136 5.1479C7.52551 2.78375 11.3586 2.78375 13.7227 5.1479Z"
+                          stroke="#1B1B1B"
+                        />
+                      </svg>
+                      <span>Purple </span>
+                    </div>
+                    <div class="form_search-item">
+                      <svg
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          clip-rule="evenodd"
+                          d="M13.8272 15.172C13.8176 15.1794 13.8166 15.1935 13.8251 15.2019L17.8221 19.199C18.19 19.5669 18.7865 19.5669 19.1545 19.199C19.5224 18.831 19.5224 18.2345 19.1545 17.8666L15.1574 13.8696C15.1528 13.865 15.1451 13.8654 15.141 13.8706C14.9591 14.1009 14.7619 14.3231 14.5492 14.5358C14.3192 14.7658 14.0779 14.978 13.8272 15.172Z"
+                          fill="#1B1B1B"
+                        />
+                        <path
+                          d="M13.7227 5.1479C16.0869 7.51205 16.0869 11.3451 13.7227 13.7092C11.3586 16.0734 7.52551 16.0734 5.16136 13.7092C2.79721 11.3451 2.79721 7.51205 5.16136 5.1479C7.52551 2.78375 11.3586 2.78375 13.7227 5.1479Z"
+                          stroke="#1B1B1B"
+                        />
+                      </svg>
+                      <span>Purple pod </span>
+                    </div>
+                  </div>
+                </section>
+                <!-- form_result -->
+                <section id="form_result">
+                  <div class="form_result-wrapper">
+                    <div class="form_search-item">
+                      <div class="form_search-item-img">
+                        <img src="./assets/images/Rectangle 42.png" alt="" />
+                      </div>
+                      <div class="form_search-item-info">
+                        <span>Altissio</span> <span>In</span>
+                      </div>
+                    </div>
+                    <div class="form_search-item">
+                      <div class="form_search-item-img">
+                        <img src="./assets/images/Rectangle 42.png" alt="" />
+                      </div>
+                      <div class="form_search-item-info">
+                        <span>Altissio</span> <span>In</span>
+                      </div>
+                    </div>
+                    <div class="form_search-item">
+                      <div class="form_search-item-img">
+                        <img src="./assets/images/Rectangle 42.png" alt="" />
+                      </div>
+                      <div class="form_search-item-info">
+                        <span>Altissio</span> <span>In</span>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+              </div>
+
+              <!-- info login -->
+              <div style="position: relative">
+                <div class="header_content-btn btn_login">
+                  <div style="display: flex; gap: 0.25rem; align-items: center">
+                    <svg
+                    class="btn_login-icon"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M12 13.0531C15.6045 13.0531 18.5265 10.1311 18.5265 6.52656C18.5265 2.92204 15.6045 0 12 0C8.39544 0 5.47339 2.92204 5.47339 6.52656C5.47339 10.1311 8.39544 13.0531 12 13.0531Z"
+                        fill="white"
+                      />
+                      <path
+                        d="M24 21.2218V23.3211H0V21.2218C0 17.4458 1.74597 14.0717 4.47577 11.8823C4.8499 11.5844 5.38338 11.5982 5.72287 11.9377C7.31641 13.559 9.54043 14.5636 12 14.5636C14.4596 14.5636 16.6836 13.559 18.2771 11.9377C18.6097 11.5982 19.1501 11.5775 19.5243 11.8823C22.2541 14.0786 24 17.4458 24 21.2218Z"
+                        fill="white"
+                      />
+                    </svg>
+                    <span class="btn_login-text">SIGN IN OR REGISTER</span>
+                  </div>
+                </div>
+                <!-- dropdown_signIn -->
+                <section id="dropdown_signIn">
+                  <div class="dropdown_signIn">
+                    <div>
+                      <h3 class="dropdown_signIn-heading">SIGN IN</h3>
+                      <span class="dropdown_signIn-title"
+                        >Access your account and place order:</span
+                      >
+                      <div class="dropdown_signIn-filed">
+                        <label for="email"></label>
+                        <input id="email" placeholder="Your Email" />
+                      </div>
+                      <div class="dropdown_signIn-filed">
+                        <label for="password"></label>
+                        <input id="password" placeholder="Password*" />
+                      </div>
+                      <h3 class="dropdown_signIn-forgot">
+                        Forgot your password?
+                      </h3>
+                      <div class="dropdown_signIn-check">
+                        <label for="form_check"></label>
+                        <input type="checkbox" id="dropdown_check" />
+                        <span>Remember me</span>
+                      </div>
+                      <button class="dropdown_signIn-btn">Login</button>
+                      <div class="dropdown_signIn-footer">
+                        <span>Don't have an account yet ?</span>
+                      </div>
+                      <button class="dropdown_signIn-btn">
+                        Start registration
+                      </button>
+                    </div>
+                  </div>
+                </section>
+                <!-- dropdown_loggedIn -->
+                <section id="dropdown_loggedIn">
+                  <div class="dropdown_loggedIn">
+                    <ul class="dropdown_loggedIn-list">
+                      <li class="dropdown_loggedIn-item">
+                        <a
+                          class="dropdown_loggedIn-item-link"
+                          href="./setting_info.html"
+                        >
+                          My account
+                        </a>
+                      </li>
+                      <li class="dropdown_loggedIn-item">
+                        <a
+                          class="dropdown_loggedIn-item-link"
+                          href="./setting_order.html"
+                          >My Orders
+                        </a>
+                      </li>
+                      <li class="dropdown_loggedIn-item">
+                        <a
+                          class="dropdown_loggedIn-item-link"
+                          href="./setting_info.html"
+                        >
+                          My Personal Information
+                        </a>
+                      </li>
+                      <li class="dropdown_loggedIn-item">
+                        <a
+                          class="dropdown_loggedIn-item-link"
+                          href="./setting_address.html"
+                          >My Address
+                        </a>
+                      </li>
+                      <li class="dropdown_loggedIn-item">
+                        <a
+                          class="dropdown_loggedIn-item-link"
+                          href="./setting_machine.html"
+                        >
+                          My Machines
+                        </a>
+                      </li>
+                      <li class="dropdown_loggedIn-item">
+                        <a
+                          class="dropdown_loggedIn-item-link"
+                          href="./setting_contact.html"
+                        >
+                          Contact Preferences
+                        </a>
+                      </li>
+                    </ul>
+                    <div class="dropdown_loggedIn-logout">
+                      <span>Logout</span>
+                    </div>
+                  </div>
+                </section>
+              </div>
+
+              <div class="header_content-btn btn_cart">
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M8 3.75C8 1.67889 9.67889 0 11.75 0C13.8211 0 15.5 1.67889 15.5 3.75V6H20.75L21.5 24H2L2.75 6H8V3.75ZM8.75 6H14.75V3.75C14.75 2.09317 13.4068 0.75 11.75 0.75C10.0932 0.75 8.75 2.09317 8.75 3.75V6Z"
+                    fill="white"
+                  />
+                </svg>
+                <span>YOUR BASKET (0)</span>
+              </div>
+              <!-- cart -->
+              <section id="overlay">
+                <div class="overlay">
+                  <aside class="overlay_inner modalCart">
+                    <div class="modalCart_header">
+                      <h3>SHOPPING BAG</h3>
+                      <svg
+                        width="16"
+                        height="16"
+                        viewBox="0 0 16 16"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M15 1L1 15"
+                          stroke="#17171A"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                        <path
+                          d="M15 15L1 1"
+                          stroke="#17171A"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+                    </div>
+                    <div class="modalCart_title">
+                      <h4>Free shipping from</h4>
+                      <span>500,000đ</span>
+                    </div>
+                    <div class="modalCart_body">
+                      <!--start empty order -->
+                      <!-- <div  class="modalCart_empty">
+                                    <h3 class="modalCart_body-title">Your basket is empty</h3>
+                                       <button class="modalCart_btn">
+                                         <span> START SHOPPING </span>
+                                       </button>
+                                    </div> -->
+                      <!--end empty order -->
+                      <!--start add order -->
+                      <div style="width: 100%">
+                        <div class="modalCart_body-name">
+                          <span>Ispirazione Italiana (10)</span>
+                        </div>
+                        <div class="modalCart_body-item">
+                          <div class="modalCart_body-content">
+                            <div class="modalCart_body-content-img">
+                              <img
+                                src="./assets/images/item_cart.png"
+                                alt="item_cart.png"
+                              />
+                            </div>
+                            <div class="modalCart_body-content-info">
+                              <h4>Roma</h4>
+                              <span
+                                >155,000đ <label>(10 x 15,500đ)</label>
+                              </span>
+                            </div>
+                          </div>
+                          <div>
+                            <span class="modalCart_body-item-quantity">10</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="modalCart_footer">
+                        <div class="modalCart_footer-total">
+                          <span>Total</span> <span>155,000đ</span>
+                        </div>
+                        <div class="modalCart_footer-title">
+                          <span
+                            >Shipping costs will be reflected in the next step,
+                            after authentification.</span
+                          >
+                        </div>
+                        <button class="modalCart_btn">
+                          <a href="./shoppingbag_step1.html"
+                            >GO TO SHOPPING BAG</a
+                          >
+                        </button>
+                      </div>
+                      <!--end add order -->
+                    </div>
+                  </aside>
+                </div>
+              </section>
+              <!-- cart -->
+            </div>
+          </div>
+        </header>
+        <!-- end header -->
+
+        <!-- start nav -->
+        <nav id="nav">
+          <div class="nav">
+            <ul class="nav_list">
+              <li class="nav_list-item nav_list-item-coffee">
+                <a class="nav_list-item-link" href="./coffee.html">
+                  <div class="img_coffee-w">
+                    <img
+                      alt="coffee"
+                      src="./assets/images/header/coffee-capsule.png"
+                    />
+                  </div>
+                  <div class="img_coffee-b">
+                    <img
+                      alt="coffee"
+                      src="./assets/images/header/coffee-capsule_b.png"
+                    />
+                  </div>
+                  <p>Coffee</p>
+                </a>
+                <div class="list_item-submenu" id="list-sub-coffee">
+                  <div class="list_item-submenu-inner">
+                    <div class="list_item-submenu-item">
+                      <div>
+                        <a href="./coffee.html">
+                          <img src="./assets/images/image_56_2.png" alt="" />
+                        </a>
+                      </div>
+                      <div class="list_item-submenu-content">
+                        <p>Order Your Capsules</p>
+                        <p>Enjoy free delivery from 500,000đ</p>
+                      </div>
+                    </div>
+                    <span class="list_item-submenu-item-hr"></span>
+                    <div class="list_item-submenu-item">
+                      <div>
+                        <img src="./assets/images/image_56.png" alt="" />
+                      </div>
+                      <div class="list_item-submenu-content">
+                        <p>Discover the Range</p>
+                        <p>Explore Nespresso coffee selection</p>
+                      </div>
+                    </div>
+                    <span class="list_item-submenu-item-hr"></span>
+                    <div
+                      class="list_item-submenu-item"
+                      style="display: flex; flex-direction: column"
+                    >
+                      <div style="display: flex; gap: 4px; align-items: center">
+                        <div>
+                          <img src="./assets/images/image_56_1.png" alt="" />
+                        </div>
+                        <div class="list_item-submenu-content">
+                          <p>Our Coffee Stories</p>
+                          <p>Journey to the perfect cup</p>
+                        </div>
+                      </div>
+                      <span class="list_item-submenu-item-hr2"></span>
+                      <div style="display: flex; gap: 4px; align-items: center">
+                        <div>
+                          <img src="./assets/images/image_56_1.png" alt="" />
+                        </div>
+                        <div class="list_item-submenu-content">
+                          <p>Recipes</p>
+                          <p>Be your own barista</p>
+                        </div>
+                      </div>
+                    </div>
+                    <span class="list_item-submenu-item-hr"></span>
+                    <div class="list_item-submenu-item">
+                      <div style="padding: 0 8px">
+                        <img
+                          alt=""
+                          src="./assets/images/image_59.png"
+                          width="100%"
+                          height="100%"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="nav_list-item nav_list-item-machine">
+                <a class="nav_list-item-link" href="./machines.html">
+                  <div class="img_machine-w">
+                    <img
+                      alt="machine"
+                      src="./assets/images/header/machine.png"
+                    />
+                  </div>
+                  <div class="img_machine-b">
+                    <img
+                      alt="machine"
+                      src="./assets/images/header/machine_b.png"
+                    />
+                  </div>
+                  <p>Machine</p>
+                </a>
+                <div class="list_item-submenu" id="list-sub-machine">
+                  <div class="list_item-submenu-inner">
+                    <div class="list_item-submenu-item">
+                      <div>
+                        <a href="./machines.html">
+                          <img src="./assets/images/machine_1.png" alt="" />
+                        </a>
+                      </div>
+                      <div class="list_item-submenu-content">
+                        <p>Order Your Machine</p>
+                        <p>Free delivery for every machine purchase</p>
+                      </div>
+                    </div>
+                    <span class="list_item-submenu-item-hr"></span>
+                    <div class="list_item-submenu-item">
+                      <div>
+                        <a href="./machines.html">
+                          <img src="./assets/images/machine_1.png" alt="" />
+                        </a>
+                      </div>
+                      <div class="list_item-submenu-content">
+                        <p>Compare machine</p>
+                        <p>Benefit from 2 years warranty</p>
+                      </div>
+                    </div>
+                    <span class="list_item-submenu-item-hr"></span>
+                    <div
+                      class="list_item-submenu-item"
+                      style="display: flex; flex-direction: column"
+                    >
+                      <div style="display: flex; gap: 4px; align-items: center">
+                        <div>
+                          <img src="./assets/images/machine_3.png" alt="" />
+                        </div>
+                        <div class="list_item-submenu-content">
+                          <p>Descaling your machine regularly</p>
+                        </div>
+                      </div>
+                      <span class="list_item-submenu-item-hr2"></span>
+                      <div style="display: flex; gap: 4px; align-items: center">
+                        <div>
+                          <img src="./assets/images/machine_2.png" alt="" />
+                        </div>
+                        <div class="list_item-submenu-content">
+                          <p>Register your machine</p>
+                        </div>
+                      </div>
+                    </div>
+                    <span class="list_item-submenu-item-hr"></span>
+                    <div class="list_item-submenu-item">
+                      <div style="padding: 0 8px">
+                        <img
+                          alt=""
+                          src="./assets/images/image_59.png"
+                          width="100%"
+                          height="100%"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="nav_list-item nav_list-item-accessories">
+                <a class="nav_list-item-link" href="./accessories.html">
+                  <div class="img_accessories-w">
+                    <img
+                      alt="accessories"
+                      src="./assets/images/header/accessories.png"
+                    />
+                  </div>
+                  <div class="img_accessories-b">
+                    <img
+                      alt="accessories"
+                      src="./assets/images/header/accessories_b.png"
+                    />
+                  </div>
+                  <p>Accessories</p>
+                </a>
+                <div class="list_item-submenu" id="list-sub-accessories">
+                  <div class="list_item-submenu-inner">
+                    <div class="list_item-submenu-item">
+                      <div>
+                        <a href="./accessories.html">
+                          <img src="./assets/images/accessories_1.png" alt="" />
+                        </a>
+                      </div>
+                      <div class="list_item-submenu-content">
+                        <p>Order Your Accessories</p>
+                        <p>Save your Nespresso in style</p>
+                      </div>
+                    </div>
+                    <span class="list_item-submenu-item-hr"></span>
+                    <div class="list_item-submenu-item">
+                      <div>
+                        <img src="./assets/images/accessories_3.png" alt="" />
+                      </div>
+                      <div class="list_item-submenu-content">
+                        <p>Register your machine</p>
+                        <p>
+                          Create light or creamy, cold or hot coffee with our
+                          milk frother
+                        </p>
+                      </div>
+                    </div>
+                    <span class="list_item-submenu-item-hr"></span>
+                    <div
+                      class="list_item-submenu-item"
+                      style="display: flex; flex-direction: column"
+                    >
+                      <div style="display: flex; gap: 4px; align-items: center">
+                        <div>
+                          <img src="./assets/images/accessories_2.png" alt="" />
+                        </div>
+                        <div class="list_item-submenu-content">
+                          <p>Descaling Kit</p>
+                          <p>Care for your coffee machine</p>
+                        </div>
+                      </div>
+                      <span class="list_item-submenu-item-hr2"></span>
+                      <div style="display: flex; gap: 4px; align-items: center">
+                        <div>
+                          <img src="./assets/images/accessories_4.png" alt="" />
+                        </div>
+                        <div class="list_item-submenu-content">
+                          <p>promote another accessories</p>
+                        </div>
+                      </div>
+                    </div>
+                    <span class="list_item-submenu-item-hr"></span>
+                    <div class="list_item-submenu-item">
+                      <div style="padding: 0 8px">
+                        <img
+                          alt=""
+                          src="./assets/images/image_60.png"
+                          width="100%"
+                          height="100%"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="nav_list-item nav_list-item-logonew">
+                <a class="nav_list-item-link" href="#">
+                  <div>
+                    <img alt="logonew" src="./assets/images/LogoN.png" />
+                  </div>
+                  <p>New To Nespresso</p>
+                </a>
+              </li>
+              <li class="nav_list-item nav_list-item-service">
+                <a class="nav_list-item-link" href="./service.html">
+                  <div class="img_service-w">
+                    <img
+                      alt="service"
+                      src="./assets/images/header/service.png"
+                    />
+                  </div>
+                  <div class="img_service-b">
+                    <img
+                      alt="service"
+                      src="./assets/images/header/service_b.png"
+                    />
+                  </div>
+                  <p>Service</p>
+                </a>
+                <div class="list_item-submenu" id="list-sub-service">
+                  <div class="list_item-submenu-inner">
+                    <div class="list_item-submenu-item">
+                      <div>
+                        <a href="./service.html">
+                          <img src="./assets/images/service_1.png" alt="" />
+                        </a>
+                      </div>
+                      <div class="list_item-submenu-content">
+                        <p>Order</p>
+                        <p>Our coffee specialists are ready to assist you</p>
+                      </div>
+                    </div>
+                    <span class="list_item-submenu-item-hr"></span>
+                    <div class="list_item-submenu-item">
+                      <div>
+                        <img src="./assets/images/service_1.png" alt="" />
+                      </div>
+                      <div class="list_item-submenu-content">
+                        <p>Delivery</p>
+                        <p>Learn about delivery terms</p>
+                      </div>
+                    </div>
+                    <span class="list_item-submenu-item-hr"></span>
+                    <div class="list_item-submenu-item">
+                      <div>
+                        <img src="./assets/images/service_2.png" alt="" />
+                      </div>
+                      <div class="list_item-submenu-content">
+                        <p>Customer care</p>
+                        <p>Do you need assistance for your machine</p>
+                      </div>
+                    </div>
+                    <span class="list_item-submenu-item-hr"></span>
+                    <div class="list_item-submenu-item">
+                      <div style="padding: 0 8px">
+                        <img
+                          alt=""
+                          src="./assets/images/image_61.png"
+                          width="100%"
+                          height="100%"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="nav_list-item nav_list-item-recycle">
+                <a
+                  class="nav_list-item-link"
+                  href="./sustainability-recycling.html"
+                >
+                  <div class="img_recycle-w">
+                    <img
+                      alt="recycle"
+                      src="./assets/images/header/recycle.png"
+                    />
+                  </div>
+                  <div class="img_recycle-b">
+                    <img
+                      alt="recycle"
+                      src="./assets/images/header/recycle_b.png"
+                    />
+                  </div>
+                  <p>Sustainability & Recycling</p>
+                </a>
+              </li>
+              <li class="nav_list-item nav_list-item-location">
+                <a class="nav_list-item-link" href="./store-location.html">
+                  <div class="img_location-w">
+                    <img
+                      alt="location"
+                      src="./assets/images/header/location.png"
+                    />
+                  </div>
+                  <div class="img_location-b">
+                    <img
+                      alt="professional"
+                      src="./assets/images/header/pro_b.png"
+                    />
+                  </div>
+                  <p>Store Locator</p>
+                </a>
+              </li>
+              <li class="nav_list-item nav_list-item-contact">
+                <a class="nav_list-item-link" href="./contact-us.html">
+                  <div class="img_contact-w">
+                    <img
+                      alt="contact"
+                      src="./assets/images/header/contact.png"
+                    />
+                  </div>
+                  <div class="img_contact-b">
+                    <img
+                      alt="contact"
+                      src="./assets/images/header/contact_b.png"
+                    />
+                  </div>
+                  <p>Contact</p>
+                </a>
+                <div class="list_item-submenu" id="list-sub-contact">
+                  <div class="list_item-submenu-inner">
+                    <div class="list_item-submenu-item">
+                      <div>
+                        <a href="./contact-us.html">
+                          <img src="./assets/images/service_2.png" alt="" />
+                        </a>
+                      </div>
+                      <div class="list_item-submenu-content">
+                        <p>FAQs</p>
+                        <p>We answer your frequently asked questions</p>
+                      </div>
+                    </div>
+                    <span class="list_item-submenu-item-hr"></span>
+                    <div class="list_item-submenu-item">
+                      <div>
+                        <img src="./assets/images/contact_1.png" alt="" />
+                      </div>
+                      <div class="list_item-submenu-content">
+                        <p>Email us</p>
+                        <p>Our coffee specialists are ready to help you</p>
+                      </div>
+                    </div>
+                    <span class="list_item-submenu-item-hr"></span>
+                    <div class="list_item-submenu-item">
+                      <div>
+                        <img src="./assets/images/contact_2.png" alt="" />
+                      </div>
+                      <div class="list_item-submenu-content">
+                        <p>Call us 1800 234 506</p>
+                        <p>Lines are open Mon - Sat, from 8:30 am to 6pm</p>
+                      </div>
+                    </div>
+                    <span class="list_item-submenu-item-hr"></span>
+                    <div class="list_item-submenu-item">
+                      <div style="padding: 0 8px">
+                        <img
+                          alt=""
+                          src="./assets/images/image_62.png"
+                          width="100%"
+                          height="100%"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="nav_list-item nav_list-item-professional">
+                <a class="nav_list-item-link" href="./professional.html">
+                  <div class="img_professional-w">
+                    <img
+                      alt="professional"
+                      src="./assets/images/header/pro.png"
+                    />
+                  </div>
+                  <div class="img_professional-b">
+                    <img
+                      alt="location"
+                      src="./assets/images/header/location_b.png"
+                    />
+                  </div>
+                  <p>Professional</p>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="hide_on-pc show_on-tab">
+            <div class="icon_hambuger">
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 16 16"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M15 1L1 15"
+                  stroke="white"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M15 15L1 1"
+                  stroke="white"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </div>
+          </div>
+        </nav>
+        <!-- end nav -->
+
+        <main id="condition">
+          <div class="condition-wrapper">
+            <h4 class="condition-caption">Condition of Sale</h4>
+            <p class="condition-desc">
+              Letterpress chia gatekeep sartorial air plant gastropub biodiesel,
+              health goth art party. Actually try-hard fam franzen, chillwave
+              hammock 90's four dollar toast keffiyeh jean shorts seitan.
+              Bushwick semiotics coloring book, af vice unicorn lumbersexual
+              edison bulb marfa mumblecore yr pork belly pop-up butcher mukbang.
+              Pour-over dreamcatcher scenester thundercats godard cloud bread
+              selfies tattooed tacos taiyaki 90's PBR&B cred chillwave ethical.
+              Health goth austin blog, man bun bicycle rights pitchfork echo
+              park butcher flexitarian deep v hella.<br />
+              Literally before they sold out hella sriracha irony master cleanse
+              DSA chartreuse scenester lo-fi artisan keffiyeh fam sustainable
+              hammock. Gluten-free leggings truffaut etsy, bodega boys 8-bit
+              umami succulents. Meggings raclette affogato, plaid intelligentsia
+              retro keffiyeh fashion axe 90's street art. Tbh viral chartreuse,
+              hell of gentrify grailed yes plz williamsburg. Cupping umami
+              venmo, chia 90's whatever neutral milk hotel iPhone. Hammock
+              snackwave readymade, praxis put a bird on it trust fund
+              thundercats adaptogen taxidermy. <br />
+              Normcore hoodie street art kogi occupy, chicharrones tofu ennui
+              gastropub cray asymmetrical. Portland neutral milk hotel quinoa
+              pinterest austin yes plz. Kombucha lyft synth drinking vinegar
+              mumblecore banjo vibecession scenester tumeric sartorial
+              helvetica. Copper mug ennui fam lomo hammock, leggings
+              fingerstache slow-carb umami four loko vinyl drinking vinegar
+              keytar. Schlitz heirloom lo-fi, deep v cray literally austin
+              street art irony hoodie scenester squid locavore. Raclette cloud
+              bread gluten-free sriracha readymade. Vegan ennui skateboard
+              jianbing cloud bread literally. <br />
+              Cloud bread PBR&B 90's butcher. Fam synth lumbersexual prism.
+              Lumbersexual vape crucifix etsy ugh solarpunk kickstarter tote bag
+              health goth bruh. Chambray health goth pork belly YOLO gatekeep.
+              Air plant freegan pitchfork unicorn Brooklyn, jean shorts mixtape
+              bushwick pabst narwhal tumblr fixie ascot. <br />Four loko mixtape
+              brunch mustache, lomo fashion axe humblebrag prism JOMO adaptogen
+              pour-over coloring book tattooed gastropub celiac. Lomo
+              asymmetrical edison bulb gastropub next level, XOXO poke banjo yr.
+              Master cleanse yuccie keytar sriracha lo-fi, scenester brunch
+              migas ethical 8-bit photo booth mukbang. Hammock small batch
+              kitsch brunch blog bicycle rights locavore iceland trust fund
+              truffaut DIY meditation normcore. Yes plz celiac coloring book
+              retro viral beard hoodie affogato knausgaard. Fit ethical banh mi,
+              master cleanse stumptown mumblecore schlitz squid la croix fanny
+              pack vibecession heirloom forage. <br />Squid small batch taiyaki
+              messenger bag. YOLO shabby chic DSA lomo pork belly. Slow-carb
+              kombucha tonx, enamel pin retro cray hexagon vinyl quinoa DSA echo
+              park hella. Hashtag chicharrones air plant mukbang, cold-pressed
+              poke godard subway tile portland gluten-free street art. Raw denim
+              twee deep v sus cold-pressed man braid microdosing flannel
+              readymade tattooed mlkshk kale chips. Vinyl aesthetic neutra
+              unicorn. <br />Pok pok ascot retro, mumblecore raw denim
+              dreamcatcher DSA. Cornhole schlitz art party flexitarian
+              fingerstache cliche bicycle rights vice vape squid pok pok taiyaki
+              tumblr activated charcoal messenger bag. Disrupt blue bottle tacos
+              shaman vape, man braid lo-fi activated charcoal sartorial
+              thundercats keffiyeh. Wayfarers succulents irony scenester, VHS
+              ascot single-origin coffee mukbang kogi big mood Brooklyn everyday
+              carry tbh tattooed. Pinterest mustache wolf pop-up, try-hard
+              artisan tumblr sartorial tumeric jawn distillery occupy paleo.
+              Whatever cardigan woke taiyaki vape scenester same, gluten-free
+              next level pour-over semiotics ramps vexillologist you probably
+              haven't heard of them. Bespoke occupy sriracha tousled, tilde
+              hashtag synth DSA meh pok pok next level raw denim. <br />Vegan
+              polaroid pok pok shaman migas sriracha cray woke man braid godard
+              gentrify keffiyeh yuccie keytar. Small batch truffaut gatekeep,
+              gastropub crucifix la croix four dollar toast vinyl coloring book
+              next level air plant fit pour-over. Tofu DSA jawn craft beer
+              letterpress blackbird spyplane chicharrones put a bird on it. Food
+              truck pop-up kombucha chillwave skateboard retro pitchfork godard
+              tacos hot chicken. Adaptogen cray austin, fashion axe butcher
+              hoodie la croix 90's jean shorts palo santo fanny pack tote bag
+              enamel pin. Bicycle rights direct trade deep v mlkshk knausgaard.
+              Raclette pug air plant tacos, cloud bread skateboard
+              vexillologist. Twee man bun enamel pin live-edge hashtag,
+              letterpress occupy kitsch. Blackbird spyplane poke lumbersexual
+              hell of JOMO. Cred crucifix bodega boys, brunch gorpcore jean
+              shorts air plant 3 wolf moon chicharrones edison bulb master
+              cleanse. Ramps yuccie big mood chia bicycle rights pour-over
+              grailed semiotics. Readymade occupy hexagon cupping vexillologist.
+              <br />
+              Fam hot chicken man braid DSA. Everyday carry twee mlkshk,
+              normcore squid tofu hella brunch. Jianbing bespoke fingerstache
+              vaporware, food truck selfies bodega boys pour-over raw denim put
+              a bird on it vexillologist +1. Tumblr chartreuse poke, mumblecore
+              health goth fixie lomo. Fingerstache banh mi DSA, cronut DIY
+              shabby chic butcher artisan af deep v distillery etsy pinterest.
+            </p>
+          </div>
+        </main>
+        <!-- start footer -->
+        <footer id="footer">
+          <div class="footer_payment-methods">
+            <div class="footer_payment-methods-inner">
+              <h3 class="payment-methods-header">100% SECURE PAYMENTS</h3>
+              <div class="payment-methods-content">
+                <div>
+                  <img
+                    alt="ic-mc"
+                    src="./assets/images/ic-mc.png"
+                    width="100%"
+                    height="100%"
+                  />
+                </div>
+                <div>
+                  <img
+                    alt="ic-visa"
+                    src="./assets/images/ic-visa.png"
+                    width="100%"
+                    height="100%"
+                  />
+                </div>
+                <div>
+                  <img
+                    alt="ic-ggpay"
+                    src="./assets/images/ic-ggpay.png"
+                    width="100%"
+                    height="100%"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="footer_main">
+            <div class="container">
+              <div class="footer_main-wrapper">
+                <div class="footer_main-inner">
+                  <h3 class="footer_main-header">
+                    PRODUCTS
+                    <svg
+                      class="hide_on-pc hide_on-tab"
+                      width="8"
+                      height="7"
+                      viewBox="0 0 8 7"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M7.66671 0.5H0.333206C0.272497 0.500025 0.212947 0.516628 0.160983 0.548018C0.109019 0.579409 0.0666146 0.624394 0.0383452 0.67812C0.0100758 0.731845 -0.00298475 0.792271 0.000572986 0.852876C0.00413072 0.913481 0.0241717 0.971963 0.0585331 1.02201L3.72528 6.35547C3.75592 6.40002 3.79693 6.43645 3.84478 6.46162C3.89263 6.48679 3.94589 6.49994 3.99996 6.49994C4.05403 6.49994 4.10728 6.48679 4.15513 6.46162C4.20299 6.43645 4.244 6.40002 4.27463 6.35547L7.94138 1.02201C7.97574 0.971963 7.99579 0.913481 7.99934 0.852876C8.0029 0.792271 7.98984 0.731845 7.96157 0.67812C7.9333 0.624394 7.8909 0.579409 7.83893 0.548018C7.78697 0.516628 7.72742 0.500025 7.66671 0.5Z"
+                        fill="#17171A"
+                      />
+                    </svg>
+                  </h3>
+                  <div class="footer_main-content">
+                    <a href="./coffee.html">Coffee</a>
+                    <a href="./machines.html">Machines</a>
+                    <a href="./accessories.html">Accessories</a>
+                  </div>
+                </div>
+                <div class="footer_main-inner">
+                  <h3 class="footer_main-header">
+                    CALL US
+                    <svg
+                      class="hide_on-pc hide_on-tab"
+                      width="8"
+                      height="7"
+                      viewBox="0 0 8 7"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M7.66671 0.5H0.333206C0.272497 0.500025 0.212947 0.516628 0.160983 0.548018C0.109019 0.579409 0.0666146 0.624394 0.0383452 0.67812C0.0100758 0.731845 -0.00298475 0.792271 0.000572986 0.852876C0.00413072 0.913481 0.0241717 0.971963 0.0585331 1.02201L3.72528 6.35547C3.75592 6.40002 3.79693 6.43645 3.84478 6.46162C3.89263 6.48679 3.94589 6.49994 3.99996 6.49994C4.05403 6.49994 4.10728 6.48679 4.15513 6.46162C4.20299 6.43645 4.244 6.40002 4.27463 6.35547L7.94138 1.02201C7.97574 0.971963 7.99579 0.913481 7.99934 0.852876C8.0029 0.792271 7.98984 0.731845 7.96157 0.67812C7.9333 0.624394 7.8909 0.579409 7.83893 0.548018C7.78697 0.516628 7.72742 0.500025 7.66671 0.5Z"
+                        fill="#17171A"
+                      />
+                    </svg>
+                  </h3>
+                  <div class="footer_main-content">
+                    <p>
+                      Our lines are open from Monday - Saturday, 8:30am to 6pm.
+                      1800 234 506
+                    </p>
+                  </div>
+                </div>
+                <div class="footer_main-inner">
+                  <h3 class="footer_main-header">
+                    EMAIL US
+                    <svg
+                      class="hide_on-pc hide_on-tab"
+                      width="8"
+                      height="7"
+                      viewBox="0 0 8 7"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M7.66671 0.5H0.333206C0.272497 0.500025 0.212947 0.516628 0.160983 0.548018C0.109019 0.579409 0.0666146 0.624394 0.0383452 0.67812C0.0100758 0.731845 -0.00298475 0.792271 0.000572986 0.852876C0.00413072 0.913481 0.0241717 0.971963 0.0585331 1.02201L3.72528 6.35547C3.75592 6.40002 3.79693 6.43645 3.84478 6.46162C3.89263 6.48679 3.94589 6.49994 3.99996 6.49994C4.05403 6.49994 4.10728 6.48679 4.15513 6.46162C4.20299 6.43645 4.244 6.40002 4.27463 6.35547L7.94138 1.02201C7.97574 0.971963 7.99579 0.913481 7.99934 0.852876C8.0029 0.792271 7.98984 0.731845 7.96157 0.67812C7.9333 0.624394 7.8909 0.579409 7.83893 0.548018C7.78697 0.516628 7.72742 0.500025 7.66671 0.5Z"
+                        fill="#17171A"
+                      />
+                    </svg>
+                  </h3>
+                  <div class="footer_main-content">
+                    <p>
+                      Share your Nespresso Experience <a href="#"> here. </a>
+                    </p>
+                  </div>
+                </div>
+                <div class="footer_main-inner">
+                  <h3 class="footer_main-header">
+                    MAIL US
+                    <svg
+                      class="hide_on-pc hide_on-tab"
+                      width="8"
+                      height="7"
+                      viewBox="0 0 8 7"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M7.66671 0.5H0.333206C0.272497 0.500025 0.212947 0.516628 0.160983 0.548018C0.109019 0.579409 0.0666146 0.624394 0.0383452 0.67812C0.0100758 0.731845 -0.00298475 0.792271 0.000572986 0.852876C0.00413072 0.913481 0.0241717 0.971963 0.0585331 1.02201L3.72528 6.35547C3.75592 6.40002 3.79693 6.43645 3.84478 6.46162C3.89263 6.48679 3.94589 6.49994 3.99996 6.49994C4.05403 6.49994 4.10728 6.48679 4.15513 6.46162C4.20299 6.43645 4.244 6.40002 4.27463 6.35547L7.94138 1.02201C7.97574 0.971963 7.99579 0.913481 7.99934 0.852876C8.0029 0.792271 7.98984 0.731845 7.96157 0.67812C7.9333 0.624394 7.8909 0.579409 7.83893 0.548018C7.78697 0.516628 7.72742 0.500025 7.66671 0.5Z"
+                        fill="#17171A"
+                      />
+                    </svg>
+                  </h3>
+                  <div class="footer_main-content">
+                    <p>
+                      Nespresso Vietnam ÂN NAM FINE FOOD CO., LTD. 41 Thao Dien,
+                      Thao Dien Ward, Thu Duc City Ho Chi Minh City, Vietnam
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="footer_img">
+            <img src="./assets/images/bct.png" alt="bct" />
+          </div>
+          <div class="footer_language-menu">
+            <div class="container">
+              <div class="footer_language-menu-inner">
+                <div class="footer_language-menu-left">
+                  <svg
+                    width="20"
+                    height="20"
+                    viewBox="0 0 20 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M10 0L9.95 0.00200009L9.933 0C9.921 0 9.911 0.00399995 9.899 0.00399995C3.699 0.0439999 0 3.773 0 10C0 16.227 3.7 19.955 9.899 19.996C9.911 19.996 9.921 20 9.933 20L9.95 19.998L10 20C16.262 20 20 16.262 20 10C20 3.738 16.262 0 10 0ZM9.909 18.997C8.425 18.98 7.587 17.458 7.111 15.632C8.07116 15.5394 9.03539 15.4953 10 15.5C11.102 15.5 12.054 15.548 12.866 15.63C12.371 17.461 11.497 18.988 9.948 18.998L9.909 18.997ZM9.948 1.002C11.621 1.012 12.51 2.79 12.98 4.812C11.9919 4.93983 10.9964 5.00263 10 5C9.006 5 7.96 4.94 7.001 4.81C7.453 2.793 8.306 1.022 9.909 1.003L9.948 1.002ZM12.461 1.24C14.083 1.565 15.43 2.227 16.47 3.2C16.308 3.901 15.304 4.366 13.964 4.646C13.66 3.336 13.185 2.106 12.461 1.24ZM6.505 9.5C6.521 8.575 6.59 7.189 6.814 5.8C7.87033 5.93789 8.93472 6.00471 10 6C10.93 6 12.068 5.955 13.174 5.802C13.406 7.19 13.479 8.575 13.495 9.5H6.505ZM13.495 10.5C13.477 11.525 13.393 13.115 13.095 14.648C12.0666 14.5448 11.0335 14.4954 10 14.5C8.98 14.5 7.902 14.54 6.89 14.65C6.603 13.116 6.522 11.525 6.505 10.5H13.495ZM6.021 4.643C4.689 4.363 3.691 3.899 3.53 3.199C4.555 2.241 5.878 1.584 7.469 1.254C6.773 2.12 6.315 3.34 6.021 4.643ZM5.831 5.631C5.598 7.034 5.521 8.434 5.505 9.5H1.018C1.098 7.247 1.701 5.391 2.788 4C3.306 4.843 4.479 5.344 5.831 5.631ZM5.504 10.5C5.522 11.672 5.615 13.247 5.905 14.784C4.532 15.014 3.39 15.412 2.845 16.074C1.722 14.674 1.098 12.793 1.017 10.5H5.504ZM6.123 15.762C6.417 16.911 6.845 17.972 7.468 18.746C5.886 18.418 4.57 17.766 3.548 16.817C3.74 16.412 4.575 16.013 6.123 15.762ZM13.857 15.759C15.416 16.01 16.257 16.411 16.45 16.817C15.413 17.781 14.073 18.437 12.46 18.76C13.108 17.984 13.553 16.915 13.857 15.759ZM14.081 14.782C14.38 13.246 14.475 11.672 14.494 10.5H18.981C18.901 12.793 18.276 14.674 17.152 16.073C16.607 15.41 15.459 15.011 14.081 14.782ZM14.494 9.5C14.477 8.434 14.398 7.035 14.159 5.633C15.515 5.347 16.692 4.845 17.211 4C18.298 5.391 18.901 7.247 18.981 9.5H14.494Z"
+                      fill="black"
+                    />
+                  </svg>
+                  <div class="footer_language-menu-select ">
+                    <!-- <span> ENGLISH </span>
+                    <i class="fa-sharp fa-solid fa-caret-down"></i> -->
+                    <select class="custom-select">
+                      <option value="en">ENGLISH</option>
+                      <option value="vi">VIET NAM</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="footer_language-menu-right">
+                  <ul class="language-menu-list">
+                    <li class="language-menu-item">
+                      <a href="./about-us.html" class="language-menu-item-link">
+                        ABOUT
+                      </a>
+                    </li>
+                    <li class="language-menu-item">
+                      <a href="#" class="language-menu-item-link"> LEGAL </a>
+                    </li>
+                    <li class="language-menu-item">
+                      <a
+                        href="./condition-of-sale.html"
+                        class="language-menu-item-link"
+                      >
+                        CONDITION OF SALE
+                      </a>
+                    </li>
+                    <li class="language-menu-item">
+                      <a
+                        href="./contact-us.html"
+                        class="language-menu-item-link"
+                      >
+                        CONTACT US
+                      </a>
+                    </li>
+                    <li class="language-menu-item">
+                      <a
+                        href="./professional.html"
+                        class="language-menu-item-link"
+                      >
+                        PROFESSIONAL
+                      </a>
+                    </li>
+                    <li class="language-menu-item">
+                      <a href="./faq.html" class="language-menu-item-link">
+                        FAQ
+                      </a>
+                    </li>
+                    <li class="language-menu-item">
+                      <a
+                        href="./privacy-policy.html"
+                        class="language-menu-item-link"
+                      >
+                        PRIVACY POLICY
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="footer_bottom">
+            <div class="container">
+              <div class="footer_bottom-inner">
+                <div class="footer_bottom-inner-frame">
+                  <h3 class="bottom_frame-header">Follow Nespresso on</h3>
+                  <div class="bottom_frame-content">
+                    <svg
+                      width="9"
+                      height="16"
+                      viewBox="0 0 9 16"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M8.421 4.853H5.491V3.525C5.491 2.901 5.899 2.755 6.186 2.755H8.237V0.0100002L5.266 0C2.571 0 2.059 2.048 2.059 3.358V4.853H0V7.64H2.06V16H5.491V7.64H8.135L8.421 4.853Z"
+                        fill="black"
+                      />
+                    </svg>
+                    <svg
+                      width="16"
+                      height="13"
+                      viewBox="0 0 16 13"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M16 1.51501C15.3999 1.77683 14.7643 1.94836 14.114 2.02401C14.7972 1.62399 15.3107 0.988125 15.558 0.236012C14.924 0.606012 14.221 0.876012 13.473 1.02101C13.1637 0.697229 12.7919 0.439744 12.38 0.264221C11.968 0.0886974 11.5247 -0.00119492 11.077 1.19939e-05C9.264 1.19939e-05 7.795 1.44701 7.795 3.23101C7.795 3.48501 7.825 3.73101 7.88 3.96701C6.57954 3.90533 5.30621 3.57326 4.14125 2.99199C2.97629 2.41072 1.94528 1.593 1.114 0.591012C0.822841 1.08301 0.669476 1.64431 0.67 2.21601C0.67 3.33601 1.25 4.32601 2.13 4.90601C1.60941 4.88967 1.09998 4.75092 0.643 4.50101V4.54101C0.643 6.10801 1.774 7.41401 3.276 7.71001C2.7925 7.83991 2.28592 7.85905 1.794 7.76601C2.00897 8.41199 2.41962 8.97507 2.969 9.37716C3.51838 9.77925 4.17926 10.0004 4.86 10.01C3.69208 10.9107 2.25787 11.3976 0.783 11.394C0.519 11.394 0.257 11.379 0 11.349C1.50601 12.2996 3.25108 12.8028 5.032 12.8C11.07 12.8 14.37 7.87601 14.37 3.60601C14.37 3.46601 14.367 3.32601 14.361 3.18801C15.0024 2.73212 15.5574 2.1656 16 1.51501Z"
+                        fill="black"
+                      />
+                    </svg>
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M3.89298 8C3.89298 6.91049 4.32578 5.8656 5.09618 5.09521C5.86658 4.32481 6.91147 3.892 8.00098 3.892C9.09049 3.892 10.1354 4.32481 10.9058 5.09521C11.6762 5.8656 12.109 6.91049 12.109 8C12.109 9.08951 11.6762 10.1344 10.9058 10.9048C10.1354 11.6752 9.09049 12.108 8.00098 12.108C6.91147 12.108 5.86658 11.6752 5.09618 10.9048C4.32578 10.1344 3.89298 9.08951 3.89298 8ZM5.33398 8C5.33398 8.70733 5.61496 9.38569 6.11512 9.88585C6.61528 10.386 7.29364 10.667 8.00098 10.667C8.70831 10.667 9.38667 10.386 9.88683 9.88585C10.387 9.38569 10.668 8.70733 10.668 8C10.668 7.29267 10.387 6.61431 9.88683 6.11415C9.38667 5.61399 8.70831 5.333 8.00098 5.333C7.29364 5.333 6.61528 5.61399 6.11512 6.11415C5.61496 6.61431 5.33398 7.29267 5.33398 8ZM4.70298 0.0479999C3.85098 0.0869999 3.26998 0.222 2.76098 0.42C2.22713 0.620935 1.74355 0.935926 1.34398 1.343C0.898977 1.787 0.624977 2.233 0.420977 2.76C0.222977 3.269 0.0879764 3.85 0.0489764 4.702C0.00997642 5.555 0.000976562 5.827 0.000976562 8C0.000976562 10.173 0.0109764 10.445 0.0489764 11.298C0.0879764 12.15 0.222977 12.731 0.420977 13.24C0.624977 13.766 0.898977 14.213 1.34398 14.657C1.78798 15.102 2.23398 15.376 2.76098 15.58C3.26998 15.778 3.85098 15.913 4.70298 15.952C5.55598 15.99 5.82798 16 7.99998 16C10.172 16 10.445 15.99 11.298 15.952C12.15 15.913 12.731 15.778 13.24 15.58C13.7738 15.379 14.2574 15.064 14.657 14.657C15.102 14.212 15.376 13.767 15.58 13.24C15.778 12.731 15.913 12.15 15.952 11.298C15.991 10.445 16 10.173 16 8C16 5.827 15.99 5.555 15.952 4.702C15.913 3.85 15.778 3.269 15.58 2.76C15.379 2.22617 15.064 1.74259 14.657 1.343C14.2574 0.935926 13.7738 0.620935 13.24 0.42C12.731 0.222 12.15 0.0869999 11.298 0.0479999C10.446 0.00999986 10.174 0 8.00098 0C5.82798 0 5.55598 0.00999986 4.70298 0.0479999ZM12.27 4.69C12.0154 4.69 11.7712 4.58886 11.5912 4.40882C11.4111 4.22879 11.31 3.98461 11.31 3.73C11.31 3.47539 11.4111 3.23121 11.5912 3.05118C11.7712 2.87114 12.0154 2.77 12.27 2.77C12.5246 2.77 12.7688 2.87114 12.9488 3.05118C13.1288 3.23121 13.23 3.47539 13.23 3.73C13.23 3.98461 13.1288 4.22879 12.9488 4.40882C12.7688 4.58886 12.5246 4.69 12.27 4.69Z"
+                        fill="black"
+                      />
+                    </svg>
+                    <svg
+                      width="22"
+                      height="16"
+                      viewBox="0 0 22 16"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M11.435 0C12.763 0.007 17.903 0.0620002 19.325 0.477C20.228 0.739 20.94 1.514 21.182 2.497C21.56 4.034 21.612 7.011 21.619 7.802L21.62 7.987V8.197C21.612 8.989 21.56 11.965 21.181 13.502C20.94 14.485 20.228 15.26 19.325 15.523C18.635 15.724 17.072 15.84 15.493 15.908L14.901 15.931C13.331 15.987 11.853 15.998 11.325 16H10.915C10.386 15.998 8.908 15.987 7.338 15.93L6.748 15.908C5.168 15.84 3.604 15.724 2.915 15.523C2.011 15.26 1.3 14.485 1.058 13.502C0.679995 11.965 0.627995 8.989 0.619995 8.197V7.802C0.627995 7.011 0.679995 4.034 1.058 2.498C1.3 1.514 2.011 0.739 2.915 0.477C4.337 0.0620002 9.477 0.007 10.805 0H11.435ZM8.972 4.623V11.377L14.46 8L8.97 4.623H8.972Z"
+                        fill="black"
+                      />
+                    </svg>
+                  </div>
+                </div>
+                <a href="#" class="footer_bottom-inner-frame on_top-page">
+                  <h3 class="bottom_frame-topPage">Top of the page</h3>
+                  <svg
+                    width="13"
+                    height="21"
+                    viewBox="0 0 13 21"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M0 6.509V7.917L6 1.977V20.208H7V1.852L13 7.914V6.492L6.574 0L0 6.509Z"
+                      fill="#17171A"
+                    />
+                  </svg>
+                </a>
+                <div class="footer_bottom-inner-frame">
+                  <svg
+                    width="105"
+                    height="20"
+                    viewBox="0 0 105 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g clip-path="url(#clip0_496_2608)">
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M94.5999 3.18196C93.0366 3.18196 88.2163 3.73534 88.2163 9.96094C88.2163 16.6016 93.4274 16.8783 94.4697 16.8783C95.121 16.8783 97.466 16.7399 99.0294 15.0798C100.202 13.8346 100.723 12.1745 100.723 9.96092C100.853 3.59698 96.1633 3.18196 94.5999 3.18196ZM96.5541 14.2497C96.1633 14.5264 95.6422 14.9414 94.7302 14.9414H94.5999C93.688 14.9414 93.1669 14.5264 92.776 14.2497C91.8641 13.4196 91.4733 11.8978 91.4733 9.68425C91.4733 5.53385 93.4274 4.84212 94.5999 4.84212H94.7302C95.9027 4.84212 97.8569 5.53385 97.8569 9.68425C97.8569 11.8978 97.466 13.4196 96.5541 14.2497ZM19.2995 18.9535C18.127 18.5384 16.4334 17.155 15.5215 15.9098C14.349 14.388 11.3526 10.2376 11.3526 10.2376C10.8315 9.68423 10.4407 8.99248 9.91954 8.30076C8.61676 6.3639 7.18372 4.2887 5.62039 3.04358V16.8782H7.44427V9.68421L9.00761 11.7594C9.78926 12.8662 10.7012 14.1113 11.3526 14.9414C11.8737 15.4948 13.0462 17.0166 13.437 17.2933C15.1306 18.9534 17.7362 19.9219 20.3417 19.9219C21.5143 19.9219 22.5565 19.7835 23.5987 19.3685V19.2301C23.2079 19.3685 22.6868 19.3685 22.2959 19.3685C21.384 19.6452 20.3417 19.3685 19.2995 18.9535ZM8.09565 4.15038C9.26816 5.6722 12.3948 9.82259 12.3948 9.82259C12.7856 10.376 13.3067 11.0677 13.6976 11.7594C15.0004 13.6963 16.4334 15.7715 17.9967 17.0166V3.18196H16.1729V10.376L14.6095 8.3008C13.8279 7.05567 13.0462 5.94891 12.2645 5.11881C11.8737 4.42709 10.4406 3.04362 10.0498 2.62858C8.48648 0.968417 5.75066 0 3.1451 0C2.10287 0 1.06066 0.138345 0.0184326 0.553381V0.691726C0.409261 0.553381 0.930366 0.553381 1.32121 0.553381C2.36344 0.553381 3.27538 0.830072 4.3176 1.10676C5.49011 1.5218 7.18372 2.90525 8.09565 4.15038ZM77.0125 10.2376C75.5794 8.85416 73.8858 8.57747 72.7133 7.7474C71.8014 7.05567 71.9317 6.08723 72.3225 5.53385C73.3647 4.15038 75.5794 4.70378 76.1005 4.84212C76.7519 4.98047 77.0125 5.11881 77.6639 5.53385V4.01203C75.0583 3.18196 71.0197 2.49022 69.4564 5.25716C68.805 6.36394 68.6747 8.3008 70.3683 9.5459C72.0619 10.9294 75.0583 11.6211 75.3189 12.8662C75.5794 13.558 75.3189 14.1114 74.9281 14.5264C73.3647 16.0482 70.8895 15.0798 69.3261 14.388V16.0482C71.0197 16.8783 73.2344 17.0166 75.0583 16.6016C76.3611 16.3249 77.7941 15.0798 78.0547 13.558C78.3153 12.0361 77.9244 11.0677 77.0125 10.2376ZM86.3925 10.2376C84.9594 8.85416 83.2658 8.57747 82.0933 7.7474C81.1814 7.05567 81.3116 6.08723 81.7025 5.53385C82.7447 4.28872 84.8291 4.84212 85.3502 4.98047C86.0016 5.11881 86.2622 5.25716 86.9136 5.6722V4.01203C84.308 3.18196 80.2694 2.49022 78.7061 5.25716C78.185 6.36394 78.0547 8.3008 79.7483 9.5459C81.4419 10.9294 84.4383 11.6211 84.6989 12.8662C84.9594 13.558 84.6989 14.1114 84.3081 14.5264C82.7447 16.0482 80.2695 15.0798 78.7061 14.388V16.0482C80.3997 16.8783 82.4842 17.0166 84.4383 16.6016C85.7411 16.3249 87.1741 15.0798 87.4347 13.558C87.6953 12.0361 87.3044 11.0677 86.3925 10.2376ZM60.0764 16.6016H68.2839V14.9414H62.9425V10.6527H67.2416V9.13085H62.9425V5.1188H68.2839V3.59698H60.0764V16.6016ZM36.6264 10.2376C35.1934 8.85416 33.4998 8.57747 32.3273 7.7474C31.4153 7.05567 31.5456 6.08723 31.9364 5.53385C32.9787 4.28872 35.0631 4.84212 35.5842 4.98047C36.2356 5.11881 36.4962 5.25716 37.1476 5.6722V4.01203C34.542 3.18196 30.5034 2.49022 28.9401 5.25716C28.419 6.36394 28.1584 8.3008 29.9823 9.5459C31.6759 10.9294 34.6723 11.6211 34.9329 12.8662C35.1934 13.558 34.9329 14.1114 34.542 14.5264C32.9787 16.0482 30.5034 15.0798 28.9401 14.388V16.0482C30.6337 16.8783 32.8484 17.0166 34.6723 16.6016C35.9751 16.3249 37.4081 15.0798 37.6687 13.558C37.799 12.0361 37.5384 11.0677 36.6264 10.2376ZM19.6904 16.6016H27.8978V14.9414H22.5564V10.6527H26.8556V9.13085H22.5564V5.1188H27.8978V3.59698H19.6904V16.6016ZM44.3128 3.45865H38.9714V16.7399H41.7072V11.8978C41.7072 11.8978 46.0064 12.1745 47.3092 10.376C48.2211 9.26921 48.3514 7.33236 47.9606 5.94891C47.3092 4.1504 45.8761 3.45865 44.3128 3.45865ZM44.8339 9.40756C44.0523 10.2376 42.7495 10.2376 41.7073 10.0993V5.11881C41.7073 5.11881 44.0522 4.56543 44.9642 5.94889C45.4853 6.64061 45.4853 8.43912 44.8339 9.40756ZM57.3406 10.2376C58.2525 9.13085 58.3828 7.33236 57.9919 5.81054C57.4708 4.28872 56.0378 3.45865 54.4744 3.45865H49.1331V16.6016H51.8689V11.7595H53.1717L56.0378 16.6016H59.1644L56.0378 11.2061C56.4286 10.9294 57.08 10.6527 57.3406 10.2376ZM55.1258 9.40756C54.3442 10.2376 53.0414 10.0993 51.9992 10.0993V5.25716C51.9992 5.25716 54.2139 4.70378 55.2561 6.08723C55.6469 6.77896 55.7772 8.43912 55.1258 9.40756ZM102.547 13.6963C101.635 13.6963 100.984 14.388 100.984 15.3565C100.984 16.3249 101.765 17.0166 102.547 17.0166C103.329 17.0166 104.11 16.3249 104.11 15.3565C104.11 14.388 103.329 13.6963 102.547 13.6963ZM102.547 16.7399C101.765 16.7399 101.114 16.0482 101.114 15.2181C101.114 14.388 101.765 13.6963 102.547 13.6963C103.329 13.6963 103.98 14.388 103.98 15.2181C103.85 16.1865 103.198 16.7399 102.547 16.7399ZM102.938 15.3565C102.938 15.3565 103.198 15.2181 103.198 14.9414C103.198 14.6647 102.938 14.388 102.677 14.388H101.895V16.1866H102.156V15.4948H102.677C102.938 15.4948 103.068 15.6332 103.068 15.9099V16.1866H103.329C103.198 16.0482 103.198 15.9099 103.198 15.6332C103.198 15.3565 103.068 15.3565 102.938 15.3565ZM102.547 15.2181H102.026V14.6647H102.547C102.677 14.6647 102.807 14.6647 102.807 14.9414C102.938 15.0798 102.807 15.2181 102.547 15.2181Z"
+                        fill="#17171A"
+                      />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_496_2608">
+                        <rect width="105" height="20" fill="white" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                  <h3 class="bottom_frame-title">Nestlé Nespresso S.A. 2023</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
+        <!--end footer -->
+      </div>
+    </div>
+    <script src="./scripts/header.js"></script>
+    <script src="./scripts/footer.js"></script>
+  </body>
+</html>

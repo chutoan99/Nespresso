@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./assets/images/LogoN.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./css/pages/signUp_start.css" />
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- font-awesome -->
+    <title>Nespresso Vietnam</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="wrapper-innner">
+        <!-- start header -->
+        <header id="header" class="header">
+          <div class="header_inner">
+            <div class="header_logo">
+              <a href="./index.html">
+                <img
+                  src="./assets/images/logoApp.png"
+                  alt="logoApp"
+                  width="100%"
+                  height="100%"
+                />
+              </a>
+            </div>
+          </div>
+        </header>
+        <!-- end header -->
+
+        <main id="main">
+          <section class="signUp">
+            <div class="signUp-container">
+              <div class="signUp-head">
+                <p class="signUp-heading">
+                  New customer? Welcome! Fill the form below (fields with * are
+                  required) and create your account. Please be aware that, in
+                  order to deliver your order successfully, it is very important
+                  for you to provide the correct address, phone number and
+                  postal code.
+                </p>
+
+                <form action="" class="signUp-form">
+                  <div class="signUp-form__content">
+                    <label for="firstname" class="signUp-form__label"
+                      >First name
+                      <span>*</span>
+                    </label>
+                    <input
+                      class="signUp-form__input"
+                      type="text"
+                      name="firstname"
+                      id="firstname"
+                    />
+                  </div>
+
+                  <div class="signUp-form__content">
+                    <label for="lastname" class="signUp-form__label"
+                      >Last name
+                      <span>*</span>
+                    </label>
+                    <input
+                      class="signUp-form__input"
+                      type="text"
+                      name="lastname"
+                      id="lastname"
+                    />
+                  </div>
+
+                  <div class="signUp-form__content">
+                    <span class="signUp-form__label">
+                      Sex
+                      <span>*</span>
+                    </span>
+                    <div class="signUp-form__radio">
+                      <div class="signUp-form__check">
+                        <input
+                          type="radio"
+                          name="sex"
+                          id="male"
+                          value="male"
+                          checked
+                        />
+                        <label for="male">Male</label>
+                      </div>
+                      <div class="signUp-form__check">
+                        <input
+                          type="radio"
+                          name="sex"
+                          id="female"
+                          value="female"
+                        />
+                        <label for="female">Female</label>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="signUp-form__content">
+                    <label for="email" class="signUp-form__label"
+                      >Email address <span>*</span></label
+                    >
+                    <input
+                      class="signUp-form__input"
+                      type="email"
+                      name="email"
+                      id="email"
+                    />
+                  </div>
+
+                  <div class="signUp-form__content">
+                    <label for="password" class="signUp-form__label"
+                      >Password
+                      <span>*</span>
+                    </label>
+                    <input
+                      class="signUp-form__input"
+                      type="password"
+                      name="password"
+                      id="password"
+                    />
+                  </div>
+
+                  <div class="signUp-form__required">
+                    <span>Password must</span>
+                    <ul>
+                      <li>have at least 8 characters</li>
+                      <li>contain a number</li>
+                      <li>Contain a lower case letter</li>
+                      <li>contain a capital letter</li>
+                    </ul>
+                  </div>
+                </form>
+              </div>
+
+              <div class="signUp-footer">
+                <div class="signUp-footer-wrapper">
+                  <span class="signUp-footer__detail"
+                    >By clicking the "CONTINUE" button, I declare I have read
+                    and I agree with the
+                    <a href="./privacy-policy.html">Nespresso Privacy policy</a
+                    >.</span
+                  >
+                  <button class="signUp-footer__btn">
+                    <a href="./signUp_private_1.html"> Continue </a>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </section>
+        </main>
+      </div>
+    </div>
+  </body>
+</html>
