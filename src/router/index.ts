@@ -1,14 +1,18 @@
 import { createRouter, createWebHistory } from "vue-router";
 
 // Import your components for each route
-import HomePage from "../pages/home.vue";
-import LoginPage from "../pages/login.vue";
-import IndexPage from "../pages/index.vue";
+import pageNotFoundPage from "../pages/pageNotFound.vue";
+import AboutUsPage from "../pages/about-us.vue";
+import AccountPage from "../pages/account.vue";
+import StoreLocationPage from "../pages/store-location.vue";
+import VerificationPage from "../pages/verification.vue";
 
 const routes = [
-  { path: "/", component: IndexPage },
-  { path: "/home", component: HomePage },
-  { path: "/login", component: LoginPage },
+  { path: "/pageNotFound", component: pageNotFoundPage },
+  { path: "/about_us", component: AboutUsPage },
+  { path: "/account", component: AccountPage },
+  { path: "/store-location", component: StoreLocationPage },
+  { path: "/verification", component: VerificationPage },
 ];
 
 const router = createRouter({

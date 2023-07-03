@@ -1,3 +1,6 @@
+@import "../base/global";
+@import "../base/reset";
+@import "../base/variable";
 #footer {
   background-color: white;
   .footer {
@@ -96,11 +99,11 @@
             }
             select {
               border: unset !important;
-               cursor: pointer;
-               &:focus {
-                  outline: none;
-                  border: none;
-               }
+              cursor: pointer;
+              &:focus {
+                outline: none;
+                border: none;
+              }
             }
           }
         }
