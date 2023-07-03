@@ -251,8 +251,14 @@ body .open-modal {
 
       &-image {
          font-size: 0;
+         text-align: center;
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         gap: .5rem;
 
          img {
+            height: 100%;
             object-fit: cover;
          }
       }
@@ -294,6 +300,11 @@ body .open-modal {
                   width: 100%;
                   height: 100%;
                   object-fit: cover;
+               }
+
+               svg {
+                  width: 100%;
+                  height: 100%
                }
             }
 
@@ -384,13 +395,16 @@ body .open-modal {
             padding: 1.125rem 0rem;
             max-height: 3.5rem;
 
-            a {
+            button {
                @extend .font_body-2;
                font-weight: 700;
                color: $brown-500;
                text-align: center;
-               text-decoration: none;
+               // text-decoration: none;
                text-transform: uppercase;
+               background-color: unset;
+               cursor: pointer;
+               border: none;
             }
 
             &--selected {

@@ -165,10 +165,13 @@
     overflow-x: auto;
     display: flex !important;
   }
-  .progressbar_item-link {
-    width: 9.375rem !important;
+  #progressbar .progressbar_item {
+    height: 2.25rem !important;
   }
-  .progressbar_item {
-    width: 9.375rem !important;
-  }
+  // .progressbar_item-link {
+  //   width: 9.375rem !important;
+  // }
+  // .progressbar_item {
+  //   width: 9.375rem !important;
+  // }
 }

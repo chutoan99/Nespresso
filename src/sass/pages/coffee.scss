@@ -1151,7 +1151,7 @@
             align-items: center;
             display: inline-flex;
             flex-direction: column;
-            padding: 1rem 0.5rem 1.5rem;
+            padding: 1rem 0.5rem 1.5rem 0.25rem;
          }
 
          &-banner {
@@ -1160,6 +1160,60 @@
          }
       }
    }
+   .slick-initialized .slick-slide {
+      margin: 0 10px;
+    }
+    .slick-arrow {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      border: none;
+      width: 50px;
+      height: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 20px;
+      line-height: 1;
+      z-index: 5;
+      transition: all 0.2s linear;
+      background-color: unset;
+      cursor: pointer;
+    }
+   //  .slick-arrow:hover {
+   //    background-color: #2cccff;
+   //    color: white;
+   //  }
+    .slick-prev {
+      left: 0;
+    }
+    .slick-next {
+      right: 0;
+    }
+    .slick-dots {
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translate(-50%, 0);
+      display: flex !important;
+      align-items: center;
+      justify-content: center;
+      gap: 0 20px;
+      list-style: none;
+    }
+    .slick-dots button {
+      font-size: 0;
+      width: 15px;
+      height: 15px;
+      border-radius: 100rem;
+      background-color: #eee;
+      border: none;
+      outline: none;
+      transition: all 0.2s linear;
+    }
+    .slick-dots .slick-active button {
+      background-color: #2cccff;
+    }
 
    #product_coffee {
       .product {
@@ -1211,8 +1265,11 @@
             margin-top: 0.875rem;
 
             img {
-               height: 7.5rem;
-               width: 7.5rem;
+               // height: 7.5rem;
+               // width: 7.5rem;
+               height: 100%;
+               width: 100%;
+               object-fit: cover;
             }
          }
 

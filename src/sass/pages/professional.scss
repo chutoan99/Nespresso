@@ -743,6 +743,7 @@
     flex-direction: column;
     align-items: center;
     padding: 3.75rem 0;
+    padding-bottom: 1.25rem;
     gap: 1.5rem;
     width: 100%;
     position: relative;
@@ -756,139 +757,15 @@
   }
 
   &-list {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0rem;
-    gap: 1.5rem;
     width: 100%;
-
-    .professional_slide-item-wrapper {
-      width: 12.55rem !important;
-    }
-
     .slick-list {
       padding: unset !important;
       background-color: unset !important;
     }
-
-    .slick-track {
-      display: flex !important;
-      gap: 1.5rem !important;
-      width: 100% !important;
-    }
-
-    .slick-dots {
-      display: flex;
-      justify-content: center;
-      gap: 0.5rem;
-      margin-top: 1.5rem;
-
-      li {
-        &::marker {
-          content: "";
-          display: none;
-        }
-      }
-    }
-
-    .slick-dots li button {
-      font-size: 0;
-      line-height: 0;
-      padding: 0;
-      background-color: transparent;
-      border: none;
-      outline: none;
-    }
-
-    .slick-dots li button {
-      margin: 0 5px;
-      content: "";
-      border: unset;
-      background: unset;
-    }
-
-    .slick-dots li button:before {
-      content: "";
-      transition: background-color 0.3s ease;
-      border-radius: 50%;
-      display: inline-block;
-      cursor: pointer;
-      opacity: 1;
-      width: 8px;
-      height: 8px;
-      background: #c5c5c5;
-    }
-
-    .slick-dots li.slick-active button:before {
-      background: #17171a;
-    }
-
-    .slick-dots li button:hover:before {
-      background: #17171a;
-    }
-
-    .slick-prev:before {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-
-    .slick-next:before {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-
-    .slick-prev {
-      position: absolute;
-      top: 36%;
-      left: 0%;
-      z-index: 10;
-      width: 3.75rem;
-      height: 3.75rem;
-      background: $black-800;
-      border-radius: 50%;
-      cursor: pointer;
-      border: none;
-
-      &:hover {
-        color: $black-800;
-        border: 1px solid $black-800;
-        background-color: $white;
-
-        svg path {
-          fill: black;
-        }
-      }
-    }
-
-    .slick-next {
-      position: absolute;
-      top: 36%;
-      right: 0%;
-      z-index: 10;
-      width: 3.75rem;
-      height: 3.75rem;
-      background: $black-800;
-      border-radius: 50%;
-      cursor: pointer;
-      border: none;
-
-      &:hover {
-        color: $black-800;
-        border: 1px solid $black-800;
-        background-color: $white;
-
-        svg path {
-          fill: black;
-        }
-      }
-    }
   }
 
   &-item {
-    width: 12.55rem !important;
+    // width: 12.55rem !important;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -903,16 +780,6 @@
       height: 100%;
       object-fit: cover;
     }
-  }
-
-  &-name {
-    margin-top: 1rem;
-    width: 100%;
-    padding: 0rem 1.25rem;
-    @extend .font_heading-5;
-    color: $black-700;
-    text-align: center;
-    font-weight: 700;
   }
 
   //Capsules
@@ -1145,72 +1012,26 @@
     }
   }
 }
-.slider-container {
-  .slick-track {
-    margin-bottom: 0.625rem;
-    width: 100%;
-    display: flex !important;
-    gap: 1.5rem !important;
-  }
 
-  .slick-prev:before {
+#professional_slide-list {
+  a {
+    text-decoration: none;
+  }
+  .professional_slide-wrapper-img {
     display: flex;
     justify-content: center;
-    align-items: center;
   }
-
-  .slick-next:before {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .slick-prev {
-    position: absolute;
-    top: 50%;
-    left: 0;
-    z-index: 10;
-    width: 3.75rem;
-    height: 3.75rem;
-    background: $black-800;
-    border-radius: 50%;
-    cursor: pointer;
-    border: none;
-
-    &:hover {
-      color: $black-800;
-      border: 1px solid $black-800;
-      background-color: $white;
-
-      svg path {
-        fill: black;
-      }
+  .professional {
+    &_slide-name {
+      margin-top: 1rem;
+      width: 100%;
+      padding: 0rem 1.25rem;
+      @extend .font_heading-5;
+      color: $black-700;
+      text-align: center;
+      font-weight: 700;
     }
   }
-
-  .slick-next {
-    position: absolute;
-    top: 50%;
-    right: -0.4375rem;
-    z-index: 10;
-    width: 3.75rem;
-    height: 3.75rem;
-    background: $black-800;
-    border-radius: 50%;
-    cursor: pointer;
-    border: none;
-
-    &:hover {
-      color: $black-800;
-      border: 1px solid $black-800;
-      background-color: $white;
-
-      svg path {
-        fill: black;
-      }
-    }
-  }
-
   .slick-dots {
     display: flex;
     justify-content: center;
@@ -1260,13 +1081,65 @@
   .slick-dots li button:hover:before {
     background: #17171a;
   }
-
   .slick-prev:before {
     display: flex;
     justify-content: center;
     align-items: center;
   }
+
+  .slick-next:before {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .slick-prev {
+    position: absolute;
+    top: 36%;
+    left: 0%;
+    z-index: 10;
+    width: 3.75rem;
+    height: 3.75rem;
+    background: $black-800;
+    border-radius: 50%;
+    cursor: pointer;
+    border: none;
+
+    &:hover {
+      color: $black-800;
+      border: 1px solid $black-800;
+      background-color: $white;
+
+      svg path {
+        fill: black;
+      }
+    }
+  }
+
+  .slick-next {
+    position: absolute;
+    top: 36%;
+    right: 0%;
+    z-index: 10;
+    width: 3.75rem;
+    height: 3.75rem;
+    background: $black-800;
+    border-radius: 50%;
+    cursor: pointer;
+    border: none;
+
+    &:hover {
+      color: $black-800;
+      border: 1px solid $black-800;
+      background-color: $white;
+
+      svg path {
+        fill: black;
+      }
+    }
+  }
 }
+
 /* Tablet: width >= 768px and width < 1024px */
 @media only screen and (min-width: 48rem) and (max-width: 63.938rem) {
   .form_pro {

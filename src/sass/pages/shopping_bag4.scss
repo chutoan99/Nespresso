@@ -175,6 +175,53 @@
               }
             }
           }
+          &-payment {
+            height: 4.5rem;
+            padding: 16px 0px 16px 0px;
+            gap: 8px;
+            .icon_google {
+              width: 2.5rem;
+              height: 0.9375rem;
+            }
+            &_main-left {
+              display: flex;
+              align-items: center;
+              padding: 0rem;
+              gap: 0.25rem;
+              width: 3.75rem;
+              height: 2.5rem;
+              &-img {
+                width: 2.5rem;
+                height: 2.5rem;
+                img {
+                  width: 100%;
+                  height: 100%;
+                }
+                svg {
+                  width: 100%;
+                  height: 100%;
+                }
+              }
+            }
+          }
+          &-email {
+            margin-top: 0.625rem;
+            display: flex;
+            align-items: center;
+            width: 100%;
+            gap: 0.5rem;
+            height: 2.5rem;
+            span {
+              @extend .font_button;
+              font-weight: 600;
+              color: $brown-500;
+            }
+            &:hover {
+              cursor: pointer;
+              opacity: 0.5;
+              transition: 0.3;
+            }
+          }
         }
         .order_content {
           &-label {
@@ -535,10 +582,13 @@
     overflow-x: auto;
     display: flex !important;
   }
-  .progressbar_item-link {
-    width: 9.375rem !important;
+  #progressbar .progressbar_item {
+    height: 2.25rem !important;
   }
-  .progressbar_item {
-    width: 9.375rem !important;
-  }
+  // .progressbar_item-link {
+  //   width: 9.375rem !important;
+  // }
+  // .progressbar_item {
+  //   width: 9.375rem !important;
+  // }
 }
