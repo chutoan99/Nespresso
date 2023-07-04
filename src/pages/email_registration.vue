@@ -32,7 +32,7 @@ export default defineComponent({
       </div>
 
       <button class="button-verity">
-        <a href="">VERIFY YOUR EMAIL</a>
+        <router-link to="">VERIFY YOUR EMAIL</router-link>
       </button>
 
       <div class="presentation">
@@ -132,7 +132,7 @@ export default defineComponent({
         <span class="social-media-title">Follow Nespresso on</span>
         <ul class="social-media-list">
           <li class="social-media-item">
-            <a href="https://www.facebook.com/nespresso/">
+            <router-link to="https://www.facebook.com/nespresso/">
               <svg
                 width="25"
                 height="24"
@@ -145,10 +145,10 @@ export default defineComponent({
                   fill="black"
                 />
               </svg>
-            </a>
+            </router-link>
           </li>
           <li class="social-media-item">
-            <a href="https://twitter.com/Nespresso">
+            <router-link to="https://twitter.com/Nespresso">
               <svg
                 width="25"
                 height="24"
@@ -163,11 +163,11 @@ export default defineComponent({
                   fill="black"
                 />
               </svg>
-            </a>
+            </router-link>
           </li>
           <li class="social-media-item">
-            <a
-              href="https://www.instagram.com/nespresso.belux/?utm_source=Email&utm_medium=EM&utm_content=EM%7CORI%7CRN%7CCRM%7Corder_confirmation%7CAlways-on%7CLinkAd%7CV1%7CLCL%7CDNP%7CNA%7CNA%7COther%7CNA%7Clink%20footer_social_link_3&utm_campaign=HQ%7C2021Sep%7CB2C%7CINT%7CTransactionalEmailGlobal%7CRecurrent%7CCON%7CCAP%7CAO%7CNo"
+            <router-link
+              to="https://www.instagram.com/nespresso.belux/?utm_source=Email&utm_medium=EM&utm_content=EM%7CORI%7CRN%7CCRM%7Corder_confirmation%7CAlways-on%7CLinkAd%7CV1%7CLCL%7CDNP%7CNA%7CNA%7COther%7CNA%7Clink%20footer_social_link_3&utm_campaign=HQ%7C2021Sep%7CB2C%7CINT%7CTransactionalEmailGlobal%7CRecurrent%7CCON%7CCAP%7CAO%7CNo"
             >
               <svg
                 width="25"
@@ -181,11 +181,11 @@ export default defineComponent({
                   fill="black"
                 />
               </svg>
-            </a>
+            </router-link>
           </li>
 
           <li class="social-media-item">
-            <a href="https://www.youtube.com/user/nespresso">
+            <router-link to="https://www.youtube.com/user/nespresso">
               <svg
                 width="25"
                 height="24"
@@ -200,7 +200,7 @@ export default defineComponent({
                   fill="black"
                 />
               </svg>
-            </a>
+            </router-link>
           </li>
         </ul>
       </div>

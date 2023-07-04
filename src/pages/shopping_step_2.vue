@@ -18,14 +18,14 @@ export default defineComponent({
       <header id="header" class="header">
         <div class="header_inner">
           <div class="header_logo">
-            <a href="/">
+            <router-link to="/">
               <img
                 src="../assets/images/logoApp.png"
                 alt="logoApp"
                 width="100%"
                 height="100%"
               />
-            </a>
+            </router-link>
           </div>
         </div>
       </header>
@@ -33,7 +33,7 @@ export default defineComponent({
       <section id="progressbar">
         <ul class="progressbar container">
           <li class="active progressbar_item item-active">
-            <a class="progressbar_item-link">
+            <router-link class="progressbar_item-link" to="/">
               <span
                 >Step 1
                 <svg
@@ -53,10 +53,10 @@ export default defineComponent({
                 </svg>
               </span>
               <span class="hide_on-mobile">Shopping bag summary</span>
-            </a>
+            </router-link>
           </li>
           <li class="progressbar_item item-active">
-            <a class="progressbar_item-link">
+            <router-link class="progressbar_item-link" to="/">
               <span
                 >Step 2
                 <!-- <svg
@@ -76,10 +76,10 @@ export default defineComponent({
                 </svg> -->
               </span>
               <span class="hide_on-mobile">Delivery setup</span>
-            </a>
+            </router-link>
           </li>
           <li class="progressbar_item">
-            <a class="progressbar_item-link">
+            <router-link class="progressbar_item-link" to="/">
               <span
                 >Step 3
                 <!-- <svg
@@ -99,10 +99,10 @@ export default defineComponent({
                 </svg> -->
               </span>
               <span class="hide_on-mobile">Payment</span>
-            </a>
+            </router-link>
           </li>
           <li class="progressbar_item">
-            <a class="progressbar_item-link">
+            <router-link class="progressbar_item-link" to="/">
               <span
                 >Step 4
                 <!-- <svg
@@ -122,10 +122,10 @@ export default defineComponent({
                 </svg> -->
               </span>
               <span class="hide_on-mobile">shopping summary</span>
-            </a>
+            </router-link>
           </li>
           <li class="progressbar_item">
-            <a class="progressbar_item-link">
+            <router-link class="progressbar_item-link" to="/">
               <span
                 >Step 5
                 <!-- <svg
@@ -145,7 +145,7 @@ export default defineComponent({
                 </svg> -->
               </span>
               <span class="hide_on-mobile">shopping confirmation</span>
-            </a>
+            </router-link>
           </li>
         </ul>
       </section>
@@ -390,11 +390,15 @@ export default defineComponent({
                           fill="#876C43"
                         />
                       </svg>
-                      <a href="./shopping_step_1">Back to basket</a>
+                      <router-link to="/shopping_step_1"
+                        >Back to basket</router-link
+                      >
                     </div>
                     <div class="delivery_aside-footer-button">
                       <button>
-                        <a href="./shopping_step_3"> PROCESS TO PAYMENT </a>
+                        <router-link to="/shopping_step_3">
+                          PROCESS TO PAYMENT
+                        </router-link>
                         <svg
                           width="7"
                           height="13"

@@ -2899,7 +2899,7 @@ export default defineComponent({
 
           <p class="customer-services-message">
             If your question is not listed
-            <a href="">please click here</a>
+            <router-link to="">please click here</router-link>
             to contact us by phone or email.
           </p>
         </div>

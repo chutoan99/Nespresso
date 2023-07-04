@@ -29,7 +29,7 @@ export default defineComponent({
           <section class="intro">
             <h3 class="intro-heading">COMPARE COFFEE MACHINES</h3>
             <button class="intro-button">
-              <a href="#">Shop machines</a>
+              <router-link to="">Shop machines</router-link>
               <svg
                 width="25"
                 height="24"
@@ -123,7 +123,7 @@ export default defineComponent({
               <span class="product-card__price">₫3,700,000</span>
 
               <button class="product-card__btn">
-                <a href=""> VIEW DETAILS & BUY </a>
+                <router-link to=""> VIEW DETAILS & BUY </router-link>
               </button>
             </div>
 
@@ -144,7 +144,7 @@ export default defineComponent({
               <span class="product-card__price">₫3,700,000</span>
 
               <button class="product-card__btn">
-                <a href=""> VIEW DETAILS & BUY </a>
+                <router-link to=""> VIEW DETAILS & BUY </router-link>
               </button>
             </div>
 
@@ -165,7 +165,7 @@ export default defineComponent({
               <span class="product-card__price">₫ 3,700,000</span>
 
               <button class="product-card__btn">
-                <a href=""> VIEW DETAILS & BUY </a>
+                <router-link to=""> VIEW DETAILS & BUY </router-link>
               </button>
             </div>
           </section>
@@ -370,7 +370,7 @@ export default defineComponent({
                   >
 
                   <button class="product-selection-item__btn">
-                    <a href="#"> Learn more </a>
+                    <router-link to=""> Learn more </router-link>
                     <svg
                       width="25"
                       height="24"

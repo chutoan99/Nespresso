@@ -45,7 +45,7 @@ export default defineComponent({
               account.
             </p>
             <button class="forget-pass__btn">
-              <a href="./shopping_step_5">CONTINUE</a>
+              <router-link to="/shopping_step_5">CONTINUE</router-link>
               <svg
                 width="24"
                 height="24"
@@ -72,7 +72,9 @@ export default defineComponent({
               mail folder or contact Nespresso for further assistance.
             </p>
             <button class="forget-pass__back">
-              <a href="./shopping_step_5">GO BACK TO THE HOMEPAGE</a>
+              <router-link to="/shopping_step_5"
+                >GO BACK TO THE HOMEPAGE</router-link
+              >
               <svg
                 width="24"
                 height="24"

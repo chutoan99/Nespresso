@@ -62,7 +62,7 @@ export default defineComponent({
         <section class="product">
           <div class="container">
             <button class="product-link">
-              <a href="./professional">SEE ALL MACHINE</a>
+              <router-link to="/professional">SEE ALL MACHINE</router-link>
             </button>
 
             <div class="product-wrapper">
@@ -74,7 +74,7 @@ export default defineComponent({
                   />
                 </div>
                 <button class="product-media__btn">
-                  <a href="#">VIEW IN REAL LIFE</a>
+                  <router-link to="">VIEW IN REAL LIFE</router-link>
                   <svg
                     width="24"
                     height="24"
@@ -102,7 +102,7 @@ export default defineComponent({
                 </h4>
                 <span class="product-detail__color"></span>
                 <button class="product-detail__btn">
-                  <a href="#">View Details</a>
+                  <router-link to="">View Details</router-link>
                 </button>
               </div>
             </div>
@@ -593,7 +593,7 @@ export default defineComponent({
               </p>
 
               <button class="discover-content__btn">
-                <a href="#"> DISCOVER MORE </a>
+                <router-link to=""> DISCOVER MORE </router-link>
               </button>
             </div>
           </div>
@@ -602,7 +602,7 @@ export default defineComponent({
         <section class="tagLine">
           <span class="tagLine-text">(SKU: NP100-SG-PR1)</span>
           <button class="tagLine-btn">
-            <a href="#"> DOWNLOAD USER MANUAL > </a>
+            <router-link to=""> DOWNLOAD USER MANUAL > </router-link>
           </button>
         </section>
 
@@ -685,7 +685,7 @@ export default defineComponent({
                 <span>Repair and maintenance included</span>
               </div>
               <button class="discover-content__more">
-                <a href="#"> DISCOVER MORE </a>
+                <router-link to=""> DISCOVER MORE </router-link>
               </button>
             </div>
 
@@ -717,7 +717,7 @@ export default defineComponent({
               </p>
 
               <button class="discover-content__more">
-                <a href="#"> DISCOVER MORE </a>
+                <router-link to=""> DISCOVER MORE </router-link>
               </button>
             </div>
           </div>
@@ -731,7 +731,7 @@ export default defineComponent({
             See a side-by-side comparison of Nespresso Professional machines
           </p>
           <button class="recommend-btn">
-            <a href="#">COMPARE NOW</a>
+            <router-link to="">COMPARE NOW</router-link>
           </button>
         </section>
 
@@ -1263,7 +1263,7 @@ export default defineComponent({
               <img src="../assets/images/pro-machines-detail/slide-4.png" />
             </div>
 
-            <a class="next" onclick="plusSlides(1)">❯</a>
+             <router-link  class="next" onclick="plusSlides(1)">❯</router-link>
           </div>
           <div class="slide-dot">
             <span class="dot" onclick="currentSlide(1)"></span>
@@ -1450,7 +1450,7 @@ export default defineComponent({
                 <div class="product-related__item-head">
                   <h5>Zenius</h5>
                   <button>
-                    <a href="#">QUICK VIEW</a>
+                    <router-link to="">QUICK VIEW</router-link>
                   </button>
                 </div>
 
@@ -1472,7 +1472,7 @@ export default defineComponent({
                         fill="white"
                       ></path>
                     </svg>
-                    <a href="#">ADD TO BASKET</a>
+                    <router-link to="">ADD TO BASKET</router-link>
                   </button>
                 </div>
               </div>
@@ -1483,7 +1483,7 @@ export default defineComponent({
                 <div class="product-related__item-head">
                   <h5>Zenius Offer for Small Offices</h5>
                   <button>
-                    <a href="#">QUICK VIEW</a>
+                    <router-link to="">QUICK VIEW</router-link>
                   </button>
                 </div>
 
@@ -1508,7 +1508,7 @@ export default defineComponent({
                         fill="white"
                       ></path>
                     </svg>
-                    <a href="#">ADD TO BASKET</a>
+                    <router-link to="">ADD TO BASKET</router-link>
                   </button>
                 </div>
               </div>
@@ -1519,7 +1519,7 @@ export default defineComponent({
                 <div class="product-related__item-head">
                   <h5>Zenius Offer for Small Offices</h5>
                   <button>
-                    <a href="#">QUICK VIEW</a>
+                    <router-link to="">QUICK VIEW</router-link>
                   </button>
                 </div>
 
@@ -1544,7 +1544,7 @@ export default defineComponent({
                         fill="white"
                       ></path>
                     </svg>
-                    <a href="#">ADD TO BASKET</a>
+                    <router-link to="">ADD TO BASKET</router-link>
                   </button>
                 </div>
               </div>
@@ -1555,7 +1555,7 @@ export default defineComponent({
                 <div class="product-related__item-head">
                   <h5>Zenius Offer for Small Offices</h5>
                   <button>
-                    <a href="#">QUICK VIEW</a>
+                    <router-link to="">QUICK VIEW</router-link>
                   </button>
                 </div>
 
@@ -1580,7 +1580,7 @@ export default defineComponent({
                         fill="white"
                       ></path>
                     </svg>
-                    <a href="#">ADD TO BASKET</a>
+                    <router-link to="">ADD TO BASKET</router-link>
                   </button>
                 </div>
               </div>

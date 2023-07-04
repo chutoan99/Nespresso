@@ -24,18 +24,22 @@ export default defineComponent({
       <!-- Navigation -->
       <section id="tabs">
         <div class="tabs">
-          <a href="./sustainability_recycling" class="tabs_heading"
-            >COMMITMENT</a
+          <router-link to="/sustainability_recycling" class="tabs_heading"
+            >COMMITMENT</router-link
           >
-          <a href="./sustainability_bcorp" class="tabs_heading">B CORP</a>
-          <a href="./sustainability_circularity" class="tabs_heading"
-            >CIRCULARITY</a
+          <router-link to="/sustainability_bcorp" class="tabs_heading"
+            >B CORP</router-link
           >
-          <a href="./sustainability_climate" class="tabs_heading tab_active"
-            >CLIMATE</a
+          <router-link to="/sustainability_circularity" class="tabs_heading"
+            >CIRCULARITY</router-link
           >
-          <a href="./sustainability_communities" class="tabs_heading"
-            >COMMUNITY</a
+          <router-link
+            to="/sustainability_climate"
+            class="tabs_heading tab_active"
+            >CLIMATE</router-link
+          >
+          <router-link to="/sustainability_communities" class="tabs_heading"
+            >COMMUNITY</router-link
           >
         </div>
       </section>
@@ -91,7 +95,7 @@ export default defineComponent({
             <div>
               <div class="climate_frame8-btn">
                 <button>
-                  <a href="#"> FIND OUT MORE</a>
+                  <router-link to=""> FIND OUT MORE</router-link>
                   <img alt="logonew" src="../assets/images/LogoN.png" />
                 </button>
               </div>

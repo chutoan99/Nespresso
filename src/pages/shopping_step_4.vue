@@ -18,14 +18,14 @@ export default defineComponent({
       <header id="header" class="header">
         <div class="header_inner">
           <div class="header_logo">
-            <a href="/">
+            <router-link to="/">
               <img
                 src="../assets/images/logoApp.png"
                 alt="logoApp"
                 width="100%"
                 height="100%"
               />
-            </a>
+            </router-link>
           </div>
         </div>
       </header>
@@ -33,7 +33,7 @@ export default defineComponent({
       <section id="progressbar">
         <ul class="progressbar container">
           <li class="progressbar_item item-active">
-            <a class="progressbar_item-link">
+            <router-link class="progressbar_item-link" to="/">
               <span
                 >Step 1
                 <svg
@@ -53,10 +53,10 @@ export default defineComponent({
                 </svg>
               </span>
               <span class="hide_on-mobile">Shopping bag summary</span>
-            </a>
+            </router-link>
           </li>
           <li class="progressbar_item item-active">
-            <a class="progressbar_item-link">
+            <router-link class="progressbar_item-link" to="/">
               <span
                 >Step 2
 
@@ -77,10 +77,10 @@ export default defineComponent({
                 </svg>
               </span>
               <span class="hide_on-mobile">Delivery setup</span>
-            </a>
+            </router-link>
           </li>
           <li class="progressbar_item item-active">
-            <a class="progressbar_item-link">
+            <router-link class="progressbar_item-link" to="/">
               <span
                 >Step 3
 
@@ -101,10 +101,10 @@ export default defineComponent({
                 </svg>
               </span>
               <span class="hide_on-mobile">Payment</span>
-            </a>
+            </router-link>
           </li>
           <li class="progressbar_item item-active">
-            <a class="progressbar_item-link">
+            <router-link class="progressbar_item-link" to="/">
               <span
                 >Step 4
                 <!-- <svg
@@ -124,10 +124,10 @@ export default defineComponent({
                 </svg> -->
               </span>
               <span class="hide_on-mobile">Order summary</span>
-            </a>
+            </router-link>
           </li>
           <li class="progressbar_item">
-            <a class="progressbar_item-link">
+            <router-link class="progressbar_item-link" to="/">
               <span
                 >Step 5
                 <!-- <svg
@@ -147,7 +147,7 @@ export default defineComponent({
                 </svg> -->
               </span>
               <span class="hide_on-mobile">Order confirmation</span>
-            </a>
+            </router-link>
           </li>
         </ul>
       </section>
@@ -469,8 +469,8 @@ export default defineComponent({
                     <input type="checkbox" id="form_check" />
                     <span
                       >I have read and accept with Nespresso’s
-                      <a href="#">Terms of Services</a> and
-                      <a href="#">Privacy Policy</a>
+                      <router-link to="">Terms of Services</router-link> and
+                      <router-link to="">Privacy Policy</router-link>
                     </span>
                   </div>
 
@@ -491,11 +491,15 @@ export default defineComponent({
                             fill="#876C43"
                           />
                         </svg>
-                        <a href="./shopping_step_3">Back to shipping</a>
+                        <router-link to="/shopping_step_3"
+                          >Back to shipping</router-link
+                        >
                       </div>
                       <div class="order_footer-button">
                         <button>
-                          <a href="./shopping_step_5"> PLACE ORDER </a>
+                          <router-link to="/shopping_step_5">
+                            PLACE ORDER
+                          </router-link>
                           <svg
                             width="7"
                             height="13"

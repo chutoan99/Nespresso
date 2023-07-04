@@ -310,7 +310,7 @@ export default defineComponent({
             id="professional_slide-list"
             style="padding-bottom: 3.75rem"
           >
-            <a href="./professional_detail">
+            <router-link to="/professional_detail">
               <div class="professional_slide-wrapper-img">
                 <img
                   src="../assets/images/professional/slide1.png"
@@ -321,9 +321,9 @@ export default defineComponent({
               <p class="professional_slide-name">
                 Nespresso Momento Coffee 100
               </p>
-            </a>
+            </router-link>
 
-            <a href="./professional_detail">
+            <router-link to="/professional_detail">
               <div class="professional_slide-wrapper-img">
                 <img
                   src="../assets/images/professional/slide2.png"
@@ -334,9 +334,9 @@ export default defineComponent({
               <p class="professional_slide-name">
                 Nespresso Momento Coffee & Milk 120
               </p>
-            </a>
+            </router-link>
 
-            <a href="./professional_detail">
+            <router-link to="/professional_detail">
               <div class="professional_slide-wrapper-img">
                 <img
                   src="../assets/images/professional/slide3.png"
@@ -346,9 +346,9 @@ export default defineComponent({
               <p class="professional_slide-name">
                 Nespresso Momento Coffee 200
               </p>
-            </a>
+            </router-link>
 
-            <a href="./professional_detail">
+            <router-link to="/professional_detail">
               <div class="professional_slide-wrapper-img">
                 <img
                   src="../assets/images/professional/slide4.png"
@@ -356,9 +356,9 @@ export default defineComponent({
                 />
               </div>
               <p class="professional_slide-name">Zenius</p>
-            </a>
+            </router-link>
 
-            <a href="./professional_detail">
+            <router-link to="/professional_detail">
               <div class="professional_slide-wrapper-img">
                 <img
                   src="../assets/images/professional/slide5.png"
@@ -368,9 +368,9 @@ export default defineComponent({
               <p class="professional_slide-name">
                 Zenius Offer for Small Offices
               </p>
-            </a>
+            </router-link>
 
-            <a href="./professional_detail">
+            <router-link to="/professional_detail">
               <div class="professional_slide-wrapper-img">
                 <img
                   src="../assets/images/professional/slide1.png"
@@ -380,9 +380,9 @@ export default defineComponent({
               <p class="professional_slide-name">
                 Nespresso Momento Coffee 100
               </p>
-            </a>
+            </router-link>
 
-            <a href="./professional_detail">
+            <router-link to="/professional_detail">
               <div class="professional_slide-wrapper-img">
                 <img
                   src="../assets/images/professional/slide2.png"
@@ -392,9 +392,9 @@ export default defineComponent({
               <p class="professional_slide-name">
                 Nespresso Momento Coffee & Milk 120
               </p>
-            </a>
+            </router-link>
 
-            <a href="./professional_detail">
+            <router-link to="/professional_detail">
               <div class="professional_slide-wrapper-img">
                 <img
                   src="../assets/images/professional/slide3.png"
@@ -404,9 +404,9 @@ export default defineComponent({
               <p class="professional_slide-name">
                 Nespresso Momento Coffee 200
               </p>
-            </a>
+            </router-link>
 
-            <a href="./professional_detail">
+            <router-link to="/professional_detail">
               <div class="professional_slide-wrapper-img">
                 <img
                   src="../assets/images/professional/slide4.png"
@@ -414,9 +414,9 @@ export default defineComponent({
                 />
               </div>
               <p class="professional_slide-name">Zenius</p>
-            </a>
+            </router-link>
 
-            <a href="./professional_detail">
+            <router-link to="/professional_detail">
               <div class="professional_slide-wrapper-img">
                 <img
                   src="../assets/images/professional/slide5.png"
@@ -426,7 +426,7 @@ export default defineComponent({
               <p class="professional_slide-name">
                 Zenius Offer for Small Offices
               </p>
-            </a>
+            </router-link>
           </div>
           <div class="professional_slide">
             <div class="professional_slide-wrapper">

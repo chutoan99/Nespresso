@@ -22,7 +22,7 @@ export default class Header extends Vue {}
                   <img alt="coffee" src="../assets/images/header/order.png" />
                 </div>
                 <div class="menu__item-content">
-                  <a class="menu__item" href="#">Order</a>
+                  <router-link class="menu__item" to="">Order</router-link>
                 </div>
               </li>
               <!-- List Item 2: Coffee -->
@@ -34,7 +34,9 @@ export default class Header extends Vue {}
                   />
                 </div>
                 <div class="menu__item-content">
-                  <a class="menu__item" href="./coffee">Coffee</a>
+                  <router-link class="menu__item" to="/coffee"
+                    >Coffee</router-link
+                  >
                   <div class="nav_icon">
                     <svg
                       width="7"
@@ -62,7 +64,9 @@ export default class Header extends Vue {}
                   />
                 </div>
                 <div class="menu__item-content">
-                  <a class="menu__item" href="./machines">Machine</a>
+                  <router-link class="menu__item" to="/machines"
+                    >Machine</router-link
+                  >
                   <div class="nav_icon">
                     <svg
                       width="7"
@@ -90,7 +94,9 @@ export default class Header extends Vue {}
                   />
                 </div>
                 <div class="menu__item-content">
-                  <a class="menu__item" href="./accessories">Acceessories</a>
+                  <router-link class="menu__item" to="/accessories"
+                    >Acceessories</router-link
+                  >
                   <div class="nav_icon">
                     <svg
                       width="7"
@@ -118,7 +124,9 @@ export default class Header extends Vue {}
                   />
                 </div>
                 <div class="menu__item-content">
-                  <a class="menu__item" href="./benefits">Nespresso Benefits</a>
+                  <router-link class="menu__item" to="/benefits"
+                    >Nespresso Benefits</router-link
+                  >
 
                   <div class="nav_icon">
                     <svg
@@ -147,8 +155,8 @@ export default class Header extends Vue {}
                   />
                 </div>
                 <div class="menu__item-content">
-                  <a class="menu__item" href="./sustainability_recycling"
-                    >Sustainability & Recycling</a
+                  <router-link class="menu__item" to="/sustainability_recycling"
+                    >Sustainability & Recycling</router-link
                   >
 
                   <div class="nav_icon">
@@ -178,7 +186,9 @@ export default class Header extends Vue {}
                   />
                 </div>
                 <div class="menu__item-content">
-                  <a class="menu__item" href="./service">Services</a>
+                  <router-link class="menu__item" to="/service"
+                    >Services</router-link
+                  >
                   <div class="nav_icon">
                     <svg
                       width="7"
@@ -206,8 +216,8 @@ export default class Header extends Vue {}
                   />
                 </div>
                 <div class="menu__item-content">
-                  <a class="menu__item" href="./store_location"
-                    >Store Locator</a
+                  <router-link class="menu__item" to="/store_location"
+                    >Store Locator</router-link
                   >
                   <div class="nav_icon">
                     <svg
@@ -236,7 +246,9 @@ export default class Header extends Vue {}
                   />
                 </div>
                 <div class="menu__item-content">
-                  <a class="menu__item" href="./contact_us">Contact</a>
+                  <router-link class="menu__item" to="/contact_us"
+                    >Contact</router-link
+                  >
                   <div class="nav_icon">
                     <svg
                       width="7"
@@ -264,7 +276,9 @@ export default class Header extends Vue {}
                   />
                 </div>
                 <div class="menu__item-content">
-                  <a class="menu__item" href="./professional">Professional</a>
+                  <router-link class="menu__item" to="/professional"
+                    >Professional</router-link
+                  >
                   <div class="nav_icon">
                     <svg
                       width="7"
@@ -285,35 +299,35 @@ export default class Header extends Vue {}
               </li>
             </ul>
             <ul class="sub_list hide_on-pc" id="sub_list">
-              <li><a href="#"> ORIGINAL </a></li>
+              <li><router-link to=""> ORIGINAL </router-link></li>
               <li>
-                <a href="#"> Order Original Capsules </a>
+                <router-link to=""> Order Original Capsules </router-link>
               </li>
-              <li><a href="#"> About Original </a></li>
-              <li><a href="#"> VERTUO </a></li>
+              <li><router-link to=""> About Original </router-link></li>
+              <li><router-link to=""> VERTUO </router-link></li>
               <li>
-                <a href="#"> Choose coffee subscription </a>
-              </li>
-              <li>
-                <a href="#"> Choose coffee subscription </a>
+                <router-link to=""> Choose coffee subscription </router-link>
               </li>
               <li>
-                <a href="#"> About Nespresso Coffee </a>
+                <router-link to=""> Choose coffee subscription </router-link>
               </li>
-              <li><a href="#"> Coffee Expertise </a></li>
-              <li><a href="#"> Coffee Recipes </a></li>
-              <li><a href="#"> System Quiz </a></li>
+              <li>
+                <router-link to=""> About Nespresso Coffee </router-link>
+              </li>
+              <li><router-link to=""> Coffee Expertise </router-link></li>
+              <li><router-link to=""> Coffee Recipes </router-link></li>
+              <li><router-link to=""> System Quiz </router-link></li>
             </ul>
           </div>
         </div>
-        <a href="/">
+        <router-link to="/">
           <img
             src="../assets/images/logoApp.png"
             alt="logoApp"
             width="100%"
             height="100%"
           />
-        </a>
+        </router-link>
       </div>
       <div class="header_content">
         <div style="position: relative">
@@ -503,42 +517,50 @@ export default class Header extends Vue {}
             <div class="dropdown_loggedIn">
               <ul class="dropdown_loggedIn-list">
                 <li class="dropdown_loggedIn-item">
-                  <a class="dropdown_loggedIn-item-link" href="./setting_info">
+                  <router-link
+                    class="dropdown_loggedIn-item-link"
+                    to="/setting_info"
+                  >
                     My account
-                  </a>
+                  </router-link>
                 </li>
                 <li class="dropdown_loggedIn-item">
-                  <a class="dropdown_loggedIn-item-link" href="./setting_order"
+                  <router-link
+                    class="dropdown_loggedIn-item-link"
+                    to="/setting_order"
                     >My Orders
-                  </a>
+                  </router-link>
                 </li>
                 <li class="dropdown_loggedIn-item">
-                  <a class="dropdown_loggedIn-item-link" href="./setting_info">
+                  <router-link
+                    class="dropdown_loggedIn-item-link"
+                    to="/setting_info"
+                  >
                     My Personal Information
-                  </a>
+                  </router-link>
                 </li>
                 <li class="dropdown_loggedIn-item">
-                  <a
+                  <router-link
                     class="dropdown_loggedIn-item-link"
-                    href="./setting_address"
+                    to="/setting_address"
                     >My Address
-                  </a>
+                  </router-link>
                 </li>
                 <li class="dropdown_loggedIn-item">
-                  <a
+                  <router-link
                     class="dropdown_loggedIn-item-link"
-                    href="./setting_machine"
+                    to="/setting_machine"
                   >
                     My Machines
-                  </a>
+                  </router-link>
                 </li>
                 <li class="dropdown_loggedIn-item">
-                  <a
+                  <router-link
                     class="dropdown_loggedIn-item-link"
-                    href="./setting_contact"
+                    to="/setting_contact"
                   >
                     Contact Preferences
-                  </a>
+                  </router-link>
                 </li>
               </ul>
               <div class="dropdown_loggedIn-logout">
@@ -568,7 +590,7 @@ export default class Header extends Vue {}
         <!-- cart -->
         <section id="overlay">
           <div class="overlay">
-            <aside class="overlay_inner modalCart">
+            <router-link to="/" class="overlay_inner modalCart">
               <div class="modalCart_header">
                 <h3>SHOPPING BAG</h3>
                 <svg
@@ -641,12 +663,14 @@ export default class Header extends Vue {}
                     >
                   </div>
                   <button class="modalCart_btn">
-                    <a href="./shopping_step_1">GO TO SHOPPING BAG</a>
+                    <router-link to="/shopping_step_1"
+                      >GO TO SHOPPING BAG</router-link
+                    >
                   </button>
                 </div>
                 <!--end add order -->
               </div>
-            </aside>
+            </router-link>
           </div>
         </section>
         <!-- cart -->

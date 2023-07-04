@@ -170,16 +170,20 @@ export default defineComponent({
         <section class="product-nav">
           <ul>
             <li class="tab-menu tab-menu--selected">
-              <a href="#ispirazione-italiana">ispirazione italiana</a>
+              <router-link to="ispirazione-italiana"
+                >ispirazione italiana</router-link
+              >
             </li>
             <li class="tab-menu">
-              <a href="#espresso-lungo">Espresso & Lungo</a>
+              <router-link to="espresso-lungo">Espresso & Lungo</router-link>
             </li>
             <li class="tab-menu">
-              <a href="#master-origins">Master Origins</a>
+              <router-link to="master-origins">Master Origins</router-link>
             </li>
             <li class="tab-menu">
-              <a href="#barista-creations">Barista Creations</a>
+              <router-link to="barista-creations"
+                >Barista Creations</router-link
+              >
             </li>
           </ul>
         </section>
@@ -620,7 +624,7 @@ export default defineComponent({
               </p>
 
               <button class="intro-paragraph__btn">
-                <a href="#"> More about sustainability </a>
+                <router-link to=""> More about sustainability </router-link>
                 <svg
                   width="24"
                   height="24"
@@ -657,7 +661,7 @@ export default defineComponent({
               </p>
 
               <button class="intro-paragraph__btn">
-                <a href="#"> More about sustainability </a>
+                <router-link to=""> More about sustainability </router-link>
                 <svg
                   width="24"
                   height="24"
@@ -694,7 +698,7 @@ export default defineComponent({
           </p>
 
           <button class="recommend-btn">
-            <a href="#"> More about sustainability </a>
+            <router-link to=""> More about sustainability </router-link>
             <svg
               width="24"
               height="24"
@@ -802,7 +806,7 @@ export default defineComponent({
                   <div class="table-main">
                     <ul class="table-list">
                       <li class="table-item open-rigtCol">
-                        <a href="#Roma">
+                        <router-link to="Roma">
                           <div class="table-item__image">
                             <img
                               src="../assets/images/coffee-original/item.png"
@@ -847,10 +851,10 @@ export default defineComponent({
                               </svg>
                             </span>
                           </div>
-                        </a>
+                        </router-link>
                       </li>
                       <li class="table-item open-rigtCol">
-                        <a href="#Roma">
+                        <router-link to="Roma">
                           <div class="table-item__image">
                             <img
                               src="../assets/images/coffee-original/item.png"
@@ -895,10 +899,10 @@ export default defineComponent({
                               </svg>
                             </span>
                           </div>
-                        </a>
+                        </router-link>
                       </li>
                       <li class="table-item open-rigtCol">
-                        <a href="#Roma">
+                        <router-link to="Roma">
                           <div class="table-item__image">
                             <img
                               src="../assets/images/coffee-original/item.png"
@@ -943,10 +947,10 @@ export default defineComponent({
                               </svg>
                             </span>
                           </div>
-                        </a>
+                        </router-link>
                       </li>
                       <li class="table-item open-rigtCol">
-                        <a href="#Roma">
+                        <router-link to="Roma">
                           <div class="table-item__image">
                             <img
                               src="../assets/images/coffee-original/item.png"
@@ -991,10 +995,10 @@ export default defineComponent({
                               </svg>
                             </span>
                           </div>
-                        </a>
+                        </router-link>
                       </li>
                       <li class="table-item open-rigtCol">
-                        <a href="#Roma">
+                        <router-link to="Roma">
                           <div class="table-item__image">
                             <img
                               src="../assets/images/coffee-original/item.png"
@@ -1039,10 +1043,10 @@ export default defineComponent({
                               </svg>
                             </span>
                           </div>
-                        </a>
+                        </router-link>
                       </li>
                       <li class="table-item open-rigtCol">
-                        <a href="#Roma">
+                        <router-link to="Roma">
                           <div class="table-item__image">
                             <img
                               src="../assets/images/coffee-original/item.png"
@@ -1087,10 +1091,10 @@ export default defineComponent({
                               </svg>
                             </span>
                           </div>
-                        </a>
+                        </router-link>
                       </li>
                       <li class="table-item open-rigtCol">
-                        <a href="#Roma">
+                        <router-link to="Roma">
                           <div class="table-item__image">
                             <img
                               src="../assets/images/coffee-original/item.png"
@@ -1135,10 +1139,10 @@ export default defineComponent({
                               </svg>
                             </span>
                           </div>
-                        </a>
+                        </router-link>
                       </li>
                       <li class="table-item open-rigtCol">
-                        <a href="#Roma">
+                        <router-link to="Roma">
                           <div class="table-item__image">
                             <img
                               src="../assets/images/coffee-original/item.png"
@@ -1183,7 +1187,7 @@ export default defineComponent({
                               </svg>
                             </span>
                           </div>
-                        </a>
+                        </router-link>
                       </li>
                     </ul>
                   </div>

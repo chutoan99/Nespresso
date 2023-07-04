@@ -549,7 +549,7 @@ export default defineComponent({
                 </fieldset>
                 <div class="form_signUp-button">
                   <button>
-                    <a href="./signUp_private">Continue</a>
+                    <router-link to="/signUp_private">Continue</router-link>
                   </button>
                 </div>
               </form>

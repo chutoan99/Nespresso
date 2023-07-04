@@ -182,64 +182,64 @@ export default defineComponent({
             <div class="category-submenu">
               <ul class="category-list">
                 <li class="category-item">
-                  <a href="#ispirazione">
+                  <router-link to="ispirazione">
                     <img
                       class="category-img"
                       src="../assets/images/product/Ellipse_1.png"
                       alt="Ispirazione Italiana"
                     />
                     <p class="category-desc">Ispirazione Italiana</p>
-                  </a>
+                  </router-link>
                 </li>
                 <li class="category-item">
-                  <a href="#discovery">
+                  <router-link to="discovery">
                     <img
                       class="category-img"
                       src="../assets/images/product/Ellipse_2.png"
                       alt="Discovery Offer"
                     />
                     <p class="category-desc">Discovery Offer</p>
-                  </a>
+                  </router-link>
                 </li>
                 <li class="category-item">
-                  <a href="#master">
+                  <router-link to="master">
                     <img
                       class="category-img"
                       src="../assets/images/product/Ellipse_3.png"
                       alt="Master Origins  "
                     />
                     <p class="category-desc">Master Origins</p>
-                  </a>
+                  </router-link>
                 </li>
                 <li class="category-item">
-                  <a href="#world">
+                  <router-link to="world">
                     <img
                       class="category-img"
                       src="../assets/images/product/Ellipse_4.png"
                       alt="World Exploration"
                     />
                     <p class="category-desc">World Exploration</p>
-                  </a>
+                  </router-link>
                 </li>
                 <li class="category-item">
-                  <a href="#barista">
+                  <router-link to="barista">
                     <img
                       class="category-img"
                       src="../assets/images/product/Ellipse_5.png"
                       alt="Barista Creations"
                     />
                     <p class="category-desc">Barista Creations</p>
-                  </a>
+                  </router-link>
                 </li>
                 <li class="category-item">
-                  <a href="#espresso">
+                  <router-link to="espresso">
                     <img
                       class="category-img"
                       src="../assets/images/product/Ellipse_6.png"
                       alt="Espresso"
                     />
                     <p class="category-desc">Espresso</p>
-                  </a>
+                  </router-link>
                 </li>
               </ul>
             </div>
@@ -286,12 +286,12 @@ export default defineComponent({
 
                 <!-- Product Image -->
                 <div class="product-image">
-                  <a href="./coffee_detail">
+                  <router-link to="/coffee_detail">
                     <img
                       src="../assets/images/product/product_1.png"
                       alt="Ispirazione Italiana Selection"
                     />
-                  </a>
+                  </router-link>
                 </div>
 
                 <!-- Product Content -->
@@ -372,12 +372,12 @@ export default defineComponent({
 
                 <!-- Product Image -->
                 <div class="product-image">
-                  <a href="./coffee_detail">
+                  <router-link to="/coffee_detail">
                     <img
                       src="../assets/images/product/product_2.png"
                       alt="Ispirazione Italiana Intense Selection"
                     />
-                  </a>
+                  </router-link>
                 </div>
 
                 <!-- Content -->
@@ -443,12 +443,12 @@ export default defineComponent({
               <div class="product-item">
                 <!-- Product Image -->
                 <div class="product-image">
-                  <a href="./coffee_detail">
+                  <router-link to="/coffee_detail">
                     <img
                       src="../assets/images/product/product_3.png"
                       alt="Roma"
                     />
-                  </a>
+                  </router-link>
                 </div>
 
                 <!-- Product Content -->
@@ -509,12 +509,12 @@ export default defineComponent({
               <div class="product-item">
                 <!-- Product Image -->
                 <div class="product-image">
-                  <a href="./coffee_detail">
+                  <router-link to="/coffee_detail">
                     <img
                       src="../assets/images/product/product_4.png"
                       alt="Livanto"
                     />
-                  </a>
+                  </router-link>
                 </div>
 
                 <!-- Product content -->
@@ -572,12 +572,12 @@ export default defineComponent({
               <div class="product-item">
                 <!-- Product Image -->
                 <div class="product-image">
-                  <a href="./coffee_detail">
+                  <router-link to="/coffee_detail">
                     <img
                       src="../assets/images/product/product_5.png"
                       alt="Arpeggio"
                     />
-                  </a>
+                  </router-link>
                 </div>
                 <div class="product-content">
                   <!-- Product Desc -->
@@ -634,12 +634,12 @@ export default defineComponent({
               <div class="product-item">
                 <!-- Product Image -->
                 <div class="product-image">
-                  <a href="./coffee_detail">
+                  <router-link to="/coffee_detail">
                     <img
                       src="../assets/images/product/product_6.png"
                       alt="Arpeggio Decaffeinato"
                     />
-                  </a>
+                  </router-link>
                 </div>
                 <div class="product-content">
                   <!-- Product Desc -->
@@ -696,12 +696,12 @@ export default defineComponent({
               <div class="product-item">
                 <!-- Product Image -->
                 <div class="product-image">
-                  <a href="./coffee_detail">
+                  <router-link to="/coffee_detail">
                     <img
                       src="../assets/images/product/product_7.png"
                       alt="Kazzar"
                     />
-                  </a>
+                  </router-link>
                 </div>
                 <div class="product-content">
                   <!-- Product Desc -->
@@ -758,12 +758,12 @@ export default defineComponent({
               <div class="product-item">
                 <!-- Product Image -->
                 <div class="product-image">
-                  <a href="./coffee_detail">
+                  <router-link to="/coffee_detail">
                     <img
                       src="../assets/images/product/product_8.png"
                       alt="Napoli"
                     />
-                  </a>
+                  </router-link>
                 </div>
                 <div class="product-content">
                   <!-- Product Desc -->
@@ -820,12 +820,12 @@ export default defineComponent({
               <div class="product-item">
                 <!-- Product Image -->
                 <div class="product-image">
-                  <a href="./coffee_detail">
+                  <router-link to="/coffee_detail">
                     <img
                       src="../assets/images/product/product_9.png"
                       alt="Ristretto"
                     />
-                  </a>
+                  </router-link>
                 </div>
                 <div class="product-content">
                   <!-- Product Desc -->
@@ -884,12 +884,12 @@ export default defineComponent({
               <div class="product-item">
                 <!-- Product Image -->
                 <div class="product-image">
-                  <a href="./coffee_detail">
+                  <router-link to="/coffee_detail">
                     <img
                       src="../assets/images/product/product_10.png"
                       alt="Ristretto Decaffeinato"
                     />
-                  </a>
+                  </router-link>
                 </div>
                 <div class="product-content">
                   <!-- Product Desc -->
@@ -948,12 +948,12 @@ export default defineComponent({
               <div class="product-item">
                 <!-- Product Image -->
                 <div class="product-image">
-                  <a href="./coffee_detail">
+                  <router-link to="/coffee_detail">
                     <img
                       src="../assets/images/product/product_11.png"
                       alt="Venezia"
                     />
-                  </a>
+                  </router-link>
                 </div>
                 <div class="product-content">
                   <!-- Product Desc -->
@@ -1027,12 +1027,12 @@ export default defineComponent({
               <div class="product-item">
                 <!-- Product Image -->
                 <div class="product-image">
-                  <a href="./coffee_detail">
+                  <router-link to="/coffee_detail">
                     <img
                       src="../assets/images/product/discovery.png"
                       alt="Welcome Offer Coffee Pack"
                     />
-                  </a>
+                  </router-link>
                 </div>
                 <div class="product-content">
                   <!-- Product Desc -->
@@ -1103,12 +1103,12 @@ export default defineComponent({
               <div class="product-item">
                 <!-- Product Image -->
                 <div class="product-image">
-                  <a href="./coffee_detail">
+                  <router-link to="/coffee_detail">
                     <img
                       src="../assets/images/product/master_1.png"
                       alt="Ispirazione Napoli"
                     />
-                  </a>
+                  </router-link>
                 </div>
                 <div class="product-content">
                   <!-- Product Desc -->
@@ -1165,12 +1165,12 @@ export default defineComponent({
               <div class="product-item">
                 <!-- Product Image -->
                 <div class="product-image">
-                  <a href="./coffee_detail">
+                  <router-link to="/coffee_detail">
                     <img
                       src="../assets/images/product/master_2.png"
                       alt="Ispirazione Napoli"
                     />
-                  </a>
+                  </router-link>
                 </div>
                 <div class="product-content">
                   <!-- Product Desc -->
@@ -1227,12 +1227,12 @@ export default defineComponent({
               <div class="product-item">
                 <!-- Product Image -->
                 <div class="product-image">
-                  <a href="./coffee_detail">
+                  <router-link to="/coffee_detail">
                     <img
                       src="../assets/images/product/master_3.png"
                       alt="Ispirazione Napoli"
                     />
-                  </a>
+                  </router-link>
                 </div>
                 <div class="product-content">
                   <!-- Product Desc -->
@@ -1289,12 +1289,12 @@ export default defineComponent({
               <div class="product-item">
                 <!-- Product Image -->
                 <div class="product-image">
-                  <a href="./coffee_detail">
+                  <router-link to="/coffee_detail">
                     <img
                       src="../assets/images/product/master_4.png"
                       alt="Ispirazione Napoli"
                     />
-                  </a>
+                  </router-link>
                 </div>
                 <div class="product-content">
                   <!-- Product Desc -->
@@ -1351,12 +1351,12 @@ export default defineComponent({
               <div class="product-item">
                 <!-- Product Image -->
                 <div class="product-image">
-                  <a href="./coffee_detail">
+                  <router-link to="/coffee_detail">
                     <img
                       src="../assets/images/product/master_5.png"
                       alt="Ispirazione Napoli"
                     />
-                  </a>
+                  </router-link>
                 </div>
                 <div class="product-content">
                   <!-- Product Desc -->
@@ -1427,12 +1427,12 @@ export default defineComponent({
               <div class="product-item">
                 <!-- Product Image -->
                 <div class="product-image">
-                  <a href="./coffee_detail">
+                  <router-link to="/coffee_detail">
                     <img
                       src="../assets/images/product/world_1.png"
                       alt="Shanghai Lungo"
                     />
-                  </a>
+                  </router-link>
                 </div>
                 <div class="product-content">
                   <!-- Product Desc -->
@@ -1491,12 +1491,12 @@ export default defineComponent({
               <div class="product-item">
                 <!-- Product Image -->
                 <div class="product-image">
-                  <a href="./coffee_detail">
+                  <router-link to="/coffee_detail">
                     <img
                       src="../assets/images/product/world_2.png"
                       alt="Buenos Aires Lungo"
                     />
-                  </a>
+                  </router-link>
                 </div>
                 <div class="product-content">
                   <!-- Product Desc -->
@@ -1553,12 +1553,12 @@ export default defineComponent({
               <div class="product-item">
                 <!-- Product Image -->
                 <div class="product-image">
-                  <a href="./coffee_detail">
+                  <router-link to="/coffee_detail">
                     <img
                       src="../assets/images/product/world_3.png"
                       alt="Tokyo Lungo"
                     />
-                  </a>
+                  </router-link>
                 </div>
                 <div class="product-content">
                   <!-- Product Desc -->
@@ -1615,12 +1615,12 @@ export default defineComponent({
               <div class="product-item">
                 <!-- Product Image -->
                 <div class="product-image">
-                  <a href="./coffee_detail">
+                  <router-link to="/coffee_detail">
                     <img
                       src="../assets/images/product/world_4.png"
                       alt="Vienna Lungo"
                     />
-                  </a>
+                  </router-link>
                 </div>
                 <div class="product-content">
                   <!-- Product Desc -->
@@ -1677,12 +1677,12 @@ export default defineComponent({
               <div class="product-item">
                 <!-- Product Image -->
                 <div class="product-image">
-                  <a href="./coffee_detail">
+                  <router-link to="/coffee_detail">
                     <img
                       src="../assets/images/product/world_5.png"
                       alt="Stockholm Lungo"
                     />
-                  </a>
+                  </router-link>
                 </div>
                 <div class="product-content">
                   <!-- Product Desc -->
@@ -1739,12 +1739,12 @@ export default defineComponent({
               <div class="product-item">
                 <!-- Product Image -->
                 <div class="product-image">
-                  <a href="./coffee_detail">
+                  <router-link to="/coffee_detail">
                     <img
                       src="../assets/images/product/world_6.png"
                       alt="Cape Town Lungo"
                     />
-                  </a>
+                  </router-link>
                 </div>
                 <div class="product-content">
                   <!-- Product Desc -->
@@ -1801,12 +1801,12 @@ export default defineComponent({
               <div class="product-item">
                 <!-- Product Image -->
                 <div class="product-image">
-                  <a href="./coffee_detail">
+                  <router-link to="/coffee_detail">
                     <img
                       src="../assets/images/product/world_7.png"
                       alt="Rio De Janeiro Espresso"
                     />
-                  </a>
+                  </router-link>
                 </div>
                 <div class="product-content">
                   <!-- Product Desc -->
@@ -1863,12 +1863,12 @@ export default defineComponent({
               <div class="product-item">
                 <!-- Product Image -->
                 <div class="product-image">
-                  <a href="./coffee_detail">
+                  <router-link to="/coffee_detail">
                     <img
                       src="../assets/images/product/world_8.png"
                       alt="Istanbul Espresso"
                     />
-                  </a>
+                  </router-link>
                 </div>
                 <div class="product-content">
                   <!-- Product Desc -->
@@ -1925,12 +1925,12 @@ export default defineComponent({
               <div class="product-item">
                 <!-- Product Image -->
                 <div class="product-image">
-                  <a href="./coffee_detail">
+                  <router-link to="/coffee_detail">
                     <img
                       src="../assets/images/product/world_9.png"
                       alt="Paris Espresso"
                     />
-                  </a>
+                  </router-link>
                 </div>
                 <div class="product-content">
                   <!-- Product Desc -->
@@ -2003,12 +2003,12 @@ export default defineComponent({
               <div class="product-item">
                 <!-- Product Image -->
                 <div class="product-image">
-                  <a href="./coffee_detail">
+                  <router-link to="/coffee_detail">
                     <img
                       src="../assets/images/product/barista_1.png"
                       alt="Cocoa Truffle"
                     />
-                  </a>
+                  </router-link>
                 </div>
                 <div class="product-content">
                   <!-- Product Desc -->
@@ -2065,12 +2065,12 @@ export default defineComponent({
               <div class="product-item">
                 <!-- Product Image -->
                 <div class="product-image">
-                  <a href="./coffee_detail">
+                  <router-link to="/coffee_detail">
                     <img
                       src="../assets/images/product/barista_2.png"
                       alt="Vanilla Éclair"
                     />
-                  </a>
+                  </router-link>
                 </div>
                 <div class="product-content">
                   <!-- Product Desc -->
@@ -2127,12 +2127,12 @@ export default defineComponent({
               <div class="product-item">
                 <!-- Product Image -->
                 <div class="product-image">
-                  <a href="./coffee_detail">
+                  <router-link to="/coffee_detail">
                     <img
                       src="../assets/images/product/barista_3.png"
                       alt="Caramel Crème Brûlée"
                     />
-                  </a>
+                  </router-link>
                 </div>
                 <div class="product-content">
                   <!-- Product Desc -->
@@ -2189,12 +2189,12 @@ export default defineComponent({
               <div class="product-item">
                 <!-- Product Image -->
                 <div class="product-image">
-                  <a href="./coffee_detail">
+                  <router-link to="/coffee_detail">
                     <img
                       src="../assets/images/product/barista_4.png"
                       alt="Chiaro"
                     />
-                  </a>
+                  </router-link>
                 </div>
                 <div class="product-content">
                   <!-- Product Desc -->
@@ -2251,12 +2251,12 @@ export default defineComponent({
               <div class="product-item">
                 <!-- Product Image -->
                 <div class="product-image">
-                  <a href="./coffee_detail">
+                  <router-link to="/coffee_detail">
                     <img
                       src="../assets/images/product/barista_5.png"
                       alt="Scuro"
                     />
-                  </a>
+                  </router-link>
                 </div>
                 <div class="product-content">
                   <!-- Product Desc -->
@@ -2313,12 +2313,12 @@ export default defineComponent({
               <div class="product-item">
                 <!-- Product Image -->
                 <div class="product-image">
-                  <a href="./coffee_detail">
+                  <router-link to="/coffee_detail">
                     <img
                       src="../assets/images/product/barista_6.png"
                       alt="Corto"
                     />
-                  </a>
+                  </router-link>
                 </div>
                 <div class="product-content">
                   <!-- Product Desc -->
@@ -2391,12 +2391,12 @@ export default defineComponent({
               <div class="product-item">
                 <!-- Product Image -->
                 <div class="product-image">
-                  <a href="./coffee_detail">
+                  <router-link to="/coffee_detail">
                     <img
                       src="../assets/images/product/espresso_1.png"
                       alt="Volluto Decaffeinato"
                     />
-                  </a>
+                  </router-link>
                 </div>
                 <div class="product-content">
                   <!-- Product Desc -->
@@ -2453,12 +2453,12 @@ export default defineComponent({
               <div class="product-item">
                 <!-- Product Image -->
                 <div class="product-image">
-                  <a href="./coffee_detail">
+                  <router-link to="/coffee_detail">
                     <img
                       src="../assets/images/product/espresso_2.png"
                       alt="Volluto"
                     />
-                  </a>
+                  </router-link>
                 </div>
                 <div class="product-content">
                   <!-- Product Desc -->
@@ -2515,12 +2515,12 @@ export default defineComponent({
               <div class="product-item">
                 <!-- Product Image -->
                 <div class="product-image">
-                  <a href="./coffee_detail">
+                  <router-link to="/coffee_detail">
                     <img
                       src="../assets/images/product/espresso_3.png"
                       alt="Cosi"
                     />
-                  </a>
+                  </router-link>
                 </div>
                 <div class="product-content">
                   <!-- Product Desc -->
@@ -2579,12 +2579,12 @@ export default defineComponent({
               <div class="product-item">
                 <!-- Product Image -->
                 <div class="product-image">
-                  <a href="./coffee_detail">
+                  <router-link to="/coffee_detail">
                     <img
                       src="../assets/images/product/espresso_4.png"
                       alt="Capriccio"
                     />
-                  </a>
+                  </router-link>
                 </div>
                 <div class="product-content">
                   <!-- Product Desc -->
@@ -2650,7 +2650,9 @@ export default defineComponent({
                 Get 10% credit back in your accountwith Subscription by
                 Nespresso
               </p>
-              <a href="#" class="product_ads__more">READ MORE</a>
+              <router-link to="" class="product_ads__more"
+                >READ MORE</router-link
+              >
             </div>
           </div>
         </section>

@@ -358,7 +358,9 @@ export default defineComponent({
                 </div>
                 <div class="private_form-button">
                   <button>
-                    <a href="./signUp_private_step_2">Continue</a>
+                    <router-link to="/signUp_private_step_2"
+                      >Continue</router-link
+                    >
                   </button>
                 </div>
               </div>

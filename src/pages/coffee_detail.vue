@@ -43,9 +43,9 @@ export default defineComponent({
           <div class="container">
             <div class="product-main">
               <div class="product-media">
-                <a href="./coffee" class="product-link">
+                <router-link to="/coffee" class="product-link">
                   <span class="product-more">SEE ALL COFFEES</span>
-                </a>
+                </router-link>
                 <div class="product-image">
                   <img
                     src="../assets/images/product_detail/product_detail-1.png"

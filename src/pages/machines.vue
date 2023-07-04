@@ -244,12 +244,12 @@ export default defineComponent({
                 <span class="product-tag__name">PROMOTE</span>
               </div>
               <!-- Product Image -->
-              <a href="./machines_detail" class="product-image">
+              <router-link to="/machines_detail" class="product-image">
                 <img
                   src="../assets/images/machines/machines_1.png"
                   alt="ESSENZA MINI"
                 />
-              </a>
+              </router-link>
               <!-- Name -->
               <p class="product-name">ESSENZA MINI</p>
               <!-- Description -->
@@ -272,7 +272,9 @@ export default defineComponent({
 
               <!-- View More -->
               <div class="product-btn">
-                <a href="./machines_detail">VIEW MORE DETAILS </a>
+                <router-link to="/machines_detail"
+                  >VIEW MORE DETAILS
+                </router-link>
               </div>
             </div>
 
@@ -283,12 +285,12 @@ export default defineComponent({
                 <span class="product-tag__name">PROMOTE</span>
               </div>
               <!-- Product Image -->
-              <a href="./machines_detail" class="product-image">
+              <router-link to="/machines_detail" class="product-image">
                 <img
                   src="../assets/images/machines/machines_2.png"
                   alt="INISSIA"
                 />
-              </a>
+              </router-link>
               <!-- Name -->
               <p class="product-name">INISSIA</p>
               <!-- Description -->
@@ -311,7 +313,9 @@ export default defineComponent({
 
               <!-- View More -->
               <div class="product-btn">
-                <a href="./machines_detail">VIEW MORE DETAILS </a>
+                <router-link to="/machines_detail"
+                  >VIEW MORE DETAILS
+                </router-link>
               </div>
             </div>
 
@@ -322,12 +326,12 @@ export default defineComponent({
                 <span class="product-tag__name">PROMOTE</span>
               </div>
               <!-- Product Image -->
-              <a href="./machines_detail" class="product-image">
+              <router-link to="/machines_detail" class="product-image">
                 <img
                   src="../assets/images/machines/machines_3.png"
                   alt="ESSENZA PLUS"
                 />
-              </a>
+              </router-link>
               <!-- Name -->
               <p class="product-name">ESSENZA PLUS</p>
               <!-- Description -->
@@ -350,7 +354,9 @@ export default defineComponent({
 
               <!-- View More -->
               <div class="product-btn">
-                <a href="./machines_detail">VIEW MORE DETAILS </a>
+                <router-link to="/machines_detail"
+                  >VIEW MORE DETAILS
+                </router-link>
               </div>
             </div>
 
@@ -361,12 +367,12 @@ export default defineComponent({
                 <span class="product-tag__name">PROMOTE</span>
               </div>
               <!-- Product Image -->
-              <a href="./machines_detail" class="product-image">
+              <router-link to="/machines_detail" class="product-image">
                 <img
                   src="../assets/images/machines/machines_4.png"
                   alt="PIXIE"
                 />
-              </a>
+              </router-link>
               <!-- Name -->
               <p class="product-name">PIXIE</p>
               <!-- Description -->
@@ -389,7 +395,9 @@ export default defineComponent({
 
               <!-- View More -->
               <div class="product-btn">
-                <a href="./machines_detail">VIEW MORE DETAILS </a>
+                <router-link to="/machines_detail"
+                  >VIEW MORE DETAILS
+                </router-link>
               </div>
             </div>
 
@@ -400,12 +408,12 @@ export default defineComponent({
                 <span class="product-tag__name">ONLINE EXCLUSUVE</span>
               </div>
               <!-- Product Image -->
-              <a href="./machines_detail" class="product-image">
+              <router-link to="/machines_detail" class="product-image">
                 <img
                   src="../assets/images/machines/machines_5.png"
                   alt="Essenza Mini Black & Aeroccino 3"
                 />
-              </a>
+              </router-link>
               <!-- Name -->
               <p class="product-name">Essenza Mini Black & Aeroccino 3</p>
               <!-- Description -->
@@ -428,7 +436,9 @@ export default defineComponent({
 
               <!-- View More -->
               <div class="product-btn">
-                <a href="./machines_detail">VIEW MORE DETAILS </a>
+                <router-link to="/machines_detail"
+                  >VIEW MORE DETAILS
+                </router-link>
               </div>
             </div>
 
@@ -439,12 +449,12 @@ export default defineComponent({
                 <span class="product-tag__name">PROMOTE</span>
               </div>
               <!-- Product Image -->
-              <a href="./machines_detail" class="product-image">
+              <router-link to="/machines_detail" class="product-image">
                 <img
                   src="../assets/images/machines/machines_6.png"
                   alt="Essenza Mini Black & Aeroccino 3"
                 />
-              </a>
+              </router-link>
               <!-- Name -->
               <p class="product-name">Essenza Mini Black & Aeroccino 3</p>
               <!-- Description -->
@@ -467,7 +477,9 @@ export default defineComponent({
 
               <!-- View More -->
               <div class="product-btn">
-                <a href="./machines_detail">VIEW MORE DETAILS </a>
+                <router-link to="/machines_detail"
+                  >VIEW MORE DETAILS
+                </router-link>
               </div>
             </div>
 
@@ -478,12 +490,12 @@ export default defineComponent({
                 <span class="product-tag__name">PROMOTE</span>
               </div>
               <!-- Product Image -->
-              <a href="./machines_detail" class="product-image">
+              <router-link to="/machines_detail" class="product-image">
                 <img
                   src="../assets/images/machines/machines_7.png"
                   alt="ESSENZA MINI WHITE & AEROCCINO 3"
                 />
-              </a>
+              </router-link>
               <!-- Name -->
               <p class="product-name">ESSENZA MINI WHITE & AEROCCINO 3</p>
               <!-- Description -->
@@ -506,7 +518,9 @@ export default defineComponent({
 
               <!-- View More -->
               <div class="product-btn">
-                <a href="./machines_detail">VIEW MORE DETAILS </a>
+                <router-link to="/machines_detail"
+                  >VIEW MORE DETAILS
+                </router-link>
               </div>
             </div>
 
@@ -517,12 +531,12 @@ export default defineComponent({
                 <span class="product-tag__name">PROMOTE</span>
               </div>
               <!-- Product Image -->
-              <a href="./machines_detail" class="product-image">
+              <router-link to="/machines_detail" class="product-image">
                 <img
                   src="../assets/images/machines/machines_8.png"
                   alt="Inissia Black & Aeroccino 3"
                 />
-              </a>
+              </router-link>
               <!-- Name -->
               <p class="product-name">Inissia Black & Aeroccino 3</p>
               <!-- Description -->
@@ -545,7 +559,9 @@ export default defineComponent({
 
               <!-- View More -->
               <div class="product-btn">
-                <a href="./machines_detail">VIEW MORE DETAILS </a>
+                <router-link to="/machines_detail"
+                  >VIEW MORE DETAILS
+                </router-link>
               </div>
             </div>
 
@@ -556,12 +572,12 @@ export default defineComponent({
                 <span class="product-tag__name">PROMOTE</span>
               </div>
               <!-- Product Image -->
-              <a href="./machines_detail" class="product-image">
+              <router-link to="/machines_detail" class="product-image">
                 <img
                   src="../assets/images/machines/machines_9.png"
                   alt="Inissia Red & Aeroccino 3"
                 />
-              </a>
+              </router-link>
               <!-- Name -->
               <p class="product-name">Inissia Red & Aeroccino 3</p>
               <!-- Description -->
@@ -584,7 +600,9 @@ export default defineComponent({
 
               <!-- View More -->
               <div class="product-btn">
-                <a href="./machines_detail">VIEW MORE DETAILS </a>
+                <router-link to="/machines_detail"
+                  >VIEW MORE DETAILS
+                </router-link>
               </div>
             </div>
 
@@ -595,12 +613,12 @@ export default defineComponent({
                 <span class="product-tag__name">PROMOTE</span>
               </div>
               <!-- Product Image -->
-              <a href="./machines_detail" class="product-image">
+              <router-link to="/machines_detail" class="product-image">
                 <img
                   src="../assets/images/machines/machines_10.png"
                   alt="Pixie Red & Aeroccino 3"
                 />
-              </a>
+              </router-link>
               <!-- Name -->
               <p class="product-name">Pixie Red & Aeroccino 3</p>
               <!-- Description -->
@@ -623,7 +641,9 @@ export default defineComponent({
 
               <!-- View More -->
               <div class="product-btn">
-                <a href="./machines_detail">VIEW MORE DETAILS </a>
+                <router-link to="/machines_detail"
+                  >VIEW MORE DETAILS
+                </router-link>
               </div>
             </div>
 
@@ -634,12 +654,12 @@ export default defineComponent({
                 <span class="product-tag__name">PROMOTE</span>
               </div>
               <!-- Product Image -->
-              <a href="./machines_detail" class="product-image">
+              <router-link to="/machines_detail" class="product-image">
                 <img
                   src="../assets/images/machines/machines_11.png"
                   alt="Pixie Titan & Aeroccino 3"
                 />
-              </a>
+              </router-link>
               <!-- Name -->
               <p class="product-name">Pixie Titan & Aeroccino 3</p>
               <!-- Description -->
@@ -662,7 +682,9 @@ export default defineComponent({
 
               <!-- View More -->
               <div class="product-btn">
-                <a href="./machines_detail">VIEW MORE DETAILS </a>
+                <router-link to="/machines_detail"
+                  >VIEW MORE DETAILS
+                </router-link>
               </div>
             </div>
 
@@ -673,12 +695,12 @@ export default defineComponent({
                 <span class="product-tag__name">PROMOTE</span>
               </div>
               <!-- Product Image -->
-              <a href="./machines_detail" class="product-image">
+              <router-link to="/machines_detail" class="product-image">
                 <img
                   src="../assets/images/machines/machines_12.png"
                   alt="LATTISSIMA ONE"
                 />
-              </a>
+              </router-link>
               <!-- Name -->
               <p class="product-name">LATTISSIMA ONE</p>
               <!-- Description -->
@@ -701,7 +723,9 @@ export default defineComponent({
 
               <!-- View More -->
               <div class="product-btn">
-                <a href="./machines_detail">VIEW MORE DETAILS </a>
+                <router-link to="/machines_detail"
+                  >VIEW MORE DETAILS
+                </router-link>
               </div>
             </div>
 
@@ -712,12 +736,12 @@ export default defineComponent({
                 <span class="product-tag__name">PROMOTE</span>
               </div>
               <!-- Product Image -->
-              <a href="./machines_detail" class="product-image">
+              <router-link to="/machines_detail" class="product-image">
                 <img
                   src="../assets/images/machines/machines_13.png"
                   alt="GRAN LATTISSIMA"
                 />
-              </a>
+              </router-link>
               <!-- Name -->
               <p class="product-name">GRAN LATTISSIMA</p>
               <!-- Description -->
@@ -740,7 +764,9 @@ export default defineComponent({
 
               <!-- View More -->
               <div class="product-btn">
-                <a href="./machines_detail">VIEW MORE DETAILS </a>
+                <router-link to="/machines_detail"
+                  >VIEW MORE DETAILS
+                </router-link>
               </div>
             </div>
           </div>

@@ -79,8 +79,11 @@ export default defineComponent({
                       fill="#17171A"
                     />
                   </svg>
-                  <a href="./setting_order" class="setting_aside-item-link">
-                    My order</a
+                  <router-link
+                    to="/setting_order"
+                    class="setting_aside-item-link"
+                  >
+                    My order</router-link
                   >
                 </li>
 
@@ -105,8 +108,11 @@ export default defineComponent({
                       fill="#17171A"
                     />
                   </svg>
-                  <a href="./setting_info" class="setting_aside-item-link">
-                    My Personal Information</a
+                  <router-link
+                    to="/setting_info"
+                    class="setting_aside-item-link"
+                  >
+                    My Personal Information</router-link
                   >
                 </li>
 
@@ -179,8 +185,11 @@ export default defineComponent({
                       fill="#17171A"
                     />
                   </svg>
-                  <a href="./setting_address" class="setting_aside-item-link">
-                    My Address</a
+                  <router-link
+                    to="/setting_address"
+                    class="setting_aside-item-link"
+                  >
+                    My Address</router-link
                   >
                 </li>
 
@@ -223,8 +232,11 @@ export default defineComponent({
                       fill="#17171A"
                     />
                   </svg>
-                  <a href="./setting_machine" class="setting_aside-item-link">
-                    My Machines</a
+                  <router-link
+                    to="/setting_machine"
+                    class="setting_aside-item-link"
+                  >
+                    My Machines</router-link
                   >
                 </li>
 
@@ -250,8 +262,11 @@ export default defineComponent({
                       stroke-width="0.75"
                     />
                   </svg>
-                  <a href="./setting_contact" class="setting_aside-item-link">
-                    Contact Preferences</a
+                  <router-link
+                    to="/setting_contact"
+                    class="setting_aside-item-link"
+                  >
+                    Contact Preferences</router-link
                   >
                 </li>
               </ul>

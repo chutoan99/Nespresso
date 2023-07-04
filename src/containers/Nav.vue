@@ -10,7 +10,7 @@ export default class Nav extends Vue {}
     <div class="nav">
       <ul class="nav_list">
         <li class="nav_list-item nav_list-item-coffee">
-          <a class="nav_list-item-link" href="./coffee">
+          <router-link class="nav_list-item-link" to="/coffee">
             <div class="img_coffee-w">
               <img
                 alt="coffee"
@@ -24,14 +24,14 @@ export default class Nav extends Vue {}
               />
             </div>
             <p>Coffee</p>
-          </a>
+          </router-link>
           <div class="list_item-submenu" id="list-sub-coffee">
             <div class="list_item-submenu-inner">
               <div class="list_item-submenu-item">
                 <div>
-                  <a href="./coffee">
+                  <router-link to="/coffee">
                     <img src="../assets/images/image_56_2.png" alt="" />
-                  </a>
+                  </router-link>
                 </div>
                 <div class="list_item-submenu-content">
                   <p>Order Your Capsules</p>
@@ -88,7 +88,7 @@ export default class Nav extends Vue {}
           </div>
         </li>
         <li class="nav_list-item nav_list-item-machine">
-          <a class="nav_list-item-link" href="./machines">
+          <router-link class="nav_list-item-link" to="/machines">
             <div class="img_machine-w">
               <img alt="machine" src="../assets/images/header/machine.png" />
             </div>
@@ -96,14 +96,14 @@ export default class Nav extends Vue {}
               <img alt="machine" src="../assets/images/header/machine_b.png" />
             </div>
             <p>Machine</p>
-          </a>
+          </router-link>
           <div class="list_item-submenu" id="list-sub-machine">
             <div class="list_item-submenu-inner">
               <div class="list_item-submenu-item">
                 <div>
-                  <a href="./machines">
+                  <router-link to="/machines">
                     <img src="../assets/images/machine_1.png" alt="" />
-                  </a>
+                  </router-link>
                 </div>
                 <div class="list_item-submenu-content">
                   <p>Order Your Machine</p>
@@ -113,9 +113,9 @@ export default class Nav extends Vue {}
               <span class="list_item-submenu-item-hr"></span>
               <div class="list_item-submenu-item">
                 <div>
-                  <a href="./machines">
+                  <router-link to="/machines">
                     <img src="../assets/images/machine_1.png" alt="" />
-                  </a>
+                  </router-link>
                 </div>
                 <div class="list_item-submenu-content">
                   <p>Compare machine</p>
@@ -160,7 +160,7 @@ export default class Nav extends Vue {}
           </div>
         </li>
         <li class="nav_list-item nav_list-item-accessories">
-          <a class="nav_list-item-link" href="./accessories">
+          <router-link class="nav_list-item-link" to="/accessories">
             <div class="img_accessories-w">
               <img
                 alt="accessories"
@@ -174,14 +174,14 @@ export default class Nav extends Vue {}
               />
             </div>
             <p>Accessories</p>
-          </a>
+          </router-link>
           <div class="list_item-submenu" id="list-sub-accessories">
             <div class="list_item-submenu-inner">
               <div class="list_item-submenu-item">
                 <div>
-                  <a href="./accessories">
+                  <router-link to="/accessories">
                     <img src="../assets/images/accessories_1.png" alt="" />
-                  </a>
+                  </router-link>
                 </div>
                 <div class="list_item-submenu-content">
                   <p>Order Your Accessories</p>
@@ -240,15 +240,15 @@ export default class Nav extends Vue {}
           </div>
         </li>
         <li class="nav_list-item nav_list-item-logonew">
-          <a class="nav_list-item-link" href="#">
+          <router-link class="nav_list-item-link" to="">
             <div>
               <img alt="logonew" src="../assets/images/LogoN.png" />
             </div>
             <p>New To Nespresso</p>
-          </a>
+          </router-link>
         </li>
         <li class="nav_list-item nav_list-item-service">
-          <a class="nav_list-item-link" href="./service">
+          <router-link class="nav_list-item-link" to="/service">
             <div class="img_service-w">
               <img alt="service" src="../assets/images/header/service.png" />
             </div>
@@ -256,14 +256,14 @@ export default class Nav extends Vue {}
               <img alt="service" src="../assets/images/header/service_b.png" />
             </div>
             <p>Service</p>
-          </a>
+          </router-link>
           <div class="list_item-submenu" id="list-sub-service">
             <div class="list_item-submenu-inner">
               <div class="list_item-submenu-item">
                 <div>
-                  <a href="./service">
+                  <router-link to="/service">
                     <img src="../assets/images/service_1.png" alt="" />
-                  </a>
+                  </router-link>
                 </div>
                 <div class="list_item-submenu-content">
                   <p>Order</p>
@@ -305,7 +305,10 @@ export default class Nav extends Vue {}
           </div>
         </li>
         <li class="nav_list-item nav_list-item-recycle">
-          <a class="nav_list-item-link" href="./sustainability_recycling">
+          <router-link
+            class="nav_list-item-link"
+            to="/sustainability_recycling"
+          >
             <div class="img_recycle-w">
               <img alt="recycle" src="../assets/images/header/recycle.png" />
             </div>
@@ -313,10 +316,10 @@ export default class Nav extends Vue {}
               <img alt="recycle" src="../assets/images/header/recycle_b.png" />
             </div>
             <p>Sustainability & Recycling</p>
-          </a>
+          </router-link>
         </li>
         <li class="nav_list-item nav_list-item-location">
-          <a class="nav_list-item-link" href="./store_location">
+          <router-link class="nav_list-item-link" to="/store_location">
             <div class="img_location-w">
               <img alt="location" src="../assets/images/header/location.png" />
             </div>
@@ -324,10 +327,10 @@ export default class Nav extends Vue {}
               <img alt="professional" src="../assets/images/header/pro_b.png" />
             </div>
             <p>Store Locator</p>
-          </a>
+          </router-link>
         </li>
         <li class="nav_list-item nav_list-item-contact">
-          <a class="nav_list-item-link" href="./contact_us">
+          <router-link class="nav_list-item-link" to="/contact_us">
             <div class="img_contact-w">
               <img alt="contact" src="../assets/images/header/contact.png" />
             </div>
@@ -335,14 +338,14 @@ export default class Nav extends Vue {}
               <img alt="contact" src="../assets/images/header/contact_b.png" />
             </div>
             <p>Contact</p>
-          </a>
+          </router-link>
           <div class="list_item-submenu" id="list-sub-contact">
             <div class="list_item-submenu-inner">
               <div class="list_item-submenu-item">
                 <div>
-                  <a href="./contact_us">
+                  <router-link to="/contact_us">
                     <img src="../assets/images/service_2.png" alt="" />
-                  </a>
+                  </router-link>
                 </div>
                 <div class="list_item-submenu-content">
                   <p>FAQs</p>
@@ -384,7 +387,7 @@ export default class Nav extends Vue {}
           </div>
         </li>
         <li class="nav_list-item nav_list-item-professional">
-          <a class="nav_list-item-link" href="./professional">
+          <router-link class="nav_list-item-link" to="/professional">
             <div class="img_professional-w">
               <img alt="professional" src="../assets/images/header/pro.png" />
             </div>
@@ -395,7 +398,7 @@ export default class Nav extends Vue {}
               />
             </div>
             <p>Professional</p>
-          </a>
+          </router-link>
         </li>
       </ul>
     </div>

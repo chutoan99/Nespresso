@@ -153,12 +153,12 @@ export default defineComponent({
               <div class="product-list">
                 <div class="product-item">
                   <div class="product-image">
-                    <a href="./accessories_detail">
+                    <router-link to="/accessories_detail">
                       <img
                         src="../assets/images/accessories/accessories-1.png"
                         alt=""
                       />
-                    </a>
+                    </router-link>
                     <p class="product-name">MILANO TOUCH GOLDEN TRAVEL MUG</p>
                   </div>
                   <div class="product-content">
@@ -185,12 +185,12 @@ export default defineComponent({
 
                 <div class="product-item">
                   <div class="product-image">
-                    <a href="./accessories_detail">
+                    <router-link to="/accessories_detail">
                       <img
                         src="../assets/images/accessories/accessories-2.png"
                         alt=""
                       />
-                    </a>
+                    </router-link>
                     <p class="product-name">
                       ISPIRAZIONE ITALIANO ESPRESSO SET
                     </p>
@@ -228,12 +228,12 @@ export default defineComponent({
               <div class="product-list">
                 <div class="product-item">
                   <div class="product-image">
-                    <a href="./accessories_detail">
+                    <router-link to="/accessories_detail">
                       <img
                         src="../assets/images/accessories/accessories-3.png"
                         alt="MILANO TOUCH GOLDEN TRAVEL MUG"
                       />
-                    </a>
+                    </router-link>
                     <p class="product-name">MILANO TOUCH GOLDEN TRAVEL MUG</p>
                   </div>
                   <div class="product-content">
@@ -269,12 +269,12 @@ export default defineComponent({
               <div class="product-list">
                 <div class="product-item">
                   <div class="product-image">
-                    <a href="./accessories_detail">
+                    <router-link to="/accessories_detail">
                       <img
                         src="../assets/images/accessories/accessories-4.png"
                         alt="AEROCCINO 3"
                       />
-                    </a>
+                    </router-link>
                     <p class="product-name">AEROCCINO 3</p>
                   </div>
                   <div class="product-content">
@@ -301,12 +301,12 @@ export default defineComponent({
 
                 <div class="product-item">
                   <div class="product-image">
-                    <a href="./accessories_detail">
+                    <router-link to="/accessories_detail">
                       <img
                         src="../assets/images/accessories/accessories-5.png"
                         alt="AEROCCINO 4"
                       />
-                    </a>
+                    </router-link>
                     <p class="product-name">AEROCCINO 4</p>
                   </div>
                   <div class="product-content">
@@ -342,12 +342,12 @@ export default defineComponent({
               <div class="product-list">
                 <div class="product-item">
                   <div class="product-image">
-                    <a href="./accessories_detail">
+                    <router-link to="/accessories_detail">
                       <img
                         src="../assets/images/accessories/accessories-6.png"
                         alt="LUME ESPRESSO CUPS X 2"
                       />
-                    </a>
+                    </router-link>
                     <p class="product-name">LUME ESPRESSO CUPS X 2</p>
                   </div>
                   <div class="product-content">
@@ -374,12 +374,12 @@ export default defineComponent({
 
                 <div class="product-item">
                   <div class="product-image">
-                    <a href="./accessories_detail">
+                    <router-link to="/accessories_detail">
                       <img
                         src="../assets/images/accessories/accessories-6.png"
                         alt="LUME ESPRESSO CUPS X 2"
                       />
-                    </a>
+                    </router-link>
                     <p class="product-name">LUME ESPRESSO CUPS X 2</p>
                   </div>
                   <div class="product-content">
@@ -406,12 +406,12 @@ export default defineComponent({
 
                 <div class="product-item">
                   <div class="product-image">
-                    <a href="./accessories_detail">
+                    <router-link to="/accessories_detail">
                       <img
                         src="../assets/images/accessories/accessories-6.png"
                         alt="LUME ESPRESSO CUPS X 2"
                       />
-                    </a>
+                    </router-link>
                     <p class="product-name">LUME ESPRESSO CUPS X 2</p>
                   </div>
                   <div class="product-content">
@@ -447,12 +447,12 @@ export default defineComponent({
               <div class="product-list">
                 <div class="product-item">
                   <div class="product-image">
-                    <a href="./accessories_detail">
+                    <router-link to="/accessories_detail">
                       <img
                         src="../assets/images/accessories/accessories-7.png"
                         alt="REVEAL ESPRESSO MILD GLASSES"
                       />
-                    </a>
+                    </router-link>
                     <p class="product-name">REVEAL ESPRESSO MILD GLASSES</p>
                   </div>
                   <div class="product-content">
@@ -479,12 +479,12 @@ export default defineComponent({
 
                 <div class="product-item">
                   <div class="product-image">
-                    <a href="./accessories_detail">
+                    <router-link to="/accessories_detail">
                       <img
                         src="../assets/images/accessories/accessories-8.png"
                         alt="REVEAL LUNGO"
                       />
-                    </a>
+                    </router-link>
                     <p class="product-name">REVEAL LUNGO</p>
                   </div>
                   <div class="product-content">
@@ -511,12 +511,12 @@ export default defineComponent({
 
                 <div class="product-item">
                   <div class="product-image">
-                    <a href="./accessories_detail">
+                    <router-link to="/accessories_detail">
                       <img
                         src="../assets/images/accessories/accessories-7.png"
                         alt="REVEAL ESPRESSO INTENSE GLASSES"
                       />
-                    </a>
+                    </router-link>
                     <p class="product-name">REVEAL ESPRESSO INTENSE GLASSES</p>
                   </div>
                   <div class="product-content">
@@ -552,12 +552,12 @@ export default defineComponent({
               <div class="product-list">
                 <div class="product-item">
                   <div class="product-image">
-                    <a href="./accessories_detail">
+                    <router-link to="/accessories_detail">
                       <img
                         src="../assets/images/accessories/accessories-9.png"
                         alt="DESCALING KIT"
                       />
-                    </a>
+                    </router-link>
                     <p class="product-name">DESCALING KIT</p>
                   </div>
                   <div class="product-content">
@@ -593,12 +593,12 @@ export default defineComponent({
               <div class="product-list">
                 <div class="product-item">
                   <div class="product-image">
-                    <a href="./accessories_detail">
+                    <router-link to="/accessories_detail">
                       <img
                         src="../assets/images/accessories/accessories-10.png"
                         alt="NUDE ESPRESSO CUPS X 2 (80ML)"
                       />
-                    </a>
+                    </router-link>
                     <p class="product-name">NUDE ESPRESSO CUPS X 2 (80ML)</p>
                   </div>
                   <div class="product-content">
@@ -625,12 +625,12 @@ export default defineComponent({
 
                 <div class="product-item">
                   <div class="product-image">
-                    <a href="./accessories_detail">
+                    <router-link to="/accessories_detail">
                       <img
                         src="../assets/images/accessories/accessories-11.png"
                         alt="NUDE LUNGO CUPS X 2 (180ML)"
                       />
-                    </a>
+                    </router-link>
                     <p class="product-name">NUDE LUNGO CUPS X 2 (180ML)</p>
                   </div>
                   <div class="product-content">
@@ -657,12 +657,12 @@ export default defineComponent({
 
                 <div class="product-item">
                   <div class="product-image">
-                    <a href="./accessories_detail">
+                    <router-link to="/accessories_detail">
                       <img
                         src="../assets/images/accessories/accessories-12.png"
                         alt="NUDE GRAN LUNGO CUPS X 2 (270ML)"
                       />
-                    </a>
+                    </router-link>
                     <p class="product-name">NUDE GRAN LUNGO CUPS X 2 (270ML)</p>
                   </div>
                   <div class="product-content">
@@ -689,12 +689,12 @@ export default defineComponent({
 
                 <div class="product-item">
                   <div class="product-image">
-                    <a href="./accessories_detail">
+                    <router-link to="/accessories_detail">
                       <img
                         src="../assets/images/accessories/accessories-13.png"
                         alt="NUDE MUGS X 2 (390ML)"
                       />
-                    </a>
+                    </router-link>
                     <p class="product-name">NUDE MUGS X 2 (390ML)</p>
                   </div>
                   <div class="product-content">
@@ -730,12 +730,12 @@ export default defineComponent({
               <div class="product-list">
                 <div class="product-item">
                   <div class="product-image">
-                    <a href="./accessories_detail">
+                    <router-link to="/accessories_detail">
                       <img
                         src="../assets/images/accessories/accessories-14.png"
                         alt="PIXIE ESPRESSO SET (RISTRETTO & DECAFFEINATO)"
                       />
-                    </a>
+                    </router-link>
                     <p class="product-name">
                       PIXIE ESPRESSO SET (RISTRETTO & DECAFFEINATO)
                     </p>
@@ -764,12 +764,12 @@ export default defineComponent({
 
                 <div class="product-item">
                   <div class="product-image">
-                    <a href="./accessories_detail">
+                    <router-link to="/accessories_detail">
                       <img
                         src="../assets/images/accessories/accessories-15.png"
                         alt="PIXIE ESPRESSO SET (ARPEGGIO & VOLLUTO)"
                       />
-                    </a>
+                    </router-link>
                     <p class="product-name">
                       PIXIE ESPRESSO SET (ARPEGGIO & VOLLUTO)
                     </p>
@@ -798,12 +798,12 @@ export default defineComponent({
 
                 <div class="product-item">
                   <div class="product-image">
-                    <a href="./accessories_detail">
+                    <router-link to="/accessories_detail">
                       <img
                         src="../assets/images/accessories/accessories-16.png"
                         alt="PIXIE LUNGO SET (ENVIVO & LINIZIO)"
                       />
-                    </a>
+                    </router-link>
                     <p class="product-name">
                       PIXIE LUNGO SET (ENVIVO & LINIZIO)
                     </p>
@@ -832,12 +832,12 @@ export default defineComponent({
 
                 <div class="product-item">
                   <div class="product-image">
-                    <a href="./accessories_detail">
+                    <router-link to="/accessories_detail">
                       <img
                         src="../assets/images/accessories/accessories-17.png"
                         alt="PIXIE LUNGO SET (BUENOS AIRES & SHANGHAI)"
                       />
-                    </a>
+                    </router-link>
                     <p class="product-name">
                       PIXIE LUNGO SET (BUENOS AIRES & SHANGHAI)
                     </p>
@@ -866,12 +866,12 @@ export default defineComponent({
 
                 <div class="product-item">
                   <div class="product-image">
-                    <a href="./accessories_detail">
+                    <router-link to="/accessories_detail">
                       <img
                         src="../assets/images/accessories/accessories-18.png"
                         alt="PIXIE LUNGO SET (FORTISSIO & VIVALTO)"
                       />
-                    </a>
+                    </router-link>
                     <p class="product-name">
                       PIXIE LUNGO SET (FORTISSIO & VIVALTO)
                     </p>
@@ -900,12 +900,12 @@ export default defineComponent({
 
                 <div class="product-item">
                   <div class="product-image">
-                    <a href="./accessories_detail">
+                    <router-link to="/accessories_detail">
                       <img
                         src="../assets/images/accessories/accessories-19.png"
                         alt="PIXIE ESPRESSO CUP, RIO DE JANEIRO"
                       />
-                    </a>
+                    </router-link>
                     <p class="product-name">
                       PIXIE ESPRESSO CUP, RIO DE JANEIRO
                     </p>
@@ -934,12 +934,12 @@ export default defineComponent({
 
                 <div class="product-item">
                   <div class="product-image">
-                    <a href="./accessories_detail">
+                    <router-link to="/accessories_detail">
                       <img
                         src="../assets/images/accessories/accessories-20.png"
                         alt="PIXIE ESPRESSO CUP, PARIS"
                       />
-                    </a>
+                    </router-link>
                     <p class="product-name">PIXIE ESPRESSO CUP, PARIS</p>
                   </div>
                   <div class="product-content">
@@ -966,12 +966,12 @@ export default defineComponent({
 
                 <div class="product-item">
                   <div class="product-image">
-                    <a href="./accessories_detail">
+                    <router-link to="/accessories_detail">
                       <img
                         src="../assets/images/accessories/accessories-21.png"
                         alt="PIXIE ESPRESSO CUP, ISTANBUL"
                       />
-                    </a>
+                    </router-link>
                     <p class="product-name">PIXIE ESPRESSO CUP, ISTANBUL</p>
                   </div>
                   <div class="product-content">
@@ -1007,12 +1007,12 @@ export default defineComponent({
               <div class="product-list">
                 <div class="product-item">
                   <div class="product-image">
-                    <a href="./accessories_detail">
+                    <router-link to="/accessories_detail">
                       <img
                         src="../assets/images/accessories/accessories-22.png"
                         alt="DISPLAY DISCOVERY BOX"
                       />
-                    </a>
+                    </router-link>
                     <p class="product-name">DISPLAY DISCOVERY BOX</p>
                   </div>
                   <div class="product-content">
@@ -1039,12 +1039,12 @@ export default defineComponent({
 
                 <div class="product-item">
                   <div class="product-image">
-                    <a href="./accessories_detail">
+                    <router-link to="/accessories_detail">
                       <img
                         src="../assets/images/accessories/accessories-23.png"
                         alt="DISPLAY BONBONNIERE CAPSULE DISPENSER"
                       />
-                    </a>
+                    </router-link>
                     <p class="product-name">
                       DISPLAY BONBONNIERE CAPSULE DISPENSER
                     </p>
@@ -1073,12 +1073,12 @@ export default defineComponent({
 
                 <div class="product-item">
                   <div class="product-image">
-                    <a href="./accessories_detail">
+                    <router-link to="/accessories_detail">
                       <img
                         src="../assets/images/accessories/accessories-24.png"
                         alt="DISPLAY CUBE CAPSULE DISPENSER"
                       />
-                    </a>
+                    </router-link>
                     <p class="product-name">DISPLAY CUBE CAPSULE DISPENSER</p>
                   </div>
                   <div class="product-content">
@@ -1105,12 +1105,12 @@ export default defineComponent({
 
                 <div class="product-item">
                   <div class="product-image">
-                    <a href="./accessories_detail">
+                    <router-link to="/accessories_detail">
                       <img
                         src="../assets/images/accessories/accessories-25.png"
                         alt="DISPLAY VERSILO CAPSULE DISPENSER"
                       />
-                    </a>
+                    </router-link>
                     <p class="product-name">
                       DISPLAY VERSILO CAPSULE DISPENSER
                     </p>
@@ -1139,12 +1139,12 @@ export default defineComponent({
 
                 <div class="product-item">
                   <div class="product-image">
-                    <a href="./accessories_detail">
+                    <router-link to="/accessories_detail">
                       <img
                         src="../assets/images/accessories/accessories-26.png"
                         alt="DISPLAY PURE ROCK CAPSULE DISPENSER"
                       />
-                    </a>
+                    </router-link>
                     <p class="product-name">
                       DISPLAY PURE ROCK CAPSULE DISPENSER
                     </p>
@@ -1173,12 +1173,12 @@ export default defineComponent({
 
                 <div class="product-item">
                   <div class="product-image">
-                    <a href="./accessories_detail">
+                    <router-link to="/accessories_detail">
                       <img
                         src="../assets/images/accessories/accessories-27.png"
                         alt="DISPLAY MIA CAPSULE DISPENSER"
                       />
-                    </a>
+                    </router-link>
                     <p class="product-name">DISPLAY MIA CAPSULE DISPENSER</p>
                   </div>
                   <div class="product-content">
@@ -1214,12 +1214,12 @@ export default defineComponent({
               <div class="product-list">
                 <div class="product-item">
                   <div class="product-image">
-                    <a href="./accessories_detail">
+                    <router-link to="/accessories_detail">
                       <img
                         src="../assets/images/accessories/accessories-28.png"
                         alt="ICE CUBE TRAYS KIT"
                       />
-                    </a>
+                    </router-link>
                     <p class="product-name">ICE CUBE TRAYS KIT</p>
                   </div>
                   <div class="product-content">
@@ -1255,12 +1255,12 @@ export default defineComponent({
               <div class="product-list">
                 <div class="product-item">
                   <div class="product-image">
-                    <a href="./accessories_detail">
+                    <router-link to="/accessories_detail">
                       <img
                         src="../assets/images/accessories/accessories-29.png"
                         alt="RECYCLAY ESPRESSO CUPS"
                       />
-                    </a>
+                    </router-link>
                     <p class="product-name">RECYCLAY ESPRESSO CUPS</p>
                   </div>
                   <div class="product-content">
@@ -1296,12 +1296,12 @@ export default defineComponent({
               <div class="product-list">
                 <div class="product-item">
                   <div class="product-image">
-                    <a href="./accessories_detail">
+                    <router-link to="/accessories_detail">
                       <img
                         src="../assets/images/accessories/accessories-30.png"
                         alt="VIEW CAPPUCCINO SET"
                       />
-                    </a>
+                    </router-link>
                     <p class="product-name">VIEW CAPPUCCINO SET</p>
                   </div>
                   <div class="product-content">
@@ -1328,12 +1328,12 @@ export default defineComponent({
 
                 <div class="product-item">
                   <div class="product-image">
-                    <a href="./accessories_detail">
+                    <router-link to="/accessories_detail">
                       <img
                         src="../assets/images/accessories/accessories-31.png"
                         alt="VIEW RECIPE GLASSES SET"
                       />
-                    </a>
+                    </router-link>
                     <p class="product-name">VIEW RECIPE GLASSES SET</p>
                   </div>
                   <div class="product-content">
@@ -1360,12 +1360,12 @@ export default defineComponent({
 
                 <div class="product-item">
                   <div class="product-image">
-                    <a href="./accessories_detail">
+                    <router-link to="/accessories_detail">
                       <img
                         src="../assets/images/accessories/accessories-32.png"
                         alt="VIEW SPOONS – LARGE X 6"
                       />
-                    </a>
+                    </router-link>
                     <p class="product-name">VIEW SPOONS – LARGE X 6</p>
                   </div>
                   <div class="product-content">
@@ -1392,12 +1392,12 @@ export default defineComponent({
 
                 <div class="product-item">
                   <div class="product-image">
-                    <a href="./accessories_detail">
+                    <router-link to="/accessories_detail">
                       <img
                         src="../assets/images/accessories/accessories-33.png"
                         alt="VIEW GRAN LUNGO"
                       />
-                    </a>
+                    </router-link>
                     <p class="product-name">VIEW GRAN LUNGO</p>
                   </div>
                   <div class="product-content">
@@ -1424,12 +1424,12 @@ export default defineComponent({
 
                 <div class="product-item">
                   <div class="product-image">
-                    <a href="./accessories_detail">
+                    <router-link to="/accessories_detail">
                       <img
                         src="../assets/images/accessories/accessories-34.png"
                         alt="VIEW ESPRESSO SET X 2"
                       />
-                    </a>
+                    </router-link>
                     <p class="product-name">VIEW ESPRESSO SET X 2</p>
                   </div>
                   <div class="product-content">
@@ -1456,12 +1456,12 @@ export default defineComponent({
 
                 <div class="product-item">
                   <div class="product-image">
-                    <a href="./accessories_detail">
+                    <router-link to="/accessories_detail">
                       <img
                         src="../assets/images/accessories/accessories-35.png"
                         alt="VIEW LUNGO SET X 2"
                       />
-                    </a>
+                    </router-link>
                     <p class="product-name">VIEW LUNGO SET X 2</p>
                   </div>
                   <div class="product-content">
@@ -1488,12 +1488,12 @@ export default defineComponent({
 
                 <div class="product-item">
                   <div class="product-image">
-                    <a href="./accessories_detail">
+                    <router-link to="/accessories_detail">
                       <img
                         src="../assets/images/accessories/accessories-36.png"
                         alt="VIEW RECIPE GLASSES – 12 PIECES"
                       />
-                    </a>
+                    </router-link>
                     <p class="product-name">VIEW RECIPE GLASSES – 12 PIECES</p>
                   </div>
                   <div class="product-content">
@@ -1529,12 +1529,12 @@ export default defineComponent({
               <div class="product-list">
                 <div class="product-item">
                   <div class="product-image">
-                    <a href="./accessories_detail">
+                    <router-link to="/accessories_detail">
                       <img
                         src="../assets/images/accessories/accessories-37.png"
                         alt="NOMAD TRAVEL MUG BLOOMING ROSE"
                       />
-                    </a>
+                    </router-link>
                     <p class="product-name">NOMAD TRAVEL MUG BLOOMING ROSE</p>
                   </div>
                   <div class="product-content">
@@ -1561,12 +1561,12 @@ export default defineComponent({
 
                 <div class="product-item">
                   <div class="product-image">
-                    <a href="./accessories_detail">
+                    <router-link to="/accessories_detail">
                       <img
                         src="../assets/images/accessories/accessories-38.png"
                         alt="NOMAD TRAVEL MUG OCEAN BLUE"
                       />
-                    </a>
+                    </router-link>
                     <p class="product-name">NOMAD TRAVEL MUG OCEAN BLUE</p>
                   </div>
                   <div class="product-content">
@@ -1593,12 +1593,12 @@ export default defineComponent({
 
                 <div class="product-item">
                   <div class="product-image">
-                    <a href="./accessories_detail">
+                    <router-link to="/accessories_detail">
                       <img
                         src="../assets/images/accessories/accessories-39.png"
                         alt="NOMAD TRAVEL MUG LATTE"
                       />
-                    </a>
+                    </router-link>
                     <p class="product-name">NOMAD TRAVEL MUG LATTE</p>
                   </div>
                   <div class="product-content">
@@ -1625,12 +1625,12 @@ export default defineComponent({
 
                 <div class="product-item">
                   <div class="product-image">
-                    <a href="./accessories_detail">
+                    <router-link to="/accessories_detail">
                       <img
                         src="../assets/images/accessories/accessories-40.png"
                         alt="NOMAD BOTTLE"
                       />
-                    </a>
+                    </router-link>
                     <p class="product-name">NOMAD BOTTLE</p>
                   </div>
                   <div class="product-content">
@@ -1657,12 +1657,12 @@ export default defineComponent({
 
                 <div class="product-item">
                   <div class="product-image">
-                    <a href="./accessories_detail">
+                    <router-link to="/accessories_detail">
                       <img
                         src="../assets/images/accessories/accessories-41.png"
                         alt="NOMAD TRAVEL MUG RASPBERRY"
                       />
-                    </a>
+                    </router-link>
                     <p class="product-name">NOMAD TRAVEL MUG RASPBERRY</p>
                   </div>
                   <div class="product-content">
@@ -1689,12 +1689,12 @@ export default defineComponent({
 
                 <div class="product-item">
                   <div class="product-image">
-                    <a href="./accessories_detail">
+                    <router-link to="/accessories_detail">
                       <img
                         src="../assets/images/accessories/accessories-35.png"
                         alt="VIEW LUNGO SET X 2"
                       />
-                    </a>
+                    </router-link>
                     <p class="product-name">VIEW LUNGO SET X 2</p>
                   </div>
                   <div class="product-content">

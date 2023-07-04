@@ -59,9 +59,9 @@ export default class Footer extends Vue {}
               </svg>
             </h3>
             <div class="footer_main-content">
-              <a href="./coffee">Coffee</a>
-              <a href="./machines">Machines</a>
-              <a href="./accessories">Accessories</a>
+              <router-link to="/coffee">Coffee</router-link>
+              <router-link to="/machines">Machines</router-link>
+              <router-link to="/accessories">Accessories</router-link>
             </div>
           </div>
           <div class="footer_main-inner">
@@ -106,7 +106,10 @@ export default class Footer extends Vue {}
               </svg>
             </h3>
             <div class="footer_main-content">
-              <p>Share your Nespresso Experience <a href="#"> here. </a></p>
+              <p>
+                Share your Nespresso Experience
+                <router-link to=""> here. </router-link>
+              </p>
             </div>
           </div>
           <div class="footer_main-inner">
@@ -167,33 +170,45 @@ export default class Footer extends Vue {}
           <div class="footer_language-menu-right">
             <ul class="language-menu-list">
               <li class="language-menu-item">
-                <a href="./about_us" class="language-menu-item-link"> ABOUT </a>
+                <router-link to="/about_us" class="language-menu-item-link">
+                  ABOUT
+                </router-link>
               </li>
               <li class="language-menu-item">
-                <a href="#" class="language-menu-item-link"> LEGAL </a>
+                <router-link to="" class="language-menu-item-link">
+                  LEGAL
+                </router-link>
               </li>
               <li class="language-menu-item">
-                <a href="./condition_of_sale" class="language-menu-item-link">
+                <router-link
+                  to="/condition_of_sale"
+                  class="language-menu-item-link"
+                >
                   CONDITION OF SALE
-                </a>
+                </router-link>
               </li>
               <li class="language-menu-item">
-                <a href="./contact_us" class="language-menu-item-link">
+                <router-link to="/contact_us" class="language-menu-item-link">
                   CONTACT US
-                </a>
+                </router-link>
               </li>
               <li class="language-menu-item">
-                <a href="./professional" class="language-menu-item-link">
+                <router-link to="/professional" class="language-menu-item-link">
                   PROFESSIONAL
-                </a>
+                </router-link>
               </li>
               <li class="language-menu-item">
-                <a href="./faq" class="language-menu-item-link"> FAQ </a>
+                <router-link to="/faq" class="language-menu-item-link">
+                  FAQ
+                </router-link>
               </li>
               <li class="language-menu-item">
-                <a href="./privacy_policy" class="language-menu-item-link">
+                <router-link
+                  to="/privacy_policy"
+                  class="language-menu-item-link"
+                >
                   PRIVACY POLICY
-                </a>
+                </router-link>
               </li>
             </ul>
           </div>
@@ -260,7 +275,7 @@ export default class Footer extends Vue {}
               </svg>
             </div>
           </div>
-          <a href="#" class="footer_bottom-inner-frame on_top-page">
+          <router-link to="" class="footer_bottom-inner-frame on_top-page">
             <h3 class="bottom_frame-topPage">Top of the page</h3>
             <svg
               width="13"
@@ -274,7 +289,7 @@ export default class Footer extends Vue {}
                 fill="#17171A"
               />
             </svg>
-          </a>
+          </router-link>
           <div class="footer_bottom-inner-frame">
             <svg
               width="105"

@@ -41,7 +41,7 @@ export default defineComponent({
               yourself a cup and then head back to the Homepage?
             </p>
             <button class="caption-btn">
-              <a href="/"> GO TO HOMEPAGE </a>
+              <router-link to="/"> GO TO HOMEPAGE </router-link>
             </button>
           </div>
           <img src="../assets/images/page404/404.png" alt="404" />
@@ -58,12 +58,12 @@ export default defineComponent({
                   <div class="product-card-wrapper">
                     <span class="product-name">inissia</span>
                     <div class="product-image">
-                      <a href="./machines_detail">
+                      <router-link to="/machines_detail">
                         <img
                           src="../assets/images/page404/product_1.png"
                           alt=""
                         />
-                      </a>
+                      </router-link>
                     </div>
                     <span class="product-price">đ 16.5000</span>
                     <button class="product-btn">
@@ -95,9 +95,9 @@ export default defineComponent({
                   <div class="product-card-wrapper">
                     <span class="product-name">inissia</span>
                     <div class="product-image">
-                      <a href="./machines_detail">
+                      <router-link to="/machines_detail">
                         <img src="../assets/images/page404/404.png" alt="" />
-                      </a>
+                      </router-link>
                     </div>
                     <span class="product-price">đ 16.5000</span>
                     <button class="product-btn">
@@ -129,12 +129,12 @@ export default defineComponent({
                   <div class="product-card-wrapper">
                     <span class="product-name">inissia</span>
                     <div class="product-image">
-                      <a href="./machines_detail">
+                      <router-link to="/machines_detail">
                         <img
                           src="../assets/images/page404/product_1.png"
                           alt=""
                         />
-                      </a>
+                      </router-link>
                     </div>
                     <span class="product-price">đ 16.5000</span>
                     <button class="product-btn">
