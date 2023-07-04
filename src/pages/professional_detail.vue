@@ -62,7 +62,7 @@ export default defineComponent({
         <section class="product">
           <div class="container">
             <button class="product-link">
-              <a href="./professional.html">SEE ALL MACHINE</a>
+              <a href="./professional">SEE ALL MACHINE</a>
             </button>
 
             <div class="product-wrapper">

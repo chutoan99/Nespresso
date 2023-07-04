@@ -18,7 +18,7 @@ export default defineComponent({
       <header id="header" class="header">
         <div class="header_inner">
           <div class="header_logo">
-            <a href="./index.html">
+            <a href="/">
               <img
                 src="../assets/images/logoApp.png"
                 alt="logoApp"
@@ -390,13 +390,11 @@ export default defineComponent({
                           fill="#876C43"
                         />
                       </svg>
-                      <a href="./shoppingbag_step1.html">Back to basket</a>
+                      <a href="./shopping_step_1">Back to basket</a>
                     </div>
                     <div class="delivery_aside-footer-button">
                       <button>
-                        <a href="./shoppingbag_step3.html">
-                          PROCESS TO PAYMENT
-                        </a>
+                        <a href="./shopping_step_3"> PROCESS TO PAYMENT </a>
                         <svg
                           width="7"
                           height="13"

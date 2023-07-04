@@ -24,19 +24,15 @@ export default defineComponent({
       <!-- Navigation -->
       <section id="tabs">
         <div class="tabs">
-          <a
-            href="./sustainability-recycling.html"
-            class="tabs_heading tab_active"
+          <a href="./sustainability_recycling" class="tabs_heading tab_active"
             >COMMITMENT</a
           >
-          <a href="./bcorp-sustainability.html" class="tabs_heading">B CORP</a>
-          <a href="./circularity-sustainability.html" class="tabs_heading"
+          <a href="./sustainability_bcorp" class="tabs_heading">B CORP</a>
+          <a href="./sustainability_circularity" class="tabs_heading"
             >CIRCULARITY</a
           >
-          <a href="./climate-sustainability.html" class="tabs_heading"
-            >CLIMATE</a
-          >
-          <a href="./communities-sustainability.html" class="tabs_heading"
+          <a href="./sustainability_climate" class="tabs_heading">CLIMATE</a>
+          <a href="./sustainability_communities" class="tabs_heading"
             >COMMUNITY</a
           >
         </div>

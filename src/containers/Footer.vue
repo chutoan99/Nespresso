@@ -59,9 +59,9 @@ export default class Footer extends Vue {}
               </svg>
             </h3>
             <div class="footer_main-content">
-              <a href="./coffee.html">Coffee</a>
-              <a href="./machines.html">Machines</a>
-              <a href="./accessories.html">Accessories</a>
+              <a href="./coffee">Coffee</a>
+              <a href="./machines">Machines</a>
+              <a href="./accessories">Accessories</a>
             </div>
           </div>
           <div class="footer_main-inner">
@@ -167,36 +167,31 @@ export default class Footer extends Vue {}
           <div class="footer_language-menu-right">
             <ul class="language-menu-list">
               <li class="language-menu-item">
-                <a href="./about-us.html" class="language-menu-item-link">
-                  ABOUT
-                </a>
+                <a href="./about_us" class="language-menu-item-link"> ABOUT </a>
               </li>
               <li class="language-menu-item">
                 <a href="#" class="language-menu-item-link"> LEGAL </a>
               </li>
               <li class="language-menu-item">
-                <a
-                  href="./condition-of-sale.html"
-                  class="language-menu-item-link"
-                >
+                <a href="./condition_of_sale" class="language-menu-item-link">
                   CONDITION OF SALE
                 </a>
               </li>
               <li class="language-menu-item">
-                <a href="./contact-us.html" class="language-menu-item-link">
+                <a href="./contact_us" class="language-menu-item-link">
                   CONTACT US
                 </a>
               </li>
               <li class="language-menu-item">
-                <a href="./professional.html" class="language-menu-item-link">
+                <a href="./professional" class="language-menu-item-link">
                   PROFESSIONAL
                 </a>
               </li>
               <li class="language-menu-item">
-                <a href="./faq.html" class="language-menu-item-link"> FAQ </a>
+                <a href="./faq" class="language-menu-item-link"> FAQ </a>
               </li>
               <li class="language-menu-item">
-                <a href="./privacy-policy.html" class="language-menu-item-link">
+                <a href="./privacy_policy" class="language-menu-item-link">
                   PRIVACY POLICY
                 </a>
               </li>

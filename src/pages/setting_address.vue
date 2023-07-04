@@ -41,17 +41,13 @@ export default defineComponent({
                 class="setting_aside-select"
                 onchange="handleOptionChange(this)"
               >
-                <option data-content="./setting_order.html">My order</option>
-                <option data-content="./setting_info.html">
+                <option data-content="./setting_order">My order</option>
+                <option data-content="./setting_info">
                   My Personal Information
                 </option>
-                <option data-content="./setting_address.html">
-                  My Address
-                </option>
-                <option data-content="./setting_machine.html">
-                  My Machines
-                </option>
-                <option data-content="./setting_contact.html">
+                <option data-content="./setting_address">My Address</option>
+                <option data-content="./setting_machine">My Machines</option>
+                <option data-content="./setting_contact">
                   Contact Preferences
                 </option>
               </select>
@@ -83,10 +79,7 @@ export default defineComponent({
                       fill="#17171A"
                     />
                   </svg>
-                  <a
-                    href="./setting_order.html"
-                    class="setting_aside-item-link"
-                  >
+                  <a href="./setting_order" class="setting_aside-item-link">
                     My order</a
                   >
                 </li>
@@ -112,7 +105,7 @@ export default defineComponent({
                       fill="#17171A"
                     />
                   </svg>
-                  <a href="./setting_info.html" class="setting_aside-item-link">
+                  <a href="./setting_info" class="setting_aside-item-link">
                     My Personal Information</a
                   >
                 </li>
@@ -186,10 +179,7 @@ export default defineComponent({
                       fill="#17171A"
                     />
                   </svg>
-                  <a
-                    href="./setting_address.html"
-                    class="setting_aside-item-link"
-                  >
+                  <a href="./setting_address" class="setting_aside-item-link">
                     My Address</a
                   >
                 </li>
@@ -233,10 +223,7 @@ export default defineComponent({
                       fill="#17171A"
                     />
                   </svg>
-                  <a
-                    href="./setting_machine.html"
-                    class="setting_aside-item-link"
-                  >
+                  <a href="./setting_machine" class="setting_aside-item-link">
                     My Machines</a
                   >
                 </li>
@@ -263,10 +250,7 @@ export default defineComponent({
                       stroke-width="0.75"
                     />
                   </svg>
-                  <a
-                    href="./setting_contact.html"
-                    class="setting_aside-item-link"
-                  >
+                  <a href="./setting_contact" class="setting_aside-item-link">
                     Contact Preferences</a
                   >
                 </li>

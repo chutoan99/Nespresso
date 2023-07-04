@@ -41,7 +41,7 @@ export default defineComponent({
               yourself a cup and then head back to the Homepage?
             </p>
             <button class="caption-btn">
-              <a href="./index.html"> GO TO HOMEPAGE </a>
+              <a href="/"> GO TO HOMEPAGE </a>
             </button>
           </div>
           <img src="../assets/images/page404/404.png" alt="404" />
@@ -58,7 +58,7 @@ export default defineComponent({
                   <div class="product-card-wrapper">
                     <span class="product-name">inissia</span>
                     <div class="product-image">
-                      <a href="./machines-detail.html">
+                      <a href="./machines_detail">
                         <img
                           src="../assets/images/page404/product_1.png"
                           alt=""
@@ -95,7 +95,7 @@ export default defineComponent({
                   <div class="product-card-wrapper">
                     <span class="product-name">inissia</span>
                     <div class="product-image">
-                      <a href="./machines-detail.html">
+                      <a href="./machines_detail">
                         <img src="../assets/images/page404/404.png" alt="" />
                       </a>
                     </div>
@@ -129,7 +129,7 @@ export default defineComponent({
                   <div class="product-card-wrapper">
                     <span class="product-name">inissia</span>
                     <div class="product-image">
-                      <a href="./machines-detail.html">
+                      <a href="./machines_detail">
                         <img
                           src="../assets/images/page404/product_1.png"
                           alt=""

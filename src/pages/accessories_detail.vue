@@ -98,7 +98,7 @@ export default defineComponent({
           <div class="product-detail container">
             <div class="product-media">
               <button>
-                <a href="./accessories.html">SEE ALL COFFEES</a>
+                <a href="./accessories">SEE ALL COFFEES</a>
               </button>
               <div class="product-image">
                 <img

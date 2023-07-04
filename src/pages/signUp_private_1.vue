@@ -136,7 +136,7 @@ export default defineComponent({
                 </fieldset>
                 <div class="form_signUp-button">
                   <button>
-                    <a href="./signUp_comapny.html">Continue</a>
+                    <a href="./signUp_company">Continue</a>
                   </button>
                 </div>
               </form>

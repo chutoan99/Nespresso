@@ -244,7 +244,7 @@ export default defineComponent({
                 <span class="product-tag__name">PROMOTE</span>
               </div>
               <!-- Product Image -->
-              <a href="./machines-detail.html" class="product-image">
+              <a href="./machines_detail" class="product-image">
                 <img
                   src="../assets/images/machines/machines_1.png"
                   alt="ESSENZA MINI"
@@ -272,7 +272,7 @@ export default defineComponent({
 
               <!-- View More -->
               <div class="product-btn">
-                <a href="./machines-detail.html">VIEW MORE DETAILS </a>
+                <a href="./machines_detail">VIEW MORE DETAILS </a>
               </div>
             </div>
 
@@ -283,7 +283,7 @@ export default defineComponent({
                 <span class="product-tag__name">PROMOTE</span>
               </div>
               <!-- Product Image -->
-              <a href="./machines-detail.html" class="product-image">
+              <a href="./machines_detail" class="product-image">
                 <img
                   src="../assets/images/machines/machines_2.png"
                   alt="INISSIA"
@@ -311,7 +311,7 @@ export default defineComponent({
 
               <!-- View More -->
               <div class="product-btn">
-                <a href="./machines-detail.html">VIEW MORE DETAILS </a>
+                <a href="./machines_detail">VIEW MORE DETAILS </a>
               </div>
             </div>
 
@@ -322,7 +322,7 @@ export default defineComponent({
                 <span class="product-tag__name">PROMOTE</span>
               </div>
               <!-- Product Image -->
-              <a href="./machines-detail.html" class="product-image">
+              <a href="./machines_detail" class="product-image">
                 <img
                   src="../assets/images/machines/machines_3.png"
                   alt="ESSENZA PLUS"
@@ -350,7 +350,7 @@ export default defineComponent({
 
               <!-- View More -->
               <div class="product-btn">
-                <a href="./machines-detail.html">VIEW MORE DETAILS </a>
+                <a href="./machines_detail">VIEW MORE DETAILS </a>
               </div>
             </div>
 
@@ -361,7 +361,7 @@ export default defineComponent({
                 <span class="product-tag__name">PROMOTE</span>
               </div>
               <!-- Product Image -->
-              <a href="./machines-detail.html" class="product-image">
+              <a href="./machines_detail" class="product-image">
                 <img
                   src="../assets/images/machines/machines_4.png"
                   alt="PIXIE"
@@ -389,7 +389,7 @@ export default defineComponent({
 
               <!-- View More -->
               <div class="product-btn">
-                <a href="./machines-detail.html">VIEW MORE DETAILS </a>
+                <a href="./machines_detail">VIEW MORE DETAILS </a>
               </div>
             </div>
 
@@ -400,7 +400,7 @@ export default defineComponent({
                 <span class="product-tag__name">ONLINE EXCLUSUVE</span>
               </div>
               <!-- Product Image -->
-              <a href="./machines-detail.html" class="product-image">
+              <a href="./machines_detail" class="product-image">
                 <img
                   src="../assets/images/machines/machines_5.png"
                   alt="Essenza Mini Black & Aeroccino 3"
@@ -428,7 +428,7 @@ export default defineComponent({
 
               <!-- View More -->
               <div class="product-btn">
-                <a href="./machines-detail.html">VIEW MORE DETAILS </a>
+                <a href="./machines_detail">VIEW MORE DETAILS </a>
               </div>
             </div>
 
@@ -439,7 +439,7 @@ export default defineComponent({
                 <span class="product-tag__name">PROMOTE</span>
               </div>
               <!-- Product Image -->
-              <a href="./machines-detail.html" class="product-image">
+              <a href="./machines_detail" class="product-image">
                 <img
                   src="../assets/images/machines/machines_6.png"
                   alt="Essenza Mini Black & Aeroccino 3"
@@ -467,7 +467,7 @@ export default defineComponent({
 
               <!-- View More -->
               <div class="product-btn">
-                <a href="./machines-detail.html">VIEW MORE DETAILS </a>
+                <a href="./machines_detail">VIEW MORE DETAILS </a>
               </div>
             </div>
 
@@ -478,7 +478,7 @@ export default defineComponent({
                 <span class="product-tag__name">PROMOTE</span>
               </div>
               <!-- Product Image -->
-              <a href="./machines-detail.html" class="product-image">
+              <a href="./machines_detail" class="product-image">
                 <img
                   src="../assets/images/machines/machines_7.png"
                   alt="ESSENZA MINI WHITE & AEROCCINO 3"
@@ -506,7 +506,7 @@ export default defineComponent({
 
               <!-- View More -->
               <div class="product-btn">
-                <a href="./machines-detail.html">VIEW MORE DETAILS </a>
+                <a href="./machines_detail">VIEW MORE DETAILS </a>
               </div>
             </div>
 
@@ -517,7 +517,7 @@ export default defineComponent({
                 <span class="product-tag__name">PROMOTE</span>
               </div>
               <!-- Product Image -->
-              <a href="./machines-detail.html" class="product-image">
+              <a href="./machines_detail" class="product-image">
                 <img
                   src="../assets/images/machines/machines_8.png"
                   alt="Inissia Black & Aeroccino 3"
@@ -545,7 +545,7 @@ export default defineComponent({
 
               <!-- View More -->
               <div class="product-btn">
-                <a href="./machines-detail.html">VIEW MORE DETAILS </a>
+                <a href="./machines_detail">VIEW MORE DETAILS </a>
               </div>
             </div>
 
@@ -556,7 +556,7 @@ export default defineComponent({
                 <span class="product-tag__name">PROMOTE</span>
               </div>
               <!-- Product Image -->
-              <a href="./machines-detail.html" class="product-image">
+              <a href="./machines_detail" class="product-image">
                 <img
                   src="../assets/images/machines/machines_9.png"
                   alt="Inissia Red & Aeroccino 3"
@@ -584,7 +584,7 @@ export default defineComponent({
 
               <!-- View More -->
               <div class="product-btn">
-                <a href="./machines-detail.html">VIEW MORE DETAILS </a>
+                <a href="./machines_detail">VIEW MORE DETAILS </a>
               </div>
             </div>
 
@@ -595,7 +595,7 @@ export default defineComponent({
                 <span class="product-tag__name">PROMOTE</span>
               </div>
               <!-- Product Image -->
-              <a href="./machines-detail.html" class="product-image">
+              <a href="./machines_detail" class="product-image">
                 <img
                   src="../assets/images/machines/machines_10.png"
                   alt="Pixie Red & Aeroccino 3"
@@ -623,7 +623,7 @@ export default defineComponent({
 
               <!-- View More -->
               <div class="product-btn">
-                <a href="./machines-detail.html">VIEW MORE DETAILS </a>
+                <a href="./machines_detail">VIEW MORE DETAILS </a>
               </div>
             </div>
 
@@ -634,7 +634,7 @@ export default defineComponent({
                 <span class="product-tag__name">PROMOTE</span>
               </div>
               <!-- Product Image -->
-              <a href="./machines-detail.html" class="product-image">
+              <a href="./machines_detail" class="product-image">
                 <img
                   src="../assets/images/machines/machines_11.png"
                   alt="Pixie Titan & Aeroccino 3"
@@ -662,7 +662,7 @@ export default defineComponent({
 
               <!-- View More -->
               <div class="product-btn">
-                <a href="./machines-detail.html">VIEW MORE DETAILS </a>
+                <a href="./machines_detail">VIEW MORE DETAILS </a>
               </div>
             </div>
 
@@ -673,7 +673,7 @@ export default defineComponent({
                 <span class="product-tag__name">PROMOTE</span>
               </div>
               <!-- Product Image -->
-              <a href="./machines-detail.html" class="product-image">
+              <a href="./machines_detail" class="product-image">
                 <img
                   src="../assets/images/machines/machines_12.png"
                   alt="LATTISSIMA ONE"
@@ -701,7 +701,7 @@ export default defineComponent({
 
               <!-- View More -->
               <div class="product-btn">
-                <a href="./machines-detail.html">VIEW MORE DETAILS </a>
+                <a href="./machines_detail">VIEW MORE DETAILS </a>
               </div>
             </div>
 
@@ -712,7 +712,7 @@ export default defineComponent({
                 <span class="product-tag__name">PROMOTE</span>
               </div>
               <!-- Product Image -->
-              <a href="./machines-detail.html" class="product-image">
+              <a href="./machines_detail" class="product-image">
                 <img
                   src="../assets/images/machines/machines_13.png"
                   alt="GRAN LATTISSIMA"
@@ -740,7 +740,7 @@ export default defineComponent({
 
               <!-- View More -->
               <div class="product-btn">
-                <a href="./machines-detail.html">VIEW MORE DETAILS </a>
+                <a href="./machines_detail">VIEW MORE DETAILS </a>
               </div>
             </div>
           </div>

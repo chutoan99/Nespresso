@@ -43,7 +43,7 @@ export default defineComponent({
           <div class="container">
             <div class="product-main">
               <div class="product-media">
-                <a href="./coffee.html" class="product-link">
+                <a href="./coffee" class="product-link">
                   <span class="product-more">SEE ALL COFFEES</span>
                 </a>
                 <div class="product-image">

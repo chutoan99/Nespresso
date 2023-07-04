@@ -122,11 +122,10 @@ export default defineComponent({
                 <span class="signUp-footer__detail"
                   >By clicking the "CONTINUE" button, I declare I have read and
                   I agree with the
-                  <a href="./privacy-policy.html">Nespresso Privacy policy</a
-                  >.</span
+                  <a href="./privacy_policy">Nespresso Privacy policy</a>.</span
                 >
                 <button class="signUp-footer__btn">
-                  <a href="./signUp_private_1.html"> Continue </a>
+                  <a href="./signUp_private_1"> Continue </a>
                 </button>
               </div>
             </div>

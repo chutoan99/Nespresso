@@ -153,7 +153,7 @@ export default defineComponent({
               <div class="product-list">
                 <div class="product-item">
                   <div class="product-image">
-                    <a href="./accessories-detail.html">
+                    <a href="./accessories_detail">
                       <img
                         src="../assets/images/accessories/accessories-1.png"
                         alt=""
@@ -185,7 +185,7 @@ export default defineComponent({
 
                 <div class="product-item">
                   <div class="product-image">
-                    <a href="./accessories-detail.html">
+                    <a href="./accessories_detail">
                       <img
                         src="../assets/images/accessories/accessories-2.png"
                         alt=""
@@ -228,7 +228,7 @@ export default defineComponent({
               <div class="product-list">
                 <div class="product-item">
                   <div class="product-image">
-                    <a href="./accessories-detail.html">
+                    <a href="./accessories_detail">
                       <img
                         src="../assets/images/accessories/accessories-3.png"
                         alt="MILANO TOUCH GOLDEN TRAVEL MUG"
@@ -269,7 +269,7 @@ export default defineComponent({
               <div class="product-list">
                 <div class="product-item">
                   <div class="product-image">
-                    <a href="./accessories-detail.html">
+                    <a href="./accessories_detail">
                       <img
                         src="../assets/images/accessories/accessories-4.png"
                         alt="AEROCCINO 3"
@@ -301,7 +301,7 @@ export default defineComponent({
 
                 <div class="product-item">
                   <div class="product-image">
-                    <a href="./accessories-detail.html">
+                    <a href="./accessories_detail">
                       <img
                         src="../assets/images/accessories/accessories-5.png"
                         alt="AEROCCINO 4"
@@ -342,7 +342,7 @@ export default defineComponent({
               <div class="product-list">
                 <div class="product-item">
                   <div class="product-image">
-                    <a href="./accessories-detail.html">
+                    <a href="./accessories_detail">
                       <img
                         src="../assets/images/accessories/accessories-6.png"
                         alt="LUME ESPRESSO CUPS X 2"
@@ -374,7 +374,7 @@ export default defineComponent({
 
                 <div class="product-item">
                   <div class="product-image">
-                    <a href="./accessories-detail.html">
+                    <a href="./accessories_detail">
                       <img
                         src="../assets/images/accessories/accessories-6.png"
                         alt="LUME ESPRESSO CUPS X 2"
@@ -406,7 +406,7 @@ export default defineComponent({
 
                 <div class="product-item">
                   <div class="product-image">
-                    <a href="./accessories-detail.html">
+                    <a href="./accessories_detail">
                       <img
                         src="../assets/images/accessories/accessories-6.png"
                         alt="LUME ESPRESSO CUPS X 2"
@@ -447,7 +447,7 @@ export default defineComponent({
               <div class="product-list">
                 <div class="product-item">
                   <div class="product-image">
-                    <a href="./accessories-detail.html">
+                    <a href="./accessories_detail">
                       <img
                         src="../assets/images/accessories/accessories-7.png"
                         alt="REVEAL ESPRESSO MILD GLASSES"
@@ -479,7 +479,7 @@ export default defineComponent({
 
                 <div class="product-item">
                   <div class="product-image">
-                    <a href="./accessories-detail.html">
+                    <a href="./accessories_detail">
                       <img
                         src="../assets/images/accessories/accessories-8.png"
                         alt="REVEAL LUNGO"
@@ -511,7 +511,7 @@ export default defineComponent({
 
                 <div class="product-item">
                   <div class="product-image">
-                    <a href="./accessories-detail.html">
+                    <a href="./accessories_detail">
                       <img
                         src="../assets/images/accessories/accessories-7.png"
                         alt="REVEAL ESPRESSO INTENSE GLASSES"
@@ -552,7 +552,7 @@ export default defineComponent({
               <div class="product-list">
                 <div class="product-item">
                   <div class="product-image">
-                    <a href="./accessories-detail.html">
+                    <a href="./accessories_detail">
                       <img
                         src="../assets/images/accessories/accessories-9.png"
                         alt="DESCALING KIT"
@@ -593,7 +593,7 @@ export default defineComponent({
               <div class="product-list">
                 <div class="product-item">
                   <div class="product-image">
-                    <a href="./accessories-detail.html">
+                    <a href="./accessories_detail">
                       <img
                         src="../assets/images/accessories/accessories-10.png"
                         alt="NUDE ESPRESSO CUPS X 2 (80ML)"
@@ -625,7 +625,7 @@ export default defineComponent({
 
                 <div class="product-item">
                   <div class="product-image">
-                    <a href="./accessories-detail.html">
+                    <a href="./accessories_detail">
                       <img
                         src="../assets/images/accessories/accessories-11.png"
                         alt="NUDE LUNGO CUPS X 2 (180ML)"
@@ -657,7 +657,7 @@ export default defineComponent({
 
                 <div class="product-item">
                   <div class="product-image">
-                    <a href="./accessories-detail.html">
+                    <a href="./accessories_detail">
                       <img
                         src="../assets/images/accessories/accessories-12.png"
                         alt="NUDE GRAN LUNGO CUPS X 2 (270ML)"
@@ -689,7 +689,7 @@ export default defineComponent({
 
                 <div class="product-item">
                   <div class="product-image">
-                    <a href="./accessories-detail.html">
+                    <a href="./accessories_detail">
                       <img
                         src="../assets/images/accessories/accessories-13.png"
                         alt="NUDE MUGS X 2 (390ML)"
@@ -730,7 +730,7 @@ export default defineComponent({
               <div class="product-list">
                 <div class="product-item">
                   <div class="product-image">
-                    <a href="./accessories-detail.html">
+                    <a href="./accessories_detail">
                       <img
                         src="../assets/images/accessories/accessories-14.png"
                         alt="PIXIE ESPRESSO SET (RISTRETTO & DECAFFEINATO)"
@@ -764,7 +764,7 @@ export default defineComponent({
 
                 <div class="product-item">
                   <div class="product-image">
-                    <a href="./accessories-detail.html">
+                    <a href="./accessories_detail">
                       <img
                         src="../assets/images/accessories/accessories-15.png"
                         alt="PIXIE ESPRESSO SET (ARPEGGIO & VOLLUTO)"
@@ -798,7 +798,7 @@ export default defineComponent({
 
                 <div class="product-item">
                   <div class="product-image">
-                    <a href="./accessories-detail.html">
+                    <a href="./accessories_detail">
                       <img
                         src="../assets/images/accessories/accessories-16.png"
                         alt="PIXIE LUNGO SET (ENVIVO & LINIZIO)"
@@ -832,7 +832,7 @@ export default defineComponent({
 
                 <div class="product-item">
                   <div class="product-image">
-                    <a href="./accessories-detail.html">
+                    <a href="./accessories_detail">
                       <img
                         src="../assets/images/accessories/accessories-17.png"
                         alt="PIXIE LUNGO SET (BUENOS AIRES & SHANGHAI)"
@@ -866,7 +866,7 @@ export default defineComponent({
 
                 <div class="product-item">
                   <div class="product-image">
-                    <a href="./accessories-detail.html">
+                    <a href="./accessories_detail">
                       <img
                         src="../assets/images/accessories/accessories-18.png"
                         alt="PIXIE LUNGO SET (FORTISSIO & VIVALTO)"
@@ -900,7 +900,7 @@ export default defineComponent({
 
                 <div class="product-item">
                   <div class="product-image">
-                    <a href="./accessories-detail.html">
+                    <a href="./accessories_detail">
                       <img
                         src="../assets/images/accessories/accessories-19.png"
                         alt="PIXIE ESPRESSO CUP, RIO DE JANEIRO"
@@ -934,7 +934,7 @@ export default defineComponent({
 
                 <div class="product-item">
                   <div class="product-image">
-                    <a href="./accessories-detail.html">
+                    <a href="./accessories_detail">
                       <img
                         src="../assets/images/accessories/accessories-20.png"
                         alt="PIXIE ESPRESSO CUP, PARIS"
@@ -966,7 +966,7 @@ export default defineComponent({
 
                 <div class="product-item">
                   <div class="product-image">
-                    <a href="./accessories-detail.html">
+                    <a href="./accessories_detail">
                       <img
                         src="../assets/images/accessories/accessories-21.png"
                         alt="PIXIE ESPRESSO CUP, ISTANBUL"
@@ -1007,7 +1007,7 @@ export default defineComponent({
               <div class="product-list">
                 <div class="product-item">
                   <div class="product-image">
-                    <a href="./accessories-detail.html">
+                    <a href="./accessories_detail">
                       <img
                         src="../assets/images/accessories/accessories-22.png"
                         alt="DISPLAY DISCOVERY BOX"
@@ -1039,7 +1039,7 @@ export default defineComponent({
 
                 <div class="product-item">
                   <div class="product-image">
-                    <a href="./accessories-detail.html">
+                    <a href="./accessories_detail">
                       <img
                         src="../assets/images/accessories/accessories-23.png"
                         alt="DISPLAY BONBONNIERE CAPSULE DISPENSER"
@@ -1073,7 +1073,7 @@ export default defineComponent({
 
                 <div class="product-item">
                   <div class="product-image">
-                    <a href="./accessories-detail.html">
+                    <a href="./accessories_detail">
                       <img
                         src="../assets/images/accessories/accessories-24.png"
                         alt="DISPLAY CUBE CAPSULE DISPENSER"
@@ -1105,7 +1105,7 @@ export default defineComponent({
 
                 <div class="product-item">
                   <div class="product-image">
-                    <a href="./accessories-detail.html">
+                    <a href="./accessories_detail">
                       <img
                         src="../assets/images/accessories/accessories-25.png"
                         alt="DISPLAY VERSILO CAPSULE DISPENSER"
@@ -1139,7 +1139,7 @@ export default defineComponent({
 
                 <div class="product-item">
                   <div class="product-image">
-                    <a href="./accessories-detail.html">
+                    <a href="./accessories_detail">
                       <img
                         src="../assets/images/accessories/accessories-26.png"
                         alt="DISPLAY PURE ROCK CAPSULE DISPENSER"
@@ -1173,7 +1173,7 @@ export default defineComponent({
 
                 <div class="product-item">
                   <div class="product-image">
-                    <a href="./accessories-detail.html">
+                    <a href="./accessories_detail">
                       <img
                         src="../assets/images/accessories/accessories-27.png"
                         alt="DISPLAY MIA CAPSULE DISPENSER"
@@ -1214,7 +1214,7 @@ export default defineComponent({
               <div class="product-list">
                 <div class="product-item">
                   <div class="product-image">
-                    <a href="./accessories-detail.html">
+                    <a href="./accessories_detail">
                       <img
                         src="../assets/images/accessories/accessories-28.png"
                         alt="ICE CUBE TRAYS KIT"
@@ -1255,7 +1255,7 @@ export default defineComponent({
               <div class="product-list">
                 <div class="product-item">
                   <div class="product-image">
-                    <a href="./accessories-detail.html">
+                    <a href="./accessories_detail">
                       <img
                         src="../assets/images/accessories/accessories-29.png"
                         alt="RECYCLAY ESPRESSO CUPS"
@@ -1296,7 +1296,7 @@ export default defineComponent({
               <div class="product-list">
                 <div class="product-item">
                   <div class="product-image">
-                    <a href="./accessories-detail.html">
+                    <a href="./accessories_detail">
                       <img
                         src="../assets/images/accessories/accessories-30.png"
                         alt="VIEW CAPPUCCINO SET"
@@ -1328,7 +1328,7 @@ export default defineComponent({
 
                 <div class="product-item">
                   <div class="product-image">
-                    <a href="./accessories-detail.html">
+                    <a href="./accessories_detail">
                       <img
                         src="../assets/images/accessories/accessories-31.png"
                         alt="VIEW RECIPE GLASSES SET"
@@ -1360,7 +1360,7 @@ export default defineComponent({
 
                 <div class="product-item">
                   <div class="product-image">
-                    <a href="./accessories-detail.html">
+                    <a href="./accessories_detail">
                       <img
                         src="../assets/images/accessories/accessories-32.png"
                         alt="VIEW SPOONS – LARGE X 6"
@@ -1392,7 +1392,7 @@ export default defineComponent({
 
                 <div class="product-item">
                   <div class="product-image">
-                    <a href="./accessories-detail.html">
+                    <a href="./accessories_detail">
                       <img
                         src="../assets/images/accessories/accessories-33.png"
                         alt="VIEW GRAN LUNGO"
@@ -1424,7 +1424,7 @@ export default defineComponent({
 
                 <div class="product-item">
                   <div class="product-image">
-                    <a href="./accessories-detail.html">
+                    <a href="./accessories_detail">
                       <img
                         src="../assets/images/accessories/accessories-34.png"
                         alt="VIEW ESPRESSO SET X 2"
@@ -1456,7 +1456,7 @@ export default defineComponent({
 
                 <div class="product-item">
                   <div class="product-image">
-                    <a href="./accessories-detail.html">
+                    <a href="./accessories_detail">
                       <img
                         src="../assets/images/accessories/accessories-35.png"
                         alt="VIEW LUNGO SET X 2"
@@ -1488,7 +1488,7 @@ export default defineComponent({
 
                 <div class="product-item">
                   <div class="product-image">
-                    <a href="./accessories-detail.html">
+                    <a href="./accessories_detail">
                       <img
                         src="../assets/images/accessories/accessories-36.png"
                         alt="VIEW RECIPE GLASSES – 12 PIECES"
@@ -1529,7 +1529,7 @@ export default defineComponent({
               <div class="product-list">
                 <div class="product-item">
                   <div class="product-image">
-                    <a href="./accessories-detail.html">
+                    <a href="./accessories_detail">
                       <img
                         src="../assets/images/accessories/accessories-37.png"
                         alt="NOMAD TRAVEL MUG BLOOMING ROSE"
@@ -1561,7 +1561,7 @@ export default defineComponent({
 
                 <div class="product-item">
                   <div class="product-image">
-                    <a href="./accessories-detail.html">
+                    <a href="./accessories_detail">
                       <img
                         src="../assets/images/accessories/accessories-38.png"
                         alt="NOMAD TRAVEL MUG OCEAN BLUE"
@@ -1593,7 +1593,7 @@ export default defineComponent({
 
                 <div class="product-item">
                   <div class="product-image">
-                    <a href="./accessories-detail.html">
+                    <a href="./accessories_detail">
                       <img
                         src="../assets/images/accessories/accessories-39.png"
                         alt="NOMAD TRAVEL MUG LATTE"
@@ -1625,7 +1625,7 @@ export default defineComponent({
 
                 <div class="product-item">
                   <div class="product-image">
-                    <a href="./accessories-detail.html">
+                    <a href="./accessories_detail">
                       <img
                         src="../assets/images/accessories/accessories-40.png"
                         alt="NOMAD BOTTLE"
@@ -1657,7 +1657,7 @@ export default defineComponent({
 
                 <div class="product-item">
                   <div class="product-image">
-                    <a href="./accessories-detail.html">
+                    <a href="./accessories_detail">
                       <img
                         src="../assets/images/accessories/accessories-41.png"
                         alt="NOMAD TRAVEL MUG RASPBERRY"
@@ -1689,7 +1689,7 @@ export default defineComponent({
 
                 <div class="product-item">
                   <div class="product-image">
-                    <a href="./accessories-detail.html">
+                    <a href="./accessories_detail">
                       <img
                         src="../assets/images/accessories/accessories-35.png"
                         alt="VIEW LUNGO SET X 2"

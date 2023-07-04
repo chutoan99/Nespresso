@@ -34,7 +34,7 @@ export default class Header extends Vue {}
                   />
                 </div>
                 <div class="menu__item-content">
-                  <a class="menu__item" href="./coffee.html">Coffee</a>
+                  <a class="menu__item" href="./coffee">Coffee</a>
                   <div class="nav_icon">
                     <svg
                       width="7"
@@ -62,7 +62,7 @@ export default class Header extends Vue {}
                   />
                 </div>
                 <div class="menu__item-content">
-                  <a class="menu__item" href="./machines.html">Machine</a>
+                  <a class="menu__item" href="./machines">Machine</a>
                   <div class="nav_icon">
                     <svg
                       width="7"
@@ -90,9 +90,7 @@ export default class Header extends Vue {}
                   />
                 </div>
                 <div class="menu__item-content">
-                  <a class="menu__item" href="./accessories.html"
-                    >Acceessories</a
-                  >
+                  <a class="menu__item" href="./accessories">Acceessories</a>
                   <div class="nav_icon">
                     <svg
                       width="7"
@@ -120,9 +118,7 @@ export default class Header extends Vue {}
                   />
                 </div>
                 <div class="menu__item-content">
-                  <a class="menu__item" href="./benefits.html"
-                    >Nespresso Benefits</a
-                  >
+                  <a class="menu__item" href="./benefits">Nespresso Benefits</a>
 
                   <div class="nav_icon">
                     <svg
@@ -151,7 +147,7 @@ export default class Header extends Vue {}
                   />
                 </div>
                 <div class="menu__item-content">
-                  <a class="menu__item" href="./sustainability-recycling.html"
+                  <a class="menu__item" href="./sustainability_recycling"
                     >Sustainability & Recycling</a
                   >
 
@@ -182,7 +178,7 @@ export default class Header extends Vue {}
                   />
                 </div>
                 <div class="menu__item-content">
-                  <a class="menu__item" href="./service.html">Services</a>
+                  <a class="menu__item" href="./service">Services</a>
                   <div class="nav_icon">
                     <svg
                       width="7"
@@ -210,7 +206,7 @@ export default class Header extends Vue {}
                   />
                 </div>
                 <div class="menu__item-content">
-                  <a class="menu__item" href="./store-location.html"
+                  <a class="menu__item" href="./store_location"
                     >Store Locator</a
                   >
                   <div class="nav_icon">
@@ -240,7 +236,7 @@ export default class Header extends Vue {}
                   />
                 </div>
                 <div class="menu__item-content">
-                  <a class="menu__item" href="./contact-us.html">Contact</a>
+                  <a class="menu__item" href="./contact_us">Contact</a>
                   <div class="nav_icon">
                     <svg
                       width="7"
@@ -268,9 +264,7 @@ export default class Header extends Vue {}
                   />
                 </div>
                 <div class="menu__item-content">
-                  <a class="menu__item" href="./professional.html"
-                    >Professional</a
-                  >
+                  <a class="menu__item" href="./professional">Professional</a>
                   <div class="nav_icon">
                     <svg
                       width="7"
@@ -312,7 +306,7 @@ export default class Header extends Vue {}
             </ul>
           </div>
         </div>
-        <a href="./index.html">
+        <a href="/">
           <img
             src="../assets/images/logoApp.png"
             alt="logoApp"
@@ -509,39 +503,31 @@ export default class Header extends Vue {}
             <div class="dropdown_loggedIn">
               <ul class="dropdown_loggedIn-list">
                 <li class="dropdown_loggedIn-item">
-                  <a
-                    class="dropdown_loggedIn-item-link"
-                    href="./setting_info.html"
-                  >
+                  <a class="dropdown_loggedIn-item-link" href="./setting_info">
                     My account
                   </a>
                 </li>
                 <li class="dropdown_loggedIn-item">
-                  <a
-                    class="dropdown_loggedIn-item-link"
-                    href="./setting_order.html"
+                  <a class="dropdown_loggedIn-item-link" href="./setting_order"
                     >My Orders
                   </a>
                 </li>
                 <li class="dropdown_loggedIn-item">
-                  <a
-                    class="dropdown_loggedIn-item-link"
-                    href="./setting_info.html"
-                  >
+                  <a class="dropdown_loggedIn-item-link" href="./setting_info">
                     My Personal Information
                   </a>
                 </li>
                 <li class="dropdown_loggedIn-item">
                   <a
                     class="dropdown_loggedIn-item-link"
-                    href="./setting_address.html"
+                    href="./setting_address"
                     >My Address
                   </a>
                 </li>
                 <li class="dropdown_loggedIn-item">
                   <a
                     class="dropdown_loggedIn-item-link"
-                    href="./setting_machine.html"
+                    href="./setting_machine"
                   >
                     My Machines
                   </a>
@@ -549,7 +535,7 @@ export default class Header extends Vue {}
                 <li class="dropdown_loggedIn-item">
                   <a
                     class="dropdown_loggedIn-item-link"
-                    href="./setting_contact.html"
+                    href="./setting_contact"
                   >
                     Contact Preferences
                   </a>
@@ -655,7 +641,7 @@ export default class Header extends Vue {}
                     >
                   </div>
                   <button class="modalCart_btn">
-                    <a href="./shoppingbag_step1.html">GO TO SHOPPING BAG</a>
+                    <a href="./shopping_step_1">GO TO SHOPPING BAG</a>
                   </button>
                 </div>
                 <!--end add order -->

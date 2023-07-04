@@ -310,7 +310,7 @@ export default defineComponent({
             id="professional_slide-list"
             style="padding-bottom: 3.75rem"
           >
-            <a href="./professional-machines-detail.html">
+            <a href="./professional_detail">
               <div class="professional_slide-wrapper-img">
                 <img
                   src="../assets/images/professional/slide1.png"
@@ -323,7 +323,7 @@ export default defineComponent({
               </p>
             </a>
 
-            <a href="./professional-machines-detail.html">
+            <a href="./professional_detail">
               <div class="professional_slide-wrapper-img">
                 <img
                   src="../assets/images/professional/slide2.png"
@@ -336,7 +336,7 @@ export default defineComponent({
               </p>
             </a>
 
-            <a href="./professional-machines-detail.html">
+            <a href="./professional_detail">
               <div class="professional_slide-wrapper-img">
                 <img
                   src="../assets/images/professional/slide3.png"
@@ -348,7 +348,7 @@ export default defineComponent({
               </p>
             </a>
 
-            <a href="./professional-machines-detail.html">
+            <a href="./professional_detail">
               <div class="professional_slide-wrapper-img">
                 <img
                   src="../assets/images/professional/slide4.png"
@@ -358,7 +358,7 @@ export default defineComponent({
               <p class="professional_slide-name">Zenius</p>
             </a>
 
-            <a href="./professional-machines-detail.html">
+            <a href="./professional_detail">
               <div class="professional_slide-wrapper-img">
                 <img
                   src="../assets/images/professional/slide5.png"
@@ -370,7 +370,7 @@ export default defineComponent({
               </p>
             </a>
 
-            <a href="./professional-machines-detail.html">
+            <a href="./professional_detail">
               <div class="professional_slide-wrapper-img">
                 <img
                   src="../assets/images/professional/slide1.png"
@@ -382,7 +382,7 @@ export default defineComponent({
               </p>
             </a>
 
-            <a href="./professional-machines-detail.html">
+            <a href="./professional_detail">
               <div class="professional_slide-wrapper-img">
                 <img
                   src="../assets/images/professional/slide2.png"
@@ -394,7 +394,7 @@ export default defineComponent({
               </p>
             </a>
 
-            <a href="./professional-machines-detail.html">
+            <a href="./professional_detail">
               <div class="professional_slide-wrapper-img">
                 <img
                   src="../assets/images/professional/slide3.png"
@@ -406,7 +406,7 @@ export default defineComponent({
               </p>
             </a>
 
-            <a href="./professional-machines-detail.html">
+            <a href="./professional_detail">
               <div class="professional_slide-wrapper-img">
                 <img
                   src="../assets/images/professional/slide4.png"
@@ -416,7 +416,7 @@ export default defineComponent({
               <p class="professional_slide-name">Zenius</p>
             </a>
 
-            <a href="./professional-machines-detail.html">
+            <a href="./professional_detail">
               <div class="professional_slide-wrapper-img">
                 <img
                   src="../assets/images/professional/slide5.png"

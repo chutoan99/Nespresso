@@ -18,7 +18,7 @@ export default defineComponent({
       <header id="header" class="header">
         <div class="header_inner">
           <div class="header_logo">
-            <a href="./index.html">
+            <a href="/">
               <img
                 src="../assets/images/logoApp.png"
                 alt="logoApp"
@@ -224,7 +224,7 @@ export default defineComponent({
                         fill="#876C43"
                       />
                     </svg>
-                    <a href="./index.html#overlay">Back to the online shop</a>
+                    <a href="/#overlay">Back to the online shop</a>
                   </div>
 
                   <div class="shopping_content-label">PROMOTION CODE</div>
@@ -250,9 +250,7 @@ export default defineComponent({
 
                   <div class="shopping_button">
                     <button>
-                      <a href="./shoppingbag_step2.html">
-                        PROCESS TO CHECKOUT
-                      </a>
+                      <a href="./signUp_private_2"> PROCESS TO CHECKOUT </a>
                       <svg
                         width="7"
                         height="13"
@@ -297,7 +295,7 @@ export default defineComponent({
                 <div class="product-list">
                   <div class="product-item">
                     <div class="product-image">
-                      <a href="./accessories-detail.html">
+                      <a href="./accessories_detail">
                         <img
                           src="../assets/images/shopping_bag/image_8.png"
                           alt="REVEAL ESPRESSO MILD GLASSES"
@@ -315,7 +313,7 @@ export default defineComponent({
 
                   <div class="product-item">
                     <div class="product-image">
-                      <a href="./accessories-detail.html">
+                      <a href="./accessories_detail">
                         <img
                           src="../assets/images/shopping_bag/image_8.png"
                           alt="REVEAL LUNGO"
@@ -333,7 +331,7 @@ export default defineComponent({
 
                   <div class="product-item">
                     <div class="product-image">
-                      <a href="./accessories-detail.html">
+                      <a href="./accessories_detail">
                         <img
                           src="../assets/images/shopping_bag/image_8.png"
                           alt="REVEAL ESPRESSO INTENSE GLASSES"

@@ -9,7 +9,7 @@ export default class HeaderCustom extends Vue {}
   <header id="header" class="header">
     <div class="header_inner">
       <div class="header_logo">
-        <a href="./index.html">
+        <a href="/">
           <img
             src="../assets/images/logoApp.png"
             alt="logoApp"

@@ -18,7 +18,7 @@ export default defineComponent({
       <header id="header" class="header">
         <div class="header_inner">
           <div class="header_logo">
-            <a href="./index.html">
+            <a href="/">
               <img
                 src="../assets/images/logoApp.png"
                 alt="logoApp"
@@ -193,10 +193,10 @@ export default defineComponent({
               </div>
               <div class="confirmation_wrapper">
                 <button class="confirmation_btn">
-                  <a href="./index.html">BACK TO HOME</a>
+                  <a href="/">BACK TO HOME</a>
                 </button>
                 <button class="confirmation_btn">
-                  <a href="./sustainability-recycling.html"
+                  <a href="./sustainability_recycling"
                     >Discover our Engagement
                   </a>
                   <svg

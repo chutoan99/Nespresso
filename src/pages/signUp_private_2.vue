@@ -88,7 +88,7 @@ export default defineComponent({
               </ul>
               <div class="private_2-content-footer">
                 <button>
-                  <a href="./index.html">GO TO SHOP</a>
+                  <a href="/">GO TO SHOP</a>
                 </button>
               </div>
             </div>
