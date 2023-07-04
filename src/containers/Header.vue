@@ -1,6 +1,6 @@
 <script lang="ts">
 import { Options, Vue } from "vue-class-component";
-
+import "../css/layouts/header.css";
 @Options({})
 export default class Header extends Vue {}
 </script>

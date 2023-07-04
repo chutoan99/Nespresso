@@ -1,5 +1,5 @@
 <script lang="ts">
-import "../css/pages/contact-us.css";
+import "../css/pages/contact_us.css";
 import Header from "@/containers/Header.vue";
 import Nav from "@/containers/Nav.vue";
 import Footer from "@/containers/Footer.vue";

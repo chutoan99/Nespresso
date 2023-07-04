@@ -1,5 +1,5 @@
 <script lang="ts">
-import "../css/pages/condition-of-sale.css";
+import "../css/pages/condition_of_sale.css";
 import Header from "@/containers/Header.vue";
 import Nav from "@/containers/Nav.vue";
 import Footer from "@/containers/Footer.vue";

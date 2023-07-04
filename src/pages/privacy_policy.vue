@@ -1,5 +1,5 @@
 <script lang="ts">
-import "../css/pages/privacy-policy.css";
+import "../css/pages/privacy_policy.css";
 import Header from "@/containers/Header.vue";
 import Nav from "@/containers/Nav.vue";
 import Footer from "@/containers/Footer.vue";

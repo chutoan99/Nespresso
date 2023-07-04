@@ -1,5 +1,5 @@
 <script lang="ts">
-import "../css/pages/registration.css";
+import "../css/pages/email_registration.css";
 import HeaderSimple from "@/containers/HeaderSimple.vue";
 import { defineComponent } from "vue";
 

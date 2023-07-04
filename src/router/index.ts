@@ -104,14 +104,23 @@ const routes = [
   { path: "/shopping_step_5", component: ShoppingStep5Page }, //done
 
   // Setting
-  { path: "/setting_address", component: SettingAddressPage }, //done
-  { path: "/setting_contact", component: SettingContactPage }, //done
-  { path: "/setting_info", component: SettingInfoPage }, //done
-  { path: "/setting_machine", component: SettingMachinePage }, //done
-  { path: "/setting_order", component: SettingOrderPage }, //done
-
+  // { path: "/setting_address", component: SettingAddressPage }, //done
+  // { path: "/setting_contact", component: SettingContactPage }, //done
+  // { path: "/setting_info", component: SettingInfoPage }, //done
+  // { path: "/setting_machine", component: SettingMachinePage }, //done
+  // { path: "/setting_order", component: SettingOrderPage }, //done
+  {
+    path: "/setting",
+    children: [
+      { path: "address", component: SettingAddressPage },
+      { path: "contact", component: SettingContactPage },
+      { path: "info", component: SettingInfoPage },
+      { path: "machine", component: SettingMachinePage },
+      { path: "order", component: SettingOrderPage },
+    ],
+  },
   // 404  & NOT FOUND
-  { path: "/404", component: NotPoundPage }, // done
+  { path: "/:pathMatch(.*)*", component: NotPoundPage }, // done
   { path: "/not_found", component: NotFound2Page }, // done
 
   // FAQ  & PRIVACY POLICY & CONDITION OF SALE

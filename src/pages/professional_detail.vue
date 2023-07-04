@@ -1,5 +1,5 @@
 <script lang="ts">
-import "../css/pages/pro-machines-detail.css";
+import "../css/pages/professional_detail.css";
 import Header from "@/containers/Header.vue";
 import Nav from "@/containers/Nav.vue";
 import Footer from "@/containers/Footer.vue";

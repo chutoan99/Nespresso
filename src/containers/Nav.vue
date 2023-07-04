@@ -1,6 +1,6 @@
 <script lang="ts">
 import { Options, Vue } from "vue-class-component";
-
+import "../css/layouts/nav.css";
 @Options({})
 export default class Nav extends Vue {}
 </script>
