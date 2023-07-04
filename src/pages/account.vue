@@ -1,9 +1,9 @@
 <script lang="ts">
-import { defineComponent } from "vue";
-import Header from "@/components/Header.vue";
-import Nav from "@/components/Nav.vue";
-import Footer from "@/components/Footer.vue";
 import "../css/pages/account.css";
+import Header from "@/containers/Header.vue";
+import Nav from "@/containers/Nav.vue";
+import Footer from "@/containers/Footer.vue";
+import { defineComponent } from "vue";
 
 export default defineComponent({
   name: "AccountPage",

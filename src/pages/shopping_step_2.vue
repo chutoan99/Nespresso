@@ -1,0 +1,467 @@
+<script lang="ts">
+import "../css/pages/shopping_bag2.css";
+import Footer from "@/containers/Footer.vue";
+
+import { defineComponent } from "vue";
+export default defineComponent({
+  name: "ShoppingStep2Page",
+  components: {
+    Footer,
+  },
+  // Add other properties, methods, etc.
+});
+</script>
+
+<template>
+  <div class="wrapper">
+    <div class="wrapper-innner">
+      <header id="header" class="header">
+        <div class="header_inner">
+          <div class="header_logo">
+            <a href="./index.html">
+              <img
+                src="../assets/images/logoApp.png"
+                alt="logoApp"
+                width="100%"
+                height="100%"
+              />
+            </a>
+          </div>
+        </div>
+      </header>
+      <!-- end header -->
+      <section id="progressbar">
+        <ul class="progressbar container">
+          <li class="active progressbar_item item-active">
+            <a class="progressbar_item-link">
+              <span
+                >Step 1
+                <svg
+                  width="18"
+                  height="13"
+                  viewBox="0 0 18 13"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M17 1L6 12L1 7"
+                    stroke="#3D8705"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </span>
+              <span class="hide_on-mobile">Shopping bag summary</span>
+            </a>
+          </li>
+          <li class="progressbar_item item-active">
+            <a class="progressbar_item-link">
+              <span
+                >Step 2
+                <!-- <svg
+                  width="18"
+                  height="13"
+                  viewBox="0 0 18 13"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M17 1L6 12L1 7"
+                    stroke="#3D8705"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg> -->
+              </span>
+              <span class="hide_on-mobile">Delivery setup</span>
+            </a>
+          </li>
+          <li class="progressbar_item">
+            <a class="progressbar_item-link">
+              <span
+                >Step 3
+                <!-- <svg
+                  width="18"
+                  height="13"
+                  viewBox="0 0 18 13"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M17 1L6 12L1 7"
+                    stroke="#3D8705"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg> -->
+              </span>
+              <span class="hide_on-mobile">Payment</span>
+            </a>
+          </li>
+          <li class="progressbar_item">
+            <a class="progressbar_item-link">
+              <span
+                >Step 4
+                <!-- <svg
+                  width="18"
+                  height="13"
+                  viewBox="0 0 18 13"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M17 1L6 12L1 7"
+                    stroke="#3D8705"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg> -->
+              </span>
+              <span class="hide_on-mobile">shopping summary</span>
+            </a>
+          </li>
+          <li class="progressbar_item">
+            <a class="progressbar_item-link">
+              <span
+                >Step 5
+                <!-- <svg
+                  width="18"
+                  height="13"
+                  viewBox="0 0 18 13"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M17 1L6 12L1 7"
+                    stroke="#3D8705"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg> -->
+              </span>
+              <span class="hide_on-mobile">shopping confirmation</span>
+            </a>
+          </li>
+        </ul>
+      </section>
+
+      <main id="shopping_bag">
+        <!-- step 2 delivery -->
+        <section id="delivery">
+          <div class="container">
+            <div class="delivery">
+              <div class="delivery_label">
+                <svg
+                  width="26"
+                  height="26"
+                  viewBox="0 0 26 26"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M18.5005 17V16H17.4245L16.4585 10.204L14.6515 9H12.3505L10.5435 10.204L9.57748 16H8.50048V17H18.5005ZM11.4585 10.796L12.6505 10H14.3485L15.5415 10.796L16.4085 16H10.5905L11.4585 10.796ZM14.7935 5H16.2075L14.2475 3.04C16.8998 3.21171 19.399 4.34275 21.2785 6.222C23.2796 8.22362 24.4282 10.9222 24.4835 13.752L25.4785 13.656C25.3945 10.699 24.2385 7.766 21.9855 5.515C19.899 3.43044 17.1148 2.19188 14.1695 2.038L16.2075 0H14.7935L12.2935 2.5L14.7935 5ZM5.01548 5.515C1.26548 9.265 0.528484 14.899 2.79148 19.397L0.0214844 18.655L0.729485 19.88L4.14448 20.795L5.05948 17.38L4.35248 16.155L3.63248 18.84C1.62448 14.734 2.31448 9.63 5.72248 6.222C6.34537 5.60363 7.04036 5.06241 7.79248 4.61L7.21048 3.794C6.4142 4.27971 5.67752 4.85797 5.01548 5.515ZM24.0635 18.705L20.6475 19.62L19.9405 20.845L22.6365 20.123C22.2445 20.706 21.7945 21.263 21.2785 21.778C17.7475 25.309 12.3955 25.927 8.21948 23.642L7.80348 24.556C9.55413 25.4996 11.5117 25.9938 13.5005 25.994C15.0762 25.9969 16.637 25.6884 18.0931 25.0862C19.5493 24.484 20.8721 23.6 21.9855 22.485C22.5755 21.895 23.0905 21.258 23.5325 20.586L24.2715 23.344L24.9785 22.119L24.0635 18.705Z"
+                    fill="black"
+                  />
+                </svg>
+                <span>
+                  Don't forget to recycle! Select 'Swap the recyclable capsules'
+                  and the courier will take them when delivering your order.
+                </span>
+              </div>
+              <div class="delivery_main">
+                <div class="delivery_aside">
+                  <div class="delivery_aside-label">DELIVERY ADDRESS</div>
+                  <div class="delivery_aside-content">
+                    <div class="delivery_aside-content-info">
+                      <h5>Address</h5>
+                      <ul>
+                        <li>Mr Leon Lu</li>
+                        <li>Calea București nr. 1-87</li>
+                        <li>500326 Brașov</li>
+                      </ul>
+                      <h5>Currently set as your default delivery address</h5>
+                    </div>
+                  </div>
+
+                  <div class="delivery_aside-btn">
+                    <button>
+                      <span>NEW DELIVERY ADDRESS</span>
+                    </button>
+                  </div>
+                  <div class="delivery_aside-label" style="margin-top: 12px">
+                    DELIVERY METHOD
+                  </div>
+                  <div class="delivery_aside-label2">
+                    We apply the highest safety standards in preparing and
+                    delivering your order
+                  </div>
+                  <div class="delivery_aside-main">
+                    <div class="aside_main-left">
+                      <div class="aside_main-left-check">
+                        <label for=""></label>
+                        <input type="radio" checked />
+                      </div>
+                      <div class="aside_main-left-img">
+                        <svg
+                          width="38"
+                          height="24"
+                          viewBox="0 0 38 24"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                            d="M0.199219 1.19999L0.599219 0.799988H24.2392C26.5143 0.799988 28.6139 2.12933 29.5999 4.18714L29.6144 4.22127L31.31 8.80719L37.5355 11.0639L37.7992 11.44V20L37.3992 20.4H32.9992V19.6H36.9992V11.7205L30.8629 9.49604L30.624 9.25871L28.8706 4.51643C28.0133 2.74359 26.1981 1.59999 24.2392 1.59999H0.999219V19.6H3.39922V20.4H0.599219L0.199219 20V1.19999Z"
+                            fill="black"
+                          />
+                          <path
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                            d="M9.79922 19.6H26.5992V20.4H9.79922V19.6Z"
+                            fill="black"
+                          />
+                          <path
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                            d="M6.51922 16.92C4.94013 16.92 3.67922 18.1809 3.67922 19.76C3.67922 21.3023 4.94333 22.6 6.51922 22.6C8.06152 22.6 9.35922 21.3359 9.35922 19.76C9.35922 18.1809 8.0983 16.92 6.51922 16.92ZM2.87922 19.76C2.87922 17.7391 4.4983 16.12 6.51922 16.12C8.54013 16.12 10.1592 17.7391 10.1592 19.76C10.1592 21.7841 8.49691 23.4 6.51922 23.4C4.4951 23.4 2.87922 21.7377 2.87922 19.76Z"
+                            fill="black"
+                          />
+                          <path
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                            d="M32.5992 19.76C32.5992 17.8352 30.6773 16.3586 28.6267 17.1718L28.6114 17.1775C27.937 17.4135 27.3752 17.9981 27.0912 18.7072C26.1443 21.13 28.4452 23.4208 30.9284 22.4295C31.9329 22.0128 32.5992 21.0025 32.5992 19.88V19.76ZM28.3393 16.4252C30.9259 15.405 33.3992 17.2872 33.3992 19.76V19.88C33.3992 21.3166 32.5464 22.6258 31.2322 23.1696L31.2278 23.1714C28.1123 24.4176 25.1353 21.5101 26.3467 18.4142L26.3478 18.4114C26.703 17.5236 27.4178 16.7506 28.3393 16.4252Z"
+                            fill="black"
+                          />
+                          <path
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                            d="M16.1992 3.19999L16.5992 2.79999H22.9992C24.6104 2.79999 26.0834 3.86906 26.5784 5.3926L27.857 9.06858L27.4792 9.59999H16.5992L16.1992 9.19999V3.19999ZM16.9992 3.59999V8.79999H26.9166L25.8214 5.6514L25.8186 5.64312C25.4323 4.44892 24.2665 3.59999 22.9992 3.59999H16.9992Z"
+                            fill="black"
+                          />
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="aside_main-right">
+                      <div class="aside_main-right">
+                        <div class="aside_main-right-heading">
+                          <h3>Standard Delivery</h3>
+                        </div>
+                        <div class="aside_main-right-label">
+                          Your order will be delivered in 1- 2 working days.
+                        </div>
+                        <div class="aside_main-right-email">
+                          <span>Edit Address</span>
+                          <svg
+                            width="7"
+                            height="13"
+                            viewBox="0 0 7 13"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M0.162718 0.162718C0.379676 -0.0542395 0.731435 -0.0542395 0.948393 0.162718L6.50395 5.71827C6.72091 5.93523 6.72091 6.28699 6.50395 6.50395L0.948393 12.0595C0.731435 12.2765 0.379676 12.2765 0.162718 12.0595C-0.0542395 11.8425 -0.0542395 11.4908 0.162718 11.2738L5.32544 6.11111L0.162718 0.948393C-0.0542395 0.731435 -0.0542395 0.379676 0.162718 0.162718Z"
+                              fill="#876C43"
+                            />
+                          </svg>
+                        </div>
+                        <div class="aside_main-right-check">
+                          <span>Available option:</span>
+                          <div>
+                            <label for=""></label>
+                            <input type="checkbox" />
+                          </div>
+                          <span>
+                            Swap the recyclable capsules <label>(Free)</label>
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="delivery_aside-label2">PICK UP IN STORE</div>
+                  <div class="delivery_aside-main">
+                    <div class="aside_main-left">
+                      <div class="aside_main-left-check">
+                        <label for=""></label>
+                        <input type="radio" checked />
+                      </div>
+                      <div class="aside_main-left-img">
+                        <svg
+                          width="26"
+                          height="38"
+                          viewBox="0 0 26 38"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                            d="M0.199219 13L0.599219 12.6H24.9992L25.3992 13V37.4L24.9992 37.8H0.599219L0.199219 37.4V13ZM0.999219 13.4V37H24.5992V13.4H0.999219Z"
+                            fill="black"
+                          />
+                          <path
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                            d="M7.79922 13V11.4H8.59922V13H7.79922Z"
+                            fill="black"
+                          />
+                          <path
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                            d="M15.5265 5.81793C16.9643 6.68929 17.7992 8.09795 17.7992 9.88001V13H16.9992V9.88001C16.9992 8.38208 16.3142 7.23074 15.1119 6.50209L15.5265 5.81793Z"
+                            fill="black"
+                          />
+                          <path
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                            d="M9.36372 9.79001C9.52388 9.63786 9.77706 9.64435 9.92922 9.80451L9.34922 10.3555C9.19706 10.1954 9.20356 9.94217 9.36372 9.79001ZM9.34922 10.3555L9.47206 10.4846C9.5472 10.5635 9.6499 10.6712 9.76016 10.7865C9.97915 11.0154 10.2326 11.279 10.3564 11.4029C10.5126 11.5591 10.7659 11.5591 10.9221 11.4029C11.0783 11.2466 11.0783 10.9934 10.9221 10.8372C10.8059 10.721 10.5593 10.4646 10.3383 10.2335C10.2285 10.1188 10.1262 10.0115 10.0514 9.9329L9.92922 9.80451L9.34922 10.3555Z"
+                            fill="black"
+                          />
+                          <path
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                            d="M14.0481 5.16847C14.2386 4.81908 14.2762 4.46514 14.2409 4.07623L15.0376 4.0038C15.0822 4.49489 15.0398 5.02095 14.7504 5.55155L14.0481 5.16847Z"
+                            fill="black"
+                          />
+                          <path
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                            d="M6.90156 1.68006C6.16567 2.1116 5.59872 2.74467 5.10151 3.56698C5.09961 3.57012 5.09767 3.57323 5.09569 3.57632C4.61856 4.31852 4.54456 5.09831 4.62617 5.75574C4.70885 6.42175 4.94849 6.93524 5.05668 7.10526L5.05988 7.11037C5.12454 7.21545 5.32233 7.47731 5.61413 7.84412C5.89863 8.20177 6.25546 8.63818 6.62193 9.07945C7.35801 9.96575 8.12055 10.8566 8.41103 11.1664C8.41345 11.169 8.41583 11.1716 8.41818 11.1743C8.55575 11.329 8.72614 11.4693 8.90025 11.5376C9.05718 11.5992 9.21487 11.6041 9.39342 11.497C9.55588 11.3995 9.64799 11.2185 9.69256 11.0037C9.71386 10.9011 9.72093 10.8052 9.72243 10.7346C9.72317 10.6998 9.72254 10.6724 9.72182 10.6549C9.72146 10.6462 9.72109 10.6401 9.72087 10.6368L9.72072 10.6346C9.70633 10.4676 9.79762 10.3089 9.94956 10.2378C10.1021 10.1663 10.283 10.1981 10.4021 10.3172L10.9221 10.8372C11.0065 10.9216 11.163 11.0319 11.3292 11.0703C11.4681 11.1023 11.6232 11.0904 11.7964 10.9172C11.7999 10.9137 11.8034 10.9103 11.807 10.9069C12.0078 10.7205 12.0442 10.5626 12.0272 10.4238C12.0107 10.289 11.9366 10.1225 11.7853 9.93078L11.7843 9.92966C11.7451 9.88525 11.7124 9.84733 11.6894 9.82034C11.6778 9.80684 11.6687 9.79603 11.6623 9.78848L11.6549 9.77964L11.6528 9.77718L11.652 9.77615C11.5132 9.60964 11.5323 9.36287 11.695 9.2197C11.8577 9.07654 12.1049 9.08901 12.2523 9.24783C12.3027 9.30209 12.3514 9.35807 12.3977 9.41568C12.468 9.49496 12.556 9.59109 12.6421 9.67717C12.8165 9.85163 13.0456 9.96667 13.2655 9.99988C13.4723 9.99771 13.6409 9.96705 13.8558 9.77898L13.8602 9.77524C13.9978 9.65822 14.0522 9.54694 14.0711 9.4463C14.0912 9.33874 14.0775 9.20541 14.0154 9.04241C13.9159 8.78121 13.7136 8.49946 13.4667 8.23419C13.4282 8.19569 13.3899 8.15713 13.3518 8.11877C13.3131 8.07982 13.2746 8.04109 13.2364 8.00286C13.0817 7.84822 13.08 7.59806 13.2324 7.44124C13.3848 7.28441 13.6349 7.27905 13.7939 7.42921C13.8756 7.50642 13.9586 7.58908 14.0404 7.67637C14.2086 7.84454 14.3601 7.99162 14.5115 8.11457C14.7282 8.29071 14.902 8.38036 15.06 8.40466C15.0636 8.40522 15.0672 8.40582 15.0708 8.40647C15.3013 8.44839 15.4905 8.34305 15.7564 8.07717C15.8954 7.93812 15.944 7.82005 15.9598 7.73143C15.9763 7.63923 15.9631 7.54613 15.9289 7.4533C15.8941 7.35894 15.8412 7.27505 15.7938 7.21255C15.7707 7.18213 15.7505 7.15889 15.7371 7.1443C15.7305 7.13706 15.7257 7.13211 15.7232 7.12964C15.7226 7.12899 15.7218 7.12822 15.7218 7.12822L15.7215 7.12786L12.163 3.72928L12.7155 3.15074L16.276 6.55121L16.2775 6.55271L16.2815 6.55658C16.2845 6.55955 16.2883 6.56331 16.2928 6.56783C16.3017 6.57686 16.3133 6.58898 16.3271 6.604C16.3545 6.63395 16.3909 6.67602 16.4309 6.72873C16.5097 6.83248 16.6093 6.98609 16.6796 7.17673C16.7504 7.3689 16.7946 7.6083 16.7473 7.87235C16.6994 8.13997 16.563 8.40191 16.3221 8.64286C16.0287 8.93617 15.5796 9.30958 14.933 9.19452C14.9118 9.19118 14.8908 9.18737 14.87 9.18313C14.8855 9.31698 14.8834 9.4547 14.8574 9.59373C14.8014 9.89225 14.6415 10.1603 14.3805 10.3829C13.9653 10.7453 13.5796 10.8 13.2392 10.8C13.2226 10.8 13.2061 10.799 13.1896 10.7969C13.0612 10.7809 12.9341 10.7502 12.8108 10.7066C12.7584 10.9912 12.6047 11.2561 12.3568 11.4881C11.9712 11.8703 11.5286 11.9373 11.1493 11.8498C10.8246 11.7748 10.5591 11.5921 10.3974 11.4423C10.3004 11.7053 10.1246 11.9912 9.80502 12.183C9.38357 12.4359 8.96126 12.4209 8.60818 12.2824C8.2745 12.1515 8.00623 11.9141 7.82386 11.7098C7.51199 11.3765 6.73764 10.4709 6.0065 9.59057C5.63798 9.14684 5.2773 8.70576 4.98806 8.34215C4.70768 7.98969 4.47648 7.68795 4.38016 7.53225C4.20822 7.26091 3.92929 6.63585 3.83227 5.85429C3.73404 5.06304 3.81959 4.08478 4.41973 3.14841C4.96197 2.25278 5.61428 1.50753 6.49688 0.989965C7.38169 0.471091 8.4655 0.200012 9.83922 0.200012C10.9133 0.200012 12.1299 0.622623 13.1082 1.28358C14.0794 1.93981 14.8953 2.88737 15.036 3.98936L14.2424 4.09067C14.1431 3.31266 13.539 2.54021 12.6603 1.94645C11.7885 1.3574 10.7251 1.00001 9.83922 1.00001C8.57294 1.00001 7.63674 1.24893 6.90156 1.68006Z"
+                            fill="black"
+                          />
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="aside_main-right">
+                      <div class="aside_main-right">
+                        <div class="aside_main-right-heading">
+                          <h3>BOUTIQUE PICK UP</h3>
+                        </div>
+                        <div class="aside_main-right-title">
+                          <span
+                            >You can choose to pick up your order from one of
+                            our Boutiques, until the closing hour:</span
+                          >
+                        </div>
+                        <div class="aside_main-right-des">
+                          <span>
+                            Nespresso Boutique Dorobanți (orders placed Monday -
+                            Saturday, before 6 PM);
+                          </span>
+                          <span>
+                            Nespresso Boutique Băneasa Shopping City (orders
+                            placed Monday - Sunday, before 8 PM);</span
+                          >
+                          <span>
+                            Nespresso Boutique AFI Cotroceni (orders placed
+                            Monday - Sunday, before 8 PM).</span
+                          >
+                          <span>
+                            Nespresso VIVO! Cluj-Napoca point of sales (orders
+                            placed Monday - Sunday, before 8 PM).</span
+                          >
+                          <span> The payment method is online, by card.</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="delivery_aside-footer">
+                    <div class="delivery_aside-footer-back">
+                      <svg
+                        width="7"
+                        height="13"
+                        viewBox="0 0 7 13"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          clip-rule="evenodd"
+                          d="M6.83728 0.162718C6.62032 -0.0542395 6.26857 -0.0542395 6.05161 0.162718L0.496052 5.71827C0.279094 5.93523 0.279094 6.28699 0.496052 6.50395L6.05161 12.0595C6.26857 12.2765 6.62032 12.2765 6.83728 12.0595C7.05424 11.8425 7.05424 11.4908 6.83728 11.2738L1.67456 6.11111L6.83728 0.948393C7.05424 0.731435 7.05424 0.379676 6.83728 0.162718Z"
+                          fill="#876C43"
+                        />
+                      </svg>
+                      <a href="./shoppingbag_step1.html">Back to basket</a>
+                    </div>
+                    <div class="delivery_aside-footer-button">
+                      <button>
+                        <a href="./shoppingbag_step3.html">
+                          PROCESS TO PAYMENT
+                        </a>
+                        <svg
+                          width="7"
+                          height="13"
+                          viewBox="0 0 7 13"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                            d="M0.162718 0.162718C0.379676 -0.0542395 0.731435 -0.0542395 0.948393 0.162718L6.50395 5.71827C6.72091 5.93523 6.72091 6.28699 6.50395 6.50395L0.948393 12.0595C0.731435 12.2765 0.379676 12.2765 0.162718 12.0595C-0.0542395 11.8425 -0.0542395 11.4908 0.162718 11.2738L5.32544 6.11111L0.162718 0.948393C-0.0542395 0.731435 -0.0542395 0.379676 0.162718 0.162718Z"
+                            fill="white"
+                          />
+                        </svg>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="delivery_content">
+                  <div class="delivery_content-img">
+                    <img
+                      alt=""
+                      src="../assets/images/shopping_bag/image_45.png"
+                    />
+                  </div>
+
+                  <div class="delivery_content-body">
+                    <div class="delivery_content-body-heading">
+                      <h3>ORDER DETAILS</h3>
+                    </div>
+                    <div class="delivery_content-body-title">
+                      <span>ORIGINAL COFFEE CAPSULES (10)</span>
+                    </div>
+
+                    <div class="delivery_content-body-item">
+                      <span>Rome x 10</span>
+                      <label>155,000đ</label>
+                    </div>
+                    <div class="delivery_content-body-item">
+                      <span>SUB TOTAL</span>
+                      <label>155,000đ</label>
+                    </div>
+                    <div class="delivery_content-body-item">
+                      <span>VAT</span>
+                      <label>0đ</label>
+                    </div>
+                  </div>
+
+                  <div class="delivery_content-footer">
+                    <span class="delivery_content-footer-item">TOTAL</span>
+                    <label class="delivery_content-footer-item">155,000đ</label>
+                  </div>
+                  <button class="delivery_content-btn">
+                    <span>MODIFY</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <!-- start footer -->
+      <Footer />
+      <!--end footer -->
+    </div>
+  </div>
+</template>

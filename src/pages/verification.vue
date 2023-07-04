@@ -1,9 +1,8 @@
 <script lang="ts">
+import "../css/pages/verification.css";
+import HeaderSimple from "@/containers/HeaderSimple.vue";
 import { defineComponent } from "vue";
 
-import "../css/pages/verification.css";
-
-import HeaderSimple from "@/components/HeaderSimple.vue";
 export default defineComponent({
   name: "VerificationPage",
   components: { HeaderSimple },

@@ -1,0 +1,362 @@
+<script lang="ts">
+import "../css/pages/shopping_bag1.css";
+import Footer from "@/containers/Footer.vue";
+
+import { defineComponent } from "vue";
+export default defineComponent({
+  name: "ShoppingStep1Page",
+  components: {
+    Footer,
+  },
+  // Add other properties, methods, etc.
+});
+</script>
+
+<template>
+  <div class="wrapper">
+    <div class="wrapper-innner">
+      <header id="header" class="header">
+        <div class="header_inner">
+          <div class="header_logo">
+            <a href="./index.html">
+              <img
+                src="../assets/images/logoApp.png"
+                alt="logoApp"
+                width="100%"
+                height="100%"
+              />
+            </a>
+          </div>
+        </div>
+      </header>
+      <!-- end header -->
+      <section id="progressbar">
+        <ul class="progressbar container">
+          <li class="active progressbar_item item-active">
+            <a class="progressbar_item-link">
+              <span
+                >Step 1
+                <!-- <svg
+                  width="18"
+                  height="13"
+                  viewBox="0 0 18 13"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M17 1L6 12L1 7"
+                    stroke="#3D8705"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg> -->
+              </span>
+              <span class="hide_on-mobile">Shopping bag summary</span>
+            </a>
+          </li>
+          <li class="progressbar_item">
+            <a class="progressbar_item-link">
+              <span
+                >Step 2
+                <!-- <svg
+                  width="18"
+                  height="13"
+                  viewBox="0 0 18 13"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M17 1L6 12L1 7"
+                    stroke="#3D8705"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg> -->
+              </span>
+              <span class="hide_on-mobile">Delivery setup</span>
+            </a>
+          </li>
+          <li class="progressbar_item">
+            <a class="progressbar_item-link">
+              <span
+                >Step 3
+                <!-- <svg
+                  width="18"
+                  height="13"
+                  viewBox="0 0 18 13"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M17 1L6 12L1 7"
+                    stroke="#3D8705"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg> -->
+              </span>
+              <span class="hide_on-mobile">Payment</span>
+            </a>
+          </li>
+          <li class="progressbar_item">
+            <a class="progressbar_item-link">
+              <span
+                >Step 4
+                <!-- <svg
+                  width="18"
+                  height="13"
+                  viewBox="0 0 18 13"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M17 1L6 12L1 7"
+                    stroke="#3D8705"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg> -->
+              </span>
+              <span class="hide_on-mobile">shopping summary</span>
+            </a>
+          </li>
+          <li class="progressbar_item">
+            <a class="progressbar_item-link">
+              <span
+                >Step 5
+                <!-- <svg
+                  width="18"
+                  height="13"
+                  viewBox="0 0 18 13"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M17 1L6 12L1 7"
+                    stroke="#3D8705"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg> -->
+              </span>
+              <span class="hide_on-mobile">shopping confirmation</span>
+            </a>
+          </li>
+        </ul>
+      </section>
+
+      <main id="shopping_bag">
+        <!-- step 1 shopping bag -->
+        <section id="shopping">
+          <div class="container">
+            <div class="shopping">
+              <div>
+                <div class="shopping_label">
+                  <svg
+                    width="20"
+                    height="24"
+                    viewBox="0 0 20 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M10 0.935001L0 6.198V17.802L10 23.066L20 17.802V6.198L10 0.935001ZM10 2.065L18.427 6.5L14.885 8.364L6.685 3.809L10 2.065ZM9.5 21.672L1 17.198V7.328L9.5 11.802V21.672ZM1.573 6.5L5.63 4.366L13.828 8.921L10 10.935L1.573 6.5ZM19 17.198L10.5 21.672V11.802L14.5 9.697V12.799L15.5 12.303V9.17L19 7.328V17.198Z"
+                      fill="#17171A"
+                    />
+                  </svg>
+                  <div>
+                    <h3>
+                      Free Delivery for shoppings of total value of minimum 100
+                      RON.
+                    </h3>
+                    <h3>
+                      For shoppings that do not meet the specified criteria, the
+                      cost of standard delivery is 15 RON.
+                    </h3>
+                  </div>
+                </div>
+                <div class="shopping_content">
+                  <div class="shopping_content-header">
+                    <span class="shopping_content-header-item"
+                      >ORIGINAL COFFEE CAPSULES(10)</span
+                    >
+                    <span class="shopping_content-header-item">Unit price</span>
+                    <span class="shopping_content-header-item">Quantity</span>
+                    <span class="shopping_content-header-item">Total</span>
+                  </div>
+
+                  <div class="shopping_content-body">
+                    <div class="shopping_content-body-item">
+                      <div class="item_info">
+                        <div class="item_info-img">
+                          <img
+                            alt="item"
+                            src="../assets/images/shopping_bag/item.png"
+                          />
+                        </div>
+                        <span class="item_info-name">Roma</span>
+                      </div>
+                      <span class="item_price">15,500đ</span>
+                      <div class="item_quantity">
+                        <span>10</span>
+                      </div>
+                      <span class="item_total">15,500đ</span>
+                    </div>
+                  </div>
+
+                  <div class="shopping_back">
+                    <svg
+                      width="7"
+                      height="13"
+                      viewBox="0 0 7 13"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M6.83728 0.162718C6.62032 -0.0542395 6.26857 -0.0542395 6.05161 0.162718L0.496052 5.71827C0.279094 5.93523 0.279094 6.28699 0.496052 6.50395L6.05161 12.0595C6.26857 12.2765 6.62032 12.2765 6.83728 12.0595C7.05424 11.8425 7.05424 11.4908 6.83728 11.2738L1.67456 6.11111L6.83728 0.948393C7.05424 0.731435 7.05424 0.379676 6.83728 0.162718Z"
+                        fill="#876C43"
+                      />
+                    </svg>
+                    <a href="./index.html#overlay">Back to the online shop</a>
+                  </div>
+
+                  <div class="shopping_content-label">PROMOTION CODE</div>
+
+                  <div class="shopping_content-wrapper">
+                    <h4 class="shopping_content-wrapper-heading">
+                      TOTALORIGINAL COFFEE CAPSULES (10)
+                    </h4>
+                    <div class="shopping_content-wrapper-item">
+                      <span>SUB TOTAL</span>
+                      <label>155,000đ</label>
+                    </div>
+                    <div class="shopping_content-wrapper-item">
+                      <span>VAT</span>
+                      <label>0đ</label>
+                    </div>
+                  </div>
+
+                  <div class="shopping_content-footer">
+                    <span class="shopping_content-footer-item">TOTAL</span>
+                    <label class="shopping_content-footer-item">155,000đ</label>
+                  </div>
+
+                  <div class="shopping_button">
+                    <button>
+                      <a href="./shoppingbag_step2.html">
+                        PROCESS TO CHECKOUT
+                      </a>
+                      <svg
+                        width="7"
+                        height="13"
+                        viewBox="0 0 7 13"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          clip-rule="evenodd"
+                          d="M0.162718 0.162718C0.379676 -0.0542395 0.731435 -0.0542395 0.948393 0.162718L6.50395 5.71827C6.72091 5.93523 6.72091 6.28699 6.50395 6.50395L0.948393 12.0595C0.731435 12.2765 0.379676 12.2765 0.162718 12.0595C-0.0542395 11.8425 -0.0542395 11.4908 0.162718 11.2738L5.32544 6.11111L0.162718 0.948393C-0.0542395 0.731435 -0.0542395 0.379676 0.162718 0.162718Z"
+                          fill="white"
+                        />
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+
+                <div class="shopping_label">
+                  <svg
+                    width="28"
+                    height="26"
+                    viewBox="0 0 28 26"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M27.5 0C19.05 0 14 4.322 14 8.5C14 10.328 14.896 11.732 16.351 12.455C15.3796 14.6842 14.7052 17.0312 14.345 19.436C13.953 18.473 13.406 17.529 12.769 16.622C13.519 15.892 14 14.861 14 13.5C14 9.488 8.227 5 0.5 5H0V5.5C0 12.042 4.29 18 9 18C10.05 18 11.103 17.749 11.97 17.228C13.166 18.926 14 20.741 14 22.5V26H15V24C15 19.47 15.994 15.752 17.287 12.8C17.743 12.919 18.224 13 18.75 13C23.505 13 28 6.925 28 0.5V0H27.5ZM9 17C5.005 17 1.223 11.727 1.01 6.007C7.801 6.195 13 10.116 13 13.5C13 14.562 12.66 15.3 12.176 15.817C9.086 11.845 4.527 8.789 4.238 8.597L3.686 9.431C3.754 9.477 8.342 12.555 11.375 16.429C10.425 16.949 9.349 17 9 17ZM18.75 12C18.3969 11.998 18.0449 11.9588 17.7 11.883C20.105 6.921 23.252 4.436 23.304 4.397L22.696 3.603C22.642 3.644 19.276 6.282 16.748 11.554C15.644 10.995 15 9.934 15 8.5C15 3.554 21.972 1.161 26.99 1.008C26.77 6.728 22.87 12 18.75 12Z"
+                      fill="#17171A"
+                    />
+                  </svg>
+                  <span>
+                    Every cup of Nespresso is carbon neutral. Coffee can be a
+                    force of good!
+                  </span>
+                </div>
+              </div>
+              <div class="product">
+                <div class="product-title">
+                  Recommended products to complete your orders
+                </div>
+                <div class="product-list">
+                  <div class="product-item">
+                    <div class="product-image">
+                      <a href="./accessories-detail.html">
+                        <img
+                          src="../assets/images/shopping_bag/image_8.png"
+                          alt="REVEAL ESPRESSO MILD GLASSES"
+                        />
+                      </a>
+                      <p class="product-name">Title</p>
+                    </div>
+                    <div class="product-content">
+                      <span class="product-price">₫3,700,000</span>
+                      <button class="product-add">
+                        <img src="../assets/svgs/icon-plus.svg" alt="" />
+                      </button>
+                    </div>
+                  </div>
+
+                  <div class="product-item">
+                    <div class="product-image">
+                      <a href="./accessories-detail.html">
+                        <img
+                          src="../assets/images/shopping_bag/image_8.png"
+                          alt="REVEAL LUNGO"
+                        />
+                      </a>
+                      <p class="product-name">Title</p>
+                    </div>
+                    <div class="product-content">
+                      <span class="product-price">₫3,700,000</span>
+                      <button class="product-add">
+                        <img src="../assets/svgs/icon-plus.svg" alt="" />
+                      </button>
+                    </div>
+                  </div>
+
+                  <div class="product-item">
+                    <div class="product-image">
+                      <a href="./accessories-detail.html">
+                        <img
+                          src="../assets/images/shopping_bag/image_8.png"
+                          alt="REVEAL ESPRESSO INTENSE GLASSES"
+                        />
+                      </a>
+                      <p class="product-name">Title</p>
+                    </div>
+                    <div class="product-content">
+                      <span class="product-price">₫3,700,000</span>
+                      <button class="product-add">
+                        <img src="../assets/svgs/icon-plus.svg" alt="" />
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <!-- start footer -->
+      <Footer />
+      <!--end footer -->
+    </div>
+  </div>
+</template>

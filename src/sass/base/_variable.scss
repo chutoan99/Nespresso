@@ -7,21 +7,23 @@ $brown-100: #f3eee6;
 $brown-50: #faf9f8;
 
 $green-60: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-   #3d8705;
+  #3d8705;
 $green-50: #3d8705;
-$green-5: linear-gradient(0deg,
-      rgba(255, 255, 255, 0.9),
-      rgba(255, 255, 255, 0.9)),
-   #3d8705;
+$green-5: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 0.9),
+    rgba(255, 255, 255, 0.9)
+  ),
+  #3d8705;
 
 //  Button hover
 $btn-hover: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-   #3d8705;
+  #3d8705;
 
 $white: #ffffff;
 
 .white-text {
-   color: $white !important;
+  color: $white !important;
 }
 
 $black-900: #000000;
@@ -34,7 +36,7 @@ $black-100: #d5d5d5;
 $black-50: #e6e6e6;
 
 $black-5: linear-gradient(0deg, #e6e6e6, #e6e6e6),
-   linear-gradient(0deg, #ffffff, #ffffff);
+  linear-gradient(0deg, #ffffff, #ffffff);
 $border-black-5: 0.0625rem solid #e6e6e6;
 
 $bg-red: #f10404;
@@ -51,26 +53,24 @@ $card-shadow-3: 0rem 0.188rem 0.25rem rgba(0, 0, 0, 0.14);
 $background-overlay: rgba(0, 0, 0, 0.5);
 
 @keyframes modalEaseOut {
-   from {
-      transform: translateY(-6.25rem);
-      opacity: 0;
-   }
+  from {
+    transform: translateY(-6.25rem);
+    opacity: 0;
+  }
 
-   to {
-      transform: translateY(0rem);
+  to {
+    transform: translateY(0rem);
 
-      opacity: 1;
-   }
+    opacity: 1;
+  }
 }
 
-
 @keyframes modalTrans {
-   from {
-      transform: translateY(100%);
-   }
+  from {
+    transform: translateY(100%);
+  }
 
-   to {
-      transform: translate(0);
-
-   }
+  to {
+    transform: translate(0);
+  }
 }

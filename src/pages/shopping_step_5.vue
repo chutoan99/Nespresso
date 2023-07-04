@@ -1,0 +1,227 @@
+<script lang="ts">
+import "../css/pages/shopping_bag5.css";
+import Footer from "@/containers/Footer.vue";
+
+import { defineComponent } from "vue";
+export default defineComponent({
+  name: "ShoppingStep5Page",
+  components: {
+    Footer,
+  },
+  // Add other properties, methods, etc.
+});
+</script>
+
+<template>
+  <div class="wrapper">
+    <div class="wrapper-innner">
+      <header id="header" class="header">
+        <div class="header_inner">
+          <div class="header_logo">
+            <a href="./index.html">
+              <img
+                src="../assets/images/logoApp.png"
+                alt="logoApp"
+                width="100%"
+                height="100%"
+              />
+            </a>
+          </div>
+        </div>
+      </header>
+      <!-- end header -->
+      <section id="progressbar">
+        <ul class="progressbar container">
+          <li class="progressbar_item item-active">
+            <a class="progressbar_item-link">
+              <span
+                >Step 1
+                <svg
+                  width="18"
+                  height="13"
+                  viewBox="0 0 18 13"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M17 1L6 12L1 7"
+                    stroke="#3D8705"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </span>
+              <span class="hide_on-mobile">Shopping bag summary</span>
+            </a>
+          </li>
+          <li class="progressbar_item item-active">
+            <a class="progressbar_item-link">
+              <span
+                >Step 2
+
+                <svg
+                  width="18"
+                  height="13"
+                  viewBox="0 0 18 13"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M17 1L6 12L1 7"
+                    stroke="#3D8705"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </span>
+              <span class="hide_on-mobile">Delivery setup</span>
+            </a>
+          </li>
+          <li class="progressbar_item item-active">
+            <a class="progressbar_item-link">
+              <span
+                >Step 3
+
+                <svg
+                  width="18"
+                  height="13"
+                  viewBox="0 0 18 13"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M17 1L6 12L1 7"
+                    stroke="#3D8705"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </span>
+              <span class="hide_on-mobile">Payment</span>
+            </a>
+          </li>
+          <li class="progressbar_item item-active">
+            <a class="progressbar_item-link">
+              <span
+                >Step 4
+                <svg
+                  width="18"
+                  height="13"
+                  viewBox="0 0 18 13"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M17 1L6 12L1 7"
+                    stroke="#3D8705"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </span>
+              <span class="hide_on-mobile">Order summary</span>
+            </a>
+          </li>
+          <li class="progressbar_item item-active">
+            <a class="progressbar_item-link">
+              <span
+                >Step 5
+                <svg
+                  width="18"
+                  height="13"
+                  viewBox="0 0 18 13"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M17 1L6 12L1 7"
+                    stroke="#3D8705"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </span>
+              <span class="hide_on-mobile">Order confirmation</span>
+            </a>
+          </li>
+        </ul>
+      </section>
+
+      <main id="shopping_bag">
+        <!-- step 5 confirmation -->
+        <section id="confirmation">
+          <div class="container">
+            <div class="confirmation">
+              <div class="confirmation_icon">
+                <svg
+                  width="138"
+                  height="145"
+                  viewBox="0 0 138 145"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M120.255 119.176C120.155 119.133 120.076 119.097 119.976 119.076L123.562 43.3829L133.926 125.954L120.255 119.176ZM118.983 140.083L119.819 122.319L132.991 128.847L118.983 140.083ZM115.905 141.833H3.82627L9.13341 29.7543H121.205L115.905 141.833ZM50.9477 26.6329V17.39C50.8691 12.9543 52.4406 8.64714 55.162 5.89C57.012 3.99714 59.2191 2.99714 61.5334 2.99714H78.6263C84.6263 2.99714 89.812 9.61143 89.9263 17.4186V26.6329C89.9263 26.6829 89.9406 26.7186 89.9406 26.7614H50.9334C50.9334 26.7186 50.9477 26.6829 50.9477 26.6329ZM137.248 128.397V128.361L124.719 28.49C124.655 28.0043 124.369 27.6186 123.991 27.3829C123.955 27.3329 123.912 27.2757 123.869 27.2257C123.583 26.9257 123.183 26.7614 122.783 26.7614H92.9263V26.6329V17.3971C92.8548 12.9186 91.3905 8.64 88.7691 5.34C86.0477 1.89714 82.4334 -0.00285721 78.6263 -0.00285721H61.5334C58.3977 -0.00285721 55.4406 1.31143 53.012 3.78286C49.7477 7.11143 47.8477 12.2114 47.9477 17.4186V26.6329C47.9477 26.6829 47.962 26.7186 47.962 26.7614H7.6977C6.89056 26.7614 6.23341 27.39 6.1977 28.19L0.754841 143.261C0.740555 143.676 0.890555 144.069 1.16913 144.369C1.4477 144.669 1.84056 144.84 2.2477 144.84H117.326C117.426 144.84 117.505 144.826 117.605 144.811C117.633 144.804 117.662 144.79 117.691 144.783C117.741 144.769 117.798 144.754 117.855 144.733C117.898 144.719 117.926 144.704 117.955 144.69C118.012 144.669 118.048 144.64 118.091 144.626C118.133 144.597 118.162 144.576 118.198 144.554C118.219 144.533 118.248 144.526 118.276 144.504L136.705 129.719C136.719 129.711 136.726 129.704 136.733 129.697C136.791 129.64 136.855 129.583 136.898 129.526C136.898 129.511 136.919 129.504 136.926 129.497C136.976 129.433 137.026 129.361 137.069 129.283C137.076 129.261 137.091 129.24 137.098 129.219C137.133 129.154 137.155 129.097 137.183 129.026C137.191 129.011 137.191 128.997 137.205 128.983C137.219 128.897 137.248 128.819 137.248 128.733V128.669C137.262 128.597 137.262 128.54 137.262 128.469C137.248 128.447 137.248 128.419 137.248 128.397Z"
+                    fill="#454547"
+                  />
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M87.7768 114.914C83.7983 113.428 78.1197 109.014 74.8554 104.964C70.6054 100.114 60.4626 86.4279 60.4626 86.4279C55.2268 79.6707 48.2554 68.4421 41.334 62.7921V107.671H47.5054V85.0279C51.8554 90.5779 56.9411 97.6636 60.7483 102.156C62.4268 104.164 66.7554 108.864 67.984 109.906C75.934 117.671 90.5126 121.142 102.677 116.885V116.464C98.484 117.364 93.0911 117.028 87.7768 114.914Z"
+                    fill="#454547"
+                  />
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M50.1789 66.6229C54.4217 71.48 64.5788 85.1729 64.5788 85.1729C69.8003 91.9229 76.7717 103.144 83.686 108.794V63.9229H77.5146V86.5729C73.186 81.0229 68.0931 73.9229 64.2717 69.4443C62.6074 67.43 58.2717 62.7229 57.0574 61.6943C49.1074 53.93 34.5289 50.4443 22.3574 54.7086V55.1371C26.5289 54.2371 31.936 54.5729 37.2431 56.6871C41.2146 58.1657 46.9003 62.5871 50.1789 66.6229Z"
+                    fill="#454547"
+                  />
+                </svg>
+              </div>
+              <div class="confirmation_heading">
+                <h3>
+                  You will soon receive a email confirmation. Thank you for
+                  ordering with Nespresso.
+                </h3>
+              </div>
+              <div class="confirmation_wrapper">
+                <button class="confirmation_btn">
+                  <a href="./index.html">BACK TO HOME</a>
+                </button>
+                <button class="confirmation_btn">
+                  <a href="./sustainability-recycling.html"
+                    >Discover our Engagement
+                  </a>
+                  <svg
+                    width="8"
+                    height="13"
+                    viewBox="0 0 8 13"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M0.662718 0.162718C0.879676 -0.0542395 1.23143 -0.0542395 1.44839 0.162718L7.00395 5.71827C7.22091 5.93523 7.22091 6.28699 7.00395 6.50395L1.44839 12.0595C1.23143 12.2765 0.879676 12.2765 0.662718 12.0595C0.445761 11.8425 0.445761 11.4908 0.662718 11.2738L5.82544 6.11111L0.662718 0.948393C0.445761 0.731435 0.445761 0.379676 0.662718 0.162718Z"
+                      fill="white"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <!-- start footer -->
+      <Footer />
+      <!--end footer -->
+    </div>
+  </div>
+</template>

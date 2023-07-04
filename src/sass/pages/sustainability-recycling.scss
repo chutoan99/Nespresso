@@ -2,11 +2,6 @@
 @import "../base/reset";
 @import "../base/variable";
 
-@import "../layouts/footer";
-@import "../layouts/nav";
-@import "../layouts/header";
-@import "../layouts/orther";
-
 .background-1 {
   background-image: url("../../assets/images/sustainability&recycling/commitment_1.png");
 }
@@ -375,131 +370,131 @@
 
 /* Mobile: width < 768px */
 @media only screen and (max-width: 48rem) {
-   #tabs {
-      margin-top: 3.125rem;
-      padding: unset !important;
-   }
+  #tabs {
+    margin-top: 3.125rem;
+    padding: unset !important;
+  }
 
-   #tabs .tabs {
-      padding-left: 1.25rem;
-      padding-right: 1.25rem;
-      width: 100%;
-      gap: 24px;
-      justify-content: unset !important;
-      display: grid;
-      overflow-x: auto;
-      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-      overflow-y: hidden;
-      scroll-snap-type: x mandatory;
-      scrollbar-width: none;
-      -webkit-user-select: none;
-      user-select: none;
+  #tabs .tabs {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    width: 100%;
+    gap: 24px;
+    justify-content: unset !important;
+    display: grid;
+    overflow-x: auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    overflow-y: hidden;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+    -webkit-user-select: none;
+    user-select: none;
 
-      &::-webkit-scrollbar {
-         display: none;
-      }
-   }
-
-   #tabs .tabs_heading {
-      width: 100px;
-      text-align: center;
-      display: inline-block;
-      display: grid;
-   }
-
-   .commitment_frame3-btn button {
-      min-width: unset !important;
-   }
-
-   .commitment_frame3-container {
-      margin: 0 10px !important;
-   }
-
-   .commitment_frame1 {
-      max-width: 90%;
-      margin: auto;
-   }
-
-   .commitment_frame1-heading {
-      margin: 0 auto 1rem;
-   }
-
-   .commitment_frame1-des {
-      margin: 12px auto 20px;
-   }
-
-   .commitment_frame2 {
-      box-sizing: content-box;
-      padding: 5rem 1rem;
-      max-width: 45.5rem;
-      margin: 0 auto;
-      display: flex;
-      flex-direction: column;
-   }
-
-   .commitment_frame2-left {
-      margin-bottom: 2rem;
-   }
-
-   .commitment_frame3-heading {
-      margin: 0 auto 2rem;
-   }
-
-   .commitment_frame3-des {
-      margin: 0 auto 2rem;
-   }
-
-   .commitment_frame3-item-des {
+    &::-webkit-scrollbar {
       display: none;
-   }
+    }
+  }
 
-   .commitment_frame3-container {
-      box-sizing: border-box;
-      margin: 0 2rem;
-      max-width: 45.5rem;
-      padding: 4rem 1rem;
-      overflow: auto;
-   }
+  #tabs .tabs_heading {
+    width: 100px;
+    text-align: center;
+    display: inline-block;
+    display: grid;
+  }
 
-   .commitment_frame3.container {
-      padding: 10px;
-      display: flex;
-      flex-direction: column;
-   }
+  .commitment_frame3-btn button {
+    min-width: unset !important;
+  }
 
-   .commitment_frame3-item {
-      display: flex;
-      align-items: baseline;
-      flex-direction: row !important;
-      justify-content: space-between;
-      box-sizing: border-box;
-   }
+  .commitment_frame3-container {
+    margin: 0 10px !important;
+  }
 
-   .commitment_frame3-item-heading {
-      display: flex;
-      margin-left: 10px;
-      width: 100%;
-      justify-content: center;
-   }
+  .commitment_frame1 {
+    max-width: 90%;
+    margin: auto;
+  }
 
-   .commitment_frame3-item-img {
-      display: flex;
-      margin-left: 10px;
-      width: unset !important;
-   }
+  .commitment_frame1-heading {
+    margin: 0 auto 1rem;
+  }
 
-   .commitment_frame3-item {
-      height: 21rem;
-   }
+  .commitment_frame1-des {
+    margin: 12px auto 20px;
+  }
 
-   .commitment_frame3 {
-      gap: 3.125rem;
-      padding-bottom: 3.25rem !important;
-   }
+  .commitment_frame2 {
+    box-sizing: content-box;
+    padding: 5rem 1rem;
+    max-width: 45.5rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
 
-   .footer_payment-methods-inner {
-      display: flex;
-      flex-direction: column;
-      align-items: start !important;
-   }
+  .commitment_frame2-left {
+    margin-bottom: 2rem;
+  }
+
+  .commitment_frame3-heading {
+    margin: 0 auto 2rem;
+  }
+
+  .commitment_frame3-des {
+    margin: 0 auto 2rem;
+  }
+
+  .commitment_frame3-item-des {
+    display: none;
+  }
+
+  .commitment_frame3-container {
+    box-sizing: border-box;
+    margin: 0 2rem;
+    max-width: 45.5rem;
+    padding: 4rem 1rem;
+    overflow: auto;
+  }
+
+  .commitment_frame3.container {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .commitment_frame3-item {
+    display: flex;
+    align-items: baseline;
+    flex-direction: row !important;
+    justify-content: space-between;
+    box-sizing: border-box;
+  }
+
+  .commitment_frame3-item-heading {
+    display: flex;
+    margin-left: 10px;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .commitment_frame3-item-img {
+    display: flex;
+    margin-left: 10px;
+    width: unset !important;
+  }
+
+  .commitment_frame3-item {
+    height: 21rem;
+  }
+
+  .commitment_frame3 {
+    gap: 3.125rem;
+    padding-bottom: 3.25rem !important;
+  }
+
+  .footer_payment-methods-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: start !important;
+  }
 }
