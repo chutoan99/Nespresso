@@ -33,100 +33,101 @@ import ProfessionalDetailPage from "../pages/professional_detail.vue";
 import ProfessionalPage from "../pages/professional.vue";
 import CoffeeOriginalPage from "../pages/coffee_original.vue";
 
-import ShoppingStep1Page from "../pages/shopping_step_1.vue";
-import ShoppingStep2Page from "../pages/shopping_step_2.vue";
-import ShoppingStep3Page from "../pages/shopping_step_3.vue";
-import ShoppingStep4Page from "../pages/shopping_step_4.vue";
-import ShoppingStep5Page from "../pages/shopping_step_5.vue";
+import ShoppingStep1 from "../containers/shopping_step_1.vue";
+import ShoppingStep2 from "../containers/shopping_step_2.vue";
+import ShoppingStep3 from "../containers/shopping_step_3.vue";
+import ShoppingStep4 from "../containers/shopping_step_4.vue";
+import ShoppingStep5 from "../containers/shopping_step_5.vue";
 
-import SettingAddressPage from "../pages/setting_address.vue";
-import SettingContactPage from "../pages/setting_contact.vue";
-import SettingInfoPage from "../pages/setting_info.vue";
-import SettingMachinePage from "../pages/setting_machine.vue";
-import SettingOrderPage from "../pages/setting_order.vue";
+import SettingAddress from "../containers/setting_address.vue";
+import SettingContact from "../containers/setting_contact.vue";
+import SettingInfo from "../containers/setting_info.vue";
+import SettingMachine from "../containers/setting_machine.vue";
+import SettingOrder from "../containers/setting_order.vue";
 
-import SustainabilityRecyclingPage from "../pages/sustainability_recycling.vue";
-import SustainabilityBcorpPage from "../pages/sustainability_bcorp.vue";
-import sustainabilityCircularityPage from "../pages/sustainability_circularity.vue";
-import SustainabilityClimatePage from "../pages/sustainability_climate.vue";
-import SustainabilityCommunitiesPage from "../pages/sustainability_communities.vue";
+import SustainabilityRecycling from "../containers/sustainability_recycling.vue";
+import SustainabilityBcorp from "../containers/sustainability_bcorp.vue";
+import sustainabilityCircularity from "../containers/sustainability_circularity.vue";
+import SustainabilityClimate from "../containers/sustainability_climate.vue";
+import SustainabilityCommunities from "../containers/sustainability_communities.vue";
 
 const routes = [
-  // Main
-  { path: "/", component: IndexPage }, // done
-  { path: "/store_location", component: StoreLocationPage }, //done
-  { path: "/service", component: ServicePage }, //done
-  { path: "/machines", component: MachinesPage }, //done
-  { path: "/machines_detail", component: MachinesDetailPage }, //done
-  { path: "/machines_compare", component: MachinesComparePage }, //done
-  { path: "/professional", component: ProfessionalPage }, //done
-  { path: "/professional_detail", component: ProfessionalDetailPage }, //done
-  { path: "/accessories", component: AccessoriesPage }, //done
-  { path: "/accessories_detail", component: AccessoriesDetailPage }, //done
-  { path: "/coffee", component: CoffeePage }, //done
-  { path: "/coffee_detail", component: CoffeeDetailPage }, //done
-  { path: "/coffee_original", component: CoffeeOriginalPage }, //done
-  { path: "/benefits", component: BenefitsPage }, //done
-  { path: "/sustainability_recycling", component: SustainabilityRecyclingPage }, //done
-  { path: "/sustainability_bcorp", component: SustainabilityBcorpPage }, //done
+  // MAIN
+  { path: "/", component: IndexPage },
+  { path: "/store_location", component: StoreLocationPage },
+  { path: "/service", component: ServicePage },
+  { path: "/machines", component: MachinesPage },
+  { path: "/machines_detail", component: MachinesDetailPage },
+  { path: "/machines_compare", component: MachinesComparePage },
+  { path: "/professional", component: ProfessionalPage },
+  { path: "/professional_detail", component: ProfessionalDetailPage },
+  { path: "/accessories", component: AccessoriesPage },
+  { path: "/accessories_detail", component: AccessoriesDetailPage },
+  { path: "/coffee", component: CoffeePage },
+  { path: "/coffee_detail", component: CoffeeDetailPage },
+  { path: "/coffee_original", component: CoffeeOriginalPage },
+  { path: "/benefits", component: BenefitsPage },
   {
-    path: "/sustainability_circularity",
-    component: sustainabilityCircularityPage,
+    path: "/sustainability",
+    redirect: "sustainability/recycling", // Chuyển hướng mặc định đến
+    component: () => import("@/pages/sustainability.vue"),
+    children: [
+      { path: "recycling", component: SustainabilityRecycling },
+      { path: "bcorp", component: SustainabilityBcorp },
+      { path: "circularity", component: sustainabilityCircularity },
+      { path: "climate", component: SustainabilityClimate },
+      { path: "communities", component: SustainabilityCommunities },
+    ],
   },
-  { path: "/sustainability_climate", component: SustainabilityClimatePage }, //done
-  {
-    path: "/sustainability_communities",
-    component: SustainabilityCommunitiesPage,
-  }, //done
 
-  // Service
-  { path: "/about_us", component: AboutUsPage }, // done
-  { path: "/contact_us", component: ContactUsPage }, // done
-  { path: "/account", component: AccountPage }, //done
-  { path: "/reset_password", component: ResetPasswordPage }, //done
-
+  // SERVICE
+  { path: "/about_us", component: AboutUsPage },
+  { path: "/contact_us", component: ContactUsPage },
+  { path: "/account", component: AccountPage },
+  { path: "/reset_password", component: ResetPasswordPage },
   // EMAIL TEMPLATE
-  { path: "/email_verification", component: VerificationPage }, //done
-  { path: "/email_registration", component: RegistrationPage }, //done
-  { path: "/email_confirmation", component: OrderConfirmationPage }, //done
-
-  // Sign up
-  { path: "/signUp_start", component: SignUpStartPage }, //done
-  { path: "/signUp_private", component: signUpPrivatePage }, //done
-  { path: "/signUp_company", component: signUpCompanyPage }, //done
-  { path: "/signUp_private_1", component: signUpPrivate1Page }, //done
-  { path: "/signUp_private_2", component: signUpPrivate2Page }, //done
-  // Shopping
-  { path: "/shopping_step_1", component: ShoppingStep1Page }, //done
-  { path: "/shopping_step_2", component: ShoppingStep2Page }, //done
-  { path: "/shopping_step_3", component: ShoppingStep3Page }, //done
-  { path: "/shopping_step_4", component: ShoppingStep4Page }, //done
-  { path: "/shopping_step_5", component: ShoppingStep5Page }, //done
-
-  // Setting
-  // { path: "/setting_address", component: SettingAddressPage }, //done
-  // { path: "/setting_contact", component: SettingContactPage }, //done
-  // { path: "/setting_info", component: SettingInfoPage }, //done
-  // { path: "/setting_machine", component: SettingMachinePage }, //done
-  // { path: "/setting_order", component: SettingOrderPage }, //done
+  { path: "/email_verification", component: VerificationPage },
+  { path: "/email_registration", component: RegistrationPage },
+  { path: "/email_confirmation", component: OrderConfirmationPage },
+  // SIGN UP
+  { path: "/signUp_start", component: SignUpStartPage },
+  { path: "/signUp_private", component: signUpPrivatePage },
+  { path: "/signUp_company", component: signUpCompanyPage },
+  { path: "/signUp_private_1", component: signUpPrivate1Page },
+  { path: "/signUp_private_2", component: signUpPrivate2Page },
+  // SHOPPING
+  {
+    path: "/shopping",
+    redirect: "shopping/step_1", // Chuyển hướng mặc định đến
+    component: () => import("@/pages/shopping.vue"),
+    children: [
+      { path: "step_1", component: ShoppingStep1 },
+      { path: "step_2", component: ShoppingStep2 },
+      { path: "step_3", component: ShoppingStep3 },
+      { path: "step_4", component: ShoppingStep4 },
+      { path: "step_5", component: ShoppingStep5 },
+    ],
+  },
+  // SETTING
   {
     path: "/setting",
+    redirect: "/setting/order", // Chuyển hướng mặc định đến
+    component: () => import("@/pages/setting.vue"),
     children: [
-      { path: "address", component: SettingAddressPage },
-      { path: "contact", component: SettingContactPage },
-      { path: "info", component: SettingInfoPage },
-      { path: "machine", component: SettingMachinePage },
-      { path: "order", component: SettingOrderPage },
+      { path: "order", component: SettingOrder },
+      { path: "address", component: SettingAddress },
+      { path: "contact", component: SettingContact },
+      { path: "info", component: SettingInfo },
+      { path: "machine", component: SettingMachine },
     ],
   },
   // 404  & NOT FOUND
-  { path: "/:pathMatch(.*)*", component: NotPoundPage }, // done
-  { path: "/not_found", component: NotFound2Page }, // done
-
+  { path: "/:pathMatch(.*)*", component: NotPoundPage },
+  { path: "/not_found", component: NotFound2Page },
   // FAQ  & PRIVACY POLICY & CONDITION OF SALE
-  { path: "/faq", component: FaqPage }, //done
-  { path: "/privacy_policy", component: PrivacyPolicyPage }, //done
-  { path: "/condition_of_sale", component: ConditionOfSalePage }, //done
+  { path: "/faq", component: FaqPage },
+  { path: "/privacy_policy", component: PrivacyPolicyPage },
+  { path: "/condition_of_sale", component: ConditionOfSalePage },
 ];
 
 const router = createRouter({

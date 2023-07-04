@@ -1,12 +1,12 @@
 <script lang="ts">
-import "../css/pages/setting_contact.css";
+import "../css/pages/setting.css";
 import Header from "@/containers/Header.vue";
 import Nav from "@/containers/Nav.vue";
 import Footer from "@/containers/Footer.vue";
 import { defineComponent } from "vue";
 
 export default defineComponent({
-  name: "SettingContactPage",
+  name: "SettingPage",
   components: {
     Header,
     Nav,
@@ -41,15 +41,11 @@ export default defineComponent({
                 class="setting_aside-select"
                 onchange="handleOptionChange(this)"
               >
-                <option data-content="./setting_order">My order</option>
-                <option data-content="./setting_info">
-                  My Personal Information
-                </option>
-                <option data-content="./setting_address">My Address</option>
-                <option data-content="./setting_machine">My Machines</option>
-                <option data-content="./setting_contact">
-                  Contact Preferences
-                </option>
+                <option data-content="./order">My order</option>
+                <option data-content="./info">My Personal Information</option>
+                <option data-content="./address">My Address</option>
+                <option data-content="./machine">My Machines</option>
+                <option data-content="./contact">Contact Preferences</option>
               </select>
               <ul class="setting_aside-list">
                 <li class="setting_aside-item">
@@ -80,7 +76,7 @@ export default defineComponent({
                     />
                   </svg>
                   <router-link
-                    to="/setting_order"
+                    to="/setting/order"
                     class="setting_aside-item-link"
                   >
                     My order</router-link
@@ -109,14 +105,14 @@ export default defineComponent({
                     />
                   </svg>
                   <router-link
-                    to="/setting_info"
+                    to="/setting/info"
                     class="setting_aside-item-link"
                   >
                     My Personal Information</router-link
                   >
                 </li>
 
-                <li class="setting_aside-item">
+                <li class="setting_aside-item aside-active">
                   <svg
                     width="34"
                     height="31"
@@ -186,7 +182,7 @@ export default defineComponent({
                     />
                   </svg>
                   <router-link
-                    to="/setting_address"
+                    to="/setting/address"
                     class="setting_aside-item-link"
                   >
                     My Address</router-link
@@ -233,14 +229,14 @@ export default defineComponent({
                     />
                   </svg>
                   <router-link
-                    to="/setting_machine"
+                    to="/setting/machine"
                     class="setting_aside-item-link"
                   >
                     My Machines</router-link
                   >
                 </li>
 
-                <li class="setting_aside-item aside-active">
+                <li class="setting_aside-item">
                   <svg
                     width="33"
                     height="29"
@@ -263,7 +259,7 @@ export default defineComponent({
                     />
                   </svg>
                   <router-link
-                    to="/setting_contact"
+                    to="/setting/contact"
                     class="setting_aside-item-link"
                   >
                     Contact Preferences</router-link
@@ -272,46 +268,7 @@ export default defineComponent({
               </ul>
             </div>
           </aside>
-          <div class="setting_main">
-            <section id="setting_my_contact">
-              <form id=" form">
-                <div class="setting_label">My contact preferences</div>
-                <div class="setting_label2">CONTACT PREFERENCES</div>
-                <div class="form_content">
-                  <span class="form_content-heading"
-                    >Stay in touch with Nespresso.Be the first to get the latest
-                    coffee news, offers and benefits For Nespresso Members*.
-                    Simply let us know how you’d like us to contact you by
-                    selecting one or more of these options. (*S.C. Nestlé
-                    Romania S.R.L., Divizia Nespresso):
-                  </span>
-                  <div class="form_content-check">
-                    <label for="form_check"></label>
-                    <input type="checkbox" id="form_check" />
-                    <span>E-mail</span>
-                  </div>
-                  <div class="form_content-check">
-                    <label for="form_check"></label>
-                    <input type="checkbox" id="form_check" />
-                    <span
-                      >By Phone – I understand that I may be contacted by phone
-                      by the Customer Relationship Center</span
-                    >
-                  </div>
-                  <div class="form_content-check">
-                    <label for="form_check"></label>
-                    <input type="checkbox" id="form_check" />
-                    <span>SMS (text messages on my phone number)</span>
-                  </div>
-                  <div class="form_btn">
-                    <button type="submit">
-                      <span>SAVE</span>
-                    </button>
-                  </div>
-                </div>
-              </form>
-            </section>
-          </div>
+          <router-view></router-view>
         </div>
       </main>
 

@@ -55,7 +55,7 @@ html {
   line-height: 2.5rem;
   letter-spacing: 0.0025em; }
 
-.font_heading-5 {
+.font_heading-5, #setting .setting_aside-heading {
   font-family: "Nespresso Lucas", Helvetica, Trebuchet, Arial, sans-serif;
   font-style: normal;
   font-size: 1.25rem;
@@ -75,7 +75,8 @@ html {
   line-height: 1.25rem;
   letter-spacing: 0.0125em; }
 
-.font_subtitle-2 {
+.font_subtitle-2, #setting .setting_aside-title h3,
+#setting .setting_aside-title span, #setting .setting_aside-item-link {
   font-family: "Nespresso Lucas", Helvetica, Trebuchet, Arial, sans-serif;
   font-style: normal;
   font-size: 0.875rem;
@@ -89,14 +90,14 @@ html {
   line-height: 1.5rem;
   letter-spacing: 0.005em; }
 
-.font_body-2, #setting .setting_main .setting_label {
+.font_body-2 {
   font-family: "Nespresso Lucas", Helvetica, Trebuchet, Arial, sans-serif;
   font-style: normal;
   font-size: 0.875rem;
   line-height: 1.25rem;
   letter-spacing: 0.0025em; }
 
-.font_caption, #setting .setting_main .setting_label2, #setting .setting_main #setting_my_contact .form_content-heading, #setting .setting_main #setting_my_contact .form_content-check span {
+.font_caption {
   font-family: "Nespresso Lucas", Helvetica, Trebuchet, Arial, sans-serif;
   font-style: normal;
   font-size: 0.75rem;
@@ -110,7 +111,7 @@ html {
   line-height: 1rem;
   letter-spacing: 0.0938rem; }
 
-.font_button, #setting .setting_main #setting_my_contact .form_btn button {
+.font_button {
   font-family: "Nespresso Lucas", Helvetica, Trebuchet, Arial, sans-serif;
   font-style: normal;
   font-size: 0.875rem;
@@ -196,7 +197,7 @@ html {
     line-height: 2.5rem;
     letter-spacing: 0.0025em; }
 
-  .font_heading-5 {
+  .font_heading-5, #setting .setting_aside-heading {
     font-size: 1.25rem;
     line-height: 2rem; }
 
@@ -210,7 +211,8 @@ html {
     line-height: 1.25rem;
     letter-spacing: 0.0125em; }
 
-  .font_subtitle-2 {
+  .font_subtitle-2, #setting .setting_aside-title h3,
+  #setting .setting_aside-title span, #setting .setting_aside-item-link {
     font-size: 0.875rem;
     line-height: 1.25rem;
     letter-spacing: 0.01em; }
@@ -220,12 +222,12 @@ html {
     line-height: 1.5rem;
     letter-spacing: 0.005em; }
 
-  .font_body-2, #setting .setting_main .setting_label {
+  .font_body-2 {
     font-size: 0.875rem;
     line-height: 1.25rem;
     letter-spacing: 0.0025em; }
 
-  .font_caption, #setting .setting_main .setting_label2, #setting .setting_main #setting_my_contact .form_content-heading, #setting .setting_main #setting_my_contact .form_content-check span {
+  .font_caption {
     font-size: 0.75rem;
     line-height: 1rem;
     letter-spacing: 0.025rem; }
@@ -235,7 +237,7 @@ html {
     line-height: 1rem;
     letter-spacing: 0.0938rem; }
 
-  .font_button, #setting .setting_main #setting_my_contact .form_btn button {
+  .font_button {
     font-size: 0.875rem;
     line-height: 1.25rem;
     letter-spacing: 0.0781rem; } }
@@ -354,73 +356,63 @@ video {
     transform: translateY(100%); }
   to {
     transform: translate(0); } }
-#setting .setting_main .setting_label {
-  height: 3.25rem;
-  background: #c5c5c5;
-  font-weight: 700;
-  color: #000000; }
-#setting .setting_main .setting_label2 {
-  height: 2rem;
-  background: #d5d5d5;
-  font-weight: 500;
-  color: #000000; }
-#setting .setting_main .setting_label3 {
-  background: #e6e6e6;
-  height: 4.5625rem; }
-#setting .setting_main .setting_label,
-#setting .setting_main .setting_label2,
-#setting .setting_main .setting_label3 {
-  display: flex;
-  align-items: center;
-  padding: 1rem;
-  margin-bottom: unset; }
-#setting .setting_main #setting_my_contact .form_btn {
-  padding: 1rem;
-  width: 100%;
-  display: flex;
-  justify-content: end; }
-  #setting .setting_main #setting_my_contact .form_btn button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 3.5rem;
-    padding: 1rem 1.5rem;
-    font-weight: 600;
-    text-align: center;
-    color: #17171a;
-    border: 0.0625rem solid #000000;
-    border-radius: 2.5rem;
-    background-color: unset; }
-    #setting .setting_main #setting_my_contact .form_btn button:hover {
-      cursor: pointer;
-      transition: 0.3s;
-      background: #c5c5c5; }
-#setting .setting_main #setting_my_contact .form_content {
-  padding: 1rem;
-  width: 100%;
-  background-color: white; }
-  #setting .setting_main #setting_my_contact .form_content-heading {
-    display: inline-block;
-    width: 100%;
-    margin-bottom: unset;
+#setting {
+  background: #f9f9f9;
+  padding: 2.5rem 0; }
+  #setting .setting {
+    display: grid;
+    grid-template-columns: 3fr 9fr;
+    column-gap: 1.5rem; }
+  #setting .setting_aside-heading {
     font-weight: 700;
-    color: #17171a; }
-  #setting .setting_main #setting_my_contact .form_content-check {
+    color: #17171a;
+    margin-bottom: 0.25rem; }
+  #setting .setting_aside-title {
+    margin-top: 0.25rem;
     display: flex;
-    align-items: center;
-    margin-top: 0.75rem; }
-    #setting .setting_main #setting_my_contact .form_content-check input {
-      margin-right: 0.5rem;
-      width: 1rem;
-      height: 1rem;
-      background: #ffffff;
-      border: 0.0625rem solid #17171a;
-      border-radius: 0.25rem; }
-    #setting .setting_main #setting_my_contact .form_content-check span {
-      margin-bottom: unset;
-      margin-top: unset;
-      font-weight: 400;
+    gap: 0.5rem; }
+    #setting .setting_aside-title h3,
+    #setting .setting_aside-title span {
+      font-weight: 600;
       color: #17171a; }
+  #setting .setting_aside-content {
+    margin-top: 0.75rem; }
+  #setting .setting_aside-select {
+    margin-top: 0.25rem;
+    padding: 0.625rem 0.75rem;
+    width: 100%;
+    height: 2.75rem;
+    background: #ffffff;
+    border: 0.0625rem solid #d5d5d5;
+    border-radius: 0.25rem;
+    display: none; }
+    #setting .setting_aside-select option {
+      width: 100%; }
+  #setting .setting_aside-list {
+    list-style: none;
+    border-top: 0.0625rem solid #d5d5d5; }
+  #setting .setting_aside-item {
+    box-sizing: border-box;
+    align-items: center;
+    padding: 1.1875rem 0rem;
+    height: 4.55rem;
+    border-bottom: 0.0625rem solid #d5d5d5;
+    display: flex;
+    gap: 1.5625rem; }
+  #setting .setting_aside-item-link {
+    text-decoration: none;
+    font-weight: 400;
+    color: #17171a; }
+  #setting .setting_aside .aside-active {
+    color: #876c43 !important; }
+  #setting .setting_aside input[type="radio"] {
+    display: none; }
+    #setting .setting_aside input[type="radio"]:checked + label {
+      transition: 0.5s;
+      color: #876c43;
+      background-color: #17171a; }
+      #setting .setting_aside input[type="radio"]:checked + label + .aside {
+        display: block; }
 
 /* Tablet: width >= 768px and width < 1024px */
 @media only screen and (min-width: 48rem) and (max-width: 63.938rem) {
@@ -456,9 +448,6 @@ video {
       #setting .form_content .form_content-btn button {
         width: 100%;
         border-radius: 0.3125rem !important; }
-      #setting .form_content .form_btn {
-        padding-left: unset !important;
-        padding-right: unset !important; }
     #setting .setting_aside-select {
       display: block !important; }
     #setting .setting_aside-list {

@@ -82,21 +82,21 @@ html {
   line-height: 1.25rem;
   letter-spacing: 0.01em; }
 
-.font_body-1 {
+.font_body-1, #progressbar .progressbar_item-link span {
   font-family: "Nespresso Lucas", Helvetica, Trebuchet, Arial, sans-serif;
   font-style: normal;
   font-size: 1rem;
   line-height: 1.5rem;
   letter-spacing: 0.005em; }
 
-.font_body-2, #setting .setting_main .setting_label {
+.font_body-2 {
   font-family: "Nespresso Lucas", Helvetica, Trebuchet, Arial, sans-serif;
   font-style: normal;
   font-size: 0.875rem;
   line-height: 1.25rem;
   letter-spacing: 0.0025em; }
 
-.font_caption, #setting .setting_main .setting_label2, #setting .setting_main #setting_my_contact .form_content-heading, #setting .setting_main #setting_my_contact .form_content-check span {
+.font_caption {
   font-family: "Nespresso Lucas", Helvetica, Trebuchet, Arial, sans-serif;
   font-style: normal;
   font-size: 0.75rem;
@@ -110,7 +110,7 @@ html {
   line-height: 1rem;
   letter-spacing: 0.0938rem; }
 
-.font_button, #setting .setting_main #setting_my_contact .form_btn button {
+.font_button {
   font-family: "Nespresso Lucas", Helvetica, Trebuchet, Arial, sans-serif;
   font-style: normal;
   font-size: 0.875rem;
@@ -215,17 +215,17 @@ html {
     line-height: 1.25rem;
     letter-spacing: 0.01em; }
 
-  .font_body-1 {
+  .font_body-1, #progressbar .progressbar_item-link span {
     font-size: 1rem;
     line-height: 1.5rem;
     letter-spacing: 0.005em; }
 
-  .font_body-2, #setting .setting_main .setting_label {
+  .font_body-2 {
     font-size: 0.875rem;
     line-height: 1.25rem;
     letter-spacing: 0.0025em; }
 
-  .font_caption, #setting .setting_main .setting_label2, #setting .setting_main #setting_my_contact .form_content-heading, #setting .setting_main #setting_my_contact .form_content-check span {
+  .font_caption {
     font-size: 0.75rem;
     line-height: 1rem;
     letter-spacing: 0.025rem; }
@@ -235,7 +235,7 @@ html {
     line-height: 1rem;
     letter-spacing: 0.0938rem; }
 
-  .font_button, #setting .setting_main #setting_my_contact .form_btn button {
+  .font_button {
     font-size: 0.875rem;
     line-height: 1.25rem;
     letter-spacing: 0.0781rem; } }
@@ -354,112 +354,92 @@ video {
     transform: translateY(100%); }
   to {
     transform: translate(0); } }
-#setting .setting_main .setting_label {
-  height: 3.25rem;
-  background: #c5c5c5;
-  font-weight: 700;
-  color: #000000; }
-#setting .setting_main .setting_label2 {
-  height: 2rem;
-  background: #d5d5d5;
-  font-weight: 500;
-  color: #000000; }
-#setting .setting_main .setting_label3 {
-  background: #e6e6e6;
-  height: 4.5625rem; }
-#setting .setting_main .setting_label,
-#setting .setting_main .setting_label2,
-#setting .setting_main .setting_label3 {
-  display: flex;
-  align-items: center;
-  padding: 1rem;
-  margin-bottom: unset; }
-#setting .setting_main #setting_my_contact .form_btn {
-  padding: 1rem;
-  width: 100%;
-  display: flex;
-  justify-content: end; }
-  #setting .setting_main #setting_my_contact .form_btn button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 3.5rem;
-    padding: 1rem 1.5rem;
-    font-weight: 600;
-    text-align: center;
-    color: #17171a;
-    border: 0.0625rem solid #000000;
-    border-radius: 2.5rem;
-    background-color: unset; }
-    #setting .setting_main #setting_my_contact .form_btn button:hover {
-      cursor: pointer;
-      transition: 0.3s;
-      background: #c5c5c5; }
-#setting .setting_main #setting_my_contact .form_content {
-  padding: 1rem;
-  width: 100%;
-  background-color: white; }
-  #setting .setting_main #setting_my_contact .form_content-heading {
-    display: inline-block;
+#progressbar {
+  background-color: #000000;
+  width: 100%; }
+  #progressbar .progressbar {
+    background: #1b1b1b;
+    counter-reset: step;
     width: 100%;
-    margin-bottom: unset;
-    font-weight: 700;
-    color: #17171a; }
-  #setting .setting_main #setting_my_contact .form_content-check {
-    display: flex;
-    align-items: center;
-    margin-top: 0.75rem; }
-    #setting .setting_main #setting_my_contact .form_content-check input {
-      margin-right: 0.5rem;
-      width: 1rem;
-      height: 1rem;
-      background: #ffffff;
-      border: 0.0625rem solid #17171a;
-      border-radius: 0.25rem; }
-    #setting .setting_main #setting_my_contact .form_content-check span {
-      margin-bottom: unset;
-      margin-top: unset;
-      font-weight: 400;
-      color: #17171a; }
+    padding: 0.5rem 1rem;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 1fr;
+    height: 100%; }
+    #progressbar .progressbar_item {
+      padding: 1.125rem 0rem;
+      list-style: none;
+      cursor: pointer;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      position: relative;
+      height: 5.25rem;
+      width: 100%; }
+    #progressbar .progressbar .item-active {
+      border-bottom: 0.125rem solid #3d8705; }
+    #progressbar .progressbar_item-link {
+      display: flex;
+      flex-direction: column;
+      width: 100%; }
+      #progressbar .progressbar_item-link span {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        font-weight: 600;
+        color: #ffffff; }
 
 /* Tablet: width >= 768px and width < 1024px */
 @media only screen and (min-width: 48rem) and (max-width: 63.938rem) {
-  #setting {
-    margin-top: 3.125rem; }
-    #setting .setting {
-      display: flex;
-      flex-direction: column;
-      gap: 0.625rem;
-      margin-right: 1.25rem;
-      margin-left: 1.25rem; } }
+  .progressbar_item {
+    padding: unset !important; }
+
+  .progressbar {
+    margin-top: 50px;
+    padding-left: 1.25rem !important;
+    padding-right: 1.25rem !important; }
+
+  .shopping_label {
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
+    width: unset !important; }
+
+  .shopping_content,
+  .product-title {
+    margin-left: 1.25rem;
+    margin-right: 1.25rem; } }
 /* Mobile: width < 768px */
 @media only screen and (max-width: 47.938em) {
-  #setting {
-    margin-top: 3.125rem; }
-    #setting .setting {
-      display: flex;
-      flex-direction: column;
-      gap: 0.625rem;
-      margin-right: 0.625rem;
-      margin-left: 0.625rem; }
-    #setting .form_btn button {
-      width: 100%;
-      border-radius: 0.3125rem !important; }
-    #setting .form_content {
-      display: flex !important;
-      gap: 0.3125rem;
-      flex-direction: column;
-      padding: 1rem !important; }
-      #setting .form_content .form_content-left {
-        flex: 1;
-        order: 1; }
-      #setting .form_content .form_content-btn button {
-        width: 100%;
-        border-radius: 0.3125rem !important; }
-      #setting .form_content .form_btn {
-        padding-left: unset !important;
-        padding-right: unset !important; }
-    #setting .setting_aside-select {
-      display: block !important; }
-    #setting .setting_aside-list {
-      display: none !important; } }
+  .progressbar_item {
+    padding: unset !important; }
+
+  .shopping_content-header {
+    height: 100% !important; }
+
+  .progressbar {
+    margin-top: 50px;
+    padding-left: 0.625rem !important;
+    padding-right: 0.625rem !important; }
+
+  .shopping_label {
+    display: flex;
+    flex-direction: unset !important;
+    margin-left: 0.625rem;
+    margin-right: 0.625rem;
+    padding-left: 0.3125rem !important;
+    padding-right: 0.3125rem !important;
+    height: 100% !important;
+    width: unset !important; }
+
+  .shopping_content,
+  .product-title {
+    margin-left: 0.625rem;
+    margin-right: 0.625rem; }
+
+  .progressbar {
+    width: 100% !important;
+    overflow-x: auto;
+    display: flex !important; }
+
+  #progressbar .progressbar_item {
+    height: 2.25rem !important; } }
