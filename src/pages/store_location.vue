@@ -19,9 +19,7 @@ export default defineComponent({
   <div class="wrapper">
     <div class="wrapper-innner">
       <Header />
-      <!-- Header -->
       <Nav />
-      <!-- Navigation -->
 
       <main>
         <section id="store_location">
@@ -180,7 +178,6 @@ export default defineComponent({
       </main>
 
       <Footer />
-      <!-- Footer -->
     </div>
   </div>
 </template>

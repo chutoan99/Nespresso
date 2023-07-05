@@ -89,14 +89,14 @@ html {
   line-height: 1.5rem;
   letter-spacing: 0.005em; }
 
-.font_body-2, #setting .setting_main .setting_label {
+.font_body-2, #setting_my_info .setting_label {
   font-family: "Nespresso Lucas", Helvetica, Trebuchet, Arial, sans-serif;
   font-style: normal;
   font-size: 0.875rem;
   line-height: 1.25rem;
   letter-spacing: 0.0025em; }
 
-.font_caption, #setting .setting_main .setting_label2, #setting .setting_main #setting_my_info .form_content-heading, #setting .setting_main #setting_my_info .form_content p, #setting .setting_main #setting_my_info .form_content-list-item, #setting .setting_main #setting_my_info .form_content-field label {
+.font_caption, #setting_my_info .form_content p, #setting_my_info .form_content-heading, #setting_my_info .form_content-field label, #setting_my_info .form_content-item {
   font-family: "Nespresso Lucas", Helvetica, Trebuchet, Arial, sans-serif;
   font-style: normal;
   font-size: 0.75rem;
@@ -110,7 +110,7 @@ html {
   line-height: 1rem;
   letter-spacing: 0.0938rem; }
 
-.font_button, #setting .setting_main #setting_my_info .form_btn button {
+.font_button, #setting_my_info .form_btn button {
   font-family: "Nespresso Lucas", Helvetica, Trebuchet, Arial, sans-serif;
   font-style: normal;
   font-size: 0.875rem;
@@ -128,7 +128,7 @@ html {
   border-radius: 2.5rem;
   border: none;
   cursor: pointer;
-  color: #FFFFFF;
+  color: #ffffff;
   text-transform: uppercase; }
 
 @media screen {
@@ -163,11 +163,7 @@ html {
     display: none !important; }
 
   .show_on-tab {
-    display: block !important; }
-
-  body {
-    font-size: calc( 10px + (96 - 10) * ((100vw - 1024) / (1440 - 1024)) ) !important;
-    line-height: calc( 10px + (96 - 10) * ((100vw - 1024) / (1440 - 1024)) ) !important; } }
+    display: block !important; } }
 /* Mobile: width < 768px */
 @media only screen and (max-width: 48rem) {
   .hide_on-mobile {
@@ -220,12 +216,12 @@ html {
     line-height: 1.5rem;
     letter-spacing: 0.005em; }
 
-  .font_body-2, #setting .setting_main .setting_label {
+  .font_body-2, #setting_my_info .setting_label {
     font-size: 0.875rem;
     line-height: 1.25rem;
     letter-spacing: 0.0025em; }
 
-  .font_caption, #setting .setting_main .setting_label2, #setting .setting_main #setting_my_info .form_content-heading, #setting .setting_main #setting_my_info .form_content p, #setting .setting_main #setting_my_info .form_content-list-item, #setting .setting_main #setting_my_info .form_content-field label {
+  .font_caption, #setting_my_info .form_content p, #setting_my_info .form_content-heading, #setting_my_info .form_content-field label, #setting_my_info .form_content-item {
     font-size: 0.75rem;
     line-height: 1rem;
     letter-spacing: 0.025rem; }
@@ -235,7 +231,7 @@ html {
     line-height: 1rem;
     letter-spacing: 0.0938rem; }
 
-  .font_button, #setting .setting_main #setting_my_info .form_btn button {
+  .font_button, #setting_my_info .form_btn button {
     font-size: 0.875rem;
     line-height: 1.25rem;
     letter-spacing: 0.0781rem; } }
@@ -354,31 +350,62 @@ video {
     transform: translateY(100%); }
   to {
     transform: translate(0); } }
-#setting .setting_main .setting_label {
+#setting_my_info .setting_label {
   height: 3.25rem;
   background: #c5c5c5;
   font-weight: 700;
-  color: #000000; }
-#setting .setting_main .setting_label2 {
-  height: 2rem;
-  background: #d5d5d5;
-  font-weight: 500;
-  color: #000000; }
-#setting .setting_main .setting_label3 {
-  background: #e6e6e6;
-  height: 4.5625rem; }
-#setting .setting_main .setting_label,
-#setting .setting_main .setting_label2,
-#setting .setting_main .setting_label3 {
+  color: #000000;
   display: flex;
   align-items: center;
   padding: 1rem;
   margin-bottom: unset; }
-#setting .setting_main #setting_my_info .form_btn {
+#setting_my_info .form_content {
+  width: 100%; }
+  #setting_my_info .form_content p {
+    margin-top: 1.5rem;
+    color: #17171a;
+    width: 100%;
+    margin-bottom: unset;
+    font-weight: 400; }
+#setting_my_info .form_content-heading {
+  margin-top: 1.5rem;
+  display: inline-block;
+  width: 100%;
+  margin-bottom: unset;
+  font-weight: 400;
+  color: #000000; }
+#setting_my_info .form_content-field {
+  width: 100%;
+  margin-top: 1.5rem;
+  display: grid;
+  grid-template-columns: 2fr 6fr 2fr;
+  column-gap: 1.5rem; }
+  #setting_my_info .form_content-field label {
+    padding: 0.875rem 0.75rem;
+    margin-bottom: unset;
+    font-weight: 400;
+    color: #000000;
+    display: flex;
+    align-items: center; }
+  #setting_my_info .form_content-field input {
+    width: 100%;
+    padding: 0.625rem 0.75rem;
+    height: 2.75rem;
+    background: #ffffff;
+    border: 0.0625rem solid #d5d5d5;
+    border-radius: 0.25rem; }
+#setting_my_info .form_content-wrapper {
+  margin-top: 0.625rem;
+  margin-bottom: 1.5rem;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 2fr 6fr 2fr;
+  column-gap: 1.5rem; }
+#setting_my_info .form_btn {
   width: 100%;
   display: flex;
   justify-content: end; }
-  #setting .setting_main #setting_my_info .form_btn button {
+  #setting_my_info .form_btn button {
     display: flex;
     justify-content: center;
     height: 2.5625rem;
@@ -390,71 +417,29 @@ video {
     text-align: center;
     color: #17171a;
     background-color: unset; }
-    #setting .setting_main #setting_my_info .form_btn button:hover {
+    #setting_my_info .form_btn button:hover {
       cursor: pointer;
       transition: 0.3s;
       background: #c5c5c5; }
-#setting .setting_main #setting_my_info .form_content {
-  width: 100%; }
-  #setting .setting_main #setting_my_info .form_content-heading {
-    margin-top: 1.5rem;
-    display: inline-block;
-    width: 100%;
-    margin-bottom: unset;
-    font-weight: 400;
-    color: #000000; }
-  #setting .setting_main #setting_my_info .form_content p {
-    margin-top: 1.5rem;
-    color: #17171a;
-    width: 100%;
-    margin-bottom: unset;
-    font-weight: 400; }
-  #setting .setting_main #setting_my_info .form_content-list {
-    padding-left: 1.875rem;
-    margin-bottom: 0.625rem; }
-    #setting .setting_main #setting_my_info .form_content-list-item {
-      color: #17171a;
-      width: 100%;
-      margin-bottom: unset;
-      font-weight: 400; }
-  #setting .setting_main #setting_my_info .form_content-field {
-    width: 100%;
-    margin-top: 1.5rem;
-    display: grid;
-    grid-template-columns: 2fr 6fr 2fr;
-    column-gap: 1.5rem; }
-    #setting .setting_main #setting_my_info .form_content-field label {
-      padding: 0.875rem 0.75rem;
-      margin-bottom: unset;
-      font-weight: 400;
-      color: #000000;
-      display: flex;
-      align-items: center; }
-    #setting .setting_main #setting_my_info .form_content-field input {
-      width: 100%;
-      padding: 0.625rem 0.75rem;
-      height: 2.75rem;
-      background: #ffffff;
-      border: 0.0625rem solid #d5d5d5;
-      border-radius: 0.25rem; }
-  #setting .setting_main #setting_my_info .form_content-wrapper {
-    margin-top: 0.625rem;
-    margin-bottom: 1.5rem;
-    width: 100%;
-    display: grid;
-    grid-template-columns: 2fr 6fr 2fr;
-    column-gap: 1.5rem; }
-  #setting .setting_main #setting_my_info .form_content-mess {
-    width: 100%;
-    display: grid;
-    grid-template-columns: 2fr 6fr 2fr;
-    column-gap: 1.5rem; }
+#setting_my_info .form_content-mess {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 2fr 6fr 2fr;
+  column-gap: 1.5rem; }
+#setting_my_info .form_content-list {
+  padding-left: 1.875rem;
+  margin-bottom: 0.625rem; }
+#setting_my_info .form_content-item {
+  color: #17171a;
+  width: 100%;
+  margin-bottom: unset;
+  font-weight: 400; }
 
 /* Tablet: width >= 768px and width < 1024px */
 @media only screen and (min-width: 48rem) and (max-width: 63.938rem) {
-  #setting {
+  #setting_my_info {
     margin-top: 3.125rem; }
-    #setting .setting {
+    #setting_my_info .setting {
       display: flex;
       flex-direction: column;
       gap: 0.625rem;
@@ -462,47 +447,47 @@ video {
       margin-left: 1.25rem; } }
 /* Mobile: width < 768px */
 @media only screen and (max-width: 47.938em) {
-  #setting {
+  #setting_my_info {
     margin-top: 3.125rem; }
-    #setting .setting {
+    #setting_my_info .setting {
       display: flex;
       flex-direction: column;
       gap: 0.625rem;
       margin-right: 0.625rem;
       margin-left: 0.625rem; }
-    #setting .form_btn button {
+    #setting_my_info .form_btn button {
       width: 100%;
       border-radius: 0.3125rem !important; }
-      #setting .form_btn button:hover {
+      #setting_my_info .form_btn button:hover {
         cursor: pointer;
         transition: 0.3s;
         background: #c5c5c5; }
-    #setting .form_content {
+    #setting_my_info .form_content {
       display: flex !important;
       gap: 0.3125rem;
       flex-direction: column;
       padding: 1rem 0rem !important; }
-      #setting .form_content .form_content-btn button {
+      #setting_my_info .form_content .form_content-btn button {
         width: 100%;
         border-radius: 0.3125rem !important; }
-        #setting .form_content .form_content-btn button:hover {
+        #setting_my_info .form_content .form_content-btn button:hover {
           cursor: pointer;
           transition: 0.3s;
           background: #c5c5c5; }
-      #setting .form_content .form_btn {
+      #setting_my_info .form_content .form_btn {
         width: 100%;
         padding-left: unset !important;
         padding-right: unset !important; }
-      #setting .form_content .form_content-field {
+      #setting_my_info .form_content .form_content-field {
         margin-top: unset !important;
         display: flex !important;
         flex-direction: column; }
-        #setting .form_content .form_content-field label:last-child {
+        #setting_my_info .form_content .form_content-field label:last-child {
           display: none !important; }
-      #setting .form_content .form_content-wrapper,
-      #setting .form_content .form_content-mess {
+      #setting_my_info .form_content .form_content-wrapper,
+      #setting_my_info .form_content .form_content-mess {
         display: unset !important; }
-    #setting .setting_aside-select {
+    #setting_my_info .setting_aside-select {
       display: block !important; }
-    #setting .setting_aside-list {
+    #setting_my_info .setting_aside-list {
       display: none !important; } }

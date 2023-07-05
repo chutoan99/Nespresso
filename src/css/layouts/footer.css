@@ -128,7 +128,7 @@ html {
   border-radius: 2.5rem;
   border: none;
   cursor: pointer;
-  color: #FFFFFF;
+  color: #ffffff;
   text-transform: uppercase; }
 
 @media screen {
@@ -163,11 +163,7 @@ html {
     display: none !important; }
 
   .show_on-tab {
-    display: block !important; }
-
-  body {
-    font-size: calc( 10px + (96 - 10) * ((100vw - 1024) / (1440 - 1024)) ) !important;
-    line-height: calc( 10px + (96 - 10) * ((100vw - 1024) / (1440 - 1024)) ) !important; } }
+    display: block !important; } }
 /* Mobile: width < 768px */
 @media only screen and (max-width: 48rem) {
   .hide_on-mobile {
@@ -493,6 +489,12 @@ video {
           #footer .footer_bottom-inner-frame .bottom_frame-content svg:hover {
             cursor: pointer;
             opacity: 0.5; }
+  #footer .custom-select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: url("data:image/svg+xml,%3Csvg  width='8' height='7' viewBox='0 0 8 7' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M7.66671 0.5H0.333206C0.272497 0.500025 0.212947 0.516628 0.160983 0.548018C0.109019 0.579409 0.0666146 0.624394 0.0383452 0.67812C0.0100758 0.731845 -0.00298475 0.792271 0.000572986 0.852876C0.00413072 0.913481 0.0241717 0.971963 0.0585331 1.02201L3.72528 6.35547C3.75592 6.40002 3.79693 6.43645 3.84478 6.46162C3.89263 6.48679 3.94589 6.49994 3.99996 6.49994C4.05403 6.49994 4.10728 6.48679 4.15513 6.46162C4.20299 6.43645 4.244 6.40002 4.27463 6.35547L7.94138 1.02201C7.97574 0.971963 7.99579 0.913481 7.99934 0.852876C8.0029 0.792271 7.98984 0.731845 7.96157 0.67812C7.9333 0.624394 7.8909 0.579409 7.83893 0.548018C7.78697 0.516628 7.72742 0.500025 7.66671 0.5Z' fill='%2317171A'%3E%3C/path%3E%3C/svg%3E") no-repeat center right;
+    padding-right: 20px; }
 
 /* Tablet: width >= 768px and width < 1024px */
 @media only screen and (min-width: 48rem) and (max-width: 63.938rem) {

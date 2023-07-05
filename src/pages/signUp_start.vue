@@ -13,7 +13,7 @@ export default defineComponent({
   <div class="wrapper">
     <div class="wrapper-inner">
       <HeaderCustom />
-      <main id="main">
+      <main id="signUp_start">
         <section class="signUp">
           <div class="signUp-container">
             <div class="signUp-head">

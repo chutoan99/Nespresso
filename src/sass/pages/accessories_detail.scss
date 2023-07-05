@@ -2,7 +2,7 @@
 @import "../base/reset";
 @import "../base/variable";
 
-#main {
+#accessories_detail {
   background-color: $white;
 
   .product {
@@ -508,7 +508,7 @@
 
 /* Mobile: width < 768px */
 @media only screen and (max-width: 47.938em) {
-  #main {
+  #accessories_detail {
     margin-top: 3.125rem;
 
     .product {
@@ -675,7 +675,7 @@
 
 /* Tablet: width >= 768px and width < 1024px */
 @media only screen and (min-width: 48rem) and (max-width: 63.938rem) {
-  #main {
+  #accessories_detail {
     .product {
       margin-top: 3.125rem;
 

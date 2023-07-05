@@ -42,7 +42,7 @@ html {
   line-height: 4.25rem;
   letter-spacing: -0.005em; }
 
-.font_heading-3, #pageNotFound .caption-title {
+.font_heading-3 {
   font-family: "Nespresso Lucas", Helvetica, Trebuchet, Arial, sans-serif;
   font-style: normal;
   font-size: 3rem;
@@ -55,7 +55,7 @@ html {
   line-height: 2.5rem;
   letter-spacing: 0.0025em; }
 
-.font_heading-5, #pageNotFound .product-name {
+.font_heading-5 {
   font-family: "Nespresso Lucas", Helvetica, Trebuchet, Arial, sans-serif;
   font-style: normal;
   font-size: 1.25rem;
@@ -82,7 +82,7 @@ html {
   line-height: 1.25rem;
   letter-spacing: 0.01em; }
 
-.font_body-1, #pageNotFound .caption-text {
+.font_body-1 {
   font-family: "Nespresso Lucas", Helvetica, Trebuchet, Arial, sans-serif;
   font-style: normal;
   font-size: 1rem;
@@ -103,21 +103,21 @@ html {
   line-height: 1rem;
   letter-spacing: 0.025rem; }
 
-.font_overline, #pageNotFound .product-tag__name {
+.font_overline {
   font-family: "Nespresso Lucas", Helvetica, Trebuchet, Arial, sans-serif;
   font-style: normal;
   font-size: 0.625rem;
   line-height: 1rem;
   letter-spacing: 0.0938rem; }
 
-.font_button, #pageNotFound .caption-btn a, #pageNotFound .product-btn span {
+.font_button {
   font-family: "Nespresso Lucas", Helvetica, Trebuchet, Arial, sans-serif;
   font-style: normal;
   font-size: 0.875rem;
   line-height: 1.25rem;
   letter-spacing: 0.0781rem; }
 
-.button_cart, #pageNotFound .caption-btn, #pageNotFound .product-btn {
+.button_cart {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -128,7 +128,7 @@ html {
   border-radius: 2.5rem;
   border: none;
   cursor: pointer;
-  color: #FFFFFF;
+  color: #ffffff;
   text-transform: uppercase; }
 
 @media screen {
@@ -163,11 +163,7 @@ html {
     display: none !important; }
 
   .show_on-tab {
-    display: block !important; }
-
-  body {
-    font-size: calc( 10px + (96 - 10) * ((100vw - 1024) / (1440 - 1024)) ) !important;
-    line-height: calc( 10px + (96 - 10) * ((100vw - 1024) / (1440 - 1024)) ) !important; } }
+    display: block !important; } }
 /* Mobile: width < 768px */
 @media only screen and (max-width: 48rem) {
   .hide_on-mobile {
@@ -187,7 +183,7 @@ html {
     line-height: 4.25rem;
     letter-spacing: -0.005em; }
 
-  .font_heading-3, #pageNotFound .caption-title {
+  .font_heading-3 {
     font-size: 2.25rem;
     line-height: 3.25rem; }
 
@@ -196,7 +192,7 @@ html {
     line-height: 2.5rem;
     letter-spacing: 0.0025em; }
 
-  .font_heading-5, #pageNotFound .product-name {
+  .font_heading-5 {
     font-size: 1.25rem;
     line-height: 2rem; }
 
@@ -215,7 +211,7 @@ html {
     line-height: 1.25rem;
     letter-spacing: 0.01em; }
 
-  .font_body-1, #pageNotFound .caption-text {
+  .font_body-1 {
     font-size: 1rem;
     line-height: 1.5rem;
     letter-spacing: 0.005em; }
@@ -230,12 +226,12 @@ html {
     line-height: 1rem;
     letter-spacing: 0.025rem; }
 
-  .font_overline, #pageNotFound .product-tag__name {
+  .font_overline {
     font-size: 0.625rem;
     line-height: 1rem;
     letter-spacing: 0.0938rem; }
 
-  .font_button, #pageNotFound .caption-btn a, #pageNotFound .product-btn span {
+  .font_button {
     font-size: 0.875rem;
     line-height: 1.25rem;
     letter-spacing: 0.0781rem; } }
@@ -354,123 +350,3 @@ video {
     transform: translateY(100%); }
   to {
     transform: translate(0); } }
-#pageNotFound .caption {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding: 7.5rem 0;
-  width: 100%;
-  gap: 6rem; }
-  #pageNotFound .caption-title {
-    font-weight: 600;
-    color: #1b1b1b;
-    margin-bottom: 1.25rem; }
-  #pageNotFound .caption-text {
-    font-weight: 400;
-    color: #1b1b1b;
-    margin-bottom: 1.25rem; }
-  #pageNotFound .caption-btn {
-    border: none;
-    width: 12.8125rem;
-    height: 2.5625rem; }
-    #pageNotFound .caption-btn a {
-      font-weight: 600;
-      text-decoration: none;
-      color: #ffffff; }
-    #pageNotFound .caption-btn:hover {
-      background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #3d8705; }
-  #pageNotFound .caption img {
-    padding-top: 1.25rem;
-    width: 100%; }
-#pageNotFound .product {
-  background: #e6e6e6;
-  padding: 2.5rem 0; }
-  #pageNotFound .product-list {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 1.5rem; }
-  #pageNotFound .product-item {
-    text-align: center;
-    position: relative;
-    background-color: #ffffff;
-    box-shadow: 0rem 0.25rem 0.313rem rgba(0, 0, 0, 0.14);
-    border-radius: 0.25rem;
-    padding: 2.5rem 0; }
-  #pageNotFound .product-card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 1.5rem;
-    gap: 0.75rem; }
-    #pageNotFound .product-card-wrapper {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 0.75rem;
-      width: 100%; }
-  #pageNotFound .product-tag {
-    position: absolute;
-    width: 4.4375rem;
-    height: 1.5rem;
-    right: -0.0206rem;
-    top: 0rem;
-    padding: 0.5rem;
-    background-color: #8f7247;
-    display: flex;
-    align-items: center;
-    justify-content: center; }
-    #pageNotFound .product-tag__name {
-      text-transform: uppercase;
-      color: #ffffff;
-      text-align: center; }
-  #pageNotFound .product-name {
-    text-transform: uppercase;
-    font-weight: 600;
-    text-align: center;
-    color: #1b1b1b; }
-  #pageNotFound .product-image {
-    width: 100%;
-    font-size: 0;
-    padding: 1.3125rem 0; }
-  #pageNotFound .product-price {
-    font-weight: 500;
-    font-size: 1rem;
-    line-height: 1.5rem;
-    text-align: center;
-    letter-spacing: 0.005em; }
-  #pageNotFound .product-btn {
-    width: 100%; }
-    #pageNotFound .product-btn span {
-      font-weight: 600; }
-    #pageNotFound .product-btn:hover {
-      background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #3d8705; }
-
-/* Mobile: width < 768px */
-@media only screen and (max-width: 47.938em) {
-  #pageNotFound .caption {
-    display: flex;
-    flex-direction: column-reverse;
-    padding: 0 1rem;
-    padding-bottom: 2.5rem; }
-    #pageNotFound .caption-title {
-      font-size: 2rem;
-      line-height: 1.2; }
-  #pageNotFound .product-list {
-    grid-template-columns: repeat(1, 1fr);
-    padding: 0.625rem 1.25rem;
-    gap: 1rem; }
-  #pageNotFound .product-btn {
-    width: 100%; } }
-/* Tablet: width >= 768px and width < 1024px */
-@media only screen and (min-width: 48rem) and (max-width: 63.938rem) {
-  #pageNotFound .caption {
-    box-sizing: content-box;
-    margin: 0 auto;
-    max-width: 45.5rem !important; }
-    #pageNotFound .caption img {
-      width: 50%; }
-  #pageNotFound .product-list {
-    grid-template-columns: repeat(2, 1fr);
-    padding: 0.625rem 1.25rem;
-    gap: 1rem; } }

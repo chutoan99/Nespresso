@@ -55,20 +55,20 @@ html {
   line-height: 2.5rem;
   letter-spacing: 0.0025em; }
 
-.font_heading-5, #private #private_form .private_form-label span, #private #private_form .private_form-label2 span, #private #private_form .private_form-heading {
+.font_heading-5, #signUp_private #private_form .private_form-label span, #signUp_private #private_form .private_form-label2 span, #signUp_private #private_form .private_form-heading {
   font-family: "Nespresso Lucas", Helvetica, Trebuchet, Arial, sans-serif;
   font-style: normal;
   font-size: 1.25rem;
   line-height: 2rem; }
 
-.font_heading-6, #private .card_item-title {
+.font_heading-6, #signUp_private .card_item-title {
   font-family: "Nespresso Lucas", Helvetica, Trebuchet, Arial, sans-serif;
   font-style: normal;
   font-size: 1.125rem;
   line-height: 1.5rem;
   letter-spacing: 0.0015em; }
 
-.font_subtitle-1, #private #private_form .private_form-content label {
+.font_subtitle-1, #signUp_private #private_form .private_form-content label {
   font-family: "Nespresso Lucas", Helvetica, Trebuchet, Arial, sans-serif;
   font-style: normal;
   font-size: 1rem;
@@ -89,7 +89,7 @@ html {
   line-height: 1.5rem;
   letter-spacing: 0.005em; }
 
-.font_body-2, #private #private_form .private_form-title, #private #private_form .private_form-header label, #private #private_form .private_form-mess {
+.font_body-2, #signUp_private #private_form .private_form-title, #signUp_private #private_form .private_form-header label, #signUp_private #private_form .private_form-mess {
   font-family: "Nespresso Lucas", Helvetica, Trebuchet, Arial, sans-serif;
   font-style: normal;
   font-size: 0.875rem;
@@ -110,7 +110,7 @@ html {
   line-height: 1rem;
   letter-spacing: 0.0938rem; }
 
-.font_button, #private #private_form .private_form-button button a {
+.font_button, #signUp_private #private_form .private_form-button button a {
   font-family: "Nespresso Lucas", Helvetica, Trebuchet, Arial, sans-serif;
   font-style: normal;
   font-size: 0.875rem;
@@ -128,7 +128,7 @@ html {
   border-radius: 2.5rem;
   border: none;
   cursor: pointer;
-  color: #FFFFFF;
+  color: #ffffff;
   text-transform: uppercase; }
 
 @media screen {
@@ -163,11 +163,7 @@ html {
     display: none !important; }
 
   .show_on-tab {
-    display: block !important; }
-
-  body {
-    font-size: calc( 10px + (96 - 10) * ((100vw - 1024) / (1440 - 1024)) ) !important;
-    line-height: calc( 10px + (96 - 10) * ((100vw - 1024) / (1440 - 1024)) ) !important; } }
+    display: block !important; } }
 /* Mobile: width < 768px */
 @media only screen and (max-width: 48rem) {
   .hide_on-mobile {
@@ -196,16 +192,16 @@ html {
     line-height: 2.5rem;
     letter-spacing: 0.0025em; }
 
-  .font_heading-5, #private #private_form .private_form-label span, #private #private_form .private_form-label2 span, #private #private_form .private_form-heading {
+  .font_heading-5, #signUp_private #private_form .private_form-label span, #signUp_private #private_form .private_form-label2 span, #signUp_private #private_form .private_form-heading {
     font-size: 1.25rem;
     line-height: 2rem; }
 
-  .font_heading-6, #private .card_item-title {
+  .font_heading-6, #signUp_private .card_item-title {
     font-size: 1rem;
     line-height: 1.5rem;
     letter-spacing: 0.0015em; }
 
-  .font_subtitle-1, #private #private_form .private_form-content label {
+  .font_subtitle-1, #signUp_private #private_form .private_form-content label {
     font-size: 1rem;
     line-height: 1.25rem;
     letter-spacing: 0.0125em; }
@@ -220,7 +216,7 @@ html {
     line-height: 1.5rem;
     letter-spacing: 0.005em; }
 
-  .font_body-2, #private #private_form .private_form-title, #private #private_form .private_form-header label, #private #private_form .private_form-mess {
+  .font_body-2, #signUp_private #private_form .private_form-title, #signUp_private #private_form .private_form-header label, #signUp_private #private_form .private_form-mess {
     font-size: 0.875rem;
     line-height: 1.25rem;
     letter-spacing: 0.0025em; }
@@ -235,7 +231,7 @@ html {
     line-height: 1rem;
     letter-spacing: 0.0938rem; }
 
-  .font_button, #private #private_form .private_form-button button a {
+  .font_button, #signUp_private #private_form .private_form-button button a {
     font-size: 0.875rem;
     line-height: 1.25rem;
     letter-spacing: 0.0781rem; } }
@@ -354,25 +350,25 @@ video {
     transform: translateY(100%); }
   to {
     transform: translate(0); } }
-#private .private_wrapper {
+#signUp_private .private_wrapper {
   width: 100vw;
   height: 100%;
   padding-bottom: 12.5rem;
   background-color: black;
   position: relative; }
-#private .private_inner {
+#signUp_private .private_inner {
   top: 2.125rem;
   z-index: 10;
   left: 0;
   right: 0; }
-#private #private_form {
+#signUp_private #private_form {
   gap: 1.25rem;
   height: 100%;
   margin: 0 auto;
   background: #e6e6e6; }
-  #private #private_form .private_form-inner {
+  #signUp_private #private_form .private_form-inner {
     padding: 2rem 1rem; }
-  #private #private_form .private_form-label {
+  #signUp_private #private_form .private_form-label {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -380,10 +376,10 @@ video {
     width: 100%;
     height: 6rem;
     background: #d5d5d5; }
-    #private #private_form .private_form-label span {
+    #signUp_private #private_form .private_form-label span {
       color: #000000;
       font-weight: 700; }
-  #private #private_form .private_form-label2 {
+  #signUp_private #private_form .private_form-label2 {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -391,38 +387,38 @@ video {
     width: 100%;
     height: 6rem;
     background: #c5c5c5; }
-    #private #private_form .private_form-label2 span {
+    #signUp_private #private_form .private_form-label2 span {
       color: #000000;
       font-weight: 700; }
-  #private #private_form .private_form-heading {
+  #signUp_private #private_form .private_form-heading {
     font-weight: 700;
     color: #000000; }
-  #private #private_form .private_form-title {
+  #signUp_private #private_form .private_form-title {
     font-weight: 400;
     margin-top: 1.5rem;
     color: #000000; }
-  #private #private_form .private_form-header {
+  #signUp_private #private_form .private_form-header {
     margin-top: 1.25rem;
     align-items: center;
     display: flex;
     gap: 0.5rem; }
-    #private #private_form .private_form-header label {
+    #signUp_private #private_form .private_form-header label {
       font-weight: 400;
       color: #000000; }
-    #private #private_form .private_form-header input {
+    #signUp_private #private_form .private_form-header input {
       width: 1.25rem;
       height: 1.25rem; }
-  #private #private_form .private_form-mess {
+  #signUp_private #private_form .private_form-mess {
     margin-top: 0.5rem;
     display: inline-block;
     color: #8f7247;
     font-weight: 400; }
-  #private #private_form .private_form-content {
+  #signUp_private #private_form .private_form-content {
     margin-top: 1.25rem; }
-    #private #private_form .private_form-content label {
+    #signUp_private #private_form .private_form-content label {
       font-weight: 500;
       color: #000000; }
-    #private #private_form .private_form-content select {
+    #signUp_private #private_form .private_form-content select {
       margin-top: 0.25rem;
       padding: 0.625rem 0.75rem;
       width: 100%;
@@ -430,7 +426,7 @@ video {
       background: #ffffff;
       border: 0.0625rem solid #d5d5d5;
       border-radius: 0.25rem; }
-    #private #private_form .private_form-content input {
+    #signUp_private #private_form .private_form-content input {
       margin-top: 0.25rem;
       padding: 0.625rem 0.75rem;
       width: 100%;
@@ -438,30 +434,30 @@ video {
       background: #ffffff;
       border: 0.0625rem solid #d5d5d5;
       border-radius: 0.25rem; }
-  #private #private_form .private_form-footer {
+  #signUp_private #private_form .private_form-footer {
     background-color: white;
     padding: 1.5rem 1rem;
     padding-bottom: unset;
     display: grid;
     grid-template-columns: 8fr 4.4fr;
     column-gap: 3.75rem; }
-  #private #private_form .private_form-img {
+  #signUp_private #private_form .private_form-img {
     width: 100%;
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: center; }
-  #private #private_form .private_form-wrapper {
+  #signUp_private #private_form .private_form-wrapper {
     width: 22.5rem;
     height: 15.5rem;
     cursor: pointer; }
-    #private #private_form .private_form-wrapper img {
+    #signUp_private #private_form .private_form-wrapper img {
       width: 100%;
       height: 100%; }
-    #private #private_form .private_form-wrapper:hover {
+    #signUp_private #private_form .private_form-wrapper:hover {
       background-color: white;
       opacity: 0.5; }
-  #private #private_form .private_form-button {
+  #signUp_private #private_form .private_form-button {
     width: 100%;
     height: 100%;
     padding: 1.5rem 1rem;
@@ -469,7 +465,7 @@ video {
     background-color: white;
     display: flex;
     justify-content: end; }
-    #private #private_form .private_form-button button {
+    #signUp_private #private_form .private_form-button button {
       display: flex;
       justify-content: center;
       align-items: center;
@@ -482,70 +478,70 @@ video {
       border-radius: 0.25rem;
       cursor: pointer;
       text-transform: uppercase; }
-      #private #private_form .private_form-button button:hover {
+      #signUp_private #private_form .private_form-button button:hover {
         background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #3d8705; }
-      #private #private_form .private_form-button button a {
+      #signUp_private #private_form .private_form-button button a {
         color: #ffffff;
         font-weight: 600;
         text-decoration: none; }
-#private .card-list {
+#signUp_private .card-list {
   background: #ffffff;
   box-shadow: 0rem 0.25rem 0.313rem rgba(0, 0, 0, 0.14);
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: 1fr; }
-#private .card_item {
+#signUp_private .card_item {
   cursor: pointer;
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
   height: 19.625rem; }
-  #private .card_item:hover {
+  #signUp_private .card_item:hover {
     background-color: white;
     opacity: 0.5;
     transition: 0.3s; }
-#private .card_item-img {
+#signUp_private .card_item-img {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 1rem; }
-  #private .card_item-img img {
+  #signUp_private .card_item-img img {
     width: 100%;
     height: 100%; }
-#private .card_item-title {
+#signUp_private .card_item-title {
   text-align: center;
   font-weight: 600;
   color: #000000; }
 
 /* Tablet: width >= 768px and width < 1024px */
 @media only screen and (min-width: 48rem) and (max-width: 63.938rem) {
-  #private {
+  #signUp_private {
     margin-top: 3.125rem;
     margin-left: 1.25rem;
     margin-right: 1.25rem; }
-    #private .private_wrapper {
+    #signUp_private .private_wrapper {
       width: 100% !important; }
-    #private .card-list {
+    #signUp_private .card-list {
       display: grid;
       gap: 1.5rem !important;
       grid-template-columns: repeat(3, 1fr); }
-    #private .private_form-footer {
+    #signUp_private .private_form-footer {
       display: flex !important;
       flex-direction: column;
       gap: 0.625rem !important; } }
 /* Mobile: width < 768px */
 @media only screen and (max-width: 47.938em) {
-  #private {
+  #signUp_private {
     margin-top: 3.125rem;
     margin-left: 0.625rem;
     margin-right: 0.625rem; }
-    #private .private_wrapper {
+    #signUp_private .private_wrapper {
       width: 100% !important; }
-    #private .card-list {
+    #signUp_private .card-list {
       display: grid;
       gap: 1.5rem !important;
       grid-template-columns: repeat(2, 1fr); }
-    #private .private_form-footer {
+    #signUp_private .private_form-footer {
       display: flex !important;
       flex-direction: column;
       gap: 0.625rem !important; } }

@@ -42,26 +42,26 @@ html {
   line-height: 4.25rem;
   letter-spacing: -0.005em; }
 
-.font_heading-3, #main .banner__context-title, #main .choice-context__heading, #main .discover-context__heading, #main .recommend-heading, .modal .table-header__title h4, .modal .table-title {
+.font_heading-3, #coffee_original .banner__context-title, #coffee_original .choice-context__heading, #coffee_original .discover-context__heading, #coffee_original .recommend-heading, #coffee_original_modal .modal .table-header__title h4, #coffee_original_modal .modal .table-title {
   font-family: "Nespresso Lucas", Helvetica, Trebuchet, Arial, sans-serif;
   font-style: normal;
   font-size: 3rem;
   line-height: 3.25rem; }
 
-.font_heading-4, #main .intro-heading {
+.font_heading-4, #coffee_original .intro-heading {
   font-family: "Nespresso Lucas", Helvetica, Trebuchet, Arial, sans-serif;
   font-style: normal;
   font-size: 2.5rem;
   line-height: 2.5rem;
   letter-spacing: 0.0025em; }
 
-.font_heading-5, .modalCart_header h3, #main .choice-context__title, #main .discover-context__title, #main .discover-item__name, #main .recommend-context {
+.font_heading-5, .modalCart_header h3, #coffee_original .choice-context__title, #coffee_original .discover-context__title, #coffee_original .discover-item__name, #coffee_original .recommend-context {
   font-family: "Nespresso Lucas", Helvetica, Trebuchet, Arial, sans-serif;
   font-style: normal;
   font-size: 1.25rem;
   line-height: 2rem; }
 
-.font_heading-6, #dropdown_signIn .dropdown_signIn-heading, .modalCart_body-name span, .modalCart_body-heading, #main .hero-content__heading, #main .service-description__title, .modal .table-subtitle p {
+.font_heading-6, #dropdown_signIn .dropdown_signIn-heading, .modalCart_body-name span, .modalCart_body-heading, #coffee_original .hero-content__heading, #coffee_original .service-description__title, #coffee_original_modal .modal .table-subtitle p {
   font-family: "Nespresso Lucas", Helvetica, Trebuchet, Arial, sans-serif;
   font-style: normal;
   font-size: 1.125rem;
@@ -83,7 +83,7 @@ html {
   line-height: 1.25rem;
   letter-spacing: 0.01em; }
 
-.font_body-1, #footer .footer_main-header, .modalCart_body-title, #main .discover-item__type, #main .intro-context p, #main .intro-paragraph__heading, #main .intro-paragraph__context, #main .service-description__context, .modal .table-header__title p, .modal .table-item__desc, .modal .table-item__btn-price, .modal .table-subtitle h3, .modal .table-attribute h3, .modal .table-paragraph, .modal .table-btn__price {
+.font_body-1, #footer .footer_main-header, .modalCart_body-title, #coffee_original .discover-item__type, #coffee_original .intro-context p, #coffee_original .intro-paragraph__heading, #coffee_original .intro-paragraph__context, #coffee_original .service-description__context, #coffee_original_modal .modal .table-header__title p, #coffee_original_modal .modal .table-item__desc, #coffee_original_modal .modal .table-item__btn-price, #coffee_original_modal .modal .table-subtitle h3, #coffee_original_modal .modal .table-attribute h3, #coffee_original_modal .modal .table-paragraph, #coffee_original_modal .modal .table-btn__price {
   font-family: "Nespresso Lucas", Helvetica, Trebuchet, Arial, sans-serif;
   font-style: normal;
   font-size: 1rem;
@@ -91,7 +91,7 @@ html {
   letter-spacing: 0.005em; }
 
 .font_body-2, #footer .footer_payment-methods-inner .payment-methods-header, #footer .footer_main-content a, #footer .footer_language-menu-inner .footer_language-menu-left .footer_language-menu-select span, #footer .footer_language-menu-inner .footer_language-menu-right .language-menu-list .language-menu-item .language-menu-item-link, #footer .footer_bottom-inner-frame .bottom_frame-header, #footer .footer_bottom-inner-frame .bottom_frame-topPage, #footer .footer_bottom-inner-frame .bottom_frame-title, #nav .nav_list-item-link p, #header .header_content-search-input, #header .header_content-search-input::placeholder, .menu__box .menu__item, #dropdown_signIn .dropdown_signIn-title, #dropdown_signIn .dropdown_signIn-check span, #dropdown_signIn .dropdown_signIn-footer span, .modalCart_title h4, .modalCart_title span, .modalCart_body-item-quantity, .modalCart_body-content-info h4, .modalCart_body-content-info span,
-.modalCart_body-content-info label, .modalCart_footer-total span:nth-child(1), #form_search .form_search-item span, #form_result .form_search-item-info span:first-child, #form_result .form_search-item-info span:last-child, #main .product-nav ul .tab-menu, #main .hero-content__item-name, #main .intro-nav__item button {
+.modalCart_body-content-info label, .modalCart_footer-total span:nth-child(1), #form_search .form_search-item span, #form_result .form_search-item-info span:first-child, #form_result .form_search-item-info span:last-child, #coffee_original .product-nav ul .tab-menu, #coffee_original .hero-content__item-name, #coffee_original .intro-nav__item button {
   font-family: "Nespresso Lucas", Helvetica, Trebuchet, Arial, sans-serif;
   font-style: normal;
   font-size: 0.875rem;
@@ -112,14 +112,14 @@ html {
   line-height: 1rem;
   letter-spacing: 0.0938rem; }
 
-.font_button, #dropdown_signIn .dropdown_signIn-btn, #dropdown_loggedIn .dropdown_loggedIn-logout span, .modalCart_btn a, #main .intro-paragraph__btn a, #main .recommend-btn a, .modal .table-btn__add span {
+.font_button, #dropdown_signIn .dropdown_signIn-btn, #dropdown_loggedIn .dropdown_loggedIn-logout span, .modalCart_btn a, #coffee_original .intro-paragraph__btn a, #coffee_original .recommend-btn a, #coffee_original_modal .modal .table-btn__add span {
   font-family: "Nespresso Lucas", Helvetica, Trebuchet, Arial, sans-serif;
   font-style: normal;
   font-size: 0.875rem;
   line-height: 1.25rem;
   letter-spacing: 0.0781rem; }
 
-.button_cart, .modal .table-btn__add {
+.button_cart, #coffee_original_modal .modal .table-btn__add {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -130,7 +130,7 @@ html {
   border-radius: 2.5rem;
   border: none;
   cursor: pointer;
-  color: #FFFFFF;
+  color: #ffffff;
   text-transform: uppercase; }
 
 @media screen {
@@ -165,11 +165,7 @@ html {
     display: none !important; }
 
   .show_on-tab {
-    display: block !important; }
-
-  body {
-    font-size: calc( 10px + (96 - 10) * ((100vw - 1024) / (1440 - 1024)) ) !important;
-    line-height: calc( 10px + (96 - 10) * ((100vw - 1024) / (1440 - 1024)) ) !important; } }
+    display: block !important; } }
 /* Mobile: width < 768px */
 @media only screen and (max-width: 48rem) {
   .hide_on-mobile {
@@ -189,20 +185,20 @@ html {
     line-height: 4.25rem;
     letter-spacing: -0.005em; }
 
-  .font_heading-3, #main .banner__context-title, #main .choice-context__heading, #main .discover-context__heading, #main .recommend-heading, .modal .table-header__title h4, .modal .table-title {
+  .font_heading-3, #coffee_original .banner__context-title, #coffee_original .choice-context__heading, #coffee_original .discover-context__heading, #coffee_original .recommend-heading, #coffee_original_modal .modal .table-header__title h4, #coffee_original_modal .modal .table-title {
     font-size: 2.25rem;
     line-height: 3.25rem; }
 
-  .font_heading-4, #main .intro-heading {
+  .font_heading-4, #coffee_original .intro-heading {
     font-size: 1.75rem;
     line-height: 2.5rem;
     letter-spacing: 0.0025em; }
 
-  .font_heading-5, .modalCart_header h3, #main .choice-context__title, #main .discover-context__title, #main .discover-item__name, #main .recommend-context {
+  .font_heading-5, .modalCart_header h3, #coffee_original .choice-context__title, #coffee_original .discover-context__title, #coffee_original .discover-item__name, #coffee_original .recommend-context {
     font-size: 1.25rem;
     line-height: 2rem; }
 
-  .font_heading-6, #dropdown_signIn .dropdown_signIn-heading, .modalCart_body-name span, .modalCart_body-heading, #main .hero-content__heading, #main .service-description__title, .modal .table-subtitle p {
+  .font_heading-6, #dropdown_signIn .dropdown_signIn-heading, .modalCart_body-name span, .modalCart_body-heading, #coffee_original .hero-content__heading, #coffee_original .service-description__title, #coffee_original_modal .modal .table-subtitle p {
     font-size: 1rem;
     line-height: 1.5rem;
     letter-spacing: 0.0015em; }
@@ -218,13 +214,13 @@ html {
     line-height: 1.25rem;
     letter-spacing: 0.01em; }
 
-  .font_body-1, #footer .footer_main-header, .modalCart_body-title, #main .discover-item__type, #main .intro-context p, #main .intro-paragraph__heading, #main .intro-paragraph__context, #main .service-description__context, .modal .table-header__title p, .modal .table-item__desc, .modal .table-item__btn-price, .modal .table-subtitle h3, .modal .table-attribute h3, .modal .table-paragraph, .modal .table-btn__price {
+  .font_body-1, #footer .footer_main-header, .modalCart_body-title, #coffee_original .discover-item__type, #coffee_original .intro-context p, #coffee_original .intro-paragraph__heading, #coffee_original .intro-paragraph__context, #coffee_original .service-description__context, #coffee_original_modal .modal .table-header__title p, #coffee_original_modal .modal .table-item__desc, #coffee_original_modal .modal .table-item__btn-price, #coffee_original_modal .modal .table-subtitle h3, #coffee_original_modal .modal .table-attribute h3, #coffee_original_modal .modal .table-paragraph, #coffee_original_modal .modal .table-btn__price {
     font-size: 1rem;
     line-height: 1.5rem;
     letter-spacing: 0.005em; }
 
   .font_body-2, #footer .footer_payment-methods-inner .payment-methods-header, #footer .footer_main-content a, #footer .footer_language-menu-inner .footer_language-menu-left .footer_language-menu-select span, #footer .footer_language-menu-inner .footer_language-menu-right .language-menu-list .language-menu-item .language-menu-item-link, #footer .footer_bottom-inner-frame .bottom_frame-header, #footer .footer_bottom-inner-frame .bottom_frame-topPage, #footer .footer_bottom-inner-frame .bottom_frame-title, #nav .nav_list-item-link p, #header .header_content-search-input, #header .header_content-search-input::placeholder, .menu__box .menu__item, #dropdown_signIn .dropdown_signIn-title, #dropdown_signIn .dropdown_signIn-check span, #dropdown_signIn .dropdown_signIn-footer span, .modalCart_title h4, .modalCart_title span, .modalCart_body-item-quantity, .modalCart_body-content-info h4, .modalCart_body-content-info span,
-  .modalCart_body-content-info label, .modalCart_footer-total span:nth-child(1), #form_search .form_search-item span, #form_result .form_search-item-info span:first-child, #form_result .form_search-item-info span:last-child, #main .product-nav ul .tab-menu, #main .hero-content__item-name, #main .intro-nav__item button {
+  .modalCart_body-content-info label, .modalCart_footer-total span:nth-child(1), #form_search .form_search-item span, #form_result .form_search-item-info span:first-child, #form_result .form_search-item-info span:last-child, #coffee_original .product-nav ul .tab-menu, #coffee_original .hero-content__item-name, #coffee_original .intro-nav__item button {
     font-size: 0.875rem;
     line-height: 1.25rem;
     letter-spacing: 0.0025em; }
@@ -239,7 +235,7 @@ html {
     line-height: 1rem;
     letter-spacing: 0.0938rem; }
 
-  .font_button, #dropdown_signIn .dropdown_signIn-btn, #dropdown_loggedIn .dropdown_loggedIn-logout span, .modalCart_btn a, #main .intro-paragraph__btn a, #main .recommend-btn a, .modal .table-btn__add span {
+  .font_button, #dropdown_signIn .dropdown_signIn-btn, #dropdown_loggedIn .dropdown_loggedIn-logout span, .modalCart_btn a, #coffee_original .intro-paragraph__btn a, #coffee_original .recommend-btn a, #coffee_original_modal .modal .table-btn__add span {
     font-size: 0.875rem;
     line-height: 1.25rem;
     letter-spacing: 0.0781rem; } }
@@ -402,26 +398,26 @@ html {
   line-height: 4.25rem;
   letter-spacing: -0.005em; }
 
-.font_heading-3, #main .banner__context-title, #main .choice-context__heading, #main .discover-context__heading, #main .recommend-heading, .modal .table-header__title h4, .modal .table-title {
+.font_heading-3, #coffee_original .banner__context-title, #coffee_original .choice-context__heading, #coffee_original .discover-context__heading, #coffee_original .recommend-heading, #coffee_original_modal .modal .table-header__title h4, #coffee_original_modal .modal .table-title {
   font-family: "Nespresso Lucas", Helvetica, Trebuchet, Arial, sans-serif;
   font-style: normal;
   font-size: 3rem;
   line-height: 3.25rem; }
 
-.font_heading-4, #main .intro-heading {
+.font_heading-4, #coffee_original .intro-heading {
   font-family: "Nespresso Lucas", Helvetica, Trebuchet, Arial, sans-serif;
   font-style: normal;
   font-size: 2.5rem;
   line-height: 2.5rem;
   letter-spacing: 0.0025em; }
 
-.font_heading-5, .modalCart_header h3, #main .choice-context__title, #main .discover-context__title, #main .discover-item__name, #main .recommend-context {
+.font_heading-5, .modalCart_header h3, #coffee_original .choice-context__title, #coffee_original .discover-context__title, #coffee_original .discover-item__name, #coffee_original .recommend-context {
   font-family: "Nespresso Lucas", Helvetica, Trebuchet, Arial, sans-serif;
   font-style: normal;
   font-size: 1.25rem;
   line-height: 2rem; }
 
-.font_heading-6, #dropdown_signIn .dropdown_signIn-heading, .modalCart_body-name span, .modalCart_body-heading, #main .hero-content__heading, #main .service-description__title, .modal .table-subtitle p {
+.font_heading-6, #dropdown_signIn .dropdown_signIn-heading, .modalCart_body-name span, .modalCart_body-heading, #coffee_original .hero-content__heading, #coffee_original .service-description__title, #coffee_original_modal .modal .table-subtitle p {
   font-family: "Nespresso Lucas", Helvetica, Trebuchet, Arial, sans-serif;
   font-style: normal;
   font-size: 1.125rem;
@@ -443,7 +439,7 @@ html {
   line-height: 1.25rem;
   letter-spacing: 0.01em; }
 
-.font_body-1, #footer .footer_main-header, .modalCart_body-title, #main .discover-item__type, #main .intro-context p, #main .intro-paragraph__heading, #main .intro-paragraph__context, #main .service-description__context, .modal .table-header__title p, .modal .table-item__desc, .modal .table-item__btn-price, .modal .table-subtitle h3, .modal .table-attribute h3, .modal .table-paragraph, .modal .table-btn__price {
+.font_body-1, #footer .footer_main-header, .modalCart_body-title, #coffee_original .discover-item__type, #coffee_original .intro-context p, #coffee_original .intro-paragraph__heading, #coffee_original .intro-paragraph__context, #coffee_original .service-description__context, #coffee_original_modal .modal .table-header__title p, #coffee_original_modal .modal .table-item__desc, #coffee_original_modal .modal .table-item__btn-price, #coffee_original_modal .modal .table-subtitle h3, #coffee_original_modal .modal .table-attribute h3, #coffee_original_modal .modal .table-paragraph, #coffee_original_modal .modal .table-btn__price {
   font-family: "Nespresso Lucas", Helvetica, Trebuchet, Arial, sans-serif;
   font-style: normal;
   font-size: 1rem;
@@ -451,7 +447,7 @@ html {
   letter-spacing: 0.005em; }
 
 .font_body-2, #footer .footer_payment-methods-inner .payment-methods-header, #footer .footer_main-content a, #footer .footer_language-menu-inner .footer_language-menu-left .footer_language-menu-select span, #footer .footer_language-menu-inner .footer_language-menu-right .language-menu-list .language-menu-item .language-menu-item-link, #footer .footer_bottom-inner-frame .bottom_frame-header, #footer .footer_bottom-inner-frame .bottom_frame-topPage, #footer .footer_bottom-inner-frame .bottom_frame-title, #nav .nav_list-item-link p, #header .header_content-search-input, #header .header_content-search-input::placeholder, .menu__box .menu__item, #dropdown_signIn .dropdown_signIn-title, #dropdown_signIn .dropdown_signIn-check span, #dropdown_signIn .dropdown_signIn-footer span, .modalCart_title h4, .modalCart_title span, .modalCart_body-item-quantity, .modalCart_body-content-info h4, .modalCart_body-content-info span,
-.modalCart_body-content-info label, .modalCart_footer-total span:nth-child(1), #form_search .form_search-item span, #form_result .form_search-item-info span:first-child, #form_result .form_search-item-info span:last-child, #main .product-nav ul .tab-menu, #main .hero-content__item-name, #main .intro-nav__item button {
+.modalCart_body-content-info label, .modalCart_footer-total span:nth-child(1), #form_search .form_search-item span, #form_result .form_search-item-info span:first-child, #form_result .form_search-item-info span:last-child, #coffee_original .product-nav ul .tab-menu, #coffee_original .hero-content__item-name, #coffee_original .intro-nav__item button {
   font-family: "Nespresso Lucas", Helvetica, Trebuchet, Arial, sans-serif;
   font-style: normal;
   font-size: 0.875rem;
@@ -472,14 +468,14 @@ html {
   line-height: 1rem;
   letter-spacing: 0.0938rem; }
 
-.font_button, #dropdown_signIn .dropdown_signIn-btn, #dropdown_loggedIn .dropdown_loggedIn-logout span, .modalCart_btn a, #main .intro-paragraph__btn a, #main .recommend-btn a, .modal .table-btn__add span {
+.font_button, #dropdown_signIn .dropdown_signIn-btn, #dropdown_loggedIn .dropdown_loggedIn-logout span, .modalCart_btn a, #coffee_original .intro-paragraph__btn a, #coffee_original .recommend-btn a, #coffee_original_modal .modal .table-btn__add span {
   font-family: "Nespresso Lucas", Helvetica, Trebuchet, Arial, sans-serif;
   font-style: normal;
   font-size: 0.875rem;
   line-height: 1.25rem;
   letter-spacing: 0.0781rem; }
 
-.button_cart, .modal .table-btn__add {
+.button_cart, #coffee_original_modal .modal .table-btn__add {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -490,7 +486,7 @@ html {
   border-radius: 2.5rem;
   border: none;
   cursor: pointer;
-  color: #FFFFFF;
+  color: #ffffff;
   text-transform: uppercase; }
 
 @media screen {
@@ -525,11 +521,7 @@ html {
     display: none !important; }
 
   .show_on-tab {
-    display: block !important; }
-
-  body {
-    font-size: calc( 10px + (96 - 10) * ((100vw - 1024) / (1440 - 1024)) ) !important;
-    line-height: calc( 10px + (96 - 10) * ((100vw - 1024) / (1440 - 1024)) ) !important; } }
+    display: block !important; } }
 /* Mobile: width < 768px */
 @media only screen and (max-width: 48rem) {
   .hide_on-mobile {
@@ -549,20 +541,20 @@ html {
     line-height: 4.25rem;
     letter-spacing: -0.005em; }
 
-  .font_heading-3, #main .banner__context-title, #main .choice-context__heading, #main .discover-context__heading, #main .recommend-heading, .modal .table-header__title h4, .modal .table-title {
+  .font_heading-3, #coffee_original .banner__context-title, #coffee_original .choice-context__heading, #coffee_original .discover-context__heading, #coffee_original .recommend-heading, #coffee_original_modal .modal .table-header__title h4, #coffee_original_modal .modal .table-title {
     font-size: 2.25rem;
     line-height: 3.25rem; }
 
-  .font_heading-4, #main .intro-heading {
+  .font_heading-4, #coffee_original .intro-heading {
     font-size: 1.75rem;
     line-height: 2.5rem;
     letter-spacing: 0.0025em; }
 
-  .font_heading-5, .modalCart_header h3, #main .choice-context__title, #main .discover-context__title, #main .discover-item__name, #main .recommend-context {
+  .font_heading-5, .modalCart_header h3, #coffee_original .choice-context__title, #coffee_original .discover-context__title, #coffee_original .discover-item__name, #coffee_original .recommend-context {
     font-size: 1.25rem;
     line-height: 2rem; }
 
-  .font_heading-6, #dropdown_signIn .dropdown_signIn-heading, .modalCart_body-name span, .modalCart_body-heading, #main .hero-content__heading, #main .service-description__title, .modal .table-subtitle p {
+  .font_heading-6, #dropdown_signIn .dropdown_signIn-heading, .modalCart_body-name span, .modalCart_body-heading, #coffee_original .hero-content__heading, #coffee_original .service-description__title, #coffee_original_modal .modal .table-subtitle p {
     font-size: 1rem;
     line-height: 1.5rem;
     letter-spacing: 0.0015em; }
@@ -578,13 +570,13 @@ html {
     line-height: 1.25rem;
     letter-spacing: 0.01em; }
 
-  .font_body-1, #footer .footer_main-header, .modalCart_body-title, #main .discover-item__type, #main .intro-context p, #main .intro-paragraph__heading, #main .intro-paragraph__context, #main .service-description__context, .modal .table-header__title p, .modal .table-item__desc, .modal .table-item__btn-price, .modal .table-subtitle h3, .modal .table-attribute h3, .modal .table-paragraph, .modal .table-btn__price {
+  .font_body-1, #footer .footer_main-header, .modalCart_body-title, #coffee_original .discover-item__type, #coffee_original .intro-context p, #coffee_original .intro-paragraph__heading, #coffee_original .intro-paragraph__context, #coffee_original .service-description__context, #coffee_original_modal .modal .table-header__title p, #coffee_original_modal .modal .table-item__desc, #coffee_original_modal .modal .table-item__btn-price, #coffee_original_modal .modal .table-subtitle h3, #coffee_original_modal .modal .table-attribute h3, #coffee_original_modal .modal .table-paragraph, #coffee_original_modal .modal .table-btn__price {
     font-size: 1rem;
     line-height: 1.5rem;
     letter-spacing: 0.005em; }
 
   .font_body-2, #footer .footer_payment-methods-inner .payment-methods-header, #footer .footer_main-content a, #footer .footer_language-menu-inner .footer_language-menu-left .footer_language-menu-select span, #footer .footer_language-menu-inner .footer_language-menu-right .language-menu-list .language-menu-item .language-menu-item-link, #footer .footer_bottom-inner-frame .bottom_frame-header, #footer .footer_bottom-inner-frame .bottom_frame-topPage, #footer .footer_bottom-inner-frame .bottom_frame-title, #nav .nav_list-item-link p, #header .header_content-search-input, #header .header_content-search-input::placeholder, .menu__box .menu__item, #dropdown_signIn .dropdown_signIn-title, #dropdown_signIn .dropdown_signIn-check span, #dropdown_signIn .dropdown_signIn-footer span, .modalCart_title h4, .modalCart_title span, .modalCart_body-item-quantity, .modalCart_body-content-info h4, .modalCart_body-content-info span,
-  .modalCart_body-content-info label, .modalCart_footer-total span:nth-child(1), #form_search .form_search-item span, #form_result .form_search-item-info span:first-child, #form_result .form_search-item-info span:last-child, #main .product-nav ul .tab-menu, #main .hero-content__item-name, #main .intro-nav__item button {
+  .modalCart_body-content-info label, .modalCart_footer-total span:nth-child(1), #form_search .form_search-item span, #form_result .form_search-item-info span:first-child, #form_result .form_search-item-info span:last-child, #coffee_original .product-nav ul .tab-menu, #coffee_original .hero-content__item-name, #coffee_original .intro-nav__item button {
     font-size: 0.875rem;
     line-height: 1.25rem;
     letter-spacing: 0.0025em; }
@@ -599,7 +591,7 @@ html {
     line-height: 1rem;
     letter-spacing: 0.0938rem; }
 
-  .font_button, #dropdown_signIn .dropdown_signIn-btn, #dropdown_loggedIn .dropdown_loggedIn-logout span, .modalCart_btn a, #main .intro-paragraph__btn a, #main .recommend-btn a, .modal .table-btn__add span {
+  .font_button, #dropdown_signIn .dropdown_signIn-btn, #dropdown_loggedIn .dropdown_loggedIn-logout span, .modalCart_btn a, #coffee_original .intro-paragraph__btn a, #coffee_original .recommend-btn a, #coffee_original_modal .modal .table-btn__add span {
     font-size: 0.875rem;
     line-height: 1.25rem;
     letter-spacing: 0.0781rem; } }
@@ -857,6 +849,12 @@ video {
           #footer .footer_bottom-inner-frame .bottom_frame-content svg:hover {
             cursor: pointer;
             opacity: 0.5; }
+  #footer .custom-select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: url("data:image/svg+xml,%3Csvg  width='8' height='7' viewBox='0 0 8 7' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M7.66671 0.5H0.333206C0.272497 0.500025 0.212947 0.516628 0.160983 0.548018C0.109019 0.579409 0.0666146 0.624394 0.0383452 0.67812C0.0100758 0.731845 -0.00298475 0.792271 0.000572986 0.852876C0.00413072 0.913481 0.0241717 0.971963 0.0585331 1.02201L3.72528 6.35547C3.75592 6.40002 3.79693 6.43645 3.84478 6.46162C3.89263 6.48679 3.94589 6.49994 3.99996 6.49994C4.05403 6.49994 4.10728 6.48679 4.15513 6.46162C4.20299 6.43645 4.244 6.40002 4.27463 6.35547L7.94138 1.02201C7.97574 0.971963 7.99579 0.913481 7.99934 0.852876C8.0029 0.792271 7.98984 0.731845 7.96157 0.67812C7.9333 0.624394 7.8909 0.579409 7.83893 0.548018C7.78697 0.516628 7.72742 0.500025 7.66671 0.5Z' fill='%2317171A'%3E%3C/path%3E%3C/svg%3E") no-repeat center right;
+    padding-right: 20px; }
 
 /* Tablet: width >= 768px and width < 1024px */
 @media only screen and (min-width: 48rem) and (max-width: 63.938rem) {
@@ -1060,26 +1058,26 @@ html {
   line-height: 4.25rem;
   letter-spacing: -0.005em; }
 
-.font_heading-3, #main .banner__context-title, #main .choice-context__heading, #main .discover-context__heading, #main .recommend-heading, .modal .table-header__title h4, .modal .table-title {
+.font_heading-3, #coffee_original .banner__context-title, #coffee_original .choice-context__heading, #coffee_original .discover-context__heading, #coffee_original .recommend-heading, #coffee_original_modal .modal .table-header__title h4, #coffee_original_modal .modal .table-title {
   font-family: "Nespresso Lucas", Helvetica, Trebuchet, Arial, sans-serif;
   font-style: normal;
   font-size: 3rem;
   line-height: 3.25rem; }
 
-.font_heading-4, #main .intro-heading {
+.font_heading-4, #coffee_original .intro-heading {
   font-family: "Nespresso Lucas", Helvetica, Trebuchet, Arial, sans-serif;
   font-style: normal;
   font-size: 2.5rem;
   line-height: 2.5rem;
   letter-spacing: 0.0025em; }
 
-.font_heading-5, .modalCart_header h3, #main .choice-context__title, #main .discover-context__title, #main .discover-item__name, #main .recommend-context {
+.font_heading-5, .modalCart_header h3, #coffee_original .choice-context__title, #coffee_original .discover-context__title, #coffee_original .discover-item__name, #coffee_original .recommend-context {
   font-family: "Nespresso Lucas", Helvetica, Trebuchet, Arial, sans-serif;
   font-style: normal;
   font-size: 1.25rem;
   line-height: 2rem; }
 
-.font_heading-6, #dropdown_signIn .dropdown_signIn-heading, .modalCart_body-name span, .modalCart_body-heading, #main .hero-content__heading, #main .service-description__title, .modal .table-subtitle p {
+.font_heading-6, #dropdown_signIn .dropdown_signIn-heading, .modalCart_body-name span, .modalCart_body-heading, #coffee_original .hero-content__heading, #coffee_original .service-description__title, #coffee_original_modal .modal .table-subtitle p {
   font-family: "Nespresso Lucas", Helvetica, Trebuchet, Arial, sans-serif;
   font-style: normal;
   font-size: 1.125rem;
@@ -1101,7 +1099,7 @@ html {
   line-height: 1.25rem;
   letter-spacing: 0.01em; }
 
-.font_body-1, #footer .footer_main-header, .modalCart_body-title, #main .discover-item__type, #main .intro-context p, #main .intro-paragraph__heading, #main .intro-paragraph__context, #main .service-description__context, .modal .table-header__title p, .modal .table-item__desc, .modal .table-item__btn-price, .modal .table-subtitle h3, .modal .table-attribute h3, .modal .table-paragraph, .modal .table-btn__price {
+.font_body-1, #footer .footer_main-header, .modalCart_body-title, #coffee_original .discover-item__type, #coffee_original .intro-context p, #coffee_original .intro-paragraph__heading, #coffee_original .intro-paragraph__context, #coffee_original .service-description__context, #coffee_original_modal .modal .table-header__title p, #coffee_original_modal .modal .table-item__desc, #coffee_original_modal .modal .table-item__btn-price, #coffee_original_modal .modal .table-subtitle h3, #coffee_original_modal .modal .table-attribute h3, #coffee_original_modal .modal .table-paragraph, #coffee_original_modal .modal .table-btn__price {
   font-family: "Nespresso Lucas", Helvetica, Trebuchet, Arial, sans-serif;
   font-style: normal;
   font-size: 1rem;
@@ -1109,7 +1107,7 @@ html {
   letter-spacing: 0.005em; }
 
 .font_body-2, #footer .footer_payment-methods-inner .payment-methods-header, #footer .footer_main-content a, #footer .footer_language-menu-inner .footer_language-menu-left .footer_language-menu-select span, #footer .footer_language-menu-inner .footer_language-menu-right .language-menu-list .language-menu-item .language-menu-item-link, #footer .footer_bottom-inner-frame .bottom_frame-header, #footer .footer_bottom-inner-frame .bottom_frame-topPage, #footer .footer_bottom-inner-frame .bottom_frame-title, #nav .nav_list-item-link p, #header .header_content-search-input, #header .header_content-search-input::placeholder, .menu__box .menu__item, #dropdown_signIn .dropdown_signIn-title, #dropdown_signIn .dropdown_signIn-check span, #dropdown_signIn .dropdown_signIn-footer span, .modalCart_title h4, .modalCart_title span, .modalCart_body-item-quantity, .modalCart_body-content-info h4, .modalCart_body-content-info span,
-.modalCart_body-content-info label, .modalCart_footer-total span:nth-child(1), #form_search .form_search-item span, #form_result .form_search-item-info span:first-child, #form_result .form_search-item-info span:last-child, #main .product-nav ul .tab-menu, #main .hero-content__item-name, #main .intro-nav__item button {
+.modalCart_body-content-info label, .modalCart_footer-total span:nth-child(1), #form_search .form_search-item span, #form_result .form_search-item-info span:first-child, #form_result .form_search-item-info span:last-child, #coffee_original .product-nav ul .tab-menu, #coffee_original .hero-content__item-name, #coffee_original .intro-nav__item button {
   font-family: "Nespresso Lucas", Helvetica, Trebuchet, Arial, sans-serif;
   font-style: normal;
   font-size: 0.875rem;
@@ -1130,14 +1128,14 @@ html {
   line-height: 1rem;
   letter-spacing: 0.0938rem; }
 
-.font_button, #dropdown_signIn .dropdown_signIn-btn, #dropdown_loggedIn .dropdown_loggedIn-logout span, .modalCart_btn a, #main .intro-paragraph__btn a, #main .recommend-btn a, .modal .table-btn__add span {
+.font_button, #dropdown_signIn .dropdown_signIn-btn, #dropdown_loggedIn .dropdown_loggedIn-logout span, .modalCart_btn a, #coffee_original .intro-paragraph__btn a, #coffee_original .recommend-btn a, #coffee_original_modal .modal .table-btn__add span {
   font-family: "Nespresso Lucas", Helvetica, Trebuchet, Arial, sans-serif;
   font-style: normal;
   font-size: 0.875rem;
   line-height: 1.25rem;
   letter-spacing: 0.0781rem; }
 
-.button_cart, .modal .table-btn__add {
+.button_cart, #coffee_original_modal .modal .table-btn__add {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -1148,7 +1146,7 @@ html {
   border-radius: 2.5rem;
   border: none;
   cursor: pointer;
-  color: #FFFFFF;
+  color: #ffffff;
   text-transform: uppercase; }
 
 @media screen {
@@ -1183,11 +1181,7 @@ html {
     display: none !important; }
 
   .show_on-tab {
-    display: block !important; }
-
-  body {
-    font-size: calc( 10px + (96 - 10) * ((100vw - 1024) / (1440 - 1024)) ) !important;
-    line-height: calc( 10px + (96 - 10) * ((100vw - 1024) / (1440 - 1024)) ) !important; } }
+    display: block !important; } }
 /* Mobile: width < 768px */
 @media only screen and (max-width: 48rem) {
   .hide_on-mobile {
@@ -1207,20 +1201,20 @@ html {
     line-height: 4.25rem;
     letter-spacing: -0.005em; }
 
-  .font_heading-3, #main .banner__context-title, #main .choice-context__heading, #main .discover-context__heading, #main .recommend-heading, .modal .table-header__title h4, .modal .table-title {
+  .font_heading-3, #coffee_original .banner__context-title, #coffee_original .choice-context__heading, #coffee_original .discover-context__heading, #coffee_original .recommend-heading, #coffee_original_modal .modal .table-header__title h4, #coffee_original_modal .modal .table-title {
     font-size: 2.25rem;
     line-height: 3.25rem; }
 
-  .font_heading-4, #main .intro-heading {
+  .font_heading-4, #coffee_original .intro-heading {
     font-size: 1.75rem;
     line-height: 2.5rem;
     letter-spacing: 0.0025em; }
 
-  .font_heading-5, .modalCart_header h3, #main .choice-context__title, #main .discover-context__title, #main .discover-item__name, #main .recommend-context {
+  .font_heading-5, .modalCart_header h3, #coffee_original .choice-context__title, #coffee_original .discover-context__title, #coffee_original .discover-item__name, #coffee_original .recommend-context {
     font-size: 1.25rem;
     line-height: 2rem; }
 
-  .font_heading-6, #dropdown_signIn .dropdown_signIn-heading, .modalCart_body-name span, .modalCart_body-heading, #main .hero-content__heading, #main .service-description__title, .modal .table-subtitle p {
+  .font_heading-6, #dropdown_signIn .dropdown_signIn-heading, .modalCart_body-name span, .modalCart_body-heading, #coffee_original .hero-content__heading, #coffee_original .service-description__title, #coffee_original_modal .modal .table-subtitle p {
     font-size: 1rem;
     line-height: 1.5rem;
     letter-spacing: 0.0015em; }
@@ -1236,13 +1230,13 @@ html {
     line-height: 1.25rem;
     letter-spacing: 0.01em; }
 
-  .font_body-1, #footer .footer_main-header, .modalCart_body-title, #main .discover-item__type, #main .intro-context p, #main .intro-paragraph__heading, #main .intro-paragraph__context, #main .service-description__context, .modal .table-header__title p, .modal .table-item__desc, .modal .table-item__btn-price, .modal .table-subtitle h3, .modal .table-attribute h3, .modal .table-paragraph, .modal .table-btn__price {
+  .font_body-1, #footer .footer_main-header, .modalCart_body-title, #coffee_original .discover-item__type, #coffee_original .intro-context p, #coffee_original .intro-paragraph__heading, #coffee_original .intro-paragraph__context, #coffee_original .service-description__context, #coffee_original_modal .modal .table-header__title p, #coffee_original_modal .modal .table-item__desc, #coffee_original_modal .modal .table-item__btn-price, #coffee_original_modal .modal .table-subtitle h3, #coffee_original_modal .modal .table-attribute h3, #coffee_original_modal .modal .table-paragraph, #coffee_original_modal .modal .table-btn__price {
     font-size: 1rem;
     line-height: 1.5rem;
     letter-spacing: 0.005em; }
 
   .font_body-2, #footer .footer_payment-methods-inner .payment-methods-header, #footer .footer_main-content a, #footer .footer_language-menu-inner .footer_language-menu-left .footer_language-menu-select span, #footer .footer_language-menu-inner .footer_language-menu-right .language-menu-list .language-menu-item .language-menu-item-link, #footer .footer_bottom-inner-frame .bottom_frame-header, #footer .footer_bottom-inner-frame .bottom_frame-topPage, #footer .footer_bottom-inner-frame .bottom_frame-title, #nav .nav_list-item-link p, #header .header_content-search-input, #header .header_content-search-input::placeholder, .menu__box .menu__item, #dropdown_signIn .dropdown_signIn-title, #dropdown_signIn .dropdown_signIn-check span, #dropdown_signIn .dropdown_signIn-footer span, .modalCart_title h4, .modalCart_title span, .modalCart_body-item-quantity, .modalCart_body-content-info h4, .modalCart_body-content-info span,
-  .modalCart_body-content-info label, .modalCart_footer-total span:nth-child(1), #form_search .form_search-item span, #form_result .form_search-item-info span:first-child, #form_result .form_search-item-info span:last-child, #main .product-nav ul .tab-menu, #main .hero-content__item-name, #main .intro-nav__item button {
+  .modalCart_body-content-info label, .modalCart_footer-total span:nth-child(1), #form_search .form_search-item span, #form_result .form_search-item-info span:first-child, #form_result .form_search-item-info span:last-child, #coffee_original .product-nav ul .tab-menu, #coffee_original .hero-content__item-name, #coffee_original .intro-nav__item button {
     font-size: 0.875rem;
     line-height: 1.25rem;
     letter-spacing: 0.0025em; }
@@ -1257,7 +1251,7 @@ html {
     line-height: 1rem;
     letter-spacing: 0.0938rem; }
 
-  .font_button, #dropdown_signIn .dropdown_signIn-btn, #dropdown_loggedIn .dropdown_loggedIn-logout span, .modalCart_btn a, #main .intro-paragraph__btn a, #main .recommend-btn a, .modal .table-btn__add span {
+  .font_button, #dropdown_signIn .dropdown_signIn-btn, #dropdown_loggedIn .dropdown_loggedIn-logout span, .modalCart_btn a, #coffee_original .intro-paragraph__btn a, #coffee_original .recommend-btn a, #coffee_original_modal .modal .table-btn__add span {
     font-size: 0.875rem;
     line-height: 1.25rem;
     letter-spacing: 0.0781rem; } }
@@ -1590,26 +1584,26 @@ html {
   line-height: 4.25rem;
   letter-spacing: -0.005em; }
 
-.font_heading-3, #main .banner__context-title, #main .choice-context__heading, #main .discover-context__heading, #main .recommend-heading, .modal .table-header__title h4, .modal .table-title {
+.font_heading-3, #coffee_original .banner__context-title, #coffee_original .choice-context__heading, #coffee_original .discover-context__heading, #coffee_original .recommend-heading, #coffee_original_modal .modal .table-header__title h4, #coffee_original_modal .modal .table-title {
   font-family: "Nespresso Lucas", Helvetica, Trebuchet, Arial, sans-serif;
   font-style: normal;
   font-size: 3rem;
   line-height: 3.25rem; }
 
-.font_heading-4, #main .intro-heading {
+.font_heading-4, #coffee_original .intro-heading {
   font-family: "Nespresso Lucas", Helvetica, Trebuchet, Arial, sans-serif;
   font-style: normal;
   font-size: 2.5rem;
   line-height: 2.5rem;
   letter-spacing: 0.0025em; }
 
-.font_heading-5, .modalCart_header h3, #main .choice-context__title, #main .discover-context__title, #main .discover-item__name, #main .recommend-context {
+.font_heading-5, .modalCart_header h3, #coffee_original .choice-context__title, #coffee_original .discover-context__title, #coffee_original .discover-item__name, #coffee_original .recommend-context {
   font-family: "Nespresso Lucas", Helvetica, Trebuchet, Arial, sans-serif;
   font-style: normal;
   font-size: 1.25rem;
   line-height: 2rem; }
 
-.font_heading-6, #dropdown_signIn .dropdown_signIn-heading, .modalCart_body-name span, .modalCart_body-heading, #main .hero-content__heading, #main .service-description__title, .modal .table-subtitle p {
+.font_heading-6, #dropdown_signIn .dropdown_signIn-heading, .modalCart_body-name span, .modalCart_body-heading, #coffee_original .hero-content__heading, #coffee_original .service-description__title, #coffee_original_modal .modal .table-subtitle p {
   font-family: "Nespresso Lucas", Helvetica, Trebuchet, Arial, sans-serif;
   font-style: normal;
   font-size: 1.125rem;
@@ -1631,7 +1625,7 @@ html {
   line-height: 1.25rem;
   letter-spacing: 0.01em; }
 
-.font_body-1, #footer .footer_main-header, .modalCart_body-title, #main .discover-item__type, #main .intro-context p, #main .intro-paragraph__heading, #main .intro-paragraph__context, #main .service-description__context, .modal .table-header__title p, .modal .table-item__desc, .modal .table-item__btn-price, .modal .table-subtitle h3, .modal .table-attribute h3, .modal .table-paragraph, .modal .table-btn__price {
+.font_body-1, #footer .footer_main-header, .modalCart_body-title, #coffee_original .discover-item__type, #coffee_original .intro-context p, #coffee_original .intro-paragraph__heading, #coffee_original .intro-paragraph__context, #coffee_original .service-description__context, #coffee_original_modal .modal .table-header__title p, #coffee_original_modal .modal .table-item__desc, #coffee_original_modal .modal .table-item__btn-price, #coffee_original_modal .modal .table-subtitle h3, #coffee_original_modal .modal .table-attribute h3, #coffee_original_modal .modal .table-paragraph, #coffee_original_modal .modal .table-btn__price {
   font-family: "Nespresso Lucas", Helvetica, Trebuchet, Arial, sans-serif;
   font-style: normal;
   font-size: 1rem;
@@ -1639,7 +1633,7 @@ html {
   letter-spacing: 0.005em; }
 
 .font_body-2, #footer .footer_payment-methods-inner .payment-methods-header, #footer .footer_main-content a, #footer .footer_language-menu-inner .footer_language-menu-left .footer_language-menu-select span, #footer .footer_language-menu-inner .footer_language-menu-right .language-menu-list .language-menu-item .language-menu-item-link, #footer .footer_bottom-inner-frame .bottom_frame-header, #footer .footer_bottom-inner-frame .bottom_frame-topPage, #footer .footer_bottom-inner-frame .bottom_frame-title, #nav .nav_list-item-link p, #header .header_content-search-input, #header .header_content-search-input::placeholder, .menu__box .menu__item, #dropdown_signIn .dropdown_signIn-title, #dropdown_signIn .dropdown_signIn-check span, #dropdown_signIn .dropdown_signIn-footer span, .modalCart_title h4, .modalCart_title span, .modalCart_body-item-quantity, .modalCart_body-content-info h4, .modalCart_body-content-info span,
-.modalCart_body-content-info label, .modalCart_footer-total span:nth-child(1), #form_search .form_search-item span, #form_result .form_search-item-info span:first-child, #form_result .form_search-item-info span:last-child, #main .product-nav ul .tab-menu, #main .hero-content__item-name, #main .intro-nav__item button {
+.modalCart_body-content-info label, .modalCart_footer-total span:nth-child(1), #form_search .form_search-item span, #form_result .form_search-item-info span:first-child, #form_result .form_search-item-info span:last-child, #coffee_original .product-nav ul .tab-menu, #coffee_original .hero-content__item-name, #coffee_original .intro-nav__item button {
   font-family: "Nespresso Lucas", Helvetica, Trebuchet, Arial, sans-serif;
   font-style: normal;
   font-size: 0.875rem;
@@ -1660,14 +1654,14 @@ html {
   line-height: 1rem;
   letter-spacing: 0.0938rem; }
 
-.font_button, #dropdown_signIn .dropdown_signIn-btn, #dropdown_loggedIn .dropdown_loggedIn-logout span, .modalCart_btn a, #main .intro-paragraph__btn a, #main .recommend-btn a, .modal .table-btn__add span {
+.font_button, #dropdown_signIn .dropdown_signIn-btn, #dropdown_loggedIn .dropdown_loggedIn-logout span, .modalCart_btn a, #coffee_original .intro-paragraph__btn a, #coffee_original .recommend-btn a, #coffee_original_modal .modal .table-btn__add span {
   font-family: "Nespresso Lucas", Helvetica, Trebuchet, Arial, sans-serif;
   font-style: normal;
   font-size: 0.875rem;
   line-height: 1.25rem;
   letter-spacing: 0.0781rem; }
 
-.button_cart, .modal .table-btn__add {
+.button_cart, #coffee_original_modal .modal .table-btn__add {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -1678,7 +1672,7 @@ html {
   border-radius: 2.5rem;
   border: none;
   cursor: pointer;
-  color: #FFFFFF;
+  color: #ffffff;
   text-transform: uppercase; }
 
 @media screen {
@@ -1713,11 +1707,7 @@ html {
     display: none !important; }
 
   .show_on-tab {
-    display: block !important; }
-
-  body {
-    font-size: calc( 10px + (96 - 10) * ((100vw - 1024) / (1440 - 1024)) ) !important;
-    line-height: calc( 10px + (96 - 10) * ((100vw - 1024) / (1440 - 1024)) ) !important; } }
+    display: block !important; } }
 /* Mobile: width < 768px */
 @media only screen and (max-width: 48rem) {
   .hide_on-mobile {
@@ -1737,20 +1727,20 @@ html {
     line-height: 4.25rem;
     letter-spacing: -0.005em; }
 
-  .font_heading-3, #main .banner__context-title, #main .choice-context__heading, #main .discover-context__heading, #main .recommend-heading, .modal .table-header__title h4, .modal .table-title {
+  .font_heading-3, #coffee_original .banner__context-title, #coffee_original .choice-context__heading, #coffee_original .discover-context__heading, #coffee_original .recommend-heading, #coffee_original_modal .modal .table-header__title h4, #coffee_original_modal .modal .table-title {
     font-size: 2.25rem;
     line-height: 3.25rem; }
 
-  .font_heading-4, #main .intro-heading {
+  .font_heading-4, #coffee_original .intro-heading {
     font-size: 1.75rem;
     line-height: 2.5rem;
     letter-spacing: 0.0025em; }
 
-  .font_heading-5, .modalCart_header h3, #main .choice-context__title, #main .discover-context__title, #main .discover-item__name, #main .recommend-context {
+  .font_heading-5, .modalCart_header h3, #coffee_original .choice-context__title, #coffee_original .discover-context__title, #coffee_original .discover-item__name, #coffee_original .recommend-context {
     font-size: 1.25rem;
     line-height: 2rem; }
 
-  .font_heading-6, #dropdown_signIn .dropdown_signIn-heading, .modalCart_body-name span, .modalCart_body-heading, #main .hero-content__heading, #main .service-description__title, .modal .table-subtitle p {
+  .font_heading-6, #dropdown_signIn .dropdown_signIn-heading, .modalCart_body-name span, .modalCart_body-heading, #coffee_original .hero-content__heading, #coffee_original .service-description__title, #coffee_original_modal .modal .table-subtitle p {
     font-size: 1rem;
     line-height: 1.5rem;
     letter-spacing: 0.0015em; }
@@ -1766,13 +1756,13 @@ html {
     line-height: 1.25rem;
     letter-spacing: 0.01em; }
 
-  .font_body-1, #footer .footer_main-header, .modalCart_body-title, #main .discover-item__type, #main .intro-context p, #main .intro-paragraph__heading, #main .intro-paragraph__context, #main .service-description__context, .modal .table-header__title p, .modal .table-item__desc, .modal .table-item__btn-price, .modal .table-subtitle h3, .modal .table-attribute h3, .modal .table-paragraph, .modal .table-btn__price {
+  .font_body-1, #footer .footer_main-header, .modalCart_body-title, #coffee_original .discover-item__type, #coffee_original .intro-context p, #coffee_original .intro-paragraph__heading, #coffee_original .intro-paragraph__context, #coffee_original .service-description__context, #coffee_original_modal .modal .table-header__title p, #coffee_original_modal .modal .table-item__desc, #coffee_original_modal .modal .table-item__btn-price, #coffee_original_modal .modal .table-subtitle h3, #coffee_original_modal .modal .table-attribute h3, #coffee_original_modal .modal .table-paragraph, #coffee_original_modal .modal .table-btn__price {
     font-size: 1rem;
     line-height: 1.5rem;
     letter-spacing: 0.005em; }
 
   .font_body-2, #footer .footer_payment-methods-inner .payment-methods-header, #footer .footer_main-content a, #footer .footer_language-menu-inner .footer_language-menu-left .footer_language-menu-select span, #footer .footer_language-menu-inner .footer_language-menu-right .language-menu-list .language-menu-item .language-menu-item-link, #footer .footer_bottom-inner-frame .bottom_frame-header, #footer .footer_bottom-inner-frame .bottom_frame-topPage, #footer .footer_bottom-inner-frame .bottom_frame-title, #nav .nav_list-item-link p, #header .header_content-search-input, #header .header_content-search-input::placeholder, .menu__box .menu__item, #dropdown_signIn .dropdown_signIn-title, #dropdown_signIn .dropdown_signIn-check span, #dropdown_signIn .dropdown_signIn-footer span, .modalCart_title h4, .modalCart_title span, .modalCart_body-item-quantity, .modalCart_body-content-info h4, .modalCart_body-content-info span,
-  .modalCart_body-content-info label, .modalCart_footer-total span:nth-child(1), #form_search .form_search-item span, #form_result .form_search-item-info span:first-child, #form_result .form_search-item-info span:last-child, #main .product-nav ul .tab-menu, #main .hero-content__item-name, #main .intro-nav__item button {
+  .modalCart_body-content-info label, .modalCart_footer-total span:nth-child(1), #form_search .form_search-item span, #form_result .form_search-item-info span:first-child, #form_result .form_search-item-info span:last-child, #coffee_original .product-nav ul .tab-menu, #coffee_original .hero-content__item-name, #coffee_original .intro-nav__item button {
     font-size: 0.875rem;
     line-height: 1.25rem;
     letter-spacing: 0.0025em; }
@@ -1787,7 +1777,7 @@ html {
     line-height: 1rem;
     letter-spacing: 0.0938rem; }
 
-  .font_button, #dropdown_signIn .dropdown_signIn-btn, #dropdown_loggedIn .dropdown_loggedIn-logout span, .modalCart_btn a, #main .intro-paragraph__btn a, #main .recommend-btn a, .modal .table-btn__add span {
+  .font_button, #dropdown_signIn .dropdown_signIn-btn, #dropdown_loggedIn .dropdown_loggedIn-logout span, .modalCart_btn a, #coffee_original .intro-paragraph__btn a, #coffee_original .recommend-btn a, #coffee_original_modal .modal .table-btn__add span {
     font-size: 0.875rem;
     line-height: 1.25rem;
     letter-spacing: 0.0781rem; } }
@@ -2041,10 +2031,6 @@ video {
     .search_mobile .header_content-search-input::placeholder {
       color: #000000 !important; }
 
-#banner {
-  width: 100%;
-  height: 100%; }
-
 .header_logo a {
   padding-left: 15px; }
 
@@ -2223,9 +2209,6 @@ video {
     #header .header_content-btn a {
       display: none; }
 
-  #banner {
-    margin-top: 50px; }
-
   #dropdown_loggedIn {
     left: unset !important;
     right: 0; } }
@@ -2276,9 +2259,6 @@ video {
 
   .menu__btn {
     top: 2.5%; }
-
-  #banner {
-    margin-top: 50px; }
 
   .featured_wrapper {
     padding: unset !important;
@@ -2350,26 +2330,26 @@ html {
   line-height: 4.25rem;
   letter-spacing: -0.005em; }
 
-.font_heading-3, #main .banner__context-title, #main .choice-context__heading, #main .discover-context__heading, #main .recommend-heading, .modal .table-header__title h4, .modal .table-title {
+.font_heading-3, #coffee_original .banner__context-title, #coffee_original .choice-context__heading, #coffee_original .discover-context__heading, #coffee_original .recommend-heading, #coffee_original_modal .modal .table-header__title h4, #coffee_original_modal .modal .table-title {
   font-family: "Nespresso Lucas", Helvetica, Trebuchet, Arial, sans-serif;
   font-style: normal;
   font-size: 3rem;
   line-height: 3.25rem; }
 
-.font_heading-4, #main .intro-heading {
+.font_heading-4, #coffee_original .intro-heading {
   font-family: "Nespresso Lucas", Helvetica, Trebuchet, Arial, sans-serif;
   font-style: normal;
   font-size: 2.5rem;
   line-height: 2.5rem;
   letter-spacing: 0.0025em; }
 
-.font_heading-5, .modalCart_header h3, #main .choice-context__title, #main .discover-context__title, #main .discover-item__name, #main .recommend-context {
+.font_heading-5, .modalCart_header h3, #coffee_original .choice-context__title, #coffee_original .discover-context__title, #coffee_original .discover-item__name, #coffee_original .recommend-context {
   font-family: "Nespresso Lucas", Helvetica, Trebuchet, Arial, sans-serif;
   font-style: normal;
   font-size: 1.25rem;
   line-height: 2rem; }
 
-.font_heading-6, #dropdown_signIn .dropdown_signIn-heading, .modalCart_body-name span, .modalCart_body-heading, #main .hero-content__heading, #main .service-description__title, .modal .table-subtitle p {
+.font_heading-6, #dropdown_signIn .dropdown_signIn-heading, .modalCart_body-name span, .modalCart_body-heading, #coffee_original .hero-content__heading, #coffee_original .service-description__title, #coffee_original_modal .modal .table-subtitle p {
   font-family: "Nespresso Lucas", Helvetica, Trebuchet, Arial, sans-serif;
   font-style: normal;
   font-size: 1.125rem;
@@ -2391,7 +2371,7 @@ html {
   line-height: 1.25rem;
   letter-spacing: 0.01em; }
 
-.font_body-1, #footer .footer_main-header, .modalCart_body-title, #main .discover-item__type, #main .intro-context p, #main .intro-paragraph__heading, #main .intro-paragraph__context, #main .service-description__context, .modal .table-header__title p, .modal .table-item__desc, .modal .table-item__btn-price, .modal .table-subtitle h3, .modal .table-attribute h3, .modal .table-paragraph, .modal .table-btn__price {
+.font_body-1, #footer .footer_main-header, .modalCart_body-title, #coffee_original .discover-item__type, #coffee_original .intro-context p, #coffee_original .intro-paragraph__heading, #coffee_original .intro-paragraph__context, #coffee_original .service-description__context, #coffee_original_modal .modal .table-header__title p, #coffee_original_modal .modal .table-item__desc, #coffee_original_modal .modal .table-item__btn-price, #coffee_original_modal .modal .table-subtitle h3, #coffee_original_modal .modal .table-attribute h3, #coffee_original_modal .modal .table-paragraph, #coffee_original_modal .modal .table-btn__price {
   font-family: "Nespresso Lucas", Helvetica, Trebuchet, Arial, sans-serif;
   font-style: normal;
   font-size: 1rem;
@@ -2399,7 +2379,7 @@ html {
   letter-spacing: 0.005em; }
 
 .font_body-2, #footer .footer_payment-methods-inner .payment-methods-header, #footer .footer_main-content a, #footer .footer_language-menu-inner .footer_language-menu-left .footer_language-menu-select span, #footer .footer_language-menu-inner .footer_language-menu-right .language-menu-list .language-menu-item .language-menu-item-link, #footer .footer_bottom-inner-frame .bottom_frame-header, #footer .footer_bottom-inner-frame .bottom_frame-topPage, #footer .footer_bottom-inner-frame .bottom_frame-title, #nav .nav_list-item-link p, #header .header_content-search-input, #header .header_content-search-input::placeholder, .menu__box .menu__item, #dropdown_signIn .dropdown_signIn-title, #dropdown_signIn .dropdown_signIn-check span, #dropdown_signIn .dropdown_signIn-footer span, .modalCart_title h4, .modalCart_title span, .modalCart_body-item-quantity, .modalCart_body-content-info h4, .modalCart_body-content-info span,
-.modalCart_body-content-info label, .modalCart_footer-total span:nth-child(1), #form_search .form_search-item span, #form_result .form_search-item-info span:first-child, #form_result .form_search-item-info span:last-child, #main .product-nav ul .tab-menu, #main .hero-content__item-name, #main .intro-nav__item button {
+.modalCart_body-content-info label, .modalCart_footer-total span:nth-child(1), #form_search .form_search-item span, #form_result .form_search-item-info span:first-child, #form_result .form_search-item-info span:last-child, #coffee_original .product-nav ul .tab-menu, #coffee_original .hero-content__item-name, #coffee_original .intro-nav__item button {
   font-family: "Nespresso Lucas", Helvetica, Trebuchet, Arial, sans-serif;
   font-style: normal;
   font-size: 0.875rem;
@@ -2420,14 +2400,14 @@ html {
   line-height: 1rem;
   letter-spacing: 0.0938rem; }
 
-.font_button, #dropdown_signIn .dropdown_signIn-btn, #dropdown_loggedIn .dropdown_loggedIn-logout span, .modalCart_btn a, #main .intro-paragraph__btn a, #main .recommend-btn a, .modal .table-btn__add span {
+.font_button, #dropdown_signIn .dropdown_signIn-btn, #dropdown_loggedIn .dropdown_loggedIn-logout span, .modalCart_btn a, #coffee_original .intro-paragraph__btn a, #coffee_original .recommend-btn a, #coffee_original_modal .modal .table-btn__add span {
   font-family: "Nespresso Lucas", Helvetica, Trebuchet, Arial, sans-serif;
   font-style: normal;
   font-size: 0.875rem;
   line-height: 1.25rem;
   letter-spacing: 0.0781rem; }
 
-.button_cart, .modal .table-btn__add {
+.button_cart, #coffee_original_modal .modal .table-btn__add {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -2438,7 +2418,7 @@ html {
   border-radius: 2.5rem;
   border: none;
   cursor: pointer;
-  color: #FFFFFF;
+  color: #ffffff;
   text-transform: uppercase; }
 
 @media screen {
@@ -2473,11 +2453,7 @@ html {
     display: none !important; }
 
   .show_on-tab {
-    display: block !important; }
-
-  body {
-    font-size: calc( 10px + (96 - 10) * ((100vw - 1024) / (1440 - 1024)) ) !important;
-    line-height: calc( 10px + (96 - 10) * ((100vw - 1024) / (1440 - 1024)) ) !important; } }
+    display: block !important; } }
 /* Mobile: width < 768px */
 @media only screen and (max-width: 48rem) {
   .hide_on-mobile {
@@ -2497,20 +2473,20 @@ html {
     line-height: 4.25rem;
     letter-spacing: -0.005em; }
 
-  .font_heading-3, #main .banner__context-title, #main .choice-context__heading, #main .discover-context__heading, #main .recommend-heading, .modal .table-header__title h4, .modal .table-title {
+  .font_heading-3, #coffee_original .banner__context-title, #coffee_original .choice-context__heading, #coffee_original .discover-context__heading, #coffee_original .recommend-heading, #coffee_original_modal .modal .table-header__title h4, #coffee_original_modal .modal .table-title {
     font-size: 2.25rem;
     line-height: 3.25rem; }
 
-  .font_heading-4, #main .intro-heading {
+  .font_heading-4, #coffee_original .intro-heading {
     font-size: 1.75rem;
     line-height: 2.5rem;
     letter-spacing: 0.0025em; }
 
-  .font_heading-5, .modalCart_header h3, #main .choice-context__title, #main .discover-context__title, #main .discover-item__name, #main .recommend-context {
+  .font_heading-5, .modalCart_header h3, #coffee_original .choice-context__title, #coffee_original .discover-context__title, #coffee_original .discover-item__name, #coffee_original .recommend-context {
     font-size: 1.25rem;
     line-height: 2rem; }
 
-  .font_heading-6, #dropdown_signIn .dropdown_signIn-heading, .modalCart_body-name span, .modalCart_body-heading, #main .hero-content__heading, #main .service-description__title, .modal .table-subtitle p {
+  .font_heading-6, #dropdown_signIn .dropdown_signIn-heading, .modalCart_body-name span, .modalCart_body-heading, #coffee_original .hero-content__heading, #coffee_original .service-description__title, #coffee_original_modal .modal .table-subtitle p {
     font-size: 1rem;
     line-height: 1.5rem;
     letter-spacing: 0.0015em; }
@@ -2526,13 +2502,13 @@ html {
     line-height: 1.25rem;
     letter-spacing: 0.01em; }
 
-  .font_body-1, #footer .footer_main-header, .modalCart_body-title, #main .discover-item__type, #main .intro-context p, #main .intro-paragraph__heading, #main .intro-paragraph__context, #main .service-description__context, .modal .table-header__title p, .modal .table-item__desc, .modal .table-item__btn-price, .modal .table-subtitle h3, .modal .table-attribute h3, .modal .table-paragraph, .modal .table-btn__price {
+  .font_body-1, #footer .footer_main-header, .modalCart_body-title, #coffee_original .discover-item__type, #coffee_original .intro-context p, #coffee_original .intro-paragraph__heading, #coffee_original .intro-paragraph__context, #coffee_original .service-description__context, #coffee_original_modal .modal .table-header__title p, #coffee_original_modal .modal .table-item__desc, #coffee_original_modal .modal .table-item__btn-price, #coffee_original_modal .modal .table-subtitle h3, #coffee_original_modal .modal .table-attribute h3, #coffee_original_modal .modal .table-paragraph, #coffee_original_modal .modal .table-btn__price {
     font-size: 1rem;
     line-height: 1.5rem;
     letter-spacing: 0.005em; }
 
   .font_body-2, #footer .footer_payment-methods-inner .payment-methods-header, #footer .footer_main-content a, #footer .footer_language-menu-inner .footer_language-menu-left .footer_language-menu-select span, #footer .footer_language-menu-inner .footer_language-menu-right .language-menu-list .language-menu-item .language-menu-item-link, #footer .footer_bottom-inner-frame .bottom_frame-header, #footer .footer_bottom-inner-frame .bottom_frame-topPage, #footer .footer_bottom-inner-frame .bottom_frame-title, #nav .nav_list-item-link p, #header .header_content-search-input, #header .header_content-search-input::placeholder, .menu__box .menu__item, #dropdown_signIn .dropdown_signIn-title, #dropdown_signIn .dropdown_signIn-check span, #dropdown_signIn .dropdown_signIn-footer span, .modalCart_title h4, .modalCart_title span, .modalCart_body-item-quantity, .modalCart_body-content-info h4, .modalCart_body-content-info span,
-  .modalCart_body-content-info label, .modalCart_footer-total span:nth-child(1), #form_search .form_search-item span, #form_result .form_search-item-info span:first-child, #form_result .form_search-item-info span:last-child, #main .product-nav ul .tab-menu, #main .hero-content__item-name, #main .intro-nav__item button {
+  .modalCart_body-content-info label, .modalCart_footer-total span:nth-child(1), #form_search .form_search-item span, #form_result .form_search-item-info span:first-child, #form_result .form_search-item-info span:last-child, #coffee_original .product-nav ul .tab-menu, #coffee_original .hero-content__item-name, #coffee_original .intro-nav__item button {
     font-size: 0.875rem;
     line-height: 1.25rem;
     letter-spacing: 0.0025em; }
@@ -2547,7 +2523,7 @@ html {
     line-height: 1rem;
     letter-spacing: 0.0938rem; }
 
-  .font_button, #dropdown_signIn .dropdown_signIn-btn, #dropdown_loggedIn .dropdown_loggedIn-logout span, .modalCart_btn a, #main .intro-paragraph__btn a, #main .recommend-btn a, .modal .table-btn__add span {
+  .font_button, #dropdown_signIn .dropdown_signIn-btn, #dropdown_loggedIn .dropdown_loggedIn-logout span, .modalCart_btn a, #coffee_original .intro-paragraph__btn a, #coffee_original .recommend-btn a, #coffee_original_modal .modal .table-btn__add span {
     font-size: 0.875rem;
     line-height: 1.25rem;
     letter-spacing: 0.0781rem; } }
@@ -3013,24 +2989,25 @@ video {
 body .open-modal {
   overflow: hidden; }
 
-#main .banner {
+#coffee_original .banner {
   width: 100%; }
-  #main .banner__context {
+  #coffee_original .banner__context {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: #ffffff;
     text-align: center; }
-    #main .banner__context-title {
+    #coffee_original .banner__context-title {
       font-weight: 600; }
-#main .banner.background-1 {
+#coffee_original .banner.background-1 {
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../assets/images/coffee-original/original-background_1.png"); }
-#main .banner.background-2 {
+#coffee_original .banner.background-2 {
   background-image: url("../../assets/images/coffee-original/original-background_2.png"); }
-#main .banner.background-1,
-#main .banner.background-2,
-#main .banner.background-3 {
+#coffee_original .banner.background-1,
+#coffee_original .banner.background-2,
+#coffee_original .banner.background-3 {
+  margin-top: unset;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -3038,36 +3015,36 @@ body .open-modal {
   width: 100%;
   height: 21.875rem;
   position: relative; }
-#main .choice {
+#coffee_original .choice {
   background-color: #000000; }
-  #main .choice .container {
+  #coffee_original .choice .container {
     display: flex;
     flex-direction: row;
     align-items: center;
     padding: 2.5rem 0;
     gap: 1.5rem; }
-  #main .choice-context {
+  #coffee_original .choice-context {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding: 0px;
     gap: 0.5rem;
     color: #ffffff; }
-    #main .choice-context__heading {
+    #coffee_original .choice-context__heading {
       font-weight: 600; }
-    #main .choice-context__title {
+    #coffee_original .choice-context__title {
       font-weight: 400; }
-  #main .choice-image {
+  #coffee_original .choice-image {
     font-size: 0; }
-#main .discover {
+#coffee_original .discover {
   background-color: #000000; }
-  #main .discover .container {
+  #coffee_original .discover .container {
     display: flex;
     padding: 2.5rem 0;
     flex-direction: column;
     align-items: center;
     gap: 3rem; }
-  #main .discover-context {
+  #coffee_original .discover-context {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -3075,17 +3052,17 @@ body .open-modal {
     gap: 1rem;
     color: #ffffff;
     text-align: center; }
-    #main .discover-context__heading {
+    #coffee_original .discover-context__heading {
       font-weight: 600; }
-    #main .discover-context__title {
+    #coffee_original .discover-context__title {
       font-weight: 400; }
-  #main .discover-list {
+  #coffee_original .discover-list {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     padding: 0rem;
     gap: 1.5rem; }
-  #main .discover-item {
+  #coffee_original .discover-item {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -3094,19 +3071,19 @@ body .open-modal {
     color: #ffffff;
     min-height: 25rem;
     text-align: center; }
-    #main .discover-item__image {
+    #coffee_original .discover-item__image {
       font-size: 0;
       height: 100%;
       width: 100%; }
-      #main .discover-item__image img {
+      #coffee_original .discover-item__image img {
         height: 100%;
         object-fit: cover;
         width: 100%; }
-    #main .discover-item__name {
+    #coffee_original .discover-item__name {
       font-weight: 700; }
-    #main .discover-item__type {
+    #coffee_original .discover-item__type {
       font-weight: 400; }
-#main .product-nav ul {
+#coffee_original .product-nav ul {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -3115,32 +3092,32 @@ body .open-modal {
   list-style: none;
   min-height: 3.5rem;
   background-color: #000000; }
-  #main .product-nav ul .tab-menu {
+  #coffee_original .product-nav ul .tab-menu {
     padding: 1.125rem 0rem;
     max-height: 3.5rem; }
-    #main .product-nav ul .tab-menu a {
+    #coffee_original .product-nav ul .tab-menu a {
       text-transform: uppercase;
       text-decoration: none;
       color: #8f7247;
       font-weight: 400; }
-    #main .product-nav ul .tab-menu--selected {
+    #coffee_original .product-nav ul .tab-menu--selected {
       border-bottom: 0.125rem solid #876c43; }
-      #main .product-nav ul .tab-menu--selected a {
+      #coffee_original .product-nav ul .tab-menu--selected a {
         font-weight: 700; }
-    #main .product-nav ul .tab-menu:hover a {
+    #coffee_original .product-nav ul .tab-menu:hover a {
       font-weight: 700; }
-#main .hero.background-1 {
+#coffee_original .hero.background-1 {
   background-image: url("../../assets/images/coffee-original/original-background_3.png"); }
-#main .hero.background-2 {
+#coffee_original .hero.background-2 {
   background-image: url("../../assets/images/coffee-original/original-background_4.png"); }
-#main .hero.background-3 {
+#coffee_original .hero.background-3 {
   background-image: url("../../assets/images/coffee-original/original-background_5.png"); }
-#main .hero.background-4 {
+#coffee_original .hero.background-4 {
   background-image: url("../../assets/images/coffee-original/original-background_6.png"); }
-#main .hero.background-1,
-#main .hero.background-2,
-#main .hero.background-3,
-#main .hero.background-4 {
+#coffee_original .hero.background-1,
+#coffee_original .hero.background-2,
+#coffee_original .hero.background-3,
+#coffee_original .hero.background-4 {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -3148,24 +3125,24 @@ body .open-modal {
   width: 100%;
   position: relative;
   min-height: 36.125rem; }
-#main .hero {
+#coffee_original .hero {
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 3rem 10.625rem;
   gap: 1.25rem; }
-  #main .hero-image {
+  #coffee_original .hero-image {
     font-size: 0;
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: .5rem; }
-    #main .hero-image img {
+    gap: 0.5rem; }
+    #coffee_original .hero-image img {
       height: 100%;
       object-fit: cover; }
-  #main .hero-content {
+  #coffee_original .hero-content {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -3173,32 +3150,32 @@ body .open-modal {
     gap: 1.25rem;
     color: #ffffff;
     text-align: center; }
-    #main .hero-content__heading {
+    #coffee_original .hero-content__heading {
       font-weight: 500;
       text-transform: uppercase; }
-    #main .hero-content__list {
+    #coffee_original .hero-content__list {
       display: flex;
       flex-direction: row;
       align-items: flex-start;
       padding: 0rem;
       gap: 2rem; }
-    #main .hero-content__item {
+    #coffee_original .hero-content__item {
       display: flex;
       flex-direction: column;
       align-items: center; }
-      #main .hero-content__item-image {
+      #coffee_original .hero-content__item-image {
         width: 3.5rem;
         height: 3.5rem; }
-        #main .hero-content__item-image img {
+        #coffee_original .hero-content__item-image img {
           width: 100%;
           height: 100%;
           object-fit: cover; }
-        #main .hero-content__item-image svg {
+        #coffee_original .hero-content__item-image svg {
           width: 100%;
           height: 100%; }
-      #main .hero-content__item-name {
+      #coffee_original .hero-content__item-name {
         font-weight: 700; }
-    #main .hero-content__btn {
+    #coffee_original .hero-content__btn {
       display: flex;
       flex-direction: row;
       justify-content: center;
@@ -3209,36 +3186,36 @@ body .open-modal {
       border-radius: 2.5rem;
       background: #3d8705;
       cursor: pointer; }
-      #main .hero-content__btn:hover {
+      #coffee_original .hero-content__btn:hover {
         background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #3d8705; }
-#main .intro {
+#coffee_original .intro {
   display: flex;
   flex-direction: row;
   align-items: center;
   gap: 1.5rem;
   background-color: #1b1b1b; }
-  #main .intro-explore {
+  #coffee_original .intro-explore {
     padding: 0rem 0rem 0rem 10.625rem; }
-    #main .intro-explore div:first-child {
+    #coffee_original .intro-explore div:first-child {
       flex-basis: 40%; }
-    #main .intro-explore div:last-child {
+    #coffee_original .intro-explore div:last-child {
       flex-basis: 60%; }
-  #main .intro-sustainable {
+  #coffee_original .intro-sustainable {
     padding: 0rem 10.625rem 0rem 0rem; }
-    #main .intro-sustainable div:first-child {
+    #coffee_original .intro-sustainable div:first-child {
       flex-basis: 60%; }
-    #main .intro-sustainable div:last-child {
+    #coffee_original .intro-sustainable div:last-child {
       flex-basis: 40%; }
-  #main .intro-description {
+  #coffee_original .intro-description {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding: 2.5rem 0rem;
     gap: 0.5rem; }
-  #main .intro-heading {
+  #coffee_original .intro-heading {
     font-weight: 700;
     color: #ffffff; }
-  #main .intro-nav {
+  #coffee_original .intro-nav {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -3246,13 +3223,13 @@ body .open-modal {
     gap: 2.5rem;
     list-style: none;
     width: 100%; }
-    #main .intro-nav__item {
+    #coffee_original .intro-nav__item {
       display: flex;
       flex-direction: column;
       align-items: flex-start;
       padding: 1.125rem 0rem;
       max-height: 3.5rem; }
-      #main .intro-nav__item button {
+      #coffee_original .intro-nav__item button {
         font-weight: 700;
         color: #8f7247;
         text-align: center;
@@ -3260,48 +3237,48 @@ body .open-modal {
         background-color: unset;
         cursor: pointer;
         border: none; }
-      #main .intro-nav__item--selected {
+      #coffee_original .intro-nav__item--selected {
         border-bottom: 0.125rem solid #876c43; }
-  #main .intro-context {
+  #coffee_original .intro-context {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding: 0rem;
     gap: 1.25rem; }
-    #main .intro-context p {
+    #coffee_original .intro-context p {
       font-weight: 400;
       color: #ffffff; }
-  #main .intro-image {
+  #coffee_original .intro-image {
     font-size: 0;
     width: 100%; }
-    #main .intro-image img {
+    #coffee_original .intro-image img {
       height: 100%;
       width: 100%;
       object-fit: contain; }
-  #main .intro-paragraph {
+  #coffee_original .intro-paragraph {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding: 0px;
     gap: 0.25rem; }
-    #main .intro-paragraph__heading {
+    #coffee_original .intro-paragraph__heading {
       font-weight: 600;
       color: #ffffff; }
-    #main .intro-paragraph__context {
+    #coffee_original .intro-paragraph__context {
       font-weight: 400;
       color: #ffffff; }
-    #main .intro-paragraph__btn {
+    #coffee_original .intro-paragraph__btn {
       display: flex;
       flex-direction: row;
       align-items: center;
       padding: 0.5rem 0rem;
       background-color: unset;
       border: none; }
-      #main .intro-paragraph__btn a {
+      #coffee_original .intro-paragraph__btn a {
         font-weight: 600;
         text-decoration: none;
         color: #876c43; }
-#main .recommend {
+#coffee_original .recommend {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -3312,29 +3289,29 @@ body .open-modal {
   background-size: cover;
   background-position: center;
   object-position: center; }
-  #main .recommend-heading {
+  #coffee_original .recommend-heading {
     font-weight: 600;
     color: #ffffff;
     display: flex;
     align-items: center;
     text-align: center; }
-  #main .recommend-context {
+  #coffee_original .recommend-context {
     font-weight: 400;
     color: #ffffff;
     text-align: center; }
-  #main .recommend-btn {
+  #coffee_original .recommend-btn {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: .5rem 0px;
+    padding: 0.5rem 0px;
     background: none;
     border: none;
     cursor: pointer; }
-    #main .recommend-btn a {
+    #coffee_original .recommend-btn a {
       text-decoration: none;
       font-weight: 600;
       color: #876c43; }
-#main .service {
+#coffee_original .service {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -3342,31 +3319,31 @@ body .open-modal {
   padding: 2.5rem 10.625rem;
   gap: 1.25rem;
   background-color: #000000; }
-  #main .service-container {
+  #coffee_original .service-container {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     padding: 0rem;
     gap: 2rem; }
-  #main .service-description {
+  #coffee_original .service-description {
     color: #ffffff;
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center; }
-    #main .service-description__image {
+    #coffee_original .service-description__image {
       width: 5.1875rem;
       height: 5rem; }
-      #main .service-description__image img {
+      #coffee_original .service-description__image img {
         width: 100%;
         height: 100%;
         object-fit: cover; }
-    #main .service-description__title {
+    #coffee_original .service-description__title {
       font-weight: 700; }
-    #main .service-description__context {
+    #coffee_original .service-description__context {
       font-weight: 400; }
 
-.modal {
+#coffee_original_modal .modal {
   position: fixed;
   top: 0;
   bottom: 0;
@@ -3377,32 +3354,32 @@ body .open-modal {
   align-items: center;
   justify-content: center;
   display: flex;
-  transition: .25s;
+  transition: 0.25s;
   opacity: 0;
   transform: translateZ(0);
   background-color: rgba(0, 0, 0, 0.5);
   overflow: hidden;
   z-index: -1000; }
-  .modal-Overlay {
+  #coffee_original_modal .modal-Overlay {
     position: absolute;
     top: 0;
     right: 0;
     bottom: 0;
     left: 0;
     z-index: 0; }
-  .modal.open-modal {
+  #coffee_original_modal .modal.open-modal {
     opacity: 1;
     visibility: visible;
-    transition: .25s;
+    transition: 0.25s;
     z-index: 2001; }
-  .modal-fixed {
+  #coffee_original_modal .modal-fixed {
     position: absolute;
     top: 0;
     right: 0;
     bottom: 0;
     left: 0;
-    transition: .25s; }
-    .modal-fixed::after {
+    transition: 0.25s; }
+    #coffee_original_modal .modal-fixed::after {
       content: "";
       background: #000;
       opacity: 0;
@@ -3411,12 +3388,12 @@ body .open-modal {
       right: 0;
       bottom: 0;
       left: 0;
-      transition: .25s; }
-  .modal-container {
+      transition: 0.25s; }
+  #coffee_original_modal .modal-container {
     opacity: 1;
     visibility: visible;
-    transition: .5s .25s; }
-  .modal-close {
+    transition: 0.5s 0.25s; }
+  #coffee_original_modal .modal-close {
     width: 4em;
     height: 4em;
     border-radius: 50%;
@@ -3431,30 +3408,30 @@ body .open-modal {
     align-items: center;
     justify-content: center;
     cursor: pointer; }
-    .modal-close:hover {
+    #coffee_original_modal .modal-close:hover {
       color: #ffffff;
       background-color: #f9f9f9; }
-    .modal-close span {
+    #coffee_original_modal .modal-close span {
       position: absolute;
       height: 0;
       width: 0;
       overflow: hidden; }
-  .modal-popin {
-    transition: .25s; }
-  .modal .table-header__title {
+  #coffee_original_modal .modal-popin {
+    transition: 0.25s; }
+  #coffee_original_modal .modal .table-header__title {
     padding: 2.5em 2.5em 0;
     text-align: center;
     vertical-align: middle; }
-    .modal .table-header__title h4 {
+    #coffee_original_modal .modal .table-header__title h4 {
       font-weight: 400;
       text-transform: uppercase;
       text-align: center;
       color: #17171a; }
-    .modal .table-header__title p {
+    #coffee_original_modal .modal .table-header__title p {
       color: #17171a;
       font-weight: 400;
       text-align: center; }
-  .modal .table-list {
+  #coffee_original_modal .modal .table-list {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -3463,7 +3440,7 @@ body .open-modal {
     height: 100%;
     overflow-x: hidden;
     overflow-y: scroll; }
-  .modal .table-item {
+  #coffee_original_modal .modal .table-item {
     width: 100%;
     padding: 0rem 1.75rem;
     display: flex;
@@ -3471,20 +3448,20 @@ body .open-modal {
     justify-content: center;
     cursor: pointer;
     position: relative; }
-    .modal .table-item:hover {
+    #coffee_original_modal .modal .table-item:hover {
       background: rgba(255, 255, 255, 0.5);
       -webkit-box-shadow: 0 0.1em 1em rgba(0, 0, 0, 0.05);
       box-shadow: 0 0.1em 1em rgba(0, 0, 0, 0.05); }
-    .modal .table-item::after {
+    #coffee_original_modal .modal .table-item::after {
       content: "";
       width: 100%;
-      height: .0625rem;
+      height: 0.0625rem;
       position: absolute;
       bottom: -0.0625rem;
       left: 0;
       background: rgba(0, 0, 0, 0.1);
-      transition: .25s; }
-    .modal .table-item a {
+      transition: 0.25s; }
+    #coffee_original_modal .modal .table-item a {
       display: flex;
       flex-direction: row;
       align-items: center;
@@ -3492,21 +3469,21 @@ body .open-modal {
       gap: 1rem;
       width: 100%;
       text-decoration: none; }
-      .modal .table-item a:hover {
+      #coffee_original_modal .modal .table-item a:hover {
         background: rgba(255, 255, 255, 0.5);
         -webkit-box-shadow: 0 0.1em 1em rgba(0, 0, 0, 0.05);
         box-shadow: 0 0.1em 1em rgba(0, 0, 0, 0.05);
         outline: 0; }
-        .modal .table-item a:hover .table-item__desc {
+        #coffee_original_modal .modal .table-item a:hover .table-item__desc {
           text-decoration: underline;
           color: #8f7247; }
-    .modal .table-item__image {
+    #coffee_original_modal .modal .table-item__image {
       font-size: 0; }
-      .modal .table-item__image img {
+      #coffee_original_modal .modal .table-item__image img {
         height: 100%;
         object-fit: cover;
-        transition: .25s ease; }
-    .modal .table-item__desc {
+        transition: 0.25s ease; }
+    #coffee_original_modal .modal .table-item__desc {
       display: flex;
       flex-direction: column;
       align-items: flex-start;
@@ -3514,20 +3491,20 @@ body .open-modal {
       text-transform: uppercase;
       color: #17171a;
       width: 100%; }
-      .modal .table-item__desc-title {
+      #coffee_original_modal .modal .table-item__desc-title {
         font-weight: 600; }
-      .modal .table-item__desc-subtitle {
+      #coffee_original_modal .modal .table-item__desc-subtitle {
         font-weight: 400; }
-    .modal .table-item__btn {
+    #coffee_original_modal .modal .table-item__btn {
       display: flex;
       flex-direction: row;
       align-items: center;
       padding: 0px;
       gap: 10px; }
-      .modal .table-item__btn-price {
+      #coffee_original_modal .modal .table-item__btn-price {
         font-weight: 500;
         color: #3d8705; }
-      .modal .table-item__btn-add {
+      #coffee_original_modal .modal .table-item__btn-add {
         width: 3.5rem;
         height: 3.5rem;
         background: #3d8705;
@@ -3535,9 +3512,9 @@ body .open-modal {
         display: flex;
         justify-content: center;
         align-items: center; }
-        .modal .table-item__btn-add:hover {
+        #coffee_original_modal .modal .table-item__btn-add:hover {
           background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #3d8705; }
-  .modal .table-banner {
+  #coffee_original_modal .modal .table-banner {
     background-image: url("../../assets/images/coffee-original/modal-banner.png");
     background-size: cover;
     background-position: 50%;
@@ -3545,9 +3522,9 @@ body .open-modal {
     width: 100%;
     height: 13.75em;
     position: relative;
-    transition: .25s;
+    transition: 0.25s;
     opacity: 1; }
-    .modal .table-banner__product {
+    #coffee_original_modal .modal .table-banner__product {
       position: absolute;
       left: 50%;
       transform: translate(-50%);
@@ -3555,7 +3532,7 @@ body .open-modal {
       height: 160%;
       background-size: cover;
       background-position: 50%; }
-    .modal .table-banner__image {
+    #coffee_original_modal .modal .table-banner__image {
       background-image: url("../../assets/images/coffee-original/roma_L.png");
       position: absolute;
       bottom: 27%;
@@ -3566,178 +3543,178 @@ body .open-modal {
       left: 15%;
       width: 35%;
       height: 19%; }
-  .modal .table-subtitle {
+  #coffee_original_modal .modal .table-subtitle {
     margin-top: 7vh;
     padding: 0 2.5em;
     margin-bottom: 0.5em; }
-    .modal .table-subtitle h3 {
+    #coffee_original_modal .modal .table-subtitle h3 {
       font-weight: 600;
       color: #17171a;
       text-transform: uppercase; }
-    .modal .table-subtitle p {
+    #coffee_original_modal .modal .table-subtitle p {
       font-weight: 400;
       color: #757575; }
-  .modal .table-inner {
+  #coffee_original_modal .modal .table-inner {
     width: 100%;
     height: 12.5rem;
     overflow: overlay; }
-  .modal .table-title {
+  #coffee_original_modal .modal .table-title {
     text-transform: uppercase;
     font-weight: 400;
     color: #17171a;
     text-align: center; }
-  .modal .table-attribute {
+  #coffee_original_modal .modal .table-attribute {
     width: 80%;
     margin: 0 auto;
     max-width: 640px;
     margin-top: 2em; }
-    .modal .table-attribute ul {
+    #coffee_original_modal .modal .table-attribute ul {
       list-style: none; }
-    .modal .table-attribute li {
+    #coffee_original_modal .modal .table-attribute li {
       text-align: center;
       padding-bottom: 2rem; }
-    .modal .table-attribute h3 {
+    #coffee_original_modal .modal .table-attribute h3 {
       font-weight: 700;
       color: #17171a;
       text-align: center;
       text-transform: uppercase; }
-    .modal .table-attribute__capsule {
+    #coffee_original_modal .modal .table-attribute__capsule {
       max-width: 100%;
       margin: 0 auto; }
-      .modal .table-attribute__capsule img {
+      #coffee_original_modal .modal .table-attribute__capsule img {
         max-width: 100%; }
-  .modal .table .flex-container {
+  #coffee_original_modal .modal .table .flex-container {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: nowrap;
     flex-direction: row; }
-  .modal .table .flex-item {
+  #coffee_original_modal .modal .table .flex-item {
     width: 33.3%; }
-    .modal .table .flex-item:nth-child(1), .modal .table .flex-item:nth-child(2), .modal .table .flex-item:nth-child(3) {
+    #coffee_original_modal .modal .table .flex-item:nth-child(1), #coffee_original_modal .modal .table .flex-item:nth-child(2), #coffee_original_modal .modal .table .flex-item:nth-child(3) {
       order: 0;
       flex: 0 1 auto;
       align-self: auto; }
-  .modal .table-keyvisual {
+  #coffee_original_modal .modal .table-keyvisual {
     position: relative;
     padding-top: 32.74%;
     margin-bottom: 35px; }
-    .modal .table-keyvisual img {
-      border-radius: .1875rem; }
-    .modal .table-keyvisual__mobile {
+    #coffee_original_modal .modal .table-keyvisual img {
+      border-radius: 0.1875rem; }
+    #coffee_original_modal .modal .table-keyvisual__mobile {
       display: none; }
-    .modal .table-keyvisual__mobile, .modal .table-keyvisual__desktop {
+    #coffee_original_modal .modal .table-keyvisual__mobile, #coffee_original_modal .modal .table-keyvisual__desktop {
       position: absolute;
       left: 0;
       top: 0;
       width: 100%;
       height: auto;
-      transition: .25s ease; }
-  .modal .table-paragraph {
+      transition: 0.25s ease; }
+  #coffee_original_modal .modal .table-paragraph {
     font-weight: 400;
     color: #17171a;
     padding: 1.375rem 1rem 0; }
-  .modal .table-btn {
+  #coffee_original_modal .modal .table-btn {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
     padding: 1rem;
-    gap: .625rem; }
-    .modal .table-btn__price {
+    gap: 0.625rem; }
+    #coffee_original_modal .modal .table-btn__price {
       font-weight: 500;
       color: #3d8705; }
-    .modal .table-btn__add:hover {
+    #coffee_original_modal .modal .table-btn__add:hover {
       background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #3d8705; }
-    .modal .table-btn__add span {
+    #coffee_original_modal .modal .table-btn__add span {
       font-weight: 600;
       color: #ffffff; }
 
 /* Mobile: width < 768px */
 @media only screen and (max-width: 47.938em) {
-  #main {
+  #coffee_original {
     margin-top: 3.125rem; }
-    #main .banner__context {
+    #coffee_original .banner__context {
       width: 100%; }
-    #main .choice .container {
+    #coffee_original .choice .container {
       flex-direction: column-reverse; }
-    #main .choice-context {
+    #coffee_original .choice-context {
       padding: 0 1.25em;
       max-width: 31.25em;
       gap: 1rem; }
-    #main .choice-image {
+    #coffee_original .choice-image {
       width: 100vw; }
-      #main .choice-image img {
+      #coffee_original .choice-image img {
         width: 100%; }
-    #main .discover-context {
+    #coffee_original .discover-context {
       padding: 0 1.25em;
       max-width: 31.25em; }
-    #main .discover-list {
+    #coffee_original .discover-list {
       flex-direction: column; }
-    #main .product-nav ul {
+    #coffee_original .product-nav ul {
       padding: 1rem 1rem;
       text-align: center; }
-    #main .hero {
+    #coffee_original .hero {
       padding: unset; }
-      #main .hero-image img {
+      #coffee_original .hero-image img {
         width: 100%;
         height: 100%; }
-    #main .intro {
+    #coffee_original .intro {
       padding: 3em 0; }
-      #main .intro-explore {
+      #coffee_original .intro-explore {
         flex-direction: column-reverse; }
-      #main .intro-sustainable {
+      #coffee_original .intro-sustainable {
         flex-direction: column; }
-      #main .intro-context, #main .intro-description {
+      #coffee_original .intro-context, #coffee_original .intro-description {
         padding: 0 1.25em; }
-      #main .intro-image img {
+      #coffee_original .intro-image img {
         width: 100%; }
-    #main .recommend {
+    #coffee_original .recommend {
       padding: 2rem 1.25em; }
-    #main .service {
+    #coffee_original .service {
       padding: 0 1.25em; }
-      #main .service-container {
+      #coffee_original .service-container {
         padding: 3em 0; } }
 /* Tablet: width >= 768px and width < 1024px */
 @media only screen and (min-width: 48rem) and (max-width: 63.938rem) {
-  #main {
+  #coffee_original {
     margin-top: 3.125rem; }
-    #main .intro {
+    #coffee_original .intro {
       padding: 3em 0; }
-      #main .intro-explore {
+      #coffee_original .intro-explore {
         flex-direction: column-reverse; }
-      #main .intro-sustainable {
+      #coffee_original .intro-sustainable {
         flex-direction: column; }
-      #main .intro-description {
+      #coffee_original .intro-description {
         padding-left: 2em; }
-      #main .intro-image {
+      #coffee_original .intro-image {
         width: 100%; }
-        #main .intro-image img {
+        #coffee_original .intro-image img {
           width: 100%; }
-    #main .choice-context {
+    #coffee_original .choice-context {
       padding-left: 2em; } }
 /* Mobile: width < 768px */
 @media only screen and (max-width: 47.938em) {
-  .modal-fixed {
+  #coffee_original_modal .modal-fixed {
     overflow-y: scroll; }
-  .modal-popin {
+  #coffee_original_modal .modal-popin {
     position: absolute;
     z-index: 12; }
-  .modal-container {
+  #coffee_original_modal .modal-container {
     transform: none; }
-  .modal-close {
+  #coffee_original_modal .modal-close {
     top: 1.5em !important;
     width: 3em;
     height: 3em;
     background-color: #000;
     transform: translate(-50%); }
-  .modal-content .lefCol {
+  #coffee_original_modal .modal-content .lefCol {
     width: 100vw;
     height: 100vh;
     overflow-y: scroll;
     background-color: #f2f2f2;
     padding: 6em 1.25em 0; }
-  .modal-content .rightCol {
+  #coffee_original_modal .modal-content .rightCol {
     position: absolute;
     top: 0;
     width: 100vw;
@@ -3745,11 +3722,11 @@ body .open-modal {
     overflow-y: scroll;
     background-color: #fff;
     left: 100vw;
-    transition: left .5s, opacity .25s .25s;
+    transition: left 0.5s, opacity 0.25s 0.25s;
     opacity: 0; }
-  .modal .table-item {
+  #coffee_original_modal .modal .table-item {
     padding: 0; }
-  .modal .table-btn__add {
+  #coffee_original_modal .modal .table-btn__add {
     width: 60%; }
 
   .popinSlide .popin-close {
@@ -3757,7 +3734,7 @@ body .open-modal {
     visibility: hidden; }
   .popinSlide .rightCol {
     left: 0;
-    transition: left .5s, opacity .25s;
+    transition: left 0.5s, opacity 0.25s;
     opacity: 1; }
   .popinSlide .popin-back {
     width: 3rem;
@@ -3775,14 +3752,14 @@ body .open-modal {
     justify-content: center; } }
 /* Tablet: width >= 768px and width < 1024px */
 @media only screen and (min-width: 48rem) and (max-width: 64rem) {
-  .modal-container {
+  #coffee_original_modal .modal-container {
     top: 40% !important; }
-  .modal-content {
+  #coffee_original_modal .modal-content {
     width: calc(85% - 50vw + 50vh) !important;
     margin: 0 auto; } }
 /* Tablet & Desktop: width >= 768px */
 @media only screen and (min-width: 48rem) {
-  .modal-container {
+  #coffee_original_modal .modal-container {
     box-shadow: 0 0 1.25em rgba(0, 0, 0, 0.8);
     width: calc(85% - 50vw + 50vh);
     top: 50%;
@@ -3793,32 +3770,32 @@ body .open-modal {
     transform: translate(-50%, -50%);
     z-index: 1;
     position: absolute; }
-  .modal-content {
+  #coffee_original_modal .modal-content {
     display: table;
     width: calc(100% + 1px);
     height: 100%;
     table-layout: fixed; }
-  .modal .lefCol {
+  #coffee_original_modal .modal .lefCol {
     display: table-cell;
     vertical-align: top;
     background: #f2f2f2;
     overflow: hidden;
     position: relative; }
-  .modal .table {
+  #coffee_original_modal .modal .table {
     display: table;
     height: 100%;
     width: 100%; }
-    .modal .table-header {
+    #coffee_original_modal .modal .table-header {
       display: table-row;
       height: calc(7.44975vw - 3.4056px + 10.6425vh); }
-    .modal .table-main {
+    #coffee_original_modal .modal .table-main {
       display: table-row; }
-  .modal .rightCol {
+  #coffee_original_modal .modal .rightCol {
     display: table-cell;
     vertical-align: top;
     background: #fff;
     overflow: hidden;
-    transition: left .5s, opacity .25s;
+    transition: left 0.5s, opacity 0.25s;
     opacity: 1; }
 
   .popin-back {

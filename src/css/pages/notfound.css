@@ -110,7 +110,7 @@ html {
   line-height: 1rem;
   letter-spacing: 0.0938rem; }
 
-.font_button, #Page404 .messages-btn {
+.font_button, #pageNotFound .messages-btn {
   font-family: "Nespresso Lucas", Helvetica, Trebuchet, Arial, sans-serif;
   font-style: normal;
   font-size: 0.875rem;
@@ -128,7 +128,7 @@ html {
   border-radius: 2.5rem;
   border: none;
   cursor: pointer;
-  color: #FFFFFF;
+  color: #ffffff;
   text-transform: uppercase; }
 
 @media screen {
@@ -163,11 +163,7 @@ html {
     display: none !important; }
 
   .show_on-tab {
-    display: block !important; }
-
-  body {
-    font-size: calc( 10px + (96 - 10) * ((100vw - 1024) / (1440 - 1024)) ) !important;
-    line-height: calc( 10px + (96 - 10) * ((100vw - 1024) / (1440 - 1024)) ) !important; } }
+    display: block !important; } }
 /* Mobile: width < 768px */
 @media only screen and (max-width: 48rem) {
   .hide_on-mobile {
@@ -235,7 +231,7 @@ html {
     line-height: 1rem;
     letter-spacing: 0.0938rem; }
 
-  .font_button, #Page404 .messages-btn {
+  .font_button, #pageNotFound .messages-btn {
     font-size: 0.875rem;
     line-height: 1.25rem;
     letter-spacing: 0.0781rem; } }
@@ -354,12 +350,12 @@ video {
     transform: translateY(100%); }
   to {
     transform: translate(0); } }
-#Page404 .messages {
+#pageNotFound .messages {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 20.8125rem; }
-  #Page404 .messages-text {
+  #pageNotFound .messages-text {
     font-style: normal;
     font-weight: 600;
     font-size: 3rem;
@@ -367,17 +363,17 @@ video {
     color: #000000;
     text-align: center;
     color: #1b1b1b; }
-  #Page404 .messages-image {
+  #pageNotFound .messages-image {
     width: 100%;
     font-size: 0;
     padding: 1.3125rem 0; }
-  #Page404 .messages-price {
+  #pageNotFound .messages-price {
     font-weight: 500;
     font-size: 1rem;
     line-height: 1.5rem;
     text-align: center;
     letter-spacing: 0.005em; }
-  #Page404 .messages-btn {
+  #pageNotFound .messages-btn {
     font-weight: 600;
     padding: 0.75rem 1.5rem;
     color: #ffffff;
@@ -390,13 +386,21 @@ video {
     justify-content: center;
     align-items: center;
     cursor: pointer; }
-    #Page404 .messages-btn:hover {
+    #pageNotFound .messages-btn:hover {
       background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #3d8705; }
-@media screen and (min-width: 48rem) {
-  #Page404 .caption {
+
+/* Tablet: width >= 768px and width < 1024px */
+@media only screen and (min-width: 48rem) and (max-width: 63.938rem) {
+  #pageNotFound .messages {
+    margin-top: 3.125rem; } }
+/* Mobile: width < 768px */
+@media only screen and (max-width: 47.938em) {
+  #pageNotFound .caption {
     flex-direction: row;
     align-items: center;
     display: flex;
     margin: 0 auto;
     padding: 11.25rem 0;
-    gap: 6rem; } }
+    gap: 6rem; }
+  #pageNotFound .messages {
+    margin-top: 3.125rem; } }

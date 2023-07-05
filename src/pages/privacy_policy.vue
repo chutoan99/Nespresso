@@ -1,5 +1,4 @@
 <script lang="ts">
-import "../css/pages/privacy_policy.css";
 import Header from "@/containers/Header.vue";
 import Nav from "@/containers/Nav.vue";
 import Footer from "@/containers/Footer.vue";
@@ -20,9 +19,7 @@ export default defineComponent({
   <div class="wrapper">
     <div class="wrapper-innner">
       <Header />
-      <!-- Header -->
       <Nav />
-      <!-- Navigation -->
       <main id="policy">
         <div class="policy-wrapper">
           <div class="policy-content">
@@ -291,3 +288,79 @@ export default defineComponent({
     </div>
   </div>
 </template>
+
+<style lang="scss" scope>
+@import "src/sass/base/_global.scss";
+@import "src/sass/base/_reset";
+@import "src/sass/base/_variable";
+#policy {
+  .policy {
+    &-wrapper {
+      max-width: 71.25rem;
+      margin: 2.5rem auto;
+      background-color: $brown-50;
+    }
+
+    &-content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 3.75rem;
+      gap: 2rem;
+    }
+
+    &-caption {
+      @extend .font_heading-4;
+      font-weight: 700;
+      color: $black-900;
+    }
+
+    &-desciption {
+      @extend .font_body-1;
+      font-weight: 400;
+      color: $black-900;
+
+      &--child {
+        margin-left: 1.5rem;
+      }
+
+      p {
+        padding-left: 0.3125rem;
+      }
+
+      p::before {
+        content: "\2022";
+        padding: 0 0.3125rem;
+      }
+    }
+  }
+}
+
+/* Tablet: width >= 768px and width < 1024px */
+@media only screen and (min-width: 48rem) and (max-width: 63.938rem) {
+  #policy {
+    .policy {
+      &-wrapper {
+        margin-top: 3.125rem;
+      }
+      &-content {
+        padding: 3.75rem 1.25rem;
+      }
+    }
+  }
+}
+
+/* Mobile: width < 768px */
+@media only screen and (max-width: 47.938em) {
+  #policy {
+    .policy {
+      &-wrapper {
+        margin-top: 3.125rem;
+      }
+      &-content {
+        padding: 3.75rem 0.625rem;
+      }
+    }
+  }
+}
+</style>

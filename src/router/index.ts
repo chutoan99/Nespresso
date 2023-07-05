@@ -49,7 +49,7 @@ import SustainabilityRecycling from "../containers/sustainability_recycling.vue"
 import SustainabilityBcorp from "../containers/sustainability_bcorp.vue";
 import sustainabilityCircularity from "../containers/sustainability_circularity.vue";
 import SustainabilityClimate from "../containers/sustainability_climate.vue";
-import SustainabilityCommunities from "../containers/sustainability_communities.vue";
+import SustainabilityCommunityPage from "../containers/sustainability_community.vue";
 
 const routes = [
   // MAIN
@@ -69,18 +69,19 @@ const routes = [
   { path: "/benefits", component: BenefitsPage },
   {
     path: "/sustainability",
-    redirect: "sustainability/recycling", // Chuyển hướng mặc định đến
+    redirect: "sustainability/commitment", // Chuyển hướng mặc định đến
     component: () => import("@/pages/sustainability.vue"),
     children: [
-      { path: "recycling", component: SustainabilityRecycling },
+      { path: "commitment", component: SustainabilityRecycling },
       { path: "bcorp", component: SustainabilityBcorp },
       { path: "circularity", component: sustainabilityCircularity },
       { path: "climate", component: SustainabilityClimate },
-      { path: "communities", component: SustainabilityCommunities },
+      { path: "community", component: SustainabilityCommunityPage },
     ],
   },
 
   // SERVICE
+  // done
   { path: "/about_us", component: AboutUsPage },
   { path: "/contact_us", component: ContactUsPage },
   { path: "/account", component: AccountPage },
@@ -98,7 +99,7 @@ const routes = [
   // SHOPPING
   {
     path: "/shopping",
-    redirect: "shopping/step_1", // Chuyển hướng mặc định đến
+    redirect: "shopping/step_1",
     component: () => import("@/pages/shopping.vue"),
     children: [
       { path: "step_1", component: ShoppingStep1 },
@@ -111,7 +112,7 @@ const routes = [
   // SETTING
   {
     path: "/setting",
-    redirect: "/setting/order", // Chuyển hướng mặc định đến
+    redirect: "/setting/order",
     component: () => import("@/pages/setting.vue"),
     children: [
       { path: "order", component: SettingOrder },

@@ -20,11 +20,9 @@ export default defineComponent({
   <div class="wrapper">
     <div class="wrapper-innner">
       <Header />
-      <!-- Header -->
       <Nav />
-      <!-- Navigation -->
-      <main>
-        <section id="account">
+      <main id="account">
+        <section>
           <div class="account">
             <div class="account_heading">
               <h3>ACCESS YOUR</h3>
@@ -149,9 +147,7 @@ export default defineComponent({
           </div>
         </section>
       </main>
-
       <Footer />
-      <!-- Footer -->
     </div>
   </div>
 </template>

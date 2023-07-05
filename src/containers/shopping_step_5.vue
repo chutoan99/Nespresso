@@ -10,7 +10,7 @@ export default defineComponent({
 </script>
 
 <template>
-  <section id="confirmation">
+  <section id="shopping_step_5">
     <div class="container">
       <div class="confirmation">
         <div class="confirmation_icon">

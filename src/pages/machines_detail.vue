@@ -72,7 +72,7 @@ export default defineComponent({
             <div class="product-media">
               <div class="product-media__image">
                 <img
-                  src="../assets/images/machines-detail/MACHINE-ASSISTANCE.png"
+                  src="../assets/images/machines-detail/machines-detail.png"
                   alt="Inissia Ruby Red Coffee Machine"
                 />
               </div>
@@ -146,16 +146,16 @@ export default defineComponent({
                 <div class="product-card__type">
                   <p class="product-card__type-text">Colors:</p>
                   <div class="product-card__colors">
-                    <router-link
-                      to=""
+                    <a
+                      href="#"
                       class="product-card__colors-link"
                       style="background-color: rgb(255, 0, 0)"
-                    ></router-link>
-                    <router-link
-                      to=""
+                    ></a>
+                    <a
+                      href="#"
                       class="product-card__colors-link"
                       style="background-color: rgb(0, 0, 0)"
-                    ></router-link>
+                    ></a>
                   </div>
                 </div>
                 <div class="product-card__price">₫ 4,200,000</div>
@@ -191,7 +191,7 @@ export default defineComponent({
                 </p>
 
                 <p class="product-banner__text-more">
-                  <router-link to="">READ MORE</router-link>
+                  <a href="">READ MORE</a>
                 </p>
                 <!-- <div class="product-banner__text-more">
                   <button>
@@ -665,7 +665,7 @@ export default defineComponent({
                 </p>
               </details>
               <div class="faq-left__button">
-                <router-link to=""> Check user manual </router-link>
+                <a href=""> Check user manual </a>
               </div>
             </div>
           </div>

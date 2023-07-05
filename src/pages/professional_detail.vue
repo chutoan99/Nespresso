@@ -52,13 +52,11 @@ export default defineComponent({
 <template>
   <div class="wrapper">
     <div class="wrapper-innner">
-      <!-- start header -->
       <Header />
-      <!-- end header -->
       <Nav />
-      <!-- end nav -->
+  
 
-      <main id="main">
+      <main id="professional_detail">
         <section class="product">
           <div class="container">
             <button class="product-link">
@@ -1658,8 +1656,7 @@ export default defineComponent({
           </form>
         </section>
       </main>
-      <!-- End Main -->
-      <!-- start footer -->
+
       <Footer />
     </div>
   </div>

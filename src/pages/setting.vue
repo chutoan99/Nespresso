@@ -268,7 +268,9 @@ export default defineComponent({
               </ul>
             </div>
           </aside>
-          <router-view></router-view>
+          <div class="setting_main">
+            <router-view></router-view>
+          </div>
         </div>
       </main>
 

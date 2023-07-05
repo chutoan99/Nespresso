@@ -2,7 +2,7 @@
 @import "../base/reset";
 @import "../base/variable";
 
-#signUp {
+#signUp_company {
   .signUp_wrapper {
     width: 100vw;
     height: 100%;
@@ -230,7 +230,7 @@
 }
 /* Tablet: width >= 768px and width < 1024px */
 @media only screen and (min-width: 48rem) and (max-width: 63.938rem) {
-  #signUp {
+  #signUp_company {
     padding-left: 1.25rem;
     padding-right: 1.25rem;
     margin-top: 3.125rem;
@@ -249,7 +249,7 @@
 
 /* Mobile: width < 768px */
 @media only screen and (max-width: 47.938em) {
-  #signUp {
+  #signUp_company {
     padding-left: 0.625rem;
     padding-right: 0.625rem;
     margin-top: 3.125rem;
@@ -287,23 +287,23 @@
         gap: 0.3125rem;
       }
     }
-  }
-  form {
-    width: 100% !important;
-  }
-  .form_signUp-footer-wrapper {
-    width: 100% !important;
-  }
-  .form_signUp-button {
-    padding-right: unset !important;
-    button {
+    form {
       width: 100% !important;
-      border-radius: 0.3125rem !important;
     }
-  }
-  .form_signUp-content {
-    div {
+    .form_signUp-footer-wrapper {
       width: 100% !important;
+    }
+    .form_signUp-button {
+      padding-right: unset !important;
+      button {
+        width: 100% !important;
+        border-radius: 0.3125rem !important;
+      }
+    }
+    .form_signUp-content {
+      div {
+        width: 100% !important;
+      }
     }
   }
 }

@@ -48,14 +48,14 @@ html {
   font-size: 3rem;
   line-height: 3.25rem; }
 
-.font_heading-4, #main .product-detail__title, #main .product-specs__heading, #main .discover-content__heading, #main .recommend-heading, #main .customer-services-title, #main .product-related__heading, #main .contact-heading {
+.font_heading-4, #professional_detail .product-detail__title, #professional_detail .product-specs__heading, #professional_detail .discover-content__heading, #professional_detail .recommend-heading, #professional_detail .customer-services-title, #professional_detail .product-related__heading, #professional_detail .contact-heading {
   font-family: "Nespresso Lucas", Helvetica, Trebuchet, Arial, sans-serif;
   font-style: normal;
   font-size: 2.5rem;
   line-height: 2.5rem;
   letter-spacing: 0.0025em; }
 
-.font_heading-5, #main .product-related__item-head h5 {
+.font_heading-5, #professional_detail .product-related__item-head h5 {
   font-family: "Nespresso Lucas", Helvetica, Trebuchet, Arial, sans-serif;
   font-style: normal;
   font-size: 1.25rem;
@@ -68,7 +68,7 @@ html {
   line-height: 1.5rem;
   letter-spacing: 0.0015em; }
 
-.font_subtitle-1, #main .product-detail__heading, #main .product-features__item span, #main .contact-form__content label {
+.font_subtitle-1, #professional_detail .product-detail__heading, #professional_detail .product-features__item span, #professional_detail .contact-form__content label {
   font-family: "Nespresso Lucas", Helvetica, Trebuchet, Arial, sans-serif;
   font-style: normal;
   font-size: 1rem;
@@ -82,21 +82,21 @@ html {
   line-height: 1.25rem;
   letter-spacing: 0.01em; }
 
-.font_body-1, #main .product-specs__item-name, #main .product-specs__table-desc p, #main .discover-content__desc, #main .discover-content__detail, #main .tagLine-text, #main .tagLine-btn a, #main .recommend-title, #main .contact-title, #main .contact-form__title {
+.font_body-1, #professional_detail .product-specs__item-name, #professional_detail .product-specs__table-desc p, #professional_detail .discover-content__desc, #professional_detail .discover-content__detail, #professional_detail .tagLine-text, #professional_detail .tagLine-btn a, #professional_detail .recommend-title, #professional_detail .contact-title, #professional_detail .contact-form__title {
   font-family: "Nespresso Lucas", Helvetica, Trebuchet, Arial, sans-serif;
   font-style: normal;
   font-size: 1rem;
   line-height: 1.5rem;
   letter-spacing: 0.005em; }
 
-.font_body-2, #main .product-specs__item-type, #main .customer-services-item__question span, #main .customer-services-item__answer p, #main .services-content__heading, #main .services-content__desc {
+.font_body-2, #professional_detail .product-specs__item-type, #professional_detail .customer-services-item__question span, #professional_detail .customer-services-item__answer p, #professional_detail .services-content__heading, #professional_detail .services-content__desc {
   font-family: "Nespresso Lucas", Helvetica, Trebuchet, Arial, sans-serif;
   font-style: normal;
   font-size: 0.875rem;
   line-height: 1.25rem;
   letter-spacing: 0.0025em; }
 
-.font_caption, #main .customer-services-item__rate-text, #main .product-related__item-label, #main .contact-form__detail {
+.font_caption, #professional_detail .customer-services-item__rate-text, #professional_detail .product-related__item-label, #professional_detail .contact-form__detail {
   font-family: "Nespresso Lucas", Helvetica, Trebuchet, Arial, sans-serif;
   font-style: normal;
   font-size: 0.75rem;
@@ -110,14 +110,14 @@ html {
   line-height: 1rem;
   letter-spacing: 0.0938rem; }
 
-.font_button, #main .product-link a, #main .product-media__btn a, #main .product-detail__btn a, #main .discover-content__btn a, #main .discover-content__more a, #main .recommend-btn a, #main .product-related__item-head button a, #main .product-related__item-footer span, #main .product-related__item-footer button a, #main .contact-form__submit {
+.font_button, #professional_detail .product-link a, #professional_detail .product-media__btn a, #professional_detail .product-detail__btn a, #professional_detail .discover-content__btn a, #professional_detail .discover-content__more a, #professional_detail .recommend-btn a, #professional_detail .product-related__item-head button a, #professional_detail .product-related__item-footer span, #professional_detail .product-related__item-footer button a, #professional_detail .contact-form__submit {
   font-family: "Nespresso Lucas", Helvetica, Trebuchet, Arial, sans-serif;
   font-style: normal;
   font-size: 0.875rem;
   line-height: 1.25rem;
   letter-spacing: 0.0781rem; }
 
-.button_cart, #main .product-related__item-footer button {
+.button_cart, #professional_detail .product-related__item-footer button {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -128,7 +128,7 @@ html {
   border-radius: 2.5rem;
   border: none;
   cursor: pointer;
-  color: #FFFFFF;
+  color: #ffffff;
   text-transform: uppercase; }
 
 @media screen {
@@ -163,11 +163,7 @@ html {
     display: none !important; }
 
   .show_on-tab {
-    display: block !important; }
-
-  body {
-    font-size: calc( 10px + (96 - 10) * ((100vw - 1024) / (1440 - 1024)) ) !important;
-    line-height: calc( 10px + (96 - 10) * ((100vw - 1024) / (1440 - 1024)) ) !important; } }
+    display: block !important; } }
 /* Mobile: width < 768px */
 @media only screen and (max-width: 48rem) {
   .hide_on-mobile {
@@ -191,12 +187,12 @@ html {
     font-size: 2.25rem;
     line-height: 3.25rem; }
 
-  .font_heading-4, #main .product-detail__title, #main .product-specs__heading, #main .discover-content__heading, #main .recommend-heading, #main .customer-services-title, #main .product-related__heading, #main .contact-heading {
+  .font_heading-4, #professional_detail .product-detail__title, #professional_detail .product-specs__heading, #professional_detail .discover-content__heading, #professional_detail .recommend-heading, #professional_detail .customer-services-title, #professional_detail .product-related__heading, #professional_detail .contact-heading {
     font-size: 1.75rem;
     line-height: 2.5rem;
     letter-spacing: 0.0025em; }
 
-  .font_heading-5, #main .product-related__item-head h5 {
+  .font_heading-5, #professional_detail .product-related__item-head h5 {
     font-size: 1.25rem;
     line-height: 2rem; }
 
@@ -205,7 +201,7 @@ html {
     line-height: 1.5rem;
     letter-spacing: 0.0015em; }
 
-  .font_subtitle-1, #main .product-detail__heading, #main .product-features__item span, #main .contact-form__content label {
+  .font_subtitle-1, #professional_detail .product-detail__heading, #professional_detail .product-features__item span, #professional_detail .contact-form__content label {
     font-size: 1rem;
     line-height: 1.25rem;
     letter-spacing: 0.0125em; }
@@ -215,17 +211,17 @@ html {
     line-height: 1.25rem;
     letter-spacing: 0.01em; }
 
-  .font_body-1, #main .product-specs__item-name, #main .product-specs__table-desc p, #main .discover-content__desc, #main .discover-content__detail, #main .tagLine-text, #main .tagLine-btn a, #main .recommend-title, #main .contact-title, #main .contact-form__title {
+  .font_body-1, #professional_detail .product-specs__item-name, #professional_detail .product-specs__table-desc p, #professional_detail .discover-content__desc, #professional_detail .discover-content__detail, #professional_detail .tagLine-text, #professional_detail .tagLine-btn a, #professional_detail .recommend-title, #professional_detail .contact-title, #professional_detail .contact-form__title {
     font-size: 1rem;
     line-height: 1.5rem;
     letter-spacing: 0.005em; }
 
-  .font_body-2, #main .product-specs__item-type, #main .customer-services-item__question span, #main .customer-services-item__answer p, #main .services-content__heading, #main .services-content__desc {
+  .font_body-2, #professional_detail .product-specs__item-type, #professional_detail .customer-services-item__question span, #professional_detail .customer-services-item__answer p, #professional_detail .services-content__heading, #professional_detail .services-content__desc {
     font-size: 0.875rem;
     line-height: 1.25rem;
     letter-spacing: 0.0025em; }
 
-  .font_caption, #main .customer-services-item__rate-text, #main .product-related__item-label, #main .contact-form__detail {
+  .font_caption, #professional_detail .customer-services-item__rate-text, #professional_detail .product-related__item-label, #professional_detail .contact-form__detail {
     font-size: 0.75rem;
     line-height: 1rem;
     letter-spacing: 0.025rem; }
@@ -235,7 +231,7 @@ html {
     line-height: 1rem;
     letter-spacing: 0.0938rem; }
 
-  .font_button, #main .product-link a, #main .product-media__btn a, #main .product-detail__btn a, #main .discover-content__btn a, #main .discover-content__more a, #main .recommend-btn a, #main .product-related__item-head button a, #main .product-related__item-footer span, #main .product-related__item-footer button a, #main .contact-form__submit {
+  .font_button, #professional_detail .product-link a, #professional_detail .product-media__btn a, #professional_detail .product-detail__btn a, #professional_detail .discover-content__btn a, #professional_detail .discover-content__more a, #professional_detail .recommend-btn a, #professional_detail .product-related__item-head button a, #professional_detail .product-related__item-footer span, #professional_detail .product-related__item-footer button a, #professional_detail .contact-form__submit {
     font-size: 0.875rem;
     line-height: 1.25rem;
     letter-spacing: 0.0781rem; } }
@@ -354,42 +350,42 @@ video {
     transform: translateY(100%); }
   to {
     transform: translate(0); } }
-#main .product {
+#professional_detail .product {
   background-color: #f3eee6; }
-  #main .product .container {
+  #professional_detail .product .container {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding: 3.75rem 0; }
-  #main .product-link {
+  #professional_detail .product-link {
     border: none;
     background-color: unset; }
-    #main .product-link a {
+    #professional_detail .product-link a {
       padding: 0.5rem;
       font-weight: 600;
       color: #876c43;
       text-decoration: none; }
-      #main .product-link a:hover {
+      #professional_detail .product-link a:hover {
         text-decoration: underline; }
-  #main .product-wrapper {
+  #professional_detail .product-wrapper {
     display: flex;
     flex-direction: row;
     align-items: center;
     padding: 0rem;
     gap: 1.5rem; }
-  #main .product-media {
+  #professional_detail .product-media {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 0rem;
     gap: 1.5rem; }
-    #main .product-media__image {
+    #professional_detail .product-media__image {
       max-height: 30rem; }
-      #main .product-media__image img {
+      #professional_detail .product-media__image img {
         width: 100%;
         height: 100%;
         object-fit: cover; }
-    #main .product-media__btn {
+    #professional_detail .product-media__btn {
       display: flex;
       flex-direction: row;
       justify-content: center;
@@ -400,23 +396,23 @@ video {
       border-radius: 2.5rem;
       max-height: 3.5rem;
       cursor: pointer; }
-      #main .product-media__btn a {
+      #professional_detail .product-media__btn a {
         text-decoration: none;
         font-weight: 600;
         color: #ffffff;
         text-transform: uppercase;
         transition: 0.3s ease-in-out;
         transition-property: background-color, color, border, box-shadow, text-shadow; }
-      #main .product-media__btn:hover {
+      #professional_detail .product-media__btn:hover {
         background-color: #ffffff;
         border-color: #17171a; }
-        #main .product-media__btn:hover a {
+        #professional_detail .product-media__btn:hover a {
           color: #17171a;
           transition: 0.3s ease-in-out;
           transition-property: background-color, color, border, box-shadow, text-shadow; }
-        #main .product-media__btn:hover svg path {
+        #professional_detail .product-media__btn:hover svg path {
           fill: black; }
-  #main .product-detail {
+  #professional_detail .product-detail {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -425,23 +421,23 @@ video {
     background-color: #ffffff;
     box-shadow: 0rem 0.25rem 0.313rem rgba(0, 0, 0, 0.14);
     max-width: 21.9375rem; }
-    #main .product-detail__heading {
+    #professional_detail .product-detail__heading {
       color: #454547;
       text-align: center;
       font-weight: 500; }
-      #main .product-detail__heading p:first-child {
+      #professional_detail .product-detail__heading p:first-child {
         font-weight: 700; }
-    #main .product-detail__title {
+    #professional_detail .product-detail__title {
       font-weight: 700;
       color: #1b1b1b;
       text-align: center; }
-    #main .product-detail__color {
+    #professional_detail .product-detail__color {
       width: 0.75rem;
       height: 0.75rem;
       border-radius: 50%;
       background-color: #808080;
       border: 0.0625rem solid rgba(0, 0, 0, 0.2); }
-    #main .product-detail__btn {
+    #professional_detail .product-detail__btn {
       padding: 1rem 1.5rem;
       background: #3d8705;
       border-radius: 2.5rem;
@@ -451,21 +447,21 @@ video {
       display: flex;
       justify-content: center;
       align-items: center; }
-      #main .product-detail__btn a {
+      #professional_detail .product-detail__btn a {
         text-align: center;
         text-decoration: none;
         font-weight: 600;
         color: #ffffff;
         text-transform: uppercase; }
-      #main .product-detail__btn:hover {
+      #professional_detail .product-detail__btn:hover {
         background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #3d8705; }
-#main .product-features__list {
+#professional_detail .product-features__list {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   padding: 1.5rem 0;
   width: 100%; }
-#main .product-features__item {
+#professional_detail .product-features__item {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -473,28 +469,28 @@ video {
   gap: 1.25rem;
   width: 100%;
   cursor: pointer; }
-  #main .product-features__item span {
+  #professional_detail .product-features__item span {
     font-weight: 600;
     color: #000000;
     text-align: center; }
-#main .product-specs-wrapper {
+#professional_detail .product-specs-wrapper {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   padding: 3.75rem 0;
   gap: 3.75rem;
   width: 100%; }
-#main .product-specs__heading {
+#professional_detail .product-specs__heading {
   font-weight: 600;
   color: #1b1b1b;
   text-align: center;
   width: 100%; }
-#main .product-specs__list {
+#professional_detail .product-specs__list {
   display: flex;
   flex-direction: row;
   align-items: center;
   width: 100%; }
-#main .product-specs__item {
+#professional_detail .product-specs__item {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -504,31 +500,31 @@ video {
   text-align: center;
   width: 100%;
   cursor: pointer; }
-  #main .product-specs__item-image {
+  #professional_detail .product-specs__item-image {
     max-height: 10.1875rem; }
-    #main .product-specs__item-image img {
+    #professional_detail .product-specs__item-image img {
       width: 100%;
       height: 100%;
       object-fit: cover; }
-  #main .product-specs__item-name {
+  #professional_detail .product-specs__item-name {
     font-weight: 600; }
-  #main .product-specs__item-type {
+  #professional_detail .product-specs__item-type {
     font-weight: 400; }
-#main .product-specs__content {
+#professional_detail .product-specs__content {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   padding: 0rem;
   gap: 1.25rem;
   width: 100%; }
-  #main .product-specs__content h4 {
+  #professional_detail .product-specs__content h4 {
     text-align: start; }
-#main .product-specs__table {
+#professional_detail .product-specs__table {
   column-count: 2;
   column-gap: 1.5rem;
   width: 100%;
   list-style: none; }
-  #main .product-specs__table-item {
+  #professional_detail .product-specs__table-item {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -536,55 +532,55 @@ video {
     gap: 0.5rem;
     max-height: 5.25rem;
     border-bottom: 0.0625rem solid #d5d5d5; }
-  #main .product-specs__table-desc {
+  #professional_detail .product-specs__table-desc {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding: 0rem;
     gap: 0.25rem; }
-    #main .product-specs__table-desc p {
+    #professional_detail .product-specs__table-desc p {
       font-weight: 400;
       color: #000000; }
-#main .discover {
+#professional_detail .discover {
   padding: 3.75rem 0; }
-  #main .discover .container {
+  #professional_detail .discover .container {
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 1.5rem; }
-  #main .discover-image {
+  #professional_detail .discover-image {
     height: 23.75rem;
     position: relative; }
-    #main .discover-image img {
+    #professional_detail .discover-image img {
       height: 100%;
       object-fit: cover; }
-    #main .discover-image svg {
+    #professional_detail .discover-image svg {
       cursor: pointer;
       position: absolute;
       left: calc(50% - 3.75rem / 2);
       top: calc(50% - 3.75rem / 2); }
-  #main .discover-content {
+  #professional_detail .discover-content {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding: 0rem;
     gap: 0.75rem; }
-    #main .discover-content__heading {
+    #professional_detail .discover-content__heading {
       font-weight: 600;
       color: #1b1b1b; }
-    #main .discover-content__desc {
+    #professional_detail .discover-content__desc {
       font-weight: 400;
       color: #000000; }
-    #main .discover-content__btn {
+    #professional_detail .discover-content__btn {
       background-color: unset;
       border: none;
       padding: 0.5rem; }
-      #main .discover-content__btn a {
+      #professional_detail .discover-content__btn a {
         font-weight: 600;
         text-align: center;
         color: #8f7247;
         text-decoration: none; }
-    #main .discover-content__detail {
+    #professional_detail .discover-content__detail {
       display: flex;
       flex-direction: row;
       align-items: flex-start;
@@ -592,7 +588,7 @@ video {
       gap: 0.25rem;
       font-weight: 400;
       color: #000000; }
-    #main .discover-content__more {
+    #professional_detail .discover-content__more {
       display: flex;
       align-items: center;
       justify-content: center;
@@ -601,17 +597,17 @@ video {
       border-radius: 2.5rem;
       max-height: 2.5625rem;
       cursor: pointer; }
-      #main .discover-content__more a {
+      #professional_detail .discover-content__more a {
         text-align: center;
         font-weight: 600;
         color: #ffffff;
         text-decoration: none; }
-      #main .discover-content__more:hover {
+      #professional_detail .discover-content__more:hover {
         background-color: #ffffff;
         border-color: #17171a; }
-        #main .discover-content__more:hover a {
+        #professional_detail .discover-content__more:hover a {
           color: #17171a; }
-#main .tagLine {
+#professional_detail .tagLine {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -619,10 +615,10 @@ video {
   padding: 0.5rem 1rem;
   gap: 0.25rem;
   background-color: #8f7247; }
-  #main .tagLine-text {
+  #professional_detail .tagLine-text {
     font-weight: 400;
     color: #ffffff; }
-  #main .tagLine-btn {
+  #professional_detail .tagLine-btn {
     padding: 0.5rem;
     background-color: unset;
     border: none;
@@ -630,26 +626,26 @@ video {
     display: flex;
     justify-content: center;
     align-items: center; }
-    #main .tagLine-btn a {
+    #professional_detail .tagLine-btn a {
       font-weight: 600;
       color: #ffffff;
       text-decoration: none; }
-#main .recommend {
+#professional_detail .recommend {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 3.75rem 10.625rem;
   gap: 0.875rem;
   background-color: #e6e6e6; }
-  #main .recommend-heading {
+  #professional_detail .recommend-heading {
     font-weight: 600;
     color: #1b1b1b;
     text-align: center; }
-  #main .recommend-title {
+  #professional_detail .recommend-title {
     font-weight: 500;
     color: #1b1b1b;
     text-align: center; }
-  #main .recommend-btn {
+  #professional_detail .recommend-btn {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -658,40 +654,40 @@ video {
     border-radius: 2.5rem;
     max-height: 2.5625rem;
     cursor: pointer; }
-    #main .recommend-btn a {
+    #professional_detail .recommend-btn a {
       text-align: center;
       font-weight: 600;
       color: #ffffff;
       text-decoration: none; }
-    #main .recommend-btn:hover {
+    #professional_detail .recommend-btn:hover {
       background-color: #ffffff;
       border-color: #17171a; }
-      #main .recommend-btn:hover a {
+      #professional_detail .recommend-btn:hover a {
         color: #17171a; }
-#main .customer-services-main {
+#professional_detail .customer-services-main {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   padding: 1.25rem 0;
   gap: 0.75rem;
   width: 100%; }
-#main .customer-services-title {
+#professional_detail .customer-services-title {
   font-weight: 600;
   text-align: center;
   color: #1b1b1b;
   width: 100%; }
-#main .customer-services-list {
+#professional_detail .customer-services-list {
   display: flex;
   flex-direction: column;
   align-items: flex-start; }
-  #main .customer-services-list details[open] summary svg {
+  #professional_detail .customer-services-list details[open] summary svg {
     transform: rotate(45deg); }
-#main .customer-services-item {
+#professional_detail .customer-services-item {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   width: 100%; }
-  #main .customer-services-item__question {
+  #professional_detail .customer-services-item__question {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -700,15 +696,15 @@ video {
     width: 100%;
     cursor: pointer;
     list-style: none; }
-    #main .customer-services-item__question span {
+    #professional_detail .customer-services-item__question span {
       font-weight: 600;
       color: #1b1b1b; }
-  #main .customer-services-item__answer {
+  #professional_detail .customer-services-item__answer {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding: 0rem 0rem 0rem 1.75rem; }
-    #main .customer-services-item__answer p {
+    #professional_detail .customer-services-item__answer p {
       font-weight: 400;
       color: #1b1b1b;
       display: flex;
@@ -718,44 +714,44 @@ video {
       gap: 0.625rem;
       border-bottom: 0.0625rem solid #e6e6e6;
       max-height: 2.75rem; }
-  #main .customer-services-item__rate {
+  #professional_detail .customer-services-item__rate {
     display: flex;
     flex-direction: row;
     align-items: center;
     padding: 0.75rem 0rem;
     gap: 1.125rem; }
-    #main .customer-services-item__rate-icon {
+    #professional_detail .customer-services-item__rate-icon {
       display: flex;
       flex-direction: row;
       align-items: flex-start;
       padding: 0rem;
       gap: 0.375rem; }
-    #main .customer-services-item__rate-text {
+    #professional_detail .customer-services-item__rate-text {
       font-weight: 400;
       color: #454547; }
-#main .image-slider {
+#professional_detail .image-slider {
   margin: 0 auto;
   padding: 3.75rem 0;
   overflow: hidden; }
-  #main .image-slider .image-item {
+  #professional_detail .image-slider .image-item {
     width: 100% !important;
     height: 100%; }
-    #main .image-slider .image-item img {
+    #professional_detail .image-slider .image-item img {
       min-height: 33.5rem;
       object-fit: cover; }
-  #main .image-slider .slick-track {
+  #professional_detail .image-slider .slick-track {
     display: flex !important;
     gap: 1.5rem !important;
     width: 100vw !important; }
-  #main .image-slider .slick-prev:before {
+  #professional_detail .image-slider .slick-prev:before {
     display: flex;
     justify-content: center;
     align-items: center; }
-  #main .image-slider .slick-next:before {
+  #professional_detail .image-slider .slick-next:before {
     display: flex;
     justify-content: center;
     align-items: center; }
-  #main .image-slider .slick-prev {
+  #professional_detail .image-slider .slick-prev {
     position: absolute;
     top: 50%;
     left: 0;
@@ -766,13 +762,13 @@ video {
     border-radius: 50%;
     cursor: pointer;
     border: none; }
-    #main .image-slider .slick-prev:hover {
+    #professional_detail .image-slider .slick-prev:hover {
       color: #17171a;
       border: 1px solid #17171a;
       background-color: #ffffff; }
-      #main .image-slider .slick-prev:hover svg path {
+      #professional_detail .image-slider .slick-prev:hover svg path {
         fill: black; }
-  #main .image-slider .slick-next {
+  #professional_detail .image-slider .slick-next {
     position: absolute;
     top: 50%;
     right: -0.4375rem;
@@ -783,19 +779,19 @@ video {
     border-radius: 50%;
     cursor: pointer;
     border: none; }
-    #main .image-slider .slick-next:hover {
+    #professional_detail .image-slider .slick-next:hover {
       color: #17171a;
       border: 1px solid #17171a;
       background-color: #ffffff; }
-      #main .image-slider .slick-next:hover svg path {
+      #professional_detail .image-slider .slick-next:hover svg path {
         fill: black; }
-  #main .image-slider .slick-dots {
+  #professional_detail .image-slider .slick-dots {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 1.5rem;
     list-style: none; }
-    #main .image-slider .slick-dots li {
+    #professional_detail .image-slider .slick-dots li {
       display: inline-block;
       padding: 1px;
       background-color: #c5c5c5;
@@ -804,56 +800,56 @@ video {
       height: 10px;
       border-radius: 10px;
       cursor: pointer; }
-      #main .image-slider .slick-dots li.slick-active {
+      #professional_detail .image-slider .slick-dots li.slick-active {
         background: #17171a; }
-    #main .image-slider .slick-dots button {
+    #professional_detail .image-slider .slick-dots button {
       display: none; }
-#main .services {
+#professional_detail .services {
   background-color: #e6e6e6; }
-  #main .services-main {
+  #professional_detail .services-main {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     padding: 3.75rem 0;
     gap: 1.5rem; }
-  #main .services-item {
+  #professional_detail .services-item {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 0rem;
     gap: 1rem;
     width: 100%; }
-  #main .services-content {
+  #professional_detail .services-content {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 0rem;
     gap: 0.25rem; }
-    #main .services-content__heading {
+    #professional_detail .services-content__heading {
       font-weight: 700;
       color: #000000;
       text-align: center; }
-    #main .services-content__desc {
+    #professional_detail .services-content__desc {
       font-weight: 400;
       color: #454547;
       text-align: center; }
-#main .product-related-main {
+#professional_detail .product-related-main {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   padding: 3.75rem 0;
   gap: 1.5rem; }
-#main .product-related__heading {
+#professional_detail .product-related__heading {
   font-weight: 600;
   color: #1b1b1b; }
-#main .product-related__list {
+#professional_detail .product-related__list {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   padding: 0rem;
   gap: 1.5rem;
   width: 100%; }
-#main .product-related__item {
+#professional_detail .product-related__item {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -865,7 +861,7 @@ video {
   width: 100%;
   justify-content: space-between;
   min-height: 18rem; }
-  #main .product-related__item-label {
+  #professional_detail .product-related__item-label {
     position: absolute;
     top: 0;
     left: 0;
@@ -874,15 +870,15 @@ video {
     font-weight: 500;
     color: #ffffff;
     text-align: center; }
-  #main .product-related__item-head {
+  #professional_detail .product-related__item-head {
     display: flex;
     flex-direction: column;
     align-items: center; }
-    #main .product-related__item-head h5 {
+    #professional_detail .product-related__item-head h5 {
       font-weight: 600;
       color: #000000;
       text-align: center; }
-    #main .product-related__item-head button {
+    #professional_detail .product-related__item-head button {
       background-color: unset;
       border: none;
       height: 1.5625rem;
@@ -892,63 +888,63 @@ video {
       align-items: center;
       padding: 0.5rem;
       cursor: pointer; }
-      #main .product-related__item-head button a {
+      #professional_detail .product-related__item-head button a {
         font-weight: 600;
         text-decoration: none;
         color: #876c43;
         text-align: center; }
-  #main .product-related__item-footer {
+  #professional_detail .product-related__item-footer {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 0rem;
     gap: 0.75rem;
     width: 100%; }
-    #main .product-related__item-footer--discount {
+    #professional_detail .product-related__item-footer--discount {
       text-decoration-line: line-through;
       color: #6f6f70 !important;
       max-height: 0.5625rem; }
-    #main .product-related__item-footer span {
+    #professional_detail .product-related__item-footer span {
       font-weight: 600;
       text-align: center;
       color: #3d8705;
       max-height: 0.5625rem; }
-    #main .product-related__item-footer button a {
+    #professional_detail .product-related__item-footer button a {
       font-weight: 600;
       text-decoration: none;
       color: #ffffff;
       text-align: center; }
-    #main .product-related__item-footer button:hover {
+    #professional_detail .product-related__item-footer button:hover {
       background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #3d8705; }
-#main .contact {
+#professional_detail .contact {
   background: #e6e6e6;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 3.75rem 22.3125rem;
   gap: 1.25rem; }
-  #main .contact-heading {
+  #professional_detail .contact-heading {
     font-weight: 600;
     color: #1b1b1b;
     text-align: center; }
-  #main .contact-title {
+  #professional_detail .contact-title {
     font-weight: 500;
     color: #1b1b1b;
     text-align: center; }
-  #main .contact-form {
+  #professional_detail .contact-form {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding: 0rem;
     gap: 1.25rem;
     width: 100%; }
-    #main .contact-form__title {
+    #professional_detail .contact-form__title {
       background-color: #6f6f70;
       padding: 1rem 0.75rem;
       width: 100%;
       font-weight: 500;
       color: #ffffff; }
-    #main .contact-form__content {
+    #professional_detail .contact-form__content {
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -956,26 +952,26 @@ video {
       padding: 0rem;
       gap: 0.25rem;
       width: 100%; }
-      #main .contact-form__content label {
+      #professional_detail .contact-form__content label {
         font-weight: 500;
         color: #000000; }
-      #main .contact-form__content input,
-      #main .contact-form__content select {
+      #professional_detail .contact-form__content input,
+      #professional_detail .contact-form__content select {
         height: 2.75rem; }
-      #main .contact-form__content input,
-      #main .contact-form__content select,
-      #main .contact-form__content textarea {
+      #professional_detail .contact-form__content input,
+      #professional_detail .contact-form__content select,
+      #professional_detail .contact-form__content textarea {
         resize: vertical;
         padding: 0.75rem;
         background-color: #ffffff;
         width: 100%;
         border: none;
         border-radius: 0.25rem; }
-    #main .contact-form__detail {
+    #professional_detail .contact-form__detail {
       padding: 1rem 0.75rem;
       font-weight: 400;
       color: #1b1b1b; }
-    #main .contact-form__submit {
+    #professional_detail .contact-form__submit {
       width: 10.3125rem;
       margin: auto;
       text-align: center;
@@ -987,105 +983,105 @@ video {
       text-transform: uppercase;
       font-weight: 600;
       cursor: pointer; }
-      #main .contact-form__submit:hover {
+      #professional_detail .contact-form__submit:hover {
         background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #3d8705; }
 
 /* Mobile: width < 768px */
 @media only screen and (max-width: 47.938em) {
-  #main {
+  #professional_detail {
     margin-top: 3.125rem; }
-    #main .container {
+    #professional_detail .container {
       padding: 0 1rem; }
-    #main .product .container {
+    #professional_detail .product .container {
       padding: 1.25rem 0; }
-    #main .product-wrapper {
+    #professional_detail .product-wrapper {
       flex-direction: column; }
-    #main .product-media__btn {
+    #professional_detail .product-media__btn {
       width: 60%; }
-    #main .product-detail__btn {
+    #professional_detail .product-detail__btn {
       width: 100%; }
-    #main .product-features__list {
+    #professional_detail .product-features__list {
       flex-direction: column;
       gap: 1.25rem; }
-    #main .product-specs-wrapper {
+    #professional_detail .product-specs-wrapper {
       gap: 1.25rem; }
-    #main .product-specs__list {
+    #professional_detail .product-specs__list {
       flex-direction: column; }
-    #main .product-specs__content {
+    #professional_detail .product-specs__content {
       margin: 0 1rem; }
-    #main .product-specs__table {
+    #professional_detail .product-specs__table {
       column-count: 1; }
-    #main .product-related__list {
+    #professional_detail .product-related__list {
       flex-direction: column; }
-    #main .tagLine {
+    #professional_detail .tagLine {
       flex-direction: column; }
-    #main .slide .mySlides img {
+    #professional_detail .slide .mySlides img {
       width: 100%;
       height: 100%; }
-    #main .slide .next {
+    #professional_detail .slide .next {
       display: none !important; }
-    #main .discover .context-left {
+    #professional_detail .discover .context-left {
       flex-direction: column-reverse; }
-    #main .discover .context-right {
+    #professional_detail .discover .context-right {
       flex-direction: column; }
-    #main .discover-image img {
+    #professional_detail .discover-image img {
       width: 100%; }
-    #main .discover-content__more {
+    #professional_detail .discover-content__more {
       width: 100%; }
-    #main .recommend {
+    #professional_detail .recommend {
       padding: 1.25rem 1rem;
       margin-bottom: 2rem; }
-      #main .recommend-btn {
+      #professional_detail .recommend-btn {
         width: 100%; }
-    #main .services {
+    #professional_detail .services {
       margin-bottom: 2rem; }
-      #main .services-main {
+      #professional_detail .services-main {
         padding: 1.25rem 1rem;
         flex-wrap: wrap; }
-    #main .customer-services-item__answer p {
+    #professional_detail .customer-services-item__answer p {
       max-height: unset; }
-    #main .slide .mySlides {
+    #professional_detail .slide .mySlides {
       height: 100%; }
-    #main .product-related {
+    #professional_detail .product-related {
       text-align: center; }
-      #main .product-related__item button {
+      #professional_detail .product-related__item button {
         width: 100%; }
-    #main .contact {
+    #professional_detail .contact {
       padding: 1.25rem; }
-      #main .contact-form__submit {
+      #professional_detail .contact-form__submit {
         width: 100%; } }
 /* Tablet: width >= 768px and width < 1024px */
 @media only screen and (min-width: 48rem) and (max-width: 63.938rem) {
-  #main {
+  #professional_detail {
     margin-top: 3.125rem; }
-    #main .container {
+    #professional_detail .container {
       padding: 0 1rem; }
-    #main .product .container {
+    #professional_detail .product .container {
       padding: 1.25rem 1rem; }
-    #main .product-features {
+    #professional_detail .product-features {
       margin-top: 2.5rem;
       margin-bottom: 2.5rem; }
-    #main .product-specs .container {
+    #professional_detail .product-specs .container {
       gap: 1.5rem; }
-    #main .product-specs__table {
+    #professional_detail .product-specs__table {
       column-count: 1; }
-    #main .discover .context-left {
+    #professional_detail .discover .context-left {
       flex-direction: column-reverse; }
-    #main .discover .context-right {
+    #professional_detail .discover .context-right {
       flex-direction: column; }
-    #main .discover-image {
+    #professional_detail .discover-image {
       width: 100%; }
-      #main .discover-image img {
+      #professional_detail .discover-image img {
         width: 100%; }
-    #main .customer-services-main {
+    #professional_detail .customer-services-main {
       margin-top: 3.75rem; }
-    #main .slide .mySlides {
+    #professional_detail .slide .mySlides {
       height: 100%; }
-    #main .services-main {
+    #professional_detail .services-main {
       padding-top: 1.5rem;
       padding-bottom: 1.5rem; }
-    #main .product-related {
+    #professional_detail .product-related {
       margin-top: 2.5rem; }
-    #main .contact {
+    #professional_detail .contact {
       margin-top: 2.5rem;
       padding: 1.25rem; } }

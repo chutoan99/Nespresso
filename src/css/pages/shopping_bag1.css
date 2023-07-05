@@ -55,20 +55,20 @@ html {
   line-height: 2.5rem;
   letter-spacing: 0.0025em; }
 
-.font_heading-5, #shopping_bag #shopping .shopping .product-title {
+.font_heading-5, #shopping_step_1 .shopping .product-title {
   font-family: "Nespresso Lucas", Helvetica, Trebuchet, Arial, sans-serif;
   font-style: normal;
   font-size: 1.25rem;
   line-height: 2rem; }
 
-.font_heading-6, #shopping_bag #shopping .shopping .shopping_content-footer-item:first-child {
+.font_heading-6, #shopping_step_1 .shopping .shopping_content-footer-item:first-child {
   font-family: "Nespresso Lucas", Helvetica, Trebuchet, Arial, sans-serif;
   font-style: normal;
   font-size: 1.125rem;
   line-height: 1.5rem;
   letter-spacing: 0.0015em; }
 
-.font_subtitle-1, #shopping_bag #shopping .shopping .product-name {
+.font_subtitle-1, #shopping_step_1 .shopping .product-name {
   font-family: "Nespresso Lucas", Helvetica, Trebuchet, Arial, sans-serif;
   font-style: normal;
   font-size: 1rem;
@@ -82,21 +82,21 @@ html {
   line-height: 1.25rem;
   letter-spacing: 0.01em; }
 
-.font_body-1, #shopping_bag #shopping .shopping_label span {
+.font_body-1, #shopping_step_1 .shopping_label span {
   font-family: "Nespresso Lucas", Helvetica, Trebuchet, Arial, sans-serif;
   font-style: normal;
   font-size: 1rem;
   line-height: 1.5rem;
   letter-spacing: 0.005em; }
 
-.font_body-2, #shopping_bag #shopping .shopping .shopping_content-label, #shopping_bag #shopping .shopping .shopping_content-body-item .item_info-name, #shopping_bag #shopping .shopping .shopping_content-body-item .item_price, #shopping_bag #shopping .shopping .shopping_content-body-item .item_quantity span, #shopping_bag #shopping .shopping .shopping_content-body-item .item_total, #shopping_bag #shopping .shopping .product-price {
+.font_body-2, #shopping_step_1 .shopping .shopping_content-label, #shopping_step_1 .shopping .shopping_content-body-item .item_info-name, #shopping_step_1 .shopping .shopping_content-body-item .item_price, #shopping_step_1 .shopping .shopping_content-body-item .item_quantity span, #shopping_step_1 .shopping .shopping_content-body-item .item_total, #shopping_step_1 .shopping .product-price {
   font-family: "Nespresso Lucas", Helvetica, Trebuchet, Arial, sans-serif;
   font-style: normal;
   font-size: 0.875rem;
   line-height: 1.25rem;
   letter-spacing: 0.0025em; }
 
-.font_caption, #shopping_bag #shopping .shopping .shopping_content-header-item, #shopping_bag #shopping .shopping .shopping_content-body-item .item, #shopping_bag #shopping .shopping .shopping_content-wrapper-heading, #shopping_bag #shopping .shopping .shopping_content-wrapper-item span, #shopping_bag #shopping .shopping .shopping_content-wrapper-item label {
+.font_caption, #shopping_step_1 .shopping .shopping_content-header-item, #shopping_step_1 .shopping .shopping_content-body-item .item, #shopping_step_1 .shopping .shopping_content-wrapper-heading, #shopping_step_1 .shopping .shopping_content-wrapper-item span, #shopping_step_1 .shopping .shopping_content-wrapper-item label {
   font-family: "Nespresso Lucas", Helvetica, Trebuchet, Arial, sans-serif;
   font-style: normal;
   font-size: 0.75rem;
@@ -110,7 +110,7 @@ html {
   line-height: 1rem;
   letter-spacing: 0.0938rem; }
 
-.font_button, #shopping_bag #shopping .shopping_back a, #shopping_bag #shopping .shopping_button button a, #shopping_bag #shopping .shopping .shopping_content-footer-item:last-child {
+.font_button, #shopping_step_1 .shopping_back a, #shopping_step_1 .shopping_button button a, #shopping_step_1 .shopping .shopping_content-footer-item:last-child {
   font-family: "Nespresso Lucas", Helvetica, Trebuchet, Arial, sans-serif;
   font-style: normal;
   font-size: 0.875rem;
@@ -128,7 +128,7 @@ html {
   border-radius: 2.5rem;
   border: none;
   cursor: pointer;
-  color: #FFFFFF;
+  color: #ffffff;
   text-transform: uppercase; }
 
 @media screen {
@@ -163,11 +163,7 @@ html {
     display: none !important; }
 
   .show_on-tab {
-    display: block !important; }
-
-  body {
-    font-size: calc( 10px + (96 - 10) * ((100vw - 1024) / (1440 - 1024)) ) !important;
-    line-height: calc( 10px + (96 - 10) * ((100vw - 1024) / (1440 - 1024)) ) !important; } }
+    display: block !important; } }
 /* Mobile: width < 768px */
 @media only screen and (max-width: 48rem) {
   .hide_on-mobile {
@@ -196,16 +192,16 @@ html {
     line-height: 2.5rem;
     letter-spacing: 0.0025em; }
 
-  .font_heading-5, #shopping_bag #shopping .shopping .product-title {
+  .font_heading-5, #shopping_step_1 .shopping .product-title {
     font-size: 1.25rem;
     line-height: 2rem; }
 
-  .font_heading-6, #shopping_bag #shopping .shopping .shopping_content-footer-item:first-child {
+  .font_heading-6, #shopping_step_1 .shopping .shopping_content-footer-item:first-child {
     font-size: 1rem;
     line-height: 1.5rem;
     letter-spacing: 0.0015em; }
 
-  .font_subtitle-1, #shopping_bag #shopping .shopping .product-name {
+  .font_subtitle-1, #shopping_step_1 .shopping .product-name {
     font-size: 1rem;
     line-height: 1.25rem;
     letter-spacing: 0.0125em; }
@@ -215,17 +211,17 @@ html {
     line-height: 1.25rem;
     letter-spacing: 0.01em; }
 
-  .font_body-1, #shopping_bag #shopping .shopping_label span {
+  .font_body-1, #shopping_step_1 .shopping_label span {
     font-size: 1rem;
     line-height: 1.5rem;
     letter-spacing: 0.005em; }
 
-  .font_body-2, #shopping_bag #shopping .shopping .shopping_content-label, #shopping_bag #shopping .shopping .shopping_content-body-item .item_info-name, #shopping_bag #shopping .shopping .shopping_content-body-item .item_price, #shopping_bag #shopping .shopping .shopping_content-body-item .item_quantity span, #shopping_bag #shopping .shopping .shopping_content-body-item .item_total, #shopping_bag #shopping .shopping .product-price {
+  .font_body-2, #shopping_step_1 .shopping .shopping_content-label, #shopping_step_1 .shopping .shopping_content-body-item .item_info-name, #shopping_step_1 .shopping .shopping_content-body-item .item_price, #shopping_step_1 .shopping .shopping_content-body-item .item_quantity span, #shopping_step_1 .shopping .shopping_content-body-item .item_total, #shopping_step_1 .shopping .product-price {
     font-size: 0.875rem;
     line-height: 1.25rem;
     letter-spacing: 0.0025em; }
 
-  .font_caption, #shopping_bag #shopping .shopping .shopping_content-header-item, #shopping_bag #shopping .shopping .shopping_content-body-item .item, #shopping_bag #shopping .shopping .shopping_content-wrapper-heading, #shopping_bag #shopping .shopping .shopping_content-wrapper-item span, #shopping_bag #shopping .shopping .shopping_content-wrapper-item label {
+  .font_caption, #shopping_step_1 .shopping .shopping_content-header-item, #shopping_step_1 .shopping .shopping_content-body-item .item, #shopping_step_1 .shopping .shopping_content-wrapper-heading, #shopping_step_1 .shopping .shopping_content-wrapper-item span, #shopping_step_1 .shopping .shopping_content-wrapper-item label {
     font-size: 0.75rem;
     line-height: 1rem;
     letter-spacing: 0.025rem; }
@@ -235,7 +231,7 @@ html {
     line-height: 1rem;
     letter-spacing: 0.0938rem; }
 
-  .font_button, #shopping_bag #shopping .shopping_back a, #shopping_bag #shopping .shopping_button button a, #shopping_bag #shopping .shopping .shopping_content-footer-item:last-child {
+  .font_button, #shopping_step_1 .shopping_back a, #shopping_step_1 .shopping_button button a, #shopping_step_1 .shopping .shopping_content-footer-item:last-child {
     font-size: 0.875rem;
     line-height: 1.25rem;
     letter-spacing: 0.0781rem; } }
@@ -354,16 +350,16 @@ video {
     transform: translateY(100%); }
   to {
     transform: translate(0); } }
-#shopping_bag #shopping {
+#shopping_step_1 {
   margin-top: 0.75rem;
   margin-bottom: 3.125rem; }
-  #shopping_bag #shopping .shopping {
+  #shopping_step_1 .shopping {
     height: 100%;
     width: 100%;
     display: grid;
     grid-template-columns: 9fr 3fr;
     column-gap: 1.5rem; }
-    #shopping_bag #shopping .shopping_label {
+    #shopping_step_1 .shopping_label {
       display: flex;
       flex-direction: row;
       justify-content: center;
@@ -373,11 +369,11 @@ video {
       width: 100%;
       background: #f3eee6;
       gap: 0.75rem; }
-      #shopping_bag #shopping .shopping_label span {
+      #shopping_step_1 .shopping_label span {
         font-weight: 500;
         display: inline-block;
         color: #17171a; }
-    #shopping_bag #shopping .shopping_back {
+    #shopping_step_1 .shopping_back {
       margin-top: 0.75rem;
       margin-bottom: 0.75rem;
       padding: 0.5rem;
@@ -387,21 +383,21 @@ video {
       gap: 0.5rem;
       height: 100%;
       cursor: pointer; }
-      #shopping_bag #shopping .shopping_back:hover {
+      #shopping_step_1 .shopping_back:hover {
         cursor: pointer;
         opacity: 0.5;
         transition: 0.3s; }
-      #shopping_bag #shopping .shopping_back a {
+      #shopping_step_1 .shopping_back a {
         text-decoration: none;
         font-weight: 600;
         color: #8f7247; }
-    #shopping_bag #shopping .shopping_button {
+    #shopping_step_1 .shopping_button {
       margin-top: 0.75rem;
       margin-bottom: 0.75rem;
       display: flex;
       justify-content: end;
       width: 100%; }
-      #shopping_bag #shopping .shopping_button button {
+      #shopping_step_1 .shopping_button button {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -412,28 +408,28 @@ video {
         border-radius: 2.5rem;
         padding: 1rem 1.5rem;
         text-transform: uppercase; }
-        #shopping_bag #shopping .shopping_button button:hover {
+        #shopping_step_1 .shopping_button button:hover {
           background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #3d8705; }
-        #shopping_bag #shopping .shopping_button button a {
+        #shopping_step_1 .shopping_button button a {
           text-decoration: none;
           margin-right: 1rem;
           font-weight: 600;
           color: #ffffff; }
-    #shopping_bag #shopping .shopping .shopping_content {
+    #shopping_step_1 .shopping .shopping_content {
       margin-top: 0.75rem; }
-      #shopping_bag #shopping .shopping .shopping_content-label {
+      #shopping_step_1 .shopping .shopping_content-label {
         padding: 1rem;
         background: #c5c5c5;
         font-weight: 700;
         color: #17171a; }
-      #shopping_bag #shopping .shopping .shopping_content-header {
+      #shopping_step_1 .shopping .shopping_content-header {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: 1fr;
         height: 100%;
         height: 2.5rem;
         background: #d5d5d5; }
-        #shopping_bag #shopping .shopping .shopping_content-header-item {
+        #shopping_step_1 .shopping .shopping_content-header-item {
           display: flex;
           justify-content: center;
           align-items: center;
@@ -442,54 +438,54 @@ video {
           height: 100%;
           font-weight: 700;
           color: #17171a; }
-          #shopping_bag #shopping .shopping .shopping_content-header-item:first-child {
+          #shopping_step_1 .shopping .shopping_content-header-item:first-child {
             display: inline-block;
             text-align: center; }
-      #shopping_bag #shopping .shopping .shopping_content-body {
+      #shopping_step_1 .shopping .shopping_content-body {
         height: 5rem;
         border-bottom: 0.0625rem solid #e6e6e6; }
-        #shopping_bag #shopping .shopping .shopping_content-body-item {
+        #shopping_step_1 .shopping .shopping_content-body-item {
           display: grid;
           grid-template-columns: repeat(4, 1fr);
           grid-template-rows: 1fr;
           height: 100%; }
-          #shopping_bag #shopping .shopping .shopping_content-body-item .item {
+          #shopping_step_1 .shopping .shopping_content-body-item .item {
             padding: 0.75rem 1rem;
             font-weight: 700;
             color: #17171a; }
-            #shopping_bag #shopping .shopping .shopping_content-body-item .item_info {
+            #shopping_step_1 .shopping .shopping_content-body-item .item_info {
               display: flex;
               align-items: center;
               gap: 1rem;
               height: 100%;
               width: 100%;
               padding-left: 0.75rem; }
-              #shopping_bag #shopping .shopping .shopping_content-body-item .item_info-img {
+              #shopping_step_1 .shopping .shopping_content-body-item .item_info-img {
                 width: 3.5rem;
                 height: 3.5rem; }
-                #shopping_bag #shopping .shopping .shopping_content-body-item .item_info-img img {
+                #shopping_step_1 .shopping .shopping_content-body-item .item_info-img img {
                   width: 100%;
                   height: 100%; }
-                #shopping_bag #shopping .shopping .shopping_content-body-item .item_info-img:hover {
+                #shopping_step_1 .shopping .shopping_content-body-item .item_info-img:hover {
                   cursor: pointer;
                   opacity: 0.5;
                   transition: 0.3s; }
-              #shopping_bag #shopping .shopping .shopping_content-body-item .item_info-name {
+              #shopping_step_1 .shopping .shopping_content-body-item .item_info-name {
                 padding: 0.75rem 1rem;
                 font-weight: 700;
                 color: #17171a; }
-            #shopping_bag #shopping .shopping .shopping_content-body-item .item_price {
+            #shopping_step_1 .shopping .shopping_content-body-item .item_price {
               display: flex;
               justify-content: center;
               align-items: center;
               padding: 0.75rem 1rem;
               font-weight: 400;
               color: #876c43; }
-            #shopping_bag #shopping .shopping .shopping_content-body-item .item_quantity {
+            #shopping_step_1 .shopping .shopping_content-body-item .item_quantity {
               display: flex;
               justify-content: center;
               align-items: center; }
-              #shopping_bag #shopping .shopping .shopping_content-body-item .item_quantity span {
+              #shopping_step_1 .shopping .shopping_content-body-item .item_quantity span {
                 display: flex;
                 align-items: center;
                 justify-content: center;
@@ -499,56 +495,56 @@ video {
                 height: 2.5rem;
                 background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #3d8705;
                 border-radius: 0.25rem; }
-            #shopping_bag #shopping .shopping .shopping_content-body-item .item_total {
+            #shopping_step_1 .shopping .shopping_content-body-item .item_total {
               display: flex;
               justify-content: end;
               align-items: center;
               padding: 0.75rem 1rem;
               font-weight: 400;
               color: #876c43; }
-      #shopping_bag #shopping .shopping .shopping_content-wrapper-heading {
+      #shopping_step_1 .shopping .shopping_content-wrapper-heading {
         padding: 1rem;
         background: #ffffff;
         font-weight: 700;
         color: #17171a; }
-      #shopping_bag #shopping .shopping .shopping_content-wrapper-item {
+      #shopping_step_1 .shopping .shopping_content-wrapper-item {
         padding: 0.75rem 1rem;
         height: 3rem;
         width: 100%;
         align-items: center;
         display: flex;
         justify-content: space-between; }
-        #shopping_bag #shopping .shopping .shopping_content-wrapper-item span {
+        #shopping_step_1 .shopping .shopping_content-wrapper-item span {
           font-weight: 400;
           color: #17171a; }
-        #shopping_bag #shopping .shopping .shopping_content-wrapper-item label {
+        #shopping_step_1 .shopping .shopping_content-wrapper-item label {
           font-weight: 700;
           color: #876c43; }
-      #shopping_bag #shopping .shopping .shopping_content-footer {
+      #shopping_step_1 .shopping .shopping_content-footer {
         display: flex;
         justify-content: space-between; }
-        #shopping_bag #shopping .shopping .shopping_content-footer-item {
+        #shopping_step_1 .shopping .shopping_content-footer-item {
           padding: 1rem;
           height: 3.5rem;
           width: 100%; }
-          #shopping_bag #shopping .shopping .shopping_content-footer-item:first-child {
+          #shopping_step_1 .shopping .shopping_content-footer-item:first-child {
             font-weight: 700;
             color: #17171a; }
-          #shopping_bag #shopping .shopping .shopping_content-footer-item:last-child {
+          #shopping_step_1 .shopping .shopping_content-footer-item:last-child {
             text-align: end;
             font-weight: 700;
             color: #876c43; }
-    #shopping_bag #shopping .shopping .product-title {
+    #shopping_step_1 .shopping .product-title {
       font-weight: 600;
       text-transform: uppercase;
       color: #000000;
       border-bottom: 0.0625rem solid #6f6f70; }
-    #shopping_bag #shopping .shopping .product-list {
+    #shopping_step_1 .shopping .product-list {
       margin-top: 0.75rem;
       display: flex;
       flex-direction: column;
       gap: 0.75rem; }
-    #shopping_bag #shopping .shopping .product-item {
+    #shopping_step_1 .shopping .product-item {
       display: flex;
       flex-direction: column;
       padding: 1.5rem 1rem;
@@ -556,21 +552,21 @@ video {
       background: #ffffff;
       box-shadow: 0rem 0.25rem 0.313rem rgba(0, 0, 0, 0.14);
       border-radius: 0.25rem; }
-    #shopping_bag #shopping .shopping .product-image {
+    #shopping_step_1 .shopping .product-image {
       display: flex;
       flex-direction: column;
       align-items: center;
       padding: 0rem 0rem;
       gap: 1rem;
       border-bottom: 0.0625rem solid #d5d5d5; }
-    #shopping_bag #shopping .shopping .product-name {
+    #shopping_step_1 .shopping .product-name {
       color: #1b1b1b;
       font-weight: 600;
       height: 3rem;
       text-align: center;
       display: inline-block;
       width: 100%; }
-    #shopping_bag #shopping .shopping .product-content {
+    #shopping_step_1 .shopping .product-content {
       display: flex;
       height: 3rem;
       flex-direction: row;
@@ -578,12 +574,12 @@ video {
       justify-content: space-between;
       padding: 0rem;
       gap: 1rem; }
-    #shopping_bag #shopping .shopping .product-price {
+    #shopping_step_1 .shopping .product-price {
       font-weight: 600;
       background: linear-gradient(0deg, #3d8705, #3d8705), linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent; }
-    #shopping_bag #shopping .shopping .product-add {
+    #shopping_step_1 .shopping .product-add {
       display: flex;
       justify-content: center;
       align-items: center;
@@ -596,44 +592,41 @@ video {
       position: relative;
       padding: 0.75rem;
       cursor: pointer; }
-      #shopping_bag #shopping .shopping .product-add:hover {
+      #shopping_step_1 .shopping .product-add:hover {
         background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #3d8705; }
 
 /* Tablet: width >= 768px and width < 1024px */
 @media only screen and (min-width: 48rem) and (max-width: 63.938rem) {
-  .shopping_label {
+  #shopping_step_1 .shopping_label {
     margin-left: 1.25rem;
     margin-right: 1.25rem;
     width: unset !important; }
-
-  .shopping_content,
-  .product-title {
+  #shopping_step_1 .shopping_content,
+  #shopping_step_1 .product-title {
     margin-left: 1.25rem;
     margin-right: 1.25rem; }
-
-  #shopping_bag .shopping {
+  #shopping_step_1 .shopping {
     flex-direction: column;
     display: flex !important;
     gap: 1.25rem; }
-  #shopping_bag .shopping_button button {
+  #shopping_step_1 .shopping_button button {
     border-radius: 5px !important; }
-  #shopping_bag .product-list {
+  #shopping_step_1 .product-list {
     padding-left: 1.25rem;
     padding-right: 1.25rem; }
-  #shopping_bag .product-list {
+  #shopping_step_1 .product-list {
     margin-top: 1.25rem !important;
     margin-bottom: 3.125rem !important;
     display: grid !important;
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 1.5rem; }
-    #shopping_bag .product-list .product-item {
+    #shopping_step_1 .product-list .product-item {
       height: 276px; } }
 /* Mobile: width < 768px */
 @media only screen and (max-width: 47.938em) {
-  .shopping_content-header {
+  #shopping_step_1 .shopping_content-header {
     height: 100% !important; }
-
-  .shopping_label {
+  #shopping_step_1 .shopping_label {
     display: flex;
     flex-direction: unset !important;
     margin-left: 0.625rem;
@@ -642,30 +635,28 @@ video {
     padding-right: 0.3125rem !important;
     height: 100% !important;
     width: unset !important; }
-
-  .shopping_content,
-  .product-title {
+  #shopping_step_1 .shopping_content,
+  #shopping_step_1 .product-title {
     margin-left: 0.625rem;
     margin-right: 0.625rem; }
-
-  #shopping_bag .shopping {
+  #shopping_step_1 .shopping {
     flex-direction: column;
     display: flex !important;
     gap: 1.25rem; }
-  #shopping_bag .product-title {
+  #shopping_step_1 .product-title {
     text-align: center; }
-  #shopping_bag .shopping_button button {
+  #shopping_step_1 .shopping_button button {
     border-radius: 5px !important; }
-  #shopping_bag .product-list {
+  #shopping_step_1 .product-list {
     padding-left: 0.625rem;
     padding-right: 0.625rem; }
-  #shopping_bag .product-list {
+  #shopping_step_1 .product-list {
     margin-top: 1.25rem !important;
     margin-bottom: 3.125rem !important;
     display: grid !important;
     grid-template-columns: 1fr 1fr;
     column-gap: 1.5rem; }
-    #shopping_bag .product-list .product-item {
+    #shopping_step_1 .product-list .product-item {
       height: 276px; }
-  #shopping_bag .shopping_button button {
+  #shopping_step_1 .shopping_button button {
     width: 100% !important; } }

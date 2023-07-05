@@ -42,20 +42,20 @@ html {
   line-height: 4.25rem;
   letter-spacing: -0.005em; }
 
-.font_heading-3, .commitment_frame-content-heading, .commitment_frame1-heading, .commitment_frame2-left-heading, .commitment_frame3-heading {
+.font_heading-3, #commitment .commitment_frame-content-heading, #commitment .commitment_frame1-heading, #commitment .commitment_frame2-left-heading, #commitment .commitment_frame3-heading {
   font-family: "Nespresso Lucas", Helvetica, Trebuchet, Arial, sans-serif;
   font-style: normal;
   font-size: 3rem;
   line-height: 3.25rem; }
 
-.font_heading-4, .commitment_frame3-item-heading {
+.font_heading-4, #commitment .commitment_frame3-item-heading {
   font-family: "Nespresso Lucas", Helvetica, Trebuchet, Arial, sans-serif;
   font-style: normal;
   font-size: 2.5rem;
   line-height: 2.5rem;
   letter-spacing: 0.0025em; }
 
-.font_heading-5, .commitment_frame-content-des, .commitment_frame1-des {
+.font_heading-5, #commitment .commitment_frame-content-des, #commitment .commitment_frame1-des {
   font-family: "Nespresso Lucas", Helvetica, Trebuchet, Arial, sans-serif;
   font-style: normal;
   font-size: 1.25rem;
@@ -68,7 +68,7 @@ html {
   line-height: 1.5rem;
   letter-spacing: 0.0015em; }
 
-.font_subtitle-1, #tabs2 .tabs2_heading {
+.font_subtitle-1 {
   font-family: "Nespresso Lucas", Helvetica, Trebuchet, Arial, sans-serif;
   font-style: normal;
   font-size: 1rem;
@@ -82,14 +82,14 @@ html {
   line-height: 1.25rem;
   letter-spacing: 0.01em; }
 
-.font_body-1, .commitment_frame2-left-des, .commitment_frame3-des, .commitment_frame3-item-des {
+.font_body-1, #commitment .commitment_frame2-left-des, #commitment .commitment_frame3-des, #commitment .commitment_frame3-item-des {
   font-family: "Nespresso Lucas", Helvetica, Trebuchet, Arial, sans-serif;
   font-style: normal;
   font-size: 1rem;
   line-height: 1.5rem;
   letter-spacing: 0.005em; }
 
-.font_body-2, #tabs .tabs_heading {
+.font_body-2 {
   font-family: "Nespresso Lucas", Helvetica, Trebuchet, Arial, sans-serif;
   font-style: normal;
   font-size: 0.875rem;
@@ -110,7 +110,7 @@ html {
   line-height: 1rem;
   letter-spacing: 0.0938rem; }
 
-.font_button, .commitment_frame2-left-find, .commitment_frame3-btn button a {
+.font_button, #commitment .commitment_frame2-left-find, #commitment .commitment_frame3-btn button a {
   font-family: "Nespresso Lucas", Helvetica, Trebuchet, Arial, sans-serif;
   font-style: normal;
   font-size: 0.875rem;
@@ -128,7 +128,7 @@ html {
   border-radius: 2.5rem;
   border: none;
   cursor: pointer;
-  color: #FFFFFF;
+  color: #ffffff;
   text-transform: uppercase; }
 
 @media screen {
@@ -163,11 +163,7 @@ html {
     display: none !important; }
 
   .show_on-tab {
-    display: block !important; }
-
-  body {
-    font-size: calc( 10px + (96 - 10) * ((100vw - 1024) / (1440 - 1024)) ) !important;
-    line-height: calc( 10px + (96 - 10) * ((100vw - 1024) / (1440 - 1024)) ) !important; } }
+    display: block !important; } }
 /* Mobile: width < 768px */
 @media only screen and (max-width: 48rem) {
   .hide_on-mobile {
@@ -187,16 +183,16 @@ html {
     line-height: 4.25rem;
     letter-spacing: -0.005em; }
 
-  .font_heading-3, .commitment_frame-content-heading, .commitment_frame1-heading, .commitment_frame2-left-heading, .commitment_frame3-heading {
+  .font_heading-3, #commitment .commitment_frame-content-heading, #commitment .commitment_frame1-heading, #commitment .commitment_frame2-left-heading, #commitment .commitment_frame3-heading {
     font-size: 2.25rem;
     line-height: 3.25rem; }
 
-  .font_heading-4, .commitment_frame3-item-heading {
+  .font_heading-4, #commitment .commitment_frame3-item-heading {
     font-size: 1.75rem;
     line-height: 2.5rem;
     letter-spacing: 0.0025em; }
 
-  .font_heading-5, .commitment_frame-content-des, .commitment_frame1-des {
+  .font_heading-5, #commitment .commitment_frame-content-des, #commitment .commitment_frame1-des {
     font-size: 1.25rem;
     line-height: 2rem; }
 
@@ -205,7 +201,7 @@ html {
     line-height: 1.5rem;
     letter-spacing: 0.0015em; }
 
-  .font_subtitle-1, #tabs2 .tabs2_heading {
+  .font_subtitle-1 {
     font-size: 1rem;
     line-height: 1.25rem;
     letter-spacing: 0.0125em; }
@@ -215,12 +211,12 @@ html {
     line-height: 1.25rem;
     letter-spacing: 0.01em; }
 
-  .font_body-1, .commitment_frame2-left-des, .commitment_frame3-des, .commitment_frame3-item-des {
+  .font_body-1, #commitment .commitment_frame2-left-des, #commitment .commitment_frame3-des, #commitment .commitment_frame3-item-des {
     font-size: 1rem;
     line-height: 1.5rem;
     letter-spacing: 0.005em; }
 
-  .font_body-2, #tabs .tabs_heading {
+  .font_body-2 {
     font-size: 0.875rem;
     line-height: 1.25rem;
     letter-spacing: 0.0025em; }
@@ -235,7 +231,7 @@ html {
     line-height: 1rem;
     letter-spacing: 0.0938rem; }
 
-  .font_button, .commitment_frame2-left-find, .commitment_frame3-btn button a {
+  .font_button, #commitment .commitment_frame2-left-find, #commitment .commitment_frame3-btn button a {
     font-size: 0.875rem;
     line-height: 1.25rem;
     letter-spacing: 0.0781rem; } }
@@ -354,18 +350,15 @@ video {
     transform: translateY(100%); }
   to {
     transform: translate(0); } }
-.background-1 {
+#commitment .background-1 {
   background-image: url("../../assets/images/sustainability&recycling/commitment_1.png"); }
-
-.background-2 {
+#commitment .background-2 {
   background-image: url("../../assets/images/sustainability&recycling/commitment_2.png"); }
-
-.background-3 {
+#commitment .background-3 {
   background-image: url("../../assets/images/sustainability&recycling/commitment_3.png"); }
-
-.background-1,
-.background-2,
-.background-3 {
+#commitment .background-1,
+#commitment .background-2,
+#commitment .background-3 {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -373,53 +366,9 @@ video {
   width: 100%;
   height: 21.875rem;
   position: relative; }
-
-#tabs {
-  padding: 0.75rem 0rem;
-  padding-bottom: unset;
-  height: 5rem; }
-  #tabs .tabs {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 1.5rem; }
-    #tabs .tabs_heading {
-      text-decoration: none;
-      font-weight: 400;
-      text-align: center;
-      padding: 1.125rem 0rem;
-      color: #17171a; }
-  #tabs .tab_active {
-    border-bottom: 0.125rem solid #3d8705; }
-
-#tabs2 {
-  padding: 2.625rem 0rem; }
-  #tabs2 .tabs2 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 1.5rem; }
-    #tabs2 .tabs2 input[type="radio"] {
-      display: none; }
-      #tabs2 .tabs2 input[type="radio"]:checked + label {
-        border-bottom: 0.125rem solid #3d8705;
-        transition: 0.5s; }
-        #tabs2 .tabs2 input[type="radio"]:checked + label + .tab2 {
-          display: block; }
-    #tabs2 .tabs2_heading {
-      font-weight: 400;
-      text-align: center;
-      padding: 1.125rem 0rem;
-      color: #17171a; }
-    #tabs2 .tabs2 .tab2 {
-      width: 100%;
-      background: #ffffff;
-      order: 1;
-      display: none; }
-
-.commitment {
+#commitment .commitment {
   width: 100%; }
-  .commitment_frame-content {
+  #commitment .commitment_frame-content {
     height: 100%;
     display: flex;
     justify-content: center;
@@ -428,39 +377,39 @@ video {
     gap: 0.75rem;
     text-align: center;
     color: #ffffff; }
-    .commitment_frame-content-heading {
+    #commitment .commitment_frame-content-heading {
       margin-bottom: unset;
       font-weight: 600; }
-    .commitment_frame-content-des {
+    #commitment .commitment_frame-content-des {
       margin-bottom: unset;
       font-weight: 400; }
-  .commitment_frame1 {
+  #commitment .commitment_frame1 {
     padding: 2rem 0;
     text-align: center;
     color: #000000; }
-    .commitment_frame1-heading {
+    #commitment .commitment_frame1-heading {
       font-weight: 600;
       margin-bottom: unset; }
-    .commitment_frame1-des {
+    #commitment .commitment_frame1-des {
       margin-top: 1.25rem;
       margin-bottom: unset;
       font-weight: 400; }
-  .commitment_frame2 {
+  #commitment .commitment_frame2 {
     padding: 2rem 0;
     display: grid;
     grid-template-columns: 5fr 7fr;
     column-gap: 1.5rem; }
-    .commitment_frame2-left-heading {
+    #commitment .commitment_frame2-left-heading {
       margin-bottom: unset;
       font-weight: 600;
       align-items: center;
       color: #17171a; }
-    .commitment_frame2-left-des {
+    #commitment .commitment_frame2-left-des {
       margin-bottom: unset;
       margin-top: 1rem;
       font-weight: 400;
       color: #17171a; }
-    .commitment_frame2-left-find {
+    #commitment .commitment_frame2-left-find {
       width: 100%;
       display: inline-block;
       margin-bottom: unset;
@@ -470,38 +419,38 @@ video {
       letter-spacing: 0.0781rem;
       color: #8f7247;
       cursor: pointer; }
-      .commitment_frame2-left-find:hover {
+      #commitment .commitment_frame2-left-find:hover {
         color: #655032;
         text-decoration: underline; }
-    .commitment_frame2-right {
+    #commitment .commitment_frame2-right {
       width: 100%;
       height: 100%; }
-      .commitment_frame2-right img {
+      #commitment .commitment_frame2-right img {
         width: 100%;
         height: 100%; }
-  .commitment_frame3 {
+  #commitment .commitment_frame3 {
     padding: 2.5rem 0;
     padding-top: 3rem;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 1.5rem; }
-    .commitment_frame3-heading {
+    #commitment .commitment_frame3-heading {
       margin-top: 2.5rem;
       margin-bottom: unset;
       font-weight: 600;
       text-align: center;
       color: #17171a; }
-    .commitment_frame3-des {
+    #commitment .commitment_frame3-des {
       margin-bottom: unset;
       margin-top: 1rem;
       font-weight: 400;
       text-align: center;
       color: #17171a; }
-    .commitment_frame3-btn {
+    #commitment .commitment_frame3-btn {
       margin-top: 1rem;
       display: flex;
       justify-content: center; }
-      .commitment_frame3-btn button {
+      #commitment .commitment_frame3-btn button {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -511,33 +460,33 @@ video {
         background: #3d8705;
         border-radius: 2.5rem;
         border: unset; }
-        .commitment_frame3-btn button a {
+        #commitment .commitment_frame3-btn button a {
           color: #ffffff;
           text-decoration: none; }
-        .commitment_frame3-btn button img {
+        #commitment .commitment_frame3-btn button img {
           width: 1.5rem;
           height: 1.5rem; }
-        .commitment_frame3-btn button:hover {
+        #commitment .commitment_frame3-btn button:hover {
           transition: 0.3s;
           cursor: pointer;
           background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #3d8705; }
-    .commitment_frame3-item {
+    #commitment .commitment_frame3-item {
       position: relative;
       height: 25rem; }
-      .commitment_frame3-item-heading {
+      #commitment .commitment_frame3-item-heading {
         margin-bottom: unset;
         font-weight: 400;
         color: #000000;
         text-align: center;
         height: 5rem;
         max-height: 11.25rem; }
-      .commitment_frame3-item-des {
+      #commitment .commitment_frame3-item-des {
         margin-top: 1.25rem;
         margin-bottom: unset;
         font-weight: 400;
         color: #000000;
         text-align: center; }
-      .commitment_frame3-item-img {
+      #commitment .commitment_frame3-item-img {
         position: absolute;
         bottom: 0;
         left: 0;
@@ -545,7 +494,7 @@ video {
         content: "";
         width: 100%;
         height: 14.5rem; }
-        .commitment_frame3-item-img img {
+        #commitment .commitment_frame3-item-img img {
           background-position: center;
           object-fit: cover;
           width: 100%;
@@ -553,155 +502,96 @@ video {
 
 /* Tablet: width >= 768px and width < 1024px */
 @media only screen and (min-width: 48rem) and (max-width: 63.938rem) {
-  #tabs {
-    margin-top: 3.125rem;
-    padding: unset !important; }
-
-  .commitment_frame1 {
+  #commitment .commitment_frame1 {
     max-width: 90%;
     margin: auto; }
-
-  .commitment_frame1-heading {
+  #commitment .commitment_frame1-heading {
     margin: 0 auto 1rem; }
-
-  .commitment_frame1-des {
+  #commitment .commitment_frame1-des {
     margin: 12px auto 20px; }
-
-  .commitment_frame2 {
+  #commitment .commitment_frame2 {
     box-sizing: content-box;
     padding: 5rem 1rem;
     max-width: 45.5rem;
     margin: 0 auto; }
-
-  .commitment_frame3-heading {
+  #commitment .commitment_frame3-heading {
     margin: 0 auto 2rem; }
-
-  .commitment_frame3-des {
+  #commitment .commitment_frame3-des {
     margin: 0 auto 2rem; }
-
-  .commitment_frame3-item-des {
+  #commitment .commitment_frame3-item-des {
     margin: 4px; }
-
-  .commitment_frame3-container {
+  #commitment .commitment_frame3-container {
     box-sizing: border-box;
     margin: 0 2rem;
     padding: 2.5rem 1rem 5rem; }
-
-  .commitment_frame3.container {
+  #commitment .commitment_frame3.container {
     padding: 30px; }
-
-  .background-2 {
+  #commitment .background-2 {
     margin-bottom: 5rem; }
-
-  .commitment_frame3-item-heading {
+  #commitment .commitment_frame3-item-heading {
     font-size: 1.575rem;
     margin-bottom: 2rem; }
-
-  .background-3 {
+  #commitment .background-3 {
     margin-bottom: 5rem; } }
 /* Mobile: width < 768px */
 @media only screen and (max-width: 48rem) {
-  #tabs {
-    margin-top: 3.125rem;
-    padding: unset !important; }
-
-  #tabs .tabs {
-    padding-left: 1.25rem;
-    padding-right: 1.25rem;
-    width: 100%;
-    gap: 24px;
-    justify-content: unset !important;
-    display: grid;
-    overflow-x: auto;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    overflow-y: hidden;
-    scroll-snap-type: x mandatory;
-    scrollbar-width: none;
-    -webkit-user-select: none;
-    user-select: none; }
-    #tabs .tabs::-webkit-scrollbar {
-      display: none; }
-
-  #tabs .tabs_heading {
-    width: 100px;
-    text-align: center;
-    display: inline-block;
-    display: grid; }
-
-  .commitment_frame3-btn button {
+  #commitment .commitment_frame3-btn button {
     min-width: unset !important; }
-
-  .commitment_frame3-container {
+  #commitment .commitment_frame3-container {
     margin: 0 10px !important; }
-
-  .commitment_frame1 {
+  #commitment .commitment_frame1 {
     max-width: 90%;
     margin: auto; }
-
-  .commitment_frame1-heading {
+  #commitment .commitment_frame1-heading {
     margin: 0 auto 1rem; }
-
-  .commitment_frame1-des {
+  #commitment .commitment_frame1-des {
     margin: 12px auto 20px; }
-
-  .commitment_frame2 {
+  #commitment .commitment_frame2 {
     box-sizing: content-box;
     padding: 5rem 1rem;
     max-width: 45.5rem;
     margin: 0 auto;
     display: flex;
     flex-direction: column; }
-
-  .commitment_frame2-left {
+  #commitment .commitment_frame2-left {
     margin-bottom: 2rem; }
-
-  .commitment_frame3-heading {
+  #commitment .commitment_frame3-heading {
     margin: 0 auto 2rem; }
-
-  .commitment_frame3-des {
+  #commitment .commitment_frame3-des {
     margin: 0 auto 2rem; }
-
-  .commitment_frame3-item-des {
+  #commitment .commitment_frame3-item-des {
     display: none; }
-
-  .commitment_frame3-container {
+  #commitment .commitment_frame3-container {
     box-sizing: border-box;
     margin: 0 2rem;
     max-width: 45.5rem;
     padding: 4rem 1rem;
     overflow: auto; }
-
-  .commitment_frame3.container {
+  #commitment .commitment_frame3.container {
     padding: 10px;
     display: flex;
     flex-direction: column; }
-
-  .commitment_frame3-item {
+  #commitment .commitment_frame3-item {
     display: flex;
     align-items: baseline;
     flex-direction: row !important;
     justify-content: space-between;
     box-sizing: border-box; }
-
-  .commitment_frame3-item-heading {
+  #commitment .commitment_frame3-item-heading {
     display: flex;
     margin-left: 10px;
     width: 100%;
     justify-content: center; }
-
-  .commitment_frame3-item-img {
+  #commitment .commitment_frame3-item-img {
     display: flex;
     margin-left: 10px;
     width: unset !important; }
-
-  .commitment_frame3-item {
+  #commitment .commitment_frame3-item {
     height: 21rem; }
-
-  .commitment_frame3 {
+  #commitment .commitment_frame3 {
     gap: 3.125rem;
     padding-bottom: 3.25rem !important; }
-
-  .footer_payment-methods-inner {
+  #commitment .footer_payment-methods-inner {
     display: flex;
     flex-direction: column;
     align-items: start !important; } }

@@ -128,7 +128,7 @@ html {
   border-radius: 2.5rem;
   border: none;
   cursor: pointer;
-  color: #FFFFFF;
+  color: #ffffff;
   text-transform: uppercase; }
 
 @media screen {
@@ -163,11 +163,7 @@ html {
     display: none !important; }
 
   .show_on-tab {
-    display: block !important; }
-
-  body {
-    font-size: calc( 10px + (96 - 10) * ((100vw - 1024) / (1440 - 1024)) ) !important;
-    line-height: calc( 10px + (96 - 10) * ((100vw - 1024) / (1440 - 1024)) ) !important; } }
+    display: block !important; } }
 /* Mobile: width < 768px */
 @media only screen and (max-width: 48rem) {
   .hide_on-mobile {
@@ -377,3 +373,16 @@ video {
   #policy .policy-desciption p::before {
     content: "\2022";
     padding: 0 0.3125rem; }
+
+/* Tablet: width >= 768px and width < 1024px */
+@media only screen and (min-width: 48rem) and (max-width: 63.938rem) {
+  #policy .policy-wrapper {
+    margin-top: 3.125rem; }
+  #policy .policy-content {
+    padding: 3.75rem 1.25rem; } }
+/* Mobile: width < 768px */
+@media only screen and (max-width: 47.938em) {
+  #policy .policy-wrapper {
+    margin-top: 3.125rem; }
+  #policy .policy-content {
+    padding: 3.75rem 0.625rem; } }

@@ -42,13 +42,13 @@ html {
   line-height: 4.25rem;
   letter-spacing: -0.005em; }
 
-.font_heading-3, #main .container .intro-heading {
+.font_heading-3, #machines_compare .container .intro-heading {
   font-family: "Nespresso Lucas", Helvetica, Trebuchet, Arial, sans-serif;
   font-style: normal;
   font-size: 3rem;
   line-height: 3.25rem; }
 
-.font_heading-4, #main .product-selection-heading {
+.font_heading-4, #machines_compare .product-selection-heading {
   font-family: "Nespresso Lucas", Helvetica, Trebuchet, Arial, sans-serif;
   font-style: normal;
   font-size: 2.5rem;
@@ -68,7 +68,7 @@ html {
   line-height: 1.5rem;
   letter-spacing: 0.0015em; }
 
-.font_subtitle-1, #main .product-selection-item__name {
+.font_subtitle-1, #machines_compare .product-selection-item__name {
   font-family: "Nespresso Lucas", Helvetica, Trebuchet, Arial, sans-serif;
   font-style: normal;
   font-size: 1rem;
@@ -82,15 +82,15 @@ html {
   line-height: 1.25rem;
   letter-spacing: 0.01em; }
 
-.font_body-1, #main .container .intro-description, #main .product-selection-paragraph li, #main .product-selection-context span,
-#main .product-selection-context p {
+.font_body-1, #machines_compare .container .intro-description, #machines_compare .product-selection-paragraph li, #machines_compare .product-selection-context span,
+#machines_compare .product-selection-context p {
   font-family: "Nespresso Lucas", Helvetica, Trebuchet, Arial, sans-serif;
   font-style: normal;
   font-size: 1rem;
   line-height: 1.5rem;
   letter-spacing: 0.005em; }
 
-.font_body-2, #main .product-filter select, #main .product-card__price {
+.font_body-2, #machines_compare .product-filter select, #machines_compare .product-card__price {
   font-family: "Nespresso Lucas", Helvetica, Trebuchet, Arial, sans-serif;
   font-style: normal;
   font-size: 0.875rem;
@@ -111,7 +111,7 @@ html {
   line-height: 1rem;
   letter-spacing: 0.0938rem; }
 
-.font_button, #main .container .intro-button a, #main .product-selection-item__btn a {
+.font_button, #machines_compare .container .intro-button a, #machines_compare .product-selection-item__btn a {
   font-family: "Nespresso Lucas", Helvetica, Trebuchet, Arial, sans-serif;
   font-style: normal;
   font-size: 0.875rem;
@@ -129,7 +129,7 @@ html {
   border-radius: 2.5rem;
   border: none;
   cursor: pointer;
-  color: #FFFFFF;
+  color: #ffffff;
   text-transform: uppercase; }
 
 @media screen {
@@ -164,11 +164,7 @@ html {
     display: none !important; }
 
   .show_on-tab {
-    display: block !important; }
-
-  body {
-    font-size: calc( 10px + (96 - 10) * ((100vw - 1024) / (1440 - 1024)) ) !important;
-    line-height: calc( 10px + (96 - 10) * ((100vw - 1024) / (1440 - 1024)) ) !important; } }
+    display: block !important; } }
 /* Mobile: width < 768px */
 @media only screen and (max-width: 48rem) {
   .hide_on-mobile {
@@ -188,11 +184,11 @@ html {
     line-height: 4.25rem;
     letter-spacing: -0.005em; }
 
-  .font_heading-3, #main .container .intro-heading {
+  .font_heading-3, #machines_compare .container .intro-heading {
     font-size: 2.25rem;
     line-height: 3.25rem; }
 
-  .font_heading-4, #main .product-selection-heading {
+  .font_heading-4, #machines_compare .product-selection-heading {
     font-size: 1.75rem;
     line-height: 2.5rem;
     letter-spacing: 0.0025em; }
@@ -206,7 +202,7 @@ html {
     line-height: 1.5rem;
     letter-spacing: 0.0015em; }
 
-  .font_subtitle-1, #main .product-selection-item__name {
+  .font_subtitle-1, #machines_compare .product-selection-item__name {
     font-size: 1rem;
     line-height: 1.25rem;
     letter-spacing: 0.0125em; }
@@ -216,13 +212,13 @@ html {
     line-height: 1.25rem;
     letter-spacing: 0.01em; }
 
-  .font_body-1, #main .container .intro-description, #main .product-selection-paragraph li, #main .product-selection-context span,
-  #main .product-selection-context p {
+  .font_body-1, #machines_compare .container .intro-description, #machines_compare .product-selection-paragraph li, #machines_compare .product-selection-context span,
+  #machines_compare .product-selection-context p {
     font-size: 1rem;
     line-height: 1.5rem;
     letter-spacing: 0.005em; }
 
-  .font_body-2, #main .product-filter select, #main .product-card__price {
+  .font_body-2, #machines_compare .product-filter select, #machines_compare .product-card__price {
     font-size: 0.875rem;
     line-height: 1.25rem;
     letter-spacing: 0.0025em; }
@@ -237,7 +233,7 @@ html {
     line-height: 1rem;
     letter-spacing: 0.0938rem; }
 
-  .font_button, #main .container .intro-button a, #main .product-selection-item__btn a {
+  .font_button, #machines_compare .container .intro-button a, #machines_compare .product-selection-item__btn a {
     font-size: 0.875rem;
     line-height: 1.25rem;
     letter-spacing: 0.0781rem; } }
@@ -356,21 +352,21 @@ video {
     transform: translateY(100%); }
   to {
     transform: translate(0); } }
-#main {
+#machines_compare {
   background-color: #ffffff; }
-  #main .container .intro {
+  #machines_compare .container .intro {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 0rem;
     gap: 1rem;
     padding: 3.75rem 0; }
-    #main .container .intro-heading {
+    #machines_compare .container .intro-heading {
       font-weight: 600;
       color: #1b1b1b;
       text-align: center;
       text-transform: uppercase; }
-    #main .container .intro-button {
+    #machines_compare .container .intro-button {
       display: flex;
       flex-direction: row;
       justify-content: center;
@@ -380,23 +376,23 @@ video {
       border: none;
       max-height: 2.5rem;
       border-bottom: 0.0625rem solid #000000; }
-      #main .container .intro-button a {
+      #machines_compare .container .intro-button a {
         font-weight: 600;
         color: #1b1b1b;
         text-align: center;
         text-decoration: none; }
-    #main .container .intro-description {
+    #machines_compare .container .intro-description {
       font-weight: 400;
       color: #1b1b1b;
       text-align: center; }
-  #main .product-filter {
+  #machines_compare .product-filter {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     padding: 1.25rem 1rem;
     gap: 1.5rem; }
-    #main .product-filter__list {
+    #machines_compare .product-filter__list {
       display: flex;
       flex-direction: row;
       align-items: center;
@@ -404,10 +400,10 @@ video {
       gap: 1rem;
       width: 100%;
       border-radius: 0.25rem; }
-    #main .product-filter__select {
+    #machines_compare .product-filter__select {
       position: relative;
       width: 100%; }
-      #main .product-filter__select::after {
+      #machines_compare .product-filter__select::after {
         content: url(../../assets/svgs/arrow.svg);
         top: 0.625rem;
         right: 0.75rem;
@@ -415,20 +411,20 @@ video {
         height: 1.5rem;
         text-align: center;
         position: absolute; }
-    #main .product-filter select {
+    #machines_compare .product-filter select {
       -webkit-appearance: none;
       appearance: none;
       cursor: pointer;
       font-weight: 400; }
-    #main .product-filter select:focus {
+    #machines_compare .product-filter select:focus {
       outline: none; }
-  #main .product-card {
+  #machines_compare .product-card {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     gap: 1.5rem; }
-    #main .product-card__item {
+    #machines_compare .product-card__item {
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -438,17 +434,17 @@ video {
       box-shadow: 0rem 0.25rem 0.313rem rgba(0, 0, 0, 0.14);
       border-radius: 0.25rem;
       width: 100%; }
-    #main .product-card__image {
+    #machines_compare .product-card__image {
       height: 21.5rem; }
-      #main .product-card__image img {
+      #machines_compare .product-card__image img {
         height: 100%;
         object-fit: cover; }
-    #main .product-card__color {
+    #machines_compare .product-card__color {
       display: flex;
       flex-direction: row;
       align-items: flex-start;
       gap: 0.5rem; }
-      #main .product-card__color span {
+      #machines_compare .product-card__color span {
         box-sizing: border-box;
         display: inline-block;
         width: 0.75rem;
@@ -456,19 +452,19 @@ video {
         border: 0.0625rem solid rgba(0, 0, 0, 0.2);
         border-radius: 50%;
         cursor: pointer; }
-      #main .product-card__color--red {
+      #machines_compare .product-card__color--red {
         background: #ff0000; }
-      #main .product-card__color--black {
+      #machines_compare .product-card__color--black {
         background: #000000; }
-      #main .product-card__color--green {
+      #machines_compare .product-card__color--green {
         background: #008000; }
-      #main .product-card__color--brick-red {
+      #machines_compare .product-card__color--brick-red {
         background: #960018; }
-    #main .product-card__price {
+    #machines_compare .product-card__price {
       font-weight: 600;
       text-align: center;
       color: #3d8705; }
-    #main .product-card__btn {
+    #machines_compare .product-card__btn {
       background: #3d8705;
       border: none;
       border-radius: 2.5rem;
@@ -480,56 +476,56 @@ video {
       justify-content: center;
       align-items: center;
       max-height: 2.0625rem; }
-      #main .product-card__btn a {
+      #machines_compare .product-card__btn a {
         color: #ffffff;
         text-decoration: none; }
-      #main .product-card__btn:hover {
+      #machines_compare .product-card__btn:hover {
         background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #3d8705; }
-  #main .product-selection {
+  #machines_compare .product-selection {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 1.5rem;
     padding: 2.5rem 0;
     background: #ffffff; }
-    #main .product-selection-group {
+    #machines_compare .product-selection-group {
       display: flex;
       flex-direction: column;
       align-items: flex-start;
       padding: 1rem 0;
       gap: 0.75rem;
       width: 100%; }
-    #main .product-selection-heading {
+    #machines_compare .product-selection-heading {
       font-weight: 600;
       color: #1b1b1b; }
-    #main .product-selection-list {
+    #machines_compare .product-selection-list {
       display: grid;
       grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
       column-gap: 1.5rem;
       border-top: 0.0625rem solid #6f6f70;
       width: 100%; }
-    #main .product-selection-item {
+    #machines_compare .product-selection-item {
       display: flex;
       flex-direction: column;
       align-items: center;
       padding: 1.5rem 1rem;
       gap: 1rem;
       width: 100%; }
-      #main .product-selection-item__image {
+      #machines_compare .product-selection-item__image {
         width: 6.25rem;
         height: 6.25rem; }
-        #main .product-selection-item__image img {
+        #machines_compare .product-selection-item__image img {
           height: 100%;
           width: 100%;
           object-fit: cover; }
-      #main .product-selection-item__name {
+      #machines_compare .product-selection-item__name {
         font-weight: 600;
         color: #1b1b1b;
         text-align: center;
         padding-bottom: 0.5rem;
         width: 100%;
         border-bottom: 0.0625rem solid #d5d5d5; }
-      #main .product-selection-item__btn {
+      #machines_compare .product-selection-item__btn {
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -539,12 +535,12 @@ video {
         border: unset;
         border-bottom: 0.0625rem solid #1b1b1b;
         height: 3rem; }
-        #main .product-selection-item__btn a {
+        #machines_compare .product-selection-item__btn a {
           text-decoration: none;
           font-weight: 600;
           color: #1b1b1b;
           text-align: center; }
-    #main .product-selection-wrapper {
+    #machines_compare .product-selection-wrapper {
       display: flex;
       flex-direction: row;
       align-items: flex-start;
@@ -552,47 +548,47 @@ video {
       gap: 1.5rem;
       width: 100%;
       border-top: 0.0625rem solid #6f6f70; }
-      #main .product-selection-wrapper > div:first-child,
-      #main .product-selection-wrapper > div:last-child {
+      #machines_compare .product-selection-wrapper > div:first-child,
+      #machines_compare .product-selection-wrapper > div:last-child {
         background-color: #e6e6e6; }
-    #main .product-selection-paragraph {
+    #machines_compare .product-selection-paragraph {
       display: flex;
       flex-direction: column;
       padding: 1rem 3rem;
       gap: 1.25rem;
       width: 100%;
       min-height: 22rem; }
-      #main .product-selection-paragraph li {
+      #machines_compare .product-selection-paragraph li {
         font-weight: 400; }
-    #main .product-selection-list {
+    #machines_compare .product-selection-list {
       display: grid;
       grid-template-columns: repeat(6, 1fr);
       column-gap: 1.5rem;
       border-top: 0.0625rem solid #6f6f70;
       width: 100%;
       background: linear-gradient(90deg, #e6e6e6 33.33%, #ffffff 33.33%, #ffffff 66.67%, #e6e6e6 66.67%); }
-    #main .product-selection-item {
+    #machines_compare .product-selection-item {
       display: flex;
       flex-direction: column;
       align-items: center;
       padding: 1.5rem 1rem;
       gap: 1rem;
       width: 100%; }
-      #main .product-selection-item__image {
+      #machines_compare .product-selection-item__image {
         width: 6.25rem;
         height: 6.25rem; }
-        #main .product-selection-item__image img {
+        #machines_compare .product-selection-item__image img {
           height: 100%;
           width: 100%;
           object-fit: cover; }
-      #main .product-selection-item__name {
+      #machines_compare .product-selection-item__name {
         font-weight: 600;
         color: #1b1b1b;
         text-align: center;
         padding-bottom: 0.5rem;
         width: 100%;
         border-bottom: 0.0625rem solid #d5d5d5; }
-      #main .product-selection-item__btn {
+      #machines_compare .product-selection-item__btn {
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -602,12 +598,12 @@ video {
         border: unset;
         border-bottom: 0.0625rem solid #1b1b1b;
         height: 3rem; }
-        #main .product-selection-item__btn a {
+        #machines_compare .product-selection-item__btn a {
           text-decoration: none;
           font-weight: 600;
           color: #1b1b1b;
           text-align: center; }
-    #main .product-selection-wrapper {
+    #machines_compare .product-selection-wrapper {
       display: flex;
       flex-direction: row;
       align-items: flex-start;
@@ -616,16 +612,16 @@ video {
       width: 100%;
       border-top: 0.0625rem solid #6f6f70;
       background: linear-gradient(90deg, #e6e6e6 33.33%, #ffffff 33.33%, #ffffff 66.67%, #e6e6e6 66.67%); }
-    #main .product-selection-paragraph {
+    #machines_compare .product-selection-paragraph {
       display: flex;
       flex-direction: column;
       padding: 1rem 3rem;
       gap: 1.25rem;
       width: 100%;
       min-height: 22rem; }
-      #main .product-selection-paragraph li {
+      #machines_compare .product-selection-paragraph li {
         font-weight: 400; }
-    #main .product-selection-context {
+    #machines_compare .product-selection-context {
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -633,33 +629,33 @@ video {
       padding: 1rem 3rem;
       gap: 0.5rem;
       width: 100%; }
-      #main .product-selection-context span,
-      #main .product-selection-context p {
+      #machines_compare .product-selection-context span,
+      #machines_compare .product-selection-context p {
         font-weight: 600;
         color: #000000;
         text-align: center; }
 
 /* Mobile: width < 768px */
 @media only screen and (max-width: 47.938em) {
-  #main {
+  #machines_compare {
     padding-top: 3.125rem; }
-    #main .product-filter {
+    #machines_compare .product-filter {
       padding: 1.25rem 0;
       gap: 0.75rem; }
-    #main .product-card {
+    #machines_compare .product-card {
       flex-direction: column; }
-    #main .product-selection-list {
+    #machines_compare .product-selection-list {
       display: flex;
       flex-direction: column;
       align-items: center;
       gap: 1.5rem;
       width: 100%;
       background: #e6e6e6; }
-    #main .product-selection-wrapper {
+    #machines_compare .product-selection-wrapper {
       display: grid;
       grid-template-columns: repeat(1, 1fr);
       background: none; } }
 /* Tablet: width >= 768px and width < 1024px */
 @media only screen and (min-width: 48rem) and (max-width: 63.938rem) {
-  #main .product-card {
+  #machines_compare .product-card {
     flex-direction: column; } }

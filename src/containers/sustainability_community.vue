@@ -1,9 +1,9 @@
 <script>
-import "../css/pages/sustainability_communities.css";
+import "../css/pages/sustainability_community.css";
 import { defineComponent } from "vue";
 
 export default defineComponent({
-  name: "SustainabilityCommunitiesPage",
+  name: "SustainabilityCommunityPage",
   components: {},
   data() {
     return {

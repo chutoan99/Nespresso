@@ -11,7 +11,7 @@ export default defineComponent({
 </script>
 
 <template>
-  <section id="shopping">
+  <section id="shopping_step_1">
     <div class="container">
       <div class="shopping">
         <div>

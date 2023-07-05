@@ -2,140 +2,126 @@
 @import "../base/reset";
 @import "../base/variable";
 
-#setting {
-  .setting_main {
-    .setting_label {
+#setting_my_info {
+  .setting {
+    &_label {
       @extend .font_body-2;
       height: 3.25rem;
       background: $black-200;
       font-weight: 700;
       color: $black-900;
-    }
-
-    .setting_label2 {
-      @extend .font_caption;
-      height: 2rem;
-      background: $black-100;
-      font-weight: 500;
-      color: $black-900;
-    }
-
-    .setting_label3 {
-      background: $black-50;
-      height: 4.5625rem;
-    }
-
-    .setting_label,
-    .setting_label2,
-    .setting_label3 {
       display: flex;
       align-items: center;
       padding: 1rem;
       margin-bottom: unset;
     }
-
-    #setting_my_info {
-      .form {
-        &_btn {
-          width: 100%;
-          display: flex;
-          justify-content: end;
-          button {
-            @extend .font_button;
-            display: flex;
-            justify-content: center;
-            height: 2.5625rem;
-            align-items: center;
-            padding: 1rem 1.5rem;
-            order: 0.0625rem solid $black-900;
-            border-radius: 2.5rem;
-            font-weight: 600;
-            text-align: center;
-            color: $black-800;
-            background-color: unset;
-            &:hover {
-              cursor: pointer;
-              transition: 0.3s;
-              background: #c5c5c5;
-            }
-          }
-        }
-        &_content {
-          width: 100%;
-          &-heading {
-            @extend .font_caption;
-            margin-top: 1.5rem;
-            display: inline-block;
-            width: 100%;
-            margin-bottom: unset;
-            font-weight: 400;
-            color: $black-900;
-          }
-          p {
-            margin-top: 1.5rem;
-            @extend .font_caption;
-            color: $black-800;
-            width: 100%;
-            margin-bottom: unset;
-            font-weight: 400;
-          }
-          &-list {
-            padding-left: 1.875rem;
-            margin-bottom: 0.625rem;
-            &-item {
-              @extend .font_caption;
-              color: $black-800;
-              width: 100%;
-              margin-bottom: unset;
-              font-weight: 400;
-            }
-          }
-          &-field {
-            width: 100%;
-            margin-top: 1.5rem;
-            display: grid;
-            grid-template-columns: 2fr 6fr 2fr;
-            column-gap: 1.5rem;
-            label {
-              padding: 0.875rem 0.75rem;
-              @extend .font_caption;
-              margin-bottom: unset;
-              font-weight: 400;
-              color: $black-900;
-              display: flex;
-              align-items: center;
-            }
-            input {
-              width: 100%;
-              padding: 0.625rem 0.75rem;
-              height: 2.75rem;
-              background: $white;
-              border: 0.0625rem solid $black-100;
-              border-radius: 0.25rem;
-            }
-          }
-          &-wrapper {
-            margin-top: 0.625rem;
-            margin-bottom: 1.5rem;
-            width: 100%;
-            display: grid;
-            grid-template-columns: 2fr 6fr 2fr;
-            column-gap: 1.5rem;
-          }
-          &-mess {
-            width: 100%;
-            display: grid;
-            grid-template-columns: 2fr 6fr 2fr;
-            column-gap: 1.5rem;
-          }
+  }
+  .form {
+    &_content {
+      width: 100%;
+      p {
+        margin-top: 1.5rem;
+        @extend .font_caption;
+        color: $black-800;
+        width: 100%;
+        margin-bottom: unset;
+        font-weight: 400;
+      }
+    }
+    &_content-heading {
+      @extend .font_caption;
+      margin-top: 1.5rem;
+      display: inline-block;
+      width: 100%;
+      margin-bottom: unset;
+      font-weight: 400;
+      color: $black-900;
+    }
+    &_content-field {
+      width: 100%;
+      margin-top: 1.5rem;
+      display: grid;
+      grid-template-columns: 2fr 6fr 2fr;
+      column-gap: 1.5rem;
+      label {
+        padding: 0.875rem 0.75rem;
+        @extend .font_caption;
+        margin-bottom: unset;
+        font-weight: 400;
+        color: $black-900;
+        display: flex;
+        align-items: center;
+      }
+      input {
+        width: 100%;
+        padding: 0.625rem 0.75rem;
+        height: 2.75rem;
+        background: $white;
+        border: 0.0625rem solid $black-100;
+        border-radius: 0.25rem;
+      }
+    }
+    &_content-wrapper {
+      margin-top: 0.625rem;
+      margin-bottom: 1.5rem;
+      width: 100%;
+      display: grid;
+      grid-template-columns: 2fr 6fr 2fr;
+      column-gap: 1.5rem;
+    }
+    &_btn {
+      width: 100%;
+      display: flex;
+      justify-content: end;
+      button {
+        @extend .font_button;
+        display: flex;
+        justify-content: center;
+        height: 2.5625rem;
+        align-items: center;
+        padding: 1rem 1.5rem;
+        order: 0.0625rem solid $black-900;
+        border-radius: 2.5rem;
+        font-weight: 600;
+        text-align: center;
+        color: $black-800;
+        background-color: unset;
+        &:hover {
+          cursor: pointer;
+          transition: 0.3s;
+          background: #c5c5c5;
         }
       }
     }
+    &_content-mess {
+      width: 100%;
+      display: grid;
+      grid-template-columns: 2fr 6fr 2fr;
+      column-gap: 1.5rem;
+    }
+    &_content-title {
+    }
+    &_content-list {
+      padding-left: 1.875rem;
+      margin-bottom: 0.625rem;
+    }
+    &_content-item {
+      @extend .font_caption;
+      color: $black-800;
+      width: 100%;
+      margin-bottom: unset;
+      font-weight: 400;
+    }
+  }
+  .input {
+    &-text {
+    }
   }
 }
+
 /* Tablet: width >= 768px and width < 1024px */
 @media only screen and (min-width: 48rem) and (max-width: 63.938rem) {
-  #setting {
+  #setting_my_info {
     margin-top: 3.125rem;
     .setting {
       display: flex;
@@ -149,7 +135,7 @@
 
 /* Mobile: width < 768px */
 @media only screen and (max-width: 47.938em) {
-  #setting {
+  #setting_my_info {
     margin-top: 3.125rem;
     .setting {
       display: flex;

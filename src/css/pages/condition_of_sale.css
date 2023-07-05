@@ -48,7 +48,7 @@ html {
   font-size: 3rem;
   line-height: 3.25rem; }
 
-.font_heading-4, #condition .condition-caption {
+.font_heading-4 {
   font-family: "Nespresso Lucas", Helvetica, Trebuchet, Arial, sans-serif;
   font-style: normal;
   font-size: 2.5rem;
@@ -82,7 +82,7 @@ html {
   line-height: 1.25rem;
   letter-spacing: 0.01em; }
 
-.font_body-1, #condition .condition-desc {
+.font_body-1 {
   font-family: "Nespresso Lucas", Helvetica, Trebuchet, Arial, sans-serif;
   font-style: normal;
   font-size: 1rem;
@@ -128,7 +128,7 @@ html {
   border-radius: 2.5rem;
   border: none;
   cursor: pointer;
-  color: #FFFFFF;
+  color: #ffffff;
   text-transform: uppercase; }
 
 @media screen {
@@ -163,11 +163,7 @@ html {
     display: none !important; }
 
   .show_on-tab {
-    display: block !important; }
-
-  body {
-    font-size: calc( 10px + (96 - 10) * ((100vw - 1024) / (1440 - 1024)) ) !important;
-    line-height: calc( 10px + (96 - 10) * ((100vw - 1024) / (1440 - 1024)) ) !important; } }
+    display: block !important; } }
 /* Mobile: width < 768px */
 @media only screen and (max-width: 48rem) {
   .hide_on-mobile {
@@ -191,7 +187,7 @@ html {
     font-size: 2.25rem;
     line-height: 3.25rem; }
 
-  .font_heading-4, #condition .condition-caption {
+  .font_heading-4 {
     font-size: 1.75rem;
     line-height: 2.5rem;
     letter-spacing: 0.0025em; }
@@ -215,7 +211,7 @@ html {
     line-height: 1.25rem;
     letter-spacing: 0.01em; }
 
-  .font_body-1, #condition .condition-desc {
+  .font_body-1 {
     font-size: 1rem;
     line-height: 1.5rem;
     letter-spacing: 0.005em; }
@@ -354,17 +350,3 @@ video {
     transform: translateY(100%); }
   to {
     transform: translate(0); } }
-#condition .condition-wrapper {
-  max-width: 71.25rem;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 3.75rem;
-  gap: 2rem;
-  background-color: #faf9f8;
-  color: #000000; }
-#condition .condition-caption {
-  font-weight: 700; }
-#condition .condition-desc {
-  font-weight: 400; }

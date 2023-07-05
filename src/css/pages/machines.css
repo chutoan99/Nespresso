@@ -42,7 +42,7 @@ html {
   line-height: 4.25rem;
   letter-spacing: -0.005em; }
 
-.font_heading-3, #machines .banner__title, .banner__title {
+.font_heading-3, #machines .banner__title {
   font-family: "Nespresso Lucas", Helvetica, Trebuchet, Arial, sans-serif;
   font-style: normal;
   font-size: 3rem;
@@ -55,13 +55,13 @@ html {
   line-height: 2.5rem;
   letter-spacing: 0.0025em; }
 
-.font_heading-5, #machines .container .filter-number span, #machines .banner-number span, .banner__content {
+.font_heading-5, #machines .container .filter-number span, #machines .banner-number span, #machines .banner__content {
   font-family: "Nespresso Lucas", Helvetica, Trebuchet, Arial, sans-serif;
   font-style: normal;
   font-size: 1.25rem;
   line-height: 2rem; }
 
-.font_heading-6, .product-name {
+.font_heading-6, #machines .product-name {
   font-family: "Nespresso Lucas", Helvetica, Trebuchet, Arial, sans-serif;
   font-style: normal;
   font-size: 1.125rem;
@@ -89,7 +89,7 @@ html {
   line-height: 1.5rem;
   letter-spacing: 0.005em; }
 
-.font_body-2, .product-desc, .product-type__text, .product-price__num {
+.font_body-2, #machines .product-desc, #machines .product-type__text, #machines .product-price__num {
   font-family: "Nespresso Lucas", Helvetica, Trebuchet, Arial, sans-serif;
   font-style: normal;
   font-size: 0.875rem;
@@ -103,14 +103,14 @@ html {
   line-height: 1rem;
   letter-spacing: 0.025rem; }
 
-.font_overline, .product-tag__name {
+.font_overline, #machines .product-tag__name {
   font-family: "Nespresso Lucas", Helvetica, Trebuchet, Arial, sans-serif;
   font-style: normal;
   font-size: 0.625rem;
   line-height: 1rem;
   letter-spacing: 0.0938rem; }
 
-.font_button, .banner-btn, .product-btn {
+.font_button, #machines .banner-btn, #machines .product-btn {
   font-family: "Nespresso Lucas", Helvetica, Trebuchet, Arial, sans-serif;
   font-style: normal;
   font-size: 0.875rem;
@@ -128,7 +128,7 @@ html {
   border-radius: 2.5rem;
   border: none;
   cursor: pointer;
-  color: #FFFFFF;
+  color: #ffffff;
   text-transform: uppercase; }
 
 @media screen {
@@ -163,11 +163,7 @@ html {
     display: none !important; }
 
   .show_on-tab {
-    display: block !important; }
-
-  body {
-    font-size: calc( 10px + (96 - 10) * ((100vw - 1024) / (1440 - 1024)) ) !important;
-    line-height: calc( 10px + (96 - 10) * ((100vw - 1024) / (1440 - 1024)) ) !important; } }
+    display: block !important; } }
 /* Mobile: width < 768px */
 @media only screen and (max-width: 48rem) {
   .hide_on-mobile {
@@ -187,7 +183,7 @@ html {
     line-height: 4.25rem;
     letter-spacing: -0.005em; }
 
-  .font_heading-3, #machines .banner__title, .banner__title {
+  .font_heading-3, #machines .banner__title {
     font-size: 2.25rem;
     line-height: 3.25rem; }
 
@@ -196,11 +192,11 @@ html {
     line-height: 2.5rem;
     letter-spacing: 0.0025em; }
 
-  .font_heading-5, #machines .container .filter-number span, #machines .banner-number span, .banner__content {
+  .font_heading-5, #machines .container .filter-number span, #machines .banner-number span, #machines .banner__content {
     font-size: 1.25rem;
     line-height: 2rem; }
 
-  .font_heading-6, .product-name {
+  .font_heading-6, #machines .product-name {
     font-size: 1rem;
     line-height: 1.5rem;
     letter-spacing: 0.0015em; }
@@ -220,7 +216,7 @@ html {
     line-height: 1.5rem;
     letter-spacing: 0.005em; }
 
-  .font_body-2, .product-desc, .product-type__text, .product-price__num {
+  .font_body-2, #machines .product-desc, #machines .product-type__text, #machines .product-price__num {
     font-size: 0.875rem;
     line-height: 1.25rem;
     letter-spacing: 0.0025em; }
@@ -230,12 +226,12 @@ html {
     line-height: 1rem;
     letter-spacing: 0.025rem; }
 
-  .font_overline, .product-tag__name {
+  .font_overline, #machines .product-tag__name {
     font-size: 0.625rem;
     line-height: 1rem;
     letter-spacing: 0.0938rem; }
 
-  .font_button, .banner-btn, .product-btn {
+  .font_button, #machines .banner-btn, #machines .product-btn {
     font-size: 0.875rem;
     line-height: 1.25rem;
     letter-spacing: 0.0781rem; } }
@@ -804,8 +800,7 @@ video {
         top: -0.625rem;
         right: -0.3125rem;
         border-radius: 50%; }
-
-.banner {
+#machines .banner {
   margin-top: 1.5rem;
   display: flex;
   flex-direction: row;
@@ -814,15 +809,15 @@ video {
   padding: 0 3.75rem;
   gap: 0.25rem;
   background: #f3eee6; }
-  .banner-heading {
+  #machines .banner-heading {
     text-align: center;
     font-weight: 700;
     color: #000000; }
-  .banner-content {
+  #machines .banner-content {
     text-align: center;
     color: #454547;
     font-weight: 400; }
-  .banner-btn {
+  #machines .banner-btn {
     padding: 1rem 1.5rem;
     background: #3d8705;
     border-radius: 2.5rem;
@@ -831,16 +826,15 @@ video {
     color: #ffffff;
     font-weight: 600;
     cursor: pointer; }
-    .banner-btn:hover {
+    #machines .banner-btn:hover {
       background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #3d8705; }
-
-.product-list {
+#machines .product-list {
   margin-top: 1.5rem;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   column-gap: 1.5rem;
   row-gap: 1.5rem; }
-.product-item {
+#machines .product-item {
   box-shadow: 0rem 0.25rem 0.313rem rgba(0, 0, 0, 0.14);
   background-color: #ffffff;
   position: relative;
@@ -848,7 +842,7 @@ video {
   flex-direction: column;
   cursor: pointer;
   padding: 1.5rem 1rem; }
-.product-tag {
+#machines .product-tag {
   position: absolute;
   right: -0.0125rem;
   top: 0rem;
@@ -857,28 +851,28 @@ video {
   display: flex;
   justify-content: center;
   align-items: center; }
-  .product-tag__name {
+  #machines .product-tag__name {
     text-align: center;
     color: #ffffff;
     font-weight: 600;
     text-transform: uppercase; }
-.product-image {
+#machines .product-image {
   height: 6.25rem;
   text-align: center;
   margin-bottom: 1rem; }
-  .product-image img {
+  #machines .product-image img {
     height: 100%; }
-.product-name {
+#machines .product-name {
   text-align: center;
   color: #454547;
   font-weight: 600;
   height: 100%; }
-.product-desc {
+#machines .product-desc {
   text-align: center;
   color: #454547;
   font-weight: 400;
   margin-bottom: 1rem; }
-.product-type {
+#machines .product-type {
   height: 2.75rem;
   gap: 0.75rem;
   border-bottom: 0.0625rem solid #d5d5d5;
@@ -886,43 +880,43 @@ video {
   flex-direction: row;
   align-items: center;
   justify-content: space-between; }
-  .product-type__text {
+  #machines .product-type__text {
     color: #454547;
     font-weight: 400;
     padding: 0.75rem 0; }
-  .product-type__color {
+  #machines .product-type__color {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     gap: 0.5rem; }
-    .product-type__color span {
+    #machines .product-type__color span {
       box-sizing: border-box;
       display: inline-block;
       width: 0.75rem;
       height: 0.75rem;
       border: 0.0625rem solid rgba(0, 0, 0, 0.2);
       border-radius: 50%; }
-    .product-type__color--red {
+    #machines .product-type__color--red {
       background: #ff0000; }
-    .product-type__color--black {
+    #machines .product-type__color--black {
       background: #000000; }
-    .product-type__color--green {
+    #machines .product-type__color--green {
       background: #008000; }
-    .product-type__color--brick-red {
+    #machines .product-type__color--brick-red {
       background: #960018; }
-.product-price {
+#machines .product-price {
   margin-top: 1rem;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
   gap: 0.75rem; }
-  .product-price__num {
+  #machines .product-price__num {
     color: #3d8705;
     font-weight: 600;
     width: 100%;
     text-align: center; }
-  .product-price__add {
+  #machines .product-price__add {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -934,9 +928,9 @@ video {
     border: none;
     cursor: pointer;
     padding: 0.75rem; }
-    .product-price__add:hover {
+    #machines .product-price__add:hover {
       background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #3d8705; }
-.product-btn {
+#machines .product-btn {
   margin-top: 1rem;
   padding: 0.75rem;
   background: #3d8705;
@@ -948,10 +942,10 @@ video {
   display: flex;
   justify-content: center;
   align-items: center; }
-  .product-btn a {
+  #machines .product-btn a {
     color: #ffffff;
     text-decoration: none; }
-  .product-btn:hover {
+  #machines .product-btn:hover {
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #3d8705; }
 
 /* Mobile: width < 768px */
@@ -964,7 +958,7 @@ video {
         font-size: 2rem;
         line-height: 1.2; }
     #machines .container {
-      padding: 0.625rem 1.25rem; }
+      padding: 1.25rem 0.625rem; }
       #machines .container .filter-list__ellipse span {
         width: 1.5rem;
         height: 1.5rem; }

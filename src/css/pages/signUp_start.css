@@ -68,7 +68,7 @@ html {
   line-height: 1.5rem;
   letter-spacing: 0.0015em; }
 
-.font_subtitle-1, #main .signUp-form__label {
+.font_subtitle-1, #signUp_start .signUp-form__label {
   font-family: "Nespresso Lucas", Helvetica, Trebuchet, Arial, sans-serif;
   font-style: normal;
   font-size: 1rem;
@@ -89,7 +89,7 @@ html {
   line-height: 1.5rem;
   letter-spacing: 0.005em; }
 
-.font_body-2, #main .signUp-heading, #main .signUp-form__check label, #main .signUp-form__check__detail, #main .signUp-form__required, #main .signUp-footer__detail {
+.font_body-2, #signUp_start .signUp-heading, #signUp_start .signUp-form__check label, #signUp_start .signUp-form__check__detail, #signUp_start .signUp-form__required, #signUp_start .signUp-footer__detail {
   font-family: "Nespresso Lucas", Helvetica, Trebuchet, Arial, sans-serif;
   font-style: normal;
   font-size: 0.875rem;
@@ -110,7 +110,7 @@ html {
   line-height: 1rem;
   letter-spacing: 0.0938rem; }
 
-.font_button, #main .signUp-form__check__btn a, #main .signUp-footer__btn a {
+.font_button, #signUp_start .signUp-form__check__btn a, #signUp_start .signUp-footer__btn a {
   font-family: "Nespresso Lucas", Helvetica, Trebuchet, Arial, sans-serif;
   font-style: normal;
   font-size: 0.875rem;
@@ -128,7 +128,7 @@ html {
   border-radius: 2.5rem;
   border: none;
   cursor: pointer;
-  color: #FFFFFF;
+  color: #ffffff;
   text-transform: uppercase; }
 
 @media screen {
@@ -163,11 +163,7 @@ html {
     display: none !important; }
 
   .show_on-tab {
-    display: block !important; }
-
-  body {
-    font-size: calc( 10px + (96 - 10) * ((100vw - 1024) / (1440 - 1024)) ) !important;
-    line-height: calc( 10px + (96 - 10) * ((100vw - 1024) / (1440 - 1024)) ) !important; } }
+    display: block !important; } }
 /* Mobile: width < 768px */
 @media only screen and (max-width: 48rem) {
   .hide_on-mobile {
@@ -205,7 +201,7 @@ html {
     line-height: 1.5rem;
     letter-spacing: 0.0015em; }
 
-  .font_subtitle-1, #main .signUp-form__label {
+  .font_subtitle-1, #signUp_start .signUp-form__label {
     font-size: 1rem;
     line-height: 1.25rem;
     letter-spacing: 0.0125em; }
@@ -220,7 +216,7 @@ html {
     line-height: 1.5rem;
     letter-spacing: 0.005em; }
 
-  .font_body-2, #main .signUp-heading, #main .signUp-form__check label, #main .signUp-form__check__detail, #main .signUp-form__required, #main .signUp-footer__detail {
+  .font_body-2, #signUp_start .signUp-heading, #signUp_start .signUp-form__check label, #signUp_start .signUp-form__check__detail, #signUp_start .signUp-form__required, #signUp_start .signUp-footer__detail {
     font-size: 0.875rem;
     line-height: 1.25rem;
     letter-spacing: 0.0025em; }
@@ -235,7 +231,7 @@ html {
     line-height: 1rem;
     letter-spacing: 0.0938rem; }
 
-  .font_button, #main .signUp-form__check__btn a, #main .signUp-footer__btn a {
+  .font_button, #signUp_start .signUp-form__check__btn a, #signUp_start .signUp-footer__btn a {
     font-size: 0.875rem;
     line-height: 1.25rem;
     letter-spacing: 0.0781rem; } }
@@ -354,13 +350,13 @@ video {
     transform: translateY(100%); }
   to {
     transform: translate(0); } }
-#main {
+#signUp_start {
   background-color: #ffffff; }
-  #main .signUp {
+  #signUp_start .signUp {
     width: 100vw;
     height: 100%;
     margin: 1.75rem 0 10.938rem; }
-    #main .signUp-container {
+    #signUp_start .signUp-container {
       max-width: 53.438rem;
       max-height: 38.563rem;
       margin: 0 auto;
@@ -369,17 +365,17 @@ video {
       display: flex;
       flex-direction: column;
       align-items: flex-start; }
-    #main .signUp-head {
+    #signUp_start .signUp-head {
       display: flex;
       flex-direction: column;
       align-items: flex-start;
       padding: 2rem 1rem;
       gap: 1.25rem;
       background-color: #ffffff; }
-    #main .signUp-heading {
+    #signUp_start .signUp-heading {
       font-weight: 400;
       color: #000000; }
-    #main .signUp-form {
+    #signUp_start .signUp-form {
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -387,46 +383,46 @@ video {
       gap: 1.25rem;
       max-width: 29.688rem;
       width: 100%; }
-      #main .signUp-form__content {
+      #signUp_start .signUp-form__content {
         display: flex;
         flex-direction: row;
         align-items: center;
         padding: 0rem;
         gap: 3.125rem; }
-      #main .signUp-form__label {
+      #signUp_start .signUp-form__label {
         font-weight: 500;
         color: #000000;
         width: 6.563rem; }
-      #main .signUp-form__input {
+      #signUp_start .signUp-form__input {
         background-color: #ffffff;
         padding: 0.75rem;
         flex: 1;
         border: 0.063rem solid #d5d5d5;
         border-radius: 0.25rem;
         height: 2.75rem; }
-        #main .signUp-form__input:focus {
+        #signUp_start .signUp-form__input:focus {
           outline: none; }
-      #main .signUp-form__radio {
+      #signUp_start .signUp-form__radio {
         display: flex;
         flex-direction: row;
         align-items: flex-start;
         padding: 0rem;
         gap: 2rem; }
-      #main .signUp-form__check {
+      #signUp_start .signUp-form__check {
         display: flex;
         align-items: center;
         justify-content: center;
         gap: 0.5rem;
         cursor: pointer; }
-        #main .signUp-form__check label {
+        #signUp_start .signUp-form__check label {
           font-weight: 400;
           color: #000000; }
-        #main .signUp-form__check__detail {
+        #signUp_start .signUp-form__check__detail {
           font-weight: 400;
           color: #000000; }
-          #main .signUp-form__check__detail a {
+          #signUp_start .signUp-form__check__detail a {
             color: #000000; }
-        #main .signUp-form__check__btn {
+        #signUp_start .signUp-form__check__btn {
           padding: 1rem 1.5rem;
           background: #3d8705;
           border-radius: 0.25rem;
@@ -436,7 +432,7 @@ video {
           align-items: center;
           border: none;
           cursor: pointer; }
-          #main .signUp-form__check__btn a {
+          #signUp_start .signUp-form__check__btn a {
             font-weight: 600;
             text-align: center;
             text-decoration: none;
@@ -445,15 +441,15 @@ video {
             display: flex;
             align-items: center;
             justify-content: center; }
-          #main .signUp-form__check__btn:hover {
+          #signUp_start .signUp-form__check__btn:hover {
             background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #3d8705; }
-      #main .signUp-form__required {
+      #signUp_start .signUp-form__required {
         padding: 0rem 0rem 0rem 9.813rem;
         font-weight: 400;
         color: #000000; }
-        #main .signUp-form__required ul {
+        #signUp_start .signUp-form__required ul {
           padding-left: 0.938rem; }
-    #main .signUp-footer {
+    #signUp_start .signUp-footer {
       display: flex;
       flex-direction: row;
       align-items: flex-start;
@@ -462,7 +458,7 @@ video {
       background-color: #ffffff;
       width: 100%;
       max-height: 6.063rem; }
-      #main .signUp-footer-wrapper {
+      #signUp_start .signUp-footer-wrapper {
         width: 100%;
         display: flex;
         flex-direction: row;
@@ -471,12 +467,12 @@ video {
         padding: 1.5rem 0 0;
         gap: 1rem;
         border-top: 0.063rem solid #000000; }
-      #main .signUp-footer__detail {
+      #signUp_start .signUp-footer__detail {
         font-weight: 400;
         color: #000000; }
-        #main .signUp-footer__detail a {
+        #signUp_start .signUp-footer__detail a {
           color: #000000; }
-      #main .signUp-footer__btn {
+      #signUp_start .signUp-footer__btn {
         padding: 1rem 1.5rem;
         background: #3d8705;
         border-radius: 0.25rem;
@@ -486,7 +482,7 @@ video {
         align-items: center;
         border: none;
         cursor: pointer; }
-        #main .signUp-footer__btn a {
+        #signUp_start .signUp-footer__btn a {
           font-weight: 600;
           text-align: center;
           text-decoration: none;
@@ -495,56 +491,48 @@ video {
           display: flex;
           align-items: center;
           justify-content: center; }
-        #main .signUp-footer__btn:hover {
+        #signUp_start .signUp-footer__btn:hover {
           background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #3d8705; }
 
 /* Tablet: width >= 768px and width < 1024px */
 @media only screen and (min-width: 48rem) and (max-width: 63.938rem) {
-  .signUp {
+  #signUp_start .signUp {
     width: 100% !important; }
-
-  .signUp-container {
+  #signUp_start .signUp-container {
     margin-top: 6.125rem !important;
     margin-left: 1.25rem !important;
     margin-right: 1.25rem !important; } }
 /* Mobile: width < 768px */
 @media only screen and (max-width: 47.938em) {
-  .signUp {
+  #signUp_start .signUp {
     width: 100% !important;
     margin: unset !important; }
-
-  .signUp-container {
+  #signUp_start .signUp-container {
     margin-top: 6.125rem !important;
     margin-left: 1.25rem !important;
     margin-right: 1.25rem !important; }
-
-  .signUp-form__content {
+  #signUp_start .signUp-form__content {
     display: flex !important;
     flex-direction: column !important;
     gap: 0.3125rem !important; }
-    .signUp-form__content label {
+    #signUp_start .signUp-form__content label {
       width: 100% !important; }
-    .signUp-form__content input {
+    #signUp_start .signUp-form__content input {
       width: 100%; }
-    .signUp-form__content:nth-child(3) {
+    #signUp_start .signUp-form__content:nth-child(3) {
       display: flex !important;
       flex-direction: unset !important; }
-
-  .signUp-form__required {
+  #signUp_start .signUp-form__required {
     padding-left: unset !important; }
-
-  .signUp-footer-wrapper {
+  #signUp_start .signUp-footer-wrapper {
     display: flex !important;
     flex-direction: column !important;
     gap: 0.625rem; }
-
-  .signUp-footer {
+  #signUp_start .signUp-footer {
     max-height: 100% !important; }
-
-  .signUp-footer__btn {
+  #signUp_start .signUp-footer__btn {
     width: 100% !important;
     border-radius: 0.3125rem !important; }
-
-  .signUp-container {
+  #signUp_start .signUp-container {
     padding-bottom: 3.125rem;
     max-height: 100% !important; } }

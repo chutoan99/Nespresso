@@ -11,7 +11,7 @@ export default defineComponent({
 </script>
 
 <template>
-  <section id="payment">
+  <section id="shopping_step_3">
     <div class="container">
       <div class="payment">
         <div class="payment_label">

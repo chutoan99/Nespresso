@@ -76,11 +76,9 @@ export default defineComponent({
 <template>
   <div class="wrapper">
     <div class="wrapper-innner">
-      <!-- start header -->
       <Header />
-      <!-- end header -->
       <Nav />
-      <main id="main">
+      <main id="coffee_original">
         <section class="banner background-1">
           <div class="banner__context">
             <h3 class="banner__context-title">
@@ -759,594 +757,613 @@ export default defineComponent({
         </section>
       </main>
       <Footer />
-      <div class="modal js-modal">
-        <div class="modal-Overlay"></div>
-        <div class="modal-fixed">
-          <div class="modal-container">
-            <button class="modal-close popin-close js-modal-close">
-              <span class="">close</span>
-              <svg
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M19 5L5 19"
-                  stroke="white"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-                <path
-                  d="M19 19L5 5"
-                  stroke="white"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-              </svg>
-            </button>
+      <div id="coffee_original_modal">
+        <div class="modal js-modal">
+          <div class="modal-Overlay"></div>
+          <div class="modal-fixed">
+            <div class="modal-container">
+              <button class="modal-close popin-close js-modal-close">
+                <span class="">close</span>
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M19 5L5 19"
+                    stroke="white"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M19 19L5 5"
+                    stroke="white"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </button>
 
-            <div class="modal-content modal-popin">
-              <div class="lefCol">
-                <div class="table">
-                  <div class="table-header">
-                    <div class="table-header__title">
-                      <h4>ispirazione italiana</h4>
-                      <p>
-                        These intense multi-origin blends provide a powerful and
-                        strong coffee experience. Enjoy in a 25ml Ristretto or
-                        40ml Espresso cup.
-                      </p>
-                    </div>
-                  </div>
-
-                  <div class="table-main">
-                    <ul class="table-list">
-                      <li class="table-item open-rigtCol">
-                        <router-link to="Roma">
-                          <div class="table-item__image">
-                            <img
-                              src="../assets/images/coffee-original/item.png"
-                              alt="ROMA"
-                            />
-                          </div>
-                          <div class="table-item__desc">
-                            <p
-                              class="table-item__desc-title"
-                              style="color: #000"
-                            >
-                              ROMA
-                            </p>
-                            <p class="table-item__desc-subtitle">
-                              Full and Balanced
-                            </p>
-                            <p class="table-item__desc-subtitle">Intensity 8</p>
-                          </div>
-                          <div class="table-item__btn">
-                            <p class="table-item__btn-price">₫15500</p>
-
-                            <span class="table-item__btn-add">
-                              <svg
-                                width="24"
-                                height="24"
-                                viewBox="0 0 24 24"
-                                fill="none"
-                                xmlns="http://www.w3.org/2000/svg"
-                              >
-                                <path
-                                  fill-rule="evenodd"
-                                  clip-rule="evenodd"
-                                  d="M12 6C12.5523 6 13 6.44772 13 7V17C13 17.5523 12.5523 18 12 18C11.4477 18 11 17.5523 11 17V7C11 6.44772 11.4477 6 12 6Z"
-                                  fill="white"
-                                />
-                                <path
-                                  fill-rule="evenodd"
-                                  clip-rule="evenodd"
-                                  d="M6 12C6 11.4477 6.44772 11 7 11H17C17.5523 11 18 11.4477 18 12C18 12.5523 17.5523 13 17 13H7C6.44772 13 6 12.5523 6 12Z"
-                                  fill="white"
-                                />
-                              </svg>
-                            </span>
-                          </div>
-                        </router-link>
-                      </li>
-                      <li class="table-item open-rigtCol">
-                        <router-link to="Roma">
-                          <div class="table-item__image">
-                            <img
-                              src="../assets/images/coffee-original/item.png"
-                              alt="ROMA"
-                            />
-                          </div>
-                          <div class="table-item__desc">
-                            <p
-                              class="table-item__desc-title"
-                              style="color: #000"
-                            >
-                              ROMA
-                            </p>
-                            <p class="table-item__desc-subtitle">
-                              Full and Balanced
-                            </p>
-                            <p class="table-item__desc-subtitle">Intensity 8</p>
-                          </div>
-                          <div class="table-item__btn">
-                            <p class="table-item__btn-price">₫15500</p>
-
-                            <span class="table-item__btn-add">
-                              <svg
-                                width="24"
-                                height="24"
-                                viewBox="0 0 24 24"
-                                fill="none"
-                                xmlns="http://www.w3.org/2000/svg"
-                              >
-                                <path
-                                  fill-rule="evenodd"
-                                  clip-rule="evenodd"
-                                  d="M12 6C12.5523 6 13 6.44772 13 7V17C13 17.5523 12.5523 18 12 18C11.4477 18 11 17.5523 11 17V7C11 6.44772 11.4477 6 12 6Z"
-                                  fill="white"
-                                />
-                                <path
-                                  fill-rule="evenodd"
-                                  clip-rule="evenodd"
-                                  d="M6 12C6 11.4477 6.44772 11 7 11H17C17.5523 11 18 11.4477 18 12C18 12.5523 17.5523 13 17 13H7C6.44772 13 6 12.5523 6 12Z"
-                                  fill="white"
-                                />
-                              </svg>
-                            </span>
-                          </div>
-                        </router-link>
-                      </li>
-                      <li class="table-item open-rigtCol">
-                        <router-link to="Roma">
-                          <div class="table-item__image">
-                            <img
-                              src="../assets/images/coffee-original/item.png"
-                              alt="ROMA"
-                            />
-                          </div>
-                          <div class="table-item__desc">
-                            <p
-                              class="table-item__desc-title"
-                              style="color: #000"
-                            >
-                              ROMA
-                            </p>
-                            <p class="table-item__desc-subtitle">
-                              Full and Balanced
-                            </p>
-                            <p class="table-item__desc-subtitle">Intensity 8</p>
-                          </div>
-                          <div class="table-item__btn">
-                            <p class="table-item__btn-price">₫15500</p>
-
-                            <span class="table-item__btn-add">
-                              <svg
-                                width="24"
-                                height="24"
-                                viewBox="0 0 24 24"
-                                fill="none"
-                                xmlns="http://www.w3.org/2000/svg"
-                              >
-                                <path
-                                  fill-rule="evenodd"
-                                  clip-rule="evenodd"
-                                  d="M12 6C12.5523 6 13 6.44772 13 7V17C13 17.5523 12.5523 18 12 18C11.4477 18 11 17.5523 11 17V7C11 6.44772 11.4477 6 12 6Z"
-                                  fill="white"
-                                />
-                                <path
-                                  fill-rule="evenodd"
-                                  clip-rule="evenodd"
-                                  d="M6 12C6 11.4477 6.44772 11 7 11H17C17.5523 11 18 11.4477 18 12C18 12.5523 17.5523 13 17 13H7C6.44772 13 6 12.5523 6 12Z"
-                                  fill="white"
-                                />
-                              </svg>
-                            </span>
-                          </div>
-                        </router-link>
-                      </li>
-                      <li class="table-item open-rigtCol">
-                        <router-link to="Roma">
-                          <div class="table-item__image">
-                            <img
-                              src="../assets/images/coffee-original/item.png"
-                              alt="ROMA"
-                            />
-                          </div>
-                          <div class="table-item__desc">
-                            <p
-                              class="table-item__desc-title"
-                              style="color: #000"
-                            >
-                              ROMA
-                            </p>
-                            <p class="table-item__desc-subtitle">
-                              Full and Balanced
-                            </p>
-                            <p class="table-item__desc-subtitle">Intensity 8</p>
-                          </div>
-                          <div class="table-item__btn">
-                            <p class="table-item__btn-price">₫15500</p>
-
-                            <span class="table-item__btn-add">
-                              <svg
-                                width="24"
-                                height="24"
-                                viewBox="0 0 24 24"
-                                fill="none"
-                                xmlns="http://www.w3.org/2000/svg"
-                              >
-                                <path
-                                  fill-rule="evenodd"
-                                  clip-rule="evenodd"
-                                  d="M12 6C12.5523 6 13 6.44772 13 7V17C13 17.5523 12.5523 18 12 18C11.4477 18 11 17.5523 11 17V7C11 6.44772 11.4477 6 12 6Z"
-                                  fill="white"
-                                />
-                                <path
-                                  fill-rule="evenodd"
-                                  clip-rule="evenodd"
-                                  d="M6 12C6 11.4477 6.44772 11 7 11H17C17.5523 11 18 11.4477 18 12C18 12.5523 17.5523 13 17 13H7C6.44772 13 6 12.5523 6 12Z"
-                                  fill="white"
-                                />
-                              </svg>
-                            </span>
-                          </div>
-                        </router-link>
-                      </li>
-                      <li class="table-item open-rigtCol">
-                        <router-link to="Roma">
-                          <div class="table-item__image">
-                            <img
-                              src="../assets/images/coffee-original/item.png"
-                              alt="ROMA"
-                            />
-                          </div>
-                          <div class="table-item__desc">
-                            <p
-                              class="table-item__desc-title"
-                              style="color: #000"
-                            >
-                              ROMA
-                            </p>
-                            <p class="table-item__desc-subtitle">
-                              Full and Balanced
-                            </p>
-                            <p class="table-item__desc-subtitle">Intensity 8</p>
-                          </div>
-                          <div class="table-item__btn">
-                            <p class="table-item__btn-price">₫15500</p>
-
-                            <span class="table-item__btn-add">
-                              <svg
-                                width="24"
-                                height="24"
-                                viewBox="0 0 24 24"
-                                fill="none"
-                                xmlns="http://www.w3.org/2000/svg"
-                              >
-                                <path
-                                  fill-rule="evenodd"
-                                  clip-rule="evenodd"
-                                  d="M12 6C12.5523 6 13 6.44772 13 7V17C13 17.5523 12.5523 18 12 18C11.4477 18 11 17.5523 11 17V7C11 6.44772 11.4477 6 12 6Z"
-                                  fill="white"
-                                />
-                                <path
-                                  fill-rule="evenodd"
-                                  clip-rule="evenodd"
-                                  d="M6 12C6 11.4477 6.44772 11 7 11H17C17.5523 11 18 11.4477 18 12C18 12.5523 17.5523 13 17 13H7C6.44772 13 6 12.5523 6 12Z"
-                                  fill="white"
-                                />
-                              </svg>
-                            </span>
-                          </div>
-                        </router-link>
-                      </li>
-                      <li class="table-item open-rigtCol">
-                        <router-link to="Roma">
-                          <div class="table-item__image">
-                            <img
-                              src="../assets/images/coffee-original/item.png"
-                              alt="ROMA"
-                            />
-                          </div>
-                          <div class="table-item__desc">
-                            <p
-                              class="table-item__desc-title"
-                              style="color: #000"
-                            >
-                              ROMA
-                            </p>
-                            <p class="table-item__desc-subtitle">
-                              Full and Balanced
-                            </p>
-                            <p class="table-item__desc-subtitle">Intensity 8</p>
-                          </div>
-                          <div class="table-item__btn">
-                            <p class="table-item__btn-price">₫15500</p>
-
-                            <span class="table-item__btn-add">
-                              <svg
-                                width="24"
-                                height="24"
-                                viewBox="0 0 24 24"
-                                fill="none"
-                                xmlns="http://www.w3.org/2000/svg"
-                              >
-                                <path
-                                  fill-rule="evenodd"
-                                  clip-rule="evenodd"
-                                  d="M12 6C12.5523 6 13 6.44772 13 7V17C13 17.5523 12.5523 18 12 18C11.4477 18 11 17.5523 11 17V7C11 6.44772 11.4477 6 12 6Z"
-                                  fill="white"
-                                />
-                                <path
-                                  fill-rule="evenodd"
-                                  clip-rule="evenodd"
-                                  d="M6 12C6 11.4477 6.44772 11 7 11H17C17.5523 11 18 11.4477 18 12C18 12.5523 17.5523 13 17 13H7C6.44772 13 6 12.5523 6 12Z"
-                                  fill="white"
-                                />
-                              </svg>
-                            </span>
-                          </div>
-                        </router-link>
-                      </li>
-                      <li class="table-item open-rigtCol">
-                        <router-link to="Roma">
-                          <div class="table-item__image">
-                            <img
-                              src="../assets/images/coffee-original/item.png"
-                              alt="ROMA"
-                            />
-                          </div>
-                          <div class="table-item__desc">
-                            <p
-                              class="table-item__desc-title"
-                              style="color: #000"
-                            >
-                              ROMA
-                            </p>
-                            <p class="table-item__desc-subtitle">
-                              Full and Balanced
-                            </p>
-                            <p class="table-item__desc-subtitle">Intensity 8</p>
-                          </div>
-                          <div class="table-item__btn">
-                            <p class="table-item__btn-price">₫15500</p>
-
-                            <span class="table-item__btn-add">
-                              <svg
-                                width="24"
-                                height="24"
-                                viewBox="0 0 24 24"
-                                fill="none"
-                                xmlns="http://www.w3.org/2000/svg"
-                              >
-                                <path
-                                  fill-rule="evenodd"
-                                  clip-rule="evenodd"
-                                  d="M12 6C12.5523 6 13 6.44772 13 7V17C13 17.5523 12.5523 18 12 18C11.4477 18 11 17.5523 11 17V7C11 6.44772 11.4477 6 12 6Z"
-                                  fill="white"
-                                />
-                                <path
-                                  fill-rule="evenodd"
-                                  clip-rule="evenodd"
-                                  d="M6 12C6 11.4477 6.44772 11 7 11H17C17.5523 11 18 11.4477 18 12C18 12.5523 17.5523 13 17 13H7C6.44772 13 6 12.5523 6 12Z"
-                                  fill="white"
-                                />
-                              </svg>
-                            </span>
-                          </div>
-                        </router-link>
-                      </li>
-                      <li class="table-item open-rigtCol">
-                        <router-link to="Roma">
-                          <div class="table-item__image">
-                            <img
-                              src="../assets/images/coffee-original/item.png"
-                              alt="ROMA"
-                            />
-                          </div>
-                          <div class="table-item__desc">
-                            <p
-                              class="table-item__desc-title"
-                              style="color: #000"
-                            >
-                              ROMA
-                            </p>
-                            <p class="table-item__desc-subtitle">
-                              Full and Balanced
-                            </p>
-                            <p class="table-item__desc-subtitle">Intensity 8</p>
-                          </div>
-                          <div class="table-item__btn">
-                            <p class="table-item__btn-price">₫15500</p>
-
-                            <span class="table-item__btn-add">
-                              <svg
-                                width="24"
-                                height="24"
-                                viewBox="0 0 24 24"
-                                fill="none"
-                                xmlns="http://www.w3.org/2000/svg"
-                              >
-                                <path
-                                  fill-rule="evenodd"
-                                  clip-rule="evenodd"
-                                  d="M12 6C12.5523 6 13 6.44772 13 7V17C13 17.5523 12.5523 18 12 18C11.4477 18 11 17.5523 11 17V7C11 6.44772 11.4477 6 12 6Z"
-                                  fill="white"
-                                />
-                                <path
-                                  fill-rule="evenodd"
-                                  clip-rule="evenodd"
-                                  d="M6 12C6 11.4477 6.44772 11 7 11H17C17.5523 11 18 11.4477 18 12C18 12.5523 17.5523 13 17 13H7C6.44772 13 6 12.5523 6 12Z"
-                                  fill="white"
-                                />
-                              </svg>
-                            </span>
-                          </div>
-                        </router-link>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-
-              <div class="rightCol">
-                <div class="table">
-                  <div class="table-banner">
-                    <button class="popin-back btn-back">
-                      <svg
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <g clip-path="url(#clip0_1_4)">
-                          <path
-                            fill-rule="evenodd"
-                            clip-rule="evenodd"
-                            d="M15.7941 22.9044C15.5708 23.0668 15.2581 23.0174 15.0956 22.7941L7.09563 11.7941C6.96812 11.6188 6.96812 11.3812 7.09563 11.2059L15.0956 0.205914C15.2581 -0.0174112 15.5708 -0.0667868 15.7941 0.0956335C16.0174 0.258052 16.0668 0.57076 15.9044 0.794087L8.11825 11.5L15.9044 22.2059C16.0668 22.4292 16.0174 22.7419 15.7941 22.9044Z"
-                            fill="black"
-                          />
-                        </g>
-                        <defs>
-                          <clipPath id="clip0_1_4">
-                            <rect
-                              width="24"
-                              height="24"
-                              fill="white"
-                              transform="matrix(-1 0 0 -1 24 24)"
-                            />
-                          </clipPath>
-                        </defs>
-                      </svg>
-                    </button>
-                    <div class="table-banner__product">
-                      <div class="table-banner__image"></div>
-                    </div>
-                  </div>
-
-                  <div class="table-subtitle">
-                    <h3>Roma</h3>
-                    <p>Full and Balanced</p>
-                    <p>Intensity 8</p>
-                  </div>
-                  <div class="table-inner">
-                    <div class="table-section">
-                      <h2 class="table-title">FULL AND BALANCED</h2>
-
-                      <div class="flex-container table-attribute">
-                        <div class="flex-item table-attribute__properties">
-                          <ul>
-                            <li>
-                              <h3>Roastiness</h3>
-                              ■ ■ ■ □ □
-                            </li>
-                            <li>
-                              <h3>Acidity</h3>
-                              ■ ■ ■ ■ □
-                            </li>
-                          </ul>
-                        </div>
-
-                        <div class="flex-item table-attribute__capsule">
-                          <img
-                            src="../assets/images/coffee-original/capsules.png"
-                            alt=""
-                          />
-                        </div>
-
-                        <div class="flex-item table-attribute__properties">
-                          <ul>
-                            <li>
-                              <h3>Bitterness</h3>
-                              ■ ■ ■ ■ □
-                            </li>
-                            <li>
-                              <h3>Body</h3>
-                              ■ ■ ■ □ □
-                            </li>
-                          </ul>
-                        </div>
+              <div class="modal-content modal-popin">
+                <div class="lefCol">
+                  <div class="table">
+                    <div class="table-header">
+                      <div class="table-header__title">
+                        <h4>ispirazione italiana</h4>
+                        <p>
+                          These intense multi-origin blends provide a powerful
+                          and strong coffee experience. Enjoy in a 25ml
+                          Ristretto or 40ml Espresso cup.
+                        </p>
                       </div>
                     </div>
 
-                    <div class="table-keyvisual">
-                      <img
-                        class="table-keyvisual__mobile"
-                        src="../assets/images/coffee-original/kv_roma_S.jpg"
-                      />
-                      <img
-                        class="table-keyvisual__desktop"
-                        src="../assets/images/coffee-original/kv_roma_L.png"
-                      />
-                    </div>
+                    <div class="table-main">
+                      <ul class="table-list">
+                        <li class="table-item open-rigtCol">
+                          <router-link to="Roma">
+                            <div class="table-item__image">
+                              <img
+                                src="../assets/images/coffee-original/item.png"
+                                alt="ROMA"
+                              />
+                            </div>
+                            <div class="table-item__desc">
+                              <p
+                                class="table-item__desc-title"
+                                style="color: #000"
+                              >
+                                ROMA
+                              </p>
+                              <p class="table-item__desc-subtitle">
+                                Full and Balanced
+                              </p>
+                              <p class="table-item__desc-subtitle">
+                                Intensity 8
+                              </p>
+                            </div>
+                            <div class="table-item__btn">
+                              <p class="table-item__btn-price">₫15500</p>
 
-                    <div class="table-paragraph">
-                      <h2>
-                        Ispirazione Roma is inspired by the different layers of
-                        civilization towering up to the present day, where the
-                        Modern adds its layer of elegance to the history of the
-                        city. The coffee has a popular taste forged by time and
-                        the rich southern Italian influences, enlivened by a
-                        dash of modern elegance found in its delicate acidity.
-                        <strong>Roman</strong> roasters shrewdly developed their
-                        roasting techniques to achieve an aromatic profile that
-                        wisely combined the popular ancient taste with a twist
-                        of modernity. To mirror their skill, we gave Ispirazione
-                        <strong>Roma</strong> the shortest and lightest roast of
-                        our range. It results in a subtle balance between the
-                        intensity and depth of the woodsy, cereal notes, and the
-                        finesse of the acidity and elegant aromatics - true to
-                        Rome’s rich history of contrasts.. A shot of this
-                        Intenso coffee and you’re headed straight into a virtual
-                        Roman holiday.
-                      </h2>
+                              <span class="table-item__btn-add">
+                                <svg
+                                  width="24"
+                                  height="24"
+                                  viewBox="0 0 24 24"
+                                  fill="none"
+                                  xmlns="http://www.w3.org/2000/svg"
+                                >
+                                  <path
+                                    fill-rule="evenodd"
+                                    clip-rule="evenodd"
+                                    d="M12 6C12.5523 6 13 6.44772 13 7V17C13 17.5523 12.5523 18 12 18C11.4477 18 11 17.5523 11 17V7C11 6.44772 11.4477 6 12 6Z"
+                                    fill="white"
+                                  />
+                                  <path
+                                    fill-rule="evenodd"
+                                    clip-rule="evenodd"
+                                    d="M6 12C6 11.4477 6.44772 11 7 11H17C17.5523 11 18 11.4477 18 12C18 12.5523 17.5523 13 17 13H7C6.44772 13 6 12.5523 6 12Z"
+                                    fill="white"
+                                  />
+                                </svg>
+                              </span>
+                            </div>
+                          </router-link>
+                        </li>
+                        <li class="table-item open-rigtCol">
+                          <router-link to="Roma">
+                            <div class="table-item__image">
+                              <img
+                                src="../assets/images/coffee-original/item.png"
+                                alt="ROMA"
+                              />
+                            </div>
+                            <div class="table-item__desc">
+                              <p
+                                class="table-item__desc-title"
+                                style="color: #000"
+                              >
+                                ROMA
+                              </p>
+                              <p class="table-item__desc-subtitle">
+                                Full and Balanced
+                              </p>
+                              <p class="table-item__desc-subtitle">
+                                Intensity 8
+                              </p>
+                            </div>
+                            <div class="table-item__btn">
+                              <p class="table-item__btn-price">₫15500</p>
+
+                              <span class="table-item__btn-add">
+                                <svg
+                                  width="24"
+                                  height="24"
+                                  viewBox="0 0 24 24"
+                                  fill="none"
+                                  xmlns="http://www.w3.org/2000/svg"
+                                >
+                                  <path
+                                    fill-rule="evenodd"
+                                    clip-rule="evenodd"
+                                    d="M12 6C12.5523 6 13 6.44772 13 7V17C13 17.5523 12.5523 18 12 18C11.4477 18 11 17.5523 11 17V7C11 6.44772 11.4477 6 12 6Z"
+                                    fill="white"
+                                  />
+                                  <path
+                                    fill-rule="evenodd"
+                                    clip-rule="evenodd"
+                                    d="M6 12C6 11.4477 6.44772 11 7 11H17C17.5523 11 18 11.4477 18 12C18 12.5523 17.5523 13 17 13H7C6.44772 13 6 12.5523 6 12Z"
+                                    fill="white"
+                                  />
+                                </svg>
+                              </span>
+                            </div>
+                          </router-link>
+                        </li>
+                        <li class="table-item open-rigtCol">
+                          <router-link to="Roma">
+                            <div class="table-item__image">
+                              <img
+                                src="../assets/images/coffee-original/item.png"
+                                alt="ROMA"
+                              />
+                            </div>
+                            <div class="table-item__desc">
+                              <p
+                                class="table-item__desc-title"
+                                style="color: #000"
+                              >
+                                ROMA
+                              </p>
+                              <p class="table-item__desc-subtitle">
+                                Full and Balanced
+                              </p>
+                              <p class="table-item__desc-subtitle">
+                                Intensity 8
+                              </p>
+                            </div>
+                            <div class="table-item__btn">
+                              <p class="table-item__btn-price">₫15500</p>
+
+                              <span class="table-item__btn-add">
+                                <svg
+                                  width="24"
+                                  height="24"
+                                  viewBox="0 0 24 24"
+                                  fill="none"
+                                  xmlns="http://www.w3.org/2000/svg"
+                                >
+                                  <path
+                                    fill-rule="evenodd"
+                                    clip-rule="evenodd"
+                                    d="M12 6C12.5523 6 13 6.44772 13 7V17C13 17.5523 12.5523 18 12 18C11.4477 18 11 17.5523 11 17V7C11 6.44772 11.4477 6 12 6Z"
+                                    fill="white"
+                                  />
+                                  <path
+                                    fill-rule="evenodd"
+                                    clip-rule="evenodd"
+                                    d="M6 12C6 11.4477 6.44772 11 7 11H17C17.5523 11 18 11.4477 18 12C18 12.5523 17.5523 13 17 13H7C6.44772 13 6 12.5523 6 12Z"
+                                    fill="white"
+                                  />
+                                </svg>
+                              </span>
+                            </div>
+                          </router-link>
+                        </li>
+                        <li class="table-item open-rigtCol">
+                          <router-link to="Roma">
+                            <div class="table-item__image">
+                              <img
+                                src="../assets/images/coffee-original/item.png"
+                                alt="ROMA"
+                              />
+                            </div>
+                            <div class="table-item__desc">
+                              <p
+                                class="table-item__desc-title"
+                                style="color: #000"
+                              >
+                                ROMA
+                              </p>
+                              <p class="table-item__desc-subtitle">
+                                Full and Balanced
+                              </p>
+                              <p class="table-item__desc-subtitle">
+                                Intensity 8
+                              </p>
+                            </div>
+                            <div class="table-item__btn">
+                              <p class="table-item__btn-price">₫15500</p>
+
+                              <span class="table-item__btn-add">
+                                <svg
+                                  width="24"
+                                  height="24"
+                                  viewBox="0 0 24 24"
+                                  fill="none"
+                                  xmlns="http://www.w3.org/2000/svg"
+                                >
+                                  <path
+                                    fill-rule="evenodd"
+                                    clip-rule="evenodd"
+                                    d="M12 6C12.5523 6 13 6.44772 13 7V17C13 17.5523 12.5523 18 12 18C11.4477 18 11 17.5523 11 17V7C11 6.44772 11.4477 6 12 6Z"
+                                    fill="white"
+                                  />
+                                  <path
+                                    fill-rule="evenodd"
+                                    clip-rule="evenodd"
+                                    d="M6 12C6 11.4477 6.44772 11 7 11H17C17.5523 11 18 11.4477 18 12C18 12.5523 17.5523 13 17 13H7C6.44772 13 6 12.5523 6 12Z"
+                                    fill="white"
+                                  />
+                                </svg>
+                              </span>
+                            </div>
+                          </router-link>
+                        </li>
+                        <li class="table-item open-rigtCol">
+                          <router-link to="Roma">
+                            <div class="table-item__image">
+                              <img
+                                src="../assets/images/coffee-original/item.png"
+                                alt="ROMA"
+                              />
+                            </div>
+                            <div class="table-item__desc">
+                              <p
+                                class="table-item__desc-title"
+                                style="color: #000"
+                              >
+                                ROMA
+                              </p>
+                              <p class="table-item__desc-subtitle">
+                                Full and Balanced
+                              </p>
+                              <p class="table-item__desc-subtitle">
+                                Intensity 8
+                              </p>
+                            </div>
+                            <div class="table-item__btn">
+                              <p class="table-item__btn-price">₫15500</p>
+
+                              <span class="table-item__btn-add">
+                                <svg
+                                  width="24"
+                                  height="24"
+                                  viewBox="0 0 24 24"
+                                  fill="none"
+                                  xmlns="http://www.w3.org/2000/svg"
+                                >
+                                  <path
+                                    fill-rule="evenodd"
+                                    clip-rule="evenodd"
+                                    d="M12 6C12.5523 6 13 6.44772 13 7V17C13 17.5523 12.5523 18 12 18C11.4477 18 11 17.5523 11 17V7C11 6.44772 11.4477 6 12 6Z"
+                                    fill="white"
+                                  />
+                                  <path
+                                    fill-rule="evenodd"
+                                    clip-rule="evenodd"
+                                    d="M6 12C6 11.4477 6.44772 11 7 11H17C17.5523 11 18 11.4477 18 12C18 12.5523 17.5523 13 17 13H7C6.44772 13 6 12.5523 6 12Z"
+                                    fill="white"
+                                  />
+                                </svg>
+                              </span>
+                            </div>
+                          </router-link>
+                        </li>
+                        <li class="table-item open-rigtCol">
+                          <router-link to="Roma">
+                            <div class="table-item__image">
+                              <img
+                                src="../assets/images/coffee-original/item.png"
+                                alt="ROMA"
+                              />
+                            </div>
+                            <div class="table-item__desc">
+                              <p
+                                class="table-item__desc-title"
+                                style="color: #000"
+                              >
+                                ROMA
+                              </p>
+                              <p class="table-item__desc-subtitle">
+                                Full and Balanced
+                              </p>
+                              <p class="table-item__desc-subtitle">
+                                Intensity 8
+                              </p>
+                            </div>
+                            <div class="table-item__btn">
+                              <p class="table-item__btn-price">₫15500</p>
+
+                              <span class="table-item__btn-add">
+                                <svg
+                                  width="24"
+                                  height="24"
+                                  viewBox="0 0 24 24"
+                                  fill="none"
+                                  xmlns="http://www.w3.org/2000/svg"
+                                >
+                                  <path
+                                    fill-rule="evenodd"
+                                    clip-rule="evenodd"
+                                    d="M12 6C12.5523 6 13 6.44772 13 7V17C13 17.5523 12.5523 18 12 18C11.4477 18 11 17.5523 11 17V7C11 6.44772 11.4477 6 12 6Z"
+                                    fill="white"
+                                  />
+                                  <path
+                                    fill-rule="evenodd"
+                                    clip-rule="evenodd"
+                                    d="M6 12C6 11.4477 6.44772 11 7 11H17C17.5523 11 18 11.4477 18 12C18 12.5523 17.5523 13 17 13H7C6.44772 13 6 12.5523 6 12Z"
+                                    fill="white"
+                                  />
+                                </svg>
+                              </span>
+                            </div>
+                          </router-link>
+                        </li>
+                        <li class="table-item open-rigtCol">
+                          <router-link to="Roma">
+                            <div class="table-item__image">
+                              <img
+                                src="../assets/images/coffee-original/item.png"
+                                alt="ROMA"
+                              />
+                            </div>
+                            <div class="table-item__desc">
+                              <p
+                                class="table-item__desc-title"
+                                style="color: #000"
+                              >
+                                ROMA
+                              </p>
+                              <p class="table-item__desc-subtitle">
+                                Full and Balanced
+                              </p>
+                              <p class="table-item__desc-subtitle">
+                                Intensity 8
+                              </p>
+                            </div>
+                            <div class="table-item__btn">
+                              <p class="table-item__btn-price">₫15500</p>
+
+                              <span class="table-item__btn-add">
+                                <svg
+                                  width="24"
+                                  height="24"
+                                  viewBox="0 0 24 24"
+                                  fill="none"
+                                  xmlns="http://www.w3.org/2000/svg"
+                                >
+                                  <path
+                                    fill-rule="evenodd"
+                                    clip-rule="evenodd"
+                                    d="M12 6C12.5523 6 13 6.44772 13 7V17C13 17.5523 12.5523 18 12 18C11.4477 18 11 17.5523 11 17V7C11 6.44772 11.4477 6 12 6Z"
+                                    fill="white"
+                                  />
+                                  <path
+                                    fill-rule="evenodd"
+                                    clip-rule="evenodd"
+                                    d="M6 12C6 11.4477 6.44772 11 7 11H17C17.5523 11 18 11.4477 18 12C18 12.5523 17.5523 13 17 13H7C6.44772 13 6 12.5523 6 12Z"
+                                    fill="white"
+                                  />
+                                </svg>
+                              </span>
+                            </div>
+                          </router-link>
+                        </li>
+                        <li class="table-item open-rigtCol">
+                          <router-link to="Roma">
+                            <div class="table-item__image">
+                              <img
+                                src="../assets/images/coffee-original/item.png"
+                                alt="ROMA"
+                              />
+                            </div>
+                            <div class="table-item__desc">
+                              <p
+                                class="table-item__desc-title"
+                                style="color: #000"
+                              >
+                                ROMA
+                              </p>
+                              <p class="table-item__desc-subtitle">
+                                Full and Balanced
+                              </p>
+                              <p class="table-item__desc-subtitle">
+                                Intensity 8
+                              </p>
+                            </div>
+                            <div class="table-item__btn">
+                              <p class="table-item__btn-price">₫15500</p>
+
+                              <span class="table-item__btn-add">
+                                <svg
+                                  width="24"
+                                  height="24"
+                                  viewBox="0 0 24 24"
+                                  fill="none"
+                                  xmlns="http://www.w3.org/2000/svg"
+                                >
+                                  <path
+                                    fill-rule="evenodd"
+                                    clip-rule="evenodd"
+                                    d="M12 6C12.5523 6 13 6.44772 13 7V17C13 17.5523 12.5523 18 12 18C11.4477 18 11 17.5523 11 17V7C11 6.44772 11.4477 6 12 6Z"
+                                    fill="white"
+                                  />
+                                  <path
+                                    fill-rule="evenodd"
+                                    clip-rule="evenodd"
+                                    d="M6 12C6 11.4477 6.44772 11 7 11H17C17.5523 11 18 11.4477 18 12C18 12.5523 17.5523 13 17 13H7C6.44772 13 6 12.5523 6 12Z"
+                                    fill="white"
+                                  />
+                                </svg>
+                              </span>
+                            </div>
+                          </router-link>
+                        </li>
+                      </ul>
                     </div>
                   </div>
+                </div>
 
-                  <div class="table-btn">
-                    <span class="table-btn__price">₫15500</span>
-                    <div class="table-btn__add">
-                      <svg
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          fill-rule="evenodd"
-                          clip-rule="evenodd"
-                          d="M8 3.75C8 1.67889 9.67889 0 11.75 0C13.8211 0 15.5 1.67889 15.5 3.75V6H20.75L21.5 24H2L2.75 6H8V3.75ZM8.75 6H14.75V3.75C14.75 2.09317 13.4068 0.75 11.75 0.75C10.0932 0.75 8.75 2.09317 8.75 3.75V6Z"
-                          fill="white"
+                <div class="rightCol">
+                  <div class="table">
+                    <div class="table-banner">
+                      <button class="popin-back btn-back">
+                        <svg
+                          width="24"
+                          height="24"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <g clip-path="url(#clip0_1_4)">
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M15.7941 22.9044C15.5708 23.0668 15.2581 23.0174 15.0956 22.7941L7.09563 11.7941C6.96812 11.6188 6.96812 11.3812 7.09563 11.2059L15.0956 0.205914C15.2581 -0.0174112 15.5708 -0.0667868 15.7941 0.0956335C16.0174 0.258052 16.0668 0.57076 15.9044 0.794087L8.11825 11.5L15.9044 22.2059C16.0668 22.4292 16.0174 22.7419 15.7941 22.9044Z"
+                              fill="black"
+                            />
+                          </g>
+                          <defs>
+                            <clipPath id="clip0_1_4">
+                              <rect
+                                width="24"
+                                height="24"
+                                fill="white"
+                                transform="matrix(-1 0 0 -1 24 24)"
+                              />
+                            </clipPath>
+                          </defs>
+                        </svg>
+                      </button>
+                      <div class="table-banner__product">
+                        <div class="table-banner__image"></div>
+                      </div>
+                    </div>
+
+                    <div class="table-subtitle">
+                      <h3>Roma</h3>
+                      <p>Full and Balanced</p>
+                      <p>Intensity 8</p>
+                    </div>
+                    <div class="table-inner">
+                      <div class="table-section">
+                        <h2 class="table-title">FULL AND BALANCED</h2>
+
+                        <div class="flex-container table-attribute">
+                          <div class="flex-item table-attribute__properties">
+                            <ul>
+                              <li>
+                                <h3>Roastiness</h3>
+                                ■ ■ ■ □ □
+                              </li>
+                              <li>
+                                <h3>Acidity</h3>
+                                ■ ■ ■ ■ □
+                              </li>
+                            </ul>
+                          </div>
+
+                          <div class="flex-item table-attribute__capsule">
+                            <img
+                              src="../assets/images/coffee-original/capsules.png"
+                              alt=""
+                            />
+                          </div>
+
+                          <div class="flex-item table-attribute__properties">
+                            <ul>
+                              <li>
+                                <h3>Bitterness</h3>
+                                ■ ■ ■ ■ □
+                              </li>
+                              <li>
+                                <h3>Body</h3>
+                                ■ ■ ■ □ □
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="table-keyvisual">
+                        <img
+                          class="table-keyvisual__mobile"
+                          src="../assets/images/coffee-original/kv_roma_S.jpg"
                         />
-                      </svg>
-                      <span>Add to cart</span>
-                      <svg
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          fill-rule="evenodd"
-                          clip-rule="evenodd"
-                          d="M12 6C12.5523 6 13 6.44772 13 7V17C13 17.5523 12.5523 18 12 18C11.4477 18 11 17.5523 11 17V7C11 6.44772 11.4477 6 12 6Z"
-                          fill="white"
+                        <img
+                          class="table-keyvisual__desktop"
+                          src="../assets/images/coffee-original/kv_roma_L.png"
                         />
-                        <path
-                          fill-rule="evenodd"
-                          clip-rule="evenodd"
-                          d="M6 12C6 11.4477 6.44772 11 7 11H17C17.5523 11 18 11.4477 18 12C18 12.5523 17.5523 13 17 13H7C6.44772 13 6 12.5523 6 12Z"
-                          fill="white"
-                        />
-                      </svg>
+                      </div>
+
+                      <div class="table-paragraph">
+                        <h2>
+                          Ispirazione Roma is inspired by the different layers
+                          of civilization towering up to the present day, where
+                          the Modern adds its layer of elegance to the history
+                          of the city. The coffee has a popular taste forged by
+                          time and the rich southern Italian influences,
+                          enlivened by a dash of modern elegance found in its
+                          delicate acidity.
+                          <strong>Roman</strong> roasters shrewdly developed
+                          their roasting techniques to achieve an aromatic
+                          profile that wisely combined the popular ancient taste
+                          with a twist of modernity. To mirror their skill, we
+                          gave Ispirazione <strong>Roma</strong> the shortest
+                          and lightest roast of our range. It results in a
+                          subtle balance between the intensity and depth of the
+                          woodsy, cereal notes, and the finesse of the acidity
+                          and elegant aromatics - true to Rome’s rich history of
+                          contrasts.. A shot of this Intenso coffee and you’re
+                          headed straight into a virtual Roman holiday.
+                        </h2>
+                      </div>
+                    </div>
+
+                    <div class="table-btn">
+                      <span class="table-btn__price">₫15500</span>
+                      <div class="table-btn__add">
+                        <svg
+                          width="24"
+                          height="24"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                            d="M8 3.75C8 1.67889 9.67889 0 11.75 0C13.8211 0 15.5 1.67889 15.5 3.75V6H20.75L21.5 24H2L2.75 6H8V3.75ZM8.75 6H14.75V3.75C14.75 2.09317 13.4068 0.75 11.75 0.75C10.0932 0.75 8.75 2.09317 8.75 3.75V6Z"
+                            fill="white"
+                          />
+                        </svg>
+                        <span>Add to cart</span>
+                        <svg
+                          width="24"
+                          height="24"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                            d="M12 6C12.5523 6 13 6.44772 13 7V17C13 17.5523 12.5523 18 12 18C11.4477 18 11 17.5523 11 17V7C11 6.44772 11.4477 6 12 6Z"
+                            fill="white"
+                          />
+                          <path
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                            d="M6 12C6 11.4477 6.44772 11 7 11H17C17.5523 11 18 11.4477 18 12C18 12.5523 17.5523 13 17 13H7C6.44772 13 6 12.5523 6 12Z"
+                            fill="white"
+                          />
+                        </svg>
+                      </div>
                     </div>
                   </div>
                 </div>

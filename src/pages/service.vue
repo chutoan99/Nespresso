@@ -55,9 +55,8 @@ export default defineComponent({
   <div class="wrapper">
     <div class="wrapper-innner">
       <Header />
-      <!-- Header -->
       <Nav />
-      <!-- Navigation -->
+
       <main id="service">
         <div class="service container">
           <div></div>
@@ -878,7 +877,6 @@ export default defineComponent({
       </main>
 
       <Footer />
-      <!-- Footer -->
     </div>
   </div>
 </template>

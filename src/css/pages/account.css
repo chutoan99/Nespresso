@@ -128,7 +128,7 @@ html {
   border-radius: 2.5rem;
   border: none;
   cursor: pointer;
-  color: #FFFFFF;
+  color: #ffffff;
   text-transform: uppercase; }
 
 @media screen {
@@ -163,11 +163,7 @@ html {
     display: none !important; }
 
   .show_on-tab {
-    display: block !important; }
-
-  body {
-    font-size: calc( 10px + (96 - 10) * ((100vw - 1024) / (1440 - 1024)) ) !important;
-    line-height: calc( 10px + (96 - 10) * ((100vw - 1024) / (1440 - 1024)) ) !important; } }
+    display: block !important; } }
 /* Mobile: width < 768px */
 @media only screen and (max-width: 48rem) {
   .hide_on-mobile {
@@ -532,86 +528,68 @@ video {
 
 /* Tablet: width >= 768px and width < 1024px */
 @media only screen and (min-width: 48rem) and (max-width: 63.938rem) {
-  #account {
+  #account .account {
     margin-top: 3.125rem; }
-
-  .account_heading {
-    padding-left: 1.25rem;
-    padding-right: 1.25rem; }
-
-  .account_title {
-    padding-left: 1.25rem;
-    padding-right: 1.25rem; }
-
-  #account .account_body {
-    display: flex;
-    flex-direction: column;
-    padding-left: 1.25rem;
-    padding-right: 1.25rem;
-    gap: 1.25rem; }
-
-  .account_body-info-wrapper2 {
-    width: 100% !important; }
-
-  #account .account_body-info-img2 {
-    object-fit: COVER;
-    width: 55%;
-    background-position: center;
-    background-image: url(../../assets/images/account/backgound_account-detail-3.png) !important; }
-
-  .account_body {
-    overflow: hidden; } }
+    #account .account_heading {
+      padding-left: 1.25rem;
+      padding-right: 1.25rem; }
+    #account .account_title {
+      padding-left: 1.25rem;
+      padding-right: 1.25rem; }
+    #account .account_body {
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      padding-left: 1.25rem;
+      padding-right: 1.25rem;
+      gap: 1.25rem; }
+    #account .account_body-info-wrapper2 {
+      width: 100% !important; }
+    #account .account_body-info-img2 {
+      object-fit: COVER;
+      width: 55%;
+      background-position: center;
+      background-image: url(../../assets/images/account/backgound_account-detail-3.png) !important; } }
 /* Mobile: width < 768px */
 @media only screen and (max-width: 47.938em) {
   #account {
     margin-top: 3.125rem; }
-
-  .account_heading {
-    display: flex;
-    flex-direction: column;
-    gap: unset; }
-
-  .account_heading {
-    padding-left: 0.625rem;
-    padding-right: 0.625rem; }
-
-  .account_title {
-    padding-left: 0.625rem;
-    padding-right: 0.625rem; }
-
-  #account .account_body {
-    display: flex;
-    flex-direction: column;
-    padding-left: 0.625rem;
-    padding-right: 0.625rem;
-    gap: 1.25rem; }
-
-  .account_body-info-wrapper2 {
-    width: 100% !important; }
-
-  .account_body-login-field {
-    display: flex;
-    flex-direction: column;
-    gap: 0.3125rem !important; }
-    .account_body-login-field label {
+    #account .account_heading {
+      display: flex;
+      flex-direction: column;
+      gap: unset;
+      padding-left: 0.625rem;
+      padding-right: 0.625rem; }
+    #account .account_title {
+      padding-left: 0.625rem;
+      padding-right: 0.625rem; }
+    #account .account_body {
+      display: flex;
+      flex-direction: column;
+      padding-left: 0.625rem;
+      padding-right: 0.625rem;
+      gap: 1.25rem; }
+    #account .account_body-login-field {
+      display: flex;
+      flex-direction: column;
+      gap: 0.3125rem !important; }
+      #account .account_body-login-field label {
+        width: 100% !important; }
+    #account .account_body-info-wrapper {
       width: 100% !important; }
-
-  #account .account_body-login .field_mess div {
-    display: none; }
-
-  .account_body-login-btn {
-    width: 100% !important; }
-
-  .account_body-info-btn {
-    width: 100% !important; }
-
-  #account .account_body-info-img,
-  #account .account_body-info-img2 {
-    object-fit: COVER;
-    width: 55%;
-    background-position: center;
-    background-image: url(../../assets/images/account/backgound_account-detail-3.png) !important; }
-
-  .account_body-info-wrapper,
-  .account_body-info-img {
-    width: 100% !important; } }
+    #account .account_body-info-img {
+      width: 100% !important;
+      object-fit: COVER;
+      background-position: center;
+      background-image: url(../../assets/images/account/backgound_account-detail-3.png) !important; }
+    #account .account_body-info-btn {
+      width: 100% !important; }
+    #account .account_body-info-wrapper2 {
+      width: 100% !important; }
+    #account .account_body-info-img2 {
+      object-fit: COVER;
+      width: 55%;
+      background-position: center;
+      background-image: url(../../assets/images/account/backgound_account-detail-3.png) !important; }
+    #account .field_mess div {
+      display: none; } }

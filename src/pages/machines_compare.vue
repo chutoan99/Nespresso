@@ -18,13 +18,10 @@ export default defineComponent({
 <template>
   <div class="wrapper">
     <div class="wrapper-innner">
-      <!-- start header -->
       <Header />
-      <!-- end header -->
       <Nav />
-      <!-- end nav -->
 
-      <main id="main">
+      <main id="machines_compare">
         <div class="container">
           <section class="intro">
             <h3 class="intro-heading">COMPARE COFFEE MACHINES</h3>
@@ -504,9 +501,8 @@ export default defineComponent({
           </section>
         </div>
       </main>
-      <!-- start footer -->
+
       <Footer />
-      <!--end footer -->
     </div>
   </div>
 </template>

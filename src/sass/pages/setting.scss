@@ -66,23 +66,6 @@
     .aside-active {
       color: #876c43 !important;
     }
-    input[type="radio"] {
-      display: none;
-      &:checked {
-        + {
-          label {
-            transition: 0.5s;
-            color: $brown-600;
-            background-color: $black-800;
-            + {
-              .aside {
-                display: block;
-              }
-            }
-          }
-        }
-      }
-    }
   }
 }
 
@@ -111,28 +94,7 @@
       margin-right: 0.625rem;
       margin-left: 0.625rem;
     }
-    .form_btn {
-      button {
-        width: 100%;
-        border-radius: 0.3125rem !important;
-      }
-    }
-    .form_content {
-      display: flex !important;
-      gap: 0.3125rem;
-      flex-direction: column;
-      padding: 1rem !important;
-      .form_content-left {
-        flex: 1;
-        order: 1;
-      }
-      .form_content-btn {
-        button {
-          width: 100%;
-          border-radius: 0.3125rem !important;
-        }
-      }
-    }
+
     .setting_aside-select {
       display: block !important;
     }

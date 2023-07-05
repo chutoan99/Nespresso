@@ -153,12 +153,10 @@ export default defineComponent({
 <template>
   <div class="wrapper">
     <div class="wrapper-innner">
-      <!-- start header -->
       <Header />
-      <!-- end header -->
       <Nav />
-      <!-- end nav -->
-      <main>
+
+      <main id="professional">
         <div style="width: 100vw; display: flex; justify-content: center">
           <div class="professional_banner">
             <div class="professional_banner-item">

@@ -55,13 +55,9 @@ export default defineComponent({
 <template>
   <div class="wrapper">
     <div class="wrapper-innner">
-      <!-- start header -->
       <Header />
-      <!-- end header -->
       <Nav />
-      <!-- end nav -->
-
-      <main id="main">
+      <main id="benefits">
         <section class="benefits">
           <div class="background-1">
             <div class="benefits_frame container">
@@ -231,6 +227,7 @@ export default defineComponent({
             </div>
           </div>
         </section>
+
         <section class="benefits_frame2">
           <div class="benefits_frame2-wrapper container">
             <div class="benefits_frame2-item">
@@ -295,9 +292,7 @@ export default defineComponent({
           </div>
         </section>
       </main>
-      <!-- start footer -->
       <Footer />
-      <!--end footer -->
     </div>
   </div>
 </template>

@@ -25,10 +25,8 @@ export default defineComponent({
         </h2>
       </div>
       <Header />
-      <!-- Header -->
       <Nav />
-      <!-- Navigation -->
-      <main>
+      <main id="contact_us">
         <section class="tagLine-event">
           <svg
             width="28"
@@ -47,6 +45,7 @@ export default defineComponent({
             <span>MORE DETAILS.</span>
           </h3>
         </section>
+
         <section class="contact_frame">
           <div class="background-1">
             <div class="contact_frame-content container">
@@ -54,6 +53,7 @@ export default defineComponent({
             </div>
           </div>
         </section>
+
         <section class="form_wrapper">
           <div class="container">
             <form id="form">
@@ -149,7 +149,6 @@ export default defineComponent({
       </main>
 
       <Footer />
-      <!-- Footer -->
     </div>
   </div>
 </template>

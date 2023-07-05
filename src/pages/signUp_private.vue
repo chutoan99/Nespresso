@@ -28,7 +28,7 @@ export default defineComponent({
   <div class="wrapper">
     <div class="wrapper-inner">
       <HeaderCustom />
-      <main id="private">
+      <main id="signUp_private">
         <section class="private">
           <div class="private_wrapper">
             <div class="private_inner">

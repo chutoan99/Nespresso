@@ -31,13 +31,9 @@ export default defineComponent({
 <template>
   <div class="wrapper">
     <div class="wrapper-innner">
-      <!-- start header -->
       <Header />
-      <!-- end header -->
       <Nav />
-      <!-- end nav -->
 
-      <!-- end nav -->
       <main id="coffee-detail">
         <div class="product-detail">
           <div class="container">
@@ -364,7 +360,6 @@ export default defineComponent({
           </span>
         </div>
       </main>
-      <!-- start footer -->
       <Footer />
     </div>
   </div>

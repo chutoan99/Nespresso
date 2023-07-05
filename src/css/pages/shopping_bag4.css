@@ -61,7 +61,7 @@ html {
   font-size: 1.25rem;
   line-height: 2rem; }
 
-.font_heading-6, #shopping_bag #order .order_main .order_content-footer-item:first-child {
+.font_heading-6, #shopping_step_4 .order_main .order_content-footer-item:first-child {
   font-family: "Nespresso Lucas", Helvetica, Trebuchet, Arial, sans-serif;
   font-style: normal;
   font-size: 1.125rem;
@@ -82,21 +82,21 @@ html {
   line-height: 1.25rem;
   letter-spacing: 0.01em; }
 
-.font_body-1, #shopping_bag #order .order_label span {
+.font_body-1, #shopping_step_4 .order_label span {
   font-family: "Nespresso Lucas", Helvetica, Trebuchet, Arial, sans-serif;
   font-style: normal;
   font-size: 1rem;
   line-height: 1.5rem;
   letter-spacing: 0.005em; }
 
-.font_body-2, #shopping_bag #order .order_main .order_aside-label, #shopping_bag #order .order_main .order_content-label, #shopping_bag #order .order_main .order_content-body-item .item_info-name, #shopping_bag #order .order_main .order_content-body-item .item_price, #shopping_bag #order .order_main .order_content-body-item .item_quantity span, #shopping_bag #order .order_main .order_content-body-item .item_total {
+.font_body-2, #shopping_step_4 .order_main .order_aside-label, #shopping_step_4 .order_main .order_content-label, #shopping_step_4 .order_main .order_content-body-item .item_info-name, #shopping_step_4 .order_main .order_content-body-item .item_price, #shopping_step_4 .order_main .order_content-body-item .item_quantity span, #shopping_step_4 .order_main .order_content-body-item .item_total {
   font-family: "Nespresso Lucas", Helvetica, Trebuchet, Arial, sans-serif;
   font-style: normal;
   font-size: 0.875rem;
   line-height: 1.25rem;
   letter-spacing: 0.0025em; }
 
-.font_caption, #shopping_bag #order .order_main .order_aside-footer-title span:first-child, #shopping_bag #order .order_main .order_aside-footer-title span:last-child, #shopping_bag #order .order_main .order_content-header-item, #shopping_bag #order .order_main .order_content-body-item .item, #shopping_bag #order .order_main .order_content-wrapper-item span, #shopping_bag #order .order_main .order_content-wrapper-item label, #shopping_bag #order .order_main .order_content-check span, #shopping_bag #order .order_main .order_content-check a {
+.font_caption, #shopping_step_4 .order_main .order_aside-footer-title span:first-child, #shopping_step_4 .order_main .order_aside-footer-title span:last-child, #shopping_step_4 .order_main .order_content-header-item, #shopping_step_4 .order_main .order_content-body-item .item, #shopping_step_4 .order_main .order_content-wrapper-item span, #shopping_step_4 .order_main .order_content-wrapper-item label, #shopping_step_4 .order_main .order_content-check span, #shopping_step_4 .order_main .order_content-check a {
   font-family: "Nespresso Lucas", Helvetica, Trebuchet, Arial, sans-serif;
   font-style: normal;
   font-size: 0.75rem;
@@ -110,7 +110,7 @@ html {
   line-height: 1rem;
   letter-spacing: 0.0938rem; }
 
-.font_button, #shopping_bag #order .order_main .order_aside-content-info h5, #shopping_bag #order .order_main .order_aside-content-info ul li, #shopping_bag #order .order_main .order_aside-content-edit span, #shopping_bag #order .order_main .order_aside-btn button span, #shopping_bag #order .order_main .order_aside-email span, #shopping_bag #order .order_main .order_content-footer-item:last-child, #shopping_bag #order .order_main .order_content .order_footer-back a, #shopping_bag #order .order_main .order_content .order_footer-button button a {
+.font_button, #shopping_step_4 .order_main .order_aside-content-info h5, #shopping_step_4 .order_main .order_aside-content-info ul li, #shopping_step_4 .order_main .order_aside-content-edit span, #shopping_step_4 .order_main .order_aside-btn button span, #shopping_step_4 .order_main .order_aside-email span, #shopping_step_4 .order_main .order_content-footer-item:last-child, #shopping_step_4 .order_main .order_content .order_footer-back a, #shopping_step_4 .order_main .order_content .order_footer-button button a {
   font-family: "Nespresso Lucas", Helvetica, Trebuchet, Arial, sans-serif;
   font-style: normal;
   font-size: 0.875rem;
@@ -128,7 +128,7 @@ html {
   border-radius: 2.5rem;
   border: none;
   cursor: pointer;
-  color: #FFFFFF;
+  color: #ffffff;
   text-transform: uppercase; }
 
 @media screen {
@@ -163,11 +163,7 @@ html {
     display: none !important; }
 
   .show_on-tab {
-    display: block !important; }
-
-  body {
-    font-size: calc( 10px + (96 - 10) * ((100vw - 1024) / (1440 - 1024)) ) !important;
-    line-height: calc( 10px + (96 - 10) * ((100vw - 1024) / (1440 - 1024)) ) !important; } }
+    display: block !important; } }
 /* Mobile: width < 768px */
 @media only screen and (max-width: 48rem) {
   .hide_on-mobile {
@@ -200,7 +196,7 @@ html {
     font-size: 1.25rem;
     line-height: 2rem; }
 
-  .font_heading-6, #shopping_bag #order .order_main .order_content-footer-item:first-child {
+  .font_heading-6, #shopping_step_4 .order_main .order_content-footer-item:first-child {
     font-size: 1rem;
     line-height: 1.5rem;
     letter-spacing: 0.0015em; }
@@ -215,17 +211,17 @@ html {
     line-height: 1.25rem;
     letter-spacing: 0.01em; }
 
-  .font_body-1, #shopping_bag #order .order_label span {
+  .font_body-1, #shopping_step_4 .order_label span {
     font-size: 1rem;
     line-height: 1.5rem;
     letter-spacing: 0.005em; }
 
-  .font_body-2, #shopping_bag #order .order_main .order_aside-label, #shopping_bag #order .order_main .order_content-label, #shopping_bag #order .order_main .order_content-body-item .item_info-name, #shopping_bag #order .order_main .order_content-body-item .item_price, #shopping_bag #order .order_main .order_content-body-item .item_quantity span, #shopping_bag #order .order_main .order_content-body-item .item_total {
+  .font_body-2, #shopping_step_4 .order_main .order_aside-label, #shopping_step_4 .order_main .order_content-label, #shopping_step_4 .order_main .order_content-body-item .item_info-name, #shopping_step_4 .order_main .order_content-body-item .item_price, #shopping_step_4 .order_main .order_content-body-item .item_quantity span, #shopping_step_4 .order_main .order_content-body-item .item_total {
     font-size: 0.875rem;
     line-height: 1.25rem;
     letter-spacing: 0.0025em; }
 
-  .font_caption, #shopping_bag #order .order_main .order_aside-footer-title span:first-child, #shopping_bag #order .order_main .order_aside-footer-title span:last-child, #shopping_bag #order .order_main .order_content-header-item, #shopping_bag #order .order_main .order_content-body-item .item, #shopping_bag #order .order_main .order_content-wrapper-item span, #shopping_bag #order .order_main .order_content-wrapper-item label, #shopping_bag #order .order_main .order_content-check span, #shopping_bag #order .order_main .order_content-check a {
+  .font_caption, #shopping_step_4 .order_main .order_aside-footer-title span:first-child, #shopping_step_4 .order_main .order_aside-footer-title span:last-child, #shopping_step_4 .order_main .order_content-header-item, #shopping_step_4 .order_main .order_content-body-item .item, #shopping_step_4 .order_main .order_content-wrapper-item span, #shopping_step_4 .order_main .order_content-wrapper-item label, #shopping_step_4 .order_main .order_content-check span, #shopping_step_4 .order_main .order_content-check a {
     font-size: 0.75rem;
     line-height: 1rem;
     letter-spacing: 0.025rem; }
@@ -235,7 +231,7 @@ html {
     line-height: 1rem;
     letter-spacing: 0.0938rem; }
 
-  .font_button, #shopping_bag #order .order_main .order_aside-content-info h5, #shopping_bag #order .order_main .order_aside-content-info ul li, #shopping_bag #order .order_main .order_aside-content-edit span, #shopping_bag #order .order_main .order_aside-btn button span, #shopping_bag #order .order_main .order_aside-email span, #shopping_bag #order .order_main .order_content-footer-item:last-child, #shopping_bag #order .order_main .order_content .order_footer-back a, #shopping_bag #order .order_main .order_content .order_footer-button button a {
+  .font_button, #shopping_step_4 .order_main .order_aside-content-info h5, #shopping_step_4 .order_main .order_aside-content-info ul li, #shopping_step_4 .order_main .order_aside-content-edit span, #shopping_step_4 .order_main .order_aside-btn button span, #shopping_step_4 .order_main .order_aside-email span, #shopping_step_4 .order_main .order_content-footer-item:last-child, #shopping_step_4 .order_main .order_content .order_footer-back a, #shopping_step_4 .order_main .order_content .order_footer-button button a {
     font-size: 0.875rem;
     line-height: 1.25rem;
     letter-spacing: 0.0781rem; } }
@@ -354,10 +350,10 @@ video {
     transform: translateY(100%); }
   to {
     transform: translate(0); } }
-#shopping_bag #order {
+#shopping_step_4 {
   margin-top: 0.75rem;
   margin-bottom: 3.125rem; }
-  #shopping_bag #order .order_label {
+  #shopping_step_4 .order_label {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -366,52 +362,52 @@ video {
     height: 3.5rem;
     background: #f3eee6;
     gap: 0.75rem; }
-    #shopping_bag #order .order_label span {
+    #shopping_step_4 .order_label span {
       font-weight: 500;
       color: #17171a; }
-  #shopping_bag #order .order_main {
+  #shopping_step_4 .order_main {
     margin-top: 0.75rem;
     display: grid;
     grid-template-columns: 4fr 8fr;
     column-gap: 1.5rem;
     height: 100%; }
-    #shopping_bag #order .order_main .order_aside-label {
+    #shopping_step_4 .order_main .order_aside-label {
       padding: 1rem;
       background: #c5c5c5;
       font-weight: 700;
       color: #17171a; }
-    #shopping_bag #order .order_main .order_aside-content {
+    #shopping_step_4 .order_main .order_aside-content {
       padding: 1rem;
       height: 11.125rem;
       display: flex;
       justify-content: space-between;
       flex-direction: column;
       background: #ffffff; }
-      #shopping_bag #order .order_main .order_aside-content-info h5 {
+      #shopping_step_4 .order_main .order_aside-content-info h5 {
         font-weight: 400;
         color: #6f6f70; }
-        #shopping_bag #order .order_main .order_aside-content-info h5:last-child {
+        #shopping_step_4 .order_main .order_aside-content-info h5:last-child {
           margin-top: 0.75rem; }
-      #shopping_bag #order .order_main .order_aside-content-info ul {
+      #shopping_step_4 .order_main .order_aside-content-info ul {
         margin-top: 0.3125rem;
         padding-left: 1.25rem; }
-        #shopping_bag #order .order_main .order_aside-content-info ul li {
+        #shopping_step_4 .order_main .order_aside-content-info ul li {
           font-weight: 600;
           color: #17171a; }
-      #shopping_bag #order .order_main .order_aside-content-edit {
+      #shopping_step_4 .order_main .order_aside-content-edit {
         display: flex;
         align-items: center;
         width: 100%;
         gap: 0.5rem;
         height: 2.5rem; }
-        #shopping_bag #order .order_main .order_aside-content-edit span {
+        #shopping_step_4 .order_main .order_aside-content-edit span {
           font-weight: 600;
           color: #8f7247; }
-        #shopping_bag #order .order_main .order_aside-content-edit:hover {
+        #shopping_step_4 .order_main .order_aside-content-edit:hover {
           cursor: pointer;
           opacity: 0.8;
           transition: 0.3s; }
-    #shopping_bag #order .order_main .order_aside-btn button {
+    #shopping_step_4 .order_main .order_aside-btn button {
       display: flex;
       justify-content: center;
       align-items: center;
@@ -420,131 +416,131 @@ video {
       border: 0.0625rem solid #000000;
       border-radius: 2.5rem;
       padding: 1rem 1.5rem; }
-      #shopping_bag #order .order_main .order_aside-btn button span {
+      #shopping_step_4 .order_main .order_aside-btn button span {
         margin-right: 1rem;
         font-weight: 600;
         color: #17171a; }
-      #shopping_bag #order .order_main .order_aside-btn button:hover {
+      #shopping_step_4 .order_main .order_aside-btn button:hover {
         cursor: pointer;
         background-color: #c5c5c5;
         transition: 0.3s; }
-    #shopping_bag #order .order_main .order_aside-footer {
+    #shopping_step_4 .order_main .order_aside-footer {
       margin-top: 1.75rem;
       display: flex;
       gap: 0.625rem;
       align-items: center; }
-      #shopping_bag #order .order_main .order_aside-footer-title {
+      #shopping_step_4 .order_main .order_aside-footer-title {
         display: flex;
         flex-direction: column; }
-        #shopping_bag #order .order_main .order_aside-footer-title span:first-child {
+        #shopping_step_4 .order_main .order_aside-footer-title span:first-child {
           font-weight: 600;
           color: #17171a; }
-        #shopping_bag #order .order_main .order_aside-footer-title span:last-child {
+        #shopping_step_4 .order_main .order_aside-footer-title span:last-child {
           font-weight: 500;
           color: #17171a; }
-    #shopping_bag #order .order_main .order_aside-payment {
+    #shopping_step_4 .order_main .order_aside-payment {
       height: 4.5rem;
       padding: 16px 0px 16px 0px;
       gap: 8px; }
-      #shopping_bag #order .order_main .order_aside-payment .icon_google {
+      #shopping_step_4 .order_main .order_aside-payment .icon_google {
         width: 2.5rem;
         height: 0.9375rem; }
-      #shopping_bag #order .order_main .order_aside-payment_main-left {
+      #shopping_step_4 .order_main .order_aside-payment_main-left {
         display: flex;
         align-items: center;
         padding: 0rem;
         gap: 0.25rem;
         width: 3.75rem;
         height: 2.5rem; }
-        #shopping_bag #order .order_main .order_aside-payment_main-left-img {
+        #shopping_step_4 .order_main .order_aside-payment_main-left-img {
           width: 2.5rem;
           height: 2.5rem; }
-          #shopping_bag #order .order_main .order_aside-payment_main-left-img img {
+          #shopping_step_4 .order_main .order_aside-payment_main-left-img img {
             width: 100%;
             height: 100%; }
-          #shopping_bag #order .order_main .order_aside-payment_main-left-img svg {
+          #shopping_step_4 .order_main .order_aside-payment_main-left-img svg {
             width: 100%;
             height: 100%; }
-    #shopping_bag #order .order_main .order_aside-email {
+    #shopping_step_4 .order_main .order_aside-email {
       margin-top: 0.625rem;
       display: flex;
       align-items: center;
       width: 100%;
       gap: 0.5rem;
       height: 2.5rem; }
-      #shopping_bag #order .order_main .order_aside-email span {
+      #shopping_step_4 .order_main .order_aside-email span {
         font-weight: 600;
         color: #8f7247; }
-      #shopping_bag #order .order_main .order_aside-email:hover {
+      #shopping_step_4 .order_main .order_aside-email:hover {
         cursor: pointer;
         opacity: 0.5;
         transition: 0.3; }
-    #shopping_bag #order .order_main .order_content-label {
+    #shopping_step_4 .order_main .order_content-label {
       padding: 1rem;
       background: #c5c5c5;
       font-weight: 700;
       color: #17171a; }
-    #shopping_bag #order .order_main .order_content-header {
+    #shopping_step_4 .order_main .order_content-header {
       display: grid;
       grid-template-columns: repeat(4, 1fr);
       grid-template-rows: 1fr;
       height: 100%;
       height: 2.5rem;
       background: #d5d5d5; }
-      #shopping_bag #order .order_main .order_content-header-item {
+      #shopping_step_4 .order_main .order_content-header-item {
         display: flex;
         justify-content: center;
         align-items: center;
         padding: 0.75rem 1rem;
         font-weight: 700;
         color: #17171a; }
-        #shopping_bag #order .order_main .order_content-header-item:last-child {
+        #shopping_step_4 .order_main .order_content-header-item:last-child {
           justify-content: end !important; }
-    #shopping_bag #order .order_main .order_content-body {
+    #shopping_step_4 .order_main .order_content-body {
       height: 5rem;
       border-bottom: 0.0625rem solid #e6e6e6; }
-      #shopping_bag #order .order_main .order_content-body-item {
+      #shopping_step_4 .order_main .order_content-body-item {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: 1fr;
         height: 100%; }
-        #shopping_bag #order .order_main .order_content-body-item .item {
+        #shopping_step_4 .order_main .order_content-body-item .item {
           padding: 0.75rem 1rem;
           font-weight: 700;
           color: #17171a; }
-          #shopping_bag #order .order_main .order_content-body-item .item_info {
+          #shopping_step_4 .order_main .order_content-body-item .item_info {
             display: flex;
             align-items: center;
             gap: 1rem;
             height: 100%;
             width: 100%;
             padding-left: 0.75rem; }
-            #shopping_bag #order .order_main .order_content-body-item .item_info-img {
+            #shopping_step_4 .order_main .order_content-body-item .item_info-img {
               width: 3.5rem;
               height: 3.5rem; }
-              #shopping_bag #order .order_main .order_content-body-item .item_info-img img {
+              #shopping_step_4 .order_main .order_content-body-item .item_info-img img {
                 width: 100%;
                 height: 100%; }
-              #shopping_bag #order .order_main .order_content-body-item .item_info-img:hover {
+              #shopping_step_4 .order_main .order_content-body-item .item_info-img:hover {
                 cursor: pointer;
                 opacity: 0.5;
                 transition: 0.3; }
-            #shopping_bag #order .order_main .order_content-body-item .item_info-name {
+            #shopping_step_4 .order_main .order_content-body-item .item_info-name {
               padding: 0.75rem 1rem;
               font-weight: 700;
               color: #17171a; }
-          #shopping_bag #order .order_main .order_content-body-item .item_price {
+          #shopping_step_4 .order_main .order_content-body-item .item_price {
             display: flex;
             justify-content: center;
             align-items: center;
             padding: 0.75rem 1rem;
             font-weight: 400;
             color: #876c43; }
-          #shopping_bag #order .order_main .order_content-body-item .item_quantity {
+          #shopping_step_4 .order_main .order_content-body-item .item_quantity {
             display: flex;
             justify-content: center;
             align-items: center; }
-            #shopping_bag #order .order_main .order_content-body-item .item_quantity span {
+            #shopping_step_4 .order_main .order_content-body-item .item_quantity span {
               display: flex;
               align-items: center;
               justify-content: center;
@@ -554,90 +550,90 @@ video {
               height: 2.5rem;
               background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #3d8705;
               border-radius: 0.25rem; }
-          #shopping_bag #order .order_main .order_content-body-item .item_total {
+          #shopping_step_4 .order_main .order_content-body-item .item_total {
             display: flex;
             justify-content: end;
             align-items: center;
             padding: 0.75rem 1rem;
             font-weight: 400;
             color: #876c43; }
-    #shopping_bag #order .order_main .order_content-wrapper {
+    #shopping_step_4 .order_main .order_content-wrapper {
       border-bottom: 0.0625rem solid #e6e6e6; }
-    #shopping_bag #order .order_main .order_content-wrapper-item {
+    #shopping_step_4 .order_main .order_content-wrapper-item {
       padding: 0.75rem 1rem;
       height: 3rem;
       width: 100%;
       display: flex;
       justify-content: space-between; }
-      #shopping_bag #order .order_main .order_content-wrapper-item span {
+      #shopping_step_4 .order_main .order_content-wrapper-item span {
         font-weight: 400;
         color: #17171a; }
-      #shopping_bag #order .order_main .order_content-wrapper-item label {
+      #shopping_step_4 .order_main .order_content-wrapper-item label {
         font-weight: 700;
         color: #876c43; }
-    #shopping_bag #order .order_main .order_content-footer {
+    #shopping_step_4 .order_main .order_content-footer {
       border-bottom: 0.0625rem solid #e6e6e6;
       display: flex;
       justify-content: space-between; }
-      #shopping_bag #order .order_main .order_content-footer-item {
+      #shopping_step_4 .order_main .order_content-footer-item {
         padding: 1rem;
         height: 3.5rem;
         width: 100%; }
-        #shopping_bag #order .order_main .order_content-footer-item:first-child {
+        #shopping_step_4 .order_main .order_content-footer-item:first-child {
           font-weight: 700;
           color: #17171a; }
-        #shopping_bag #order .order_main .order_content-footer-item:last-child {
+        #shopping_step_4 .order_main .order_content-footer-item:last-child {
           text-align: end;
           font-weight: 700;
           color: #876c43; }
-    #shopping_bag #order .order_main .order_content-check {
+    #shopping_step_4 .order_main .order_content-check {
       display: flex;
       align-items: center;
       margin-top: 1rem;
       margin-bottom: 1rem; }
-      #shopping_bag #order .order_main .order_content-check input {
+      #shopping_step_4 .order_main .order_content-check input {
         margin-right: 0.5rem;
         width: 1rem;
         height: 1rem;
         background: #d9d9d9;
         border: 0.0625rem solid #17171a;
         border-radius: 0.25rem; }
-      #shopping_bag #order .order_main .order_content-check span {
+      #shopping_step_4 .order_main .order_content-check span {
         margin-bottom: unset;
         margin-top: unset;
         font-weight: 400;
         color: #17171a; }
-      #shopping_bag #order .order_main .order_content-check a {
+      #shopping_step_4 .order_main .order_content-check a {
         margin-bottom: unset;
         margin-top: unset;
         font-weight: 400;
         color: #876c43;
         margin-bottom: 0.0625rem solid #876c43; }
-        #shopping_bag #order .order_main .order_content-check a:hover {
+        #shopping_step_4 .order_main .order_content-check a:hover {
           cursor: pointer;
           opacity: 0.5;
           transition: 0.3; }
-    #shopping_bag #order .order_main .order_content .order_footer {
+    #shopping_step_4 .order_main .order_content .order_footer {
       padding: 0.5rem 0rem;
       width: 100%;
       display: flex;
       align-items: center;
       justify-content: space-between; }
-      #shopping_bag #order .order_main .order_content .order_footer-back {
+      #shopping_step_4 .order_main .order_content .order_footer-back {
         display: flex;
         align-items: center;
         width: 100%;
         gap: 0.5rem;
         height: 100%; }
-        #shopping_bag #order .order_main .order_content .order_footer-back:hover {
+        #shopping_step_4 .order_main .order_content .order_footer-back:hover {
           cursor: pointer;
           opacity: 0.5;
           transition: 0.3; }
-        #shopping_bag #order .order_main .order_content .order_footer-back a {
+        #shopping_step_4 .order_main .order_content .order_footer-back a {
           font-weight: 600;
           color: #8f7247;
           text-decoration: none; }
-      #shopping_bag #order .order_main .order_content .order_footer-button button {
+      #shopping_step_4 .order_main .order_content .order_footer-button button {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -647,9 +643,9 @@ video {
         background: #3d8705;
         border-radius: 2.5rem;
         padding: 1rem 1.5rem; }
-        #shopping_bag #order .order_main .order_content .order_footer-button button:hover {
+        #shopping_step_4 .order_main .order_content .order_footer-button button:hover {
           background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #3d8705; }
-        #shopping_bag #order .order_main .order_content .order_footer-button button a {
+        #shopping_step_4 .order_main .order_content .order_footer-button button a {
           margin-right: 1rem;
           font-weight: 600;
           color: #ffffff;
@@ -658,14 +654,13 @@ video {
 
 /* Tablet: width >= 768px and width < 1024px */
 @media only screen and (min-width: 48rem) and (max-width: 63.938rem) {
-  .order_label {
+  #shopping_step_4 .order_label {
     margin-left: 1.25rem;
     margin-right: 1.25rem;
     padding-left: 0.3125rem !important;
     padding-right: 0.3125rem !important;
     width: unset !important; }
-
-  #order .order_main {
+  #shopping_step_4 .order_main {
     padding-left: 1.25rem !important;
     padding-right: 1.25rem !important;
     margin-bottom: 3.125rem !important;
@@ -674,58 +669,49 @@ video {
     gap: 1.25rem; } }
 /* Mobile: width < 768px */
 @media only screen and (max-width: 47.938em) {
-  .order_label {
+  #shopping_step_4 .order_label {
     margin-left: 0.625rem;
     margin-right: 0.625rem;
     padding-left: 0.3125rem !important;
     padding-right: 0.3125rem !important;
     width: unset !important; }
-
-  #order .order_main {
+  #shopping_step_4 .order_main {
     padding-left: 0.625rem !important;
     padding-right: 0.625rem !important;
     margin-bottom: 3.125rem !important;
     flex-direction: column;
     display: flex !important;
     gap: 1.25rem; }
-
-  .order_aside-btn button {
+  #shopping_step_4 .order_aside-btn button {
     width: 100%;
     border-radius: 5px !important; }
-
-  .order_content-btn {
+  #shopping_step_4 .order_content-btn {
     width: 100%;
     border-radius: 5px !important; }
-
-  .order_aside-label2 {
+  #shopping_step_4 .order_aside-label2 {
     height: 100% !important; }
-
-  .order_aside-main {
+  #shopping_step_4 .order_aside-main {
     padding-left: unset !important;
     padding-right: unset !important;
     flex-direction: column;
     gap: 0.125rem; }
-    .order_aside-main .order_main-left {
+    #shopping_step_4 .order_aside-main .order_main-left {
       width: 100% !important; }
-
-  .form_payment-mess {
+  #shopping_step_4 .form_payment-mess {
     display: unset !important; }
-
-  .form_payment-filed {
+  #shopping_step_4 .form_payment-filed {
     margin-top: 0.5rem !important;
     display: flex;
     flex-direction: column;
     gap: unset !important; }
-    .form_payment-filed label {
+    #shopping_step_4 .form_payment-filed label {
       width: 100%;
       display: inline-block; }
-    .form_payment-filed input {
+    #shopping_step_4 .form_payment-filed input {
       width: unset !important; }
-
-  .form_payment-wrapper {
+  #shopping_step_4 .form_payment-wrapper {
     display: flex;
     flex-direction: column;
     width: 100% !important; }
-
-  .form_payment-check label {
+  #shopping_step_4 .form_payment-check label {
     display: none; } }

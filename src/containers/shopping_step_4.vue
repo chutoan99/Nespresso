@@ -11,7 +11,7 @@ export default defineComponent({
 </script>
 
 <template>
-  <section id="order">
+  <section id="shopping_step_4">
     <div class="container">
       <div class="order">
         <div class="order_label">

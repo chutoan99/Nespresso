@@ -129,7 +129,7 @@ html {
   border-radius: 2.5rem;
   border: none;
   cursor: pointer;
-  color: #FFFFFF;
+  color: #ffffff;
   text-transform: uppercase; }
 
 @media screen {
@@ -164,11 +164,7 @@ html {
     display: none !important; }
 
   .show_on-tab {
-    display: block !important; }
-
-  body {
-    font-size: calc( 10px + (96 - 10) * ((100vw - 1024) / (1440 - 1024)) ) !important;
-    line-height: calc( 10px + (96 - 10) * ((100vw - 1024) / (1440 - 1024)) ) !important; } }
+    display: block !important; } }
 /* Mobile: width < 768px */
 @media only screen and (max-width: 48rem) {
   .hide_on-mobile {
@@ -405,14 +401,6 @@ video {
     color: #17171a; }
   #setting .setting_aside .aside-active {
     color: #876c43 !important; }
-  #setting .setting_aside input[type="radio"] {
-    display: none; }
-    #setting .setting_aside input[type="radio"]:checked + label {
-      transition: 0.5s;
-      color: #876c43;
-      background-color: #17171a; }
-      #setting .setting_aside input[type="radio"]:checked + label + .aside {
-        display: block; }
 
 /* Tablet: width >= 768px and width < 1024px */
 @media only screen and (min-width: 48rem) and (max-width: 63.938rem) {
@@ -434,20 +422,6 @@ video {
       gap: 0.625rem;
       margin-right: 0.625rem;
       margin-left: 0.625rem; }
-    #setting .form_btn button {
-      width: 100%;
-      border-radius: 0.3125rem !important; }
-    #setting .form_content {
-      display: flex !important;
-      gap: 0.3125rem;
-      flex-direction: column;
-      padding: 1rem !important; }
-      #setting .form_content .form_content-left {
-        flex: 1;
-        order: 1; }
-      #setting .form_content .form_content-btn button {
-        width: 100%;
-        border-radius: 0.3125rem !important; }
     #setting .setting_aside-select {
       display: block !important; }
     #setting .setting_aside-list {

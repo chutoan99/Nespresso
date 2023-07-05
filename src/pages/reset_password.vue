@@ -20,10 +20,8 @@ export default defineComponent({
   <div class="wrapper">
     <div class="wrapper-innner">
       <Header />
-      <!-- Header -->
       <Nav />
-      <!-- Navigation -->
-      <main id="main">
+      <main id="reset_pass">
         <section class="forget-pass">
           <div class="forget-pass-container container">
             <h5 class="forget-pass__heading">Forgotten your password ?</h5>
@@ -93,9 +91,7 @@ export default defineComponent({
           </div>
         </section>
       </main>
-
       <Footer />
-      <!-- Footer -->
     </div>
   </div>
 </template>

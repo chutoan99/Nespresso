@@ -9,18 +9,16 @@ export default defineComponent({
 </script>
 
 <template>
-  <div class="setting_main">
-    <section id="setting_my_machine">
-      <form id=" form">
-        <div class="setting_label">My Machine</div>
-        <div class="form_content">
-          <div class="form_btn">
-            <button type="submit">
-              <span>ADD AN MACHINE</span>
-            </button>
-          </div>
+  <section id="setting_my_machine">
+    <form id=" form">
+      <div class="setting_label">My Machine</div>
+      <div class="form_content">
+        <div class="form_btn">
+          <button type="submit">
+            <span>ADD AN MACHINE</span>
+          </button>
         </div>
-      </form>
-    </section>
-  </div>
+      </div>
+    </form>
+  </section>
 </template>

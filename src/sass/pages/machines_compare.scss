@@ -2,7 +2,7 @@
 @import "../base/reset";
 @import "../base/variable";
 
-#main {
+#machines_compare {
   background-color: $white;
 
   .container {
@@ -421,7 +421,7 @@
 
 /* Mobile: width < 768px */
 @media only screen and (max-width: 47.938em) {
-  #main {
+  #machines_compare {
     padding-top: 3.125rem;
     .product-filter {
       padding: 1.25rem 0;
@@ -452,7 +452,7 @@
 
 /* Tablet: width >= 768px and width < 1024px */
 @media only screen and (min-width: 48rem) and (max-width: 63.938rem) {
-  #main {
+  #machines_compare {
     .product-card {
       flex-direction: column;
     }

@@ -24,7 +24,7 @@ export default defineComponent({
       <Nav />
       <!-- Navigation -->
 
-      <main class="">
+      <main id="signUp_private_2">
         <section id="private_2">
           <div class="private_2 container">
             <div class="private_2-banner">

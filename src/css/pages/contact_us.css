@@ -42,20 +42,20 @@ html {
   line-height: 4.25rem;
   letter-spacing: -0.005em; }
 
-.font_heading-3, .contact_frame-content h3 {
+.font_heading-3, #contact_us .contact_frame-content h3 {
   font-family: "Nespresso Lucas", Helvetica, Trebuchet, Arial, sans-serif;
   font-style: normal;
   font-size: 3rem;
   line-height: 3.25rem; }
 
-.font_heading-4, .form_header {
+.font_heading-4, #contact_us .form_header {
   font-family: "Nespresso Lucas", Helvetica, Trebuchet, Arial, sans-serif;
   font-style: normal;
   font-size: 2.5rem;
   line-height: 2.5rem;
   letter-spacing: 0.0025em; }
 
-.font_heading-5, .tagLine-event h3, .form_label {
+.font_heading-5, #contact_us .tagLine-event h3, #contact_us .form_label {
   font-family: "Nespresso Lucas", Helvetica, Trebuchet, Arial, sans-serif;
   font-style: normal;
   font-size: 1.25rem;
@@ -68,7 +68,7 @@ html {
   line-height: 1.5rem;
   letter-spacing: 0.0015em; }
 
-.font_subtitle-1, .form_content span, .form_content-field label {
+.font_subtitle-1, #contact_us .form_content span, #contact_us .form_content-field label {
   font-family: "Nespresso Lucas", Helvetica, Trebuchet, Arial, sans-serif;
   font-style: normal;
   font-size: 1rem;
@@ -89,7 +89,7 @@ html {
   line-height: 1.5rem;
   letter-spacing: 0.005em; }
 
-.font_body-2, .form_title, .form_footer, .form_content-check span {
+.font_body-2, #contact_us .form_title, #contact_us .form_footer, #contact_us .form_content-check span {
   font-family: "Nespresso Lucas", Helvetica, Trebuchet, Arial, sans-serif;
   font-style: normal;
   font-size: 0.875rem;
@@ -110,7 +110,7 @@ html {
   line-height: 1rem;
   letter-spacing: 0.0938rem; }
 
-.font_button, .tagLine-event h3 span, .form_btn button {
+.font_button, #contact_us .tagLine-event h3 span, #contact_us .form_btn button {
   font-family: "Nespresso Lucas", Helvetica, Trebuchet, Arial, sans-serif;
   font-style: normal;
   font-size: 0.875rem;
@@ -128,7 +128,7 @@ html {
   border-radius: 2.5rem;
   border: none;
   cursor: pointer;
-  color: #FFFFFF;
+  color: #ffffff;
   text-transform: uppercase; }
 
 @media screen {
@@ -163,11 +163,7 @@ html {
     display: none !important; }
 
   .show_on-tab {
-    display: block !important; }
-
-  body {
-    font-size: calc( 10px + (96 - 10) * ((100vw - 1024) / (1440 - 1024)) ) !important;
-    line-height: calc( 10px + (96 - 10) * ((100vw - 1024) / (1440 - 1024)) ) !important; } }
+    display: block !important; } }
 /* Mobile: width < 768px */
 @media only screen and (max-width: 48rem) {
   .hide_on-mobile {
@@ -187,16 +183,16 @@ html {
     line-height: 4.25rem;
     letter-spacing: -0.005em; }
 
-  .font_heading-3, .contact_frame-content h3 {
+  .font_heading-3, #contact_us .contact_frame-content h3 {
     font-size: 2.25rem;
     line-height: 3.25rem; }
 
-  .font_heading-4, .form_header {
+  .font_heading-4, #contact_us .form_header {
     font-size: 1.75rem;
     line-height: 2.5rem;
     letter-spacing: 0.0025em; }
 
-  .font_heading-5, .tagLine-event h3, .form_label {
+  .font_heading-5, #contact_us .tagLine-event h3, #contact_us .form_label {
     font-size: 1.25rem;
     line-height: 2rem; }
 
@@ -205,7 +201,7 @@ html {
     line-height: 1.5rem;
     letter-spacing: 0.0015em; }
 
-  .font_subtitle-1, .form_content span, .form_content-field label {
+  .font_subtitle-1, #contact_us .form_content span, #contact_us .form_content-field label {
     font-size: 1rem;
     line-height: 1.25rem;
     letter-spacing: 0.0125em; }
@@ -220,7 +216,7 @@ html {
     line-height: 1.5rem;
     letter-spacing: 0.005em; }
 
-  .font_body-2, .form_title, .form_footer, .form_content-check span {
+  .font_body-2, #contact_us .form_title, #contact_us .form_footer, #contact_us .form_content-check span {
     font-size: 0.875rem;
     line-height: 1.25rem;
     letter-spacing: 0.0025em; }
@@ -235,7 +231,7 @@ html {
     line-height: 1rem;
     letter-spacing: 0.0938rem; }
 
-  .font_button, .tagLine-event h3 span, .form_btn button {
+  .font_button, #contact_us .tagLine-event h3 span, #contact_us .form_btn button {
     font-size: 0.875rem;
     line-height: 1.25rem;
     letter-spacing: 0.0781rem; } }
@@ -354,6 +350,168 @@ video {
     transform: translateY(100%); }
   to {
     transform: translate(0); } }
+#contact_us .tagLine-event {
+  width: 100%;
+  height: 4.8125rem;
+  background: #8f7247;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem; }
+  #contact_us .tagLine-event h3 {
+    font-weight: 700;
+    margin-bottom: unset; }
+    #contact_us .tagLine-event h3 span {
+      margin-left: 0.3125rem;
+      height: 100%;
+      font-weight: 600;
+      color: white;
+      margin-bottom: unset;
+      position: relative;
+      margin-right: 0.75rem; }
+      #contact_us .tagLine-event h3 span::after {
+        position: absolute;
+        bottom: -0.3125rem;
+        left: 0;
+        content: "";
+        right: 0;
+        width: 100%;
+        height: 0.0625rem;
+        background-color: currentColor; }
+#contact_us .contact_frame {
+  width: 100%; }
+  #contact_us .contact_frame .background-1 {
+    background-image: url("../../assets/images/sustainability&recycling/commitment_1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    object-position: center;
+    width: 100%;
+    height: 21.875rem;
+    position: relative;
+    background-size: cover; }
+  #contact_us .contact_frame-content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center; }
+    #contact_us .contact_frame-content h3 {
+      margin-bottom: unset;
+      font-weight: 600;
+      text-align: center;
+      color: #ffffff; }
+#contact_us .form_wrapper {
+  padding: 2.5rem 0;
+  gap: 2.5rem;
+  width: 100%;
+  background: #ffffff; }
+#contact_us .form_header {
+  margin-bottom: unset;
+  font-weight: 600;
+  text-align: center;
+  color: #000000; }
+#contact_us .form_title {
+  margin-top: 1rem;
+  margin-bottom: unset;
+  font-weight: 400;
+  text-align: center;
+  color: #000000; }
+#contact_us .form_label {
+  display: flex;
+  align-items: center;
+  padding: 2rem 1rem;
+  height: 6rem;
+  background: #d5d5d5;
+  font-weight: 700;
+  color: #000000;
+  margin-bottom: unset; }
+  #contact_us .form_label:nth-child(1) {
+    margin-top: 2.5rem; }
+#contact_us .form_footer {
+  margin-top: 2.5rem;
+  margin-bottom: unset;
+  font-weight: 400;
+  align-items: center;
+  color: #000000; }
+#contact_us .form_btn {
+  margin-top: 2.5rem;
+  width: 100%;
+  display: flex;
+  justify-content: end; }
+  #contact_us .form_btn button {
+    border: unset;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 1.5rem;
+    width: 10.3125rem;
+    background: #3d8705;
+    border-radius: 0.25rem;
+    font-weight: 600;
+    text-align: center;
+    color: #ffffff; }
+    #contact_us .form_btn button:hover {
+      transition: 0.3s;
+      cursor: pointer;
+      background-color: #3d8705; }
+#contact_us .form_content {
+  width: 100%;
+  padding: 1rem;
+  background: #ffffff; }
+  #contact_us .form_content span {
+    margin-top: 1rem;
+    margin-bottom: unset;
+    font-weight: 500;
+    color: #000000; }
+  #contact_us .form_content-check {
+    display: flex;
+    align-items: center;
+    margin-top: 1.5rem; }
+    #contact_us .form_content-check input {
+      margin-right: 0.75rem;
+      width: 1.25rem;
+      height: 1.25rem;
+      background: #d9d9d9;
+      border: 0.0625rem solid #000000;
+      border-radius: 0.25rem; }
+    #contact_us .form_content-check span {
+      margin-bottom: unset;
+      margin-top: unset;
+      font-weight: 400;
+      color: #000000; }
+  #contact_us .form_content-field {
+    margin-top: 1.5rem;
+    width: 100%;
+    display: flex;
+    align-items: center; }
+    #contact_us .form_content-field label {
+      width: 12.5rem;
+      margin-bottom: unset;
+      font-weight: 500;
+      color: #000000; }
+    #contact_us .form_content-field input {
+      width: 100%;
+      padding: 0.625rem 0.75rem;
+      height: 2.75rem;
+      background: #ffffff;
+      border: 0.0625rem solid #d5d5d5;
+      border-radius: 0.25rem; }
+    #contact_us .form_content-field textarea {
+      width: 100%;
+      padding: 0.75rem;
+      gap: 0.625rem;
+      height: 11.25rem;
+      left: 14.625rem;
+      background: #ffffff;
+      border: 0.0625rem solid #d5d5d5;
+      border-radius: 0.25rem; }
+    #contact_us .form_content-field + .form_content-field {
+      margin-top: 1.25rem; }
+  #contact_us .form_content-line {
+    margin-top: 1rem;
+    border: 0.0625rem solid #000000; }
+
 .slideShow {
   display: flex;
   justify-content: center;
@@ -367,184 +525,18 @@ video {
     text-align: center;
     color: #000000; }
 
-.tagLine-event {
-  width: 100%;
-  height: 4.8125rem;
-  background: #8f7247;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 0.75rem; }
-  .tagLine-event h3 {
-    font-weight: 700;
-    margin-bottom: unset; }
-    .tagLine-event h3 span {
-      margin-left: 0.3125rem;
-      height: 100%;
-      font-weight: 600;
-      color: white;
-      margin-bottom: unset;
-      position: relative;
-      margin-right: 0.75rem; }
-      .tagLine-event h3 span::after {
-        position: absolute;
-        bottom: -0.3125rem;
-        left: 0;
-        content: "";
-        right: 0;
-        width: 100%;
-        height: 0.0625rem;
-        background-color: currentColor; }
-
-.contact_frame {
-  width: 100%; }
-  .contact_frame .background-1 {
-    background-image: url("../../assets/images/sustainability&recycling/commitment_1.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    object-position: center;
-    width: 100%;
-    height: 21.875rem;
-    position: relative;
-    background-size: cover; }
-  .contact_frame-content {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center; }
-    .contact_frame-content h3 {
-      margin-bottom: unset;
-      font-weight: 600;
-      text-align: center;
-      color: #ffffff; }
-
-.form_wrapper {
-  padding: 2.5rem 0;
-  gap: 2.5rem;
-  width: 100%;
-  background: #ffffff; }
-.form_header {
-  margin-bottom: unset;
-  font-weight: 600;
-  text-align: center;
-  color: #000000; }
-.form_title {
-  margin-top: 1rem;
-  margin-bottom: unset;
-  font-weight: 400;
-  text-align: center;
-  color: #000000; }
-.form_label {
-  display: flex;
-  align-items: center;
-  padding: 2rem 1rem;
-  height: 6rem;
-  background: #d5d5d5;
-  font-weight: 700;
-  color: #000000;
-  margin-bottom: unset; }
-  .form_label:nth-child(1) {
-    margin-top: 2.5rem; }
-.form_footer {
-  margin-top: 2.5rem;
-  margin-bottom: unset;
-  font-weight: 400;
-  align-items: center;
-  color: #000000; }
-.form_btn {
-  margin-top: 2.5rem;
-  width: 100%;
-  display: flex;
-  justify-content: end; }
-  .form_btn button {
-    border: unset;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 1rem 1.5rem;
-    width: 10.3125rem;
-    background: #3d8705;
-    border-radius: 0.25rem;
-    font-weight: 600;
-    text-align: center;
-    color: #ffffff; }
-    .form_btn button:hover {
-      transition: 0.3s;
-      cursor: pointer;
-      background-color: #3d8705; }
-.form_content {
-  width: 100%;
-  padding: 1rem;
-  background: #ffffff; }
-  .form_content span {
-    margin-top: 1rem;
-    margin-bottom: unset;
-    font-weight: 500;
-    color: #000000; }
-  .form_content-check {
-    display: flex;
-    align-items: center;
-    margin-top: 1.5rem; }
-    .form_content-check input {
-      margin-right: 0.75rem;
-      width: 1.25rem;
-      height: 1.25rem;
-      background: #d9d9d9;
-      border: 0.0625rem solid #000000;
-      border-radius: 0.25rem; }
-    .form_content-check span {
-      margin-bottom: unset;
-      margin-top: unset;
-      font-weight: 400;
-      color: #000000; }
-  .form_content-field {
-    margin-top: 1.5rem;
-    width: 100%;
-    display: flex;
-    align-items: center; }
-    .form_content-field label {
-      width: 12.5rem;
-      margin-bottom: unset;
-      font-weight: 500;
-      color: #000000; }
-    .form_content-field input {
-      width: 100%;
-      padding: 0.625rem 0.75rem;
-      height: 2.75rem;
-      background: #ffffff;
-      border: 0.0625rem solid #d5d5d5;
-      border-radius: 0.25rem; }
-    .form_content-field textarea {
-      width: 100%;
-      padding: 0.75rem;
-      gap: 0.625rem;
-      height: 11.25rem;
-      left: 14.625rem;
-      background: #ffffff;
-      border: 0.0625rem solid #d5d5d5;
-      border-radius: 0.25rem; }
-    .form_content-field + .form_content-field {
-      margin-top: 1.25rem; }
-  .form_content-line {
-    margin-top: 1rem;
-    border: 0.0625rem solid #000000; }
-
 /* Tablet: width >= 768px and width < 1024px */
 @media only screen and (min-width: 48rem) and (max-width: 63.938rem) {
   .slideShow {
     margin-top: 3.125rem; }
 
-  .form_wrapper {
+  #contact_us .form_wrapper {
     padding-left: 1.25rem;
     padding-right: 1.25rem; }
-
-  .form_content-field {
+  #contact_us .form_content-field {
     display: grid;
     grid-template-columns: 2fr 8fr; }
-
-  .form_btn {
+  #contact_us .form_btn {
     padding: 0rem 1rem; } }
 /* Mobile: width < 768px */
 @media only screen and (max-width: 47.938em) {
@@ -552,7 +544,7 @@ video {
     margin-top: 3.125rem;
     height: 100% !important; }
 
-  .tagLine-event {
+  #contact_us .tagLine-event {
     text-align: center;
     padding: 0 1rem;
     padding-top: 1rem;
@@ -561,30 +553,26 @@ video {
     height: unset !important;
     padding-bottom: 1rem;
     flex-direction: column; }
-    .tagLine-event h3 {
+    #contact_us .tagLine-event h3 {
       width: 100%;
       display: flex;
       flex-direction: column;
       align-items: center; }
-
-  .form_wrapper {
-    padding-left: 1.25rem;
-    padding-right: 1.25rem; }
-
-  .form_content-field {
+  #contact_us .form_wrapper {
+    padding-left: 0.625rem;
+    padding-right: 0.625rem; }
+  #contact_us .form_content {
+    padding-left: unset !important;
+    padding-right: unset !important; }
+  #contact_us .form_content-field {
     display: flex !important;
     flex-direction: column !important;
     gap: 0.3125rem !important; }
-    .form_content-field label {
+    #contact_us .form_content-field label {
       width: 100%; }
-
-  .form_btn {
+  #contact_us .form_btn {
     padding: unset !important;
     width: 100%; }
-    .form_btn button {
+    #contact_us .form_btn button {
       width: 100%;
-      border-radius: 0.3125rem !important; }
-
-  .form_content {
-    padding-left: unset !important;
-    padding-right: unset !important; } }
+      border-radius: 0.3125rem !important; } }

@@ -86,12 +86,8 @@ export default defineComponent({
 <template>
   <div class="wrapper">
     <div class="wrapper-innner">
-      <!-- start header -->
       <Header />
-      <!-- end header -->
       <Nav />
-      <!-- end nav -->
-
       <main id="machines">
         <section class="hero">
           <p class="banner__title">ORIGINAL COFFEE MACHINES</p>
@@ -772,9 +768,7 @@ export default defineComponent({
           </div>
         </section>
       </main>
-      <!-- start footer -->
       <Footer />
-      <!--end footer -->
     </div>
   </div>
 </template>

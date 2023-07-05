@@ -32,10 +32,8 @@ export default defineComponent({
   <div class="wrapper">
     <div class="wrapper-innner">
       <Header />
-      <!-- Header -->
       <Nav />
-      <!-- Navigation -->
-      <main id="main">
+      <main id="about_us">
         <section class="product-nav">
           <ul class="menu-list">
             <li class="tab-menu">
@@ -222,7 +220,7 @@ export default defineComponent({
                   FIND OUT MOREON OURSUSTAINABILITY PAGE
                 </h4>
                 <button class="intro__card-btn">
-                  <router-link to="">
+                  <a href="#">
                     <svg
                       width="24"
                       height="24"
@@ -243,7 +241,7 @@ export default defineComponent({
                         fill="white"
                       />
                     </svg>
-                  </router-link>
+                  </a>
                 </button>
               </div>
             </div>
@@ -265,7 +263,7 @@ export default defineComponent({
                 </p>
 
                 <button class="intro__card-btn">
-                  <router-link to="">
+                  <a href="#">
                     <svg
                       width="24"
                       height="24"
@@ -286,7 +284,7 @@ export default defineComponent({
                         fill="white"
                       />
                     </svg>
-                  </router-link>
+                  </a>
                 </button>
               </div>
             </div>
@@ -372,9 +370,7 @@ export default defineComponent({
           </div>
         </section>
       </main>
-
       <Footer />
-      <!-- Footer -->
     </div>
   </div>
 </template>

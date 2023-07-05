@@ -107,7 +107,7 @@ export default defineComponent({
   <div class="wrapper">
     <div class="wrapper-inner">
       <HeaderCustom />
-      <main id="signUp">
+      <main id="signUp_company">
         <section class="signUp">
           <div class="signUp_wrapper">
             <div class="signUp_inner">

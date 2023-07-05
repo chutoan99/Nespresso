@@ -55,7 +55,7 @@ html {
   line-height: 2.5rem;
   letter-spacing: 0.0025em; }
 
-.font_heading-5, #signUp #form_signUp .form_signUp-label span {
+.font_heading-5, #signUp_private_1 #form_signUp .form_signUp-label span {
   font-family: "Nespresso Lucas", Helvetica, Trebuchet, Arial, sans-serif;
   font-style: normal;
   font-size: 1.25rem;
@@ -68,7 +68,7 @@ html {
   line-height: 1.5rem;
   letter-spacing: 0.0015em; }
 
-.font_subtitle-1, #signUp #form_signUp .form_signUp-header span, #signUp #form_signUp .form_signUp-content label, #signUp #form_signUp .form_signUp-body label {
+.font_subtitle-1, #signUp_private_1 #form_signUp .form_signUp-header span, #signUp_private_1 #form_signUp .form_signUp-content label, #signUp_private_1 #form_signUp .form_signUp-body label {
   font-family: "Nespresso Lucas", Helvetica, Trebuchet, Arial, sans-serif;
   font-style: normal;
   font-size: 1rem;
@@ -89,7 +89,7 @@ html {
   line-height: 1.5rem;
   letter-spacing: 0.005em; }
 
-.font_body-2, #signUp #form_signUp .form_signUp-heading, #signUp #form_signUp .form_signUp-header-wrapper label, #signUp #form_signUp .form_signUp-footer-wrapper p, #signUp #form_signUp .form_signUp-footer-wrapper span {
+.font_body-2, #signUp_private_1 #form_signUp .form_signUp-heading, #signUp_private_1 #form_signUp .form_signUp-header-wrapper label, #signUp_private_1 #form_signUp .form_signUp-footer-wrapper p, #signUp_private_1 #form_signUp .form_signUp-footer-wrapper span {
   font-family: "Nespresso Lucas", Helvetica, Trebuchet, Arial, sans-serif;
   font-style: normal;
   font-size: 0.875rem;
@@ -110,7 +110,7 @@ html {
   line-height: 1rem;
   letter-spacing: 0.0938rem; }
 
-.font_button, #signUp #form_signUp .form_signUp-button button a {
+.font_button, #signUp_private_1 #form_signUp .form_signUp-button button a {
   font-family: "Nespresso Lucas", Helvetica, Trebuchet, Arial, sans-serif;
   font-style: normal;
   font-size: 0.875rem;
@@ -128,7 +128,7 @@ html {
   border-radius: 2.5rem;
   border: none;
   cursor: pointer;
-  color: #FFFFFF;
+  color: #ffffff;
   text-transform: uppercase; }
 
 @media screen {
@@ -163,11 +163,7 @@ html {
     display: none !important; }
 
   .show_on-tab {
-    display: block !important; }
-
-  body {
-    font-size: calc( 10px + (96 - 10) * ((100vw - 1024) / (1440 - 1024)) ) !important;
-    line-height: calc( 10px + (96 - 10) * ((100vw - 1024) / (1440 - 1024)) ) !important; } }
+    display: block !important; } }
 /* Mobile: width < 768px */
 @media only screen and (max-width: 48rem) {
   .hide_on-mobile {
@@ -196,7 +192,7 @@ html {
     line-height: 2.5rem;
     letter-spacing: 0.0025em; }
 
-  .font_heading-5, #signUp #form_signUp .form_signUp-label span {
+  .font_heading-5, #signUp_private_1 #form_signUp .form_signUp-label span {
     font-size: 1.25rem;
     line-height: 2rem; }
 
@@ -205,7 +201,7 @@ html {
     line-height: 1.5rem;
     letter-spacing: 0.0015em; }
 
-  .font_subtitle-1, #signUp #form_signUp .form_signUp-header span, #signUp #form_signUp .form_signUp-content label, #signUp #form_signUp .form_signUp-body label {
+  .font_subtitle-1, #signUp_private_1 #form_signUp .form_signUp-header span, #signUp_private_1 #form_signUp .form_signUp-content label, #signUp_private_1 #form_signUp .form_signUp-body label {
     font-size: 1rem;
     line-height: 1.25rem;
     letter-spacing: 0.0125em; }
@@ -220,7 +216,7 @@ html {
     line-height: 1.5rem;
     letter-spacing: 0.005em; }
 
-  .font_body-2, #signUp #form_signUp .form_signUp-heading, #signUp #form_signUp .form_signUp-header-wrapper label, #signUp #form_signUp .form_signUp-footer-wrapper p, #signUp #form_signUp .form_signUp-footer-wrapper span {
+  .font_body-2, #signUp_private_1 #form_signUp .form_signUp-heading, #signUp_private_1 #form_signUp .form_signUp-header-wrapper label, #signUp_private_1 #form_signUp .form_signUp-footer-wrapper p, #signUp_private_1 #form_signUp .form_signUp-footer-wrapper span {
     font-size: 0.875rem;
     line-height: 1.25rem;
     letter-spacing: 0.0025em; }
@@ -235,7 +231,7 @@ html {
     line-height: 1rem;
     letter-spacing: 0.0938rem; }
 
-  .font_button, #signUp #form_signUp .form_signUp-button button a {
+  .font_button, #signUp_private_1 #form_signUp .form_signUp-button button a {
     font-size: 0.875rem;
     line-height: 1.25rem;
     letter-spacing: 0.0781rem; } }
@@ -354,55 +350,55 @@ video {
     transform: translateY(100%); }
   to {
     transform: translate(0); } }
-#signUp .signUp_wrapper {
+#signUp_private_1 .signUp_wrapper {
   width: 100vw;
   height: 100%;
   padding-bottom: 12.5rem;
   background-color: black;
   position: relative; }
-#signUp .signUp_inner {
+#signUp_private_1 .signUp_inner {
   top: 2.125rem;
   z-index: 10;
   left: 0;
   right: 0; }
-#signUp #form_signUp {
+#signUp_private_1 #form_signUp {
   gap: 1.25rem;
   width: 53.4375rem;
   margin: 0 auto;
   background-color: white; }
-  #signUp #form_signUp .form_signUp-inner {
+  #signUp_private_1 #form_signUp .form_signUp-inner {
     padding: 2rem 1rem; }
-  #signUp #form_signUp .form_signUp-heading {
+  #signUp_private_1 #form_signUp .form_signUp-heading {
     font-weight: 400;
     color: #000000; }
-  #signUp #form_signUp .form_signUp-header {
+  #signUp_private_1 #form_signUp .form_signUp-header {
     display: flex;
     align-items: center;
     margin-top: 1.25rem;
     gap: 4.5625rem; }
-    #signUp #form_signUp .form_signUp-header span {
+    #signUp_private_1 #form_signUp .form_signUp-header span {
       font-weight: 500;
       color: #000000; }
-    #signUp #form_signUp .form_signUp-header-wrapper {
+    #signUp_private_1 #form_signUp .form_signUp-header-wrapper {
       align-items: center;
       display: flex;
       gap: 2rem; }
-      #signUp #form_signUp .form_signUp-header-wrapper div {
+      #signUp_private_1 #form_signUp .form_signUp-header-wrapper div {
         align-items: center;
         display: flex;
         gap: 0.5rem; }
-      #signUp #form_signUp .form_signUp-header-wrapper label {
+      #signUp_private_1 #form_signUp .form_signUp-header-wrapper label {
         font-weight: 400;
         color: #000000; }
-      #signUp #form_signUp .form_signUp-header-wrapper input {
+      #signUp_private_1 #form_signUp .form_signUp-header-wrapper input {
         width: 1.25rem;
         height: 1.25rem; }
-  #signUp #form_signUp .form_signUp-content {
+  #signUp_private_1 #form_signUp .form_signUp-content {
     margin-top: 1.25rem; }
-    #signUp #form_signUp .form_signUp-content label {
+    #signUp_private_1 #form_signUp .form_signUp-content label {
       font-weight: 500;
       color: #000000; }
-    #signUp #form_signUp .form_signUp-content select {
+    #signUp_private_1 #form_signUp .form_signUp-content select {
       margin-top: 0.25rem;
       padding: 0.625rem 0.75rem;
       width: 100%;
@@ -410,7 +406,7 @@ video {
       background: #ffffff;
       border: 0.0625rem solid #d5d5d5;
       border-radius: 0.25rem; }
-    #signUp #form_signUp .form_signUp-content input {
+    #signUp_private_1 #form_signUp .form_signUp-content input {
       margin-top: 0.25rem;
       padding: 0.625rem 0.75rem;
       width: 100%;
@@ -418,7 +414,7 @@ video {
       background: #ffffff;
       border: 0.0625rem solid #d5d5d5;
       border-radius: 0.25rem; }
-    #signUp #form_signUp .form_signUp-content textarea {
+    #signUp_private_1 #form_signUp .form_signUp-content textarea {
       margin-top: 0.25rem;
       padding: 0.625rem 0.75rem;
       width: 100%;
@@ -426,14 +422,14 @@ video {
       background: #ffffff;
       border: 0.0625rem solid #d5d5d5;
       border-radius: 0.25rem; }
-  #signUp #form_signUp .form_signUp-body {
+  #signUp_private_1 #form_signUp .form_signUp-body {
     display: flex;
     align-items: center;
     gap: 1.25rem;
     margin-top: 1.25rem; }
-    #signUp #form_signUp .form_signUp-body div {
+    #signUp_private_1 #form_signUp .form_signUp-body div {
       width: 100%; }
-    #signUp #form_signUp .form_signUp-body input {
+    #signUp_private_1 #form_signUp .form_signUp-body input {
       margin-top: 0.25rem;
       padding: 0.625rem 0.75rem;
       width: 100%;
@@ -441,10 +437,10 @@ video {
       background: #ffffff;
       border: 0.0625rem solid #d5d5d5;
       border-radius: 0.25rem; }
-    #signUp #form_signUp .form_signUp-body label {
+    #signUp_private_1 #form_signUp .form_signUp-body label {
       font-weight: 500;
       color: #000000; }
-    #signUp #form_signUp .form_signUp-body select {
+    #signUp_private_1 #form_signUp .form_signUp-body select {
       margin-top: 0.25rem;
       padding: 0.625rem 0.75rem;
       width: 100%;
@@ -452,14 +448,14 @@ video {
       background: #ffffff;
       border: 0.0625rem solid #d5d5d5;
       border-radius: 0.25rem; }
-  #signUp #form_signUp .form_signUp-img {
+  #signUp_private_1 #form_signUp .form_signUp-img {
     margin-top: 1.25rem;
     width: 100%;
     height: 23rem;
     background-image: url(../../assets/images/map.png);
     background-position: center;
     background-repeat: no-repeat; }
-  #signUp #form_signUp .form_signUp-label {
+  #signUp_private_1 #form_signUp .form_signUp-label {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -467,42 +463,42 @@ video {
     width: 100%;
     height: 6rem;
     background: #c5c5c5; }
-    #signUp #form_signUp .form_signUp-label span {
+    #signUp_private_1 #form_signUp .form_signUp-label span {
       color: #000000;
       font-weight: 700; }
-  #signUp #form_signUp .form_signUp-footer {
+  #signUp_private_1 #form_signUp .form_signUp-footer {
     padding-top: 2rem;
     padding-bottom: 2rem;
     justify-content: end;
     display: flex; }
-    #signUp #form_signUp .form_signUp-footer-wrapper {
+    #signUp_private_1 #form_signUp .form_signUp-footer-wrapper {
       width: 37.75rem;
       display: flex;
       flex-direction: column;
       gap: 0.5rem; }
-      #signUp #form_signUp .form_signUp-footer-wrapper p {
+      #signUp_private_1 #form_signUp .form_signUp-footer-wrapper p {
         font-weight: 400;
         color: #000000;
         margin-bottom: 0.75rem; }
-      #signUp #form_signUp .form_signUp-footer-wrapper div {
+      #signUp_private_1 #form_signUp .form_signUp-footer-wrapper div {
         display: flex;
         gap: 0.75rem; }
-      #signUp #form_signUp .form_signUp-footer-wrapper input {
+      #signUp_private_1 #form_signUp .form_signUp-footer-wrapper input {
         width: 1.25rem;
         height: 1.25rem;
         background: #d9d9d9;
         border: 0.0625rem solid #000000;
         border-radius: 0.25rem; }
-      #signUp #form_signUp .form_signUp-footer-wrapper span {
+      #signUp_private_1 #form_signUp .form_signUp-footer-wrapper span {
         font-weight: 400;
         color: #000000; }
-  #signUp #form_signUp .form_signUp-button {
+  #signUp_private_1 #form_signUp .form_signUp-button {
     border-top: 0.0625rem solid #000000;
     padding: 2rem 1rem 2rem 0;
     display: flex;
     flex-direction: row;
     justify-content: end; }
-    #signUp #form_signUp .form_signUp-button button {
+    #signUp_private_1 #form_signUp .form_signUp-button button {
       border: unset;
       display: flex;
       flex-direction: row;
@@ -516,74 +512,68 @@ video {
       border-radius: 0.25rem;
       cursor: pointer;
       text-transform: uppercase; }
-      #signUp #form_signUp .form_signUp-button button:hover {
+      #signUp_private_1 #form_signUp .form_signUp-button button:hover {
         background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #3d8705; }
-      #signUp #form_signUp .form_signUp-button button a {
+      #signUp_private_1 #form_signUp .form_signUp-button button a {
         color: #ffffff;
         font-weight: 600;
         text-decoration: none; }
 
 /* Tablet: width >= 768px and width < 1024px */
 @media only screen and (min-width: 48rem) and (max-width: 63.938rem) {
-  #signUp {
+  #signUp_private_1 {
     margin-top: 3.125rem;
     padding-top: 3.125rem;
     padding-left: 1.25rem;
     padding-right: 1.25rem; }
-
-  #signUp .signUp_wrapper {
-    width: 100% !important;
-    padding-bottom: unset !important; }
-
-  .form_signUp-inner {
-    padding: unset !important; }
-
-  #form_signUp {
-    width: 100% !important; }
-    #form_signUp .private_wrapper {
+    #signUp_private_1 .signUp_wrapper {
+      width: 100% !important;
+      padding-bottom: unset !important; }
+    #signUp_private_1 .form_signUp-inner {
+      padding: unset !important; }
+    #signUp_private_1 #form_signUp {
       width: 100% !important; }
-    #form_signUp .private_form-footer {
-      display: flex !important;
-      flex-direction: column;
-      gap: 0.625rem !important; } }
+      #signUp_private_1 #form_signUp .private_wrapper {
+        width: 100% !important; }
+      #signUp_private_1 #form_signUp .private_form-footer {
+        display: flex !important;
+        flex-direction: column;
+        gap: 0.625rem !important; } }
 /* Mobile: width < 768px */
 @media only screen and (max-width: 47.938em) {
-  #signUp {
+  #signUp_private_1 {
     margin-top: 3.125rem;
     padding-top: 3.125rem;
     padding-left: 0.625rem;
     padding-right: 0.625rem; }
-
-  #signUp .signUp_wrapper {
-    width: 100% !important;
-    padding-bottom: unset !important; }
-
-  .form_signUp-inner {
-    padding: unset !important; }
-
-  #form_signUp {
-    width: 100% !important; }
-    #form_signUp .private_wrapper {
+    #signUp_private_1 .signUp_wrapper {
+      width: 100% !important;
+      padding-bottom: unset !important; }
+    #signUp_private_1 .form_signUp-inner {
+      padding: unset !important; }
+    #signUp_private_1 #form_signUp {
       width: 100% !important; }
-    #form_signUp .private_form-footer {
-      display: flex !important;
-      flex-direction: column;
-      gap: 0.625rem !important; }
-    #form_signUp .form_signUp-footer-wrapper {
-      width: 100% !important; }
-    #form_signUp .form_signUp-button {
-      width: 100%;
-      padding-left: unset !important;
-      padding-right: unset !important; }
-      #form_signUp .form_signUp-button button {
-        width: 100% !important;
-        border-radius: 0.3125rem !important; }
-    #form_signUp .form_signUp-header {
-      display: flex !important;
-      flex-direction: column !important;
-      gap: 0.625rem !important;
-      width: 100% !important; }
-      #form_signUp .form_signUp-header span {
+      #signUp_private_1 #form_signUp .private_wrapper {
         width: 100% !important; }
-      #form_signUp .form_signUp-header .form_signUp-header-wrapper {
-        width: 100% !important; } }
+      #signUp_private_1 #form_signUp .private_form-footer {
+        display: flex !important;
+        flex-direction: column;
+        gap: 0.625rem !important; }
+      #signUp_private_1 #form_signUp .form_signUp-footer-wrapper {
+        width: 100% !important; }
+      #signUp_private_1 #form_signUp .form_signUp-button {
+        width: 100%;
+        padding-left: unset !important;
+        padding-right: unset !important; }
+        #signUp_private_1 #form_signUp .form_signUp-button button {
+          width: 100% !important;
+          border-radius: 0.3125rem !important; }
+      #signUp_private_1 #form_signUp .form_signUp-header {
+        display: flex !important;
+        flex-direction: column !important;
+        gap: 0.625rem !important;
+        width: 100% !important; }
+        #signUp_private_1 #form_signUp .form_signUp-header span {
+          width: 100% !important; }
+        #signUp_private_1 #form_signUp .form_signUp-header .form_signUp-header-wrapper {
+          width: 100% !important; } }

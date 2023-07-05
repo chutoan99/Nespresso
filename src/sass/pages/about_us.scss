@@ -2,7 +2,31 @@
 @import "../base/reset";
 @import "../base/variable";
 
-#main {
+#about_us {
+  .banner.background-1,
+  .banner.background-2,
+  .banner.background-3 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-position: center;
+    width: 100%;
+    height: 21.875rem;
+    position: relative;
+  }
+
+  .banner.background-1 {
+    background-image: url("../../assets/images/sustainability&recycling/commitment_1.png");
+  }
+
+  .banner.background-2 {
+    background-image: url("../../assets/images/sustainability&recycling/commitment_2.png");
+  }
+
+  .banner.background-3 {
+    background-image: url("../../assets/images/sustainability&recycling/commitment_3.png");
+  }
+
   .product-nav {
     .menu-list {
       transform: unset !important;
@@ -69,226 +93,195 @@
     }
   }
 
-  .banner.background-1 {
-    background-image: url("../../assets/images/sustainability&recycling/commitment_1.png");
+  #hero {
+    background: $brown-100;
+
+    .container {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      padding: 2rem 0;
+      gap: 1.5rem;
+    }
+
+    .caption {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 0rem;
+      gap: 1rem;
+      color: $black-700;
+
+      &-title {
+        @extend .font_heading-3;
+        font-weight: 600;
+        text-transform: uppercase;
+      }
+
+      &-subtitle {
+        @extend .font_heading-5;
+        font-weight: 500;
+        text-transform: uppercase;
+      }
+
+      &-paragraph {
+        @extend .font_body-1;
+        font-weight: 400;
+      }
+    }
+
+    .cover {
+      font-size: 0;
+      width: 100%;
+      height: 100%;
+
+      img {
+        height: 100%;
+        object-fit: cover;
+      }
+    }
   }
 
-  .banner.background-2 {
-    background-image: url("../../assets/images/sustainability&recycling/commitment_2.png");
-  }
-
-  .banner.background-3 {
-    background-image: url("../../assets/images/sustainability&recycling/commitment_3.png");
-  }
-
-  .banner.background-1,
-  .banner.background-2,
-  .banner.background-3 {
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    object-position: center;
-    width: 100%;
-    height: 21.875rem;
-    position: relative;
-  }
-}
-
-#hero {
-  background: $brown-100;
-
-  .container {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 2rem 0;
-    gap: 1.5rem;
-  }
-
-  .caption {
+  #context {
+    background-color: $brown-100;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    padding: 0rem;
-    gap: 1rem;
-    color: $black-700;
+    align-items: center;
+    padding: 2rem 0;
 
-    &-title {
+    .context-heading {
       @extend .font_heading-3;
       font-weight: 600;
-      text-transform: uppercase;
-    }
-
-    &-subtitle {
-      @extend .font_heading-5;
-      font-weight: 500;
-      text-transform: uppercase;
-    }
-
-    &-paragraph {
-      @extend .font_body-1;
-      font-weight: 400;
+      color: $black-900;
+      text-align: center;
     }
   }
 
-  .cover {
-    font-size: 0;
-    width: 100%;
-    height: 100%;
+  #hero-short {
+    background: $brown-100;
 
-    img {
-      height: 100%;
-      object-fit: cover;
-    }
-  }
-}
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 4rem;
+      margin: 0 auto;
 
-#context {
-  background-color: $brown-100;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 2rem 0;
+      .intro {
+        position: relative;
+        &__image {
+          font-size: 0;
 
-  .context-heading {
-    @extend .font_heading-3;
-    font-weight: 600;
-    color: $black-900;
-    text-align: center;
-  }
-}
-
-#hero-short {
-  background: $brown-100;
-
-  .container {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 4rem;
-    margin: 0 auto;
-
-    .intro {
-      position: relative;
-
-      // background-image: url("../../assets/images/about-us/background.png");
-      // background-repeat: no-repeat;
-      // background-size: cover;
-      // background-position: center center;
-      // width: 100%;
-
-      &__image {
-        font-size: 0;
-
-        img {
-          object-fit: cover;
-        }
-      }
-
-      &__right {
-        position: absolute;
-        left: 33.625rem;
-        right: 10.625rem;
-        top: calc(50% - 20.5rem / 2);
-        background-color: $white;
-
-        // margin: 36px 0;
-        // max-width: 392px;
-        // width: 100%;
-      }
-
-      &__left {
-        position: absolute;
-        left: 10.625rem;
-        right: 37.6875rem;
-        top: calc(50% - 21.5rem / 2);
-        background-color: $white;
-
-        // margin: 36px 0;
-        // max-width: 392px;
-        // width: 100%;
-      }
-
-      &__card {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        padding: 2.5rem;
-        gap: 2rem;
-
-        &-heading {
-          @extend .font_heading-4;
-          font-weight: 600;
-          color: $black-900;
-          word-break: break-word;
-          text-transform: uppercase;
+          img {
+            object-fit: cover;
+          }
         }
 
-        &-content {
-          @extend .font_heading-5;
-          color: $black-900;
-          font-weight: 500;
+        &__right {
+          position: absolute;
+          left: 33.625rem;
+          right: 10.625rem;
+          top: calc(50% - 20.5rem / 2);
+          background-color: $white;
+
+          // margin: 36px 0;
+          // max-width: 392px;
+          // width: 100%;
         }
 
-        &-btn {
-          background: $green-50;
+        &__left {
+          position: absolute;
+          left: 10.625rem;
+          right: 37.6875rem;
+          top: calc(50% - 21.5rem / 2);
+          background-color: $white;
+
+          // margin: 36px 0;
+          // max-width: 392px;
+          // width: 100%;
+        }
+
+        &__card {
           display: flex;
-          align-items: center;
-          padding: 1rem 1.5rem;
-          justify-content: center;
-          border: none;
-          cursor: pointer;
+          flex-direction: column;
+          align-items: flex-start;
+          padding: 2.5rem;
+          gap: 2rem;
 
-          a {
-            font-size: 0;
+          &-heading {
+            @extend .font_heading-4;
+            font-weight: 600;
+            color: $black-900;
+            word-break: break-word;
+            text-transform: uppercase;
           }
 
-          &:hover {
-            background: $btn-hover;
+          &-content {
+            @extend .font_heading-5;
+            color: $black-900;
+            font-weight: 500;
+          }
+
+          &-btn {
+            background: $green-50;
+            display: flex;
+            align-items: center;
+            padding: 1rem 1.5rem;
+            justify-content: center;
+            border: none;
+            cursor: pointer;
+
+            a {
+              font-size: 0;
+            }
+
+            &:hover {
+              background: $btn-hover;
+            }
           }
         }
       }
     }
   }
-}
 
-#socials {
-  background: $brown-100;
+  #socials {
+    background: $brown-100;
 
-  .social-media {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    padding: 2rem 0;
-    gap: 0.75rem;
-
-    &-title {
-      @extend .font_body-2;
-      font-weight: 500;
-      color: $black-300;
-    }
-
-    &-list {
+    .social-media {
       display: flex;
+      flex-direction: row;
       align-items: center;
       justify-content: center;
-      gap: 0.5rem;
-      list-style: none;
-      max-height: 1.5rem;
-    }
+      padding: 2rem 0;
+      gap: 0.75rem;
 
-    &-item {
-      display: flex;
-      justify-content: center;
-      align-items: center;
+      &-title {
+        @extend .font_body-2;
+        font-weight: 500;
+        color: $black-300;
+      }
+
+      &-list {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.5rem;
+        list-style: none;
+        max-height: 1.5rem;
+      }
+
+      &-item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
     }
   }
 }
 
 /* Mobile: width < 768px */
 @media only screen and (max-width: 47.938em) {
-  #main {
+  #about_us {
     margin-top: 3.125rem;
 
     .product-nav {
@@ -387,7 +380,7 @@
 
 /* Tablet: width >= 768px and width < 1024px */
 @media only screen and (min-width: 48rem) and (max-width: 63.938rem) {
-  #main {
+  #about_us {
     margin-top: 3.125rem;
     .container {
       max-width: 43.75rem !important;

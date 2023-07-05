@@ -1,5 +1,4 @@
 <script lang="ts">
-import "../css/pages/faq.css";
 import Header from "@/containers/Header.vue";
 import Nav from "@/containers/Nav.vue";
 import Footer from "@/containers/Footer.vue";
@@ -15,15 +14,26 @@ export default defineComponent({
   // Add other properties, methods, etc.
 });
 </script>
-
+<style scoped>
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+.icon-setting-cart {
+  width: 0.9697265625em;
+}
+</style>
+>
 <template>
   <div class="wrapper">
     <div class="wrapper-innner">
       <Header />
-      <!-- Header -->
       <Nav />
-      <!-- Navigation -->
-      <main id="main">
+      <main id="faq">
         <div class="customer-services-faq">
           <div class="customer-services-input">
             <form action="" class="customer-services-form">
@@ -2906,7 +2916,185 @@ export default defineComponent({
       </main>
 
       <Footer />
-      <!-- Footer -->
     </div>
   </div>
 </template>
+
+<style lang="scss" scope>
+@import "src/sass/base/_global.scss";
+@import "src/sass/base/_reset";
+@import "src/sass/base/_variable";
+#faq {
+  .customer-services {
+    &-faq {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 2rem 0rem;
+      gap: 1rem;
+
+      max-width: 45.375rem;
+      margin: 0 auto;
+    }
+
+    &-form {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 0.625rem;
+      border: 0.0625rem solid $black-100;
+      border-radius: 0.25rem;
+      position: relative;
+      padding-right: 0.625rem;
+
+      input[type="text"] {
+        padding: 0.75rem 0 0.75rem 0.75rem;
+      }
+
+      input:focus {
+        outline: none;
+      }
+
+      svg {
+        cursor: pointer;
+      }
+    }
+
+    &-input {
+      min-width: 39.625rem;
+      border: none;
+      @extend .font_body-2;
+      font-weight: 400;
+      color: $black-300;
+      width: 100%;
+      height: 2.75rem;
+    }
+
+    &-wrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 1.25rem 1rem;
+      gap: 0.75rem;
+      width: 100%;
+    }
+
+    &-title {
+      @extend .font_heading-6;
+      font-weight: 600;
+      color: $black-700;
+    }
+
+    &-list {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+
+      details[open] summary svg {
+        transform: rotate(45deg);
+      }
+    }
+
+    &-item {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      width: 100%;
+
+      &__question {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 0.5rem 0rem;
+        gap: 0.75rem;
+        width: 100%;
+        cursor: pointer;
+        list-style: none;
+
+        span {
+          @extend .font_body-2;
+          font-weight: 600;
+          color: $black-700;
+        }
+      }
+
+      &__answer {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0rem 0rem 0rem 1.75rem;
+
+        p {
+          @extend .font_body-2;
+          font-weight: 400;
+          color: $black-700;
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          padding: 0.75rem 0rem;
+          gap: 0.625rem;
+        }
+      }
+
+      &__rate {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0.75rem 0rem;
+        gap: 1.125rem;
+
+        &-icon {
+          display: flex;
+          flex-direction: row;
+          align-items: flex-start;
+          padding: 0rem;
+          gap: 0.375rem;
+        }
+
+        &-text {
+          @extend .font_caption;
+          font-weight: 400;
+          color: $black-400;
+        }
+      }
+    }
+
+    &-message {
+      @extend .font_caption;
+      font-weight: 400;
+      color: $black-700;
+
+      a {
+        color: $brown-600;
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+/* Tablet: width >= 768px and width < 1024px */
+@media only screen and (min-width: 48rem) and (max-width: 63.938rem) {
+  #faq {
+    margin-top: 3.125rem;
+  }
+}
+
+/* Mobile: width < 768px */
+@media only screen and (max-width: 47.938em) {
+  #faq {
+    margin-top: 3.125rem;
+
+    .customer-services {
+      &-faq {
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+
+      &-input {
+        width: 100%;
+        min-width: unset;
+      }
+    }
+  }
+}
+</style>

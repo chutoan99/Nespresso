@@ -42,20 +42,20 @@ html {
   line-height: 4.25rem;
   letter-spacing: -0.005em; }
 
-.font_heading-3, #main .banner__context-title, #hero .caption-title, #context .context-heading {
+.font_heading-3, #about_us .banner__context-title, #about_us #hero .caption-title, #about_us #context .context-heading {
   font-family: "Nespresso Lucas", Helvetica, Trebuchet, Arial, sans-serif;
   font-style: normal;
   font-size: 3rem;
   line-height: 3.25rem; }
 
-.font_heading-4, #hero-short .container .intro__card-heading {
+.font_heading-4, #about_us #hero-short .container .intro__card-heading {
   font-family: "Nespresso Lucas", Helvetica, Trebuchet, Arial, sans-serif;
   font-style: normal;
   font-size: 2.5rem;
   line-height: 2.5rem;
   letter-spacing: 0.0025em; }
 
-.font_heading-5, #main .banner__context-heading, #hero .caption-subtitle, #hero-short .container .intro__card-content {
+.font_heading-5, #about_us .banner__context-heading, #about_us #hero .caption-subtitle, #about_us #hero-short .container .intro__card-content {
   font-family: "Nespresso Lucas", Helvetica, Trebuchet, Arial, sans-serif;
   font-style: normal;
   font-size: 1.25rem;
@@ -82,14 +82,14 @@ html {
   line-height: 1.25rem;
   letter-spacing: 0.01em; }
 
-.font_body-1, #hero .caption-paragraph {
+.font_body-1, #about_us #hero .caption-paragraph {
   font-family: "Nespresso Lucas", Helvetica, Trebuchet, Arial, sans-serif;
   font-style: normal;
   font-size: 1rem;
   line-height: 1.5rem;
   letter-spacing: 0.005em; }
 
-.font_body-2, #main .product-nav .menu-list .tab-menu, #socials .social-media-title {
+.font_body-2, #about_us .product-nav .menu-list .tab-menu, #about_us #socials .social-media-title {
   font-family: "Nespresso Lucas", Helvetica, Trebuchet, Arial, sans-serif;
   font-style: normal;
   font-size: 0.875rem;
@@ -128,7 +128,7 @@ html {
   border-radius: 2.5rem;
   border: none;
   cursor: pointer;
-  color: #FFFFFF;
+  color: #ffffff;
   text-transform: uppercase; }
 
 @media screen {
@@ -163,11 +163,7 @@ html {
     display: none !important; }
 
   .show_on-tab {
-    display: block !important; }
-
-  body {
-    font-size: calc( 10px + (96 - 10) * ((100vw - 1024) / (1440 - 1024)) ) !important;
-    line-height: calc( 10px + (96 - 10) * ((100vw - 1024) / (1440 - 1024)) ) !important; } }
+    display: block !important; } }
 /* Mobile: width < 768px */
 @media only screen and (max-width: 48rem) {
   .hide_on-mobile {
@@ -187,16 +183,16 @@ html {
     line-height: 4.25rem;
     letter-spacing: -0.005em; }
 
-  .font_heading-3, #main .banner__context-title, #hero .caption-title, #context .context-heading {
+  .font_heading-3, #about_us .banner__context-title, #about_us #hero .caption-title, #about_us #context .context-heading {
     font-size: 2.25rem;
     line-height: 3.25rem; }
 
-  .font_heading-4, #hero-short .container .intro__card-heading {
+  .font_heading-4, #about_us #hero-short .container .intro__card-heading {
     font-size: 1.75rem;
     line-height: 2.5rem;
     letter-spacing: 0.0025em; }
 
-  .font_heading-5, #main .banner__context-heading, #hero .caption-subtitle, #hero-short .container .intro__card-content {
+  .font_heading-5, #about_us .banner__context-heading, #about_us #hero .caption-subtitle, #about_us #hero-short .container .intro__card-content {
     font-size: 1.25rem;
     line-height: 2rem; }
 
@@ -215,12 +211,12 @@ html {
     line-height: 1.25rem;
     letter-spacing: 0.01em; }
 
-  .font_body-1, #hero .caption-paragraph {
+  .font_body-1, #about_us #hero .caption-paragraph {
     font-size: 1rem;
     line-height: 1.5rem;
     letter-spacing: 0.005em; }
 
-  .font_body-2, #main .product-nav .menu-list .tab-menu, #socials .social-media-title {
+  .font_body-2, #about_us .product-nav .menu-list .tab-menu, #about_us #socials .social-media-title {
     font-size: 0.875rem;
     line-height: 1.25rem;
     letter-spacing: 0.0025em; }
@@ -354,7 +350,23 @@ video {
     transform: translateY(100%); }
   to {
     transform: translate(0); } }
-#main .product-nav .menu-list {
+#about_us .banner.background-1,
+#about_us .banner.background-2,
+#about_us .banner.background-3 {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  object-position: center;
+  width: 100%;
+  height: 21.875rem;
+  position: relative; }
+#about_us .banner.background-1 {
+  background-image: url("../../assets/images/sustainability&recycling/commitment_1.png"); }
+#about_us .banner.background-2 {
+  background-image: url("../../assets/images/sustainability&recycling/commitment_2.png"); }
+#about_us .banner.background-3 {
+  background-image: url("../../assets/images/sustainability&recycling/commitment_3.png"); }
+#about_us .product-nav .menu-list {
   transform: unset !important;
   display: flex;
   flex-direction: row;
@@ -364,134 +376,115 @@ video {
   gap: 1.5rem;
   list-style: none;
   background-color: #ffffff; }
-  #main .product-nav .menu-list .tab-menu {
+  #about_us .product-nav .menu-list .tab-menu {
     padding: 1.125rem 0; }
-    #main .product-nav .menu-list .tab-menu:hover a {
+    #about_us .product-nav .menu-list .tab-menu:hover a {
       font-weight: 700; }
-    #main .product-nav .menu-list .tab-menu a {
+    #about_us .product-nav .menu-list .tab-menu a {
       text-transform: uppercase;
       text-decoration: none;
       color: #1b1b1b;
       font-weight: 400; }
-    #main .product-nav .menu-list .tab-menu--selected {
+    #about_us .product-nav .menu-list .tab-menu--selected {
       border-bottom: 0.125rem solid #3d8705; }
-      #main .product-nav .menu-list .tab-menu--selected a {
+      #about_us .product-nav .menu-list .tab-menu--selected a {
         text-decoration: none;
         color: #1b1b1b;
         font-weight: 700; }
-#main .banner {
+#about_us .banner {
   width: 100%; }
-  #main .banner__context {
+  #about_us .banner__context {
     position: absolute;
     left: 0px;
     right: 0px;
     top: calc(50% - 96px / 2);
     color: #ffffff;
     text-align: center; }
-    #main .banner__context-heading {
+    #about_us .banner__context-heading {
       font-weight: 400; }
-    #main .banner__context-title {
+    #about_us .banner__context-title {
       font-weight: 600; }
-#main .banner.background-1 {
-  background-image: url("../../assets/images/sustainability&recycling/commitment_1.png"); }
-#main .banner.background-2 {
-  background-image: url("../../assets/images/sustainability&recycling/commitment_2.png"); }
-#main .banner.background-3 {
-  background-image: url("../../assets/images/sustainability&recycling/commitment_3.png"); }
-#main .banner.background-1,
-#main .banner.background-2,
-#main .banner.background-3 {
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  object-position: center;
-  width: 100%;
-  height: 21.875rem;
-  position: relative; }
-
-#hero {
+#about_us #hero {
   background: #f3eee6; }
-  #hero .container {
+  #about_us #hero .container {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     padding: 2rem 0;
     gap: 1.5rem; }
-  #hero .caption {
+  #about_us #hero .caption {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding: 0rem;
     gap: 1rem;
     color: #1b1b1b; }
-    #hero .caption-title {
+    #about_us #hero .caption-title {
       font-weight: 600;
       text-transform: uppercase; }
-    #hero .caption-subtitle {
+    #about_us #hero .caption-subtitle {
       font-weight: 500;
       text-transform: uppercase; }
-    #hero .caption-paragraph {
+    #about_us #hero .caption-paragraph {
       font-weight: 400; }
-  #hero .cover {
+  #about_us #hero .cover {
     font-size: 0;
     width: 100%;
     height: 100%; }
-    #hero .cover img {
+    #about_us #hero .cover img {
       height: 100%;
       object-fit: cover; }
-
-#context {
+#about_us #context {
   background-color: #f3eee6;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 2rem 0; }
-  #context .context-heading {
+  #about_us #context .context-heading {
     font-weight: 600;
     color: #000000;
     text-align: center; }
-
-#hero-short {
+#about_us #hero-short {
   background: #f3eee6; }
-  #hero-short .container {
+  #about_us #hero-short .container {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 4rem;
     margin: 0 auto; }
-    #hero-short .container .intro {
+    #about_us #hero-short .container .intro {
       position: relative; }
-      #hero-short .container .intro__image {
+      #about_us #hero-short .container .intro__image {
         font-size: 0; }
-        #hero-short .container .intro__image img {
+        #about_us #hero-short .container .intro__image img {
           object-fit: cover; }
-      #hero-short .container .intro__right {
+      #about_us #hero-short .container .intro__right {
         position: absolute;
         left: 33.625rem;
         right: 10.625rem;
         top: calc(50% - 20.5rem / 2);
         background-color: #ffffff; }
-      #hero-short .container .intro__left {
+      #about_us #hero-short .container .intro__left {
         position: absolute;
         left: 10.625rem;
         right: 37.6875rem;
         top: calc(50% - 21.5rem / 2);
         background-color: #ffffff; }
-      #hero-short .container .intro__card {
+      #about_us #hero-short .container .intro__card {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
         padding: 2.5rem;
         gap: 2rem; }
-        #hero-short .container .intro__card-heading {
+        #about_us #hero-short .container .intro__card-heading {
           font-weight: 600;
           color: #000000;
           word-break: break-word;
           text-transform: uppercase; }
-        #hero-short .container .intro__card-content {
+        #about_us #hero-short .container .intro__card-content {
           color: #000000;
           font-weight: 500; }
-        #hero-short .container .intro__card-btn {
+        #about_us #hero-short .container .intro__card-btn {
           background: #3d8705;
           display: flex;
           align-items: center;
@@ -499,42 +492,41 @@ video {
           justify-content: center;
           border: none;
           cursor: pointer; }
-          #hero-short .container .intro__card-btn a {
+          #about_us #hero-short .container .intro__card-btn a {
             font-size: 0; }
-          #hero-short .container .intro__card-btn:hover {
+          #about_us #hero-short .container .intro__card-btn:hover {
             background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #3d8705; }
-
-#socials {
+#about_us #socials {
   background: #f3eee6; }
-  #socials .social-media {
+  #about_us #socials .social-media {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     padding: 2rem 0;
     gap: 0.75rem; }
-    #socials .social-media-title {
+    #about_us #socials .social-media-title {
       font-weight: 500;
       color: #6f6f70; }
-    #socials .social-media-list {
+    #about_us #socials .social-media-list {
       display: flex;
       align-items: center;
       justify-content: center;
       gap: 0.5rem;
       list-style: none;
       max-height: 1.5rem; }
-    #socials .social-media-item {
+    #about_us #socials .social-media-item {
       display: flex;
       justify-content: center;
       align-items: center; }
 
 /* Mobile: width < 768px */
 @media only screen and (max-width: 47.938em) {
-  #main {
+  #about_us {
     margin-top: 3.125rem; }
-    #main .product-nav ::-webkit-scrollbar {
+    #about_us .product-nav ::-webkit-scrollbar {
       display: none; }
-    #main .menu-list {
+    #about_us .menu-list {
       overflow-x: auto;
       overflow-y: hidden;
       white-space: nowrap;
@@ -543,23 +535,23 @@ video {
       transition: 0.3s 0.6s;
       visibility: visible;
       transition-property: visibility, opacity; }
-    #main .tab-menu {
+    #about_us .tab-menu {
       align-items: center;
       display: inline-flex;
       vertical-align: top; }
-    #main #hero {
+    #about_us #hero {
       padding-right: 1.25rem;
       padding-left: 1.25rem; }
-      #main #hero .container .cover img {
+      #about_us #hero .container .cover img {
         width: 100%; }
-      #main #hero .context-left {
+      #about_us #hero .context-left {
         flex-direction: column-reverse; }
-      #main #hero .context-right {
+      #about_us #hero .context-right {
         flex-direction: column; }
-    #main #context {
+    #about_us #context {
       padding-right: 1.25rem;
       padding-left: 1.25rem; }
-    #main #hero-short .container .intro__card-btn {
+    #about_us #hero-short .container .intro__card-btn {
       width: 3.125rem;
       height: 3.125rem;
       position: absolute;
@@ -567,7 +559,7 @@ video {
       right: 0;
       bottom: -1.563rem;
       display: flex; }
-    #main #hero-short .container .intro__left, #main #hero-short .container .intro__right {
+    #about_us #hero-short .container .intro__left, #about_us #hero-short .container .intro__right {
       top: 15%;
       left: 0;
       right: 0;
@@ -576,33 +568,33 @@ video {
       margin: 0 auto;
       gap: unset;
       padding: 1.875rem; }
-    #main #hero-short .container .intro__image {
+    #about_us #hero-short .container .intro__image {
       width: 100%;
       height: 100%; }
-      #main #hero-short .container .intro__image img {
+      #about_us #hero-short .container .intro__image img {
         width: 100%;
         height: 23.125rem; } }
 /* Tablet: width >= 768px and width < 1024px */
 @media only screen and (min-width: 48rem) and (max-width: 63.938rem) {
-  #main {
+  #about_us {
     margin-top: 3.125rem; }
-    #main .container {
+    #about_us .container {
       max-width: 43.75rem !important;
       padding-right: 1.25rem;
       padding-left: 1.25rem;
       margin: 0 auto; }
-    #main .product-nav ::-webkit-scrollbar {
+    #about_us .product-nav ::-webkit-scrollbar {
       display: none; }
-    #main #hero .container .cover img {
+    #about_us #hero .container .cover img {
       width: 100%; }
-    #main #hero .context-left {
+    #about_us #hero .context-left {
       flex-direction: column-reverse; }
-    #main #hero .context-right {
+    #about_us #hero .context-right {
       flex-direction: column; }
-    #main #context {
+    #about_us #context {
       padding-right: 1.25rem;
       padding-left: 1.25rem; }
-    #main #hero-short .container .intro__card-btn {
+    #about_us #hero-short .container .intro__card-btn {
       width: 3.125rem;
       height: 3.125rem;
       position: absolute;
@@ -610,7 +602,7 @@ video {
       right: 0;
       bottom: -1.563rem;
       display: flex; }
-    #main #hero-short .container .intro__left, #main #hero-short .container .intro__right {
+    #about_us #hero-short .container .intro__left, #about_us #hero-short .container .intro__right {
       top: 15%;
       left: 0;
       right: 0;
@@ -619,9 +611,9 @@ video {
       margin: 0 auto;
       gap: unset;
       padding: 1.875rem; }
-    #main #hero-short .container .intro__image {
+    #about_us #hero-short .container .intro__image {
       width: 100%;
       height: 100%; }
-      #main #hero-short .container .intro__image img {
+      #about_us #hero-short .container .intro__image img {
         width: 100%;
         height: 23.125rem; } }

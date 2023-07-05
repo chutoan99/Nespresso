@@ -42,20 +42,20 @@ html {
   line-height: 4.25rem;
   letter-spacing: -0.005em; }
 
-.font_heading-3, .climate_frame-heading, .climate_frame1-heading, .climate_frame2-left-heading, .climate_frame3-heading, .climate_frame6-heading, .climate_frame7-left-heading, .climate_frame8-heading {
+.font_heading-3, #climate .climate_frame-heading, #climate .climate_frame1-heading, #climate .climate_frame2-left-heading, #climate .climate_frame3-heading, #climate .climate_frame6-heading, #climate .climate_frame7-left-heading, #climate .climate_frame8-heading {
   font-family: "Nespresso Lucas", Helvetica, Trebuchet, Arial, sans-serif;
   font-style: normal;
   font-size: 3rem;
   line-height: 3.25rem; }
 
-.font_heading-4, .climate_frame1-title, .climate_frame3-title, .climate_frame3-item-heading, .climate_frame8-title, .climate_frame8-item-heading {
+.font_heading-4, #climate .climate_frame1-title, #climate .climate_frame3-title, #climate .climate_frame3-item-heading, #climate .climate_frame8-title, #climate .climate_frame8-item-heading {
   font-family: "Nespresso Lucas", Helvetica, Trebuchet, Arial, sans-serif;
   font-style: normal;
   font-size: 2.5rem;
   line-height: 2.5rem;
   letter-spacing: 0.0025em; }
 
-.font_heading-5, .climate_frame-des, .climate_frame6-des {
+.font_heading-5, #climate .climate_frame-des, #climate .climate_frame6-des {
   font-family: "Nespresso Lucas", Helvetica, Trebuchet, Arial, sans-serif;
   font-style: normal;
   font-size: 1.25rem;
@@ -68,7 +68,7 @@ html {
   line-height: 1.5rem;
   letter-spacing: 0.0015em; }
 
-.font_subtitle-1, #tabs2 .tabs2_heading {
+.font_subtitle-1 {
   font-family: "Nespresso Lucas", Helvetica, Trebuchet, Arial, sans-serif;
   font-style: normal;
   font-size: 1rem;
@@ -82,14 +82,14 @@ html {
   line-height: 1.25rem;
   letter-spacing: 0.01em; }
 
-.font_body-1, .climate_frame1-des, .climate_frame2-left-list li, .climate_frame3-des, .climate_frame3-item-des, .climate_frame7-left-list li, .climate_frame8-des, .climate_frame8-item-des {
+.font_body-1, #climate .climate_frame1-des, #climate .climate_frame2-left-list li, #climate .climate_frame3-des, #climate .climate_frame3-item-des, #climate .climate_frame7-left-list li, #climate .climate_frame8-des, #climate .climate_frame8-item-des {
   font-family: "Nespresso Lucas", Helvetica, Trebuchet, Arial, sans-serif;
   font-style: normal;
   font-size: 1rem;
   line-height: 1.5rem;
   letter-spacing: 0.005em; }
 
-.font_body-2, #tabs .tabs_heading {
+.font_body-2 {
   font-family: "Nespresso Lucas", Helvetica, Trebuchet, Arial, sans-serif;
   font-style: normal;
   font-size: 0.875rem;
@@ -110,7 +110,7 @@ html {
   line-height: 1rem;
   letter-spacing: 0.0938rem; }
 
-.font_button, .climate_frame3-btn button, .climate_frame4-heading, .climate_frame8-btn button a {
+.font_button, #climate .climate_frame3-btn button, #climate .climate_frame4-heading, #climate .climate_frame8-btn button a {
   font-family: "Nespresso Lucas", Helvetica, Trebuchet, Arial, sans-serif;
   font-style: normal;
   font-size: 0.875rem;
@@ -128,7 +128,7 @@ html {
   border-radius: 2.5rem;
   border: none;
   cursor: pointer;
-  color: #FFFFFF;
+  color: #ffffff;
   text-transform: uppercase; }
 
 @media screen {
@@ -163,11 +163,7 @@ html {
     display: none !important; }
 
   .show_on-tab {
-    display: block !important; }
-
-  body {
-    font-size: calc( 10px + (96 - 10) * ((100vw - 1024) / (1440 - 1024)) ) !important;
-    line-height: calc( 10px + (96 - 10) * ((100vw - 1024) / (1440 - 1024)) ) !important; } }
+    display: block !important; } }
 /* Mobile: width < 768px */
 @media only screen and (max-width: 48rem) {
   .hide_on-mobile {
@@ -187,16 +183,16 @@ html {
     line-height: 4.25rem;
     letter-spacing: -0.005em; }
 
-  .font_heading-3, .climate_frame-heading, .climate_frame1-heading, .climate_frame2-left-heading, .climate_frame3-heading, .climate_frame6-heading, .climate_frame7-left-heading, .climate_frame8-heading {
+  .font_heading-3, #climate .climate_frame-heading, #climate .climate_frame1-heading, #climate .climate_frame2-left-heading, #climate .climate_frame3-heading, #climate .climate_frame6-heading, #climate .climate_frame7-left-heading, #climate .climate_frame8-heading {
     font-size: 2.25rem;
     line-height: 3.25rem; }
 
-  .font_heading-4, .climate_frame1-title, .climate_frame3-title, .climate_frame3-item-heading, .climate_frame8-title, .climate_frame8-item-heading {
+  .font_heading-4, #climate .climate_frame1-title, #climate .climate_frame3-title, #climate .climate_frame3-item-heading, #climate .climate_frame8-title, #climate .climate_frame8-item-heading {
     font-size: 1.75rem;
     line-height: 2.5rem;
     letter-spacing: 0.0025em; }
 
-  .font_heading-5, .climate_frame-des, .climate_frame6-des {
+  .font_heading-5, #climate .climate_frame-des, #climate .climate_frame6-des {
     font-size: 1.25rem;
     line-height: 2rem; }
 
@@ -205,7 +201,7 @@ html {
     line-height: 1.5rem;
     letter-spacing: 0.0015em; }
 
-  .font_subtitle-1, #tabs2 .tabs2_heading {
+  .font_subtitle-1 {
     font-size: 1rem;
     line-height: 1.25rem;
     letter-spacing: 0.0125em; }
@@ -215,12 +211,12 @@ html {
     line-height: 1.25rem;
     letter-spacing: 0.01em; }
 
-  .font_body-1, .climate_frame1-des, .climate_frame2-left-list li, .climate_frame3-des, .climate_frame3-item-des, .climate_frame7-left-list li, .climate_frame8-des, .climate_frame8-item-des {
+  .font_body-1, #climate .climate_frame1-des, #climate .climate_frame2-left-list li, #climate .climate_frame3-des, #climate .climate_frame3-item-des, #climate .climate_frame7-left-list li, #climate .climate_frame8-des, #climate .climate_frame8-item-des {
     font-size: 1rem;
     line-height: 1.5rem;
     letter-spacing: 0.005em; }
 
-  .font_body-2, #tabs .tabs_heading {
+  .font_body-2 {
     font-size: 0.875rem;
     line-height: 1.25rem;
     letter-spacing: 0.0025em; }
@@ -235,7 +231,7 @@ html {
     line-height: 1rem;
     letter-spacing: 0.0938rem; }
 
-  .font_button, .climate_frame3-btn button, .climate_frame4-heading, .climate_frame8-btn button a {
+  .font_button, #climate .climate_frame3-btn button, #climate .climate_frame4-heading, #climate .climate_frame8-btn button a {
     font-size: 0.875rem;
     line-height: 1.25rem;
     letter-spacing: 0.0781rem; } }
@@ -354,61 +350,15 @@ video {
     transform: translateY(100%); }
   to {
     transform: translate(0); } }
-#tabs {
-  padding: 0.75rem 0rem;
-  padding-bottom: unset;
-  height: 5rem; }
-  #tabs .tabs {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 1.5rem; }
-    #tabs .tabs_heading {
-      text-decoration: none;
-      font-weight: 400;
-      text-align: center;
-      padding: 1.125rem 0rem;
-      color: #17171a; }
-  #tabs .tab_active {
-    border-bottom: 0.125rem solid #3d8705; }
-
-#tabs2 {
-  padding: 2.625rem 0rem; }
-  #tabs2 .tabs2 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 1.5rem; }
-    #tabs2 .tabs2 input[type="radio"] {
-      display: none; }
-      #tabs2 .tabs2 input[type="radio"]:checked + label {
-        border-bottom: 0.125rem solid #3d8705;
-        transition: 0.5s; }
-        #tabs2 .tabs2 input[type="radio"]:checked + label + .tab2 {
-          display: block; }
-    #tabs2 .tabs2_heading {
-      font-weight: 400;
-      text-align: center;
-      padding: 1.125rem 0rem;
-      color: #17171a; }
-    #tabs2 .tabs2 .tab2 {
-      width: 100%;
-      background: #ffffff;
-      order: 1;
-      display: none; }
-
-.background-1 {
+#climate .background-1 {
   background-image: url("../../assets/images/sustainability&recycling/climate_1.png"); }
-
-.background-2 {
+#climate .background-2 {
   background-image: url("../../assets/images/sustainability&recycling/climate_6.png"); }
-
-.background-3 {
+#climate .background-3 {
   background-image: url("../../assets/images/sustainability&recycling/climate_2.png"); }
-
-.background-1,
-.background-2,
-.background-3 {
+#climate .background-1,
+#climate .background-2,
+#climate .background-3 {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -416,17 +366,16 @@ video {
   width: 100%;
   height: 21.875rem;
   position: relative; }
-
-.climate {
+#climate .climate {
   width: 100%; }
-  .climate_frame-wrapper {
+  #climate .climate_frame-wrapper {
     width: 100%;
     height: 100%;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center; }
-  .climate_frame-heading {
+  #climate .climate_frame-heading {
     font-weight: 600;
     width: 100%;
     color: #ffffff;
@@ -434,7 +383,7 @@ video {
     text-align: center;
     line-height: 3.25rem;
     margin-bottom: unset; }
-  .climate_frame-des {
+  #climate .climate_frame-des {
     margin-top: 0.75rem;
     width: 100%;
     color: #ffffff;
@@ -443,72 +392,72 @@ video {
     font-weight: 400;
     font-size: 1.25rem;
     line-height: 2rem; }
-  .climate_frame1 {
+  #climate .climate_frame1 {
     padding: 2rem 0;
     text-align: center;
     color: #000000; }
-    .climate_frame1-heading {
+    #climate .climate_frame1-heading {
       font-weight: 600;
       margin-bottom: unset; }
-    .climate_frame1-title {
+    #climate .climate_frame1-title {
       margin-top: 1rem;
       font-weight: 500;
       color: #17171a; }
-    .climate_frame1-des {
+    #climate .climate_frame1-des {
       margin-top: 1rem;
       margin-bottom: unset;
       font-weight: 400; }
-  .climate_frame2 {
+  #climate .climate_frame2 {
     display: grid;
     grid-template-columns: 5fr 7fr;
     column-gap: 1.5rem;
     padding: 2rem 0; }
-    .climate_frame2-left-heading {
+    #climate .climate_frame2-left-heading {
       margin-bottom: unset;
       font-weight: 600;
       align-items: center;
       color: #17171a; }
-    .climate_frame2-left-list {
+    #climate .climate_frame2-left-list {
       margin-top: 1rem; }
-      .climate_frame2-left-list li {
+      #climate .climate_frame2-left-list li {
         margin-bottom: unset;
         font-weight: 400;
         align-items: center;
         color: #17171a; }
-    .climate_frame2-right {
+    #climate .climate_frame2-right {
       width: 100%;
       height: 100%; }
-      .climate_frame2-right img {
+      #climate .climate_frame2-right img {
         width: 100%;
         height: 100%; }
-  .climate_frame3 {
+  #climate .climate_frame3 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     row-gap: 3rem;
     column-gap: 3rem; }
-    .climate_frame3-heading {
+    #climate .climate_frame3-heading {
       margin-top: 3.75rem;
       font-weight: 600;
       text-align: center;
       color: #17171a; }
-    .climate_frame3-title {
+    #climate .climate_frame3-title {
       margin-top: 1rem;
       width: 100%;
       margin-bottom: unset;
       font-weight: 500;
       text-align: center;
       color: #17171a; }
-    .climate_frame3-des {
+    #climate .climate_frame3-des {
       margin-bottom: unset;
       margin-top: 1rem;
       font-weight: 400;
       text-align: center;
       color: #17171a; }
-    .climate_frame3-btn {
+    #climate .climate_frame3-btn {
       margin-top: 1rem;
       display: flex;
       justify-content: center; }
-      .climate_frame3-btn button {
+      #climate .climate_frame3-btn button {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -518,29 +467,29 @@ video {
         background: #3d8705;
         border-radius: 2.5rem;
         border: unset; }
-        .climate_frame3-btn button img {
+        #climate .climate_frame3-btn button img {
           width: 1.5rem;
           height: 1.5rem; }
-        .climate_frame3-btn button:hover {
+        #climate .climate_frame3-btn button:hover {
           transition: 0.3s;
           cursor: pointer;
           background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #3d8705; }
-    .climate_frame3-item {
+    #climate .climate_frame3-item {
       position: relative;
       height: 27.5rem;
       margin-bottom: 3rem; }
-      .climate_frame3-item-heading {
+      #climate .climate_frame3-item-heading {
         margin-bottom: unset;
         font-weight: 400;
         color: #000000;
         text-align: center; }
-      .climate_frame3-item-des {
+      #climate .climate_frame3-item-des {
         margin-top: 1.25rem;
         margin-bottom: unset;
         font-weight: 400;
         color: #000000;
         text-align: center; }
-      .climate_frame3-item-img {
+      #climate .climate_frame3-item-img {
         position: absolute;
         bottom: 0;
         left: 0;
@@ -548,18 +497,18 @@ video {
         content: "";
         width: 100%;
         height: 21rem; }
-        .climate_frame3-item-img img {
+        #climate .climate_frame3-item-img img {
           background-position: center;
           object-fit: cover;
           width: 100%; }
-  .climate_frame4-wrapper {
+  #climate .climate_frame4-wrapper {
     width: 100%;
     height: 100%;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center; }
-  .climate_frame4-heading {
+  #climate .climate_frame4-heading {
     display: flex;
     text-align: center;
     color: #ffffff;
@@ -568,61 +517,61 @@ video {
     align-items: center;
     margin-bottom: unset;
     font-weight: 600; }
-  .climate_frame6 {
+  #climate .climate_frame6 {
     margin-bottom: unset;
     text-align: center;
     color: #17171a; }
-    .climate_frame6-heading {
+    #climate .climate_frame6-heading {
       font-weight: 600; }
-    .climate_frame6-des {
+    #climate .climate_frame6-des {
       margin-top: 1rem;
       font-weight: 400; }
-  .climate_frame7 {
+  #climate .climate_frame7 {
     display: grid;
     grid-template-columns: 7fr 5fr;
     column-gap: 1.5rem;
     padding: 2rem 0; }
-    .climate_frame7-left-heading {
+    #climate .climate_frame7-left-heading {
       margin-bottom: unset;
       font-weight: 600;
       align-items: center;
       color: #17171a; }
-    .climate_frame7-left-list {
+    #climate .climate_frame7-left-list {
       margin-top: 1rem; }
-      .climate_frame7-left-list li {
+      #climate .climate_frame7-left-list li {
         margin-bottom: unset;
         font-weight: 400;
         align-items: center;
         color: #17171a; }
-    .climate_frame7-right {
+    #climate .climate_frame7-right {
       width: 100%;
       height: 100%; }
-      .climate_frame7-right img {
+      #climate .climate_frame7-right img {
         width: 100%;
         height: 100%; }
-  .climate_frame8-heading {
+  #climate .climate_frame8-heading {
     margin-top: 3.75rem;
     font-weight: 600;
     text-align: center;
     color: #17171a; }
-  .climate_frame8-title {
+  #climate .climate_frame8-title {
     margin-top: 1rem;
     width: 100%;
     margin-bottom: unset;
     font-weight: 500;
     text-align: center;
     color: #17171a; }
-  .climate_frame8-des {
+  #climate .climate_frame8-des {
     margin-bottom: unset;
     margin-top: 1rem;
     font-weight: 400;
     text-align: center;
     color: #17171a; }
-  .climate_frame8-btn {
+  #climate .climate_frame8-btn {
     margin-top: 1rem;
     display: flex;
     justify-content: center; }
-    .climate_frame8-btn button {
+    #climate .climate_frame8-btn button {
       display: flex;
       justify-content: center;
       align-items: center;
@@ -631,32 +580,32 @@ video {
       background: #3d8705;
       border-radius: 2.5rem;
       border: unset; }
-      .climate_frame8-btn button img {
+      #climate .climate_frame8-btn button img {
         width: 1.5rem;
         height: 1.5rem; }
-      .climate_frame8-btn button a {
+      #climate .climate_frame8-btn button a {
         color: #ffffff;
         text-decoration: none; }
-      .climate_frame8-btn button:hover {
+      #climate .climate_frame8-btn button:hover {
         transition: 0.3s;
         cursor: pointer;
         background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #3d8705; }
-  .climate_frame8-item {
+  #climate .climate_frame8-item {
     position: relative;
     height: 27.5rem;
     margin-bottom: 3rem; }
-    .climate_frame8-item-heading {
+    #climate .climate_frame8-item-heading {
       margin-bottom: unset;
       font-weight: 400;
       color: #000000;
       text-align: center; }
-    .climate_frame8-item-des {
+    #climate .climate_frame8-item-des {
       margin-top: 1.25rem;
       margin-bottom: unset;
       font-weight: 400;
       color: #000000;
       text-align: center; }
-    .climate_frame8-item-img {
+    #climate .climate_frame8-item-img {
       position: absolute;
       bottom: 0;
       left: 0;
@@ -664,95 +613,55 @@ video {
       content: "";
       width: 100%;
       height: 21rem; }
-      .climate_frame8-item-img img {
+      #climate .climate_frame8-item-img img {
         background-position: center;
         object-fit: cover;
         width: 100%; }
 
 /* Tablet: width >= 768px and width < 1024px */
 @media only screen and (min-width: 48rem) and (max-width: 64rem) {
-  #tabs {
-    margin-top: 3.125rem;
-    padding: unset !important; }
-
-  .climate_frame1,
-  .climate_frame8,
-  .climate_frame2,
-  .climate_frame3,
-  .climate_frame7 {
+  #climate .climate_frame1,
+  #climate .climate_frame8,
+  #climate .climate_frame2,
+  #climate .climate_frame3,
+  #climate .climate_frame7 {
     margin-left: 1.25rem;
     margin-right: 1.25rem; }
-
-  .climate_frame3-item-heading {
+  #climate .climate_frame3-item-heading {
     font-size: 1.575rem; } }
 /* Mobile: width < 768px */
 @media only screen and (max-width: 48rem) {
-  #tabs {
-    margin-top: 3.125rem;
-    padding: unset !important; }
-
-  #tabs .tabs {
-    padding-left: 1.25rem;
-    padding-right: 1.25rem;
-    width: 100%;
-    gap: 24px;
-    justify-content: unset !important;
-    display: grid;
-    overflow-x: auto;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    overflow-y: hidden;
-    scroll-snap-type: x mandatory;
-    scrollbar-width: none;
-    -webkit-user-select: none;
-    user-select: none; }
-    #tabs .tabs::-webkit-scrollbar {
-      display: none; }
-
-  #tabs .tabs_heading {
-    width: 100px;
-    text-align: center;
-    display: inline-block;
-    display: grid; }
-
-  .climate_frame2 {
+  #climate .climate_frame2 {
     padding: 3rem 0 !important;
     display: flex !important;
     flex-direction: column;
     gap: 0.625rem;
     margin-left: 0.625rem !important;
     margin-right: 0.625rem !important; }
-
-  .climate_frame7 {
+  #climate .climate_frame7 {
     display: flex !important;
     flex-direction: column;
     gap: 0.625rem;
     margin-left: 0.625rem !important;
     margin-right: 0.625rem !important; }
-
-  .climate_frame7-right {
+  #climate .climate_frame7-right {
     order: 1; }
-
-  .climate_frame3 {
+  #climate .climate_frame3 {
     display: flex !important;
     flex-direction: column;
     gap: 0.625rem;
     margin-left: 0.625rem !important;
     margin-right: 0.625rem !important; }
-
-  .climate_frame1 {
+  #climate .climate_frame1 {
     margin-left: 0.625rem !important;
     margin-right: 0.625rem !important; }
-
-  .climate_frame8 {
+  #climate .climate_frame8 {
     margin-left: 0.625rem !important;
     margin-right: 0.625rem !important; }
-
-  .climate_frame6 {
+  #climate .climate_frame6 {
     margin-left: 0.625rem !important;
     margin-right: 0.625rem !important; }
-
-  .climate_frame3-item-des {
+  #climate .climate_frame3-item-des {
     display: none; }
-
-  .climate_frame3-item {
+  #climate .climate_frame3-item {
     height: 26rem; } }
