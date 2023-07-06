@@ -324,8 +324,7 @@ export default class Header extends Vue {}
           <img
             src="../assets/images/logoApp.png"
             alt="logoApp"
-            width="100%"
-            height="100%"
+            style="width: 100%; height: 100%"
           />
         </router-link>
       </div>
