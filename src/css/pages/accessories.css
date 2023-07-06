@@ -439,7 +439,7 @@ video {
       appearance: none;
       cursor: pointer; }
     #accessories .filter-item::after {
-      content: url(../../assets/svgs/arrow.svg);
+      content: url(/public/assets/svgs/arrow.svg);
       top: 0.625rem;
       right: 0.75rem;
       width: 1.5rem;
@@ -494,79 +494,79 @@ video {
       #accessories .banner-btn:hover {
         background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #3d8705; }
   #accessories .background-1 {
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../../assets/images/accessories/background-access-1.png);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/public/assets/images/accessories/background-access-1.png);
     background-repeat: no-repeat;
     background-position: center;
     object-position: center;
     background-size: cover; }
   #accessories .background-2 {
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../../assets/images/accessories/background-access-2.png);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/public/assets/images/accessories/background-access-2.png);
     background-repeat: no-repeat;
     background-position: center;
     object-position: center;
     background-size: cover; }
   #accessories .background-3 {
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../../assets/images/accessories/background-access-3.png);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/public/assets/images/accessories/background-access-3.png);
     background-repeat: no-repeat;
     background-position: center;
     object-position: center;
     background-size: cover; }
   #accessories .background-4 {
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../../assets/images/accessories/background-access-4.png);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/public/assets/images/accessories/background-access-4.png);
     background-repeat: no-repeat;
     background-position: center;
     object-position: center;
     background-size: cover; }
   #accessories .background-5 {
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../../assets/images/accessories/background-access-5.png);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/public/assets/images/accessories/background-access-5.png);
     background-repeat: no-repeat;
     background-position: center;
     object-position: center;
     background-size: cover; }
   #accessories .background-6 {
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../../assets/images/accessories/background-access-6.png);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/public/assets/images/accessories/background-access-6.png);
     background-repeat: no-repeat;
     background-position: center;
     object-position: center;
     background-size: cover; }
   #accessories .background-7 {
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../../assets/images/accessories/background-access-7.png);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/public/assets/images/accessories/background-access-7.png);
     background-repeat: no-repeat;
     background-position: center;
     object-position: center;
     background-size: cover; }
   #accessories .background-8 {
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../../assets/images/accessories/background-access-8.png);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/public/assets/images/accessories/background-access-8.png);
     background-repeat: no-repeat;
     background-position: center;
     object-position: center;
     background-size: cover; }
   #accessories .background-9 {
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../../assets/images/accessories/background-access-9.png);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/public/assets/images/accessories/background-access-9.png);
     background-repeat: no-repeat;
     background-position: center;
     object-position: center;
     background-size: cover; }
   #accessories .background-10 {
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../../assets/images/accessories/background-access-10.png);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/public/assets/images/accessories/background-access-10.png);
     background-repeat: no-repeat;
     background-position: center;
     object-position: center;
     background-size: cover; }
   #accessories .background-11 {
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../../assets/images/accessories/background-access-11.png);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/public/assets/images/accessories/background-access-11.png);
     background-repeat: no-repeat;
     background-position: center;
     object-position: center;
     background-size: cover; }
   #accessories .background-12 {
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../../assets/images/accessories/background-access-12.png);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/public/assets/images/accessories/background-access-12.png);
     background-repeat: no-repeat;
     background-position: center;
     object-position: center;
     background-size: cover; }
   #accessories .background-13 {
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../../assets/images/accessories/background-access-13.png);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/public/assets/images/accessories/background-access-13.png);
     background-repeat: no-repeat;
     background-position: center;
     object-position: center;

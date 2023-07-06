@@ -44,7 +44,7 @@ export default defineComponent({
                 </router-link>
                 <div class="product-image">
                   <img
-                    src="../assets/images/product_detail/product_detail-1.png"
+                    src="assets/images/product_detail/product_detail-1.png"
                     alt="ISPIRAZIONE NAPOLI"
                   />
                 </div>
@@ -52,27 +52,27 @@ export default defineComponent({
                 <div class="product-slide">
                   <div class="product-slide__image active">
                     <img
-                      src="../assets/images/product_detail/product-detail-2.png"
+                      src="assets/images/product_detail/product-detail-2.png"
                       alt=""
                     />
                   </div>
 
                   <div class="product-slide__image">
                     <img
-                      src="../assets/images/product_detail/product-detail-2.png"
+                      src="assets/images/product_detail/product-detail-2.png"
                       alt=""
                     />
                   </div>
 
                   <div class="product-slide__image">
                     <img
-                      src="../assets/images/product_detail/product-detail-2.png"
+                      src="assets/images/product_detail/product-detail-2.png"
                       alt=""
                     />
                   </div>
                   <div class="product-slide__image">
                     <img
-                      src="../assets/images/product_detail/product-detail-2.png"
+                      src="assets/images/product_detail/product-detail-2.png"
                       alt=""
                     />
                   </div>
@@ -89,11 +89,11 @@ export default defineComponent({
                   <span class="product-card__sleeve">10-sleeve assortment</span>
                   <div class="product-card__delivery">
                     <div class="product-card__service">
-                      <img src="../assets/svgs/shipping-car.svg" alt="" />
+                      <img src="assets/svgs/shipping-car.svg" alt="" />
                       <p class="product-card__service-text">Free delivery</p>
                     </div>
                     <div class="product-card__service">
-                      <img src="../assets/svgs/bell.svg" alt="" />
+                      <img src="assets/svgs/bell.svg" alt="" />
                       <p class="product-card__service-text">
                         Coffee set included
                       </p>
@@ -115,7 +115,7 @@ export default defineComponent({
                     </span>
                   </div>
                   <button type="submit" class="product-btn">
-                    <img src="../assets/svgs/cart.svg" alt="" />
+                    <img src="assets/svgs/cart.svg" alt="" />
                     <span>ADD TO BASKET</span>
                   </button>
                 </div>
@@ -125,7 +125,7 @@ export default defineComponent({
         </div>
 
         <div class="detail-banner">
-          <img src="../assets/images/product/banner.png" alt="" />
+          <img src="assets/images/product/banner.png" alt="" />
           <div class="detail-banner-info">
             <span class="detail-banner-title">ORIGINAL COFFEE CAPSULES</span>
             <h6 class="detail-banner-desc">
@@ -157,7 +157,7 @@ export default defineComponent({
             <div class="product-content">
               <div class="detail-content-image">
                 <img
-                  src="../assets/images/product_detail/product_detail-3.png"
+                  src="assets/images/product_detail/product_detail-3.png"
                   alt=""
                 />
               </div>
@@ -334,7 +334,7 @@ export default defineComponent({
               </div>
               <div class="detail-flavors__filter">
                 <p>Content & Allergens</p>
-                <img src="../assets/svgs/Filter.svg" alt="" />
+                <img src="assets/svgs/Filter.svg" alt="" />
               </div>
             </div>
           </div>
@@ -342,10 +342,7 @@ export default defineComponent({
 
         <div class="detail-context">
           <div class="detail-context__image">
-            <img
-              src="../assets/images/product_detail/detail_context.png"
-              alt=""
-            />
+            <img src="assets/images/product_detail/detail_context.png" alt="" />
           </div>
           <p class="detail-context__heading">
             THE MOST INTENSE COFFEE – INTENSE ROASTED NOTES

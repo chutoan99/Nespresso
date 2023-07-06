@@ -83,7 +83,7 @@ export default defineComponent({
                   <input type="radio" checked />
                 </div>
                 <div class="aside_main-left-img">
-                  <img src="../assets/images/shopping_bag/payment.png" alt="" />
+                  <img src="assets/images/shopping_bag/payment.png" alt="" />
                 </div>
               </div>
               <div class="aside_main-right">
@@ -179,10 +179,7 @@ export default defineComponent({
                   <input type="radio" checked />
                 </div>
                 <div class="aside_main-left-img">
-                  <img
-                    src="../assets/images/shopping_bag/delivery.png"
-                    alt=""
-                  />
+                  <img src="assets/images/shopping_bag/delivery.png" alt="" />
                 </div>
               </div>
               <div class="aside_main-right">
@@ -315,7 +312,7 @@ export default defineComponent({
 
           <div class="payment_content">
             <div class="payment_content-img">
-              <img alt="" src="../assets/images/shopping_bag/image_45.png" />
+              <img alt="" src="assets/images/shopping_bag/image_45.png" />
             </div>
 
             <div class="payment_content-body">

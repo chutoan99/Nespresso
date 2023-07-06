@@ -72,40 +72,37 @@ export default defineComponent({
             <div class="product-media">
               <div class="product-media__image">
                 <img
-                  src="../assets/images/machines-detail/machines-detail.png"
+                  src="assets/images/machines-detail/machines-detail.png"
                   alt="Inissia Ruby Red Coffee Machine"
                 />
               </div>
               <div class="product-media__detail">
                 <div class="product-media__detail-link active">
                   <img
-                    src="../assets/images/machines-detail/detail-1.png"
+                    src="assets/images/machines-detail/detail-1.png"
                     alt=""
                   />
                 </div>
                 <div class="product-media__detail-link">
                   <img
-                    src="../assets/images/machines-detail/detail-2.png"
+                    src="assets/images/machines-detail/detail-2.png"
                     alt=""
                   />
                 </div>
                 <div class="product-media__detail-link">
                   <img
-                    src="../assets/images/machines-detail/detail-3.png"
+                    src="assets/images/machines-detail/detail-3.png"
                     alt=""
                   />
                 </div>
                 <div class="product-media__detail-link">
                   <img
-                    src="../assets/images/machines-detail/detail-4.png"
+                    src="assets/images/machines-detail/detail-4.png"
                     alt=""
                   />
                 </div>
                 <div class="product-media__detail-video">
-                  <img
-                    src="../assets/images/machines-detail/youtube.png"
-                    alt=""
-                  />
+                  <img src="assets/images/machines-detail/youtube.png" alt="" />
                 </div>
               </div>
             </div>
@@ -130,11 +127,11 @@ export default defineComponent({
                 </div>
                 <div class="product-card__delivery">
                   <div class="product-card__service">
-                    <img src="../assets/svgs/shipping-car.svg" alt="" />
+                    <img src="assets/svgs/shipping-car.svg" alt="" />
                     <p class="product-card__service-text">Free delivery</p>
                   </div>
                   <div class="product-card__service">
-                    <img src="../assets/svgs/bell.svg" alt="" />
+                    <img src="assets/svgs/bell.svg" alt="" />
                     <p class="product-card__service-text">
                       Coffee set included
                     </p>
@@ -165,7 +162,7 @@ export default defineComponent({
               </div>
               <div class="product-btn">
                 <button class="product-btn__add">
-                  <img src="../assets/svgs/cart.svg" alt="" />
+                  <img src="assets/svgs/cart.svg" alt="" />
                   <span>ADD TO BASKET</span>
                 </button>
 
@@ -178,7 +175,7 @@ export default defineComponent({
 
           <div class="banner">
             <div class="product-banner">
-              <img src="../assets/svgs/promote.svg" alt="promote" />
+              <img src="assets/svgs/promote.svg" alt="promote" />
               <div class="product-banner__text">
                 <p class="product-banner__text-heading">
                   <strong>MACHINE PROMOTE:</strong> -25% ON INISSIA
@@ -241,23 +238,23 @@ export default defineComponent({
 
               <div class="product-list">
                 <div class="product-item">
-                  <img src="../assets/svgs/double-cup.svg" alt="" />
+                  <img src="assets/svgs/double-cup.svg" alt="" />
                   <span class="product-item__desc"
                     >2 PROGRAMMABLE CUP SIZES</span
                   >
                 </div>
                 <div class="product-item">
-                  <img src="../assets/svgs/container.svg" alt="" />
+                  <img src="assets/svgs/container.svg" alt="" />
                   <span class="product-item__desc">COMPACT AND LIGHT</span>
                 </div>
                 <div class="product-item">
-                  <img src="../assets/svgs/fast-time.svg" alt="" />
+                  <img src="assets/svgs/fast-time.svg" alt="" />
                   <span class="product-item__desc"
                     >FAST HEAT-UP IN 25 SECONDS</span
                   >
                 </div>
                 <div class="product-item">
-                  <img src="../assets/svgs/stopwatch.svg" alt="" />
+                  <img src="assets/svgs/stopwatch.svg" alt="" />
                   <span class="product-item__desc"
                     >AUTOMATIC SWTICH-OFF AFTER 9 MINS</span
                   >
@@ -265,7 +262,7 @@ export default defineComponent({
               </div>
 
               <div class="product-price-detail">
-                <img src="../assets/svgs/recyle.svg" alt="recyle" />
+                <img src="assets/svgs/recyle.svg" alt="recyle" />
                 <span>The price includes Green Stamp of 4 RON + VAT.</span>
               </div>
             </div>
@@ -277,7 +274,7 @@ export default defineComponent({
             <p class="machines-tilte">PLAYFUL COLORS. UNIQUE PLEASURE.</p>
             <!-- <div class="machines-image">
               <img
-                src="../assets/images/machines-detail/machines-specifications.png"
+                src="assets/images/machines-detail/machines-specifications.png"
                 alt=""
               />
             </div> -->
@@ -331,16 +328,13 @@ export default defineComponent({
           <div class="extraction-method-list">
             <div class="extraction-method-item">
               <img
-                src="../assets/images/machines-detail/ESPRESSO.png"
+                src="assets/images/machines-detail/ESPRESSO.png"
                 alt="ESPRESSO"
               />
               <span>ESPRESSO</span>
             </div>
             <div class="extraction-method-item">
-              <img
-                src="../assets/images/machines-detail/LUNGO.png"
-                alt="LUNGO"
-              />
+              <img src="assets/images/machines-detail/LUNGO.png" alt="LUNGO" />
               <span>LUNGO</span>
             </div>
           </div>
@@ -348,13 +342,10 @@ export default defineComponent({
 
         <section class="machines-banner">
           <div class="machines-banner-image">
-            <img
-              src="../assets/images/machines-detail/coffee.png"
-              alt="cofffee"
-            />
+            <img src="assets/images/machines-detail/coffee.png" alt="cofffee" />
           </div>
           <div class="machines-banner-video">
-            <img src="../assets/images/machines-detail/machines.png" alt="" />
+            <img src="assets/images/machines-detail/machines.png" alt="" />
             <span>
               WATCH THE VIDEO
               <svg
@@ -418,7 +409,7 @@ export default defineComponent({
                 </div>
                 <div class="storytelling-video__background">
                   <img
-                    src="../assets/images/machines-detail/MACHINE-ASSISTANCE.png"
+                    src="assets/images/machines-detail/MACHINE-ASSISTANCE.png"
                     alt=""
                   />
                 </div>
@@ -465,7 +456,7 @@ export default defineComponent({
               </div>
               <div class="card-slider-image">
                 <img
-                  src="../assets/images/machines-detail/descaing-kit.png"
+                  src="assets/images/machines-detail/descaing-kit.png"
                   alt=""
                 />
               </div>

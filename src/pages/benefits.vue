@@ -91,7 +91,7 @@ export default defineComponent({
                   <div class="slider_item-wrapper">
                     <div class="slider_item-img">
                       <img
-                        src="../assets/images/benefits/car.png"
+                        src="assets/images/benefits/car.png"
                         alt="DELIVERY"
                       />
                     </div>
@@ -104,7 +104,7 @@ export default defineComponent({
                   <div class="slider_item-wrapper">
                     <div class="slider_item-img">
                       <img
-                        src="../assets/images/benefits/RECYCLING_AT_HOME.png"
+                        src="assets/images/benefits/RECYCLING_AT_HOME.png"
                         alt="RECYCLING"
                       />
                     </div>
@@ -117,7 +117,7 @@ export default defineComponent({
                   <div class="slider_item-wrapper">
                     <div class="slider_item-img">
                       <img
-                        src="../assets/images/benefits/LOAN_MACHINE_DURING_REPAIR.png"
+                        src="assets/images/benefits/LOAN_MACHINE_DURING_REPAIR.png"
                         alt="MACHINE"
                       />
                     </div>
@@ -130,7 +130,7 @@ export default defineComponent({
                   <div class="slider_item-wrapper">
                     <div class="slider_item-img">
                       <img
-                        src="../assets/images/benefits/MASTERCLASSES.png"
+                        src="assets/images/benefits/MASTERCLASSES.png"
                         alt="MASTERCLASSES"
                       />
                     </div>
@@ -143,7 +143,7 @@ export default defineComponent({
                   <div class="slider_item-wrapper">
                     <div class="slider_item-img">
                       <img
-                        src="../assets/images/benefits/DISCOUNT.png"
+                        src="assets/images/benefits/DISCOUNT.png"
                         alt="DISCOUNT"
                       />
                     </div>
@@ -156,7 +156,7 @@ export default defineComponent({
                   <div class="slider_item-wrapper">
                     <div class="slider_item-img">
                       <img
-                        src="../assets/images/benefits/FREE_DESCALING_KIT.png"
+                        src="assets/images/benefits/FREE_DESCALING_KIT.png"
                         alt="DESCALING"
                       />
                     </div>
@@ -169,7 +169,7 @@ export default defineComponent({
                   <div class="slider_item-wrapper">
                     <div class="slider_item-img">
                       <img
-                        src="../assets/images/benefits/REFFER_A_FRIEND.png"
+                        src="assets/images/benefits/REFFER_A_FRIEND.png"
                         alt="REFFER"
                       />
                     </div>
@@ -182,7 +182,7 @@ export default defineComponent({
                   <div class="slider_item-wrapper">
                     <div class="slider_item-img">
                       <img
-                        src="../assets/images/benefits/EXTENDED_WARRANTY.png"
+                        src="assets/images/benefits/EXTENDED_WARRANTY.png"
                         alt="EXTENDED"
                       />
                     </div>
@@ -195,7 +195,7 @@ export default defineComponent({
                   <div class="slider_item-wrapper">
                     <div class="slider_item-img">
                       <img
-                        src="../assets/images/benefits/EXTENDED_WARRANTY.png"
+                        src="assets/images/benefits/EXTENDED_WARRANTY.png"
                         alt="EXTENDED"
                       />
                     </div>
@@ -211,7 +211,7 @@ export default defineComponent({
         <!--end slider -->
         <section class="container benefits" style="position: relative">
           <div class="benefits_img hide_on-pc hide_on-tab show_on-mobile">
-            <img src="../assets/images/benefits/Untitled.png" alt="" />
+            <img src="assets/images/benefits/Untitled.png" alt="" />
           </div>
           <div class="background-2">
             <div class="benefits_frame3">
@@ -233,7 +233,7 @@ export default defineComponent({
             <div class="benefits_frame2-item">
               <div class="benefits_frame2-item-img">
                 <img
-                  src="../assets/images/benefits/Group_321.png"
+                  src="assets/images/benefits/Group_321.png"
                   alt="carthand"
                 />
               </div>
@@ -247,10 +247,7 @@ export default defineComponent({
             </div>
             <div class="benefits_frame2-item">
               <div class="benefits_frame2-item-img">
-                <img
-                  src="../assets/images/benefits/carthand.png"
-                  alt="carthand"
-                />
+                <img src="assets/images/benefits/carthand.png" alt="carthand" />
               </div>
               <div class="benefits_frame2-item-content">
                 <h3>Pick up in a boutique today</h3>
@@ -263,7 +260,7 @@ export default defineComponent({
             <div class="benefits_frame2-item">
               <div class="benefits_frame2-item-img">
                 <img
-                  src="../assets/images/benefits/Group_321.png"
+                  src="assets/images/benefits/Group_321.png"
                   alt="carthand"
                 />
               </div>
@@ -277,7 +274,7 @@ export default defineComponent({
             <div class="benefits_frame2-item">
               <div class="benefits_frame2-item-img">
                 <img
-                  src="../assets/images/benefits/Group_320.png"
+                  src="assets/images/benefits/Group_320.png"
                   alt="carthand"
                 />
               </div>

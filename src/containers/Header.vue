@@ -19,7 +19,7 @@ export default class Header extends Vue {}
               <!-- List Item 1: Order -->
               <li>
                 <div class="img_coffee-w">
-                  <img alt="coffee" src="../assets/images/header/order.png" />
+                  <img alt="coffee" src="assets/images/header/order.png" />
                 </div>
                 <div class="menu__item-content">
                   <router-link class="menu__item" to="">Order</router-link>
@@ -30,7 +30,7 @@ export default class Header extends Vue {}
                 <div class="img_coffee-w">
                   <img
                     alt="coffee"
-                    src="../assets/images/header/coffee-capsule.png"
+                    src="assets/images/header/coffee-capsule.png"
                   />
                 </div>
                 <div class="menu__item-content">
@@ -58,10 +58,7 @@ export default class Header extends Vue {}
               <!-- List Item 3: Machine -->
               <li>
                 <div class="img_machine-w">
-                  <img
-                    alt="machine"
-                    src="../assets/images/header/machine.png"
-                  />
+                  <img alt="machine" src="assets/images/header/machine.png" />
                 </div>
                 <div class="menu__item-content">
                   <router-link class="menu__item" to="/machines"
@@ -90,7 +87,7 @@ export default class Header extends Vue {}
                 <div class="img_accessories-w">
                   <img
                     alt="accessories"
-                    src="../assets/images/header/accessories.png"
+                    src="assets/images/header/accessories.png"
                   />
                 </div>
                 <div class="menu__item-content">
@@ -120,7 +117,7 @@ export default class Header extends Vue {}
                 <div class="img_accessories-w">
                   <img
                     alt="accessories"
-                    src="../assets/images/header/Benefits.png"
+                    src="assets/images/header/Benefits.png"
                   />
                 </div>
                 <div class="menu__item-content">
@@ -149,10 +146,7 @@ export default class Header extends Vue {}
               <!-- List Item 6: Sustainability & Recycling -->
               <li>
                 <div class="img_recycle-w">
-                  <img
-                    alt="recycle"
-                    src="../assets/images/header/recycle.png"
-                  />
+                  <img alt="recycle" src="assets/images/header/recycle.png" />
                 </div>
                 <div class="menu__item-content">
                   <router-link class="menu__item" to="/sustainability_recycling"
@@ -180,10 +174,7 @@ export default class Header extends Vue {}
               <!-- List Item 7: Services -->
               <li>
                 <div class="img_service-w">
-                  <img
-                    alt="service"
-                    src="../assets/images/header/service.png"
-                  />
+                  <img alt="service" src="assets/images/header/service.png" />
                 </div>
                 <div class="menu__item-content">
                   <router-link class="menu__item" to="/service"
@@ -210,10 +201,7 @@ export default class Header extends Vue {}
               <!-- List Item 8: Store Locator -->
               <li>
                 <div class="img_location-w">
-                  <img
-                    alt="location"
-                    src="../assets/images/header/location.png"
-                  />
+                  <img alt="location" src="assets/images/header/location.png" />
                 </div>
                 <div class="menu__item-content">
                   <router-link class="menu__item" to="/store_location"
@@ -240,10 +228,7 @@ export default class Header extends Vue {}
               <!-- List Item 9: SContact -->
               <li>
                 <div class="img_contact-w">
-                  <img
-                    alt="contact"
-                    src="../assets/images/header/contact.png"
-                  />
+                  <img alt="contact" src="assets/images/header/contact.png" />
                 </div>
                 <div class="menu__item-content">
                   <router-link class="menu__item" to="/contact_us"
@@ -270,10 +255,7 @@ export default class Header extends Vue {}
               <!-- List Item 10: Professional -->
               <li>
                 <div class="img_professional-w">
-                  <img
-                    alt="professional"
-                    src="../assets/images/header/pro.png"
-                  />
+                  <img alt="professional" src="assets/images/header/pro.png" />
                 </div>
                 <div class="menu__item-content">
                   <router-link class="menu__item" to="/professional"
@@ -322,7 +304,7 @@ export default class Header extends Vue {}
         </div>
         <router-link to="/">
           <img
-            src="../assets/images/logoApp.png"
+            src="assets/images/logoApp.png"
             alt="logoApp"
             style="width: 100%; height: 100%"
           />
@@ -431,7 +413,7 @@ export default class Header extends Vue {}
             <div class="form_result-wrapper">
               <div class="form_search-item">
                 <div class="form_search-item-img">
-                  <img src="../assets/images/Rectangle_42.png" alt="" />
+                  <img src="assets/images/Rectangle_42.png" alt="" />
                 </div>
                 <div class="form_search-item-info">
                   <span>Altissio</span> <span>In</span>
@@ -439,7 +421,7 @@ export default class Header extends Vue {}
               </div>
               <div class="form_search-item">
                 <div class="form_search-item-img">
-                  <img src="../assets/images/Rectangle_42.png" alt="" />
+                  <img src="assets/images/Rectangle_42.png" alt="" />
                 </div>
                 <div class="form_search-item-info">
                   <span>Altissio</span> <span>In</span>
@@ -447,7 +429,7 @@ export default class Header extends Vue {}
               </div>
               <div class="form_search-item">
                 <div class="form_search-item-img">
-                  <img src="../assets/images/Rectangle_42.png" alt="" />
+                  <img src="assets/images/Rectangle_42.png" alt="" />
                 </div>
                 <div class="form_search-item-info">
                   <span>Altissio</span> <span>In</span>
@@ -637,7 +619,7 @@ export default class Header extends Vue {}
                     <div class="modalCart_body-content">
                       <div class="modalCart_body-content-img">
                         <img
-                          src="../assets/images/item_cart.png"
+                          src="assets/images/item_cart.png"
                           alt="item_cart.png"
                         />
                       </div>

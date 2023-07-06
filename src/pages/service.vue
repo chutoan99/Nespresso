@@ -15,11 +15,11 @@ export default defineComponent({
   data() {
     return {
       img: {
-        imagePath_1: require("../assets/images/service/servcice_4.png"),
-        imagePath_2: require("../assets/images/service/servcice_1.png"),
-        imagePath_3: require("../assets/images/service/servcice_1.png"),
-        imagePath_4: require("../assets/images/service/servcice_2.png"),
-        imagePath_5: require("../assets/images/service/servcice_1.png"),
+        imagePath_1: require("/public/assets/images/service/servcice_4.png"),
+        imagePath_2: require("/public/assets/images/service/servcice_1.png"),
+        imagePath_3: require("/public/assets/images/service/servcice_1.png"),
+        imagePath_4: require("/public/assets/images/service/servcice_2.png"),
+        imagePath_5: require("/public/assets/images/service/servcice_1.png"),
       },
     };
   },

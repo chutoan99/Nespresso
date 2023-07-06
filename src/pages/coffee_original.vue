@@ -105,7 +105,7 @@ export default defineComponent({
 
             <div class="choice-image">
               <img
-                src="../assets/images/coffee-original/coffee-expertise.png"
+                src="assets/images/coffee-original/coffee-expertise.png"
                 alt="Coffee Expertise"
               />
             </div>
@@ -132,7 +132,7 @@ export default defineComponent({
               <div class="discover-item">
                 <div class="discover-item__image">
                   <img
-                    src="../assets/images/coffee-original/discover-capsules.png"
+                    src="assets/images/coffee-original/discover-capsules.png"
                     alt="RISTRETTO"
                   />
                 </div>
@@ -143,7 +143,7 @@ export default defineComponent({
               <div class="discover-item">
                 <div class="discover-item__image">
                   <img
-                    src="../assets/images/coffee-original/discover-capsules.png"
+                    src="assets/images/coffee-original/discover-capsules.png"
                     alt="ESPRESSO"
                   />
                 </div>
@@ -154,7 +154,7 @@ export default defineComponent({
               <div class="discover-item">
                 <div class="discover-item__image">
                   <img
-                    src="../assets/images/coffee-original/discover-capsules.png"
+                    src="assets/images/coffee-original/discover-capsules.png"
                     alt="LUNGO"
                   />
                 </div>
@@ -190,12 +190,12 @@ export default defineComponent({
           <div class="hero-image">
             <div>
               <img
-                src="../assets/images/coffee-original/ispirazione-italiana.png"
+                src="assets/images/coffee-original/ispirazione-italiana.png"
                 alt="Inspired by italian roasting tradition"
               />
             </div>
             <div>
-              <img src="../assets/images/coffee-original/cup.png" alt="" />
+              <img src="assets/images/coffee-original/cup.png" alt="" />
             </div>
           </div>
 
@@ -288,13 +288,13 @@ export default defineComponent({
           <div class="hero-image">
             <div>
               <img
-                src="../assets/images/coffee-original/espresso&lungo.png"
+                src="assets/images/coffee-original/espresso&lungo.png"
                 alt="Traditional is best"
               />
             </div>
             <div>
               <img
-                src="../assets/images/coffee-original/espresso&lungo-cup.png"
+                src="assets/images/coffee-original/espresso&lungo-cup.png"
                 alt="Traditional is best"
               />
             </div>
@@ -369,16 +369,13 @@ export default defineComponent({
           <div class="hero-image">
             <div>
               <img
-                src="../assets/images/coffee-original/master-origins.png"
+                src="assets/images/coffee-original/master-origins.png"
                 alt=""
               />
             </div>
 
             <div>
-              <img
-                src="../assets/images/coffee-original/master-cup.png"
-                alt=""
-              />
+              <img src="assets/images/coffee-original/master-cup.png" alt="" />
             </div>
           </div>
 
@@ -469,15 +466,12 @@ export default defineComponent({
           <div class="hero-image">
             <div>
               <img
-                src="../assets/images/coffee-original/barista-creations.png"
+                src="assets/images/coffee-original/barista-creations.png"
                 alt="Designed for the full spread of the coffee recipes"
               />
             </div>
             <div>
-              <img
-                src="../assets/images/coffee-original/barista-cup.png"
-                alt=""
-              />
+              <img src="assets/images/coffee-original/barista-cup.png" alt="" />
             </div>
           </div>
 
@@ -594,7 +588,7 @@ export default defineComponent({
           </div>
           <div class="intro-image">
             <img
-              src="../assets/images/coffee-original/explore.png"
+              src="assets/images/coffee-original/explore.png"
               alt="EXPLORE OUR COFFEE WORLD"
             />
           </div>
@@ -603,7 +597,7 @@ export default defineComponent({
         <section class="intro intro-sustainable">
           <div class="intro-image">
             <img
-              src="../assets/images/coffee-original/sustainable-company.png"
+              src="assets/images/coffee-original/sustainable-company.png"
               alt="SUSTAINABLE COMPANY"
             />
           </div>
@@ -726,7 +720,7 @@ export default defineComponent({
             <div class="service-description">
               <div class="service-description__image">
                 <img
-                  src="../assets/images/coffee-original/assistance.png"
+                  src="assets/images/coffee-original/assistance.png"
                   alt=""
                 />
               </div>
@@ -740,10 +734,7 @@ export default defineComponent({
 
             <div class="service-description">
               <div class="service-description__image">
-                <img
-                  src="../assets/images/coffee-original/payment.png"
-                  alt=""
-                />
+                <img src="assets/images/coffee-original/payment.png" alt="" />
               </div>
               <h6 class="service-description__title">
                 SECURED PAYMENT TRANSACTIONS
@@ -808,7 +799,7 @@ export default defineComponent({
                           <router-link to="Roma">
                             <div class="table-item__image">
                               <img
-                                src="../assets/images/coffee-original/item.png"
+                                src="assets/images/coffee-original/item.png"
                                 alt="ROMA"
                               />
                             </div>
@@ -858,7 +849,7 @@ export default defineComponent({
                           <router-link to="Roma">
                             <div class="table-item__image">
                               <img
-                                src="../assets/images/coffee-original/item.png"
+                                src="assets/images/coffee-original/item.png"
                                 alt="ROMA"
                               />
                             </div>
@@ -908,7 +899,7 @@ export default defineComponent({
                           <router-link to="Roma">
                             <div class="table-item__image">
                               <img
-                                src="../assets/images/coffee-original/item.png"
+                                src="assets/images/coffee-original/item.png"
                                 alt="ROMA"
                               />
                             </div>
@@ -958,7 +949,7 @@ export default defineComponent({
                           <router-link to="Roma">
                             <div class="table-item__image">
                               <img
-                                src="../assets/images/coffee-original/item.png"
+                                src="assets/images/coffee-original/item.png"
                                 alt="ROMA"
                               />
                             </div>
@@ -1008,7 +999,7 @@ export default defineComponent({
                           <router-link to="Roma">
                             <div class="table-item__image">
                               <img
-                                src="../assets/images/coffee-original/item.png"
+                                src="assets/images/coffee-original/item.png"
                                 alt="ROMA"
                               />
                             </div>
@@ -1058,7 +1049,7 @@ export default defineComponent({
                           <router-link to="Roma">
                             <div class="table-item__image">
                               <img
-                                src="../assets/images/coffee-original/item.png"
+                                src="assets/images/coffee-original/item.png"
                                 alt="ROMA"
                               />
                             </div>
@@ -1108,7 +1099,7 @@ export default defineComponent({
                           <router-link to="Roma">
                             <div class="table-item__image">
                               <img
-                                src="../assets/images/coffee-original/item.png"
+                                src="assets/images/coffee-original/item.png"
                                 alt="ROMA"
                               />
                             </div>
@@ -1158,7 +1149,7 @@ export default defineComponent({
                           <router-link to="Roma">
                             <div class="table-item__image">
                               <img
-                                src="../assets/images/coffee-original/item.png"
+                                src="assets/images/coffee-original/item.png"
                                 alt="ROMA"
                               />
                             </div>
@@ -1270,7 +1261,7 @@ export default defineComponent({
 
                           <div class="flex-item table-attribute__capsule">
                             <img
-                              src="../assets/images/coffee-original/capsules.png"
+                              src="assets/images/coffee-original/capsules.png"
                               alt=""
                             />
                           </div>
@@ -1293,11 +1284,11 @@ export default defineComponent({
                       <div class="table-keyvisual">
                         <img
                           class="table-keyvisual__mobile"
-                          src="../assets/images/coffee-original/kv_roma_S.jpg"
+                          src="assets/images/coffee-original/kv_roma_S.jpg"
                         />
                         <img
                           class="table-keyvisual__desktop"
-                          src="../assets/images/coffee-original/kv_roma_L.png"
+                          src="assets/images/coffee-original/kv_roma_L.png"
                         />
                       </div>
 

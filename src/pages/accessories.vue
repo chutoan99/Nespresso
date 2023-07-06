@@ -133,7 +133,7 @@ export default defineComponent({
         </section>
 
         <section class="banner">
-          <img src="../assets/images/product/banner.png" alt="banner" />
+          <img src="assets/images/product/banner.png" alt="banner" />
           <div class="banner-info">
             <span class="banner-title">ORIGINAL COFFEE CAPSULES</span>
             <h6 class="banner-desc">
@@ -142,7 +142,7 @@ export default defineComponent({
             <span class="banner-more">READ MORE</span>
           </div>
           <button type="submit" class="banner-btn">
-            <img src="../assets/svgs/cart.svg" alt="cart" />Buy Now
+            <img src="assets/svgs/cart.svg" alt="cart" />Buy Now
           </button>
         </section>
 
@@ -155,7 +155,7 @@ export default defineComponent({
                   <div class="product-image">
                     <router-link to="/accessories_detail">
                       <img
-                        src="../assets/images/accessories/accessories-1.png"
+                        src="assets/images/accessories/accessories-1.png"
                         alt=""
                       />
                     </router-link>
@@ -187,7 +187,7 @@ export default defineComponent({
                   <div class="product-image">
                     <router-link to="/accessories_detail">
                       <img
-                        src="../assets/images/accessories/accessories-2.png"
+                        src="assets/images/accessories/accessories-2.png"
                         alt=""
                       />
                     </router-link>
@@ -230,7 +230,7 @@ export default defineComponent({
                   <div class="product-image">
                     <router-link to="/accessories_detail">
                       <img
-                        src="../assets/images/accessories/accessories-3.png"
+                        src="assets/images/accessories/accessories-3.png"
                         alt="MILANO TOUCH GOLDEN TRAVEL MUG"
                       />
                     </router-link>
@@ -271,7 +271,7 @@ export default defineComponent({
                   <div class="product-image">
                     <router-link to="/accessories_detail">
                       <img
-                        src="../assets/images/accessories/accessories-4.png"
+                        src="assets/images/accessories/accessories-4.png"
                         alt="AEROCCINO 3"
                       />
                     </router-link>
@@ -303,7 +303,7 @@ export default defineComponent({
                   <div class="product-image">
                     <router-link to="/accessories_detail">
                       <img
-                        src="../assets/images/accessories/accessories-5.png"
+                        src="assets/images/accessories/accessories-5.png"
                         alt="AEROCCINO 4"
                       />
                     </router-link>
@@ -344,7 +344,7 @@ export default defineComponent({
                   <div class="product-image">
                     <router-link to="/accessories_detail">
                       <img
-                        src="../assets/images/accessories/accessories-6.png"
+                        src="assets/images/accessories/accessories-6.png"
                         alt="LUME ESPRESSO CUPS X 2"
                       />
                     </router-link>
@@ -376,7 +376,7 @@ export default defineComponent({
                   <div class="product-image">
                     <router-link to="/accessories_detail">
                       <img
-                        src="../assets/images/accessories/accessories-6.png"
+                        src="assets/images/accessories/accessories-6.png"
                         alt="LUME ESPRESSO CUPS X 2"
                       />
                     </router-link>
@@ -408,7 +408,7 @@ export default defineComponent({
                   <div class="product-image">
                     <router-link to="/accessories_detail">
                       <img
-                        src="../assets/images/accessories/accessories-6.png"
+                        src="assets/images/accessories/accessories-6.png"
                         alt="LUME ESPRESSO CUPS X 2"
                       />
                     </router-link>
@@ -449,7 +449,7 @@ export default defineComponent({
                   <div class="product-image">
                     <router-link to="/accessories_detail">
                       <img
-                        src="../assets/images/accessories/accessories-7.png"
+                        src="assets/images/accessories/accessories-7.png"
                         alt="REVEAL ESPRESSO MILD GLASSES"
                       />
                     </router-link>
@@ -481,7 +481,7 @@ export default defineComponent({
                   <div class="product-image">
                     <router-link to="/accessories_detail">
                       <img
-                        src="../assets/images/accessories/accessories-8.png"
+                        src="assets/images/accessories/accessories-8.png"
                         alt="REVEAL LUNGO"
                       />
                     </router-link>
@@ -513,7 +513,7 @@ export default defineComponent({
                   <div class="product-image">
                     <router-link to="/accessories_detail">
                       <img
-                        src="../assets/images/accessories/accessories-7.png"
+                        src="assets/images/accessories/accessories-7.png"
                         alt="REVEAL ESPRESSO INTENSE GLASSES"
                       />
                     </router-link>
@@ -554,7 +554,7 @@ export default defineComponent({
                   <div class="product-image">
                     <router-link to="/accessories_detail">
                       <img
-                        src="../assets/images/accessories/accessories-9.png"
+                        src="assets/images/accessories/accessories-9.png"
                         alt="DESCALING KIT"
                       />
                     </router-link>
@@ -595,7 +595,7 @@ export default defineComponent({
                   <div class="product-image">
                     <router-link to="/accessories_detail">
                       <img
-                        src="../assets/images/accessories/accessories-10.png"
+                        src="assets/images/accessories/accessories-10.png"
                         alt="NUDE ESPRESSO CUPS X 2 (80ML)"
                       />
                     </router-link>
@@ -627,7 +627,7 @@ export default defineComponent({
                   <div class="product-image">
                     <router-link to="/accessories_detail">
                       <img
-                        src="../assets/images/accessories/accessories-11.png"
+                        src="assets/images/accessories/accessories-11.png"
                         alt="NUDE LUNGO CUPS X 2 (180ML)"
                       />
                     </router-link>
@@ -659,7 +659,7 @@ export default defineComponent({
                   <div class="product-image">
                     <router-link to="/accessories_detail">
                       <img
-                        src="../assets/images/accessories/accessories-12.png"
+                        src="assets/images/accessories/accessories-12.png"
                         alt="NUDE GRAN LUNGO CUPS X 2 (270ML)"
                       />
                     </router-link>
@@ -691,7 +691,7 @@ export default defineComponent({
                   <div class="product-image">
                     <router-link to="/accessories_detail">
                       <img
-                        src="../assets/images/accessories/accessories-13.png"
+                        src="assets/images/accessories/accessories-13.png"
                         alt="NUDE MUGS X 2 (390ML)"
                       />
                     </router-link>
@@ -732,7 +732,7 @@ export default defineComponent({
                   <div class="product-image">
                     <router-link to="/accessories_detail">
                       <img
-                        src="../assets/images/accessories/accessories-14.png"
+                        src="assets/images/accessories/accessories-14.png"
                         alt="PIXIE ESPRESSO SET (RISTRETTO & DECAFFEINATO)"
                       />
                     </router-link>
@@ -766,7 +766,7 @@ export default defineComponent({
                   <div class="product-image">
                     <router-link to="/accessories_detail">
                       <img
-                        src="../assets/images/accessories/accessories-15.png"
+                        src="assets/images/accessories/accessories-15.png"
                         alt="PIXIE ESPRESSO SET (ARPEGGIO & VOLLUTO)"
                       />
                     </router-link>
@@ -800,7 +800,7 @@ export default defineComponent({
                   <div class="product-image">
                     <router-link to="/accessories_detail">
                       <img
-                        src="../assets/images/accessories/accessories-16.png"
+                        src="assets/images/accessories/accessories-16.png"
                         alt="PIXIE LUNGO SET (ENVIVO & LINIZIO)"
                       />
                     </router-link>
@@ -834,7 +834,7 @@ export default defineComponent({
                   <div class="product-image">
                     <router-link to="/accessories_detail">
                       <img
-                        src="../assets/images/accessories/accessories-17.png"
+                        src="assets/images/accessories/accessories-17.png"
                         alt="PIXIE LUNGO SET (BUENOS AIRES & SHANGHAI)"
                       />
                     </router-link>
@@ -868,7 +868,7 @@ export default defineComponent({
                   <div class="product-image">
                     <router-link to="/accessories_detail">
                       <img
-                        src="../assets/images/accessories/accessories-18.png"
+                        src="assets/images/accessories/accessories-18.png"
                         alt="PIXIE LUNGO SET (FORTISSIO & VIVALTO)"
                       />
                     </router-link>
@@ -902,7 +902,7 @@ export default defineComponent({
                   <div class="product-image">
                     <router-link to="/accessories_detail">
                       <img
-                        src="../assets/images/accessories/accessories-19.png"
+                        src="assets/images/accessories/accessories-19.png"
                         alt="PIXIE ESPRESSO CUP, RIO DE JANEIRO"
                       />
                     </router-link>
@@ -936,7 +936,7 @@ export default defineComponent({
                   <div class="product-image">
                     <router-link to="/accessories_detail">
                       <img
-                        src="../assets/images/accessories/accessories-20.png"
+                        src="assets/images/accessories/accessories-20.png"
                         alt="PIXIE ESPRESSO CUP, PARIS"
                       />
                     </router-link>
@@ -968,7 +968,7 @@ export default defineComponent({
                   <div class="product-image">
                     <router-link to="/accessories_detail">
                       <img
-                        src="../assets/images/accessories/accessories-21.png"
+                        src="assets/images/accessories/accessories-21.png"
                         alt="PIXIE ESPRESSO CUP, ISTANBUL"
                       />
                     </router-link>
@@ -1009,7 +1009,7 @@ export default defineComponent({
                   <div class="product-image">
                     <router-link to="/accessories_detail">
                       <img
-                        src="../assets/images/accessories/accessories-22.png"
+                        src="assets/images/accessories/accessories-22.png"
                         alt="DISPLAY DISCOVERY BOX"
                       />
                     </router-link>
@@ -1041,7 +1041,7 @@ export default defineComponent({
                   <div class="product-image">
                     <router-link to="/accessories_detail">
                       <img
-                        src="../assets/images/accessories/accessories-23.png"
+                        src="assets/images/accessories/accessories-23.png"
                         alt="DISPLAY BONBONNIERE CAPSULE DISPENSER"
                       />
                     </router-link>
@@ -1075,7 +1075,7 @@ export default defineComponent({
                   <div class="product-image">
                     <router-link to="/accessories_detail">
                       <img
-                        src="../assets/images/accessories/accessories-24.png"
+                        src="assets/images/accessories/accessories-24.png"
                         alt="DISPLAY CUBE CAPSULE DISPENSER"
                       />
                     </router-link>
@@ -1107,7 +1107,7 @@ export default defineComponent({
                   <div class="product-image">
                     <router-link to="/accessories_detail">
                       <img
-                        src="../assets/images/accessories/accessories-25.png"
+                        src="assets/images/accessories/accessories-25.png"
                         alt="DISPLAY VERSILO CAPSULE DISPENSER"
                       />
                     </router-link>
@@ -1141,7 +1141,7 @@ export default defineComponent({
                   <div class="product-image">
                     <router-link to="/accessories_detail">
                       <img
-                        src="../assets/images/accessories/accessories-26.png"
+                        src="assets/images/accessories/accessories-26.png"
                         alt="DISPLAY PURE ROCK CAPSULE DISPENSER"
                       />
                     </router-link>
@@ -1175,7 +1175,7 @@ export default defineComponent({
                   <div class="product-image">
                     <router-link to="/accessories_detail">
                       <img
-                        src="../assets/images/accessories/accessories-27.png"
+                        src="assets/images/accessories/accessories-27.png"
                         alt="DISPLAY MIA CAPSULE DISPENSER"
                       />
                     </router-link>
@@ -1216,7 +1216,7 @@ export default defineComponent({
                   <div class="product-image">
                     <router-link to="/accessories_detail">
                       <img
-                        src="../assets/images/accessories/accessories-28.png"
+                        src="assets/images/accessories/accessories-28.png"
                         alt="ICE CUBE TRAYS KIT"
                       />
                     </router-link>
@@ -1257,7 +1257,7 @@ export default defineComponent({
                   <div class="product-image">
                     <router-link to="/accessories_detail">
                       <img
-                        src="../assets/images/accessories/accessories-29.png"
+                        src="assets/images/accessories/accessories-29.png"
                         alt="RECYCLAY ESPRESSO CUPS"
                       />
                     </router-link>
@@ -1298,7 +1298,7 @@ export default defineComponent({
                   <div class="product-image">
                     <router-link to="/accessories_detail">
                       <img
-                        src="../assets/images/accessories/accessories-30.png"
+                        src="assets/images/accessories/accessories-30.png"
                         alt="VIEW CAPPUCCINO SET"
                       />
                     </router-link>
@@ -1330,7 +1330,7 @@ export default defineComponent({
                   <div class="product-image">
                     <router-link to="/accessories_detail">
                       <img
-                        src="../assets/images/accessories/accessories-31.png"
+                        src="assets/images/accessories/accessories-31.png"
                         alt="VIEW RECIPE GLASSES SET"
                       />
                     </router-link>
@@ -1362,7 +1362,7 @@ export default defineComponent({
                   <div class="product-image">
                     <router-link to="/accessories_detail">
                       <img
-                        src="../assets/images/accessories/accessories-32.png"
+                        src="assets/images/accessories/accessories-32.png"
                         alt="VIEW SPOONS – LARGE X 6"
                       />
                     </router-link>
@@ -1394,7 +1394,7 @@ export default defineComponent({
                   <div class="product-image">
                     <router-link to="/accessories_detail">
                       <img
-                        src="../assets/images/accessories/accessories-33.png"
+                        src="assets/images/accessories/accessories-33.png"
                         alt="VIEW GRAN LUNGO"
                       />
                     </router-link>
@@ -1426,7 +1426,7 @@ export default defineComponent({
                   <div class="product-image">
                     <router-link to="/accessories_detail">
                       <img
-                        src="../assets/images/accessories/accessories-34.png"
+                        src="assets/images/accessories/accessories-34.png"
                         alt="VIEW ESPRESSO SET X 2"
                       />
                     </router-link>
@@ -1458,7 +1458,7 @@ export default defineComponent({
                   <div class="product-image">
                     <router-link to="/accessories_detail">
                       <img
-                        src="../assets/images/accessories/accessories-35.png"
+                        src="assets/images/accessories/accessories-35.png"
                         alt="VIEW LUNGO SET X 2"
                       />
                     </router-link>
@@ -1490,7 +1490,7 @@ export default defineComponent({
                   <div class="product-image">
                     <router-link to="/accessories_detail">
                       <img
-                        src="../assets/images/accessories/accessories-36.png"
+                        src="assets/images/accessories/accessories-36.png"
                         alt="VIEW RECIPE GLASSES – 12 PIECES"
                       />
                     </router-link>
@@ -1531,7 +1531,7 @@ export default defineComponent({
                   <div class="product-image">
                     <router-link to="/accessories_detail">
                       <img
-                        src="../assets/images/accessories/accessories-37.png"
+                        src="assets/images/accessories/accessories-37.png"
                         alt="NOMAD TRAVEL MUG BLOOMING ROSE"
                       />
                     </router-link>
@@ -1563,7 +1563,7 @@ export default defineComponent({
                   <div class="product-image">
                     <router-link to="/accessories_detail">
                       <img
-                        src="../assets/images/accessories/accessories-38.png"
+                        src="assets/images/accessories/accessories-38.png"
                         alt="NOMAD TRAVEL MUG OCEAN BLUE"
                       />
                     </router-link>
@@ -1595,7 +1595,7 @@ export default defineComponent({
                   <div class="product-image">
                     <router-link to="/accessories_detail">
                       <img
-                        src="../assets/images/accessories/accessories-39.png"
+                        src="assets/images/accessories/accessories-39.png"
                         alt="NOMAD TRAVEL MUG LATTE"
                       />
                     </router-link>
@@ -1627,7 +1627,7 @@ export default defineComponent({
                   <div class="product-image">
                     <router-link to="/accessories_detail">
                       <img
-                        src="../assets/images/accessories/accessories-40.png"
+                        src="assets/images/accessories/accessories-40.png"
                         alt="NOMAD BOTTLE"
                       />
                     </router-link>
@@ -1659,7 +1659,7 @@ export default defineComponent({
                   <div class="product-image">
                     <router-link to="/accessories_detail">
                       <img
-                        src="../assets/images/accessories/accessories-41.png"
+                        src="assets/images/accessories/accessories-41.png"
                         alt="NOMAD TRAVEL MUG RASPBERRY"
                       />
                     </router-link>
@@ -1691,7 +1691,7 @@ export default defineComponent({
                   <div class="product-image">
                     <router-link to="/accessories_detail">
                       <img
-                        src="../assets/images/accessories/accessories-35.png"
+                        src="assets/images/accessories/accessories-35.png"
                         alt="VIEW LUNGO SET X 2"
                       />
                     </router-link>

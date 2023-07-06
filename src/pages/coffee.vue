@@ -129,16 +129,12 @@ export default defineComponent({
 
             <div class="filter-bar">
               <div class="filter-left">
-                <img
-                  class="filter-img"
-                  src="../assets/svgs/Filter.svg"
-                  alt=""
-                />
+                <img class="filter-img" src="assets/svgs/Filter.svg" alt="" />
                 <p class="filter-desc">FILTER</p>
               </div>
 
               <!-- <div class="filter-center">
-                <img class="filter-img" src="../assets/svgs/Filter.svg" alt="" />
+                <img class="filter-img" src="assets/svgs/Filter.svg" alt="" />
                 <p class="filter-desc">ORIGINAL</p>
               </div> -->
 
@@ -148,7 +144,7 @@ export default defineComponent({
                     <p class="filter-right__desc">SORT BY</p>
                     <!-- <img
                       class="filter-img"
-                      src="../assets/svgs/Filter.svg"
+                      src="assets/svgs/Filter.svg"
                       alt=""
                     /> -->
                   </div>
@@ -186,7 +182,7 @@ export default defineComponent({
                     <a href="#ispirazione">
                       <img
                         class="category-img"
-                        src="../assets/images/product/Ellipse_1.png"
+                        src="assets/images/product/Ellipse_1.png"
                         alt="Ispirazione Italiana"
                       />
                       <p class="category-desc">Ispirazione Italiana</p>
@@ -196,7 +192,7 @@ export default defineComponent({
                     <a href="#discovery">
                       <img
                         class="category-img"
-                        src="../assets/images/product/Ellipse_2.png"
+                        src="assets/images/product/Ellipse_2.png"
                         alt="Discovery Offer"
                       />
                       <p class="category-desc">Discovery Offer</p>
@@ -206,7 +202,7 @@ export default defineComponent({
                     <a href="#master">
                       <img
                         class="category-img"
-                        src="../assets/images/product/Ellipse_3.png"
+                        src="assets/images/product/Ellipse_3.png"
                         alt="Master Origins  "
                       />
                       <p class="category-desc">Master Origins</p>
@@ -216,7 +212,7 @@ export default defineComponent({
                     <a href="#world">
                       <img
                         class="category-img"
-                        src="../assets/images/product/Ellipse_4.png"
+                        src="assets/images/product/Ellipse_4.png"
                         alt="World Exploration"
                       />
                       <p class="category-desc">World Exploration</p>
@@ -226,7 +222,7 @@ export default defineComponent({
                     <a href="#barista">
                       <img
                         class="category-img"
-                        src="../assets/images/product/Ellipse_5.png"
+                        src="assets/images/product/Ellipse_5.png"
                         alt="Barista Creations"
                       />
                       <p class="category-desc">Barista Creations</p>
@@ -236,7 +232,7 @@ export default defineComponent({
                     <a href="#espresso">
                       <img
                         class="category-img"
-                        src="../assets/images/product/Ellipse_6.png"
+                        src="assets/images/product/Ellipse_6.png"
                         alt="Espresso"
                       />
                       <p class="category-desc">Espresso</p>
@@ -246,7 +242,7 @@ export default defineComponent({
               </div>
 
               <div class="category-banner">
-                <img src="../assets/images/product/promotion.png" alt="" />
+                <img src="assets/images/product/promotion.png" alt="" />
 
                 <div class="category-detail">
                   <p class="category-detail__heading">
@@ -289,7 +285,7 @@ export default defineComponent({
                   <div class="product-image">
                     <a href="./coffee-detail.html">
                       <img
-                        src="../assets/images/product/product_1.png"
+                        src="assets/images/product/product_1.png"
                         alt="Ispirazione Italiana Selection"
                       />
                     </a>
@@ -309,11 +305,11 @@ export default defineComponent({
                         >
                         <div class="product-type__size">
                           <div class="product-type__size-icon">
-                            <img src="../assets/svgs/sizeM.svg" alt="" />
+                            <img src="assets/svgs/sizeM.svg" alt="" />
                             <span>25ml</span>
                           </div>
                           <div class="product-type__size-icon">
-                            <img src="../assets/svgs/sizeL.svg" alt="" />
+                            <img src="assets/svgs/sizeL.svg" alt="" />
                             <span>40ml</span>
                           </div>
                         </div>
@@ -377,7 +373,7 @@ export default defineComponent({
                   <div class="product-image">
                     <a href="./coffee-detail.html">
                       <img
-                        src="../assets/images/product/product_2.png"
+                        src="assets/images/product/product_2.png"
                         alt="Ispirazione Italiana Intense Selection"
                       />
                     </a>
@@ -397,11 +393,11 @@ export default defineComponent({
                         </div>
                         <div class="product-type__size">
                           <div class="product-type__size-icon">
-                            <img src="../assets/svgs/sizeM.svg" alt="" />
+                            <img src="assets/svgs/sizeM.svg" alt="" />
                             <span>25ml</span>
                           </div>
                           <div class="product-type__size-icon">
-                            <img src="../assets/svgs/sizeL.svg" alt="" />
+                            <img src="assets/svgs/sizeL.svg" alt="" />
                             <span>40ml</span>
                           </div>
                         </div>
@@ -436,7 +432,7 @@ export default defineComponent({
                         <p class="product-capsule">Capsule price: 2,20 RON</p>
                       </div>
                       <button class="product-add">
-                        <img src="../assets/svgs/cart.svg" alt="" />
+                        <img src="assets/svgs/cart.svg" alt="" />
                         <span>ADD TO BASKET</span>
                       </button>
                     </div>
@@ -448,7 +444,7 @@ export default defineComponent({
                   <div class="product-image">
                     <a href="./coffee-detail.html">
                       <img
-                        src="../assets/images/product/product_3.png"
+                        src="assets/images/product/product_3.png"
                         alt="Roma"
                       />
                     </a>
@@ -466,11 +462,11 @@ export default defineComponent({
                         </div>
                         <div class="product-type__size">
                           <div class="product-type__size-icon">
-                            <img src="../assets/svgs/sizeM.svg" alt="" />
+                            <img src="assets/svgs/sizeM.svg" alt="" />
                             <span>25ml</span>
                           </div>
                           <div class="product-type__size-icon">
-                            <img src="../assets/svgs/sizeL.svg" alt="" />
+                            <img src="assets/svgs/sizeL.svg" alt="" />
                             <span>40ml</span>
                           </div>
                         </div>
@@ -504,7 +500,7 @@ export default defineComponent({
                         <p class="product-capsule">Capsule price: 2,20 RON</p>
                       </div>
                       <button class="product-add">
-                        <img src="../assets/svgs/cart.svg" alt="" />
+                        <img src="assets/svgs/cart.svg" alt="" />
                         <span>ADD TO BASKET</span>
                       </button>
                     </div>
@@ -516,7 +512,7 @@ export default defineComponent({
                   <div class="product-image">
                     <a href="./coffee-detail.html">
                       <img
-                        src="../assets/images/product/product_4.png"
+                        src="assets/images/product/product_4.png"
                         alt="Livanto"
                       />
                     </a>
@@ -530,11 +526,11 @@ export default defineComponent({
                       <div class="product-type__sleeve">Round and Balanced</div>
                       <div class="product-type__size">
                         <div class="product-type__size-icon">
-                          <img src="../assets/svgs/sizeM.svg" alt="" />
+                          <img src="assets/svgs/sizeM.svg" alt="" />
                           <span>25ml</span>
                         </div>
                         <div class="product-type__size-icon">
-                          <img src="../assets/svgs/sizeL.svg" alt="" />
+                          <img src="assets/svgs/sizeL.svg" alt="" />
                           <span>40ml</span>
                         </div>
                       </div>
@@ -567,7 +563,7 @@ export default defineComponent({
                       </div>
 
                       <button class="product-add">
-                        <img src="../assets/svgs/cart.svg" alt="" />
+                        <img src="assets/svgs/cart.svg" alt="" />
                         <span>ADD TO BASKET</span>
                       </button>
                     </div>
@@ -579,7 +575,7 @@ export default defineComponent({
                   <div class="product-image">
                     <a href="./coffee-detail.html">
                       <img
-                        src="../assets/images/product/product_5.png"
+                        src="assets/images/product/product_5.png"
                         alt="Arpeggio"
                       />
                     </a>
@@ -592,11 +588,11 @@ export default defineComponent({
                       <div class="product-type__sleeve">Intense and Cream</div>
                       <div class="product-type__size">
                         <div class="product-type__size-icon">
-                          <img src="../assets/svgs/sizeM.svg" alt="" />
+                          <img src="assets/svgs/sizeM.svg" alt="" />
                           <span>25ml</span>
                         </div>
                         <div class="product-type__size-icon">
-                          <img src="../assets/svgs/sizeL.svg" alt="" />
+                          <img src="assets/svgs/sizeL.svg" alt="" />
                           <span>40ml</span>
                         </div>
                       </div>
@@ -629,7 +625,7 @@ export default defineComponent({
                         <p class="product-capsule">Capsule price: 2,20 RON</p>
                       </div>
                       <button class="product-add">
-                        <img src="../assets/svgs/cart.svg" alt="" />
+                        <img src="assets/svgs/cart.svg" alt="" />
                         <span>ADD TO BASKET</span>
                       </button>
                     </div>
@@ -641,7 +637,7 @@ export default defineComponent({
                   <div class="product-image">
                     <a href="./coffee-detail.html">
                       <img
-                        src="../assets/images/product/product_6.png"
+                        src="assets/images/product/product_6.png"
                         alt="Arpeggio Decaffeinato"
                       />
                     </a>
@@ -654,11 +650,11 @@ export default defineComponent({
                       <div class="product-type__sleeve">Intense and Cream</div>
                       <div class="product-type__size">
                         <div class="product-type__size-icon">
-                          <img src="../assets/svgs/sizeM.svg" alt="" />
+                          <img src="assets/svgs/sizeM.svg" alt="" />
                           <span>25ml</span>
                         </div>
                         <div class="product-type__size-icon">
-                          <img src="../assets/svgs/sizeL.svg" alt="" />
+                          <img src="assets/svgs/sizeL.svg" alt="" />
                           <span>40ml</span>
                         </div>
                       </div>
@@ -691,7 +687,7 @@ export default defineComponent({
                         <p class="product-capsule">Capsule price: 2,20 RON</p>
                       </div>
                       <button class="product-add">
-                        <img src="../assets/svgs/cart.svg" alt="" />
+                        <img src="assets/svgs/cart.svg" alt="" />
                         <span>ADD TO BASKET</span>
                       </button>
                     </div>
@@ -703,7 +699,7 @@ export default defineComponent({
                   <div class="product-image">
                     <a href="./coffee-detail.html">
                       <img
-                        src="../assets/images/product/product_7.png"
+                        src="assets/images/product/product_7.png"
                         alt="Kazzar"
                       />
                     </a>
@@ -716,11 +712,11 @@ export default defineComponent({
                       <div class="product-type__sleeve">Intense and Syrupy</div>
                       <div class="product-type__size">
                         <div class="product-type__size-icon">
-                          <img src="../assets/svgs/sizeM.svg" alt="" />
+                          <img src="assets/svgs/sizeM.svg" alt="" />
                           <span>25ml</span>
                         </div>
                         <div class="product-type__size-icon">
-                          <img src="../assets/svgs/sizeL.svg" alt="" />
+                          <img src="assets/svgs/sizeL.svg" alt="" />
                           <span>40ml</span>
                         </div>
                       </div>
@@ -753,7 +749,7 @@ export default defineComponent({
                         <p class="product-capsule">Capsule price: 2,20 RON</p>
                       </div>
                       <button class="product-add">
-                        <img src="../assets/svgs/cart.svg" alt="" />
+                        <img src="assets/svgs/cart.svg" alt="" />
                         <span>ADD TO BASKET</span>
                       </button>
                     </div>
@@ -765,7 +761,7 @@ export default defineComponent({
                   <div class="product-image">
                     <a href="./coffee-detail.html">
                       <img
-                        src="../assets/images/product/product_8.png"
+                        src="assets/images/product/product_8.png"
                         alt="Napoli"
                       />
                     </a>
@@ -778,11 +774,11 @@ export default defineComponent({
                       <div class="product-type__sleeve">Dark and Creamy</div>
                       <div class="product-type__size">
                         <div class="product-type__size-icon">
-                          <img src="../assets/svgs/sizeM.svg" alt="" />
+                          <img src="assets/svgs/sizeM.svg" alt="" />
                           <span>25ml</span>
                         </div>
                         <div class="product-type__size-icon">
-                          <img src="../assets/svgs/sizeL.svg" alt="" />
+                          <img src="assets/svgs/sizeL.svg" alt="" />
                           <span>40ml</span>
                         </div>
                       </div>
@@ -815,7 +811,7 @@ export default defineComponent({
                         <p class="product-capsule">Capsule price: 2,20 RON</p>
                       </div>
                       <button class="product-add">
-                        <img src="../assets/svgs/cart.svg" alt="" />
+                        <img src="assets/svgs/cart.svg" alt="" />
                         <span>ADD TO BASKET</span>
                       </button>
                     </div>
@@ -827,7 +823,7 @@ export default defineComponent({
                   <div class="product-image">
                     <a href="./coffee-detail.html">
                       <img
-                        src="../assets/images/product/product_9.png"
+                        src="assets/images/product/product_9.png"
                         alt="Ristretto"
                       />
                     </a>
@@ -842,11 +838,11 @@ export default defineComponent({
                       </div>
                       <div class="product-type__size">
                         <div class="product-type__size-icon">
-                          <img src="../assets/svgs/sizeM.svg" alt="" />
+                          <img src="assets/svgs/sizeM.svg" alt="" />
                           <span>25ml</span>
                         </div>
                         <div class="product-type__size-icon">
-                          <img src="../assets/svgs/sizeL.svg" alt="" />
+                          <img src="assets/svgs/sizeL.svg" alt="" />
                           <span>40ml</span>
                         </div>
                       </div>
@@ -879,7 +875,7 @@ export default defineComponent({
                         <p class="product-capsule">Capsule price: 2,20 RON</p>
                       </div>
                       <button class="product-add">
-                        <img src="../assets/svgs/cart.svg" alt="" />
+                        <img src="assets/svgs/cart.svg" alt="" />
                         <span>ADD TO BASKET</span>
                       </button>
                     </div>
@@ -891,7 +887,7 @@ export default defineComponent({
                   <div class="product-image">
                     <a href="./coffee-detail.html">
                       <img
-                        src="../assets/images/product/product_10.png"
+                        src="assets/images/product/product_10.png"
                         alt="Ristretto Decaffeinato"
                       />
                     </a>
@@ -906,11 +902,11 @@ export default defineComponent({
                       </div>
                       <div class="product-type__size">
                         <div class="product-type__size-icon">
-                          <img src="../assets/svgs/sizeM.svg" alt="" />
+                          <img src="assets/svgs/sizeM.svg" alt="" />
                           <span>25ml</span>
                         </div>
                         <div class="product-type__size-icon">
-                          <img src="../assets/svgs/sizeL.svg" alt="" />
+                          <img src="assets/svgs/sizeL.svg" alt="" />
                           <span>40ml</span>
                         </div>
                       </div>
@@ -943,7 +939,7 @@ export default defineComponent({
                         <p class="product-capsule">Capsule price: 2,20 RON</p>
                       </div>
                       <button class="product-add">
-                        <img src="../assets/svgs/cart.svg" alt="" />
+                        <img src="assets/svgs/cart.svg" alt="" />
                         <span>ADD TO BASKET</span>
                       </button>
                     </div>
@@ -955,7 +951,7 @@ export default defineComponent({
                   <div class="product-image">
                     <a href="./coffee-detail.html">
                       <img
-                        src="../assets/images/product/product_11.png"
+                        src="assets/images/product/product_11.png"
                         alt="Venezia"
                       />
                     </a>
@@ -970,11 +966,11 @@ export default defineComponent({
                       </div>
                       <div class="product-type__size">
                         <div class="product-type__size-icon">
-                          <img src="../assets/svgs/sizeM.svg" alt="" />
+                          <img src="assets/svgs/sizeM.svg" alt="" />
                           <span>25ml</span>
                         </div>
                         <div class="product-type__size-icon">
-                          <img src="../assets/svgs/sizeL.svg" alt="" />
+                          <img src="assets/svgs/sizeL.svg" alt="" />
                           <span>40ml</span>
                         </div>
                       </div>
@@ -1007,7 +1003,7 @@ export default defineComponent({
                         <p class="product-capsule">Capsule price: 2,20 RON</p>
                       </div>
                       <button class="product-add">
-                        <img src="../assets/svgs/cart.svg" alt="" />
+                        <img src="assets/svgs/cart.svg" alt="" />
                         <span>ADD TO BASKET</span>
                       </button>
                     </div>
@@ -1034,7 +1030,7 @@ export default defineComponent({
                   <div class="product-image">
                     <a href="./coffee-detail.html">
                       <img
-                        src="../assets/images/product/discovery.png"
+                        src="assets/images/product/discovery.png"
                         alt="Welcome Offer Coffee Pack"
                       />
                     </a>
@@ -1049,11 +1045,11 @@ export default defineComponent({
                       </div>
                       <div class="product-type__size">
                         <div class="product-type__size-icon">
-                          <img src="../assets/svgs/sizeM.svg" alt="" />
+                          <img src="assets/svgs/sizeM.svg" alt="" />
                           <span>25ml</span>
                         </div>
                         <div class="product-type__size-icon">
-                          <img src="../assets/svgs/sizeL.svg" alt="" />
+                          <img src="assets/svgs/sizeL.svg" alt="" />
                           <span>40ml</span>
                         </div>
                       </div>
@@ -1086,7 +1082,7 @@ export default defineComponent({
                         <p class="product-capsule">Capsule price: 2,20 RON</p>
                       </div>
                       <button class="product-add">
-                        <img src="../assets/svgs/cart.svg" alt="" />
+                        <img src="assets/svgs/cart.svg" alt="" />
                         <span>ADD TO BASKET</span>
                       </button>
                     </div>
@@ -1112,7 +1108,7 @@ export default defineComponent({
                   <div class="product-image">
                     <a href="./coffee-detail.html">
                       <img
-                        src="../assets/images/product/master_1.png"
+                        src="assets/images/product/master_1.png"
                         alt="Ispirazione Napoli"
                       />
                     </a>
@@ -1127,11 +1123,11 @@ export default defineComponent({
                       </div>
                       <div class="product-type__size">
                         <div class="product-type__size-icon">
-                          <img src="../assets/svgs/sizeM.svg" alt="" />
+                          <img src="assets/svgs/sizeM.svg" alt="" />
                           <span>25ml</span>
                         </div>
                         <div class="product-type__size-icon">
-                          <img src="../assets/svgs/sizeL.svg" alt="" />
+                          <img src="assets/svgs/sizeL.svg" alt="" />
                           <span>40ml</span>
                         </div>
                       </div>
@@ -1164,7 +1160,7 @@ export default defineComponent({
                         <p class="product-capsule">Capsule price: 2,20 RON</p>
                       </div>
                       <button class="product-add">
-                        <img src="../assets/svgs/cart.svg" alt="" />
+                        <img src="assets/svgs/cart.svg" alt="" />
                         <span>ADD TO BASKET</span>
                       </button>
                     </div>
@@ -1176,7 +1172,7 @@ export default defineComponent({
                   <div class="product-image">
                     <a href="./coffee-detail.html">
                       <img
-                        src="../assets/images/product/master_2.png"
+                        src="assets/images/product/master_2.png"
                         alt="Ispirazione Napoli"
                       />
                     </a>
@@ -1189,11 +1185,11 @@ export default defineComponent({
                       <div class="product-type__sleeve">Intense and Spicy</div>
                       <div class="product-type__size">
                         <div class="product-type__size-icon">
-                          <img src="../assets/svgs/sizeM.svg" alt="" />
+                          <img src="assets/svgs/sizeM.svg" alt="" />
                           <span>25ml</span>
                         </div>
                         <div class="product-type__size-icon">
-                          <img src="../assets/svgs/sizeL.svg" alt="" />
+                          <img src="assets/svgs/sizeL.svg" alt="" />
                           <span>40ml</span>
                         </div>
                       </div>
@@ -1226,7 +1222,7 @@ export default defineComponent({
                         <p class="product-capsule">Capsule price: 2,20 RON</p>
                       </div>
                       <button class="product-add">
-                        <img src="../assets/svgs/cart.svg" alt="" />
+                        <img src="assets/svgs/cart.svg" alt="" />
                         <span>ADD TO BASKET</span>
                       </button>
                     </div>
@@ -1238,7 +1234,7 @@ export default defineComponent({
                   <div class="product-image">
                     <a href="./coffee-detail.html">
                       <img
-                        src="../assets/images/product/master_3.png"
+                        src="assets/images/product/master_3.png"
                         alt="Ispirazione Napoli"
                       />
                     </a>
@@ -1251,11 +1247,11 @@ export default defineComponent({
                       <div class="product-type__sleeve">Rich and Woody</div>
                       <div class="product-type__size">
                         <div class="product-type__size-icon">
-                          <img src="../assets/svgs/sizeM.svg" alt="" />
+                          <img src="assets/svgs/sizeM.svg" alt="" />
                           <span>25ml</span>
                         </div>
                         <div class="product-type__size-icon">
-                          <img src="../assets/svgs/sizeL.svg" alt="" />
+                          <img src="assets/svgs/sizeL.svg" alt="" />
                           <span>40ml</span>
                         </div>
                       </div>
@@ -1288,7 +1284,7 @@ export default defineComponent({
                         <p class="product-capsule">Capsule price: 2,20 RON</p>
                       </div>
                       <button class="product-add">
-                        <img src="../assets/svgs/cart.svg" alt="" />
+                        <img src="assets/svgs/cart.svg" alt="" />
                         <span>ADD TO BASKET</span>
                       </button>
                     </div>
@@ -1300,7 +1296,7 @@ export default defineComponent({
                   <div class="product-image">
                     <a href="./coffee-detail.html">
                       <img
-                        src="../assets/images/product/master_4.png"
+                        src="assets/images/product/master_4.png"
                         alt="Ispirazione Napoli"
                       />
                     </a>
@@ -1313,11 +1309,11 @@ export default defineComponent({
                       <div class="product-type__sleeve">Flowery and Bright</div>
                       <div class="product-type__size">
                         <div class="product-type__size-icon">
-                          <img src="../assets/svgs/sizeM.svg" alt="" />
+                          <img src="assets/svgs/sizeM.svg" alt="" />
                           <span>25ml</span>
                         </div>
                         <div class="product-type__size-icon">
-                          <img src="../assets/svgs/sizeL.svg" alt="" />
+                          <img src="assets/svgs/sizeL.svg" alt="" />
                           <span>40ml</span>
                         </div>
                       </div>
@@ -1350,7 +1346,7 @@ export default defineComponent({
                         <p class="product-capsule">Capsule price: 2,20 RON</p>
                       </div>
                       <button class="product-add">
-                        <img src="../assets/svgs/cart.svg" alt="" />
+                        <img src="assets/svgs/cart.svg" alt="" />
                         <span>ADD TO BASKET</span>
                       </button>
                     </div>
@@ -1362,7 +1358,7 @@ export default defineComponent({
                   <div class="product-image">
                     <a href="./coffee-detail.html">
                       <img
-                        src="../assets/images/product/master_5.png"
+                        src="assets/images/product/master_5.png"
                         alt="Ispirazione Napoli"
                       />
                     </a>
@@ -1375,11 +1371,11 @@ export default defineComponent({
                       <div class="product-type__sleeve">Fruity and Vibrant</div>
                       <div class="product-type__size">
                         <div class="product-type__size-icon">
-                          <img src="../assets/svgs/sizeM.svg" alt="" />
+                          <img src="assets/svgs/sizeM.svg" alt="" />
                           <span>25ml</span>
                         </div>
                         <div class="product-type__size-icon">
-                          <img src="../assets/svgs/sizeL.svg" alt="" />
+                          <img src="assets/svgs/sizeL.svg" alt="" />
                           <span>40ml</span>
                         </div>
                       </div>
@@ -1412,7 +1408,7 @@ export default defineComponent({
                         <p class="product-capsule">Capsule price: 2,20 RON</p>
                       </div>
                       <button class="product-add">
-                        <img src="../assets/svgs/cart.svg" alt="" />
+                        <img src="assets/svgs/cart.svg" alt="" />
                         <span>ADD TO BASKET</span>
                       </button>
                     </div>
@@ -1438,7 +1434,7 @@ export default defineComponent({
                   <div class="product-image">
                     <a href="./coffee-detail.html">
                       <img
-                        src="../assets/images/product/world_1.png"
+                        src="assets/images/product/world_1.png"
                         alt="Shanghai Lungo"
                       />
                     </a>
@@ -1453,11 +1449,11 @@ export default defineComponent({
                       </div>
                       <div class="product-type__size">
                         <div class="product-type__size-icon">
-                          <img src="../assets/svgs/sizeM.svg" alt="" />
+                          <img src="assets/svgs/sizeM.svg" alt="" />
                           <span>25ml</span>
                         </div>
                         <div class="product-type__size-icon">
-                          <img src="../assets/svgs/sizeL.svg" alt="" />
+                          <img src="assets/svgs/sizeL.svg" alt="" />
                           <span>40ml</span>
                         </div>
                       </div>
@@ -1490,7 +1486,7 @@ export default defineComponent({
                         <p class="product-capsule">Capsule price: 2,20 RON</p>
                       </div>
                       <button class="product-add">
-                        <img src="../assets/svgs/cart.svg" alt="" />
+                        <img src="assets/svgs/cart.svg" alt="" />
                         <span>ADD TO BASKET</span>
                       </button>
                     </div>
@@ -1502,7 +1498,7 @@ export default defineComponent({
                   <div class="product-image">
                     <a href="./coffee-detail.html">
                       <img
-                        src="../assets/images/product/world_2.png"
+                        src="assets/images/product/world_2.png"
                         alt="Buenos Aires Lungo"
                       />
                     </a>
@@ -1515,11 +1511,11 @@ export default defineComponent({
                       <div class="product-type__sleeve">Sweet and Cereal</div>
                       <div class="product-type__size">
                         <div class="product-type__size-icon">
-                          <img src="../assets/svgs/sizeM.svg" alt="" />
+                          <img src="assets/svgs/sizeM.svg" alt="" />
                           <span>25ml</span>
                         </div>
                         <div class="product-type__size-icon">
-                          <img src="../assets/svgs/sizeL.svg" alt="" />
+                          <img src="assets/svgs/sizeL.svg" alt="" />
                           <span>40ml</span>
                         </div>
                       </div>
@@ -1552,7 +1548,7 @@ export default defineComponent({
                         <p class="product-capsule">Capsule price: 2,20 RON</p>
                       </div>
                       <button class="product-add">
-                        <img src="../assets/svgs/cart.svg" alt="" />
+                        <img src="assets/svgs/cart.svg" alt="" />
                         <span>ADD TO BASKET</span>
                       </button>
                     </div>
@@ -1564,7 +1560,7 @@ export default defineComponent({
                   <div class="product-image">
                     <a href="./coffee-detail.html">
                       <img
-                        src="../assets/images/product/world_3.png"
+                        src="assets/images/product/world_3.png"
                         alt="Tokyo Lungo"
                       />
                     </a>
@@ -1579,11 +1575,11 @@ export default defineComponent({
                       </div>
                       <div class="product-type__size">
                         <div class="product-type__size-icon">
-                          <img src="../assets/svgs/sizeM.svg" alt="" />
+                          <img src="assets/svgs/sizeM.svg" alt="" />
                           <span>25ml</span>
                         </div>
                         <div class="product-type__size-icon">
-                          <img src="../assets/svgs/sizeL.svg" alt="" />
+                          <img src="assets/svgs/sizeL.svg" alt="" />
                           <span>40ml</span>
                         </div>
                       </div>
@@ -1616,7 +1612,7 @@ export default defineComponent({
                         <p class="product-capsule">Capsule price: 2,20 RON</p>
                       </div>
                       <button class="product-add">
-                        <img src="../assets/svgs/cart.svg" alt="" />
+                        <img src="assets/svgs/cart.svg" alt="" />
                         <span>ADD TO BASKET</span>
                       </button>
                     </div>
@@ -1628,7 +1624,7 @@ export default defineComponent({
                   <div class="product-image">
                     <a href="./coffee-detail.html">
                       <img
-                        src="../assets/images/product/world_4.png"
+                        src="assets/images/product/world_4.png"
                         alt="Vienna Lungo"
                       />
                     </a>
@@ -1641,11 +1637,11 @@ export default defineComponent({
                       <div class="product-type__sleeve">Round and Smooth</div>
                       <div class="product-type__size">
                         <div class="product-type__size-icon">
-                          <img src="../assets/svgs/sizeM.svg" alt="" />
+                          <img src="assets/svgs/sizeM.svg" alt="" />
                           <span>25ml</span>
                         </div>
                         <div class="product-type__size-icon">
-                          <img src="../assets/svgs/sizeL.svg" alt="" />
+                          <img src="assets/svgs/sizeL.svg" alt="" />
                           <span>40ml</span>
                         </div>
                       </div>
@@ -1678,7 +1674,7 @@ export default defineComponent({
                         <p class="product-capsule">Capsule price: 2,20 RON</p>
                       </div>
                       <button class="product-add">
-                        <img src="../assets/svgs/cart.svg" alt="" />
+                        <img src="assets/svgs/cart.svg" alt="" />
                         <span>ADD TO BASKET</span>
                       </button>
                     </div>
@@ -1690,7 +1686,7 @@ export default defineComponent({
                   <div class="product-image">
                     <a href="./coffee-detail.html">
                       <img
-                        src="../assets/images/product/world_5.png"
+                        src="assets/images/product/world_5.png"
                         alt="Stockholm Lungo"
                       />
                     </a>
@@ -1705,11 +1701,11 @@ export default defineComponent({
                       </div>
                       <div class="product-type__size">
                         <div class="product-type__size-icon">
-                          <img src="../assets/svgs/sizeM.svg" alt="" />
+                          <img src="assets/svgs/sizeM.svg" alt="" />
                           <span>25ml</span>
                         </div>
                         <div class="product-type__size-icon">
-                          <img src="../assets/svgs/sizeL.svg" alt="" />
+                          <img src="assets/svgs/sizeL.svg" alt="" />
                           <span>40ml</span>
                         </div>
                       </div>
@@ -1742,7 +1738,7 @@ export default defineComponent({
                         <p class="product-capsule">Capsule price: 2,20 RON</p>
                       </div>
                       <button class="product-add">
-                        <img src="../assets/svgs/cart.svg" alt="" />
+                        <img src="assets/svgs/cart.svg" alt="" />
                         <span>ADD TO BASKET</span>
                       </button>
                     </div>
@@ -1754,7 +1750,7 @@ export default defineComponent({
                   <div class="product-image">
                     <a href="./coffee-detail.html">
                       <img
-                        src="../assets/images/product/world_6.png"
+                        src="assets/images/product/world_6.png"
                         alt="Cape Town Lungo"
                       />
                     </a>
@@ -1769,11 +1765,11 @@ export default defineComponent({
                       </div>
                       <div class="product-type__size">
                         <div class="product-type__size-icon">
-                          <img src="../assets/svgs/sizeM.svg" alt="" />
+                          <img src="assets/svgs/sizeM.svg" alt="" />
                           <span>25ml</span>
                         </div>
                         <div class="product-type__size-icon">
-                          <img src="../assets/svgs/sizeL.svg" alt="" />
+                          <img src="assets/svgs/sizeL.svg" alt="" />
                           <span>40ml</span>
                         </div>
                       </div>
@@ -1806,7 +1802,7 @@ export default defineComponent({
                         <p class="product-capsule">Capsule price: 2,20 RON</p>
                       </div>
                       <button class="product-add">
-                        <img src="../assets/svgs/cart.svg" alt="" />
+                        <img src="assets/svgs/cart.svg" alt="" />
                         <span>ADD TO BASKET</span>
                       </button>
                     </div>
@@ -1818,7 +1814,7 @@ export default defineComponent({
                   <div class="product-image">
                     <a href="./coffee-detail.html">
                       <img
-                        src="../assets/images/product/world_7.png"
+                        src="assets/images/product/world_7.png"
                         alt="Rio De Janeiro Espresso"
                       />
                     </a>
@@ -1831,11 +1827,11 @@ export default defineComponent({
                       <div class="product-type__sleeve">Herbal & Spicy</div>
                       <div class="product-type__size">
                         <div class="product-type__size-icon">
-                          <img src="../assets/svgs/sizeM.svg" alt="" />
+                          <img src="assets/svgs/sizeM.svg" alt="" />
                           <span>25ml</span>
                         </div>
                         <div class="product-type__size-icon">
-                          <img src="../assets/svgs/sizeL.svg" alt="" />
+                          <img src="assets/svgs/sizeL.svg" alt="" />
                           <span>40ml</span>
                         </div>
                       </div>
@@ -1868,7 +1864,7 @@ export default defineComponent({
                         <p class="product-capsule">Capsule price: 2,20 RON</p>
                       </div>
                       <button class="product-add">
-                        <img src="../assets/svgs/cart.svg" alt="" />
+                        <img src="assets/svgs/cart.svg" alt="" />
                         <span>ADD TO BASKET</span>
                       </button>
                     </div>
@@ -1880,7 +1876,7 @@ export default defineComponent({
                   <div class="product-image">
                     <a href="./coffee-detail.html">
                       <img
-                        src="../assets/images/product/world_8.png"
+                        src="assets/images/product/world_8.png"
                         alt="Istanbul Espresso"
                       />
                     </a>
@@ -1893,11 +1889,11 @@ export default defineComponent({
                       <div class="product-type__sleeve">Roasted & Fruity</div>
                       <div class="product-type__size">
                         <div class="product-type__size-icon">
-                          <img src="../assets/svgs/sizeM.svg" alt="" />
+                          <img src="assets/svgs/sizeM.svg" alt="" />
                           <span>25ml</span>
                         </div>
                         <div class="product-type__size-icon">
-                          <img src="../assets/svgs/sizeL.svg" alt="" />
+                          <img src="assets/svgs/sizeL.svg" alt="" />
                           <span>40ml</span>
                         </div>
                       </div>
@@ -1930,7 +1926,7 @@ export default defineComponent({
                         <p class="product-capsule">Capsule price: 2,20 RON</p>
                       </div>
                       <button class="product-add">
-                        <img src="../assets/svgs/cart.svg" alt="" />
+                        <img src="assets/svgs/cart.svg" alt="" />
                         <span>ADD TO BASKET</span>
                       </button>
                     </div>
@@ -1942,7 +1938,7 @@ export default defineComponent({
                   <div class="product-image">
                     <a href="./coffee-detail.html">
                       <img
-                        src="../assets/images/product/world_9.png"
+                        src="assets/images/product/world_9.png"
                         alt="Paris Espresso"
                       />
                     </a>
@@ -1955,11 +1951,11 @@ export default defineComponent({
                       <div class="product-type__sleeve">Mild & Balanced</div>
                       <div class="product-type__size">
                         <div class="product-type__size-icon">
-                          <img src="../assets/svgs/sizeM.svg" alt="" />
+                          <img src="assets/svgs/sizeM.svg" alt="" />
                           <span>25ml</span>
                         </div>
                         <div class="product-type__size-icon">
-                          <img src="../assets/svgs/sizeL.svg" alt="" />
+                          <img src="assets/svgs/sizeL.svg" alt="" />
                           <span>40ml</span>
                         </div>
                       </div>
@@ -1992,7 +1988,7 @@ export default defineComponent({
                         <p class="product-capsule">Capsule price: 2,20 RON</p>
                       </div>
                       <button class="product-add">
-                        <img src="../assets/svgs/cart.svg" alt="" />
+                        <img src="assets/svgs/cart.svg" alt="" />
                         <span>ADD TO BASKET</span>
                       </button>
                     </div>
@@ -2020,7 +2016,7 @@ export default defineComponent({
                   <div class="product-image">
                     <a href="./coffee-detail.html">
                       <img
-                        src="../assets/images/product/barista_1.png"
+                        src="assets/images/product/barista_1.png"
                         alt="Cocoa Truffle"
                       />
                     </a>
@@ -2033,11 +2029,11 @@ export default defineComponent({
                       <div class="product-type__sleeve">Cocoa Flavoured</div>
                       <div class="product-type__size">
                         <div class="product-type__size-icon">
-                          <img src="../assets/svgs/sizeM.svg" alt="" />
+                          <img src="assets/svgs/sizeM.svg" alt="" />
                           <span>25ml</span>
                         </div>
                         <div class="product-type__size-icon">
-                          <img src="../assets/svgs/sizeL.svg" alt="" />
+                          <img src="assets/svgs/sizeL.svg" alt="" />
                           <span>40ml</span>
                         </div>
                       </div>
@@ -2070,7 +2066,7 @@ export default defineComponent({
                         <p class="product-capsule">Capsule price: 2,20 RON</p>
                       </div>
                       <button class="product-add">
-                        <img src="../assets/svgs/cart.svg" alt="" />
+                        <img src="assets/svgs/cart.svg" alt="" />
                         <span>ADD TO BASKET</span>
                       </button>
                     </div>
@@ -2082,7 +2078,7 @@ export default defineComponent({
                   <div class="product-image">
                     <a href="./coffee-detail.html">
                       <img
-                        src="../assets/images/product/barista_2.png"
+                        src="assets/images/product/barista_2.png"
                         alt="Vanilla Éclair"
                       />
                     </a>
@@ -2095,11 +2091,11 @@ export default defineComponent({
                       <div class="product-type__sleeve">Vanilla Flavoured</div>
                       <div class="product-type__size">
                         <div class="product-type__size-icon">
-                          <img src="../assets/svgs/sizeM.svg" alt="" />
+                          <img src="assets/svgs/sizeM.svg" alt="" />
                           <span>25ml</span>
                         </div>
                         <div class="product-type__size-icon">
-                          <img src="../assets/svgs/sizeL.svg" alt="" />
+                          <img src="assets/svgs/sizeL.svg" alt="" />
                           <span>40ml</span>
                         </div>
                       </div>
@@ -2132,7 +2128,7 @@ export default defineComponent({
                         <p class="product-capsule">Capsule price: 2,20 RON</p>
                       </div>
                       <button class="product-add">
-                        <img src="../assets/svgs/cart.svg" alt="" />
+                        <img src="assets/svgs/cart.svg" alt="" />
                         <span>ADD TO BASKET</span>
                       </button>
                     </div>
@@ -2144,7 +2140,7 @@ export default defineComponent({
                   <div class="product-image">
                     <a href="./coffee-detail.html">
                       <img
-                        src="../assets/images/product/barista_3.png"
+                        src="assets/images/product/barista_3.png"
                         alt="Caramel Crème Brûlée"
                       />
                     </a>
@@ -2157,11 +2153,11 @@ export default defineComponent({
                       <div class="product-type__sleeve">Caramel Flavoured</div>
                       <div class="product-type__size">
                         <div class="product-type__size-icon">
-                          <img src="../assets/svgs/sizeM.svg" alt="" />
+                          <img src="assets/svgs/sizeM.svg" alt="" />
                           <span>25ml</span>
                         </div>
                         <div class="product-type__size-icon">
-                          <img src="../assets/svgs/sizeL.svg" alt="" />
+                          <img src="assets/svgs/sizeL.svg" alt="" />
                           <span>40ml</span>
                         </div>
                       </div>
@@ -2194,7 +2190,7 @@ export default defineComponent({
                         <p class="product-capsule">Capsule price: 2,20 RON</p>
                       </div>
                       <button class="product-add">
-                        <img src="../assets/svgs/cart.svg" alt="" />
+                        <img src="assets/svgs/cart.svg" alt="" />
                         <span>ADD TO BASKET</span>
                       </button>
                     </div>
@@ -2206,7 +2202,7 @@ export default defineComponent({
                   <div class="product-image">
                     <a href="./coffee-detail.html">
                       <img
-                        src="../assets/images/product/barista_4.png"
+                        src="assets/images/product/barista_4.png"
                         alt="Chiaro"
                       />
                     </a>
@@ -2219,11 +2215,11 @@ export default defineComponent({
                       <div class="product-type__sleeve">Sweet Biscuit</div>
                       <div class="product-type__size">
                         <div class="product-type__size-icon">
-                          <img src="../assets/svgs/sizeM.svg" alt="" />
+                          <img src="assets/svgs/sizeM.svg" alt="" />
                           <span>25ml</span>
                         </div>
                         <div class="product-type__size-icon">
-                          <img src="../assets/svgs/sizeL.svg" alt="" />
+                          <img src="assets/svgs/sizeL.svg" alt="" />
                           <span>40ml</span>
                         </div>
                       </div>
@@ -2256,7 +2252,7 @@ export default defineComponent({
                         <p class="product-capsule">Capsule price: 2,20 RON</p>
                       </div>
                       <button class="product-add">
-                        <img src="../assets/svgs/cart.svg" alt="" />
+                        <img src="assets/svgs/cart.svg" alt="" />
                         <span>ADD TO BASKET</span>
                       </button>
                     </div>
@@ -2268,7 +2264,7 @@ export default defineComponent({
                   <div class="product-image">
                     <a href="./coffee-detail.html">
                       <img
-                        src="../assets/images/product/barista_5.png"
+                        src="assets/images/product/barista_5.png"
                         alt="Scuro"
                       />
                     </a>
@@ -2283,11 +2279,11 @@ export default defineComponent({
                       </div>
                       <div class="product-type__size">
                         <div class="product-type__size-icon">
-                          <img src="../assets/svgs/sizeM.svg" alt="" />
+                          <img src="assets/svgs/sizeM.svg" alt="" />
                           <span>25ml</span>
                         </div>
                         <div class="product-type__size-icon">
-                          <img src="../assets/svgs/sizeL.svg" alt="" />
+                          <img src="assets/svgs/sizeL.svg" alt="" />
                           <span>40ml</span>
                         </div>
                       </div>
@@ -2320,7 +2316,7 @@ export default defineComponent({
                         <p class="product-capsule">Capsule price: 2,20 RON</p>
                       </div>
                       <button class="product-add">
-                        <img src="../assets/svgs/cart.svg" alt="" />
+                        <img src="assets/svgs/cart.svg" alt="" />
                         <span>ADD TO BASKET</span>
                       </button>
                     </div>
@@ -2332,7 +2328,7 @@ export default defineComponent({
                   <div class="product-image">
                     <a href="./coffee-detail.html">
                       <img
-                        src="../assets/images/product/barista_6.png"
+                        src="assets/images/product/barista_6.png"
                         alt="Corto"
                       />
                     </a>
@@ -2347,11 +2343,11 @@ export default defineComponent({
                       </div>
                       <div class="product-type__size">
                         <div class="product-type__size-icon">
-                          <img src="../assets/svgs/sizeM.svg" alt="" />
+                          <img src="assets/svgs/sizeM.svg" alt="" />
                           <span>25ml</span>
                         </div>
                         <div class="product-type__size-icon">
-                          <img src="../assets/svgs/sizeL.svg" alt="" />
+                          <img src="assets/svgs/sizeL.svg" alt="" />
                           <span>40ml</span>
                         </div>
                       </div>
@@ -2384,7 +2380,7 @@ export default defineComponent({
                         <p class="product-capsule">Capsule price: 2,20 RON</p>
                       </div>
                       <button class="product-add">
-                        <img src="../assets/svgs/cart.svg" alt="" />
+                        <img src="assets/svgs/cart.svg" alt="" />
                         <span>ADD TO BASKET</span>
                       </button>
                     </div>
@@ -2410,7 +2406,7 @@ export default defineComponent({
                   <div class="product-image">
                     <a href="./coffee-detail.html">
                       <img
-                        src="../assets/images/product/espresso_1.png"
+                        src="assets/images/product/espresso_1.png"
                         alt="Volluto Decaffeinato"
                       />
                     </a>
@@ -2423,11 +2419,11 @@ export default defineComponent({
                       <div class="product-type__sleeve">Sweet and Light</div>
                       <div class="product-type__size">
                         <div class="product-type__size-icon">
-                          <img src="../assets/svgs/sizeM.svg" alt="" />
+                          <img src="assets/svgs/sizeM.svg" alt="" />
                           <span>25ml</span>
                         </div>
                         <div class="product-type__size-icon">
-                          <img src="../assets/svgs/sizeL.svg" alt="" />
+                          <img src="assets/svgs/sizeL.svg" alt="" />
                           <span>40ml</span>
                         </div>
                       </div>
@@ -2460,7 +2456,7 @@ export default defineComponent({
                         <p class="product-capsule">Capsule price: 2,20 RON</p>
                       </div>
                       <button class="product-add">
-                        <img src="../assets/svgs/cart.svg" alt="" />
+                        <img src="assets/svgs/cart.svg" alt="" />
                         <span>ADD TO BASKET</span>
                       </button>
                     </div>
@@ -2472,7 +2468,7 @@ export default defineComponent({
                   <div class="product-image">
                     <a href="./coffee-detail.html">
                       <img
-                        src="../assets/images/product/espresso_2.png"
+                        src="assets/images/product/espresso_2.png"
                         alt="Volluto"
                       />
                     </a>
@@ -2485,11 +2481,11 @@ export default defineComponent({
                       <div class="product-type__sleeve">Sweet and Light</div>
                       <div class="product-type__size">
                         <div class="product-type__size-icon">
-                          <img src="../assets/svgs/sizeM.svg" alt="" />
+                          <img src="assets/svgs/sizeM.svg" alt="" />
                           <span>25ml</span>
                         </div>
                         <div class="product-type__size-icon">
-                          <img src="../assets/svgs/sizeL.svg" alt="" />
+                          <img src="assets/svgs/sizeL.svg" alt="" />
                           <span>40ml</span>
                         </div>
                       </div>
@@ -2522,7 +2518,7 @@ export default defineComponent({
                         <p class="product-capsule">Capsule price: 2,20 RON</p>
                       </div>
                       <button class="product-add">
-                        <img src="../assets/svgs/cart.svg" alt="" />
+                        <img src="assets/svgs/cart.svg" alt="" />
                         <span>ADD TO BASKET</span>
                       </button>
                     </div>
@@ -2534,7 +2530,7 @@ export default defineComponent({
                   <div class="product-image">
                     <a href="./coffee-detail.html">
                       <img
-                        src="../assets/images/product/espresso_3.png"
+                        src="assets/images/product/espresso_3.png"
                         alt="Cosi"
                       />
                     </a>
@@ -2549,11 +2545,11 @@ export default defineComponent({
                       </div>
                       <div class="product-type__size">
                         <div class="product-type__size-icon">
-                          <img src="../assets/svgs/sizeM.svg" alt="" />
+                          <img src="assets/svgs/sizeM.svg" alt="" />
                           <span>25ml</span>
                         </div>
                         <div class="product-type__size-icon">
-                          <img src="../assets/svgs/sizeL.svg" alt="" />
+                          <img src="assets/svgs/sizeL.svg" alt="" />
                           <span>40ml</span>
                         </div>
                       </div>
@@ -2586,7 +2582,7 @@ export default defineComponent({
                         <p class="product-capsule">Capsule price: 2,20 RON</p>
                       </div>
                       <button class="product-add">
-                        <img src="../assets/svgs/cart.svg" alt="" />
+                        <img src="assets/svgs/cart.svg" alt="" />
                         <span>ADD TO BASKET</span>
                       </button>
                     </div>
@@ -2598,7 +2594,7 @@ export default defineComponent({
                   <div class="product-image">
                     <a href="./coffee-detail.html">
                       <img
-                        src="../assets/images/product/espresso_4.png"
+                        src="assets/images/product/espresso_4.png"
                         alt="Capriccio"
                       />
                     </a>
@@ -2613,11 +2609,11 @@ export default defineComponent({
                       </div>
                       <div class="product-type__size">
                         <div class="product-type__size-icon">
-                          <img src="../assets/svgs/sizeM.svg" alt="" />
+                          <img src="assets/svgs/sizeM.svg" alt="" />
                           <span>25ml</span>
                         </div>
                         <div class="product-type__size-icon">
-                          <img src="../assets/svgs/sizeL.svg" alt="" />
+                          <img src="assets/svgs/sizeL.svg" alt="" />
                           <span>40ml</span>
                         </div>
                       </div>
@@ -2650,7 +2646,7 @@ export default defineComponent({
                         <p class="product-capsule">Capsule price: 2,20 RON</p>
                       </div>
                       <button class="product-add">
-                        <img src="../assets/svgs/cart.svg" alt="" />
+                        <img src="assets/svgs/cart.svg" alt="" />
                         <span>ADD TO BASKET</span>
                       </button>
                     </div>
@@ -2662,7 +2658,7 @@ export default defineComponent({
 
           <section class="product">
             <div class="product_ads">
-              <img src="../assets/images/product/banner.png" alt="banner" />
+              <img src="assets/images/product/banner.png" alt="banner" />
               <div class="product_ads__text">
                 <p class="product_ads__title">ORIGINAL COFFEE CAPSULES</p>
                 <p class="product_ads__desc">

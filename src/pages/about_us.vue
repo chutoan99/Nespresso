@@ -88,7 +88,7 @@ export default defineComponent({
               </p>
             </div>
             <div class="cover">
-              <img src="../assets/images/about-us/cover.png" alt="" />
+              <img src="assets/images/about-us/cover.png" alt="" />
             </div>
           </div>
         </section>
@@ -96,7 +96,7 @@ export default defineComponent({
         <section id="hero">
           <div class="container context-right">
             <div class="cover">
-              <img src="../assets/images/about-us/cover-1.png" alt="" />
+              <img src="assets/images/about-us/cover-1.png" alt="" />
             </div>
 
             <div class="caption">
@@ -138,7 +138,7 @@ export default defineComponent({
               </p>
             </div>
             <div class="cover">
-              <img src="../assets/images/about-us/cover-2.png" alt="" />
+              <img src="assets/images/about-us/cover-2.png" alt="" />
             </div>
           </div>
         </section>
@@ -173,7 +173,7 @@ export default defineComponent({
             </div>
 
             <div class="cover">
-              <img src="../assets/images/about-us/cover-3.png" alt="" />
+              <img src="assets/images/about-us/cover-3.png" alt="" />
             </div>
           </div>
         </section>
@@ -181,7 +181,7 @@ export default defineComponent({
         <section id="hero">
           <div class="container context-right">
             <div class="cover">
-              <img src="../assets/images/about-us/cover-4.png" alt="" />
+              <img src="assets/images/about-us/cover-4.png" alt="" />
             </div>
 
             <div class="caption">
@@ -211,7 +211,7 @@ export default defineComponent({
                 <img
                   height="100%"
                   width="100%"
-                  src="../assets/images/about-us/background.png"
+                  src="assets/images/about-us/background.png"
                   alt=""
                 />
               </div>
@@ -251,7 +251,7 @@ export default defineComponent({
                 <img
                   height="100%"
                   width="100%"
-                  src="../assets/images/about-us/background.png"
+                  src="assets/images/about-us/background.png"
                   alt=""
                 />
               </div>

@@ -161,7 +161,7 @@ export default defineComponent({
           <div class="professional_banner">
             <div class="professional_banner-item">
               <div class="professional_banner-image">
-                <img src="../assets/images/professional/banner.png" alt="" />
+                <img src="assets/images/professional/banner.png" alt="" />
               </div>
               <div class="professional_banner-context">
                 <h4 class="professional_banner-heading">
@@ -178,7 +178,7 @@ export default defineComponent({
             </div>
             <div class="professional_banner-item">
               <div class="professional_banner-image">
-                <img src="../assets/images/professional/banner.png" alt="" />
+                <img src="assets/images/professional/banner.png" alt="" />
               </div>
               <div class="professional_banner-context">
                 <h4 class="professional_banner-heading">
@@ -195,7 +195,7 @@ export default defineComponent({
             </div>
             <div class="professional_banner-item">
               <div class="professional_banner-image">
-                <img src="../assets/images/professional/banner.png" alt="" />
+                <img src="assets/images/professional/banner.png" alt="" />
               </div>
               <div class="professional_banner-context">
                 <h4 class="professional_banner-heading">
@@ -224,7 +224,7 @@ export default defineComponent({
                 <div class="professional_pr2-item">
                   <div class="professional_pr2-item-img">
                     <img
-                      src="../assets/images/professional/image_67.png"
+                      src="assets/images/professional/image_67.png"
                       alt="product"
                     />
                   </div>
@@ -246,7 +246,7 @@ export default defineComponent({
                 <div class="professional_pr2-item">
                   <div class="professional_pr2-item-img">
                     <img
-                      src="../assets/images/professional/image_67_(1).png"
+                      src="assets/images/professional/image_67_(1).png"
                       alt="product"
                     />
                   </div>
@@ -267,7 +267,7 @@ export default defineComponent({
                 <div class="professional_pr2-item">
                   <div class="professional_pr2-item-img">
                     <img
-                      src="../assets/images/professional/image_67_(2).png"
+                      src="assets/images/professional/image_67_(2).png"
                       alt="product"
                     />
                   </div>
@@ -311,7 +311,7 @@ export default defineComponent({
             <router-link to="/professional_detail">
               <div class="professional_slide-wrapper-img">
                 <img
-                  src="../assets/images/professional/slide1.png"
+                  src="assets/images/professional/slide1.png"
                   alt="Nespresso Momento Coffee 100"
                 />
               </div>
@@ -324,7 +324,7 @@ export default defineComponent({
             <router-link to="/professional_detail">
               <div class="professional_slide-wrapper-img">
                 <img
-                  src="../assets/images/professional/slide2.png"
+                  src="assets/images/professional/slide2.png"
                   alt="Nespresso Momento Coffee & Milk 120"
                 />
               </div>
@@ -337,7 +337,7 @@ export default defineComponent({
             <router-link to="/professional_detail">
               <div class="professional_slide-wrapper-img">
                 <img
-                  src="../assets/images/professional/slide3.png"
+                  src="assets/images/professional/slide3.png"
                   alt="Nespresso Momento Coffee 200"
                 />
               </div>
@@ -348,10 +348,7 @@ export default defineComponent({
 
             <router-link to="/professional_detail">
               <div class="professional_slide-wrapper-img">
-                <img
-                  src="../assets/images/professional/slide4.png"
-                  alt="Zenius"
-                />
+                <img src="assets/images/professional/slide4.png" alt="Zenius" />
               </div>
               <p class="professional_slide-name">Zenius</p>
             </router-link>
@@ -359,7 +356,7 @@ export default defineComponent({
             <router-link to="/professional_detail">
               <div class="professional_slide-wrapper-img">
                 <img
-                  src="../assets/images/professional/slide5.png"
+                  src="assets/images/professional/slide5.png"
                   alt="Zenius Offer for Small Offices"
                 />
               </div>
@@ -371,7 +368,7 @@ export default defineComponent({
             <router-link to="/professional_detail">
               <div class="professional_slide-wrapper-img">
                 <img
-                  src="../assets/images/professional/slide1.png"
+                  src="assets/images/professional/slide1.png"
                   alt="Nespresso Momento Coffee 100"
                 />
               </div>
@@ -383,7 +380,7 @@ export default defineComponent({
             <router-link to="/professional_detail">
               <div class="professional_slide-wrapper-img">
                 <img
-                  src="../assets/images/professional/slide2.png"
+                  src="assets/images/professional/slide2.png"
                   alt="Nespresso Momento Coffee & Milk 120"
                 />
               </div>
@@ -395,7 +392,7 @@ export default defineComponent({
             <router-link to="/professional_detail">
               <div class="professional_slide-wrapper-img">
                 <img
-                  src="../assets/images/professional/slide3.png"
+                  src="assets/images/professional/slide3.png"
                   alt="Nespresso Momento Coffee 200"
                 />
               </div>
@@ -406,10 +403,7 @@ export default defineComponent({
 
             <router-link to="/professional_detail">
               <div class="professional_slide-wrapper-img">
-                <img
-                  src="../assets/images/professional/slide4.png"
-                  alt="Zenius"
-                />
+                <img src="assets/images/professional/slide4.png" alt="Zenius" />
               </div>
               <p class="professional_slide-name">Zenius</p>
             </router-link>
@@ -417,7 +411,7 @@ export default defineComponent({
             <router-link to="/professional_detail">
               <div class="professional_slide-wrapper-img">
                 <img
-                  src="../assets/images/professional/slide5.png"
+                  src="assets/images/professional/slide5.png"
                   alt="Zenius Offer for Small Offices"
                 />
               </div>
@@ -436,23 +430,23 @@ export default defineComponent({
                 <div class="professional_slide-capsules-item">
                   <div class="professional_slide-capsules__image">
                     <img
-                      src="../assets/images/professional/capsules1.png"
+                      src="assets/images/professional/capsules1.png"
                       alt=""
                     />
                     <img
-                      src="../assets/images/professional/capsules2.png"
+                      src="assets/images/professional/capsules2.png"
                       alt=""
                     />
                     <img
-                      src="../assets/images/professional/capsules3.png"
+                      src="assets/images/professional/capsules3.png"
                       alt=""
                     />
                     <img
-                      src="../assets/images/professional/capsules4.png"
+                      src="assets/images/professional/capsules4.png"
                       alt=""
                     />
                     <img
-                      src="../assets/images/professional/capsules5.png"
+                      src="assets/images/professional/capsules5.png"
                       alt=""
                     />
                   </div>
@@ -540,126 +534,23 @@ export default defineComponent({
                 <div class="professional_slide-capsules-item">
                   <div class="professional_slide-capsules__image">
                     <img
-                      src="../assets/images/professional/capsules1.png"
+                      src="assets/images/professional/capsules1.png"
                       alt=""
                     />
                     <img
-                      src="../assets/images/professional/capsules2.png"
+                      src="assets/images/professional/capsules2.png"
                       alt=""
                     />
                     <img
-                      src="../assets/images/professional/capsules3.png"
+                      src="assets/images/professional/capsules3.png"
                       alt=""
                     />
                     <img
-                      src="../assets/images/professional/capsules4.png"
+                      src="assets/images/professional/capsules4.png"
                       alt=""
                     />
                     <img
-                      src="../assets/images/professional/capsules5.png"
-                      alt=""
-                    />
-                  </div>
-
-                  <div class="professional_slide-capsules__text">
-                    <h4>Origins</h4>
-                    <p>A balance of land and bean</p>
-                  </div>
-
-                  <div class="professional_slide-capsules__type">
-                    <div class="professional_slide-capsules__type-size">
-                      <svg
-                        width="28"
-                        height="28"
-                        viewBox="0 0 28 28"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          d="M22.3 8H20.5L21 5.9L20.3 5H2.7L2 5.9L5.6 22.4L6.3 23H16.6L17.3 22.4L18.7 16H22.2C24.4 16 26.2 14.2 26.2 12C26.2 9.8 24.5 8 22.3 8ZM19.3 6.5L17.2 16H5.7L3.7 6.5H19.3ZM16 21.5H6.9L6 17.5H16.9L16 21.5ZM22.3 14.4H19.2L20.3 9.6H22.3C23.6 9.6 24.7 10.7 24.7 12C24.7 13.3 23.6 14.4 22.3 14.4Z"
-                          fill="black"
-                        />
-                      </svg>
-                      <span>25 / 40 / 110 ml</span>
-                    </div>
-
-                    <div class="professional_slide-capsules__type-size">
-                      <svg
-                        width="27"
-                        height="26"
-                        viewBox="0 0 27 26"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <g clip-path="url(#clip0_789_58810)">
-                          <path
-                            d="M13.5 25.75C6.45837 25.75 0.75 20.0416 0.75 13C0.75 5.95837 6.45837 0.25 13.5 0.25C20.5416 0.25 26.25 5.95837 26.25 13C26.25 20.0416 20.5416 25.75 13.5 25.75ZM13.5 24.25C19.7132 24.25 24.75 19.2132 24.75 13C24.75 6.7868 19.7132 1.75 13.5 1.75C7.2868 1.75 2.25 6.7868 2.25 13C2.25 19.2132 7.2868 24.25 13.5 24.25Z"
-                            fill="black"
-                          />
-                          <path
-                            d="M13.4995 22.3397C8.3415 22.3397 4.16016 18.1584 4.16016 13.0004C4.16016 7.84248 8.3415 3.66113 13.4995 3.66113C18.6574 3.66113 22.8388 7.84248 22.8388 13.0004C22.8388 18.1584 18.6574 22.3397 13.4995 22.3397ZM13.4995 20.8397C17.829 20.8397 21.3388 17.33 21.3388 13.0004C21.3388 8.67091 17.829 5.16113 13.4995 5.16113C9.16993 5.16113 5.66016 8.67091 5.66016 13.0004C5.66016 17.33 9.16993 20.8397 13.4995 20.8397Z"
-                            fill="black"
-                          />
-                        </g>
-                        <defs>
-                          <clipPath id="clip0_789_58810">
-                            <rect
-                              width="26"
-                              height="26"
-                              fill="white"
-                              transform="translate(0.5)"
-                            />
-                          </clipPath>
-                        </defs>
-                      </svg>
-                      <span>Intensity 4-10</span>
-                    </div>
-                  </div>
-                  <div style="display: flex; justify-content: center">
-                    <button class="professional_slide-capsules__btn">
-                      <svg
-                        width="12"
-                        height="12"
-                        viewBox="0 0 12 12"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          fill-rule="evenodd"
-                          clip-rule="evenodd"
-                          d="M6 0C6.55228 0 7 0.447715 7 1V11C7 11.5523 6.55228 12 6 12C5.44772 12 5 11.5523 5 11V1C5 0.447715 5.44772 0 6 0Z"
-                          fill="white"
-                        />
-                        <path
-                          fill-rule="evenodd"
-                          clip-rule="evenodd"
-                          d="M0 6C0 5.44772 0.447715 5 1 5H11C11.5523 5 12 5.44772 12 6C12 6.55228 11.5523 7 11 7H1C0.447715 7 0 6.55228 0 6Z"
-                          fill="white"
-                        />
-                      </svg>
-                    </button>
-                  </div>
-                </div>
-                <div class="professional_slide-capsules-item">
-                  <div class="professional_slide-capsules__image">
-                    <img
-                      src="../assets/images/professional/capsules1.png"
-                      alt=""
-                    />
-                    <img
-                      src="../assets/images/professional/capsules2.png"
-                      alt=""
-                    />
-                    <img
-                      src="../assets/images/professional/capsules3.png"
-                      alt=""
-                    />
-                    <img
-                      src="../assets/images/professional/capsules4.png"
-                      alt=""
-                    />
-                    <img
-                      src="../assets/images/professional/capsules5.png"
+                      src="assets/images/professional/capsules5.png"
                       alt=""
                     />
                   </div>
@@ -746,23 +637,23 @@ export default defineComponent({
                 <div class="professional_slide-capsules-item">
                   <div class="professional_slide-capsules__image">
                     <img
-                      src="../assets/images/professional/capsules1.png"
+                      src="assets/images/professional/capsules1.png"
                       alt=""
                     />
                     <img
-                      src="../assets/images/professional/capsules2.png"
+                      src="assets/images/professional/capsules2.png"
                       alt=""
                     />
                     <img
-                      src="../assets/images/professional/capsules3.png"
+                      src="assets/images/professional/capsules3.png"
                       alt=""
                     />
                     <img
-                      src="../assets/images/professional/capsules4.png"
+                      src="assets/images/professional/capsules4.png"
                       alt=""
                     />
                     <img
-                      src="../assets/images/professional/capsules5.png"
+                      src="assets/images/professional/capsules5.png"
                       alt=""
                     />
                   </div>
@@ -849,23 +740,126 @@ export default defineComponent({
                 <div class="professional_slide-capsules-item">
                   <div class="professional_slide-capsules__image">
                     <img
-                      src="../assets/images/professional/capsules1.png"
+                      src="assets/images/professional/capsules1.png"
                       alt=""
                     />
                     <img
-                      src="../assets/images/professional/capsules2.png"
+                      src="assets/images/professional/capsules2.png"
                       alt=""
                     />
                     <img
-                      src="../assets/images/professional/capsules3.png"
+                      src="assets/images/professional/capsules3.png"
                       alt=""
                     />
                     <img
-                      src="../assets/images/professional/capsules4.png"
+                      src="assets/images/professional/capsules4.png"
                       alt=""
                     />
                     <img
-                      src="../assets/images/professional/capsules5.png"
+                      src="assets/images/professional/capsules5.png"
+                      alt=""
+                    />
+                  </div>
+
+                  <div class="professional_slide-capsules__text">
+                    <h4>Origins</h4>
+                    <p>A balance of land and bean</p>
+                  </div>
+
+                  <div class="professional_slide-capsules__type">
+                    <div class="professional_slide-capsules__type-size">
+                      <svg
+                        width="28"
+                        height="28"
+                        viewBox="0 0 28 28"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M22.3 8H20.5L21 5.9L20.3 5H2.7L2 5.9L5.6 22.4L6.3 23H16.6L17.3 22.4L18.7 16H22.2C24.4 16 26.2 14.2 26.2 12C26.2 9.8 24.5 8 22.3 8ZM19.3 6.5L17.2 16H5.7L3.7 6.5H19.3ZM16 21.5H6.9L6 17.5H16.9L16 21.5ZM22.3 14.4H19.2L20.3 9.6H22.3C23.6 9.6 24.7 10.7 24.7 12C24.7 13.3 23.6 14.4 22.3 14.4Z"
+                          fill="black"
+                        />
+                      </svg>
+                      <span>25 / 40 / 110 ml</span>
+                    </div>
+
+                    <div class="professional_slide-capsules__type-size">
+                      <svg
+                        width="27"
+                        height="26"
+                        viewBox="0 0 27 26"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <g clip-path="url(#clip0_789_58810)">
+                          <path
+                            d="M13.5 25.75C6.45837 25.75 0.75 20.0416 0.75 13C0.75 5.95837 6.45837 0.25 13.5 0.25C20.5416 0.25 26.25 5.95837 26.25 13C26.25 20.0416 20.5416 25.75 13.5 25.75ZM13.5 24.25C19.7132 24.25 24.75 19.2132 24.75 13C24.75 6.7868 19.7132 1.75 13.5 1.75C7.2868 1.75 2.25 6.7868 2.25 13C2.25 19.2132 7.2868 24.25 13.5 24.25Z"
+                            fill="black"
+                          />
+                          <path
+                            d="M13.4995 22.3397C8.3415 22.3397 4.16016 18.1584 4.16016 13.0004C4.16016 7.84248 8.3415 3.66113 13.4995 3.66113C18.6574 3.66113 22.8388 7.84248 22.8388 13.0004C22.8388 18.1584 18.6574 22.3397 13.4995 22.3397ZM13.4995 20.8397C17.829 20.8397 21.3388 17.33 21.3388 13.0004C21.3388 8.67091 17.829 5.16113 13.4995 5.16113C9.16993 5.16113 5.66016 8.67091 5.66016 13.0004C5.66016 17.33 9.16993 20.8397 13.4995 20.8397Z"
+                            fill="black"
+                          />
+                        </g>
+                        <defs>
+                          <clipPath id="clip0_789_58810">
+                            <rect
+                              width="26"
+                              height="26"
+                              fill="white"
+                              transform="translate(0.5)"
+                            />
+                          </clipPath>
+                        </defs>
+                      </svg>
+                      <span>Intensity 4-10</span>
+                    </div>
+                  </div>
+                  <div style="display: flex; justify-content: center">
+                    <button class="professional_slide-capsules__btn">
+                      <svg
+                        width="12"
+                        height="12"
+                        viewBox="0 0 12 12"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          clip-rule="evenodd"
+                          d="M6 0C6.55228 0 7 0.447715 7 1V11C7 11.5523 6.55228 12 6 12C5.44772 12 5 11.5523 5 11V1C5 0.447715 5.44772 0 6 0Z"
+                          fill="white"
+                        />
+                        <path
+                          fill-rule="evenodd"
+                          clip-rule="evenodd"
+                          d="M0 6C0 5.44772 0.447715 5 1 5H11C11.5523 5 12 5.44772 12 6C12 6.55228 11.5523 7 11 7H1C0.447715 7 0 6.55228 0 6Z"
+                          fill="white"
+                        />
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+                <div class="professional_slide-capsules-item">
+                  <div class="professional_slide-capsules__image">
+                    <img
+                      src="assets/images/professional/capsules1.png"
+                      alt=""
+                    />
+                    <img
+                      src="assets/images/professional/capsules2.png"
+                      alt=""
+                    />
+                    <img
+                      src="assets/images/professional/capsules3.png"
+                      alt=""
+                    />
+                    <img
+                      src="assets/images/professional/capsules4.png"
+                      alt=""
+                    />
+                    <img
+                      src="assets/images/professional/capsules5.png"
                       alt=""
                     />
                   </div>
@@ -962,7 +956,7 @@ export default defineComponent({
                 <div class="professional_pr-item">
                   <div class="professional_pr-item-img">
                     <img
-                      src="../assets/images/professional/image_77_(5).png"
+                      src="assets/images/professional/image_77_(5).png"
                       alt="product"
                     />
                   </div>
@@ -990,7 +984,7 @@ export default defineComponent({
                 <div class="professional_pr-item">
                   <div class="professional_pr-item-img">
                     <img
-                      src="../assets/images/professional/image_77_(6).png"
+                      src="assets/images/professional/image_77_(6).png"
                       alt="product"
                     />
                   </div>
@@ -1017,7 +1011,7 @@ export default defineComponent({
                 <div class="professional_pr-item">
                   <div class="professional_pr-item-img">
                     <img
-                      src="../assets/images/professional/image_77_(7).png"
+                      src="assets/images/professional/image_77_(7).png"
                       alt="product"
                     />
                   </div>
@@ -1044,7 +1038,7 @@ export default defineComponent({
                 <div class="professional_pr-item">
                   <div class="professional_pr-item-img">
                     <img
-                      src="../assets/images/professional/image_77_(5).png"
+                      src="assets/images/professional/image_77_(5).png"
                       alt="product"
                     />
                   </div>
@@ -1072,7 +1066,7 @@ export default defineComponent({
                 <div class="professional_pr-item">
                   <div class="professional_pr-item-img">
                     <img
-                      src="../assets/images/professional/image_77_(6).png"
+                      src="assets/images/professional/image_77_(6).png"
                       alt="product"
                     />
                   </div>
@@ -1099,7 +1093,7 @@ export default defineComponent({
                 <div class="professional_pr-item">
                   <div class="professional_pr-item-img">
                     <img
-                      src="../assets/images/professional/image_77_(7).png"
+                      src="assets/images/professional/image_77_(7).png"
                       alt="product"
                     />
                   </div>
@@ -1151,7 +1145,7 @@ export default defineComponent({
               <div class="professional_container2-list">
                 <div class="professional_container2-item">
                   <div class="item_img">
-                    <img src="../assets/images/professional/image_78.png" />
+                    <img src="assets/images/professional/image_78.png" />
                   </div>
                   <div class="item_title">
                     <span>Installation & coffee training</span>
@@ -1159,7 +1153,7 @@ export default defineComponent({
                 </div>
                 <div class="professional_container2-item">
                   <div class="item_img">
-                    <img src="../assets/images/professional/image_79.png" />
+                    <img src="assets/images/professional/image_79.png" />
                   </div>
                   <div class="item_title">
                     <span>Easy ordering & live chat & live chat</span>
@@ -1168,7 +1162,7 @@ export default defineComponent({
                 <div class="professional_container2-item">
                   <div class="item_img">
                     <div>
-                      <img src="../assets/images/professional/image_80.png" />
+                      <img src="assets/images/professional/image_80.png" />
                     </div>
                   </div>
                   <div class="item_title">
@@ -1178,7 +1172,7 @@ export default defineComponent({
                 <div class="professional_container2-item">
                   <div class="item_img">
                     <div>
-                      <img src="../assets/images/professional/image_81.png" />
+                      <img src="assets/images/professional/image_81.png" />
                     </div>
                   </div>
                   <div class="item_title">
@@ -1188,7 +1182,7 @@ export default defineComponent({
                 <div class="professional_container2-item">
                   <div class="item_img">
                     <div>
-                      <img src="../assets/images/professional/image_82.png" />
+                      <img src="assets/images/professional/image_82.png" />
                     </div>
                   </div>
                   <div class="item_title">
@@ -1215,7 +1209,7 @@ export default defineComponent({
             <div class="professional_container-wrapper">
               <div class="professional_container-img">
                 <img
-                  src="../assets/images/professional/Rectangle_8.png"
+                  src="assets/images/professional/Rectangle_8.png"
                   alt="bg"
                 />
               </div>

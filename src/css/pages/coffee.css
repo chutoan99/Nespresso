@@ -736,37 +736,37 @@ video {
 #coffee #product_coffee {
   background-color: #ffffff; }
   #coffee #product_coffee .background-1 {
-    background-image: url(../../assets/images/product/product_bg1.png);
+    background-image: url(/public/assets/images/product/product_bg1.png);
     width: 100%;
     background-repeat: no-repeat;
     background-position: top center;
     background-size: contain; }
   #coffee #product_coffee .background-2 {
-    background-image: url(../../assets/images/product/product_bg2.png);
+    background-image: url(/public/assets/images/product/product_bg2.png);
     width: 100%;
     background-repeat: no-repeat;
     background-position: top center;
     background-size: contain; }
   #coffee #product_coffee .background-3 {
-    background-image: url(../../assets/images/product/product_bg3.png);
+    background-image: url(/public/assets/images/product/product_bg3.png);
     width: 100%;
     background-repeat: no-repeat;
     background-position: top center;
     background-size: contain; }
   #coffee #product_coffee .background-4 {
-    background-image: url(../../assets/images/product/product_bg4.png);
+    background-image: url(/public/assets/images/product/product_bg4.png);
     width: 100%;
     background-repeat: no-repeat;
     background-position: top center;
     background-size: contain; }
   #coffee #product_coffee .background-5 {
-    background-image: url(../../assets/images/product/product_bg5.png);
+    background-image: url(/public/assets/images/product/product_bg5.png);
     width: 100%;
     background-repeat: no-repeat;
     background-position: top center;
     background-size: contain; }
   #coffee #product_coffee .background-6 {
-    background-image: url(../../assets/images/product/product_bg6.png);
+    background-image: url(/public/assets/images/product/product_bg6.png);
     width: 100%;
     background-repeat: no-repeat;
     background-position: top center;

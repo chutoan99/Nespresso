@@ -20,7 +20,7 @@ export default defineComponent({
           <div class="header_logo">
             <router-link to="/">
               <img
-                src="../assets/images/logoApp.png"
+                src="assets/images/logoApp.png"
                 alt="logoApp"
                 width="100%"
                 height="100%"

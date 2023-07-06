@@ -351,11 +351,11 @@ video {
   to {
     transform: translate(0); } }
 #commitment .background-1 {
-  background-image: url("../../assets/images/sustainability&recycling/commitment_1.png"); }
+  background-image: url(/public/assets/images/sustainability&recycling/commitment_1.png); }
 #commitment .background-2 {
-  background-image: url("../../assets/images/sustainability&recycling/commitment_2.png"); }
+  background-image: url(/public/assets/images/sustainability&recycling/commitment_2.png); }
 #commitment .background-3 {
-  background-image: url("../../assets/images/sustainability&recycling/commitment_3.png"); }
+  background-image: url(/public/assets/images/sustainability&recycling/commitment_3.png); }
 #commitment .background-1,
 #commitment .background-2,
 #commitment .background-3 {

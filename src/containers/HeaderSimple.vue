@@ -9,7 +9,7 @@ export default class HeaderSimple extends Vue {}
   <div class="header">
     <div class="header-logo">
       <router-link to="/">
-        <img src="../assets/images/template/logo.png" alt="logoApp" />
+        <img src="assets/images/template/logo.png" alt="logoApp" />
       </router-link>
     </div>
   </div>

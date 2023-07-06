@@ -106,7 +106,7 @@ export default defineComponent({
             <div class="product-card__item">
               <div class="product-card__image">
                 <img
-                  src="../assets/images/compare-machinse/product-1.png"
+                  src="assets/images/compare-machinse/product-1.png"
                   alt=""
                 />
               </div>
@@ -127,7 +127,7 @@ export default defineComponent({
             <div class="product-card__item">
               <div class="product-card__image">
                 <img
-                  src="../assets/images/compare-machinse/product-2.png"
+                  src="assets/images/compare-machinse/product-2.png"
                   alt=""
                 />
               </div>
@@ -148,7 +148,7 @@ export default defineComponent({
             <div class="product-card__item">
               <div class="product-card__image">
                 <img
-                  src="../assets/images/compare-machinse/product-3.png"
+                  src="assets/images/compare-machinse/product-3.png"
                   alt=""
                 />
               </div>
@@ -175,7 +175,7 @@ export default defineComponent({
                 <div class="product-selection-item">
                   <div class="product-selection-item__image">
                     <img
-                      src="../assets/images/compare-machinse/cup-small.png"
+                      src="assets/images/compare-machinse/cup-small.png"
                       alt=""
                     />
                   </div>
@@ -185,7 +185,7 @@ export default defineComponent({
                 <div class="product-selection-item">
                   <div class="product-selection-item__image">
                     <img
-                      src="../assets/images/compare-machinse/cup-small.png"
+                      src="assets/images/compare-machinse/cup-small.png"
                       alt=""
                     />
                   </div>
@@ -195,7 +195,7 @@ export default defineComponent({
                 <div class="product-selection-item">
                   <div class="product-selection-item__image">
                     <img
-                      src="../assets/images/compare-machinse/cup-small.png"
+                      src="assets/images/compare-machinse/cup-small.png"
                       alt=""
                     />
                   </div>
@@ -205,7 +205,7 @@ export default defineComponent({
                 <div class="product-selection-item">
                   <div class="product-selection-item__image">
                     <img
-                      src="../assets/images/compare-machinse/cup-large.png"
+                      src="assets/images/compare-machinse/cup-large.png"
                       alt=""
                     />
                   </div>
@@ -215,7 +215,7 @@ export default defineComponent({
                 <div class="product-selection-item">
                   <div class="product-selection-item__image">
                     <img
-                      src="../assets/images/compare-machinse/cup-small.png"
+                      src="assets/images/compare-machinse/cup-small.png"
                       alt=""
                     />
                   </div>
@@ -225,7 +225,7 @@ export default defineComponent({
                 <div class="product-selection-item">
                   <div class="product-selection-item__image">
                     <img
-                      src="../assets/images/compare-machinse/cup-large.png"
+                      src="assets/images/compare-machinse/cup-large.png"
                       alt=""
                     />
                   </div>
@@ -235,7 +235,7 @@ export default defineComponent({
                 <div class="product-selection-item">
                   <div class="product-selection-item__image">
                     <img
-                      src="../assets/images/compare-machinse/cup-large.png"
+                      src="assets/images/compare-machinse/cup-large.png"
                       alt=""
                     />
                   </div>
@@ -252,10 +252,7 @@ export default defineComponent({
               <div class="product-selection-list">
                 <div class="product-selection-item">
                   <div class="product-selection-item__image">
-                    <img
-                      src="../assets/images/compare-machinse/milk.png"
-                      alt=""
-                    />
+                    <img src="assets/images/compare-machinse/milk.png" alt="" />
                   </div>
                   <span class="product-selection-item__name">Ristretto</span>
                 </div>
@@ -263,7 +260,7 @@ export default defineComponent({
                 <div class="product-selection-item">
                   <div class="product-selection-item__image">
                     <img
-                      src="../assets/images/compare-machinse/milk-2.png"
+                      src="assets/images/compare-machinse/milk-2.png"
                       alt=""
                     />
                   </div>
@@ -273,7 +270,7 @@ export default defineComponent({
                 <div class="product-selection-item">
                   <div class="product-selection-item__image">
                     <img
-                      src="../assets/images/compare-machinse/milk-3.png"
+                      src="assets/images/compare-machinse/milk-3.png"
                       alt=""
                     />
                   </div>
@@ -283,7 +280,7 @@ export default defineComponent({
                 <div class="product-selection-item">
                   <div class="product-selection-item__image">
                     <img
-                      src="../assets/images/compare-machinse/milk-4.png"
+                      src="assets/images/compare-machinse/milk-4.png"
                       alt=""
                     />
                   </div>
@@ -293,7 +290,7 @@ export default defineComponent({
                 <div class="product-selection-item">
                   <div class="product-selection-item__image">
                     <img
-                      src="../assets/images/compare-machinse/milk-5.png"
+                      src="assets/images/compare-machinse/milk-5.png"
                       alt=""
                     />
                   </div>
@@ -303,7 +300,7 @@ export default defineComponent({
                 <div class="product-selection-item">
                   <div class="product-selection-item__image">
                     <img
-                      src="../assets/images/compare-machinse/milk-6.png"
+                      src="assets/images/compare-machinse/milk-6.png"
                       alt=""
                     />
                   </div>
@@ -313,7 +310,7 @@ export default defineComponent({
                 <div class="product-selection-item">
                   <div class="product-selection-item__image">
                     <img
-                      src="../assets/images/compare-machinse/milk-5.png"
+                      src="assets/images/compare-machinse/milk-5.png"
                       alt=""
                     />
                   </div>
@@ -323,7 +320,7 @@ export default defineComponent({
                 <div class="product-selection-item">
                   <div class="product-selection-item__image">
                     <img
-                      src="../assets/images/compare-machinse/milk-6.png"
+                      src="assets/images/compare-machinse/milk-6.png"
                       alt=""
                     />
                   </div>
@@ -339,7 +336,7 @@ export default defineComponent({
                 <div class="product-selection-item">
                   <div class="product-selection-item__image">
                     <img
-                      src="../assets/images/compare-machinse/milk-functions.png"
+                      src="assets/images/compare-machinse/milk-functions.png"
                       alt=""
                     />
                   </div>
@@ -351,7 +348,7 @@ export default defineComponent({
                 <div class="product-selection-item">
                   <div class="product-selection-item__image">
                     <img
-                      src="../assets/images/compare-machinse/actions.png"
+                      src="assets/images/compare-machinse/actions.png"
                       alt=""
                     />
                   </div>

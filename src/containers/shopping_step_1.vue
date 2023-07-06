@@ -52,10 +52,7 @@ export default defineComponent({
               <div class="shopping_content-body-item">
                 <div class="item_info">
                   <div class="item_info-img">
-                    <img
-                      alt="item"
-                      src="../assets/images/shopping_bag/item.png"
-                    />
+                    <img alt="item" src="assets/images/shopping_bag/item.png" />
                   </div>
                   <span class="item_info-name">Roma</span>
                 </div>
@@ -157,7 +154,7 @@ export default defineComponent({
               <div class="product-image">
                 <router-link to="/accessories_detail">
                   <img
-                    src="../assets/images/shopping_bag/image_8.png"
+                    src="assets/images/shopping_bag/image_8.png"
                     alt="REVEAL ESPRESSO MILD GLASSES"
                   />
                 </router-link>
@@ -166,7 +163,7 @@ export default defineComponent({
               <div class="product-content">
                 <span class="product-price">₫3,700,000</span>
                 <button class="product-add">
-                  <img src="../assets/svgs/icon-plus.svg" alt="" />
+                  <img src="assets/svgs/icon-plus.svg" alt="" />
                 </button>
               </div>
             </div>
@@ -175,7 +172,7 @@ export default defineComponent({
               <div class="product-image">
                 <router-link to="/accessories_detail">
                   <img
-                    src="../assets/images/shopping_bag/image_8.png"
+                    src="assets/images/shopping_bag/image_8.png"
                     alt="REVEAL LUNGO"
                   />
                 </router-link>
@@ -184,7 +181,7 @@ export default defineComponent({
               <div class="product-content">
                 <span class="product-price">₫3,700,000</span>
                 <button class="product-add">
-                  <img src="../assets/svgs/icon-plus.svg" alt="" />
+                  <img src="assets/svgs/icon-plus.svg" alt="" />
                 </button>
               </div>
             </div>
@@ -193,7 +190,7 @@ export default defineComponent({
               <div class="product-image">
                 <router-link to="/accessories_detail">
                   <img
-                    src="../assets/images/shopping_bag/image_8.png"
+                    src="assets/images/shopping_bag/image_8.png"
                     alt="REVEAL ESPRESSO INTENSE GLASSES"
                   />
                 </router-link>
@@ -202,7 +199,7 @@ export default defineComponent({
               <div class="product-content">
                 <span class="product-price">₫3,700,000</span>
                 <button class="product-add">
-                  <img src="../assets/svgs/icon-plus.svg" alt="" />
+                  <img src="assets/svgs/icon-plus.svg" alt="" />
                 </button>
               </div>
             </div>

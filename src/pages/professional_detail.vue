@@ -54,7 +54,6 @@ export default defineComponent({
     <div class="wrapper-innner">
       <Header />
       <Nav />
-  
 
       <main id="professional_detail">
         <section class="product">
@@ -67,7 +66,7 @@ export default defineComponent({
               <div class="product-media">
                 <div class="product-media__image">
                   <img
-                    src="../assets/images/pro-machines-detail/product.png"
+                    src="assets/images/pro-machines-detail/product.png"
                     alt=""
                   />
                 </div>
@@ -178,7 +177,7 @@ export default defineComponent({
               <div class="product-specs__item">
                 <div class="product-specs__item-image">
                   <img
-                    src="../assets/images/pro-machines-detail/Ristretto.png"
+                    src="assets/images/pro-machines-detail/Ristretto.png"
                     alt="Ristretto"
                   />
                 </div>
@@ -189,7 +188,7 @@ export default defineComponent({
               <div class="product-specs__item">
                 <div class="product-specs__item-image">
                   <img
-                    src="../assets/images/pro-machines-detail/Espresso.png"
+                    src="assets/images/pro-machines-detail/Espresso.png"
                     alt="Espresso"
                   />
                 </div>
@@ -200,7 +199,7 @@ export default defineComponent({
               <div class="product-specs__item">
                 <div class="product-specs__item-image">
                   <img
-                    src="../assets/images/pro-machines-detail/Lungo.png"
+                    src="assets/images/pro-machines-detail/Lungo.png"
                     alt="Lungo"
                   />
                 </div>
@@ -211,7 +210,7 @@ export default defineComponent({
               <div class="product-specs__item">
                 <div class="product-specs__item-image">
                   <img
-                    src="../assets/images/pro-machines-detail/Americano.png"
+                    src="assets/images/pro-machines-detail/Americano.png"
                     alt="Americano"
                   />
                 </div>
@@ -222,7 +221,7 @@ export default defineComponent({
               <div class="product-specs__item">
                 <div class="product-specs__item-image">
                   <img
-                    src="../assets/images/pro-machines-detail/Large-Americano.png"
+                    src="assets/images/pro-machines-detail/Large-Americano.png"
                     alt="Large Americano"
                   />
                 </div>
@@ -559,7 +558,7 @@ export default defineComponent({
           <div class="container context-right">
             <div class="discover-image">
               <img
-                src="../assets/images/pro-machines-detail/hero1.png"
+                src="assets/images/pro-machines-detail/hero1.png"
                 alt="MOMENTO COFFEE 100"
               />
 
@@ -689,7 +688,7 @@ export default defineComponent({
 
             <div class="discover-image">
               <img
-                src="../assets/images/pro-machines-detail/hero2.png"
+                src="assets/images/pro-machines-detail/hero2.png"
                 alt="NEED A FLEXIBLE COFFEE SOLUTION?"
               />
             </div>
@@ -700,7 +699,7 @@ export default defineComponent({
           <div class="container context-right">
             <div class="discover-image">
               <img
-                src="../assets/images/pro-machines-detail/hero3.png"
+                src="assets/images/pro-machines-detail/hero3.png"
                 alt="PAID SOLUTIONS AVAILABLE"
               />
             </div>
@@ -1242,23 +1241,23 @@ export default defineComponent({
         <!-- <section class="slide">
           <div class="slideshow-container container">
             <div class="mySlides fade">
-              <img src="../assets/images/pro-machines-detail/slide-1.png" />
+              <img src="assets/images/pro-machines-detail/slide-1.png" />
             </div>
 
             <div class="mySlides fade">
-              <img src="../assets/images/pro-machines-detail/slide-2.png" />
+              <img src="assets/images/pro-machines-detail/slide-2.png" />
             </div>
 
             <div class="mySlides fade" style="display: block">
-              <img src="../assets/images/pro-machines-detail/slide-5.png" />
+              <img src="assets/images/pro-machines-detail/slide-5.png" />
             </div>
 
             <div class="mySlides fade">
-              <img src="../assets/images/pro-machines-detail/slide-3.png" />
+              <img src="assets/images/pro-machines-detail/slide-3.png" />
             </div>
 
             <div class="mySlides fade">
-              <img src="../assets/images/pro-machines-detail/slide-4.png" />
+              <img src="assets/images/pro-machines-detail/slide-4.png" />
             </div>
 
              <router-link  class="next" onclick="plusSlides(1)">❯</router-link>
@@ -1274,19 +1273,19 @@ export default defineComponent({
 
         <section class="image-slider container">
           <div class="image-item">
-            <img src="../assets/images/pro-machines-detail/slide-1.png" />
+            <img src="assets/images/pro-machines-detail/slide-1.png" />
           </div>
           <div class="image-item">
-            <img src="../assets/images/pro-machines-detail/slide-2.png" />
+            <img src="assets/images/pro-machines-detail/slide-2.png" />
           </div>
           <div class="image-item">
-            <img src="../assets/images/pro-machines-detail/slide-3.png" />
+            <img src="assets/images/pro-machines-detail/slide-3.png" />
           </div>
           <div class="image-item">
-            <img src="../assets/images/pro-machines-detail/slide-4.png" />
+            <img src="assets/images/pro-machines-detail/slide-4.png" />
           </div>
           <div class="image-item">
-            <img src="../assets/images/pro-machines-detail/slide-5.png" />
+            <img src="assets/images/pro-machines-detail/slide-5.png" />
           </div>
         </section>
 

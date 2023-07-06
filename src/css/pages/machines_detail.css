@@ -582,7 +582,7 @@ video {
       font-weight: 500; }
   #machines-detail .machines-info {
     background: #f3eee6;
-    background-image: url("../../assets/images/machines-detail/machines-specifications.png");
+    background-image: url(/public/assets/images/machines-detail/machines-specifications.png);
     background-position: 100%;
     background-repeat: no-repeat; }
   #machines-detail .machines-container {
@@ -915,7 +915,7 @@ video {
       width: 100%;
       margin-bottom: -14%; }
   #machines-detail .faq {
-    background-image: url(../../assets/images/machines-detail/machines-1.png);
+    background-image: url(/public/assets/images/machines-detail/machines-1.png);
     background-repeat: no-repeat;
     background-position: 100% 0; }
     #machines-detail .faq-left {

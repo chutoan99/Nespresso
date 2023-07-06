@@ -14,7 +14,7 @@ export default class Footer extends Vue {}
           <div>
             <img
               alt="ic-mc"
-              src="../assets/images/ic-mc.png"
+              src="assets/images/ic-mc.png"
               width="100%"
               height="100%"
             />
@@ -22,7 +22,7 @@ export default class Footer extends Vue {}
           <div>
             <img
               alt="ic-visa"
-              src="../assets/images/ic-visa.png"
+              src="assets/images/ic-visa.png"
               width="100%"
               height="100%"
             />
@@ -30,7 +30,7 @@ export default class Footer extends Vue {}
           <div>
             <img
               alt="ic-ggpay"
-              src="../assets/images/ic-ggpay.png"
+              src="assets/images/ic-ggpay.png"
               width="100%"
               height="100%"
             />
@@ -140,7 +140,7 @@ export default class Footer extends Vue {}
       </div>
     </div>
     <div class="footer_img">
-      <img src="../assets/images/bct.png" alt="bct" />
+      <img src="assets/images/bct.png" alt="bct" />
     </div>
     <div class="footer_language-menu">
       <div class="container">

@@ -15,7 +15,7 @@ export default defineComponent({
       <div class="wrapper-sm">
         <HeaderSimple />
         <div class="banner">
-          <img src="../assets/images/template/banner.png" alt="" />
+          <img src="assets/images/template/banner.png" alt="" />
         </div>
 
         <div class="main">
@@ -68,7 +68,7 @@ export default defineComponent({
         <div class="delivery-section">
           <div class="delivery-section-content">
             <div class="delivery-section-image">
-              <img src="../assets/svgs/car.svg" alt="" />
+              <img src="assets/svgs/car.svg" alt="" />
             </div>
             <div class="delivery-section-desc">
               <h4>Standard Delivery</h4>
@@ -78,7 +78,7 @@ export default defineComponent({
 
           <div class="delivery-section-content">
             <div class="delivery-section-image">
-              <img src="../assets/images/template/card.png" alt="" />
+              <img src="assets/images/template/card.png" alt="" />
             </div>
             <div class="delivery-section-desc">
               <h4>Total</h4>
@@ -117,13 +117,13 @@ export default defineComponent({
         </div>
 
         <div class="presentation">
-          <img src="../assets/images/template/banner-1.png" alt="" />
+          <img src="assets/images/template/banner-1.png" alt="" />
         </div>
 
         <div class="content">
           <div class="content-item">
             <div class="content-image">
-              <img src="../assets/images/template/icon-3.png" alt="" />
+              <img src="assets/images/template/icon-3.png" alt="" />
             </div>
             <div class="content-info">
               <p class="content-title">Title</p>
@@ -135,7 +135,7 @@ export default defineComponent({
           </div>
           <div class="content-item">
             <div class="content-image">
-              <img src="../assets/images/template/icon-4.png" alt="" />
+              <img src="assets/images/template/icon-4.png" alt="" />
             </div>
             <div class="content-info">
               <p class="content-title">Title</p>
@@ -147,7 +147,7 @@ export default defineComponent({
           </div>
           <div class="content-item">
             <div class="content-image">
-              <img src="../assets/images/template/icon-2.png" alt="" />
+              <img src="assets/images/template/icon-2.png" alt="" />
             </div>
             <div class="content-info">
               <p class="content-title">Title</p>
@@ -159,7 +159,7 @@ export default defineComponent({
           </div>
           <div class="content-item">
             <div class="content-image">
-              <img src="../assets/images/template/icon-1.png" alt="" />
+              <img src="assets/images/template/icon-1.png" alt="" />
             </div>
             <div class="content-info">
               <p class="content-title">Title</p>

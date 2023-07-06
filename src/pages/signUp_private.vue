@@ -75,7 +75,7 @@ export default defineComponent({
                 <div class="card-list" id="card-list">
                   <div class="card_item">
                     <div class="card_item-img">
-                      <img src="../assets/images/sigup/Rectangle_1.png" />
+                      <img src="assets/images/sigup/Rectangle_1.png" />
                     </div>
                     <div class="card_item-title">
                       <span>Pixie</span>
@@ -84,7 +84,7 @@ export default defineComponent({
 
                   <div class="card_item">
                     <div class="card_item-img">
-                      <img src="../assets/images/sigup/Rectangle_1.png" />
+                      <img src="assets/images/sigup/Rectangle_1.png" />
                     </div>
                     <div class="card_item-title">
                       <span>Pixie</span>
@@ -93,7 +93,7 @@ export default defineComponent({
 
                   <div class="card_item">
                     <div class="card_item-img">
-                      <img src="../assets/images/sigup/Rectangle_1.png" />
+                      <img src="assets/images/sigup/Rectangle_1.png" />
                     </div>
                     <div class="card_item-title">
                       <span>Pixie</span>
@@ -102,7 +102,7 @@ export default defineComponent({
 
                   <div class="card_item">
                     <div class="card_item-img">
-                      <img src="../assets/images/sigup/Rectangle_1.png" />
+                      <img src="assets/images/sigup/Rectangle_1.png" />
                     </div>
                     <div class="card_item-title">
                       <span>Pixie</span>
@@ -111,7 +111,7 @@ export default defineComponent({
 
                   <div class="card_item">
                     <div class="card_item-img">
-                      <img src="../assets/images/sigup/Rectangle_1.png" />
+                      <img src="assets/images/sigup/Rectangle_1.png" />
                     </div>
                     <div class="card_item-title">
                       <span>Pixie</span>
@@ -120,7 +120,7 @@ export default defineComponent({
 
                   <div class="card_item">
                     <div class="card_item-img">
-                      <img src="../assets/images/sigup/Rectangle_1.png" />
+                      <img src="assets/images/sigup/Rectangle_1.png" />
                     </div>
                     <div class="card_item-title">
                       <span>Pixie</span>
@@ -128,7 +128,7 @@ export default defineComponent({
                   </div>
                   <div class="card_item">
                     <div class="card_item-img">
-                      <img src="../assets/images/sigup/Rectangle_1.png" />
+                      <img src="assets/images/sigup/Rectangle_1.png" />
                     </div>
                     <div class="card_item-title">
                       <span>Pixie</span>
@@ -136,7 +136,7 @@ export default defineComponent({
                   </div>
                   <div class="card_item">
                     <div class="card_item-img">
-                      <img src="../assets/images/sigup/Rectangle_1.png" />
+                      <img src="assets/images/sigup/Rectangle_1.png" />
                     </div>
                     <div class="card_item-title">
                       <span>Pixie</span>
@@ -144,7 +144,7 @@ export default defineComponent({
                   </div>
                   <div class="card_item">
                     <div class="card_item-img">
-                      <img src="../assets/images/sigup/Rectangle_1.png" />
+                      <img src="assets/images/sigup/Rectangle_1.png" />
                     </div>
                     <div class="card_item-title">
                       <span>Pixie</span>
@@ -152,7 +152,7 @@ export default defineComponent({
                   </div>
                   <div class="card_item">
                     <div class="card_item-img">
-                      <img src="../assets/images/sigup/Rectangle_1.png" />
+                      <img src="assets/images/sigup/Rectangle_1.png" />
                     </div>
                     <div class="card_item-title">
                       <span>Pixie</span>
@@ -160,7 +160,7 @@ export default defineComponent({
                   </div>
                   <div class="card_item">
                     <div class="card_item-img">
-                      <img src="../assets/images/sigup/Rectangle_1.png" />
+                      <img src="assets/images/sigup/Rectangle_1.png" />
                     </div>
                     <div class="card_item-title">
                       <span>Pixie</span>
@@ -168,7 +168,7 @@ export default defineComponent({
                   </div>
                   <div class="card_item">
                     <div class="card_item-img">
-                      <img src="../assets/images/sigup/Rectangle_1.png" />
+                      <img src="assets/images/sigup/Rectangle_1.png" />
                     </div>
                     <div class="card_item-title">
                       <span>Pixie</span>
@@ -176,7 +176,7 @@ export default defineComponent({
                   </div>
                   <div class="card_item">
                     <div class="card_item-img">
-                      <img src="../assets/images/sigup/Rectangle_1.png" />
+                      <img src="assets/images/sigup/Rectangle_1.png" />
                     </div>
                     <div class="card_item-title">
                       <span>Pixie</span>
@@ -184,7 +184,7 @@ export default defineComponent({
                   </div>
                   <div class="card_item">
                     <div class="card_item-img">
-                      <img src="../assets/images/sigup/Rectangle_1.png" />
+                      <img src="assets/images/sigup/Rectangle_1.png" />
                     </div>
                     <div class="card_item-title">
                       <span>Pixie</span>
@@ -192,7 +192,7 @@ export default defineComponent({
                   </div>
                   <div class="card_item">
                     <div class="card_item-img">
-                      <img src="../assets/images/sigup/Rectangle_1.png" />
+                      <img src="assets/images/sigup/Rectangle_1.png" />
                     </div>
                     <div class="card_item-title">
                       <span>Pixie</span>
@@ -200,7 +200,7 @@ export default defineComponent({
                   </div>
                   <div class="card_item">
                     <div class="card_item-img">
-                      <img src="../assets/images/sigup/Rectangle_1.png" />
+                      <img src="assets/images/sigup/Rectangle_1.png" />
                     </div>
                     <div class="card_item-title">
                       <span>Pixie</span>
@@ -208,7 +208,7 @@ export default defineComponent({
                   </div>
                   <div class="card_item">
                     <div class="card_item-img">
-                      <img src="../assets/images/sigup/Rectangle_1.png" />
+                      <img src="assets/images/sigup/Rectangle_1.png" />
                     </div>
                     <div class="card_item-title">
                       <span>Pixie</span>
@@ -216,7 +216,7 @@ export default defineComponent({
                   </div>
                   <div class="card_item">
                     <div class="card_item-img">
-                      <img src="../assets/images/sigup/Rectangle_1.png" />
+                      <img src="assets/images/sigup/Rectangle_1.png" />
                     </div>
                     <div class="card_item-title">
                       <span>Pixie</span>
@@ -224,7 +224,7 @@ export default defineComponent({
                   </div>
                   <div class="card_item">
                     <div class="card_item-img">
-                      <img src="../assets/images/sigup/Rectangle_1.png" />
+                      <img src="assets/images/sigup/Rectangle_1.png" />
                     </div>
                     <div class="card_item-title">
                       <span>Pixie</span>
@@ -232,7 +232,7 @@ export default defineComponent({
                   </div>
                   <div class="card_item">
                     <div class="card_item-img">
-                      <img src="../assets/images/sigup/Rectangle_1.png" />
+                      <img src="assets/images/sigup/Rectangle_1.png" />
                     </div>
                     <div class="card_item-title">
                       <span>Pixie</span>
@@ -240,7 +240,7 @@ export default defineComponent({
                   </div>
                   <div class="card_item">
                     <div class="card_item-img">
-                      <img src="../assets/images/sigup/Rectangle_1.png" />
+                      <img src="assets/images/sigup/Rectangle_1.png" />
                     </div>
                     <div class="card_item-title">
                       <span>Pixie</span>
@@ -253,7 +253,7 @@ export default defineComponent({
                 <div class="card-list">
                   <div class="card_item">
                     <div class="card_item-img">
-                      <img src="../assets/images/sigup/Rectangle_1.png" />
+                      <img src="assets/images/sigup/Rectangle_1.png" />
                     </div>
                     <div class="card_item-title">
                       <span>Pixie</span>
@@ -262,7 +262,7 @@ export default defineComponent({
 
                   <div class="card_item">
                     <div class="card_item-img">
-                      <img src="../assets/images/sigup/Rectangle_1.png" />
+                      <img src="assets/images/sigup/Rectangle_1.png" />
                     </div>
                     <div class="card_item-title">
                       <span>Pixie</span>
@@ -271,7 +271,7 @@ export default defineComponent({
 
                   <div class="card_item">
                     <div class="card_item-img">
-                      <img src="../assets/images/sigup/Rectangle_1.png" />
+                      <img src="assets/images/sigup/Rectangle_1.png" />
                     </div>
                     <div class="card_item-title">
                       <span>Pixie</span>
@@ -280,7 +280,7 @@ export default defineComponent({
 
                   <div class="card_item">
                     <div class="card_item-img">
-                      <img src="../assets/images/sigup/Rectangle_1.png" />
+                      <img src="assets/images/sigup/Rectangle_1.png" />
                     </div>
                     <div class="card_item-title">
                       <span>Pixie</span>
@@ -289,7 +289,7 @@ export default defineComponent({
 
                   <div class="card_item">
                     <div class="card_item-img">
-                      <img src="../assets/images/sigup/Rectangle_1.png" />
+                      <img src="assets/images/sigup/Rectangle_1.png" />
                     </div>
                     <div class="card_item-title">
                       <span>Pixie</span>
@@ -298,7 +298,7 @@ export default defineComponent({
 
                   <div class="card_item">
                     <div class="card_item-img">
-                      <img src="../assets/images/sigup/Rectangle_1.png" />
+                      <img src="assets/images/sigup/Rectangle_1.png" />
                     </div>
                     <div class="card_item-title">
                       <span>Pixie</span>
@@ -352,7 +352,7 @@ export default defineComponent({
                   </div>
                   <div class="private_form-img">
                     <div class="private_form-wrapper">
-                      <img src="../assets/images/sigup/Rectangle_7.png" />
+                      <img src="assets/images/sigup/Rectangle_7.png" />
                     </div>
                   </div>
                 </div>

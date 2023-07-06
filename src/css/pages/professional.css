@@ -757,7 +757,7 @@ video {
       #professional .professional_pr .slick-next:hover svg path {
         fill: black; }
 #professional .professional_pr2 {
-  background-image: url("../../assets/images/professional/bg.png");
+  background-image: url(/public/assets/images/professional/bg.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

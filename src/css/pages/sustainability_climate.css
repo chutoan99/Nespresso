@@ -351,11 +351,11 @@ video {
   to {
     transform: translate(0); } }
 #climate .background-1 {
-  background-image: url("../../assets/images/sustainability&recycling/climate_1.png"); }
+  background-image: url(/public/assets/images/sustainability&recycling/climate_1.png); }
 #climate .background-2 {
-  background-image: url("../../assets/images/sustainability&recycling/climate_6.png"); }
+  background-image: url(/public/assets/images/sustainability&recycling/climate_6.png); }
 #climate .background-3 {
-  background-image: url("../../assets/images/sustainability&recycling/climate_2.png"); }
+  background-image: url(/public/assets/images/sustainability&recycling/climate_2.png); }
 #climate .background-1,
 #climate .background-2,
 #climate .background-3 {

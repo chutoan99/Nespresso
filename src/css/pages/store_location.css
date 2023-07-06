@@ -357,7 +357,7 @@ video {
   width: 100%;
   height: 46.875rem;
   position: relative;
-  background-image: url("../../assets/images/location/background.jpg");
+  background-image: url(/public/assets/images/location/background.jpg);
   background-size: cover; }
   #store_location .store_location {
     display: flex;

@@ -99,7 +99,7 @@ export default defineComponent({
               </button>
               <div class="product-image">
                 <img
-                  src="../assets/images/accessories-detail/accessories-detail-1.png"
+                  src="assets/images/accessories-detail/accessories-detail-1.png"
                   alt=""
                 />
               </div>
@@ -121,11 +121,11 @@ export default defineComponent({
                 </div>
                 <div class="product-card__delivery">
                   <div class="product-card__service">
-                    <img src="../assets/svgs/shipping-car.svg" alt="" />
+                    <img src="assets/svgs/shipping-car.svg" alt="" />
                     <p class="product-card__service-text">Free delivery</p>
                   </div>
                   <div class="product-card__service">
-                    <img src="../assets/svgs/bell.svg" alt="" />
+                    <img src="assets/svgs/bell.svg" alt="" />
                     <p class="product-card__service-text">
                       Coffee set included
                     </p>
@@ -138,7 +138,7 @@ export default defineComponent({
                   The special gift when you purchase over VND 3,000,000
                 </span>
                 <button type="submit" class="product-footer__add">
-                  <img src="../assets/svgs/cart.svg" alt="" />
+                  <img src="assets/svgs/cart.svg" alt="" />
                   <span>ADD TO BASKET</span>
                 </button>
               </div>
@@ -150,7 +150,7 @@ export default defineComponent({
         <section class="banner">
           <div class="banner-image">
             <img
-              src="../assets/images/accessories-detail/accessories-detail-2.png"
+              src="assets/images/accessories-detail/accessories-detail-2.png"
               alt=""
             />
           </div>
@@ -227,7 +227,7 @@ export default defineComponent({
               <div class="accessories-item-head">
                 <div class="accessories-item__image">
                   <img
-                    src="../assets/images/accessories/accessories-10.png"
+                    src="assets/images/accessories/accessories-10.png"
                     alt=""
                   />
                 </div>
@@ -262,7 +262,7 @@ export default defineComponent({
               <div class="accessories-item-head">
                 <div class="accessories-item__image">
                   <img
-                    src="../assets/images/accessories/accessories-10.png"
+                    src="assets/images/accessories/accessories-10.png"
                     alt=""
                   />
                 </div>
@@ -297,7 +297,7 @@ export default defineComponent({
               <div class="accessories-item-head">
                 <div class="accessories-item__image">
                   <img
-                    src="../assets/images/accessories/accessories-10.png"
+                    src="assets/images/accessories/accessories-10.png"
                     alt=""
                   />
                 </div>
@@ -342,7 +342,7 @@ export default defineComponent({
           </div>
           <div class="accessories-footer-right js-modal-click">
             <img
-              src="../assets/images/accessories-detail/accessories-detail-3.png"
+              src="assets/images/accessories-detail/accessories-detail-3.png"
               alt=""
             />
             <span>THYME AND GRAPEFRUIT ETHIOPIA JAMMING</span>
@@ -377,7 +377,7 @@ export default defineComponent({
             </button>
             <div class="modal-image">
               <img
-                src="../assets/images/accessories-detail/accessories-detail-4.png"
+                src="assets/images/accessories-detail/accessories-detail-4.png"
                 alt="THYME AND GRAPEFRUIT ETHIOPIA JAMMING"
               />
             </div>

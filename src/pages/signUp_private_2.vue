@@ -28,7 +28,7 @@ export default defineComponent({
         <section id="private_2">
           <div class="private_2 container">
             <div class="private_2-banner">
-              <img src="../assets/images/product/banner.png" alt="" />
+              <img src="assets/images/product/banner.png" alt="" />
               <div class="private_2-banner-info">
                 <span class="private_2-banner-title"
                   >ORIGINAL COFFEE CAPSULES</span
@@ -63,7 +63,7 @@ export default defineComponent({
               </div>
               <div class="private_2-content-img">
                 <div class="private_2-content-img-wrapper">
-                  <img src="../assets/images/LogoN.png" alt="LogoN" />
+                  <img src="assets/images/LogoN.png" alt="LogoN" />
                 </div>
               </div>
               <hr class="private_2-content-line" />

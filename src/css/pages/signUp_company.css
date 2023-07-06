@@ -454,7 +454,7 @@ video {
     margin-top: 1.25rem;
     width: 100%;
     height: 23rem;
-    background-image: url(../../assets/images/map.png);
+    background-image: url(/public/assets/images/map.png);
     background-position: center;
     background-repeat: no-repeat; }
   #signUp_company #form_signUp .form_signUp-label {

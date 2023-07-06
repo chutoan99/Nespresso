@@ -353,9 +353,9 @@ video {
 #community .community {
   width: 100%; }
   #community .community .background-1 {
-    background-image: url("../../assets/images/sustainability&recycling/community_1.png"); }
+    background-image: url(/public/assets/images/sustainability&recycling/community_1.png); }
   #community .community .background-2 {
-    background-image: url("../../assets/images/sustainability&recycling/community_11.png"); }
+    background-image: url(/public/assets/images/sustainability&recycling/community_11.png); }
   #community .community .background-1,
   #community .community .background-2 {
     background-repeat: no-repeat;

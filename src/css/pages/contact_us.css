@@ -381,7 +381,7 @@ video {
 #contact_us .contact_frame {
   width: 100%; }
   #contact_us .contact_frame .background-1 {
-    background-image: url("../../assets/images/sustainability&recycling/commitment_1.png");
+    background-image: url(/public/assets/images/sustainability&recycling/commitment_1.png);
     background-repeat: no-repeat;
     background-position: center;
     object-position: center;

@@ -221,7 +221,7 @@ export default defineComponent({
           </div>
 
           <div class="banner">
-            <img src="../assets/images/machines/machines_icon1.png" alt="" />
+            <img src="assets/images/machines/machines_icon1.png" alt="" />
             <div class="banner-desciption">
               <p class="banner-heading font_heading-5">MACHINE SUBSCRIPTION</p>
               <p class="banner-content font_body-1">
@@ -242,7 +242,7 @@ export default defineComponent({
               <!-- Product Image -->
               <router-link to="/machines_detail" class="product-image">
                 <img
-                  src="../assets/images/machines/machines_1.png"
+                  src="assets/images/machines/machines_1.png"
                   alt="ESSENZA MINI"
                 />
               </router-link>
@@ -283,7 +283,7 @@ export default defineComponent({
               <!-- Product Image -->
               <router-link to="/machines_detail" class="product-image">
                 <img
-                  src="../assets/images/machines/machines_2.png"
+                  src="assets/images/machines/machines_2.png"
                   alt="INISSIA"
                 />
               </router-link>
@@ -324,7 +324,7 @@ export default defineComponent({
               <!-- Product Image -->
               <router-link to="/machines_detail" class="product-image">
                 <img
-                  src="../assets/images/machines/machines_3.png"
+                  src="assets/images/machines/machines_3.png"
                   alt="ESSENZA PLUS"
                 />
               </router-link>
@@ -364,10 +364,7 @@ export default defineComponent({
               </div>
               <!-- Product Image -->
               <router-link to="/machines_detail" class="product-image">
-                <img
-                  src="../assets/images/machines/machines_4.png"
-                  alt="PIXIE"
-                />
+                <img src="assets/images/machines/machines_4.png" alt="PIXIE" />
               </router-link>
               <!-- Name -->
               <p class="product-name">PIXIE</p>
@@ -406,7 +403,7 @@ export default defineComponent({
               <!-- Product Image -->
               <router-link to="/machines_detail" class="product-image">
                 <img
-                  src="../assets/images/machines/machines_5.png"
+                  src="assets/images/machines/machines_5.png"
                   alt="Essenza Mini Black & Aeroccino 3"
                 />
               </router-link>
@@ -447,7 +444,7 @@ export default defineComponent({
               <!-- Product Image -->
               <router-link to="/machines_detail" class="product-image">
                 <img
-                  src="../assets/images/machines/machines_6.png"
+                  src="assets/images/machines/machines_6.png"
                   alt="Essenza Mini Black & Aeroccino 3"
                 />
               </router-link>
@@ -488,7 +485,7 @@ export default defineComponent({
               <!-- Product Image -->
               <router-link to="/machines_detail" class="product-image">
                 <img
-                  src="../assets/images/machines/machines_7.png"
+                  src="assets/images/machines/machines_7.png"
                   alt="ESSENZA MINI WHITE & AEROCCINO 3"
                 />
               </router-link>
@@ -529,7 +526,7 @@ export default defineComponent({
               <!-- Product Image -->
               <router-link to="/machines_detail" class="product-image">
                 <img
-                  src="../assets/images/machines/machines_8.png"
+                  src="assets/images/machines/machines_8.png"
                   alt="Inissia Black & Aeroccino 3"
                 />
               </router-link>
@@ -570,7 +567,7 @@ export default defineComponent({
               <!-- Product Image -->
               <router-link to="/machines_detail" class="product-image">
                 <img
-                  src="../assets/images/machines/machines_9.png"
+                  src="assets/images/machines/machines_9.png"
                   alt="Inissia Red & Aeroccino 3"
                 />
               </router-link>
@@ -611,7 +608,7 @@ export default defineComponent({
               <!-- Product Image -->
               <router-link to="/machines_detail" class="product-image">
                 <img
-                  src="../assets/images/machines/machines_10.png"
+                  src="assets/images/machines/machines_10.png"
                   alt="Pixie Red & Aeroccino 3"
                 />
               </router-link>
@@ -652,7 +649,7 @@ export default defineComponent({
               <!-- Product Image -->
               <router-link to="/machines_detail" class="product-image">
                 <img
-                  src="../assets/images/machines/machines_11.png"
+                  src="assets/images/machines/machines_11.png"
                   alt="Pixie Titan & Aeroccino 3"
                 />
               </router-link>
@@ -693,7 +690,7 @@ export default defineComponent({
               <!-- Product Image -->
               <router-link to="/machines_detail" class="product-image">
                 <img
-                  src="../assets/images/machines/machines_12.png"
+                  src="assets/images/machines/machines_12.png"
                   alt="LATTISSIMA ONE"
                 />
               </router-link>
@@ -734,7 +731,7 @@ export default defineComponent({
               <!-- Product Image -->
               <router-link to="/machines_detail" class="product-image">
                 <img
-                  src="../assets/images/machines/machines_13.png"
+                  src="assets/images/machines/machines_13.png"
                   alt="GRAN LATTISSIMA"
                 />
               </router-link>

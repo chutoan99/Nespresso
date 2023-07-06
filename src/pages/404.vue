@@ -25,7 +25,7 @@ export default defineComponent({
       <!-- Navigation -->
       <section id="banner">
         <img
-          src="../assets/images/banner-1.png"
+          src="assets/images/banner-1.png"
           alt="banner"
           width="100%"
           height="100%"
@@ -44,7 +44,7 @@ export default defineComponent({
               <router-link to="/"> GO TO HOMEPAGE </router-link>
             </button>
           </div>
-          <img src="../assets/images/page404/404.png" alt="404" />
+          <img src="assets/images/page404/404.png" alt="404" />
         </section>
 
         <section class="product">
@@ -59,10 +59,7 @@ export default defineComponent({
                     <span class="product-name">inissia</span>
                     <div class="product-image">
                       <router-link to="/machines_detail">
-                        <img
-                          src="../assets/images/page404/product_1.png"
-                          alt=""
-                        />
+                        <img src="assets/images/page404/product_1.png" alt="" />
                       </router-link>
                     </div>
                     <span class="product-price">đ 16.5000</span>
@@ -96,7 +93,7 @@ export default defineComponent({
                     <span class="product-name">inissia</span>
                     <div class="product-image">
                       <router-link to="/machines_detail">
-                        <img src="../assets/images/page404/404.png" alt="" />
+                        <img src="assets/images/page404/404.png" alt="" />
                       </router-link>
                     </div>
                     <span class="product-price">đ 16.5000</span>
@@ -130,10 +127,7 @@ export default defineComponent({
                     <span class="product-name">inissia</span>
                     <div class="product-image">
                       <router-link to="/machines_detail">
-                        <img
-                          src="../assets/images/page404/product_1.png"
-                          alt=""
-                        />
+                        <img src="assets/images/page404/product_1.png" alt="" />
                       </router-link>
                     </div>
                     <span class="product-price">đ 16.5000</span>

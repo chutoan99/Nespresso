@@ -524,7 +524,7 @@ video {
       #account .account_body-info-img, #account .account_body-info-img2 {
         width: 100%;
         height: 100%;
-        background-image: url(../../assets/images/account/backgound_account.png); }
+        background-image: url(/public/assets/images/account/backgound_account.png); }
 
 /* Tablet: width >= 768px and width < 1024px */
 @media only screen and (min-width: 48rem) and (max-width: 63.938rem) {
@@ -549,7 +549,7 @@ video {
       object-fit: COVER;
       width: 55%;
       background-position: center;
-      background-image: url(../../assets/images/account/backgound_account-detail-3.png) !important; } }
+      background-image: url(/public/assets/images/account/backgound_account-detail-3.png) !important; } }
 /* Mobile: width < 768px */
 @media only screen and (max-width: 47.938em) {
   #account {
@@ -581,7 +581,7 @@ video {
       width: 100% !important;
       object-fit: COVER;
       background-position: center;
-      background-image: url(../../assets/images/account/backgound_account-detail-3.png) !important; }
+      background-image: url(/public/assets/images/account/backgound_account-detail-3.png) !important; }
     #account .account_body-info-btn {
       width: 100% !important; }
     #account .account_body-info-wrapper2 {
@@ -590,6 +590,6 @@ video {
       object-fit: COVER;
       width: 55%;
       background-position: center;
-      background-image: url(../../assets/images/account/backgound_account-detail-3.png) !important; }
+      background-image: url(/public/assets/images/account/backgound_account-detail-3.png) !important; }
     #account .field_mess div {
       display: none; } }

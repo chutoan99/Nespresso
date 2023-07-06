@@ -21,9 +21,10 @@ export default defineComponent({
       <Header />
       <NavigationComponent />
       <main id="indexPage">
+        <!-- BANNER  -->
         <section id="banner">
           <img
-            src="../assets/images/banner-1.png"
+            src="assets/images/banner-1.png"
             alt="banner"
             width="100%"
             height="100%"
@@ -32,7 +33,6 @@ export default defineComponent({
 
         <main id="index">
           <!-- TAGLINE  -->
-
           <section class="tagLine-event">
             <svg
               width="28"
@@ -69,7 +69,7 @@ export default defineComponent({
                 </div>
                 <div class="featured_item-inner">
                   <div class="featured_item-img">
-                    <img src="../assets/images/Calque_1.png" alt="Calque" />
+                    <img src="assets/images/Calque_1.png" alt="Calque" />
                   </div>
                   <div class="featured_item-main">
                     <h3 class="featured_item-header">FREE DELIVERY</h3>
@@ -137,7 +137,7 @@ export default defineComponent({
                 </div>
                 <div class="featured_item-inner">
                   <div class="featured_item-img">
-                    <img src="../assets/images/Layer_1.png" alt="Calque" />
+                    <img src="assets/images/Layer_1.png" alt="Calque" />
                   </div>
                   <div class="featured_item-main">
                     <h3 class="featured_item-header">RECYCLE CAPSULES</h3>
@@ -206,7 +206,7 @@ export default defineComponent({
                 </div>
                 <div class="featured_item-inner">
                   <div class="featured_item-img">
-                    <img src="../assets/images/Frame.png" alt="Calque" />
+                    <img src="assets/images/Frame.png" alt="Calque" />
                   </div>
                   <div class="featured_item-main">
                     <h3 class="featured_item-header">EXCLUSIVE BENEFITS</h3>
@@ -278,7 +278,7 @@ export default defineComponent({
                 </div>
                 <div class="moreInfo_item-img">
                   <img
-                    src="../assets/images/Rectangle_2.png"
+                    src="assets/images/Rectangle_2.png"
                     alt="moreInfo_item"
                     width="100%"
                   />
@@ -297,7 +297,7 @@ export default defineComponent({
                 </div>
                 <div class="moreInfo_item-img">
                   <img
-                    src="../assets/images/Rectangle_1.png"
+                    src="assets/images/Rectangle_1.png"
                     alt="moreInfo_item"
                     width="100%"
                   />
@@ -306,7 +306,7 @@ export default defineComponent({
             </div>
           </section>
 
-          <!-- LIST PRODUCT  -->
+          <!-- PRODUCT  -->
           <section id="product" class="product">
             <h2 class="product_heading">DISCOVER THE NESPRESSO PRODUCTS</h2>
             <div class="container product_list">
@@ -314,7 +314,7 @@ export default defineComponent({
                 <h3 class="product_item-heading">INISSIA</h3>
                 <div class="product_item-img">
                   <img
-                    src="../assets/images/img-product_1.png"
+                    src="assets/images/img-product_1.png"
                     alt="product"
                     width="160"
                     height="160"
@@ -348,7 +348,7 @@ export default defineComponent({
                 </h3>
                 <div class="product_item-img">
                   <img
-                    src="../assets/images/img-product_2.png"
+                    src="assets/images/img-product_2.png"
                     alt="product"
                     width="160"
                     height="160"
@@ -380,7 +380,7 @@ export default defineComponent({
                 <h3 class="product_item-heading">Napoli</h3>
                 <div class="product_item-img">
                   <img
-                    src="../assets/images/img-product_3.png"
+                    src="assets/images/img-product_3.png"
                     alt="product"
                     width="160"
                     height="160"
@@ -414,7 +414,7 @@ export default defineComponent({
                 </h3>
                 <div class="product_item-img">
                   <img
-                    src="../assets/images/img-product_4.png"
+                    src="assets/images/img-product_4.png"
                     alt="product"
                     width="160"
                     height="160"
@@ -451,7 +451,7 @@ export default defineComponent({
                 </h3>
                 <div class="product_item-img">
                   <img
-                    src="../assets/images/img-product_5.png"
+                    src="assets/images/img-product_5.png"
                     alt="product"
                     width="160"
                     height="160"
@@ -488,7 +488,7 @@ export default defineComponent({
                 </h3>
                 <div class="product_item-img">
                   <img
-                    src="../assets/images/img-product_6.png"
+                    src="assets/images/img-product_6.png"
                     alt="product"
                     width="160"
                     height="160"
@@ -517,7 +517,7 @@ export default defineComponent({
                 <span class="product_item-ticket">PROMOTE</span>
               </div>
             </div>
-            <!-- <div class="product_seemore"><span>SEE MORE</span></div> -->
+            <div class="product_seemore"><span>SEE MORE</span></div>
           </section>
 
           <!-- MORE INFO  -->
@@ -539,7 +539,7 @@ export default defineComponent({
                 </div>
                 <div class="moreInfo_item-img">
                   <img
-                    src="../assets/images/Rectangle_5.png"
+                    src="assets/images/Rectangle_5.png"
                     alt="moreInfo_item"
                     width="100%"
                   />
@@ -558,7 +558,7 @@ export default defineComponent({
                 </div>
                 <div class="moreInfo_item-img">
                   <img
-                    src="../assets/images/Rectangle_3.png"
+                    src="assets/images/Rectangle_3.png"
                     alt="moreInfo_item"
                     width="100%"
                   />
@@ -580,7 +580,7 @@ export default defineComponent({
                 </div>
                 <div class="moreInfo_item-img">
                   <img
-                    src="../assets/images/Rectangle_4.png"
+                    src="assets/images/Rectangle_4.png"
                     alt="moreInfo_item"
                     width="100%"
                   />
@@ -589,7 +589,7 @@ export default defineComponent({
             </div>
           </section>
 
-          <!-- LIST PRODUCT  -->
+          <!-- PRODUCT  -->
           <section id="product" class="product">
             <h2 class="product_heading">Recomment for you you</h2>
             <div class="container product_list">
@@ -597,7 +597,7 @@ export default defineComponent({
                 <h3 class="product_item-heading">INISSIA</h3>
                 <div class="product_item-img">
                   <img
-                    src="../assets/images/img-product_1.png"
+                    src="assets/images/img-product_1.png"
                     alt="product"
                     width="160"
                     height="160"
@@ -631,7 +631,7 @@ export default defineComponent({
                 </h3>
                 <div class="product_item-img">
                   <img
-                    src="../assets/images/img-product_2.png"
+                    src="assets/images/img-product_2.png"
                     alt="product"
                     width="160"
                     height="160"
@@ -663,7 +663,7 @@ export default defineComponent({
                 <h3 class="product_item-heading">Napoli</h3>
                 <div class="product_item-img">
                   <img
-                    src="../assets/images/img-product_3.png"
+                    src="assets/images/img-product_3.png"
                     alt="product"
                     width="160"
                     height="160"
@@ -697,7 +697,7 @@ export default defineComponent({
                 </h3>
                 <div class="product_item-img">
                   <img
-                    src="../assets/images/img-product_4.png"
+                    src="assets/images/img-product_4.png"
                     alt="product"
                     width="160"
                     height="160"
@@ -734,7 +734,7 @@ export default defineComponent({
                 </h3>
                 <div class="product_item-img">
                   <img
-                    src="../assets/images/img-product_5.png"
+                    src="assets/images/img-product_5.png"
                     alt="product"
                     width="160"
                     height="160"
@@ -771,7 +771,7 @@ export default defineComponent({
                 </h3>
                 <div class="product_item-img">
                   <img
-                    src="../assets/images/img-product_6.png"
+                    src="assets/images/img-product_6.png"
                     alt="product"
                     width="160"
                     height="160"
@@ -800,7 +800,7 @@ export default defineComponent({
                 <span class="product_item-ticket">PROMOTE</span>
               </div>
             </div>
-            <!-- <div class="product_seemore"><span>SEE MORE</span></div> -->
+            <div class="product_seemore"><span>SEE MORE</span></div>
           </section>
         </main>
       </main>
