@@ -1,8 +1,10 @@
 <script lang="ts">
 import "../css/pages/index.css";
+import { data_product } from "@/utils/data_product";
 import Header from "@/containers/Header.vue";
 import NavigationComponent from "@/containers/Nav.vue";
 import Footer from "@/containers/Footer.vue";
+import ProductItem from "@/components/product_item.vue";
 import { defineComponent } from "vue";
 
 export default defineComponent({
@@ -11,6 +13,12 @@ export default defineComponent({
     Header,
     NavigationComponent,
     Footer,
+    ProductItem,
+  },
+  data() {
+    return {
+      data_product: data_product,
+    };
   },
 });
 </script>
@@ -26,8 +34,7 @@ export default defineComponent({
           <img
             src="assets/images/banner-1.png"
             alt="banner"
-            width="100%"
-            height="100%"
+            style="width: '100%'; height: '100%'"
           />
         </section>
 
@@ -310,212 +317,7 @@ export default defineComponent({
           <section id="product" class="product">
             <h2 class="product_heading">DISCOVER THE NESPRESSO PRODUCTS</h2>
             <div class="container product_list">
-              <div class="product_item">
-                <h3 class="product_item-heading">INISSIA</h3>
-                <div class="product_item-img">
-                  <img
-                    src="assets/images/img-product_1.png"
-                    alt="product"
-                    width="160"
-                    height="160"
-                  />
-                </div>
-                <div class="product_item-price"><span>đ4,200,000</span></div>
-                <div class="product_item-btn">
-                  <button>
-                    <svg
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        fill-rule="evenodd"
-                        clip-rule="evenodd"
-                        d="M8 3.75C8 1.67889 9.67889 0 11.75 0C13.8211 0 15.5 1.67889 15.5 3.75V6H20.75L21.5 24H2L2.75 6H8V3.75ZM8.75 6H14.75V3.75C14.75 2.09317 13.4068 0.75 11.75 0.75C10.0932 0.75 8.75 2.09317 8.75 3.75V6Z"
-                        fill="white"
-                      />
-                    </svg>
-                    <span> ADD TO BASKET </span>
-                  </button>
-                </div>
-                <span class="product_item-ticket">PROMOTE</span>
-              </div>
-              <div class="product_item">
-                <h3 class="product_item-heading">
-                  Ispirazione Italiana Selection
-                </h3>
-                <div class="product_item-img">
-                  <img
-                    src="assets/images/img-product_2.png"
-                    alt="product"
-                    width="160"
-                    height="160"
-                  />
-                </div>
-                <div class="product_item-price"><span>đ1,658,000</span></div>
-                <div class="product_item-btn">
-                  <button>
-                    <svg
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        fill-rule="evenodd"
-                        clip-rule="evenodd"
-                        d="M8 3.75C8 1.67889 9.67889 0 11.75 0C13.8211 0 15.5 1.67889 15.5 3.75V6H20.75L21.5 24H2L2.75 6H8V3.75ZM8.75 6H14.75V3.75C14.75 2.09317 13.4068 0.75 11.75 0.75C10.0932 0.75 8.75 2.09317 8.75 3.75V6Z"
-                        fill="white"
-                      />
-                    </svg>
-                    <span> ADD TO BASKET </span>
-                  </button>
-                </div>
-                <span class="product_item-ticket">PROMOTE</span>
-              </div>
-              <div class="product_item">
-                <h3 class="product_item-heading">Napoli</h3>
-                <div class="product_item-img">
-                  <img
-                    src="assets/images/img-product_3.png"
-                    alt="product"
-                    width="160"
-                    height="160"
-                  />
-                </div>
-                <div class="product_item-price"><span>đ15,000</span></div>
-                <div class="product_item-btn">
-                  <button>
-                    <svg
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        fill-rule="evenodd"
-                        clip-rule="evenodd"
-                        d="M8 3.75C8 1.67889 9.67889 0 11.75 0C13.8211 0 15.5 1.67889 15.5 3.75V6H20.75L21.5 24H2L2.75 6H8V3.75ZM8.75 6H14.75V3.75C14.75 2.09317 13.4068 0.75 11.75 0.75C10.0932 0.75 8.75 2.09317 8.75 3.75V6Z"
-                        fill="white"
-                      />
-                    </svg>
-                    <span> ADD TO BASKET </span>
-                  </button>
-                </div>
-                <span class="product_item-ticket">LIMITED</span>
-              </div>
-              <div class="product_item">
-                <h3 class="product_item-heading">
-                  Essenza Mini Black & Aeroccino 3
-                </h3>
-                <div class="product_item-img">
-                  <img
-                    src="assets/images/img-product_4.png"
-                    alt="product"
-                    width="160"
-                    height="160"
-                  />
-                </div>
-                <div class="product_item-price">
-                  <span>đ6,670,000 </span>
-                  <label> đ6,300,000</label>
-                </div>
-                <div class="product_item-btn">
-                  <button>
-                    <svg
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        fill-rule="evenodd"
-                        clip-rule="evenodd"
-                        d="M8 3.75C8 1.67889 9.67889 0 11.75 0C13.8211 0 15.5 1.67889 15.5 3.75V6H20.75L21.5 24H2L2.75 6H8V3.75ZM8.75 6H14.75V3.75C14.75 2.09317 13.4068 0.75 11.75 0.75C10.0932 0.75 8.75 2.09317 8.75 3.75V6Z"
-                        fill="white"
-                      />
-                    </svg>
-                    <span> ADD TO BASKET </span>
-                  </button>
-                </div>
-                <span class="product_item-ticket">ONLINE EXCLUSIVE</span>
-              </div>
-              <div class="product_item">
-                <h3 class="product_item-heading">
-                  Essenza Mini Red & Aeroccino 3
-                </h3>
-                <div class="product_item-img">
-                  <img
-                    src="assets/images/img-product_5.png"
-                    alt="product"
-                    width="160"
-                    height="160"
-                  />
-                </div>
-                <div class="product_item-price">
-                  <span>đ6,670,000 </span>
-                  <label> đ6,300,000</label>
-                </div>
-                <div class="product_item-btn">
-                  <button>
-                    <svg
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        fill-rule="evenodd"
-                        clip-rule="evenodd"
-                        d="M8 3.75C8 1.67889 9.67889 0 11.75 0C13.8211 0 15.5 1.67889 15.5 3.75V6H20.75L21.5 24H2L2.75 6H8V3.75ZM8.75 6H14.75V3.75C14.75 2.09317 13.4068 0.75 11.75 0.75C10.0932 0.75 8.75 2.09317 8.75 3.75V6Z"
-                        fill="white"
-                      />
-                    </svg>
-                    <span> ADD TO BASKET </span>
-                  </button>
-                </div>
-                <span class="product_item-ticket">LIMITED</span>
-              </div>
-              <div class="product_item">
-                <h3 class="product_item-heading">
-                  Ispirazione Italiana Intense Selection
-                </h3>
-                <div class="product_item-img">
-                  <img
-                    src="assets/images/img-product_6.png"
-                    alt="product"
-                    width="160"
-                    height="160"
-                  />
-                </div>
-                <div class="product_item-price"><span>đ6,670,000 </span></div>
-                <div class="product_item-btn">
-                  <button>
-                    <svg
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        fill-rule="evenodd"
-                        clip-rule="evenodd"
-                        d="M8 3.75C8 1.67889 9.67889 0 11.75 0C13.8211 0 15.5 1.67889 15.5 3.75V6H20.75L21.5 24H2L2.75 6H8V3.75ZM8.75 6H14.75V3.75C14.75 2.09317 13.4068 0.75 11.75 0.75C10.0932 0.75 8.75 2.09317 8.75 3.75V6Z"
-                        fill="white"
-                      />
-                    </svg>
-                    <span> ADD TO BASKET </span>
-                  </button>
-                </div>
-                <span class="product_item-ticket">PROMOTE</span>
-              </div>
+              <ProductItem v-bind:data="data_product" />
             </div>
             <div class="product_seemore"><span>SEE MORE</span></div>
           </section>
@@ -593,212 +395,7 @@ export default defineComponent({
           <section id="product" class="product">
             <h2 class="product_heading">Recomment for you you</h2>
             <div class="container product_list">
-              <div class="product_item">
-                <h3 class="product_item-heading">INISSIA</h3>
-                <div class="product_item-img">
-                  <img
-                    src="assets/images/img-product_1.png"
-                    alt="product"
-                    width="160"
-                    height="160"
-                  />
-                </div>
-                <div class="product_item-price"><span>đ4,200,000</span></div>
-                <div class="product_item-btn">
-                  <button>
-                    <svg
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        fill-rule="evenodd"
-                        clip-rule="evenodd"
-                        d="M8 3.75C8 1.67889 9.67889 0 11.75 0C13.8211 0 15.5 1.67889 15.5 3.75V6H20.75L21.5 24H2L2.75 6H8V3.75ZM8.75 6H14.75V3.75C14.75 2.09317 13.4068 0.75 11.75 0.75C10.0932 0.75 8.75 2.09317 8.75 3.75V6Z"
-                        fill="white"
-                      />
-                    </svg>
-                    <span> ADD TO BASKET </span>
-                  </button>
-                </div>
-                <span class="product_item-ticket">PROMOTE</span>
-              </div>
-              <div class="product_item">
-                <h3 class="product_item-heading">
-                  Ispirazione Italiana Selection
-                </h3>
-                <div class="product_item-img">
-                  <img
-                    src="assets/images/img-product_2.png"
-                    alt="product"
-                    width="160"
-                    height="160"
-                  />
-                </div>
-                <div class="product_item-price"><span>đ1,658,000</span></div>
-                <div class="product_item-btn">
-                  <button>
-                    <svg
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        fill-rule="evenodd"
-                        clip-rule="evenodd"
-                        d="M8 3.75C8 1.67889 9.67889 0 11.75 0C13.8211 0 15.5 1.67889 15.5 3.75V6H20.75L21.5 24H2L2.75 6H8V3.75ZM8.75 6H14.75V3.75C14.75 2.09317 13.4068 0.75 11.75 0.75C10.0932 0.75 8.75 2.09317 8.75 3.75V6Z"
-                        fill="white"
-                      />
-                    </svg>
-                    <span> ADD TO BASKET </span>
-                  </button>
-                </div>
-                <span class="product_item-ticket">PROMOTE</span>
-              </div>
-              <div class="product_item">
-                <h3 class="product_item-heading">Napoli</h3>
-                <div class="product_item-img">
-                  <img
-                    src="assets/images/img-product_3.png"
-                    alt="product"
-                    width="160"
-                    height="160"
-                  />
-                </div>
-                <div class="product_item-price"><span>đ15,000</span></div>
-                <div class="product_item-btn">
-                  <button>
-                    <svg
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        fill-rule="evenodd"
-                        clip-rule="evenodd"
-                        d="M8 3.75C8 1.67889 9.67889 0 11.75 0C13.8211 0 15.5 1.67889 15.5 3.75V6H20.75L21.5 24H2L2.75 6H8V3.75ZM8.75 6H14.75V3.75C14.75 2.09317 13.4068 0.75 11.75 0.75C10.0932 0.75 8.75 2.09317 8.75 3.75V6Z"
-                        fill="white"
-                      />
-                    </svg>
-                    <span> ADD TO BASKET </span>
-                  </button>
-                </div>
-                <span class="product_item-ticket">LIMITED</span>
-              </div>
-              <div class="product_item">
-                <h3 class="product_item-heading">
-                  Essenza Mini Black & Aeroccino 3
-                </h3>
-                <div class="product_item-img">
-                  <img
-                    src="assets/images/img-product_4.png"
-                    alt="product"
-                    width="160"
-                    height="160"
-                  />
-                </div>
-                <div class="product_item-price">
-                  <span>đ6,670,000 </span>
-                  <label> đ6,300,000</label>
-                </div>
-                <div class="product_item-btn">
-                  <button>
-                    <svg
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        fill-rule="evenodd"
-                        clip-rule="evenodd"
-                        d="M8 3.75C8 1.67889 9.67889 0 11.75 0C13.8211 0 15.5 1.67889 15.5 3.75V6H20.75L21.5 24H2L2.75 6H8V3.75ZM8.75 6H14.75V3.75C14.75 2.09317 13.4068 0.75 11.75 0.75C10.0932 0.75 8.75 2.09317 8.75 3.75V6Z"
-                        fill="white"
-                      />
-                    </svg>
-                    <span> ADD TO BASKET </span>
-                  </button>
-                </div>
-                <span class="product_item-ticket">ONLINE EXCLUSIVE</span>
-              </div>
-              <div class="product_item">
-                <h3 class="product_item-heading">
-                  Essenza Mini Red & Aeroccino 3
-                </h3>
-                <div class="product_item-img">
-                  <img
-                    src="assets/images/img-product_5.png"
-                    alt="product"
-                    width="160"
-                    height="160"
-                  />
-                </div>
-                <div class="product_item-price">
-                  <span>đ6,670,000 </span>
-                  <label> đ6,300,000</label>
-                </div>
-                <div class="product_item-btn">
-                  <button>
-                    <svg
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        fill-rule="evenodd"
-                        clip-rule="evenodd"
-                        d="M8 3.75C8 1.67889 9.67889 0 11.75 0C13.8211 0 15.5 1.67889 15.5 3.75V6H20.75L21.5 24H2L2.75 6H8V3.75ZM8.75 6H14.75V3.75C14.75 2.09317 13.4068 0.75 11.75 0.75C10.0932 0.75 8.75 2.09317 8.75 3.75V6Z"
-                        fill="white"
-                      />
-                    </svg>
-                    <span> ADD TO BASKET </span>
-                  </button>
-                </div>
-                <span class="product_item-ticket">LIMITED</span>
-              </div>
-              <div class="product_item">
-                <h3 class="product_item-heading">
-                  Ispirazione Italiana Intense Selection
-                </h3>
-                <div class="product_item-img">
-                  <img
-                    src="assets/images/img-product_6.png"
-                    alt="product"
-                    width="160"
-                    height="160"
-                  />
-                </div>
-                <div class="product_item-price"><span>đ6,670,000 </span></div>
-                <div class="product_item-btn">
-                  <button>
-                    <svg
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        fill-rule="evenodd"
-                        clip-rule="evenodd"
-                        d="M8 3.75C8 1.67889 9.67889 0 11.75 0C13.8211 0 15.5 1.67889 15.5 3.75V6H20.75L21.5 24H2L2.75 6H8V3.75ZM8.75 6H14.75V3.75C14.75 2.09317 13.4068 0.75 11.75 0.75C10.0932 0.75 8.75 2.09317 8.75 3.75V6Z"
-                        fill="white"
-                      />
-                    </svg>
-                    <span> ADD TO BASKET </span>
-                  </button>
-                </div>
-                <span class="product_item-ticket">PROMOTE</span>
-              </div>
+              <ProductItem v-bind:data="data_product" />
             </div>
             <div class="product_seemore"><span>SEE MORE</span></div>
           </section>

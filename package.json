@@ -5,7 +5,9 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
   },
   "dependencies": {
     "core-js": "^3.8.3",
@@ -18,17 +20,30 @@
   "devDependencies": {
     "@babel/core": "^7.12.16",
     "@babel/eslint-parser": "^7.12.16",
+    "@storybook/addon-essentials": "7.0.26",
+    "@storybook/addon-interactions": "7.0.26",
+    "@storybook/addon-links": "7.0.26",
+    "@storybook/blocks": "7.0.26",
+    "@storybook/testing-library": "0.0.14-next.2",
+    "@storybook/vue3": "7.0.26",
+    "@storybook/vue3-webpack5": "7.0.26",
     "@typescript-eslint/eslint-plugin": "^5.4.0",
     "@typescript-eslint/parser": "^5.4.0",
     "@vue/cli-plugin-babel": "~5.0.0",
     "@vue/cli-plugin-eslint": "~5.0.0",
     "@vue/cli-plugin-typescript": "~5.0.0",
     "@vue/cli-service": "~5.0.0",
+    "@vue/compiler-sfc": "3.3.4",
     "@vue/eslint-config-typescript": "^9.1.0",
     "eslint": "^7.32.0",
+    "eslint-plugin-storybook": "^0.6.12",
     "eslint-plugin-vue": "^8.0.3",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
     "sass": "^1.63.6",
     "sass-loader": "^13.3.2",
-    "typescript": "^5.1.6"
+    "storybook": "7.0.26",
+    "typescript": "^5.1.6",
+    "vue-loader": "17.2.2"
   }
 }
