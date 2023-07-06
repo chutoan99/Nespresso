@@ -1,7 +1,7 @@
 <script lang="ts">
 import "../css/pages/coffee.css";
 import Header from "@/containers/Header.vue";
-import Nav from "@/containers/Nav.vue";
+import NavigationComponent from "@/containers/Nav.vue";
 import Footer from "@/containers/Footer.vue";
 import { defineComponent } from "vue";
 
@@ -9,7 +9,7 @@ export default defineComponent({
   name: "CoffeePage",
   components: {
     Header,
-    Nav,
+    NavigationComponent,
     Footer,
   },
 });
@@ -118,7 +118,7 @@ export default defineComponent({
   <div class="wrapper">
     <div class="wrapper-innner">
       <Header />
-      <Nav />
+      <NavigationComponent />
       <div id="coffee">
         <section id="hero">
           <div class="hero-container">

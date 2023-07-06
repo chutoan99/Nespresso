@@ -1,7 +1,7 @@
 <script lang="ts">
 import "../css/pages/coffee_orgiginal.css";
 import Header from "@/containers/Header.vue";
-import Nav from "@/containers/Nav.vue";
+import NavigationComponent from "@/containers/Nav.vue";
 import Footer from "@/containers/Footer.vue";
 import { defineComponent } from "vue";
 
@@ -9,7 +9,7 @@ export default defineComponent({
   name: "CoffeeOriginalPage",
   components: {
     Header,
-    Nav,
+    NavigationComponent,
     Footer,
   },
   // const links = [...document.querySelectorAll(".tab-menu")];
@@ -77,7 +77,7 @@ export default defineComponent({
   <div class="wrapper">
     <div class="wrapper-innner">
       <Header />
-      <Nav />
+      <NavigationComponent />
       <main id="coffee_original">
         <section class="banner background-1">
           <div class="banner__context">

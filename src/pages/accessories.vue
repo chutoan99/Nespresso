@@ -1,7 +1,7 @@
 <script lang="ts">
 import "../css/pages/accessories.css";
 import Header from "@/containers/Header.vue";
-import Nav from "@/containers/Nav.vue";
+import NavigationComponent from "@/containers/Nav.vue";
 import Footer from "@/containers/Footer.vue";
 import { defineComponent } from "vue";
 
@@ -9,7 +9,7 @@ export default defineComponent({
   name: "AccessoriesPage",
   components: {
     Header,
-    Nav,
+    NavigationComponent,
     Footer,
   },
   //Modal Filter
@@ -35,7 +35,7 @@ export default defineComponent({
       <!-- start header -->
       <Header />
       <!-- end header -->
-      <Nav />
+      <NavigationComponent />
       <!-- end nav -->
 
       <main id="accessories">

@@ -1,7 +1,7 @@
 <script lang="ts">
 import "../css/pages/faq.css";
 import Header from "@/containers/Header.vue";
-import Nav from "@/containers/Nav.vue";
+import NavigationComponent from "@/containers/Nav.vue";
 import Footer from "@/containers/Footer.vue";
 import { defineComponent } from "vue";
 
@@ -9,7 +9,7 @@ export default defineComponent({
   name: "FaqPage",
   components: {
     Header,
-    Nav,
+    NavigationComponent,
     Footer,
   },
   // Add other properties, methods, etc.
@@ -20,7 +20,7 @@ export default defineComponent({
   <div class="wrapper">
     <div class="wrapper-innner">
       <Header />
-      <Nav />
+      <NavigationComponent />
       <main id="faq">
         <div class="customer-services-faq">
           <div class="customer-services-input">

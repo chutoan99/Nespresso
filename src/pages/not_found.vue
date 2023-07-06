@@ -1,7 +1,7 @@
 <script lang="ts">
 import "../css/pages/not_found.css";
 import Header from "@/containers/Header.vue";
-import Nav from "@/containers/Nav.vue";
+import NavigationComponent from "@/containers/Nav.vue";
 import Footer from "@/containers/Footer.vue";
 
 import { defineComponent } from "vue";
@@ -9,7 +9,7 @@ export default defineComponent({
   name: "NotFound2Page",
   components: {
     Header,
-    Nav,
+    NavigationComponent,
     Footer,
   },
   // Add other properties, methods, etc.
@@ -21,7 +21,7 @@ export default defineComponent({
     <div class="wrapper-innner">
       <Header />
       <!-- Header -->
-      <Nav />
+      <NavigationComponent />
       <!-- Navigation -->
 
       <main id="pageNotFound">

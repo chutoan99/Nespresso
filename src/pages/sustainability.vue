@@ -1,7 +1,7 @@
 <script lang="ts">
 import "../css/pages/sustainability.css";
 import Header from "@/containers/Header.vue";
-import Nav from "@/containers/Nav.vue";
+import NavigationComponent from "@/containers/Nav.vue";
 import Footer from "@/containers/Footer.vue";
 import { defineComponent } from "vue";
 
@@ -9,7 +9,7 @@ export default defineComponent({
   name: "SustainabilityPage",
   components: {
     Header,
-    Nav,
+    NavigationComponent,
     Footer,
   },
 });
@@ -19,7 +19,7 @@ export default defineComponent({
   <div class="wrapper">
     <div class="wrapper-innner">
       <Header />
-      <Nav />
+      <NavigationComponent />
       <section id="tabs">
         <div class="tabs">
           <router-link to="/sustainability_recycling" class="tabs_heading"

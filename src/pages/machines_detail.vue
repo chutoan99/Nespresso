@@ -1,7 +1,7 @@
 <script lang="ts">
 import "../css/pages/machines_detail.css";
 import Header from "@/containers/Header.vue";
-import Nav from "@/containers/Nav.vue";
+import NavigationComponent from "@/containers/Nav.vue";
 import Footer from "@/containers/Footer.vue";
 import { defineComponent } from "vue";
 
@@ -9,7 +9,7 @@ export default defineComponent({
   name: "MachinesDetailPage",
   components: {
     Header,
-    Nav,
+    NavigationComponent,
     Footer,
   },
 
@@ -63,7 +63,7 @@ export default defineComponent({
       <!-- start header -->
       <Header />
       <!-- end header -->
-      <Nav />
+      <NavigationComponent />
       <!-- end nav -->
 
       <main id="machines-detail">

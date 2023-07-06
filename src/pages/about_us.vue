@@ -1,7 +1,7 @@
 <script lang="ts">
 import "../css/pages/about_us.css";
 import Header from "@/containers/Header.vue";
-import Nav from "@/containers/Nav.vue";
+import NavigationComponent from "@/containers/Nav.vue";
 import Footer from "@/containers/Footer.vue";
 import { defineComponent } from "vue";
 
@@ -9,7 +9,7 @@ export default defineComponent({
   name: "AboutUsPage",
   components: {
     Header,
-    Nav,
+    NavigationComponent,
     Footer,
   },
   mounted() {
@@ -32,7 +32,7 @@ export default defineComponent({
   <div class="wrapper">
     <div class="wrapper-innner">
       <Header />
-      <Nav />
+      <NavigationComponent />
       <main id="about_us">
         <section class="product-nav">
           <ul class="menu-list">

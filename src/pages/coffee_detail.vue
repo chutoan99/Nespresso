@@ -1,7 +1,7 @@
 <script lang="ts">
 import "../css/pages/coffee_detail.css";
 import Header from "@/containers/Header.vue";
-import Nav from "@/containers/Nav.vue";
+import NavigationComponent from "@/containers/Nav.vue";
 import Footer from "@/containers/Footer.vue";
 import { defineComponent } from "vue";
 
@@ -9,7 +9,7 @@ export default defineComponent({
   name: "CoffeeDetailPage",
   components: {
     Header,
-    Nav,
+    NavigationComponent,
     Footer,
   },
   //   const image = document.querySelectorAll(".product-slide__image");
@@ -32,7 +32,7 @@ export default defineComponent({
   <div class="wrapper">
     <div class="wrapper-innner">
       <Header />
-      <Nav />
+      <NavigationComponent />
 
       <main id="coffee-detail">
         <div class="product-detail">

@@ -1,7 +1,7 @@
 <script lang="ts">
 import "../css/pages/machines.css";
 import Header from "@/containers/Header.vue";
-import Nav from "@/containers/Nav.vue";
+import NavigationComponent from "@/containers/Nav.vue";
 import Footer from "@/containers/Footer.vue";
 import { defineComponent } from "vue";
 
@@ -9,7 +9,7 @@ export default defineComponent({
   name: "MachinesPage",
   components: {
     Header,
-    Nav,
+    NavigationComponent,
     Footer,
   },
   // //Modal Filter
@@ -87,7 +87,7 @@ export default defineComponent({
   <div class="wrapper">
     <div class="wrapper-innner">
       <Header />
-      <Nav />
+      <NavigationComponent />
       <main id="machines">
         <section class="hero">
           <p class="banner__title">ORIGINAL COFFEE MACHINES</p>

@@ -1,7 +1,7 @@
 <script lang="ts">
 import "../css/pages/contact_us.css";
 import Header from "@/containers/Header.vue";
-import Nav from "@/containers/Nav.vue";
+import NavigationComponent from "@/containers/Nav.vue";
 import Footer from "@/containers/Footer.vue";
 import { defineComponent } from "vue";
 
@@ -9,7 +9,7 @@ export default defineComponent({
   name: "ContactUsPage",
   components: {
     Header,
-    Nav,
+    NavigationComponent,
     Footer,
   },
 });
@@ -25,7 +25,7 @@ export default defineComponent({
         </h2>
       </div>
       <Header />
-      <Nav />
+      <NavigationComponent />
       <main id="contact_us">
         <section class="tagLine-event">
           <svg
