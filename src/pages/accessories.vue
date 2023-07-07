@@ -12,20 +12,16 @@ export default defineComponent({
     NavigationComponent,
     Footer,
   },
-  //Modal Filter
-  // $(document).ready(function () {
-  //   $("#filterButton").click(function () {
-  //     var expanded = $(this).attr("aria-expanded");
-  //     if (expanded === "false") {
-  //       $(this).attr("aria-expanded", "true");
-  //       // $("#modal").show();
-  //       $("#modal").css("display", "flex");
-  //     } else {
-  //       $(this).attr("aria-expanded", "false");
-  //       $("#modal").hide();
-  //     }
-  //   });
-  // });
+  data() {
+    return {
+      isExpanded: false,
+    };
+  },
+  methods: {
+    toggleModal() {
+      this.isExpanded = !this.isExpanded;
+    },
+  },
 });
 </script>
 
@@ -60,13 +56,18 @@ export default defineComponent({
               <button
                 id="filterButton"
                 class="filter-sublabel"
-                aria-expanded="false"
+                @click="toggleModal"
+                :aria-expanded="isExpanded ? 'true' : 'false'"
               >
                 Filter
               </button>
             </div>
 
-            <div id="modal" class="filter-list">
+            <div
+              id="modal"
+              class="filter-list"
+              :style="{ display: isExpanded ? 'none' : 'block' }"
+            >
               <div class="filter-content">
                 <label for="collection-select" class="filter-label">TYPE</label>
                 <div class="filter-item">

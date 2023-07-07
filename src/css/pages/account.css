@@ -9,6 +9,9 @@ body {
 html {
   scroll-behavior: smooth; }
 
+a {
+  text-decoration: none !important; }
+
 .wrapper {
   width: 100%; }
   .wrapper-inner {

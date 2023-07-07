@@ -12,19 +12,22 @@ export default defineComponent({
     NavigationComponent,
     Footer,
   },
-  //   const image = document.querySelectorAll(".product-slide__image");
-  // //image
-  // if (image.length) {
-  //   image.forEach((link) => {
-  //     link.addEventListener("click", (e) => {
-  //       image.forEach((link) => {
-  //         link.classList.remove("active");
-  //       });
-  //       e.preventDefault();
-  //       link.classList.add("active");
-  //     });
-  //   });
-  // }
+  data() {
+    return {
+      images: [
+        { src: "assets/images/product_detail/product-detail-2.png", alt: "" },
+        { src: "assets/images/product_detail/product-detail-2.png", alt: "" },
+        { src: "assets/images/product_detail/product-detail-2.png", alt: "" },
+        { src: "assets/images/product_detail/product-detail-2.png", alt: "" },
+      ],
+      activeIndex: 0,
+    };
+  },
+  methods: {
+    handleImageClick(index: number): void {
+      this.activeIndex = index;
+    },
+  },
 });
 </script>
 
@@ -50,31 +53,16 @@ export default defineComponent({
                 </div>
 
                 <div class="product-slide">
-                  <div class="product-slide__image active">
-                    <img
-                      src="assets/images/product_detail/product-detail-2.png"
-                      alt=""
-                    />
-                  </div>
-
-                  <div class="product-slide__image">
-                    <img
-                      src="assets/images/product_detail/product-detail-2.png"
-                      alt=""
-                    />
-                  </div>
-
-                  <div class="product-slide__image">
-                    <img
-                      src="assets/images/product_detail/product-detail-2.png"
-                      alt=""
-                    />
-                  </div>
-                  <div class="product-slide__image">
-                    <img
-                      src="assets/images/product_detail/product-detail-2.png"
-                      alt=""
-                    />
+                  <div
+                    v-for="(image, index) in images"
+                    :key="index"
+                    :class="[
+                      'product-slide__image',
+                      { active: index === activeIndex },
+                    ]"
+                    @click="handleImageClick(index)"
+                  >
+                    <img :src="image.src" :alt="image.alt" />
                   </div>
                 </div>
               </div>

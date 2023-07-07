@@ -12,56 +12,45 @@ export default defineComponent({
     NavigationComponent,
     Footer,
   },
+  data() {
+    return {
+      isModalOpen: false,
+      isDropdownOpen: false,
+      isSortListOpen: false,
+    };
+  },
+  mounted() {
+    window.addEventListener("click", this.handleOutsideClick);
+  },
+  methods: {
+    openModal() {
+      this.isModalOpen = true;
+    },
+    closeModal() {
+      this.isModalOpen = false;
+    },
+    toggleDropdown() {
+      this.isDropdownOpen = !this.isDropdownOpen;
+    },
+    toggleSortList() {
+      this.isSortListOpen = !this.isSortListOpen;
+    },
+
+    handleOutsideClick(event: any) {
+      const modal = document.querySelector(".js-modal");
+      const clickDrop = document.querySelector(".filter-container");
+      const dropdownList = document.querySelector(".filter-dropdown__listbox");
+
+      if (modal && event.target === modal) {
+        this.closeModal();
+      }
+
+      if (clickDrop && dropdownList && !clickDrop.contains(event.target)) {
+        this.isDropdownOpen = false;
+      }
+    },
+  },
 });
-
-//     //Modal
-//     const modal = document.querySelector(".js-modal");
-//     const filterBtn = document.querySelector(".filter-left");
-//     const modalClose = document.querySelector(".js-modal-close");
-//     const mobileClose = document.querySelector(".js-mobile-close");
-
-//     //Modal
-//     filterBtn.addEventListener("click", function () {
-//       modal.classList.add("open-modal");
-//     });
-
-//     //Close Modal
-//     modalClose.addEventListener("click", function () {
-//       modal.classList.remove("open-modal");
-//     });
-
-//     // Close Modal Mobile
-//     mobileClose.addEventListener("click", function () {
-//       modal.classList.remove("open-modal");
-//     });
-
-//     //Dropdown
-//     const clickDrop = document.querySelector(".filter-container");
-//     const dropdownList = document.querySelector(".filter-dropdown__listbox");
-
-//     //Dropdown
-//     clickDrop.addEventListener("click", function () {
-//       dropdownList.classList.toggle("is-open");
-//       clickDrop.classList.toggle("is-open");
-//     });
-
-//     //Close Dropdown and Modal when click outside
-//     window.onclick = function (event) {
-//       if (event.target == modal) {
-//         modal.classList.remove("open-modal");
-//       }
-//       if (!clickDrop.contains(event.target)) {
-//         dropdownList.classList.remove("is-open");
-//         clickDrop.classList.remove("is-open");
-//       }
-//     };
-
-//     //Sort
-//     const btnSort = document.querySelector(".btn-sort");
-//     const sortList = document.querySelector(".modal-mobile__sort");
-//     btnSort.addEventListener("click", function () {
-//       sortList.classList.toggle("is-open");
-//     });
 
 //   function initializeSlider() {
 //   $(".category-list").slick({
@@ -128,7 +117,7 @@ export default defineComponent({
             </div>
 
             <div class="filter-bar">
-              <div class="filter-left">
+              <div class="filter-left" @click="openModal">
                 <img class="filter-img" src="assets/svgs/Filter.svg" alt="" />
                 <p class="filter-desc">FILTER</p>
               </div>
@@ -139,7 +128,7 @@ export default defineComponent({
               </div> -->
 
               <div class="filter-right">
-                <div class="filter-container">
+                <div class="filter-container" @click="toggleDropdown">
                   <div class="filter-right__header">
                     <p class="filter-right__desc">SORT BY</p>
                     <!-- <img
@@ -151,7 +140,10 @@ export default defineComponent({
                   <span class="filter-detail">Recommended</span>
                 </div>
                 <div class="filter-dropdown">
-                  <div class="filter-dropdown__listbox">
+                  <div
+                    class="filter-dropdown__listbox"
+                    :class="{ 'is-open': isDropdownOpen }"
+                  >
                     <button>
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -283,7 +275,7 @@ export default defineComponent({
 
                   <!-- Product Image -->
                   <div class="product-image">
-                    <a href="./coffee-detail.html">
+                    <a href="./coffee_detail">
                       <img
                         src="assets/images/product/product_1.png"
                         alt="Ispirazione Italiana Selection"
@@ -371,7 +363,7 @@ export default defineComponent({
 
                   <!-- Product Image -->
                   <div class="product-image">
-                    <a href="./coffee-detail.html">
+                    <a href="./coffee_detail">
                       <img
                         src="assets/images/product/product_2.png"
                         alt="Ispirazione Italiana Intense Selection"
@@ -442,7 +434,7 @@ export default defineComponent({
                 <div class="product-item">
                   <!-- Product Image -->
                   <div class="product-image">
-                    <a href="./coffee-detail.html">
+                    <a href="./coffee_detail">
                       <img
                         src="assets/images/product/product_3.png"
                         alt="Roma"
@@ -510,7 +502,7 @@ export default defineComponent({
                 <div class="product-item">
                   <!-- Product Image -->
                   <div class="product-image">
-                    <a href="./coffee-detail.html">
+                    <a href="./coffee_detail">
                       <img
                         src="assets/images/product/product_4.png"
                         alt="Livanto"
@@ -573,7 +565,7 @@ export default defineComponent({
                 <div class="product-item">
                   <!-- Product Image -->
                   <div class="product-image">
-                    <a href="./coffee-detail.html">
+                    <a href="./coffee_detail">
                       <img
                         src="assets/images/product/product_5.png"
                         alt="Arpeggio"
@@ -635,7 +627,7 @@ export default defineComponent({
                 <div class="product-item">
                   <!-- Product Image -->
                   <div class="product-image">
-                    <a href="./coffee-detail.html">
+                    <a href="./coffee_detail">
                       <img
                         src="assets/images/product/product_6.png"
                         alt="Arpeggio Decaffeinato"
@@ -697,7 +689,7 @@ export default defineComponent({
                 <div class="product-item">
                   <!-- Product Image -->
                   <div class="product-image">
-                    <a href="./coffee-detail.html">
+                    <a href="./coffee_detail">
                       <img
                         src="assets/images/product/product_7.png"
                         alt="Kazzar"
@@ -759,7 +751,7 @@ export default defineComponent({
                 <div class="product-item">
                   <!-- Product Image -->
                   <div class="product-image">
-                    <a href="./coffee-detail.html">
+                    <a href="./coffee_detail">
                       <img
                         src="assets/images/product/product_8.png"
                         alt="Napoli"
@@ -821,7 +813,7 @@ export default defineComponent({
                 <div class="product-item">
                   <!-- Product Image -->
                   <div class="product-image">
-                    <a href="./coffee-detail.html">
+                    <a href="./coffee_detail">
                       <img
                         src="assets/images/product/product_9.png"
                         alt="Ristretto"
@@ -885,7 +877,7 @@ export default defineComponent({
                 <div class="product-item">
                   <!-- Product Image -->
                   <div class="product-image">
-                    <a href="./coffee-detail.html">
+                    <a href="./coffee_detail">
                       <img
                         src="assets/images/product/product_10.png"
                         alt="Ristretto Decaffeinato"
@@ -949,7 +941,7 @@ export default defineComponent({
                 <div class="product-item">
                   <!-- Product Image -->
                   <div class="product-image">
-                    <a href="./coffee-detail.html">
+                    <a href="./coffee_detail">
                       <img
                         src="assets/images/product/product_11.png"
                         alt="Venezia"
@@ -1028,7 +1020,7 @@ export default defineComponent({
                 <div class="product-item">
                   <!-- Product Image -->
                   <div class="product-image">
-                    <a href="./coffee-detail.html">
+                    <a href="./coffee_detail">
                       <img
                         src="assets/images/product/discovery.png"
                         alt="Welcome Offer Coffee Pack"
@@ -1106,7 +1098,7 @@ export default defineComponent({
                 <div class="product-item">
                   <!-- Product Image -->
                   <div class="product-image">
-                    <a href="./coffee-detail.html">
+                    <a href="./coffee_detail">
                       <img
                         src="assets/images/product/master_1.png"
                         alt="Ispirazione Napoli"
@@ -1170,7 +1162,7 @@ export default defineComponent({
                 <div class="product-item">
                   <!-- Product Image -->
                   <div class="product-image">
-                    <a href="./coffee-detail.html">
+                    <a href="./coffee_detail">
                       <img
                         src="assets/images/product/master_2.png"
                         alt="Ispirazione Napoli"
@@ -1232,7 +1224,7 @@ export default defineComponent({
                 <div class="product-item">
                   <!-- Product Image -->
                   <div class="product-image">
-                    <a href="./coffee-detail.html">
+                    <a href="./coffee_detail">
                       <img
                         src="assets/images/product/master_3.png"
                         alt="Ispirazione Napoli"
@@ -1294,7 +1286,7 @@ export default defineComponent({
                 <div class="product-item">
                   <!-- Product Image -->
                   <div class="product-image">
-                    <a href="./coffee-detail.html">
+                    <a href="./coffee_detail">
                       <img
                         src="assets/images/product/master_4.png"
                         alt="Ispirazione Napoli"
@@ -1356,7 +1348,7 @@ export default defineComponent({
                 <div class="product-item">
                   <!-- Product Image -->
                   <div class="product-image">
-                    <a href="./coffee-detail.html">
+                    <a href="./coffee_detail">
                       <img
                         src="assets/images/product/master_5.png"
                         alt="Ispirazione Napoli"
@@ -1432,7 +1424,7 @@ export default defineComponent({
                 <div class="product-item">
                   <!-- Product Image -->
                   <div class="product-image">
-                    <a href="./coffee-detail.html">
+                    <a href="./coffee_detail">
                       <img
                         src="assets/images/product/world_1.png"
                         alt="Shanghai Lungo"
@@ -1496,7 +1488,7 @@ export default defineComponent({
                 <div class="product-item">
                   <!-- Product Image -->
                   <div class="product-image">
-                    <a href="./coffee-detail.html">
+                    <a href="./coffee_detail">
                       <img
                         src="assets/images/product/world_2.png"
                         alt="Buenos Aires Lungo"
@@ -1558,7 +1550,7 @@ export default defineComponent({
                 <div class="product-item">
                   <!-- Product Image -->
                   <div class="product-image">
-                    <a href="./coffee-detail.html">
+                    <a href="./coffee_detail">
                       <img
                         src="assets/images/product/world_3.png"
                         alt="Tokyo Lungo"
@@ -1622,7 +1614,7 @@ export default defineComponent({
                 <div class="product-item">
                   <!-- Product Image -->
                   <div class="product-image">
-                    <a href="./coffee-detail.html">
+                    <a href="./coffee_detail">
                       <img
                         src="assets/images/product/world_4.png"
                         alt="Vienna Lungo"
@@ -1684,7 +1676,7 @@ export default defineComponent({
                 <div class="product-item">
                   <!-- Product Image -->
                   <div class="product-image">
-                    <a href="./coffee-detail.html">
+                    <a href="./coffee_detail">
                       <img
                         src="assets/images/product/world_5.png"
                         alt="Stockholm Lungo"
@@ -1748,7 +1740,7 @@ export default defineComponent({
                 <div class="product-item">
                   <!-- Product Image -->
                   <div class="product-image">
-                    <a href="./coffee-detail.html">
+                    <a href="./coffee_detail">
                       <img
                         src="assets/images/product/world_6.png"
                         alt="Cape Town Lungo"
@@ -1812,7 +1804,7 @@ export default defineComponent({
                 <div class="product-item">
                   <!-- Product Image -->
                   <div class="product-image">
-                    <a href="./coffee-detail.html">
+                    <a href="./coffee_detail">
                       <img
                         src="assets/images/product/world_7.png"
                         alt="Rio De Janeiro Espresso"
@@ -1874,7 +1866,7 @@ export default defineComponent({
                 <div class="product-item">
                   <!-- Product Image -->
                   <div class="product-image">
-                    <a href="./coffee-detail.html">
+                    <a href="./coffee_detail">
                       <img
                         src="assets/images/product/world_8.png"
                         alt="Istanbul Espresso"
@@ -1936,7 +1928,7 @@ export default defineComponent({
                 <div class="product-item">
                   <!-- Product Image -->
                   <div class="product-image">
-                    <a href="./coffee-detail.html">
+                    <a href="./coffee_detail">
                       <img
                         src="assets/images/product/world_9.png"
                         alt="Paris Espresso"
@@ -2014,7 +2006,7 @@ export default defineComponent({
                 <div class="product-item">
                   <!-- Product Image -->
                   <div class="product-image">
-                    <a href="./coffee-detail.html">
+                    <a href="./coffee_detail">
                       <img
                         src="assets/images/product/barista_1.png"
                         alt="Cocoa Truffle"
@@ -2076,7 +2068,7 @@ export default defineComponent({
                 <div class="product-item">
                   <!-- Product Image -->
                   <div class="product-image">
-                    <a href="./coffee-detail.html">
+                    <a href="./coffee_detail">
                       <img
                         src="assets/images/product/barista_2.png"
                         alt="Vanilla Éclair"
@@ -2138,7 +2130,7 @@ export default defineComponent({
                 <div class="product-item">
                   <!-- Product Image -->
                   <div class="product-image">
-                    <a href="./coffee-detail.html">
+                    <a href="./coffee_detail">
                       <img
                         src="assets/images/product/barista_3.png"
                         alt="Caramel Crème Brûlée"
@@ -2200,7 +2192,7 @@ export default defineComponent({
                 <div class="product-item">
                   <!-- Product Image -->
                   <div class="product-image">
-                    <a href="./coffee-detail.html">
+                    <a href="./coffee_detail">
                       <img
                         src="assets/images/product/barista_4.png"
                         alt="Chiaro"
@@ -2262,7 +2254,7 @@ export default defineComponent({
                 <div class="product-item">
                   <!-- Product Image -->
                   <div class="product-image">
-                    <a href="./coffee-detail.html">
+                    <a href="./coffee_detail">
                       <img
                         src="assets/images/product/barista_5.png"
                         alt="Scuro"
@@ -2326,7 +2318,7 @@ export default defineComponent({
                 <div class="product-item">
                   <!-- Product Image -->
                   <div class="product-image">
-                    <a href="./coffee-detail.html">
+                    <a href="./coffee_detail">
                       <img
                         src="assets/images/product/barista_6.png"
                         alt="Corto"
@@ -2404,7 +2396,7 @@ export default defineComponent({
                 <div class="product-item">
                   <!-- Product Image -->
                   <div class="product-image">
-                    <a href="./coffee-detail.html">
+                    <a href="./coffee_detail">
                       <img
                         src="assets/images/product/espresso_1.png"
                         alt="Volluto Decaffeinato"
@@ -2466,7 +2458,7 @@ export default defineComponent({
                 <div class="product-item">
                   <!-- Product Image -->
                   <div class="product-image">
-                    <a href="./coffee-detail.html">
+                    <a href="./coffee_detail">
                       <img
                         src="assets/images/product/espresso_2.png"
                         alt="Volluto"
@@ -2528,7 +2520,7 @@ export default defineComponent({
                 <div class="product-item">
                   <!-- Product Image -->
                   <div class="product-image">
-                    <a href="./coffee-detail.html">
+                    <a href="./coffee_detail">
                       <img
                         src="assets/images/product/espresso_3.png"
                         alt="Cosi"
@@ -2592,7 +2584,7 @@ export default defineComponent({
                 <div class="product-item">
                   <!-- Product Image -->
                   <div class="product-image">
-                    <a href="./coffee-detail.html">
+                    <a href="./coffee_detail">
                       <img
                         src="assets/images/product/espresso_4.png"
                         alt="Capriccio"
@@ -2674,10 +2666,13 @@ export default defineComponent({
       <Footer />
 
       <div id="coffee_modal">
-        <div class="modal js-modal">
+        <div class="modal js-modal" :class="{ 'open-modal': isModalOpen }">
           <div class="modal-wrapper">
             <div class="modal-container">
-              <button class="modal-mobile__close js-mobile-close">
+              <button
+                class="modal-mobile__close js-mobile-close"
+                @click="closeModal"
+              >
                 <svg
                   width="16"
                   height="16"
@@ -2702,8 +2697,11 @@ export default defineComponent({
                 </svg>
               </button>
 
-              <div class="modal-mobile modal-mobile__sort">
-                <div class="mobile__sort btn-sort">
+              <div
+                class="modal-mobile modal-mobile__sort"
+                :class="{ 'is-open': isSortListOpen }"
+              >
+                <div class="mobile__sort btn-sort" @click="toggleSortList">
                   <span class="mobile__sort-title">Sort By</span>
                   <span class="mobile__sort-recommend">Recommended</span>
                 </div>
@@ -2720,7 +2718,10 @@ export default defineComponent({
                 <div>
                   <header class="modal-head">
                     <h5 class="modal-title">FILTER</h5>
-                    <button class="modal-close js-modal-close">
+                    <button
+                      class="modal-close js-modal-close"
+                      @click="closeModal"
+                    >
                       <svg
                         width="16"
                         height="16"

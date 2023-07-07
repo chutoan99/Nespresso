@@ -17,76 +17,26 @@ export default defineComponent({
   data() {
     return {
       data_product_machine: data_product_machine,
+      isExpanded: false,
+      colorLabels: [
+        { name: "red", color: "#f10404", checked: false },
+        { name: "black", color: "#000000", checked: false },
+        { name: "white", color: "#ffffff", checked: false },
+      ],
     };
   },
-  // //Modal Filter
-  // $(document).ready(function () {
-  //   $("#filterButton").click(function () {
-  //     var expanded = $(this).attr("aria-expanded");
-  //     if (expanded === "false") {
-  //       $(this).attr("aria-expanded", "true");
-  //       // $("#modal").show();
-  //       $("#modal").css("display", "flex");
-  //     } else {
-  //       $(this).attr("aria-expanded", "false");
-  //       $("#modal").hide();
-  //     }
-  //   });
-  // });
+  methods: {
+    toggleModal() {
+      this.isExpanded = !this.isExpanded;
+      console.log("shfj");
+    },
 
-  // //Click filter color
-  // const colorLabels = [...document.querySelectorAll(".filter-item__label")];
-
-  // colorLabels.forEach(function (label) {
-  //   label.addEventListener("click", function () {
-  //     if (!label.classList.contains("filter-item__label--checked")) {
-  //       colorLabels.forEach(function (otherLabel) {
-  //         otherLabel.classList.remove("filter-item__label--checked");
-  //       });
-  //       label.classList.add("filter-item__label--checked");
-  //     }
-  //   });
-  // });
-
-  // //InputRange
-  // const rangeInput = document.querySelectorAll(".range-input input"),
-  //   priceInput = document.querySelectorAll(".price-input input"),
-  //   range = document.querySelector(".slider .progress");
-  // let priceGap = 100000;
-  // priceInput.forEach((input) => {
-  //   input.addEventListener("input", (e) => {
-  //     let minPrice = parseInt(priceInput[0].value),
-  //       maxPrice = parseInt(priceInput[1].value);
-
-  //     if (maxPrice - minPrice >= priceGap && maxPrice <= rangeInput[1].max) {
-  //       if (e.target.className === "input-min") {
-  //         rangeInput[0].value = minPrice;
-  //         range.style.left = (minPrice / rangeInput[0].max) * 100 + "%";
-  //       } else {
-  //         rangeInput[1].value = maxPrice;
-  //         range.style.right = 100 - (maxPrice / rangeInput[1].max) * 100 + "%";
-  //       }
-  //     }
-  //   });
-  // });
-  // rangeInput.forEach((input) => {
-  //   input.addEventListener("input", (e) => {
-  //     let minVal = parseInt(rangeInput[0].value),
-  //       maxVal = parseInt(rangeInput[1].value);
-  //     if (maxVal - minVal < priceGap) {
-  //       if (e.target.className === "range-min") {
-  //         rangeInput[0].value = maxVal - priceGap;
-  //       } else {
-  //         rangeInput[1].value = minVal + priceGap;
-  //       }
-  //     } else {
-  //       priceInput[0].value = minVal;
-  //       priceInput[1].value = maxVal;
-  //       range.style.left = (minVal / rangeInput[0].max) * 100 + "%";
-  //       range.style.right = 100 - (maxVal / rangeInput[1].max) * 100 + "%";
-  //     }
-  //   });
-  // });
+    OnchangeLabel(label: any) {
+      this.colorLabels.forEach((item) => {
+        item.checked = item === label;
+      });
+    },
+  },
 });
 </script>
 
@@ -116,60 +66,44 @@ export default defineComponent({
             <div class="filter-button filter-toggle">
               <button
                 id="filterButton"
+                @click="toggleModal"
+                :aria-expanded="isExpanded ? 'true' : 'false'"
                 class="filter-sublabel"
-                aria-expanded="false"
               >
                 Filter
               </button>
             </div>
 
-            <div id="modal" class="filter-list">
+            <div
+              id="modal"
+              class="filter-list"
+              :style="{ display: isExpanded ? 'none' : 'block' }"
+            >
               <div class="filter-item">
                 <p class="filter-item__name">color</p>
+
                 <ul class="filter-item__ellipse">
-                  <li class="filter-item__color">
+                  <li
+                    v-on:click="OnchangeLabel(item)"
+                    v-for="item in colorLabels"
+                    :key="item.name"
+                    class="filter-item__color"
+                  >
                     <label
-                      class="filter-item__label"
-                      for="FilterColor-red"
-                      style="background-color: #f10404"
+                      :class="[
+                        'filter-item__label',
+                        { 'filter-item__label--checked': item.checked },
+                      ]"
+                      :for="`FilterColor-${item.name}`"
+                      :style="{ 'background-color': item.color }"
                     >
-                      <span class="VisuallyHidden">Red</span>
+                      <span class="VisuallyHidden">{{ item.name }}</span>
                     </label>
                     <input
                       type="radio"
                       name="FilterColor"
-                      id="FilterColor-red"
-                      value="red"
-                    />
-                  </li>
-                  <li class="filter-item__color">
-                    <label
-                      class="filter-item__label"
-                      for="FilterColor-black"
-                      style="background-color: #000000"
-                    >
-                      <span class="VisuallyHidden">Black</span>
-                    </label>
-                    <input
-                      type="radio"
-                      name="FilterColor"
-                      id="FilterColor-black"
-                      value="black"
-                    />
-                  </li>
-                  <li class="filter-item__color">
-                    <label
-                      class="filter-item__label"
-                      for="FilterColor-white"
-                      style="background-color: #ffffff"
-                    >
-                      <span class="VisuallyHidden">White</span>
-                    </label>
-                    <input
-                      type="radio"
-                      name="FilterColor"
-                      id="FilterColor-white"
-                      value="white"
+                      :id="`FilterColor-${item.name}`"
+                      :value="item.name"
                     />
                   </li>
                 </ul>
@@ -177,22 +111,6 @@ export default defineComponent({
 
               <div class="filter-item">
                 <p class="filter-item__name">PRICEV</p>
-                <!-- <div class="filter-price">
-                  <div class="filter-price__number">
-                    <p class="font_body-1">400,000</p>
-                    <p class="font_body-1">10,000,000</p>
-                  </div>
-                  <div class="filter-price__range">
-                    <span></span>
-                    <span></span>
-                  </div>
-                </div> -->
-
-                <!-- InputRange -->
-                <!-- <div class="filter-price__number">
-                  <p class="font_body-1">400,000</p>
-                  <p class="font_body-1">10,000,000</p>
-                </div> -->
 
                 <div class="price-input">
                   <div class="field">

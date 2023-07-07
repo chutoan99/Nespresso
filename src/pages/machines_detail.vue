@@ -12,48 +12,67 @@ export default defineComponent({
     NavigationComponent,
     Footer,
   },
-
-  //   const links = document.querySelectorAll(".storytelling-item");
-  // const methods = document.querySelectorAll(".storytelling-link");
-  // const image = document.querySelectorAll(".product-media__detail-link");
-
-  // if (links.length) {
-  //   links.forEach((link) => {
-  //     link.addEventListener("click", (e) => {
-  //       links.forEach((link) => {
-  //         link.classList.remove("is-active");
-  //       });
-  //       e.preventDefault();
-  //       link.classList.add("is-active");
-  //     });
-  //   });
-  // }
-
-  // //Methods
-  // if (methods.length) {
-  //   methods.forEach((link) => {
-  //     link.addEventListener("click", (e) => {
-  //       methods.forEach((link) => {
-  //         link.classList.remove("is-active");
-  //       });
-  //       e.preventDefault();
-  //       link.classList.add("is-active");
-  //     });
-  //   });
-  // }
-
-  // //image
-  // if (image.length) {
-  //   image.forEach((link) => {
-  //     link.addEventListener("click", (e) => {
-  //       image.forEach((link) => {
-  //         link.classList.remove("active");
-  //       });
-  //       e.preventDefault();
-  //       link.classList.add("active");
-  //     });
-  //   });
-  // }
+  data() {
+    return {
+      firstUseItems: [
+        { id: 1, label: "FIRST USE", isActive: true },
+        { id: 2, label: "DESCALING", isActive: false },
+        { id: 3, label: "COFFEE SIZES", isActive: false },
+        { id: 4, label: "CLEANING", isActive: false },
+      ],
+      methodItems: [
+        { id: 1, label: "PAYMENT METHOD", isActive: true },
+        { id: 2, label: "DELIVERY METHOD", isActive: false },
+        { id: 3, label: "RETURN POLICY", isActive: false },
+      ],
+      imageItems: [
+        {
+          id: 1,
+          src: "assets/images/machines-detail/detail-1.png",
+          alt: "",
+          isActive: true,
+        },
+        {
+          id: 2,
+          src: "assets/images/machines-detail/detail-2.png",
+          alt: "",
+          isActive: false,
+        },
+        {
+          id: 3,
+          src: "assets/images/machines-detail/detail-3.png",
+          alt: "",
+          isActive: false,
+        },
+        {
+          id: 4,
+          src: "assets/images/machines-detail/detail-4.png",
+          alt: "",
+          isActive: false,
+        },
+      ],
+    };
+  },
+  methods: {
+    activateFirstUseItem(item: any) {
+      this.firstUseItems.forEach((i) => {
+        i.isActive = false;
+      });
+      item.isActive = true;
+    },
+    activateMethodItem(item: any) {
+      this.methodItems.forEach((i) => {
+        i.isActive = false;
+      });
+      item.isActive = true;
+    },
+    activateImageItem(item: any) {
+      this.imageItems.forEach((i) => {
+        i.isActive = false;
+      });
+      item.isActive = true;
+    },
+  },
 });
 </script>
 
@@ -77,29 +96,14 @@ export default defineComponent({
                 />
               </div>
               <div class="product-media__detail">
-                <div class="product-media__detail-link active">
-                  <img
-                    src="assets/images/machines-detail/detail-1.png"
-                    alt=""
-                  />
-                </div>
-                <div class="product-media__detail-link">
-                  <img
-                    src="assets/images/machines-detail/detail-2.png"
-                    alt=""
-                  />
-                </div>
-                <div class="product-media__detail-link">
-                  <img
-                    src="assets/images/machines-detail/detail-3.png"
-                    alt=""
-                  />
-                </div>
-                <div class="product-media__detail-link">
-                  <img
-                    src="assets/images/machines-detail/detail-4.png"
-                    alt=""
-                  />
+                <div
+                  v-for="item in imageItems"
+                  :key="item.id"
+                  :class="{ active: item.isActive }"
+                  class="product-media__detail-link"
+                  @click="activateImageItem(item)"
+                >
+                  <img :src="item.src" :alt="item.alt" />
                 </div>
                 <div class="product-media__detail-video">
                   <img src="assets/images/machines-detail/youtube.png" alt="" />
@@ -372,12 +376,15 @@ export default defineComponent({
               MACHINE ASSISTANCE
             </h4>
             <ul class="storytelling-menu">
-              <li class="storytelling-item is-active">
-                <span> FIRST USE</span>
+              <li
+                v-for="item in firstUseItems"
+                :key="item.id"
+                :class="{ 'is-active': item.isActive }"
+                class="storytelling-item"
+                @click="activateFirstUseItem(item)"
+              >
+                <span>{{ item.label }}</span>
               </li>
-              <li class="storytelling-item"><span> DESCALING</span></li>
-              <li class="storytelling-item"><span> COFFEE SIZES</span></li>
-              <li class="storytelling-item"><span> CLEANING</span></li>
             </ul>
             <div class="storytelling-container">
               <div class="storytelling-description">
@@ -665,11 +672,15 @@ export default defineComponent({
         <section class="storytelling">
           <div class="container">
             <ul class="storytelling-menu">
-              <li class="storytelling-link is-active">
-                <span>PAYMENT METHOD</span>
+              <li
+                v-for="item in methodItems"
+                :key="item.id"
+                :class="{ 'is-active': item.isActive }"
+                class="storytelling-link"
+                @click="activateMethodItem(item)"
+              >
+                <span>{{ item.label }}</span>
               </li>
-              <li class="storytelling-link"><span>DELIVERY METHOD</span></li>
-              <li class="storytelling-link"><span>RETURN POLICY</span></li>
             </ul>
 
             <div class="storytelling-content">

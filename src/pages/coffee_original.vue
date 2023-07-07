@@ -12,64 +12,47 @@ export default defineComponent({
     NavigationComponent,
     Footer,
   },
-  // const links = [...document.querySelectorAll(".tab-menu")];
-  //     const nav = [...document.querySelectorAll(".intro-nav__item")];
+  data() {
+    return {
+      tabs: [
+        { label: "ispirazione italiana", route: "#ispirazione-italiana" },
+        { label: "Espresso & Lungo", route: "#espresso-lungo" },
+        { label: "Master Origins", route: "#master-origins" },
+        { label: "Barista Creations", route: "#barista-creations" },
+      ],
+      selectedIndex: 0,
+      navItems: [
+        { label: "ORIGIN" },
+        { label: "INTENSITY" },
+        { label: "AROMATIC NOTES" },
+        { label: "CUP SIZE" },
+      ],
+      selectedTab: 0,
+    };
+  },
+  methods: {
+    OnShowModal(): void {
+      const modal = document.querySelector(".js-modal") as HTMLElement;
+      const body = document.body as HTMLElement;
+      modal.classList.add("open-modal");
+      body.style.overflow = "hidden";
+    },
+    OnCloseModal(): void {
+      const modal = document.querySelector(".js-modal") as HTMLElement;
+      const body = document.body as HTMLElement;
+      modal.classList.remove("open-modal");
+      modal.classList.remove("popinSlide");
+      body.style.overflow = "";
+    },
+    OnBackModal(): void {
+      const modal = document.querySelector(".js-modal") as HTMLElement;
+      modal.classList.remove("popinSlide");
+    },
 
-  //     links.forEach(function (tab) {
-  //       tab.addEventListener("click", function () {
-  //         if (!tab.classList.contains("tab-menu--selected")) {
-  //           links.forEach(function (othertab) {
-  //             othertab.classList.remove("tab-menu--selected");
-  //           });
-  //           tab.classList.add("tab-menu--selected");
-  //         }
-  //       });
-  //     });
-
-  //     nav.forEach(function (tab) {
-  //       tab.addEventListener("click", function () {
-  //         if (!tab.classList.contains("intro-nav__item--selected")) {
-  //           nav.forEach(function (othertab) {
-  //             othertab.classList.remove("intro-nav__item--selected");
-  //           });
-  //           tab.classList.add("intro-nav__item--selected");
-  //         }
-  //       });
-  //     });
-
-  //     const modal = document.querySelector(".js-modal");
-  //     const clickModal = document.querySelectorAll(".js-click-modal");
-  //     const openRigtCol = document.querySelectorAll(".open-rigtCol ");
-  //     const modalClose = document.querySelector(".js-modal-close");
-  //     const btnBack = document.querySelector(".btn-back");
-  //     const body = document.body;
-
-  //     // Open Modal
-  //     for (const btnModal of clickModal) {
-  //       btnModal.addEventListener("click", function () {
-  //         modal.classList.add("open-modal");
-  //         body.style.overflow = "hidden";
-  //       });
-  //     }
-
-  //     // Close Modal
-  //     modalClose.addEventListener("click", function () {
-  //       modal.classList.remove("open-modal");
-  //       modal.classList.remove("popinSlide");
-  //       body.style.overflow = "";
-  //     });
-
-  //     // Back Modal
-  //     btnBack.addEventListener("click", function () {
-  //       modal.classList.remove("popinSlide");
-  //     });
-
-  //     // Open Right Col in Modal
-  //     for (const btnRightCol of openRigtCol) {
-  //       btnRightCol.addEventListener("click", function () {
-  //         modal.classList.add("popinSlide");
-  //       });
-  //     }
+    selectTab(index: number): void {
+      this.selectedTab = index;
+    },
+  },
 });
 </script>
 
@@ -167,6 +150,17 @@ export default defineComponent({
 
         <section class="product-nav">
           <ul>
+            <li
+              v-for="(tab, index) in tabs"
+              :key="index"
+              class="tab-menu"
+              @click="selectTab(index)"
+              :class="{ 'tab-menu--selected': selectedTab === index }"
+            >
+              <router-link :to="tab.route">{{ tab.label }}</router-link>
+            </li>
+          </ul>
+          <!-- <ul>
             <li class="tab-menu tab-menu--selected">
               <router-link to="ispirazione-italiana"
                 >ispirazione italiana</router-link
@@ -183,7 +177,7 @@ export default defineComponent({
                 >Barista Creations</router-link
               >
             </li>
-          </ul>
+          </ul> -->
         </section>
 
         <section class="hero background-1" id="ispirazione-italiana">
@@ -259,7 +253,10 @@ export default defineComponent({
               </div>
             </div>
 
-            <button class="hero-content__btn js-click-modal">
+            <button
+              class="hero-content__btn js-click-modal"
+              v-on:click="OnShowModal"
+            >
               <svg
                 width="24"
                 height="24"
@@ -340,7 +337,10 @@ export default defineComponent({
               </div>
             </div>
 
-            <button class="hero-content__btn js-click-modal">
+            <button
+              class="hero-content__btn js-click-modal"
+              v-on:click="OnShowModal"
+            >
               <svg
                 width="24"
                 height="24"
@@ -437,7 +437,10 @@ export default defineComponent({
               </div>
             </div>
 
-            <button class="hero-content__btn js-click-modal">
+            <button
+              class="hero-content__btn js-click-modal"
+              v-on:click="OnShowModal"
+            >
               <svg
                 width="24"
                 height="24"
@@ -532,7 +535,10 @@ export default defineComponent({
               </div>
             </div>
 
-            <button class="hero-content__btn js-click-modal">
+            <button
+              class="hero-content__btn js-click-modal"
+              v-on:click="OnShowModal"
+            >
               <svg
                 width="24"
                 height="24"
@@ -561,12 +567,15 @@ export default defineComponent({
           <div class="intro-description">
             <h4 class="intro-heading">EXPLORE OUR COFFEE WORLD</h4>
             <ul class="intro-nav">
-              <li class="intro-nav__item intro-nav__item--selected">
-                <button>ORIGIN</button>
+              <li
+                class="intro-nav__item"
+                v-for="(item, index) in navItems"
+                :key="index"
+                :class="{ 'intro-nav__item--selected': selectedTab === index }"
+                @click="selectTab(index)"
+              >
+                <button>{{ item.label }}</button>
               </li>
-              <li class="intro-nav__item"><button>INTENSITY</button></li>
-              <li class="intro-nav__item"><button>AROMATIC NOTES</button></li>
-              <li class="intro-nav__item"><button>CUP SIZE</button></li>
             </ul>
 
             <div class="intro-context">
@@ -753,7 +762,10 @@ export default defineComponent({
           <div class="modal-Overlay"></div>
           <div class="modal-fixed">
             <div class="modal-container">
-              <button class="modal-close popin-close js-modal-close">
+              <button
+                class="modal-close popin-close js-modal-close"
+                v-on:click="OnCloseModal"
+              >
                 <span class="">close</span>
                 <svg
                   width="24"
@@ -1203,7 +1215,10 @@ export default defineComponent({
                 <div class="rightCol">
                   <div class="table">
                     <div class="table-banner">
-                      <button class="popin-back btn-back">
+                      <button
+                        class="popin-back btn-back"
+                        v-on:click="OnBackModal"
+                      >
                         <svg
                           width="24"
                           height="24"
