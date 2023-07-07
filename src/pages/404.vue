@@ -20,9 +20,8 @@ export default defineComponent({
   <div class="wrapper">
     <div class="wrapper-innner">
       <Header />
-      <!-- Header -->
+
       <NavigationComponent />
-      <!-- Navigation -->
       <section id="banner">
         <img
           src="assets/images/banner-1.png"
@@ -157,7 +156,6 @@ export default defineComponent({
       </main>
 
       <Footer />
-      <!-- Footer -->
     </div>
   </div>
 </template>
