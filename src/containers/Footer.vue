@@ -1,8 +1,52 @@
 <script lang="ts">
-import { Options, Vue } from "vue-class-component";
+import { defineComponent, ref, onMounted, onBeforeUnmount } from "vue";
 
-@Options({})
-export default class Footer extends Vue {}
+export default defineComponent({
+  name: "FooterComponent",
+  data() {
+    return {
+      currentScreenWidth: window.innerWidth,
+    };
+  },
+  mounted() {
+    window.addEventListener("resize", this.handleResize);
+  },
+  beforeUnmount() {
+    window.removeEventListener("resize", this.handleResize);
+  },
+  methods: {
+    handleResize() {
+      this.currentScreenWidth = window.innerWidth;
+    },
+    toggleContent(event: Event): void {
+      const element = event.currentTarget;
+      if (element === null) return;
+      if (this.currentScreenWidth >= 768) return;
+      if (element instanceof HTMLElement) {
+        const iconElement = element.querySelector(
+          ".footer_main-header svg"
+        ) as HTMLElement;
+        const contentElement = element.querySelector(
+          ".footer_main-content"
+        ) as HTMLElement;
+        const currentDisplay = getComputedStyle(contentElement).display;
+        if (currentDisplay === "block") {
+          this.hideContent(contentElement, iconElement);
+        } else {
+          this.showContent(contentElement, iconElement);
+        }
+      }
+    },
+    hideContent(contentElement: HTMLElement, iconElement: HTMLElement): void {
+      contentElement.style.display = "none";
+      iconElement.style.transform = "rotate(0deg)";
+    },
+    showContent(contentElement: HTMLElement, iconElement: HTMLElement): void {
+      contentElement.style.display = "block";
+      iconElement.style.transform = "rotate(180deg)";
+    },
+  },
+});
 </script>
 
 <template>
@@ -38,10 +82,11 @@ export default class Footer extends Vue {}
         </div>
       </div>
     </div>
+
     <div class="footer_main">
       <div class="container">
         <div class="footer_main-wrapper">
-          <div class="footer_main-inner">
+          <div class="footer_main-inner" v-on:click="toggleContent($event)">
             <h3 class="footer_main-header">
               PRODUCTS
               <svg
@@ -64,7 +109,7 @@ export default class Footer extends Vue {}
               <router-link to="/accessories">Accessories</router-link>
             </div>
           </div>
-          <div class="footer_main-inner">
+          <div class="footer_main-inner" v-on:click="toggleContent($event)">
             <h3 class="footer_main-header">
               CALL US
               <svg
@@ -88,7 +133,7 @@ export default class Footer extends Vue {}
               </p>
             </div>
           </div>
-          <div class="footer_main-inner">
+          <div class="footer_main-inner" v-on:click="toggleContent($event)">
             <h3 class="footer_main-header">
               EMAIL US
               <svg
@@ -112,7 +157,7 @@ export default class Footer extends Vue {}
               </p>
             </div>
           </div>
-          <div class="footer_main-inner">
+          <div class="footer_main-inner" v-on:click="toggleContent($event)">
             <h3 class="footer_main-header">
               MAIL US
               <svg

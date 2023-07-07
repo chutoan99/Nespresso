@@ -27,7 +27,6 @@ export default defineComponent({
     const modal = this.$el.querySelector(".js-modal");
     const btnClose = this.$el.querySelector(".modal-content-btn");
     const Listitem = this.$el.querySelectorAll(".service_main-content-border");
-
     Listitem.forEach((item: any) => {
       item.addEventListener("click", () => {
         modal.classList.add("open-modal");

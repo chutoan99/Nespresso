@@ -1,8 +1,78 @@
 <script lang="ts">
-import { Options, Vue } from "vue-class-component";
 import "../css/layouts/header.css";
-@Options({})
-export default class Header extends Vue {}
+import { defineComponent } from "vue";
+
+export default defineComponent({
+  name: "HeaderComponent",
+  components: {},
+  data() {
+    return {
+      currentScreenWidth: window.innerWidth,
+      IsCartOverlay: false,
+      IsLoggedInnDropdown: false,
+      IsSignInDropdown: false,
+      IsSubList: false,
+      isSearchAction: false,
+      isSearchMobile: false,
+    };
+  },
+  mounted() {
+    window.addEventListener("resize", this.handleResize);
+  },
+  beforeUnmount() {
+    window.removeEventListener("resize", this.handleResize);
+  },
+  methods: {
+    ShowCart(): void {
+      this.IsCartOverlay = true;
+      // this.IsLoggedInnDropdown = false;
+      this.IsSignInDropdown = false;
+    },
+    CloseCart(): void {
+      this.IsCartOverlay = false;
+    },
+
+    onHandleLogin(): void {
+      // this.IsLoggedInnDropdown = !this.IsLoggedInnDropdown;
+      this.IsSignInDropdown = !this.IsSignInDropdown;
+    },
+    HandelSubItem(): void {
+      this.IsSubList = !this.IsSubList;
+    },
+    CloseHeader(): void {
+      this.IsSubList = false;
+    },
+
+    // METHOS SEARCH
+    handleInputFocus() {
+      if (this.currentScreenWidth > 1023) {
+        this.isSearchAction = true;
+      }
+    },
+    handleInputBlur() {
+      if (this.currentScreenWidth > 1023) {
+        this.isSearchAction = false;
+      }
+      if (this.currentScreenWidth <= 1024) {
+        this.handleClickIcon();
+      }
+    },
+
+    handleInputClick() {
+      if (this.currentScreenWidth <= 1024) {
+        this.isSearchMobile = true;
+      }
+    },
+    handleClickIcon() {
+      if (this.currentScreenWidth <= 1024) {
+        this.isSearchMobile = false;
+      }
+    },
+    handleResize() {
+      this.currentScreenWidth = window.innerWidth;
+    },
+  },
+});
 </script>
 
 <template>
@@ -12,7 +82,11 @@ export default class Header extends Vue {}
         <div class="icon_list hide_on-pc show_on-tab">
           <div class="hamburger-menu">
             <input id="menu__toggle" type="checkbox" />
-            <label class="menu__btn" for="menu__toggle">
+            <label
+              class="menu__btn"
+              for="menu__toggle"
+              v-on:click="CloseHeader"
+            >
               <span></span>
             </label>
             <ul class="menu__box">
@@ -39,6 +113,7 @@ export default class Header extends Vue {}
                   >
                   <div class="nav_icon">
                     <svg
+                      v-on:click="HandelSubItem"
                       width="7"
                       height="13"
                       viewBox="0 0 7 13"
@@ -66,6 +141,7 @@ export default class Header extends Vue {}
                   >
                   <div class="nav_icon">
                     <svg
+                      v-on:click="HandelSubItem"
                       width="7"
                       height="13"
                       viewBox="0 0 7 13"
@@ -96,6 +172,7 @@ export default class Header extends Vue {}
                   >
                   <div class="nav_icon">
                     <svg
+                      v-on:click="HandelSubItem"
                       width="7"
                       height="13"
                       viewBox="0 0 7 13"
@@ -127,6 +204,7 @@ export default class Header extends Vue {}
 
                   <div class="nav_icon">
                     <svg
+                      v-on:click="HandelSubItem"
                       width="7"
                       height="13"
                       viewBox="0 0 7 13"
@@ -155,6 +233,7 @@ export default class Header extends Vue {}
 
                   <div class="nav_icon">
                     <svg
+                      v-on:click="HandelSubItem"
                       width="7"
                       height="13"
                       viewBox="0 0 7 13"
@@ -182,6 +261,7 @@ export default class Header extends Vue {}
                   >
                   <div class="nav_icon">
                     <svg
+                      v-on:click="HandelSubItem"
                       width="7"
                       height="13"
                       viewBox="0 0 7 13"
@@ -209,6 +289,7 @@ export default class Header extends Vue {}
                   >
                   <div class="nav_icon">
                     <svg
+                      v-on:click="HandelSubItem"
                       width="7"
                       height="13"
                       viewBox="0 0 7 13"
@@ -236,6 +317,7 @@ export default class Header extends Vue {}
                   >
                   <div class="nav_icon">
                     <svg
+                      v-on:click="HandelSubItem"
                       width="7"
                       height="13"
                       viewBox="0 0 7 13"
@@ -263,6 +345,7 @@ export default class Header extends Vue {}
                   >
                   <div class="nav_icon">
                     <svg
+                      v-on:click="HandelSubItem"
                       width="7"
                       height="13"
                       viewBox="0 0 7 13"
@@ -280,7 +363,11 @@ export default class Header extends Vue {}
                 </div>
               </li>
             </ul>
-            <ul class="sub_list hide_on-pc" id="sub_list">
+            <ul
+              class="sub_list hide_on-pc"
+              id="sub_list"
+              :class="{ open: IsSubList }"
+            >
               <li><router-link to=""> ORIGINAL </router-link></li>
               <li>
                 <router-link to=""> Order Original Capsules </router-link>
@@ -312,8 +399,13 @@ export default class Header extends Vue {}
       </div>
       <div class="header_content">
         <div style="position: relative">
-          <div class="search_icon2" style="width: 3.125rem; display: none">
+          <div
+            class="search_icon2"
+            style="width: 3.125rem; display: none"
+            :style="{ display: isSearchMobile ? 'block' : 'none' }"
+          >
             <svg
+              @click="handleClickIcon"
               style="width: 1.875rem; height: 1.875rem"
               width="24"
               height="24"
@@ -334,8 +426,16 @@ export default class Header extends Vue {}
             </svg>
           </div>
 
-          <div class="header_content-search">
+          <div
+            class="header_content-search"
+            :class="{
+              search_action: isSearchAction,
+              search_mobile: isSearchMobile,
+            }"
+          >
             <svg
+              @click="handleInputClick"
+              :style="{ display: isSearchAction ? 'none' : 'block' }"
               class="header_content-search-icon"
               width="24"
               height="24"
@@ -359,10 +459,15 @@ export default class Header extends Vue {}
               class="header_content-search-input"
               placeholder="SEARCH..."
               type="text"
+              @focus="handleInputFocus"
+              @blur="handleInputBlur"
             />
           </div>
           <!-- form_search -->
-          <section id="form_search">
+          <section
+            id="form_search"
+            :style="{ display: isSearchAction ? 'block' : 'none' }"
+          >
             <div class="form_search-wrapper">
               <div class="form_search-item">
                 <svg
@@ -409,7 +514,10 @@ export default class Header extends Vue {}
             </div>
           </section>
           <!-- form_result -->
-          <section id="form_result">
+          <section
+            id="form_result"
+            :style="{ display: isSearchAction ? 'block' : 'none' }"
+          >
             <div class="form_result-wrapper">
               <div class="form_search-item">
                 <div class="form_search-item-img">
@@ -441,7 +549,7 @@ export default class Header extends Vue {}
 
         <!-- info login -->
         <div style="position: relative">
-          <div class="header_content-btn btn_login">
+          <div class="header_content-btn btn_login" v-on:click="onHandleLogin">
             <div style="display: flex; gap: 0.25rem; align-items: center">
               <svg
                 class="btn_login-icon"
@@ -464,7 +572,7 @@ export default class Header extends Vue {}
             </div>
           </div>
           <!-- dropdown_signIn -->
-          <section id="dropdown_signIn">
+          <section id="dropdown_signIn" :class="{ open: IsSignInDropdown }">
             <div class="dropdown_signIn">
               <div>
                 <h3 class="dropdown_signIn-heading">SIGN IN</h3>
@@ -494,7 +602,10 @@ export default class Header extends Vue {}
             </div>
           </section>
           <!-- dropdown_loggedIn -->
-          <section id="dropdown_loggedIn">
+          <section
+            id="dropdown_loggedIn"
+            :class="{ open: IsLoggedInnDropdown }"
+          >
             <div class="dropdown_loggedIn">
               <ul class="dropdown_loggedIn-list">
                 <li class="dropdown_loggedIn-item">
@@ -551,7 +662,7 @@ export default class Header extends Vue {}
           </section>
         </div>
 
-        <div class="header_content-btn btn_cart">
+        <div class="header_content-btn btn_cart" v-on:click="ShowCart">
           <svg
             width="24"
             height="24"
@@ -569,12 +680,13 @@ export default class Header extends Vue {}
           <span>YOUR BASKET (0)</span>
         </div>
         <!-- cart -->
-        <section id="overlay">
+        <section id="overlay" :class="{ openCart: IsCartOverlay }">
           <div class="overlay">
             <router-link to="/" class="overlay_inner modalCart">
               <div class="modalCart_header">
                 <h3>SHOPPING BAG</h3>
                 <svg
+                  v-on:click="CloseCart"
                   width="16"
                   height="16"
                   viewBox="0 0 16 16"
@@ -602,15 +714,12 @@ export default class Header extends Vue {}
                 <span>500,000đ</span>
               </div>
               <div class="modalCart_body">
-                <!--start empty order -->
-                <!-- <div  class="modalCart_empty">
-                                      <h3 class="modalCart_body-title">Your basket is empty</h3>
-                                         <button class="modalCart_btn">
-                                           <span> START SHOPPING </span>
-                                         </button>
-                                      </div> -->
-                <!--end empty order -->
-                <!--start add order -->
+                <!-- <div class="modalCart_empty">
+                  <h3 class="modalCart_body-title">Your basket is empty</h3>
+                  <button class="modalCart_btn">
+                    <span> START SHOPPING </span>
+                  </button>
+                </div> -->
                 <div style="width: 100%">
                   <div class="modalCart_body-name">
                     <span>Ispirazione Italiana (10)</span>
@@ -649,7 +758,6 @@ export default class Header extends Vue {}
                     >
                   </button>
                 </div>
-                <!--end add order -->
               </div>
             </router-link>
           </div>

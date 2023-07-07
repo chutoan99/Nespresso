@@ -3,7 +3,7 @@ import "../css/pages/index.css";
 import { data_product } from "@/utils/data_product";
 import Header from "@/containers/Header.vue";
 import NavigationComponent from "@/containers/Nav.vue";
-import Footer from "@/containers/Footer.vue";
+import FooterComponent from "@/containers/Footer.vue";
 import ProductItem from "@/components/product_item.vue";
 import { defineComponent } from "vue";
 
@@ -12,7 +12,7 @@ export default defineComponent({
   components: {
     Header,
     NavigationComponent,
-    Footer,
+    FooterComponent,
     ProductItem,
   },
   data() {
@@ -402,7 +402,7 @@ export default defineComponent({
         </main>
       </main>
 
-      <Footer />
+      <FooterComponent />
     </div>
   </div>
 </template>
