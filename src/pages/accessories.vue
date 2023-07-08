@@ -4,17 +4,46 @@ import Header from "@/containers/Header.vue";
 import NavigationComponent from "@/containers/Nav.vue";
 import Footer from "@/containers/Footer.vue";
 import { defineComponent } from "vue";
-
+import ProductAccessoriesItem from "@/components/product_accessories_item.vue";
+import {
+  data_Limited,
+  data_New_Arrival,
+  data_Milk_Frothers,
+  data_Lume_Collection,
+  data_Reveal_Collection,
+  data_Maintenance,
+  data_Nude_Collection,
+  data_Pixie_Collection,
+  data_Display_Collection,
+  data_IceTray_1,
+  data_IceTray_2,
+  data_View_Collection_1,
+  data_View_Collection_2,
+} from "@/utils/data_accessories";
 export default defineComponent({
   name: "AccessoriesPage",
   components: {
     Header,
     NavigationComponent,
     Footer,
+    ProductAccessoriesItem,
   },
   data() {
     return {
       isExpanded: false,
+      dataLimited: data_Limited,
+      dataNewArrival: data_New_Arrival,
+      dataMilkFrothers: data_Milk_Frothers,
+      dataLumeCollection: data_Lume_Collection,
+      dataRevealCollection: data_Reveal_Collection,
+      dataMaintenance: data_Maintenance,
+      dataNudeCollection: data_Nude_Collection,
+      dataPixieCollection: data_Pixie_Collection,
+      dataDisplayCollection: data_Display_Collection,
+      dataIceTray1: data_IceTray_1,
+      dataIceTray2: data_IceTray_2,
+      dataViewCollection1: data_View_Collection_1,
+      dataViewCollection2: data_View_Collection_2,
     };
   },
   methods: {
@@ -28,11 +57,8 @@ export default defineComponent({
 <template>
   <div class="wrapper">
     <div class="wrapper-innner">
-      <!-- start header -->
       <Header />
-      <!-- end header -->
       <NavigationComponent />
-      <!-- end nav -->
 
       <main id="accessories">
         <section class="hero">
@@ -47,9 +73,6 @@ export default defineComponent({
             <div class="filter-number">
               <span>77 ACCESSORIES</span>
             </div>
-            <!-- <div class="filter-sublabel filter-toggle">
-              <span>Filter</span>
-            </div> -->
           </div>
           <div class="filter-wrapper">
             <div class="filter-button filter-toggle">
@@ -152,71 +175,7 @@ export default defineComponent({
             <div class="container">
               <p class="product-title">Milano Limited Collection</p>
               <div class="product-list">
-                <div class="product-item">
-                  <div class="product-image">
-                    <router-link to="/accessories_detail">
-                      <img
-                        src="assets/images/accessories/accessories-1.png"
-                        alt=""
-                      />
-                    </router-link>
-                    <p class="product-name">MILANO TOUCH GOLDEN TRAVEL MUG</p>
-                  </div>
-                  <div class="product-content">
-                    <span class="product-price">₫3,700,000</span>
-                    <button class="product-add">
-                      <svg
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          fill-rule="evenodd"
-                          clip-rule="evenodd"
-                          d="M8 3.75C8 1.67889 9.67889 0 11.75 0C13.8211 0 15.5 1.67889 15.5 3.75V6H20.75L21.5 24H2L2.75 6H8V3.75ZM8.75 6H14.75V3.75C14.75 2.09317 13.4068 0.75 11.75 0.75C10.0932 0.75 8.75 2.09317 8.75 3.75V6Z"
-                          fill="white"
-                        />
-                      </svg>
-                      <span>Ask to basket</span>
-                    </button>
-                  </div>
-                </div>
-
-                <div class="product-item">
-                  <div class="product-image">
-                    <router-link to="/accessories_detail">
-                      <img
-                        src="assets/images/accessories/accessories-2.png"
-                        alt=""
-                      />
-                    </router-link>
-                    <p class="product-name">
-                      ISPIRAZIONE ITALIANO ESPRESSO SET
-                    </p>
-                  </div>
-                  <div class="product-content">
-                    <span class="product-price">₫3,700,000</span>
-                    <button class="product-add">
-                      <svg
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          fill-rule="evenodd"
-                          clip-rule="evenodd"
-                          d="M8 3.75C8 1.67889 9.67889 0 11.75 0C13.8211 0 15.5 1.67889 15.5 3.75V6H20.75L21.5 24H2L2.75 6H8V3.75ZM8.75 6H14.75V3.75C14.75 2.09317 13.4068 0.75 11.75 0.75C10.0932 0.75 8.75 2.09317 8.75 3.75V6Z"
-                          fill="white"
-                        />
-                      </svg>
-                      <span>Ask to basket</span>
-                    </button>
-                  </div>
-                </div>
+                <ProductAccessoriesItem v-bind:data="dataLimited" />
               </div>
             </div>
           </div>
@@ -227,37 +186,7 @@ export default defineComponent({
             <div class="container">
               <p class="product-title">New Arrival</p>
               <div class="product-list">
-                <div class="product-item">
-                  <div class="product-image">
-                    <router-link to="/accessories_detail">
-                      <img
-                        src="assets/images/accessories/accessories-3.png"
-                        alt="MILANO TOUCH GOLDEN TRAVEL MUG"
-                      />
-                    </router-link>
-                    <p class="product-name">MILANO TOUCH GOLDEN TRAVEL MUG</p>
-                  </div>
-                  <div class="product-content">
-                    <span class="product-price">₫3,700,000</span>
-                    <button class="product-add">
-                      <svg
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          fill-rule="evenodd"
-                          clip-rule="evenodd"
-                          d="M8 3.75C8 1.67889 9.67889 0 11.75 0C13.8211 0 15.5 1.67889 15.5 3.75V6H20.75L21.5 24H2L2.75 6H8V3.75ZM8.75 6H14.75V3.75C14.75 2.09317 13.4068 0.75 11.75 0.75C10.0932 0.75 8.75 2.09317 8.75 3.75V6Z"
-                          fill="white"
-                        />
-                      </svg>
-                      <span>Ask to basket</span>
-                    </button>
-                  </div>
-                </div>
+                <ProductAccessoriesItem v-bind:data="dataNewArrival" />
               </div>
             </div>
           </div>
@@ -268,69 +197,7 @@ export default defineComponent({
             <div class="container">
               <p class="product-title">Milk Frothers</p>
               <div class="product-list">
-                <div class="product-item">
-                  <div class="product-image">
-                    <router-link to="/accessories_detail">
-                      <img
-                        src="assets/images/accessories/accessories-4.png"
-                        alt="AEROCCINO 3"
-                      />
-                    </router-link>
-                    <p class="product-name">AEROCCINO 3</p>
-                  </div>
-                  <div class="product-content">
-                    <span class="product-price">₫2,600,000</span>
-                    <button class="product-add">
-                      <svg
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          fill-rule="evenodd"
-                          clip-rule="evenodd"
-                          d="M8 3.75C8 1.67889 9.67889 0 11.75 0C13.8211 0 15.5 1.67889 15.5 3.75V6H20.75L21.5 24H2L2.75 6H8V3.75ZM8.75 6H14.75V3.75C14.75 2.09317 13.4068 0.75 11.75 0.75C10.0932 0.75 8.75 2.09317 8.75 3.75V6Z"
-                          fill="white"
-                        />
-                      </svg>
-                      <span>Ask to basket</span>
-                    </button>
-                  </div>
-                </div>
-
-                <div class="product-item">
-                  <div class="product-image">
-                    <router-link to="/accessories_detail">
-                      <img
-                        src="assets/images/accessories/accessories-5.png"
-                        alt="AEROCCINO 4"
-                      />
-                    </router-link>
-                    <p class="product-name">AEROCCINO 4</p>
-                  </div>
-                  <div class="product-content">
-                    <span class="product-price">đ3,400,000</span>
-                    <button class="product-add">
-                      <svg
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          fill-rule="evenodd"
-                          clip-rule="evenodd"
-                          d="M8 3.75C8 1.67889 9.67889 0 11.75 0C13.8211 0 15.5 1.67889 15.5 3.75V6H20.75L21.5 24H2L2.75 6H8V3.75ZM8.75 6H14.75V3.75C14.75 2.09317 13.4068 0.75 11.75 0.75C10.0932 0.75 8.75 2.09317 8.75 3.75V6Z"
-                          fill="white"
-                        />
-                      </svg>
-                      <span>Ask to basket</span>
-                    </button>
-                  </div>
-                </div>
+                <ProductAccessoriesItem v-bind:data="dataMilkFrothers" />
               </div>
             </div>
           </div>
@@ -341,101 +208,7 @@ export default defineComponent({
             <div class="container">
               <p class="product-title">Lume Collection</p>
               <div class="product-list">
-                <div class="product-item">
-                  <div class="product-image">
-                    <router-link to="/accessories_detail">
-                      <img
-                        src="assets/images/accessories/accessories-6.png"
-                        alt="LUME ESPRESSO CUPS X 2"
-                      />
-                    </router-link>
-                    <p class="product-name">LUME ESPRESSO CUPS X 2</p>
-                  </div>
-                  <div class="product-content">
-                    <span class="product-price">₫750,000</span>
-                    <button class="product-add">
-                      <svg
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          fill-rule="evenodd"
-                          clip-rule="evenodd"
-                          d="M8 3.75C8 1.67889 9.67889 0 11.75 0C13.8211 0 15.5 1.67889 15.5 3.75V6H20.75L21.5 24H2L2.75 6H8V3.75ZM8.75 6H14.75V3.75C14.75 2.09317 13.4068 0.75 11.75 0.75C10.0932 0.75 8.75 2.09317 8.75 3.75V6Z"
-                          fill="white"
-                        />
-                      </svg>
-                      <span>Ask to basket</span>
-                    </button>
-                  </div>
-                </div>
-
-                <div class="product-item">
-                  <div class="product-image">
-                    <router-link to="/accessories_detail">
-                      <img
-                        src="assets/images/accessories/accessories-6.png"
-                        alt="LUME ESPRESSO CUPS X 2"
-                      />
-                    </router-link>
-                    <p class="product-name">LUME ESPRESSO CUPS X 2</p>
-                  </div>
-                  <div class="product-content">
-                    <span class="product-price">₫830,000</span>
-                    <button class="product-add">
-                      <svg
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          fill-rule="evenodd"
-                          clip-rule="evenodd"
-                          d="M8 3.75C8 1.67889 9.67889 0 11.75 0C13.8211 0 15.5 1.67889 15.5 3.75V6H20.75L21.5 24H2L2.75 6H8V3.75ZM8.75 6H14.75V3.75C14.75 2.09317 13.4068 0.75 11.75 0.75C10.0932 0.75 8.75 2.09317 8.75 3.75V6Z"
-                          fill="white"
-                        />
-                      </svg>
-                      <span>Ask to basket</span>
-                    </button>
-                  </div>
-                </div>
-
-                <div class="product-item">
-                  <div class="product-image">
-                    <router-link to="/accessories_detail">
-                      <img
-                        src="assets/images/accessories/accessories-6.png"
-                        alt="LUME ESPRESSO CUPS X 2"
-                      />
-                    </router-link>
-                    <p class="product-name">LUME ESPRESSO CUPS X 2</p>
-                  </div>
-                  <div class="product-content">
-                    <span class="product-price">₫980,000</span>
-                    <button class="product-add">
-                      <svg
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          fill-rule="evenodd"
-                          clip-rule="evenodd"
-                          d="M8 3.75C8 1.67889 9.67889 0 11.75 0C13.8211 0 15.5 1.67889 15.5 3.75V6H20.75L21.5 24H2L2.75 6H8V3.75ZM8.75 6H14.75V3.75C14.75 2.09317 13.4068 0.75 11.75 0.75C10.0932 0.75 8.75 2.09317 8.75 3.75V6Z"
-                          fill="white"
-                        />
-                      </svg>
-                      <span>Ask to basket</span>
-                    </button>
-                  </div>
-                </div>
+                <ProductAccessoriesItem v-bind:data="dataLumeCollection" />
               </div>
             </div>
           </div>
@@ -446,101 +219,7 @@ export default defineComponent({
             <div class="container">
               <p class="product-title">Reveal Collection</p>
               <div class="product-list">
-                <div class="product-item">
-                  <div class="product-image">
-                    <router-link to="/accessories_detail">
-                      <img
-                        src="assets/images/accessories/accessories-7.png"
-                        alt="REVEAL ESPRESSO MILD GLASSES"
-                      />
-                    </router-link>
-                    <p class="product-name">REVEAL ESPRESSO MILD GLASSES</p>
-                  </div>
-                  <div class="product-content">
-                    <span class="product-price">₫750,000</span>
-                    <button class="product-add">
-                      <svg
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          fill-rule="evenodd"
-                          clip-rule="evenodd"
-                          d="M8 3.75C8 1.67889 9.67889 0 11.75 0C13.8211 0 15.5 1.67889 15.5 3.75V6H20.75L21.5 24H2L2.75 6H8V3.75ZM8.75 6H14.75V3.75C14.75 2.09317 13.4068 0.75 11.75 0.75C10.0932 0.75 8.75 2.09317 8.75 3.75V6Z"
-                          fill="white"
-                        />
-                      </svg>
-                      <span>Ask to basket</span>
-                    </button>
-                  </div>
-                </div>
-
-                <div class="product-item">
-                  <div class="product-image">
-                    <router-link to="/accessories_detail">
-                      <img
-                        src="assets/images/accessories/accessories-8.png"
-                        alt="REVEAL LUNGO"
-                      />
-                    </router-link>
-                    <p class="product-name">REVEAL LUNGO</p>
-                  </div>
-                  <div class="product-content">
-                    <span class="product-price">₫830,000</span>
-                    <button class="product-add">
-                      <svg
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          fill-rule="evenodd"
-                          clip-rule="evenodd"
-                          d="M8 3.75C8 1.67889 9.67889 0 11.75 0C13.8211 0 15.5 1.67889 15.5 3.75V6H20.75L21.5 24H2L2.75 6H8V3.75ZM8.75 6H14.75V3.75C14.75 2.09317 13.4068 0.75 11.75 0.75C10.0932 0.75 8.75 2.09317 8.75 3.75V6Z"
-                          fill="white"
-                        />
-                      </svg>
-                      <span>Ask to basket</span>
-                    </button>
-                  </div>
-                </div>
-
-                <div class="product-item">
-                  <div class="product-image">
-                    <router-link to="/accessories_detail">
-                      <img
-                        src="assets/images/accessories/accessories-7.png"
-                        alt="REVEAL ESPRESSO INTENSE GLASSES"
-                      />
-                    </router-link>
-                    <p class="product-name">REVEAL ESPRESSO INTENSE GLASSES</p>
-                  </div>
-                  <div class="product-content">
-                    <span class="product-price">₫980,000</span>
-                    <button class="product-add">
-                      <svg
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          fill-rule="evenodd"
-                          clip-rule="evenodd"
-                          d="M8 3.75C8 1.67889 9.67889 0 11.75 0C13.8211 0 15.5 1.67889 15.5 3.75V6H20.75L21.5 24H2L2.75 6H8V3.75ZM8.75 6H14.75V3.75C14.75 2.09317 13.4068 0.75 11.75 0.75C10.0932 0.75 8.75 2.09317 8.75 3.75V6Z"
-                          fill="white"
-                        />
-                      </svg>
-                      <span>Ask to basket</span>
-                    </button>
-                  </div>
-                </div>
+                <ProductAccessoriesItem v-bind:data="dataRevealCollection" />
               </div>
             </div>
           </div>
@@ -551,37 +230,7 @@ export default defineComponent({
             <div class="container">
               <p class="product-title">Maintenance</p>
               <div class="product-list">
-                <div class="product-item">
-                  <div class="product-image">
-                    <router-link to="/accessories_detail">
-                      <img
-                        src="assets/images/accessories/accessories-9.png"
-                        alt="DESCALING KIT"
-                      />
-                    </router-link>
-                    <p class="product-name">DESCALING KIT</p>
-                  </div>
-                  <div class="product-content">
-                    <span class="product-price">₫138,000</span>
-                    <button class="product-add">
-                      <svg
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          fill-rule="evenodd"
-                          clip-rule="evenodd"
-                          d="M8 3.75C8 1.67889 9.67889 0 11.75 0C13.8211 0 15.5 1.67889 15.5 3.75V6H20.75L21.5 24H2L2.75 6H8V3.75ZM8.75 6H14.75V3.75C14.75 2.09317 13.4068 0.75 11.75 0.75C10.0932 0.75 8.75 2.09317 8.75 3.75V6Z"
-                          fill="white"
-                        />
-                      </svg>
-                      <span>Ask to basket</span>
-                    </button>
-                  </div>
-                </div>
+                <ProductAccessoriesItem v-bind:data="dataMaintenance" />
               </div>
             </div>
           </div>
@@ -592,133 +241,7 @@ export default defineComponent({
             <div class="container">
               <p class="product-title">Nude Collection</p>
               <div class="product-list">
-                <div class="product-item">
-                  <div class="product-image">
-                    <router-link to="/accessories_detail">
-                      <img
-                        src="assets/images/accessories/accessories-10.png"
-                        alt="NUDE ESPRESSO CUPS X 2 (80ML)"
-                      />
-                    </router-link>
-                    <p class="product-name">NUDE ESPRESSO CUPS X 2 (80ML)</p>
-                  </div>
-                  <div class="product-content">
-                    <span class="product-price">₫550,000</span>
-                    <button class="product-add">
-                      <svg
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          fill-rule="evenodd"
-                          clip-rule="evenodd"
-                          d="M8 3.75C8 1.67889 9.67889 0 11.75 0C13.8211 0 15.5 1.67889 15.5 3.75V6H20.75L21.5 24H2L2.75 6H8V3.75ZM8.75 6H14.75V3.75C14.75 2.09317 13.4068 0.75 11.75 0.75C10.0932 0.75 8.75 2.09317 8.75 3.75V6Z"
-                          fill="white"
-                        />
-                      </svg>
-                      <span>Ask to basket</span>
-                    </button>
-                  </div>
-                </div>
-
-                <div class="product-item">
-                  <div class="product-image">
-                    <router-link to="/accessories_detail">
-                      <img
-                        src="assets/images/accessories/accessories-11.png"
-                        alt="NUDE LUNGO CUPS X 2 (180ML)"
-                      />
-                    </router-link>
-                    <p class="product-name">NUDE LUNGO CUPS X 2 (180ML)</p>
-                  </div>
-                  <div class="product-content">
-                    <span class="product-price">₫660,000</span>
-                    <button class="product-add">
-                      <svg
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          fill-rule="evenodd"
-                          clip-rule="evenodd"
-                          d="M8 3.75C8 1.67889 9.67889 0 11.75 0C13.8211 0 15.5 1.67889 15.5 3.75V6H20.75L21.5 24H2L2.75 6H8V3.75ZM8.75 6H14.75V3.75C14.75 2.09317 13.4068 0.75 11.75 0.75C10.0932 0.75 8.75 2.09317 8.75 3.75V6Z"
-                          fill="white"
-                        />
-                      </svg>
-                      <span>Ask to basket</span>
-                    </button>
-                  </div>
-                </div>
-
-                <div class="product-item">
-                  <div class="product-image">
-                    <router-link to="/accessories_detail">
-                      <img
-                        src="assets/images/accessories/accessories-12.png"
-                        alt="NUDE GRAN LUNGO CUPS X 2 (270ML)"
-                      />
-                    </router-link>
-                    <p class="product-name">NUDE GRAN LUNGO CUPS X 2 (270ML)</p>
-                  </div>
-                  <div class="product-content">
-                    <span class="product-price">₫460,000</span>
-                    <button class="product-add">
-                      <svg
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          fill-rule="evenodd"
-                          clip-rule="evenodd"
-                          d="M8 3.75C8 1.67889 9.67889 0 11.75 0C13.8211 0 15.5 1.67889 15.5 3.75V6H20.75L21.5 24H2L2.75 6H8V3.75ZM8.75 6H14.75V3.75C14.75 2.09317 13.4068 0.75 11.75 0.75C10.0932 0.75 8.75 2.09317 8.75 3.75V6Z"
-                          fill="white"
-                        />
-                      </svg>
-                      <span>Ask to basket</span>
-                    </button>
-                  </div>
-                </div>
-
-                <div class="product-item">
-                  <div class="product-image">
-                    <router-link to="/accessories_detail">
-                      <img
-                        src="assets/images/accessories/accessories-13.png"
-                        alt="NUDE MUGS X 2 (390ML)"
-                      />
-                    </router-link>
-                    <p class="product-name">NUDE MUGS X 2 (390ML)</p>
-                  </div>
-                  <div class="product-content">
-                    <span class="product-price">₫850,000</span>
-                    <button class="product-add">
-                      <svg
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          fill-rule="evenodd"
-                          clip-rule="evenodd"
-                          d="M8 3.75C8 1.67889 9.67889 0 11.75 0C13.8211 0 15.5 1.67889 15.5 3.75V6H20.75L21.5 24H2L2.75 6H8V3.75ZM8.75 6H14.75V3.75C14.75 2.09317 13.4068 0.75 11.75 0.75C10.0932 0.75 8.75 2.09317 8.75 3.75V6Z"
-                          fill="white"
-                        />
-                      </svg>
-                      <span>Ask to basket</span>
-                    </button>
-                  </div>
-                </div>
+                <ProductAccessoriesItem v-bind:data="dataNudeCollection" />
               </div>
             </div>
           </div>
@@ -729,273 +252,7 @@ export default defineComponent({
             <div class="container">
               <p class="product-title">Pixie Collection</p>
               <div class="product-list">
-                <div class="product-item">
-                  <div class="product-image">
-                    <router-link to="/accessories_detail">
-                      <img
-                        src="assets/images/accessories/accessories-14.png"
-                        alt="PIXIE ESPRESSO SET (RISTRETTO & DECAFFEINATO)"
-                      />
-                    </router-link>
-                    <p class="product-name">
-                      PIXIE ESPRESSO SET (RISTRETTO & DECAFFEINATO)
-                    </p>
-                  </div>
-                  <div class="product-content">
-                    <span class="product-price">₫750,000</span>
-                    <button class="product-add">
-                      <svg
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          fill-rule="evenodd"
-                          clip-rule="evenodd"
-                          d="M8 3.75C8 1.67889 9.67889 0 11.75 0C13.8211 0 15.5 1.67889 15.5 3.75V6H20.75L21.5 24H2L2.75 6H8V3.75ZM8.75 6H14.75V3.75C14.75 2.09317 13.4068 0.75 11.75 0.75C10.0932 0.75 8.75 2.09317 8.75 3.75V6Z"
-                          fill="white"
-                        />
-                      </svg>
-                      <span>Ask to basket</span>
-                    </button>
-                  </div>
-                </div>
-
-                <div class="product-item">
-                  <div class="product-image">
-                    <router-link to="/accessories_detail">
-                      <img
-                        src="assets/images/accessories/accessories-15.png"
-                        alt="PIXIE ESPRESSO SET (ARPEGGIO & VOLLUTO)"
-                      />
-                    </router-link>
-                    <p class="product-name">
-                      PIXIE ESPRESSO SET (ARPEGGIO & VOLLUTO)
-                    </p>
-                  </div>
-                  <div class="product-content">
-                    <span class="product-price">₫830,000</span>
-                    <button class="product-add">
-                      <svg
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          fill-rule="evenodd"
-                          clip-rule="evenodd"
-                          d="M8 3.75C8 1.67889 9.67889 0 11.75 0C13.8211 0 15.5 1.67889 15.5 3.75V6H20.75L21.5 24H2L2.75 6H8V3.75ZM8.75 6H14.75V3.75C14.75 2.09317 13.4068 0.75 11.75 0.75C10.0932 0.75 8.75 2.09317 8.75 3.75V6Z"
-                          fill="white"
-                        />
-                      </svg>
-                      <span>Ask to basket</span>
-                    </button>
-                  </div>
-                </div>
-
-                <div class="product-item">
-                  <div class="product-image">
-                    <router-link to="/accessories_detail">
-                      <img
-                        src="assets/images/accessories/accessories-16.png"
-                        alt="PIXIE LUNGO SET (ENVIVO & LINIZIO)"
-                      />
-                    </router-link>
-                    <p class="product-name">
-                      PIXIE LUNGO SET (ENVIVO & LINIZIO)
-                    </p>
-                  </div>
-                  <div class="product-content">
-                    <span class="product-price">₫980,000</span>
-                    <button class="product-add">
-                      <svg
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          fill-rule="evenodd"
-                          clip-rule="evenodd"
-                          d="M8 3.75C8 1.67889 9.67889 0 11.75 0C13.8211 0 15.5 1.67889 15.5 3.75V6H20.75L21.5 24H2L2.75 6H8V3.75ZM8.75 6H14.75V3.75C14.75 2.09317 13.4068 0.75 11.75 0.75C10.0932 0.75 8.75 2.09317 8.75 3.75V6Z"
-                          fill="white"
-                        />
-                      </svg>
-                      <span>Ask to basket</span>
-                    </button>
-                  </div>
-                </div>
-
-                <div class="product-item">
-                  <div class="product-image">
-                    <router-link to="/accessories_detail">
-                      <img
-                        src="assets/images/accessories/accessories-17.png"
-                        alt="PIXIE LUNGO SET (BUENOS AIRES & SHANGHAI)"
-                      />
-                    </router-link>
-                    <p class="product-name">
-                      PIXIE LUNGO SET (BUENOS AIRES & SHANGHAI)
-                    </p>
-                  </div>
-                  <div class="product-content">
-                    <span class="product-price">₫3,700,000</span>
-                    <button class="product-add">
-                      <svg
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          fill-rule="evenodd"
-                          clip-rule="evenodd"
-                          d="M8 3.75C8 1.67889 9.67889 0 11.75 0C13.8211 0 15.5 1.67889 15.5 3.75V6H20.75L21.5 24H2L2.75 6H8V3.75ZM8.75 6H14.75V3.75C14.75 2.09317 13.4068 0.75 11.75 0.75C10.0932 0.75 8.75 2.09317 8.75 3.75V6Z"
-                          fill="white"
-                        />
-                      </svg>
-                      <span>Ask to basket</span>
-                    </button>
-                  </div>
-                </div>
-
-                <div class="product-item">
-                  <div class="product-image">
-                    <router-link to="/accessories_detail">
-                      <img
-                        src="assets/images/accessories/accessories-18.png"
-                        alt="PIXIE LUNGO SET (FORTISSIO & VIVALTO)"
-                      />
-                    </router-link>
-                    <p class="product-name">
-                      PIXIE LUNGO SET (FORTISSIO & VIVALTO)
-                    </p>
-                  </div>
-                  <div class="product-content">
-                    <span class="product-price">₫750,000</span>
-                    <button class="product-add">
-                      <svg
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          fill-rule="evenodd"
-                          clip-rule="evenodd"
-                          d="M8 3.75C8 1.67889 9.67889 0 11.75 0C13.8211 0 15.5 1.67889 15.5 3.75V6H20.75L21.5 24H2L2.75 6H8V3.75ZM8.75 6H14.75V3.75C14.75 2.09317 13.4068 0.75 11.75 0.75C10.0932 0.75 8.75 2.09317 8.75 3.75V6Z"
-                          fill="white"
-                        />
-                      </svg>
-                      <span>Ask to basket</span>
-                    </button>
-                  </div>
-                </div>
-
-                <div class="product-item">
-                  <div class="product-image">
-                    <router-link to="/accessories_detail">
-                      <img
-                        src="assets/images/accessories/accessories-19.png"
-                        alt="PIXIE ESPRESSO CUP, RIO DE JANEIRO"
-                      />
-                    </router-link>
-                    <p class="product-name">
-                      PIXIE ESPRESSO CUP, RIO DE JANEIRO
-                    </p>
-                  </div>
-                  <div class="product-content">
-                    <span class="product-price">₫830,000</span>
-                    <button class="product-add">
-                      <svg
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          fill-rule="evenodd"
-                          clip-rule="evenodd"
-                          d="M8 3.75C8 1.67889 9.67889 0 11.75 0C13.8211 0 15.5 1.67889 15.5 3.75V6H20.75L21.5 24H2L2.75 6H8V3.75ZM8.75 6H14.75V3.75C14.75 2.09317 13.4068 0.75 11.75 0.75C10.0932 0.75 8.75 2.09317 8.75 3.75V6Z"
-                          fill="white"
-                        />
-                      </svg>
-                      <span>Ask to basket</span>
-                    </button>
-                  </div>
-                </div>
-
-                <div class="product-item">
-                  <div class="product-image">
-                    <router-link to="/accessories_detail">
-                      <img
-                        src="assets/images/accessories/accessories-20.png"
-                        alt="PIXIE ESPRESSO CUP, PARIS"
-                      />
-                    </router-link>
-                    <p class="product-name">PIXIE ESPRESSO CUP, PARIS</p>
-                  </div>
-                  <div class="product-content">
-                    <span class="product-price">₫980,000</span>
-                    <button class="product-add">
-                      <svg
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          fill-rule="evenodd"
-                          clip-rule="evenodd"
-                          d="M8 3.75C8 1.67889 9.67889 0 11.75 0C13.8211 0 15.5 1.67889 15.5 3.75V6H20.75L21.5 24H2L2.75 6H8V3.75ZM8.75 6H14.75V3.75C14.75 2.09317 13.4068 0.75 11.75 0.75C10.0932 0.75 8.75 2.09317 8.75 3.75V6Z"
-                          fill="white"
-                        />
-                      </svg>
-                      <span>Ask to basket</span>
-                    </button>
-                  </div>
-                </div>
-
-                <div class="product-item">
-                  <div class="product-image">
-                    <router-link to="/accessories_detail">
-                      <img
-                        src="assets/images/accessories/accessories-21.png"
-                        alt="PIXIE ESPRESSO CUP, ISTANBUL"
-                      />
-                    </router-link>
-                    <p class="product-name">PIXIE ESPRESSO CUP, ISTANBUL</p>
-                  </div>
-                  <div class="product-content">
-                    <span class="product-price">₫3,700,000</span>
-                    <button class="product-add">
-                      <svg
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          fill-rule="evenodd"
-                          clip-rule="evenodd"
-                          d="M8 3.75C8 1.67889 9.67889 0 11.75 0C13.8211 0 15.5 1.67889 15.5 3.75V6H20.75L21.5 24H2L2.75 6H8V3.75ZM8.75 6H14.75V3.75C14.75 2.09317 13.4068 0.75 11.75 0.75C10.0932 0.75 8.75 2.09317 8.75 3.75V6Z"
-                          fill="white"
-                        />
-                      </svg>
-                      <span>Ask to basket</span>
-                    </button>
-                  </div>
-                </div>
+                <ProductAccessoriesItem v-bind:data="dataPixieCollection" />
               </div>
             </div>
           </div>
@@ -1006,203 +263,7 @@ export default defineComponent({
             <div class="container">
               <p class="product-title">Display Collection</p>
               <div class="product-list">
-                <div class="product-item">
-                  <div class="product-image">
-                    <router-link to="/accessories_detail">
-                      <img
-                        src="assets/images/accessories/accessories-22.png"
-                        alt="DISPLAY DISCOVERY BOX"
-                      />
-                    </router-link>
-                    <p class="product-name">DISPLAY DISCOVERY BOX</p>
-                  </div>
-                  <div class="product-content">
-                    <span class="product-price">₫1,200,000</span>
-                    <button class="product-add">
-                      <svg
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          fill-rule="evenodd"
-                          clip-rule="evenodd"
-                          d="M8 3.75C8 1.67889 9.67889 0 11.75 0C13.8211 0 15.5 1.67889 15.5 3.75V6H20.75L21.5 24H2L2.75 6H8V3.75ZM8.75 6H14.75V3.75C14.75 2.09317 13.4068 0.75 11.75 0.75C10.0932 0.75 8.75 2.09317 8.75 3.75V6Z"
-                          fill="white"
-                        />
-                      </svg>
-                      <span>Ask to basket</span>
-                    </button>
-                  </div>
-                </div>
-
-                <div class="product-item">
-                  <div class="product-image">
-                    <router-link to="/accessories_detail">
-                      <img
-                        src="assets/images/accessories/accessories-23.png"
-                        alt="DISPLAY BONBONNIERE CAPSULE DISPENSER"
-                      />
-                    </router-link>
-                    <p class="product-name">
-                      DISPLAY BONBONNIERE CAPSULE DISPENSER
-                    </p>
-                  </div>
-                  <div class="product-content">
-                    <span class="product-price">₫480,000</span>
-                    <button class="product-add">
-                      <svg
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          fill-rule="evenodd"
-                          clip-rule="evenodd"
-                          d="M8 3.75C8 1.67889 9.67889 0 11.75 0C13.8211 0 15.5 1.67889 15.5 3.75V6H20.75L21.5 24H2L2.75 6H8V3.75ZM8.75 6H14.75V3.75C14.75 2.09317 13.4068 0.75 11.75 0.75C10.0932 0.75 8.75 2.09317 8.75 3.75V6Z"
-                          fill="white"
-                        />
-                      </svg>
-                      <span>Ask to basket</span>
-                    </button>
-                  </div>
-                </div>
-
-                <div class="product-item">
-                  <div class="product-image">
-                    <router-link to="/accessories_detail">
-                      <img
-                        src="assets/images/accessories/accessories-24.png"
-                        alt="DISPLAY CUBE CAPSULE DISPENSER"
-                      />
-                    </router-link>
-                    <p class="product-name">DISPLAY CUBE CAPSULE DISPENSER</p>
-                  </div>
-                  <div class="product-content">
-                    <span class="product-price">₫583,000</span>
-                    <button class="product-add">
-                      <svg
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          fill-rule="evenodd"
-                          clip-rule="evenodd"
-                          d="M8 3.75C8 1.67889 9.67889 0 11.75 0C13.8211 0 15.5 1.67889 15.5 3.75V6H20.75L21.5 24H2L2.75 6H8V3.75ZM8.75 6H14.75V3.75C14.75 2.09317 13.4068 0.75 11.75 0.75C10.0932 0.75 8.75 2.09317 8.75 3.75V6Z"
-                          fill="white"
-                        />
-                      </svg>
-                      <span>Ask to basket</span>
-                    </button>
-                  </div>
-                </div>
-
-                <div class="product-item">
-                  <div class="product-image">
-                    <router-link to="/accessories_detail">
-                      <img
-                        src="assets/images/accessories/accessories-25.png"
-                        alt="DISPLAY VERSILO CAPSULE DISPENSER"
-                      />
-                    </router-link>
-                    <p class="product-name">
-                      DISPLAY VERSILO CAPSULE DISPENSER
-                    </p>
-                  </div>
-                  <div class="product-content">
-                    <span class="product-price">₫1,100,000</span>
-                    <button class="product-add">
-                      <svg
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          fill-rule="evenodd"
-                          clip-rule="evenodd"
-                          d="M8 3.75C8 1.67889 9.67889 0 11.75 0C13.8211 0 15.5 1.67889 15.5 3.75V6H20.75L21.5 24H2L2.75 6H8V3.75ZM8.75 6H14.75V3.75C14.75 2.09317 13.4068 0.75 11.75 0.75C10.0932 0.75 8.75 2.09317 8.75 3.75V6Z"
-                          fill="white"
-                        />
-                      </svg>
-                      <span>Ask to basket</span>
-                    </button>
-                  </div>
-                </div>
-
-                <div class="product-item">
-                  <div class="product-image">
-                    <router-link to="/accessories_detail">
-                      <img
-                        src="assets/images/accessories/accessories-26.png"
-                        alt="DISPLAY PURE ROCK CAPSULE DISPENSER"
-                      />
-                    </router-link>
-                    <p class="product-name">
-                      DISPLAY PURE ROCK CAPSULE DISPENSER
-                    </p>
-                  </div>
-                  <div class="product-content">
-                    <span class="product-price">₫820,000</span>
-                    <button class="product-add">
-                      <svg
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          fill-rule="evenodd"
-                          clip-rule="evenodd"
-                          d="M8 3.75C8 1.67889 9.67889 0 11.75 0C13.8211 0 15.5 1.67889 15.5 3.75V6H20.75L21.5 24H2L2.75 6H8V3.75ZM8.75 6H14.75V3.75C14.75 2.09317 13.4068 0.75 11.75 0.75C10.0932 0.75 8.75 2.09317 8.75 3.75V6Z"
-                          fill="white"
-                        />
-                      </svg>
-                      <span>Ask to basket</span>
-                    </button>
-                  </div>
-                </div>
-
-                <div class="product-item">
-                  <div class="product-image">
-                    <router-link to="/accessories_detail">
-                      <img
-                        src="assets/images/accessories/accessories-27.png"
-                        alt="DISPLAY MIA CAPSULE DISPENSER"
-                      />
-                    </router-link>
-                    <p class="product-name">DISPLAY MIA CAPSULE DISPENSER</p>
-                  </div>
-                  <div class="product-content">
-                    <span class="product-price">₫640,000</span>
-                    <button class="product-add">
-                      <svg
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          fill-rule="evenodd"
-                          clip-rule="evenodd"
-                          d="M8 3.75C8 1.67889 9.67889 0 11.75 0C13.8211 0 15.5 1.67889 15.5 3.75V6H20.75L21.5 24H2L2.75 6H8V3.75ZM8.75 6H14.75V3.75C14.75 2.09317 13.4068 0.75 11.75 0.75C10.0932 0.75 8.75 2.09317 8.75 3.75V6Z"
-                          fill="white"
-                        />
-                      </svg>
-                      <span>Ask to basket</span>
-                    </button>
-                  </div>
-                </div>
+                <ProductAccessoriesItem v-bind:data="dataDisplayCollection" />
               </div>
             </div>
           </div>
@@ -1213,37 +274,7 @@ export default defineComponent({
             <div class="container">
               <p class="product-title">Ice Tray</p>
               <div class="product-list">
-                <div class="product-item">
-                  <div class="product-image">
-                    <router-link to="/accessories_detail">
-                      <img
-                        src="assets/images/accessories/accessories-28.png"
-                        alt="ICE CUBE TRAYS KIT"
-                      />
-                    </router-link>
-                    <p class="product-name">ICE CUBE TRAYS KIT</p>
-                  </div>
-                  <div class="product-content">
-                    <span class="product-price">₫620,000</span>
-                    <button class="product-add">
-                      <svg
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          fill-rule="evenodd"
-                          clip-rule="evenodd"
-                          d="M8 3.75C8 1.67889 9.67889 0 11.75 0C13.8211 0 15.5 1.67889 15.5 3.75V6H20.75L21.5 24H2L2.75 6H8V3.75ZM8.75 6H14.75V3.75C14.75 2.09317 13.4068 0.75 11.75 0.75C10.0932 0.75 8.75 2.09317 8.75 3.75V6Z"
-                          fill="white"
-                        />
-                      </svg>
-                      <span>Ask to basket</span>
-                    </button>
-                  </div>
-                </div>
+                <ProductAccessoriesItem v-bind:data="dataIceTray1" />
               </div>
             </div>
           </div>
@@ -1254,37 +285,7 @@ export default defineComponent({
             <div class="container">
               <p class="product-title">Ice Tray</p>
               <div class="product-list">
-                <div class="product-item">
-                  <div class="product-image">
-                    <router-link to="/accessories_detail">
-                      <img
-                        src="assets/images/accessories/accessories-29.png"
-                        alt="RECYCLAY ESPRESSO CUPS"
-                      />
-                    </router-link>
-                    <p class="product-name">RECYCLAY ESPRESSO CUPS</p>
-                  </div>
-                  <div class="product-content">
-                    <span class="product-price">₫1,200,000</span>
-                    <button class="product-add">
-                      <svg
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          fill-rule="evenodd"
-                          clip-rule="evenodd"
-                          d="M8 3.75C8 1.67889 9.67889 0 11.75 0C13.8211 0 15.5 1.67889 15.5 3.75V6H20.75L21.5 24H2L2.75 6H8V3.75ZM8.75 6H14.75V3.75C14.75 2.09317 13.4068 0.75 11.75 0.75C10.0932 0.75 8.75 2.09317 8.75 3.75V6Z"
-                          fill="white"
-                        />
-                      </svg>
-                      <span>Ask to basket</span>
-                    </button>
-                  </div>
-                </div>
+                <ProductAccessoriesItem v-bind:data="dataIceTray2" />
               </div>
             </div>
           </div>
@@ -1295,229 +296,7 @@ export default defineComponent({
             <div class="container">
               <p class="product-title">View Collection</p>
               <div class="product-list">
-                <div class="product-item">
-                  <div class="product-image">
-                    <router-link to="/accessories_detail">
-                      <img
-                        src="assets/images/accessories/accessories-30.png"
-                        alt="VIEW CAPPUCCINO SET"
-                      />
-                    </router-link>
-                    <p class="product-name">VIEW CAPPUCCINO SET</p>
-                  </div>
-                  <div class="product-content">
-                    <span class="product-price">₫720,000</span>
-                    <button class="product-add">
-                      <svg
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          fill-rule="evenodd"
-                          clip-rule="evenodd"
-                          d="M8 3.75C8 1.67889 9.67889 0 11.75 0C13.8211 0 15.5 1.67889 15.5 3.75V6H20.75L21.5 24H2L2.75 6H8V3.75ZM8.75 6H14.75V3.75C14.75 2.09317 13.4068 0.75 11.75 0.75C10.0932 0.75 8.75 2.09317 8.75 3.75V6Z"
-                          fill="white"
-                        />
-                      </svg>
-                      <span>Ask to basket</span>
-                    </button>
-                  </div>
-                </div>
-
-                <div class="product-item">
-                  <div class="product-image">
-                    <router-link to="/accessories_detail">
-                      <img
-                        src="assets/images/accessories/accessories-31.png"
-                        alt="VIEW RECIPE GLASSES SET"
-                      />
-                    </router-link>
-                    <p class="product-name">VIEW RECIPE GLASSES SET</p>
-                  </div>
-                  <div class="product-content">
-                    <span class="product-price">₫350,000</span>
-                    <button class="product-add">
-                      <svg
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          fill-rule="evenodd"
-                          clip-rule="evenodd"
-                          d="M8 3.75C8 1.67889 9.67889 0 11.75 0C13.8211 0 15.5 1.67889 15.5 3.75V6H20.75L21.5 24H2L2.75 6H8V3.75ZM8.75 6H14.75V3.75C14.75 2.09317 13.4068 0.75 11.75 0.75C10.0932 0.75 8.75 2.09317 8.75 3.75V6Z"
-                          fill="white"
-                        />
-                      </svg>
-                      <span>Ask to basket</span>
-                    </button>
-                  </div>
-                </div>
-
-                <div class="product-item">
-                  <div class="product-image">
-                    <router-link to="/accessories_detail">
-                      <img
-                        src="assets/images/accessories/accessories-32.png"
-                        alt="VIEW SPOONS – LARGE X 6"
-                      />
-                    </router-link>
-                    <p class="product-name">VIEW SPOONS – LARGE X 6</p>
-                  </div>
-                  <div class="product-content">
-                    <span class="product-price">₫440,000</span>
-                    <button class="product-add">
-                      <svg
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          fill-rule="evenodd"
-                          clip-rule="evenodd"
-                          d="M8 3.75C8 1.67889 9.67889 0 11.75 0C13.8211 0 15.5 1.67889 15.5 3.75V6H20.75L21.5 24H2L2.75 6H8V3.75ZM8.75 6H14.75V3.75C14.75 2.09317 13.4068 0.75 11.75 0.75C10.0932 0.75 8.75 2.09317 8.75 3.75V6Z"
-                          fill="white"
-                        />
-                      </svg>
-                      <span>Ask to basket</span>
-                    </button>
-                  </div>
-                </div>
-
-                <div class="product-item">
-                  <div class="product-image">
-                    <router-link to="/accessories_detail">
-                      <img
-                        src="assets/images/accessories/accessories-33.png"
-                        alt="VIEW GRAN LUNGO"
-                      />
-                    </router-link>
-                    <p class="product-name">VIEW GRAN LUNGO</p>
-                  </div>
-                  <div class="product-content">
-                    <span class="product-price">₫460,000</span>
-                    <button class="product-add">
-                      <svg
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          fill-rule="evenodd"
-                          clip-rule="evenodd"
-                          d="M8 3.75C8 1.67889 9.67889 0 11.75 0C13.8211 0 15.5 1.67889 15.5 3.75V6H20.75L21.5 24H2L2.75 6H8V3.75ZM8.75 6H14.75V3.75C14.75 2.09317 13.4068 0.75 11.75 0.75C10.0932 0.75 8.75 2.09317 8.75 3.75V6Z"
-                          fill="white"
-                        />
-                      </svg>
-                      <span>Ask to basket</span>
-                    </button>
-                  </div>
-                </div>
-
-                <div class="product-item">
-                  <div class="product-image">
-                    <router-link to="/accessories_detail">
-                      <img
-                        src="assets/images/accessories/accessories-34.png"
-                        alt="VIEW ESPRESSO SET X 2"
-                      />
-                    </router-link>
-                    <p class="product-name">VIEW ESPRESSO SET X 2</p>
-                  </div>
-                  <div class="product-content">
-                    <span class="product-price">₫660,000</span>
-                    <button class="product-add">
-                      <svg
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          fill-rule="evenodd"
-                          clip-rule="evenodd"
-                          d="M8 3.75C8 1.67889 9.67889 0 11.75 0C13.8211 0 15.5 1.67889 15.5 3.75V6H20.75L21.5 24H2L2.75 6H8V3.75ZM8.75 6H14.75V3.75C14.75 2.09317 13.4068 0.75 11.75 0.75C10.0932 0.75 8.75 2.09317 8.75 3.75V6Z"
-                          fill="white"
-                        />
-                      </svg>
-                      <span>Ask to basket</span>
-                    </button>
-                  </div>
-                </div>
-
-                <div class="product-item">
-                  <div class="product-image">
-                    <router-link to="/accessories_detail">
-                      <img
-                        src="assets/images/accessories/accessories-35.png"
-                        alt="VIEW LUNGO SET X 2"
-                      />
-                    </router-link>
-                    <p class="product-name">VIEW LUNGO SET X 2</p>
-                  </div>
-                  <div class="product-content">
-                    <span class="product-price">₫880,000</span>
-                    <button class="product-add">
-                      <svg
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          fill-rule="evenodd"
-                          clip-rule="evenodd"
-                          d="M8 3.75C8 1.67889 9.67889 0 11.75 0C13.8211 0 15.5 1.67889 15.5 3.75V6H20.75L21.5 24H2L2.75 6H8V3.75ZM8.75 6H14.75V3.75C14.75 2.09317 13.4068 0.75 11.75 0.75C10.0932 0.75 8.75 2.09317 8.75 3.75V6Z"
-                          fill="white"
-                        />
-                      </svg>
-                      <span>Ask to basket</span>
-                    </button>
-                  </div>
-                </div>
-
-                <div class="product-item">
-                  <div class="product-image">
-                    <router-link to="/accessories_detail">
-                      <img
-                        src="assets/images/accessories/accessories-36.png"
-                        alt="VIEW RECIPE GLASSES – 12 PIECES"
-                      />
-                    </router-link>
-                    <p class="product-name">VIEW RECIPE GLASSES – 12 PIECES</p>
-                  </div>
-                  <div class="product-content">
-                    <span class="product-price">₫1,800,000</span>
-                    <button class="product-add">
-                      <svg
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          fill-rule="evenodd"
-                          clip-rule="evenodd"
-                          d="M8 3.75C8 1.67889 9.67889 0 11.75 0C13.8211 0 15.5 1.67889 15.5 3.75V6H20.75L21.5 24H2L2.75 6H8V3.75ZM8.75 6H14.75V3.75C14.75 2.09317 13.4068 0.75 11.75 0.75C10.0932 0.75 8.75 2.09317 8.75 3.75V6Z"
-                          fill="white"
-                        />
-                      </svg>
-                      <span>Ask to basket</span>
-                    </button>
-                  </div>
-                </div>
+                <ProductAccessoriesItem v-bind:data="dataViewCollection1" />
               </div>
             </div>
           </div>
@@ -1528,204 +307,12 @@ export default defineComponent({
             <div class="container">
               <p class="product-title">View Collection</p>
               <div class="product-list">
-                <div class="product-item">
-                  <div class="product-image">
-                    <router-link to="/accessories_detail">
-                      <img
-                        src="assets/images/accessories/accessories-37.png"
-                        alt="NOMAD TRAVEL MUG BLOOMING ROSE"
-                      />
-                    </router-link>
-                    <p class="product-name">NOMAD TRAVEL MUG BLOOMING ROSE</p>
-                  </div>
-                  <div class="product-content">
-                    <span class="product-price">₫605,000</span>
-                    <button class="product-add">
-                      <svg
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          fill-rule="evenodd"
-                          clip-rule="evenodd"
-                          d="M8 3.75C8 1.67889 9.67889 0 11.75 0C13.8211 0 15.5 1.67889 15.5 3.75V6H20.75L21.5 24H2L2.75 6H8V3.75ZM8.75 6H14.75V3.75C14.75 2.09317 13.4068 0.75 11.75 0.75C10.0932 0.75 8.75 2.09317 8.75 3.75V6Z"
-                          fill="white"
-                        />
-                      </svg>
-                      <span>Ask to basket</span>
-                    </button>
-                  </div>
-                </div>
-
-                <div class="product-item">
-                  <div class="product-image">
-                    <router-link to="/accessories_detail">
-                      <img
-                        src="assets/images/accessories/accessories-38.png"
-                        alt="NOMAD TRAVEL MUG OCEAN BLUE"
-                      />
-                    </router-link>
-                    <p class="product-name">NOMAD TRAVEL MUG OCEAN BLUE</p>
-                  </div>
-                  <div class="product-content">
-                    <span class="product-price">₫785,000</span>
-                    <button class="product-add">
-                      <svg
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          fill-rule="evenodd"
-                          clip-rule="evenodd"
-                          d="M8 3.75C8 1.67889 9.67889 0 11.75 0C13.8211 0 15.5 1.67889 15.5 3.75V6H20.75L21.5 24H2L2.75 6H8V3.75ZM8.75 6H14.75V3.75C14.75 2.09317 13.4068 0.75 11.75 0.75C10.0932 0.75 8.75 2.09317 8.75 3.75V6Z"
-                          fill="white"
-                        />
-                      </svg>
-                      <span>Ask to basket</span>
-                    </button>
-                  </div>
-                </div>
-
-                <div class="product-item">
-                  <div class="product-image">
-                    <router-link to="/accessories_detail">
-                      <img
-                        src="assets/images/accessories/accessories-39.png"
-                        alt="NOMAD TRAVEL MUG LATTE"
-                      />
-                    </router-link>
-                    <p class="product-name">NOMAD TRAVEL MUG LATTE</p>
-                  </div>
-                  <div class="product-content">
-                    <span class="product-price">₫790,000</span>
-                    <button class="product-add">
-                      <svg
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          fill-rule="evenodd"
-                          clip-rule="evenodd"
-                          d="M8 3.75C8 1.67889 9.67889 0 11.75 0C13.8211 0 15.5 1.67889 15.5 3.75V6H20.75L21.5 24H2L2.75 6H8V3.75ZM8.75 6H14.75V3.75C14.75 2.09317 13.4068 0.75 11.75 0.75C10.0932 0.75 8.75 2.09317 8.75 3.75V6Z"
-                          fill="white"
-                        />
-                      </svg>
-                      <span>Ask to basket</span>
-                    </button>
-                  </div>
-                </div>
-
-                <div class="product-item">
-                  <div class="product-image">
-                    <router-link to="/accessories_detail">
-                      <img
-                        src="assets/images/accessories/accessories-40.png"
-                        alt="NOMAD BOTTLE"
-                      />
-                    </router-link>
-                    <p class="product-name">NOMAD BOTTLE</p>
-                  </div>
-                  <div class="product-content">
-                    <span class="product-price">₫500,000</span>
-                    <button class="product-add">
-                      <svg
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          fill-rule="evenodd"
-                          clip-rule="evenodd"
-                          d="M8 3.75C8 1.67889 9.67889 0 11.75 0C13.8211 0 15.5 1.67889 15.5 3.75V6H20.75L21.5 24H2L2.75 6H8V3.75ZM8.75 6H14.75V3.75C14.75 2.09317 13.4068 0.75 11.75 0.75C10.0932 0.75 8.75 2.09317 8.75 3.75V6Z"
-                          fill="white"
-                        />
-                      </svg>
-                      <span>Ask to basket</span>
-                    </button>
-                  </div>
-                </div>
-
-                <div class="product-item">
-                  <div class="product-image">
-                    <router-link to="/accessories_detail">
-                      <img
-                        src="assets/images/accessories/accessories-41.png"
-                        alt="NOMAD TRAVEL MUG RASPBERRY"
-                      />
-                    </router-link>
-                    <p class="product-name">NOMAD TRAVEL MUG RASPBERRY</p>
-                  </div>
-                  <div class="product-content">
-                    <span class="product-price">₫605,000</span>
-                    <button class="product-add">
-                      <svg
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          fill-rule="evenodd"
-                          clip-rule="evenodd"
-                          d="M8 3.75C8 1.67889 9.67889 0 11.75 0C13.8211 0 15.5 1.67889 15.5 3.75V6H20.75L21.5 24H2L2.75 6H8V3.75ZM8.75 6H14.75V3.75C14.75 2.09317 13.4068 0.75 11.75 0.75C10.0932 0.75 8.75 2.09317 8.75 3.75V6Z"
-                          fill="white"
-                        />
-                      </svg>
-                      <span>Ask to basket</span>
-                    </button>
-                  </div>
-                </div>
-
-                <div class="product-item">
-                  <div class="product-image">
-                    <router-link to="/accessories_detail">
-                      <img
-                        src="assets/images/accessories/accessories-35.png"
-                        alt="VIEW LUNGO SET X 2"
-                      />
-                    </router-link>
-                    <p class="product-name">VIEW LUNGO SET X 2</p>
-                  </div>
-                  <div class="product-content">
-                    <span class="product-price">₫880,000</span>
-                    <button class="product-add">
-                      <svg
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          fill-rule="evenodd"
-                          clip-rule="evenodd"
-                          d="M8 3.75C8 1.67889 9.67889 0 11.75 0C13.8211 0 15.5 1.67889 15.5 3.75V6H20.75L21.5 24H2L2.75 6H8V3.75ZM8.75 6H14.75V3.75C14.75 2.09317 13.4068 0.75 11.75 0.75C10.0932 0.75 8.75 2.09317 8.75 3.75V6Z"
-                          fill="white"
-                        />
-                      </svg>
-                      <span>Ask to basket</span>
-                    </button>
-                  </div>
-                </div>
+                <ProductAccessoriesItem v-bind:data="dataViewCollection2" />
               </div>
             </div>
           </div>
         </section>
       </main>
-      <!-- End Main -->
-      <!-- start footer -->
       <Footer />
     </div>
   </div>

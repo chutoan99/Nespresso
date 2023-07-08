@@ -444,6 +444,11 @@ video {
       font-weight: 600; }
     #Page404 .product-btn:hover {
       background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #3d8705; }
+#Page404 #banner {
+  width: 100%;
+  height: 100%; }
+  #Page404 #banner img {
+    width: 100%; }
 
 /* Mobile: width < 768px */
 @media only screen and (max-width: 47.938em) {

@@ -4,7 +4,6 @@ import Header from "@/containers/Header.vue";
 import NavigationComponent from "@/containers/Nav.vue";
 import Footer from "@/containers/Footer.vue";
 import { defineComponent } from "vue";
-
 export default defineComponent({
   name: "NotPoundPage",
   components: {
@@ -12,7 +11,6 @@ export default defineComponent({
     NavigationComponent,
     Footer,
   },
-  // Add other properties, methods, etc.
 });
 </script>
 
@@ -20,18 +18,12 @@ export default defineComponent({
   <div class="wrapper">
     <div class="wrapper-innner">
       <Header />
-
       <NavigationComponent />
-      <section id="banner">
-        <img
-          src="assets/images/banner-1.png"
-          alt="banner"
-          width="100%"
-          height="100%"
-        />
-      </section>
 
       <main id="Page404">
+        <section id="banner">
+          <img src="assets/images/banner-1.png" alt="banner" />
+        </section>
         <section class="container caption">
           <div>
             <h3 class="caption-title">SORRY, PAGE NOT FOUND</h3>
