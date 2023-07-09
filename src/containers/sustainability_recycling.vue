@@ -42,7 +42,7 @@ export default defineComponent({
         </div>
         <div class="commitment_frame2-right" style="width: 100%; height: 100%">
           <img
-            src="assets/images/sustainability&recycling/commitment_4.png"
+            src="/assets/images/sustainability&recycling/commitment_4.png"
             style="width: 100%; height: 100%"
           />
         </div>
@@ -61,7 +61,7 @@ export default defineComponent({
               <router-link to="">
                 CHECK OUT OUR SUSTAINABILITY REPORT</router-link
               >
-              <img alt="logonew" src="assets/images/LogoN.png" />
+              <img alt="logonew" src="/assets/images/LogoN.png" />
             </button>
           </div>
         </div>
@@ -78,7 +78,7 @@ export default defineComponent({
           </p>
           <div class="commitment_frame3-item-img">
             <img
-              src="assets/images/sustainability&recycling/commitment_12.png"
+              src="/assets/images/sustainability&recycling/commitment_12.png"
               alt=""
               width="100%"
               height="100%"
@@ -95,7 +95,7 @@ export default defineComponent({
           </p>
           <div class="commitment_frame3-item-img">
             <img
-              src="assets/images/sustainability&recycling/commitment_11.png"
+              src="/assets/images/sustainability&recycling/commitment_11.png"
               alt=""
               width="100%"
               height="100%"
@@ -109,7 +109,7 @@ export default defineComponent({
           </p>
           <div class="commitment_frame3-item-img">
             <img
-              src="assets/images/sustainability&recycling/commitment_10.png"
+              src="/assets/images/sustainability&recycling/commitment_10.png"
               alt=""
               width="100%"
               height="100%"
@@ -130,7 +130,7 @@ export default defineComponent({
           <button>
             <router-link to=""> FIND OUT MORE</router-link>
 
-            <img alt="logonew" src="assets/images/LogoN.png" />
+            <img alt="logonew" src="/assets/images/LogoN.png" />
           </button>
         </div>
       </div>
@@ -146,7 +146,7 @@ export default defineComponent({
         </p>
         <div class="commitment_frame3-item-img">
           <img
-            src="assets/images/sustainability&recycling/commitment_9.png"
+            src="/assets/images/sustainability&recycling/commitment_9.png"
             alt=""
             width="100%"
             height="100%"
@@ -160,7 +160,7 @@ export default defineComponent({
         </p>
         <div class="commitment_frame3-item-img">
           <img
-            src="assets/images/sustainability&recycling/commitment_8.png"
+            src="/assets/images/sustainability&recycling/commitment_8.png"
             alt=""
             width="100%"
             height="100%"
@@ -174,7 +174,7 @@ export default defineComponent({
         </p>
         <div class="commitment_frame3-item-img">
           <img
-            src="assets/images/sustainability&recycling/commitment_7.png"
+            src="/assets/images/sustainability&recycling/commitment_7.png"
             alt=""
             width="100%"
             height="100%"
@@ -194,7 +194,7 @@ export default defineComponent({
         <div class="commitment_frame3-btn">
           <button>
             <router-link to=""> FIND OUT MORE</router-link>
-            <img alt="logonew" src="assets/images/LogoN.png" />
+            <img alt="logonew" src="/assets/images/LogoN.png" />
           </button>
         </div>
       </div>
@@ -210,7 +210,7 @@ export default defineComponent({
         </p>
         <div class="commitment_frame3-item-img">
           <img
-            src="assets/images/sustainability&recycling/commitment_6.png"
+            src="/assets/images/sustainability&recycling/commitment_6.png"
             alt=""
             width="100%"
             height="100%"
@@ -228,7 +228,7 @@ export default defineComponent({
         </p>
         <div class="commitment_frame3-item-img">
           <img
-            src="assets/images/sustainability&recycling/commitment_5.png"
+            src="/assets/images/sustainability&recycling/commitment_5.png"
             alt=""
             width="100%"
             height="100%"
@@ -246,7 +246,7 @@ export default defineComponent({
         </p>
         <div class="commitment_frame3-item-img">
           <img
-            src="assets/images/sustainability&recycling/commitment_13.png"
+            src="/assets/images/sustainability&recycling/commitment_13.png"
             alt=""
             width="100%"
             height="100%"

@@ -78,7 +78,7 @@ export default defineComponent({
         <div class="community_frame2-item">
           <div class="community_frame2-item-img">
             <img
-              src="assets/images/sustainability&recycling/community_7.png"
+              src="/assets/images/sustainability&recycling/community_7.png"
               alt="commitment_7"
               width="100%"
               height="100%"
@@ -92,7 +92,7 @@ export default defineComponent({
         <div class="community_frame2-item">
           <div class="community_frame2-item-img">
             <img
-              src="assets/images/sustainability&recycling/community_8.png"
+              src="/assets/images/sustainability&recycling/community_8.png"
               alt="commitment_7"
               width="100%"
               height="100%"
@@ -106,7 +106,7 @@ export default defineComponent({
         <div class="community_frame2-item">
           <div class="community_frame2-item-img">
             <img
-              src="assets/images/sustainability&recycling/community_9.png"
+              src="/assets/images/sustainability&recycling/community_9.png"
               alt="commitment_7"
               width="100%"
               height="100%"
@@ -141,7 +141,7 @@ export default defineComponent({
         <div class="community_frame3-right">
           <div class="community_frame3-right-img">
             <img
-              src="assets/images/sustainability&recycling/community_2.png"
+              src="/assets/images/sustainability&recycling/community_2.png"
               alt=""
             />
           </div>
@@ -183,7 +183,7 @@ export default defineComponent({
             <div class="community_frame4-right">
               <div class="community_frame4-right-img">
                 <img
-                  src="assets/images/sustainability&recycling/community_3.png"
+                  src="/assets/images/sustainability&recycling/community_3.png"
                   alt=""
                 />
               </div>
@@ -212,7 +212,7 @@ export default defineComponent({
             <h3 class="community_frame5-item-heading">INISSIA</h3>
             <div class="community_frame5-item-img">
               <img
-                src="assets/images/sustainability&recycling/community_12.png"
+                src="/assets/images/sustainability&recycling/community_12.png"
                 alt="product"
                 width="160"
                 height="160"
@@ -245,7 +245,7 @@ export default defineComponent({
             <h3 class="community_frame5-item-heading">INISSIA</h3>
             <div class="community_frame5-item-img">
               <img
-                src="assets/images/sustainability&recycling/community_12.png"
+                src="/assets/images/sustainability&recycling/community_12.png"
                 alt="product"
                 width="160"
                 height="160"
@@ -278,7 +278,7 @@ export default defineComponent({
             <h3 class="community_frame5-item-heading">INISSIA</h3>
             <div class="community_frame5-item-img">
               <img
-                src="assets/images/sustainability&recycling/community_12.png"
+                src="/assets/images/sustainability&recycling/community_12.png"
                 alt="product"
                 width="160"
                 height="160"
@@ -311,7 +311,7 @@ export default defineComponent({
             <h3 class="community_frame5-item-heading">INISSIA</h3>
             <div class="community_frame5-item-img">
               <img
-                src="assets/images/sustainability&recycling/community_12.png"
+                src="/assets/images/sustainability&recycling/community_12.png"
                 alt="product"
                 width="160"
                 height="160"
@@ -344,7 +344,7 @@ export default defineComponent({
             <h3 class="community_frame5-item-heading">INISSIA</h3>
             <div class="community_frame5-item-img">
               <img
-                src="assets/images/sustainability&recycling/community_12.png"
+                src="/assets/images/sustainability&recycling/community_12.png"
                 alt="product"
                 width="160"
                 height="160"
@@ -377,7 +377,7 @@ export default defineComponent({
             <h3 class="community_frame5-item-heading">INISSIA</h3>
             <div class="community_frame5-item-img">
               <img
-                src="assets/images/sustainability&recycling/community_12.png"
+                src="/assets/images/sustainability&recycling/community_12.png"
                 alt="product"
                 width="160"
                 height="160"
@@ -427,7 +427,7 @@ export default defineComponent({
         <div class="community_frame2-item">
           <div class="community_frame2-item-img2">
             <img
-              src="assets/images/sustainability&recycling/community_10.png"
+              src="/assets/images/sustainability&recycling/community_10.png"
               alt="commitment_7"
               width="100%"
               height="100%"
@@ -444,7 +444,7 @@ export default defineComponent({
         <div class="community_frame2-item">
           <div class="community_frame2-item-img2">
             <img
-              src="assets/images/sustainability&recycling/community_4.png"
+              src="/assets/images/sustainability&recycling/community_4.png"
               alt="commitment_7"
               width="100%"
               height="100%"
@@ -461,7 +461,7 @@ export default defineComponent({
         <div class="community_frame2-item">
           <div class="community_frame2-item-img2">
             <img
-              src="assets/images/sustainability&recycling/community_5.png"
+              src="/assets/images/sustainability&recycling/community_5.png"
               alt="commitment_7"
               width="100%"
               height="100%"
@@ -486,7 +486,7 @@ export default defineComponent({
         <div class="community_frame2-item">
           <div class="community_frame2-item-img2">
             <img
-              src="assets/images/sustainability&recycling/community_6.png"
+              src="/assets/images/sustainability&recycling/community_6.png"
               alt="commitment_7"
               width="100%"
               height="100%"
@@ -503,7 +503,7 @@ export default defineComponent({
         <div class="community_frame2-item">
           <div class="community_frame2-item-img2">
             <img
-              src="assets/images/sustainability&recycling/community_6.png"
+              src="/assets/images/sustainability&recycling/community_6.png"
               alt="commitment_7"
               width="100%"
               height="100%"
@@ -520,7 +520,7 @@ export default defineComponent({
         <div class="community_frame2-item">
           <div class="community_frame2-item-img2">
             <img
-              src="assets/images/sustainability&recycling/community_6.png"
+              src="/assets/images/sustainability&recycling/community_6.png"
               alt="commitment_7"
               width="100%"
               height="100%"

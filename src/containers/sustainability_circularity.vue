@@ -34,7 +34,7 @@ export default defineComponent({
       <div class="circularity_frame1-img">
         <img
           alt=""
-          src="assets/images/sustainability&recycling/circularity_3.png"
+          src="/assets/images/sustainability&recycling/circularity_3.png"
           height="100%"
         />
       </div>
@@ -73,7 +73,7 @@ export default defineComponent({
       </div>
       <div class="circularity_frame2-right" style="width: 100%; height: 100%">
         <img
-          src="assets/images/sustainability&recycling/circularity_2.png"
+          src="/assets/images/sustainability&recycling/circularity_2.png"
           style="width: 100%; height: 100%"
         />
       </div>
@@ -97,7 +97,7 @@ export default defineComponent({
         </p>
         <div class="circularity_frame3-item-img">
           <img
-            src="assets/images/sustainability&recycling/circularity_5.png"
+            src="/assets/images/sustainability&recycling/circularity_5.png"
             alt=""
             width="100%"
             height="100%"
@@ -111,7 +111,7 @@ export default defineComponent({
         </p>
         <div class="circularity_frame3-item-img">
           <img
-            src="assets/images/sustainability&recycling/circularity_4.png"
+            src="/assets/images/sustainability&recycling/circularity_4.png"
             alt=""
             width="100%"
             height="100%"
@@ -125,7 +125,7 @@ export default defineComponent({
         </p>
         <div class="circularity_frame3-item-img">
           <img
-            src="assets/images/sustainability&recycling/circularity_6.png"
+            src="/assets/images/sustainability&recycling/circularity_6.png"
             alt=""
             width="100%"
             height="100%"

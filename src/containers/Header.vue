@@ -33,8 +33,8 @@ export default defineComponent({
     },
 
     onHandleLogin(): void {
-      // this.IsLoggedInnDropdown = !this.IsLoggedInnDropdown;
-      this.IsSignInDropdown = !this.IsSignInDropdown;
+      this.IsLoggedInnDropdown = !this.IsLoggedInnDropdown;
+      // this.IsSignInDropdown = !this.IsSignInDropdown;
     },
     HandelSubItem(): void {
       this.IsSubList = !this.IsSubList;
@@ -93,7 +93,7 @@ export default defineComponent({
               <!-- List Item 1: Order -->
               <li>
                 <div class="img_coffee-w">
-                  <img alt="coffee" src="assets/images/header/order.png" />
+                  <img alt="coffee" src="/assets/images/header/order.png" />
                 </div>
                 <div class="menu__item-content">
                   <router-link class="menu__item" to="">Order</router-link>
@@ -104,7 +104,7 @@ export default defineComponent({
                 <div class="img_coffee-w">
                   <img
                     alt="coffee"
-                    src="assets/images/header/coffee-capsule.png"
+                    src="/assets/images/header/coffee-capsule.png"
                   />
                 </div>
                 <div class="menu__item-content">
@@ -133,7 +133,7 @@ export default defineComponent({
               <!-- List Item 3: Machine -->
               <li>
                 <div class="img_machine-w">
-                  <img alt="machine" src="assets/images/header/machine.png" />
+                  <img alt="machine" src="/assets/images/header/machine.png" />
                 </div>
                 <div class="menu__item-content">
                   <router-link class="menu__item" to="/machines"
@@ -163,7 +163,7 @@ export default defineComponent({
                 <div class="img_accessories-w">
                   <img
                     alt="accessories"
-                    src="assets/images/header/accessories.png"
+                    src="/assets/images/header/accessories.png"
                   />
                 </div>
                 <div class="menu__item-content">
@@ -194,7 +194,7 @@ export default defineComponent({
                 <div class="img_accessories-w">
                   <img
                     alt="accessories"
-                    src="assets/images/header/Benefits.png"
+                    src="/assets/images/header/Benefits.png"
                   />
                 </div>
                 <div class="menu__item-content">
@@ -224,7 +224,7 @@ export default defineComponent({
               <!-- List Item 6: Sustainability & Recycling -->
               <li>
                 <div class="img_recycle-w">
-                  <img alt="recycle" src="assets/images/header/recycle.png" />
+                  <img alt="recycle" src="/assets/images/header/recycle.png" />
                 </div>
                 <div class="menu__item-content">
                   <router-link class="menu__item" to="/sustainability_recycling"
@@ -253,7 +253,7 @@ export default defineComponent({
               <!-- List Item 7: Services -->
               <li>
                 <div class="img_service-w">
-                  <img alt="service" src="assets/images/header/service.png" />
+                  <img alt="service" src="/assets/images/header/service.png" />
                 </div>
                 <div class="menu__item-content">
                   <router-link class="menu__item" to="/service"
@@ -281,7 +281,10 @@ export default defineComponent({
               <!-- List Item 8: Store Locator -->
               <li>
                 <div class="img_location-w">
-                  <img alt="location" src="assets/images/header/location.png" />
+                  <img
+                    alt="location"
+                    src="/assets/images/header/location.png"
+                  />
                 </div>
                 <div class="menu__item-content">
                   <router-link class="menu__item" to="/store_location"
@@ -309,7 +312,7 @@ export default defineComponent({
               <!-- List Item 9: SContact -->
               <li>
                 <div class="img_contact-w">
-                  <img alt="contact" src="assets/images/header/contact.png" />
+                  <img alt="contact" src="/assets/images/header/contact.png" />
                 </div>
                 <div class="menu__item-content">
                   <router-link class="menu__item" to="/contact_us"
@@ -337,7 +340,7 @@ export default defineComponent({
               <!-- List Item 10: Professional -->
               <li>
                 <div class="img_professional-w">
-                  <img alt="professional" src="assets/images/header/pro.png" />
+                  <img alt="professional" src="/assets/images/header/pro.png" />
                 </div>
                 <div class="menu__item-content">
                   <router-link class="menu__item" to="/professional"
@@ -391,7 +394,7 @@ export default defineComponent({
         </div>
         <router-link to="/">
           <img
-            src="assets/images/logoApp.png"
+            src="/assets/images/logoApp.png"
             alt="logoApp"
             style="width: 100%; height: 100%"
           />
@@ -521,7 +524,7 @@ export default defineComponent({
             <div class="form_result-wrapper">
               <div class="form_search-item">
                 <div class="form_search-item-img">
-                  <img src="assets/images/Rectangle_42.png" alt="" />
+                  <img src="/assets/images/Rectangle_42.png" alt="" />
                 </div>
                 <div class="form_search-item-info">
                   <span>Altissio</span> <span>In</span>
@@ -529,7 +532,7 @@ export default defineComponent({
               </div>
               <div class="form_search-item">
                 <div class="form_search-item-img">
-                  <img src="assets/images/Rectangle_42.png" alt="" />
+                  <img src="/assets/images/Rectangle_42.png" alt="" />
                 </div>
                 <div class="form_search-item-info">
                   <span>Altissio</span> <span>In</span>
@@ -537,7 +540,7 @@ export default defineComponent({
               </div>
               <div class="form_search-item">
                 <div class="form_search-item-img">
-                  <img src="assets/images/Rectangle_42.png" alt="" />
+                  <img src="/assets/images/Rectangle_42.png" alt="" />
                 </div>
                 <div class="form_search-item-info">
                   <span>Altissio</span> <span>In</span>
@@ -611,7 +614,7 @@ export default defineComponent({
                 <li class="dropdown_loggedIn-item">
                   <router-link
                     class="dropdown_loggedIn-item-link"
-                    to="/setting_info"
+                    to="/setting/info"
                   >
                     My account
                   </router-link>
@@ -619,14 +622,14 @@ export default defineComponent({
                 <li class="dropdown_loggedIn-item">
                   <router-link
                     class="dropdown_loggedIn-item-link"
-                    to="/setting_order"
+                    to="/setting/order"
                     >My Orders
                   </router-link>
                 </li>
                 <li class="dropdown_loggedIn-item">
                   <router-link
                     class="dropdown_loggedIn-item-link"
-                    to="/setting_info"
+                    to="/setting/info"
                   >
                     My Personal Information
                   </router-link>
@@ -634,14 +637,14 @@ export default defineComponent({
                 <li class="dropdown_loggedIn-item">
                   <router-link
                     class="dropdown_loggedIn-item-link"
-                    to="/setting_address"
+                    to="/setting/address"
                     >My Address
                   </router-link>
                 </li>
                 <li class="dropdown_loggedIn-item">
                   <router-link
                     class="dropdown_loggedIn-item-link"
-                    to="/setting_machine"
+                    to="/setting/machine"
                   >
                     My Machines
                   </router-link>
@@ -649,7 +652,7 @@ export default defineComponent({
                 <li class="dropdown_loggedIn-item">
                   <router-link
                     class="dropdown_loggedIn-item-link"
-                    to="/setting_contact"
+                    to="/setting/contact"
                   >
                     Contact Preferences
                   </router-link>
@@ -728,7 +731,7 @@ export default defineComponent({
                     <div class="modalCart_body-content">
                       <div class="modalCart_body-content-img">
                         <img
-                          src="assets/images/item_cart.png"
+                          src="/assets/images/item_cart.png"
                           alt="item_cart.png"
                         />
                       </div>

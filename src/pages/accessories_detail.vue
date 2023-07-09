@@ -4,7 +4,6 @@ import Header from "@/containers/Header.vue";
 import NavigationComponent from "@/containers/Nav.vue";
 import Footer from "@/containers/Footer.vue";
 import { defineComponent } from "vue";
-
 export default defineComponent({
   name: "AccessoriesDetailPage",
   components: {
@@ -15,6 +14,23 @@ export default defineComponent({
   data() {
     return {
       isModalOpen: false,
+      dataListCoffee: [
+        {
+          image: "assets/images/accessories/accessories-10.png",
+          name: "NUDE ESPRESSO CUPS X 2 (80ML)",
+          price: "₫550,000",
+        },
+        {
+          image: "assets/images/accessories/accessories-10.png",
+          name: "NUDE ESPRESSO CUPS X 2 (80ML)",
+          price: "₫550,000",
+        },
+        {
+          image: "assets/images/accessories/accessories-10.png",
+          name: "NUDE ESPRESSO CUPS X 2 (80ML)",
+          price: "₫550,000",
+        },
+      ],
     };
   },
   methods: {
@@ -168,20 +184,21 @@ export default defineComponent({
             tasting experience.
           </p>
           <div class="accessories-list">
-            <div class="accessories-item">
+            <div
+              class="accessories-item"
+              v-for="accessory in dataListCoffee"
+              :key="accessory.name"
+            >
               <div class="accessories-item-head">
                 <div class="accessories-item__image">
-                  <img
-                    src="assets/images/accessories/accessories-10.png"
-                    alt=""
-                  />
+                  <img :src="accessory.image" alt="" />
                 </div>
-                <span class="accessories-item__name"
-                  >NUDE ESPRESSO CUPS X 2 (80ML)</span
-                >
+                <span class="accessories-item__name">{{ accessory.name }}</span>
               </div>
               <div class="accessories-item-body">
-                <span class="accessories-item__price">₫550,000</span>
+                <span class="accessories-item__price">{{
+                  accessory.price
+                }}</span>
                 <button class="accessories-item__btn">
                   <svg
                     width="24"
@@ -197,77 +214,6 @@ export default defineComponent({
                       fill="white"
                     />
                   </svg>
-
-                  <span>Ask to basket</span>
-                </button>
-              </div>
-            </div>
-
-            <div class="accessories-item">
-              <div class="accessories-item-head">
-                <div class="accessories-item__image">
-                  <img
-                    src="assets/images/accessories/accessories-10.png"
-                    alt=""
-                  />
-                </div>
-                <span class="accessories-item__name"
-                  >NUDE ESPRESSO CUPS X 2 (80ML)</span
-                >
-              </div>
-              <div class="accessories-item-body">
-                <span class="accessories-item__price">₫550,000</span>
-                <button class="accessories-item__btn">
-                  <svg
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      fill-rule="evenodd"
-                      clip-rule="evenodd"
-                      d="M8 3.75C8 1.67889 9.67889 0 11.75 0C13.8211 0 15.5 1.67889 15.5 3.75V6H20.75L21.5 24H2L2.75 6H8V3.75ZM8.75 6H14.75V3.75C14.75 2.09317 13.4068 0.75 11.75 0.75C10.0932 0.75 8.75 2.09317 8.75 3.75V6Z"
-                      fill="white"
-                    />
-                  </svg>
-
-                  <span>Ask to basket</span>
-                </button>
-              </div>
-            </div>
-
-            <div class="accessories-item">
-              <div class="accessories-item-head">
-                <div class="accessories-item__image">
-                  <img
-                    src="assets/images/accessories/accessories-10.png"
-                    alt=""
-                  />
-                </div>
-                <span class="accessories-item__name"
-                  >NUDE ESPRESSO CUPS X 2 (80ML)</span
-                >
-              </div>
-              <div class="accessories-item-body">
-                <span class="accessories-item__price">₫550,000</span>
-                <button class="accessories-item__btn">
-                  <svg
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      fill-rule="evenodd"
-                      clip-rule="evenodd"
-                      d="M8 3.75C8 1.67889 9.67889 0 11.75 0C13.8211 0 15.5 1.67889 15.5 3.75V6H20.75L21.5 24H2L2.75 6H8V3.75ZM8.75 6H14.75V3.75C14.75 2.09317 13.4068 0.75 11.75 0.75C10.0932 0.75 8.75 2.09317 8.75 3.75V6Z"
-                      fill="white"
-                    />
-                  </svg>
-
                   <span>Ask to basket</span>
                 </button>
               </div>

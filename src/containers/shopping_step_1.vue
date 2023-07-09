@@ -1,11 +1,16 @@
 <script lang="ts">
 import "../css/pages/shopping_bag1.css";
-import Footer from "@/containers/Footer.vue";
-
+import { data_recommen } from "@/utils/data_recommen";
+import ProductRecommenItem from "@/components/product_recommen_item.vue";
 import { defineComponent } from "vue";
 export default defineComponent({
   name: "ShoppingStep1",
-  components: {},
+  components: { ProductRecommenItem },
+  data() {
+    return {
+      dataRecommen: data_recommen,
+    };
+  },
   // Add other properties, methods, etc.
 });
 </script>
@@ -52,7 +57,10 @@ export default defineComponent({
               <div class="shopping_content-body-item">
                 <div class="item_info">
                   <div class="item_info-img">
-                    <img alt="item" src="assets/images/shopping_bag/item.png" />
+                    <img
+                      alt="item"
+                      src="/assets/images/shopping_bag/item.png"
+                    />
                   </div>
                   <span class="item_info-name">Roma</span>
                 </div>
@@ -150,59 +158,7 @@ export default defineComponent({
             Recommended products to complete your orders
           </div>
           <div class="product-list">
-            <div class="product-item">
-              <div class="product-image">
-                <router-link to="/accessories_detail">
-                  <img
-                    src="assets/images/shopping_bag/image_8.png"
-                    alt="REVEAL ESPRESSO MILD GLASSES"
-                  />
-                </router-link>
-                <p class="product-name">Title</p>
-              </div>
-              <div class="product-content">
-                <span class="product-price">₫3,700,000</span>
-                <button class="product-add">
-                  <img src="assets/svgs/icon-plus.svg" alt="" />
-                </button>
-              </div>
-            </div>
-
-            <div class="product-item">
-              <div class="product-image">
-                <router-link to="/accessories_detail">
-                  <img
-                    src="assets/images/shopping_bag/image_8.png"
-                    alt="REVEAL LUNGO"
-                  />
-                </router-link>
-                <p class="product-name">Title</p>
-              </div>
-              <div class="product-content">
-                <span class="product-price">₫3,700,000</span>
-                <button class="product-add">
-                  <img src="assets/svgs/icon-plus.svg" alt="" />
-                </button>
-              </div>
-            </div>
-
-            <div class="product-item">
-              <div class="product-image">
-                <router-link to="/accessories_detail">
-                  <img
-                    src="assets/images/shopping_bag/image_8.png"
-                    alt="REVEAL ESPRESSO INTENSE GLASSES"
-                  />
-                </router-link>
-                <p class="product-name">Title</p>
-              </div>
-              <div class="product-content">
-                <span class="product-price">₫3,700,000</span>
-                <button class="product-add">
-                  <img src="assets/svgs/icon-plus.svg" alt="" />
-                </button>
-              </div>
-            </div>
+            <ProductRecommenItem v-bind:data="dataRecommen" />
           </div>
         </div>
       </div>

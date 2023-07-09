@@ -58,9 +58,6 @@ export default defineComponent({
             <div class="filter-number">
               <span>13 MACHINES</span>
             </div>
-            <!-- <div class="filter-sublabel filter-toggle">
-              <span>Filter</span>
-            </div> -->
           </div>
           <div class="filter-wrapper">
             <div class="filter-button filter-toggle">

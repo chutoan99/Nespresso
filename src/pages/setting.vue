@@ -1,6 +1,6 @@
 <script lang="ts">
 import "../css/pages/setting.css";
-import Header from "@/containers/Header.vue";
+import HeaderCustom from "@/containers/HeaderCustom.vue";
 import NavigationComponent from "@/containers/Nav.vue";
 import Footer from "@/containers/Footer.vue";
 import { defineComponent } from "vue";
@@ -8,7 +8,7 @@ import { defineComponent } from "vue";
 export default defineComponent({
   name: "SettingPage",
   components: {
-    Header,
+    HeaderCustom,
     NavigationComponent,
     Footer,
   },
@@ -18,10 +18,8 @@ export default defineComponent({
 <template>
   <div class="wrapper">
     <div class="wrapper-innner">
-      <Header />
-      <!-- Header -->
+      <HeaderCustom />
       <NavigationComponent />
-      <!-- Navigation -->
       <main id="setting">
         <div class="container setting">
           <aside class="setting_aside">
@@ -273,9 +271,7 @@ export default defineComponent({
           </div>
         </div>
       </main>
-
       <Footer />
-      <!-- Footer -->
     </div>
   </div>
 </template>

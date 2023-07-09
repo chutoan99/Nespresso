@@ -12,6 +12,37 @@ export default defineComponent({
     NavigationComponent,
     Footer,
   },
+
+  data() {
+    return {
+      tabs: [
+        { value: "commitment", label: "COMMITMENT", isActive: true },
+        { value: "bcorp", label: "B CORP", isActive: false },
+        { value: "circularity", label: "CIRCULARITY", isActive: false },
+        { value: "climate", label: "CLIMATE", isActive: false },
+        { value: "community", label: "COMMUNITY", isActive: false },
+      ],
+      activeTab: "",
+    };
+  },
+  computed: {
+    category(): string {
+      const pathSegments = this.$route.path.split("/");
+      return pathSegments[pathSegments.length - 1];
+    },
+    isActive(): (value: string) => boolean {
+      return (value: string) => this.activeTab === value;
+    },
+  },
+  watch: {
+    category(newCategory: string) {
+      this.activeTab = newCategory;
+    },
+  },
+  mounted() {
+    this.activeTab = this.category;
+    console.log(this.category);
+  },
 });
 </script>
 
@@ -22,23 +53,15 @@ export default defineComponent({
       <NavigationComponent />
       <section id="tabs">
         <div class="tabs">
-          <router-link to="/sustainability_recycling" class="tabs_heading"
-            >COMMITMENT</router-link
-          >
           <router-link
-            to="/sustainability_bcorp "
-            class="tabs_heading tab_active"
-            >B CORP</router-link
+            v-for="tab in tabs"
+            :key="tab.value"
+            :to="`/sustainability/${tab.value}`"
+            class="tabs_heading"
+            :class="{ tab_active: isActive(tab.value) }"
           >
-          <router-link to="/sustainability_circularity" class="tabs_heading"
-            >CIRCULARITY</router-link
-          >
-          <router-link to="/sustainability_climate" class="tabs_heading"
-            >CLIMATE</router-link
-          >
-          <router-link to="/sustainability_communities" class="tabs_heading"
-            >COMMUNITY</router-link
-          >
+            {{ tab.label }}
+          </router-link>
         </div>
       </section>
       <router-view></router-view>

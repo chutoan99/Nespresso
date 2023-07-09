@@ -27,7 +27,7 @@ export default defineComponent({
       <div class="Bcorp_frame1-img">
         <img
           alt=""
-          src="assets/images/sustainability&recycling/bcorp_4.png"
+          src="/assets/images/sustainability&recycling/bcorp_4.png"
           height="100%"
         />
       </div>
@@ -47,7 +47,7 @@ export default defineComponent({
       </div>
       <div class="Bcorp_frame2-right" style="width: 100%; height: 100%">
         <img
-          src="assets/images/sustainability&recycling/commitment_4.png"
+          src="/assets/images/sustainability&recycling/commitment_4.png"
           style="width: 100%; height: 100%"
         />
       </div>
@@ -56,7 +56,7 @@ export default defineComponent({
       <div class="Bcorp_frame4 container">
         <div class="Bcorp_frame4-right" style="width: 100%; height: 100%">
           <img
-            src="assets/images/sustainability&recycling/bcorp_3.png"
+            src="/assets/images/sustainability&recycling/bcorp_3.png"
             style="width: 100%; height: 100%"
           />
         </div>
@@ -92,7 +92,7 @@ export default defineComponent({
         </div>
         <div class="Bcorp_frame2-right" style="width: 100%; height: 100%">
           <img
-            src="assets/images/sustainability&recycling/bcorp_6.png"
+            src="/assets/images/sustainability&recycling/bcorp_6.png"
             style="width: 100%; height: 100%"
           />
         </div>
@@ -120,7 +120,7 @@ export default defineComponent({
     <div class="container Bcorp_frame5">
       <div class="Bcorp_frame5-right" style="width: 100%; height: 100%">
         <img
-          src="assets/images/sustainability&recycling/bcorp_5.png"
+          src="/assets/images/sustainability&recycling/bcorp_5.png"
           style="width: 100%; height: 100%"
         />
       </div>
@@ -161,7 +161,7 @@ export default defineComponent({
         </div>
         <div class="Bcorp_frame3-item-img">
           <img
-            src="assets/images/sustainability&recycling/bcorp_8.png"
+            src="/assets/images/sustainability&recycling/bcorp_8.png"
             alt=""
             width="100%"
             height="100%"
@@ -180,7 +180,7 @@ export default defineComponent({
 
         <div class="Bcorp_frame3-item-img">
           <img
-            src="assets/images/sustainability&recycling/bcorp_7.png"
+            src="/assets/images/sustainability&recycling/bcorp_7.png"
             alt=""
             width="100%"
             height="100%"
@@ -196,7 +196,7 @@ export default defineComponent({
         </div>
         <div class="Bcorp_frame3-item-img">
           <img
-            src="assets/images/sustainability&recycling/bcorp_9.png"
+            src="/assets/images/sustainability&recycling/bcorp_9.png"
             alt=""
             width="100%"
             height="100%"

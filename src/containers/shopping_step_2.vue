@@ -277,7 +277,7 @@ export default defineComponent({
 
           <div class="delivery_content">
             <div class="delivery_content-img">
-              <img alt="" src="assets/images/shopping_bag/image_45.png" />
+              <img alt="" src="/assets/images/shopping_bag/image_45.png" />
             </div>
 
             <div class="delivery_content-body">

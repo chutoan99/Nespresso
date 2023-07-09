@@ -61,7 +61,7 @@ export default defineComponent({
           <div class="climate_frame8-btn">
             <button>
               <router-link to=""> FIND OUT MORE</router-link>
-              <img alt="logonew" src="assets/images/LogoN.png" />
+              <img alt="logonew" src="/assets/images/LogoN.png" />
             </button>
           </div>
         </div>
@@ -79,7 +79,7 @@ export default defineComponent({
         </div>
         <div class="climate_frame2-right" style="width: 100%; height: 100%">
           <img
-            src="assets/images/sustainability&recycling/climate_3.png"
+            src="/assets/images/sustainability&recycling/climate_3.png"
             style="width: 100%; height: 100%"
           />
         </div>
@@ -87,7 +87,7 @@ export default defineComponent({
       <div class="climate_frame7">
         <div class="climate_frame7-right" style="width: 100%; height: 100%">
           <img
-            src="assets/images/sustainability&recycling/climate_4.png"
+            src="/assets/images/sustainability&recycling/climate_4.png"
             style="width: 100%; height: 100%"
           />
         </div>
@@ -118,7 +118,7 @@ export default defineComponent({
         </div>
         <div class="climate_frame2-right" style="width: 100%; height: 100%">
           <img
-            src="assets/images/sustainability&recycling/climate_5.png"
+            src="/assets/images/sustainability&recycling/climate_5.png"
             style="width: 100%; height: 100%"
           />
         </div>
@@ -143,7 +143,7 @@ export default defineComponent({
           <p class="climate_frame3-item-des">Protect and monitor wildlife</p>
           <div class="climate_frame3-item-img">
             <img
-              src="assets/images/sustainability&recycling/climate_10.png"
+              src="/assets/images/sustainability&recycling/climate_10.png"
               alt=""
               width="100%"
               height="100%"
@@ -155,7 +155,7 @@ export default defineComponent({
           <p class="climate_frame3-item-des">Promote regenerative practices</p>
           <div class="climate_frame3-item-img">
             <img
-              src="assets/images/sustainability&recycling/climate_7.png"
+              src="/assets/images/sustainability&recycling/climate_7.png"
               alt=""
               width="100%"
               height="100%"
@@ -167,7 +167,7 @@ export default defineComponent({
           <p class="climate_frame3-item-des">Work in harmony with nature</p>
           <div class="climate_frame3-item-img">
             <img
-              src="assets/images/sustainability&recycling/climate_8.png"
+              src="/assets/images/sustainability&recycling/climate_8.png"
               alt=""
               width="100%"
               height="100%"
@@ -181,7 +181,7 @@ export default defineComponent({
           </p>
           <div class="climate_frame3-item-img">
             <img
-              src="assets/images/sustainability&recycling/climate_9.png"
+              src="/assets/images/sustainability&recycling/climate_9.png"
               alt=""
               width="100%"
               height="100%"

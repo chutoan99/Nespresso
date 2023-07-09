@@ -2,13 +2,15 @@
 import "../css/pages/signUp_private.css";
 import { defineComponent } from "vue";
 import HeaderCustom from "../containers/HeaderCustom.vue";
-
+import { data_cart } from "@/utils/data_cart";
+import ProductCartItem from "@/components/product_cart_item.vue";
 export default defineComponent({
   name: "SignUpPrivatePage",
-  components: { HeaderCustom },
+  components: { HeaderCustom, ProductCartItem },
   data() {
     return {
       privateOption: "",
+      dataCart: data_cart,
     };
   },
   methods: {
@@ -73,237 +75,13 @@ export default defineComponent({
                   <span>STEP 1/3 SELECT YOUR RANGE</span>
                 </div>
                 <div class="card-list" id="card-list">
-                  <div class="card_item">
-                    <div class="card_item-img">
-                      <img src="assets/images/sigup/Rectangle_1.png" />
-                    </div>
-                    <div class="card_item-title">
-                      <span>Pixie</span>
-                    </div>
-                  </div>
-
-                  <div class="card_item">
-                    <div class="card_item-img">
-                      <img src="assets/images/sigup/Rectangle_1.png" />
-                    </div>
-                    <div class="card_item-title">
-                      <span>Pixie</span>
-                    </div>
-                  </div>
-
-                  <div class="card_item">
-                    <div class="card_item-img">
-                      <img src="assets/images/sigup/Rectangle_1.png" />
-                    </div>
-                    <div class="card_item-title">
-                      <span>Pixie</span>
-                    </div>
-                  </div>
-
-                  <div class="card_item">
-                    <div class="card_item-img">
-                      <img src="assets/images/sigup/Rectangle_1.png" />
-                    </div>
-                    <div class="card_item-title">
-                      <span>Pixie</span>
-                    </div>
-                  </div>
-
-                  <div class="card_item">
-                    <div class="card_item-img">
-                      <img src="assets/images/sigup/Rectangle_1.png" />
-                    </div>
-                    <div class="card_item-title">
-                      <span>Pixie</span>
-                    </div>
-                  </div>
-
-                  <div class="card_item">
-                    <div class="card_item-img">
-                      <img src="assets/images/sigup/Rectangle_1.png" />
-                    </div>
-                    <div class="card_item-title">
-                      <span>Pixie</span>
-                    </div>
-                  </div>
-                  <div class="card_item">
-                    <div class="card_item-img">
-                      <img src="assets/images/sigup/Rectangle_1.png" />
-                    </div>
-                    <div class="card_item-title">
-                      <span>Pixie</span>
-                    </div>
-                  </div>
-                  <div class="card_item">
-                    <div class="card_item-img">
-                      <img src="assets/images/sigup/Rectangle_1.png" />
-                    </div>
-                    <div class="card_item-title">
-                      <span>Pixie</span>
-                    </div>
-                  </div>
-                  <div class="card_item">
-                    <div class="card_item-img">
-                      <img src="assets/images/sigup/Rectangle_1.png" />
-                    </div>
-                    <div class="card_item-title">
-                      <span>Pixie</span>
-                    </div>
-                  </div>
-                  <div class="card_item">
-                    <div class="card_item-img">
-                      <img src="assets/images/sigup/Rectangle_1.png" />
-                    </div>
-                    <div class="card_item-title">
-                      <span>Pixie</span>
-                    </div>
-                  </div>
-                  <div class="card_item">
-                    <div class="card_item-img">
-                      <img src="assets/images/sigup/Rectangle_1.png" />
-                    </div>
-                    <div class="card_item-title">
-                      <span>Pixie</span>
-                    </div>
-                  </div>
-                  <div class="card_item">
-                    <div class="card_item-img">
-                      <img src="assets/images/sigup/Rectangle_1.png" />
-                    </div>
-                    <div class="card_item-title">
-                      <span>Pixie</span>
-                    </div>
-                  </div>
-                  <div class="card_item">
-                    <div class="card_item-img">
-                      <img src="assets/images/sigup/Rectangle_1.png" />
-                    </div>
-                    <div class="card_item-title">
-                      <span>Pixie</span>
-                    </div>
-                  </div>
-                  <div class="card_item">
-                    <div class="card_item-img">
-                      <img src="assets/images/sigup/Rectangle_1.png" />
-                    </div>
-                    <div class="card_item-title">
-                      <span>Pixie</span>
-                    </div>
-                  </div>
-                  <div class="card_item">
-                    <div class="card_item-img">
-                      <img src="assets/images/sigup/Rectangle_1.png" />
-                    </div>
-                    <div class="card_item-title">
-                      <span>Pixie</span>
-                    </div>
-                  </div>
-                  <div class="card_item">
-                    <div class="card_item-img">
-                      <img src="assets/images/sigup/Rectangle_1.png" />
-                    </div>
-                    <div class="card_item-title">
-                      <span>Pixie</span>
-                    </div>
-                  </div>
-                  <div class="card_item">
-                    <div class="card_item-img">
-                      <img src="assets/images/sigup/Rectangle_1.png" />
-                    </div>
-                    <div class="card_item-title">
-                      <span>Pixie</span>
-                    </div>
-                  </div>
-                  <div class="card_item">
-                    <div class="card_item-img">
-                      <img src="assets/images/sigup/Rectangle_1.png" />
-                    </div>
-                    <div class="card_item-title">
-                      <span>Pixie</span>
-                    </div>
-                  </div>
-                  <div class="card_item">
-                    <div class="card_item-img">
-                      <img src="assets/images/sigup/Rectangle_1.png" />
-                    </div>
-                    <div class="card_item-title">
-                      <span>Pixie</span>
-                    </div>
-                  </div>
-                  <div class="card_item">
-                    <div class="card_item-img">
-                      <img src="assets/images/sigup/Rectangle_1.png" />
-                    </div>
-                    <div class="card_item-title">
-                      <span>Pixie</span>
-                    </div>
-                  </div>
-                  <div class="card_item">
-                    <div class="card_item-img">
-                      <img src="assets/images/sigup/Rectangle_1.png" />
-                    </div>
-                    <div class="card_item-title">
-                      <span>Pixie</span>
-                    </div>
-                  </div>
+                  <ProductCartItem v-bind:data="dataCart" />
                 </div>
                 <div class="private_form-label2">
                   <span>STEP 2/3 SELECT YOUR MACHINE COLOR</span>
                 </div>
                 <div class="card-list">
-                  <div class="card_item">
-                    <div class="card_item-img">
-                      <img src="assets/images/sigup/Rectangle_1.png" />
-                    </div>
-                    <div class="card_item-title">
-                      <span>Pixie</span>
-                    </div>
-                  </div>
-
-                  <div class="card_item">
-                    <div class="card_item-img">
-                      <img src="assets/images/sigup/Rectangle_1.png" />
-                    </div>
-                    <div class="card_item-title">
-                      <span>Pixie</span>
-                    </div>
-                  </div>
-
-                  <div class="card_item">
-                    <div class="card_item-img">
-                      <img src="assets/images/sigup/Rectangle_1.png" />
-                    </div>
-                    <div class="card_item-title">
-                      <span>Pixie</span>
-                    </div>
-                  </div>
-
-                  <div class="card_item">
-                    <div class="card_item-img">
-                      <img src="assets/images/sigup/Rectangle_1.png" />
-                    </div>
-                    <div class="card_item-title">
-                      <span>Pixie</span>
-                    </div>
-                  </div>
-
-                  <div class="card_item">
-                    <div class="card_item-img">
-                      <img src="assets/images/sigup/Rectangle_1.png" />
-                    </div>
-                    <div class="card_item-title">
-                      <span>Pixie</span>
-                    </div>
-                  </div>
-
-                  <div class="card_item">
-                    <div class="card_item-img">
-                      <img src="assets/images/sigup/Rectangle_1.png" />
-                    </div>
-                    <div class="card_item-title">
-                      <span>Pixie</span>
-                    </div>
-                  </div>
+                  <ProductCartItem v-bind:data="dataCart" />
                 </div>
                 <div class="private_form-label2">
                   <span>STEP 3/3 ENTER YOUR MACHINE INFORMATION</span>
