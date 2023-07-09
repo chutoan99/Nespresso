@@ -288,7 +288,7 @@ export default defineComponent({
               </div>
               <div class="payment_aside-footer-button">
                 <button>
-                  <router-link to="/shopping_step_4">
+                  <router-link to="/shopping/step_4">
                     ORDER SUMMARY
                   </router-link>
                   <svg

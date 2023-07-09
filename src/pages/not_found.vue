@@ -20,10 +20,7 @@ export default defineComponent({
   <div class="wrapper">
     <div class="wrapper-innner">
       <Header />
-      <!-- Header -->
       <NavigationComponent />
-      <!-- Navigation -->
-
       <main id="pageNotFound">
         <div class="container messages">
           <p class="messages-text">Oops! That page can’t be found.</p>
@@ -31,7 +28,6 @@ export default defineComponent({
       </main>
 
       <Footer />
-      <!-- Footer -->
     </div>
   </div>
 </template>

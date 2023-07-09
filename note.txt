@@ -1,0 +1,8 @@
+setting_mobile : còn select
+trang index còn animation
+trang serve còn animation
+trang professional chưa chỉnh
+trang professional_detail chưa chỉnh
+trang machines_detail response chưa ổn
+trang benefits chưa response ổn
+trang community chưa response ổn

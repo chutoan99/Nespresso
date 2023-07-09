@@ -121,7 +121,6 @@ export default defineComponent({
               >Get your coffee machine for just 1 RON</span
             >
           </div>
-
           <button class="banner-btn">DISCOVER MORE</button>
         </section>
 

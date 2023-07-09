@@ -1001,8 +1001,6 @@ video {
     background-color: #faf9f8;
     max-width: 743px;
     width: 100%;
-    border-radius: 16px;
-    padding: 16px;
     animation: modalTrans linear 0.3s; }
   #coffee_modal .modal-head {
     display: flex;
@@ -1378,4 +1376,8 @@ video {
       grid-template-columns: 1fr 1fr 1fr;
       grid-gap: 1rem; }
     #coffee #product_coffee .product-image {
-      margin: 0 auto; } }
+      margin: 0 auto; }
+
+  #coffee_modal .modal-container {
+    padding: 0.9375rem;
+    border-radius: 1rem; } }

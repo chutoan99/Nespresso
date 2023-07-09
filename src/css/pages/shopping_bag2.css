@@ -615,16 +615,16 @@ video {
   #shopping_step_2 .delivery_label {
     margin-left: 1.25rem;
     margin-right: 1.25rem;
-    padding-left: 0.3125rem !important;
-    padding-right: 0.3125rem !important;
-    width: unset !important; }
-    #shopping_step_2 .delivery_label .delivery_main {
-      padding-left: 1.25rem !important;
-      padding-right: 1.25rem !important;
-      margin-bottom: 3.125rem !important;
-      flex-direction: column;
-      display: flex !important;
-      gap: 1.25rem; } }
+    padding-left: 0.3125rem;
+    padding-right: 0.3125rem;
+    width: unset; }
+  #shopping_step_2 .delivery_main {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    margin-bottom: 3.125rem;
+    flex-direction: column;
+    display: flex;
+    gap: 1.25rem; } }
 /* Mobile: width < 768px */
 @media only screen and (max-width: 47.938em) {
   #shopping_step_2 .delivery_label {
@@ -632,7 +632,8 @@ video {
     margin-right: 0.625rem;
     padding-left: 0.3125rem !important;
     padding-right: 0.3125rem !important;
-    width: unset !important; }
+    width: unset !important;
+    height: unset; }
   #shopping_step_2 .delivery_main {
     padding-left: 0.625rem !important;
     padding-right: 0.625rem !important;

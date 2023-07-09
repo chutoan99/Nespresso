@@ -256,9 +256,6 @@
       gap: 1.5rem !important;
       grid-template-columns: repeat(3, 1fr);
     }
-    .private_form-wrapper {
-      // width: 100% !important;
-    }
     .private_form-footer {
       display: flex !important;
       flex-direction: column;
@@ -274,15 +271,13 @@
       width: 100% !important;
     }
     margin-top: 3.125rem;
-    margin-left: 0.625rem;
-    margin-right: 0.625rem;
     .card-list {
       display: grid;
       gap: 1.5rem !important;
       grid-template-columns: repeat(2, 1fr);
     }
-    .private_form-wrapper {
-      // width: 100% !important;
+    .card_item {
+      height: unset;
     }
     .private_form-footer {
       display: flex !important;

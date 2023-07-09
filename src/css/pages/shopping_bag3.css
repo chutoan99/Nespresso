@@ -680,6 +680,7 @@ video {
     margin-right: 0.625rem;
     padding-left: 0.3125rem !important;
     padding-right: 0.3125rem !important;
+    height: unset;
     width: unset !important; }
   #shopping_step_3 .payment_main {
     padding-left: 0.625rem !important;

@@ -349,7 +349,7 @@ export default defineComponent({
                 </div>
                 <div class="order_footer-button">
                   <button>
-                    <router-link to="/shopping_step_5">
+                    <router-link to="/shopping/step_5">
                       PLACE ORDER
                     </router-link>
                     <svg

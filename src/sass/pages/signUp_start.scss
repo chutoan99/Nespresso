@@ -224,14 +224,13 @@
 /* Mobile: width < 768px */
 @media only screen and (max-width: 47.938em) {
   #signUp_start {
+    margin-top: 3.125rem;
     .signUp {
       width: 100% !important;
       margin: unset !important;
     }
     .signUp-container {
-      margin-top: 6.125rem !important;
-      margin-left: 1.25rem !important;
-      margin-right: 1.25rem !important;
+      padding-bottom: unset !important;
     }
     .signUp-form__content {
       display: flex !important;

@@ -535,15 +535,15 @@ video {
 /* Mobile: width < 768px */
 @media only screen and (max-width: 47.938em) {
   #signUp_private {
-    margin-top: 3.125rem;
-    margin-left: 0.625rem;
-    margin-right: 0.625rem; }
+    margin-top: 3.125rem; }
     #signUp_private .private_wrapper {
       width: 100% !important; }
     #signUp_private .card-list {
       display: grid;
       gap: 1.5rem !important;
       grid-template-columns: repeat(2, 1fr); }
+    #signUp_private .card_item {
+      height: unset; }
     #signUp_private .private_form-footer {
       display: flex !important;
       flex-direction: column;

@@ -12,7 +12,6 @@ export default defineComponent({
     NavigationComponent,
     Footer,
   },
-  // Add other properties, methods, etc.
 });
 </script>
 
@@ -285,7 +284,6 @@ export default defineComponent({
       </main>
 
       <Footer />
-      <!-- Footer -->
     </div>
   </div>
 </template>

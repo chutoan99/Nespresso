@@ -53,60 +53,60 @@ import SustainabilityCommunityPage from "../containers/sustainability_community.
 
 const routes = [
   // MAIN
-  { path: "/", component: IndexPage }, //done
-  { path: "/store_location", component: StoreLocationPage }, //done
+  { path: "/", component: IndexPage },
+  { path: "/store_location", component: StoreLocationPage },
   { path: "/service", component: ServicePage },
-  { path: "/machines", component: MachinesPage }, //done
-  { path: "/machines_detail", component: MachinesDetailPage }, //done
-  { path: "/machines_compare", component: MachinesComparePage }, //done
+  { path: "/machines", component: MachinesPage },
+  { path: "/machines_detail", component: MachinesDetailPage },
+  { path: "/machines_compare", component: MachinesComparePage },
   { path: "/professional", component: ProfessionalPage },
   { path: "/professional_detail", component: ProfessionalDetailPage },
-  { path: "/accessories", component: AccessoriesPage }, //done
-  { path: "/accessories_detail", component: AccessoriesDetailPage }, //done
-  { path: "/coffee", component: CoffeePage }, //done
-  { path: "/coffee_detail", component: CoffeeDetailPage }, //done
-  { path: "/coffee_original", component: CoffeeOriginalPage }, //done
+  { path: "/accessories", component: AccessoriesPage },
+  { path: "/accessories_detail", component: AccessoriesDetailPage },
+  { path: "/coffee", component: CoffeePage },
+  { path: "/coffee_detail", component: CoffeeDetailPage },
+  { path: "/coffee_original", component: CoffeeOriginalPage },
   { path: "/benefits", component: BenefitsPage },
   {
     path: "/sustainability",
     redirect: "sustainability/commitment", // Chuyển hướng mặc định đến
     component: () => import("@/pages/sustainability.vue"),
     children: [
-      { path: "commitment", component: SustainabilityRecycling }, // done
-      { path: "bcorp", component: SustainabilityBcorp }, // done
-      { path: "circularity", component: sustainabilityCircularity }, // done
-      { path: "climate", component: SustainabilityClimate }, // done
-      { path: "community", component: SustainabilityCommunityPage }, // done
+      { path: "commitment", component: SustainabilityRecycling },
+      { path: "bcorp", component: SustainabilityBcorp },
+      { path: "circularity", component: sustainabilityCircularity },
+      { path: "climate", component: SustainabilityClimate },
+      { path: "community", component: SustainabilityCommunityPage },
     ],
   },
 
   // SERVICE
-  // done
-  { path: "/about_us", component: AboutUsPage }, // done
-  { path: "/contact_us", component: ContactUsPage }, // done
-  { path: "/account", component: AccountPage }, // done
-  { path: "/reset_password", component: ResetPasswordPage }, //done
+
+  { path: "/about_us", component: AboutUsPage },
+  { path: "/contact_us", component: ContactUsPage },
+  { path: "/account", component: AccountPage },
+  { path: "/reset_password", component: ResetPasswordPage },
   // EMAIL TEMPLATE
-  { path: "/email_verification", component: VerificationPage }, //done
-  { path: "/email_registration", component: RegistrationPage }, // done
-  { path: "/email_confirmation", component: OrderConfirmationPage }, // done
+  { path: "/email_verification", component: VerificationPage },
+  { path: "/email_registration", component: RegistrationPage },
+  { path: "/email_confirmation", component: OrderConfirmationPage },
   // SIGN UP
-  { path: "/signUp_start", component: SignUpStartPage }, // done
-  { path: "/signUp_private", component: signUpPrivatePage }, // done
-  { path: "/signUp_company", component: signUpCompanyPage }, // done
-  { path: "/signUp_private_1", component: signUpPrivate1Page }, // done
-  { path: "/signUp_private_2", component: signUpPrivate2Page }, // done
+  { path: "/signUp_start", component: SignUpStartPage },
+  { path: "/signUp_private", component: signUpPrivatePage },
+  { path: "/signUp_company", component: signUpCompanyPage },
+  { path: "/signUp_private_1", component: signUpPrivate1Page },
+  { path: "/signUp_private_2", component: signUpPrivate2Page },
   // SHOPPING
   {
     path: "/shopping",
     redirect: "shopping/step_1",
     component: () => import("@/pages/shopping.vue"),
     children: [
-      { path: "step_1", component: ShoppingStep1 }, // done
-      { path: "step_2", component: ShoppingStep2 }, // done
-      { path: "step_3", component: ShoppingStep3 }, // done
-      { path: "step_4", component: ShoppingStep4 }, // done
-      { path: "step_5", component: ShoppingStep5 }, // done
+      { path: "step_1", component: ShoppingStep1 },
+      { path: "step_2", component: ShoppingStep2 },
+      { path: "step_3", component: ShoppingStep3 },
+      { path: "step_4", component: ShoppingStep4 },
+      { path: "step_5", component: ShoppingStep5 },
     ],
   },
   // SETTING
@@ -115,20 +115,20 @@ const routes = [
     redirect: "/setting/order",
     component: () => import("@/pages/setting.vue"),
     children: [
-      { path: "order", component: SettingOrder }, // done
-      { path: "address", component: SettingAddress }, // done
-      { path: "contact", component: SettingContact }, // done
-      { path: "info", component: SettingInfo }, // done
-      { path: "machine", component: SettingMachine }, // done
+      { path: "order", component: SettingOrder },
+      { path: "address", component: SettingAddress },
+      { path: "contact", component: SettingContact },
+      { path: "info", component: SettingInfo },
+      { path: "machine", component: SettingMachine },
     ],
   },
   // 404  & NOT FOUND
-  { path: "/:pathMatch(.*)*", component: NotPoundPage }, // done
-  { path: "/not_found", component: NotFound2Page }, //done
+  { path: "/:pathMatch(.*)*", component: NotPoundPage },
+  { path: "/not_found", component: NotFound2Page },
   // FAQ  & PRIVACY POLICY & CONDITION OF SALE
-  { path: "/faq", component: FaqPage }, // done
-  { path: "/privacy_policy", component: PrivacyPolicyPage }, // done
-  { path: "/condition_of_sale", component: ConditionOfSalePage }, //done
+  { path: "/faq", component: FaqPage },
+  { path: "/privacy_policy", component: PrivacyPolicyPage },
+  { path: "/condition_of_sale", component: ConditionOfSalePage },
 ];
 
 const router = createRouter({

@@ -70,7 +70,7 @@ export default defineComponent({
               mail folder or contact Nespresso for further assistance.
             </p>
             <button class="forget-pass__back">
-              <router-link to="/shopping_step_5"
+              <router-link to="/shopping/step_5"
                 >GO BACK TO THE HOMEPAGE</router-link
               >
               <svg

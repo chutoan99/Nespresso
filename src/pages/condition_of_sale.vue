@@ -1,4 +1,5 @@
 <script lang="ts">
+import "../css/pages/condition_of_sale.css";
 import Header from "@/containers/Header.vue";
 import NavigationComponent from "@/containers/Nav.vue";
 import Footer from "@/containers/Footer.vue";
@@ -11,7 +12,6 @@ export default defineComponent({
     NavigationComponent,
     Footer,
   },
-  // Add other properties, methods, etc.
 });
 </script>
 
@@ -119,62 +119,3 @@ export default defineComponent({
     </div>
   </div>
 </template>
-
-<style lang="scss" scope>
-@import "src/sass/base/_global.scss";
-@import "src/sass/base/_reset";
-@import "src/sass/base/_variable";
-#condition {
-  .condition {
-    &-wrapper {
-      max-width: 71.25rem;
-      margin: 2.5rem auto;
-      background-color: $brown-50;
-    }
-
-    &-content {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      padding: 3.75rem;
-      gap: 2rem;
-    }
-    &-caption {
-      @extend .font_heading-4;
-      font-weight: 700;
-    }
-    &-desc {
-      @extend .font_body-1;
-      font-weight: 400;
-    }
-  }
-}
-
-/* Tablet: width >= 768px and width < 1024px */
-@media only screen and (min-width: 48rem) and (max-width: 63.938rem) {
-  #condition {
-    .condition {
-      &-wrapper {
-        margin-top: 3.125rem;
-      }
-      &-content {
-        padding: 3.75rem 1.25rem;
-      }
-    }
-  }
-}
-
-/* Mobile: width < 768px */
-@media only screen and (max-width: 47.938em) {
-  #condition {
-    .condition {
-      &-wrapper {
-        margin-top: 3.125rem;
-      }
-      &-content {
-        padding: 3.75rem 0.625rem;
-      }
-    }
-  }
-}
-</style>

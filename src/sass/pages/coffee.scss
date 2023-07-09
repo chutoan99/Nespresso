@@ -919,8 +919,6 @@
       background-color: $brown-50;
       max-width: 743px;
       width: 100%;
-      border-radius: 16px;
-      padding: 16px;
       // min-height: 200px;
       // position: relative;
       animation: modalTrans linear 0.3s;
@@ -1503,5 +1501,9 @@
         }
       }
     }
+  }
+  #coffee_modal .modal-container {
+    padding: 0.9375rem;
+    border-radius: 1rem;
   }
 }

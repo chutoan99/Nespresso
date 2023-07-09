@@ -677,7 +677,8 @@ video {
     margin-right: 0.625rem;
     padding-left: 0.3125rem !important;
     padding-right: 0.3125rem !important;
-    width: unset !important; }
+    width: unset !important;
+    height: 100%; }
   #shopping_step_4 .order_main {
     padding-left: 0.625rem !important;
     padding-right: 0.625rem !important;

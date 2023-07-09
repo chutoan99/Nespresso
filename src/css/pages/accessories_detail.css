@@ -835,8 +835,7 @@ video {
         width: 100%;
         height: 100%;
         top: 0;
-        left: 0;
-        border-radius: 2.5rem 2.5rem 0 0; }
+        left: 0; }
       #accessories_detail .modal-item {
         gap: 1.25rem;
         width: unset; }
@@ -858,8 +857,6 @@ video {
         justify-content: center;
         background: none;
         cursor: pointer; }
-      #accessories_detail .modal-image img {
-        border-radius: 2.5rem 2.5rem 0 0; }
       #accessories_detail .modal-body {
         gap: 1rem; } }
 /* Tablet: width >= 768px and width < 1024px */
