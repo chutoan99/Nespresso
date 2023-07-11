@@ -1,5 +1,4 @@
 <script lang="ts">
-import "../css/pages/email_verification.css";
 import HeaderSimple from "@/containers/HeaderSimple.vue";
 import { defineComponent } from "vue";
 

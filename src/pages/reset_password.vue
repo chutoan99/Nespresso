@@ -1,5 +1,4 @@
 <script lang="ts">
-import "../css/pages/forgot_password.css";
 import Header from "@/containers/Header.vue";
 import NavigationComponent from "@/containers/Nav.vue";
 import Footer from "@/containers/Footer.vue";
@@ -43,7 +42,7 @@ export default defineComponent({
               account.
             </p>
             <button class="forget-pass__btn">
-              <router-link to="/shopping_step_5">CONTINUE</router-link>
+              <router-link to="/shopping/step_5">CONTINUE</router-link>
               <svg
                 width="24"
                 height="24"

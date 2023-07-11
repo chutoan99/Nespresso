@@ -1,0 +1,576 @@
+#accessories {
+  background-color: $white;
+
+  .hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 2.5rem 5rem;
+    background: $brown-200;
+    text-align: center;
+    font-weight: 700;
+    color: $black-700;
+
+    &-title {
+      @extend .font_heading-3;
+    }
+
+    &-content {
+      @extend .font_heading-5;
+    }
+  }
+
+  .filter {
+    &-accessories {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 1.5rem 0 0;
+    }
+
+    &-number {
+      width: 100%;
+
+      span {
+        @extend .font_heading-5;
+        font-weight: 700;
+        text-align: center;
+        color: $black-700;
+        text-transform: uppercase;
+        word-break: break-all;
+      }
+    }
+
+    &-button {
+      position: absolute;
+      right: 0;
+      bottom: 100%;
+      box-sizing: border-box;
+    }
+
+    &-sublabel {
+      border: 0.0625rem solid $black-700;
+      padding: 0.5rem 1rem;
+      border-radius: 0.25rem;
+      cursor: pointer;
+      // animation: smart-animate 300ms ease-out;
+      position: relative;
+      @extend .font_body-1;
+      font-weight: 400;
+      color: $black-400;
+      background: none;
+
+      &[aria-expanded="true"] {
+        position: relative;
+        border-radius: 3px 3px 0 0;
+        border-bottom: none;
+        background-color: $white;
+        color: #2e2e2e;
+
+        @extend .font_body-1;
+        font-weight: 400;
+        color: $black-400;
+        background: none;
+      }
+
+      &::after {
+        display: block;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        content: "";
+        width: 100%;
+        height: 1px;
+        background: #fff;
+      }
+    }
+
+    &-toggle {
+      margin: 0 0 -1px;
+      outline: none;
+    }
+
+    &-list {
+      display: none;
+      border: 0.0625rem solid $black-900;
+      padding: 1rem;
+      // display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      gap: 1.5rem;
+    }
+
+    &-wrapper {
+      position: relative;
+      // &.open-modal {
+      //    display: flex;
+      //    animation: modalEaseOut ease-out 0.3s;
+      // }
+
+      // display: none;
+      // flex-direction: row;
+      // // justify-content: center;
+      // align-items: center;
+      // padding: 1rem;
+      // gap: 1.5rem;
+      // border: 0.0625rem solid $black-900;
+    }
+
+    &-label {
+      @extend .font_subtitle-1;
+      font-weight: 600;
+      color: $black-900;
+    }
+
+    &-content {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 0rem;
+      gap: 0.5rem;
+      flex: 1;
+      width: 100%;
+    }
+
+    &-item {
+      width: 100%;
+      position: relative;
+
+      select {
+        -webkit-appearance: none;
+        appearance: none;
+        cursor: pointer;
+      }
+
+      &::after {
+        content: url(/public/assets/svgs/arrow.svg);
+        top: 0.625rem;
+        right: 0.75rem;
+        width: 1.5rem;
+        height: 1.5rem;
+        text-align: center;
+        position: absolute;
+      }
+
+      &__select {
+        @extend .font_body-2;
+        border: 0.0625rem solid $black-100;
+        border-radius: 0.25rem;
+        outline: none;
+        font-weight: 400;
+        color: $black-900;
+        padding: 0.625rem 0.75rem;
+        width: 100%;
+        height: 2.75rem;
+      }
+    }
+  }
+
+  .banner {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 3rem;
+    padding: 1rem 5rem;
+    box-shadow: $card-shadow-4;
+    background: #fce9d7;
+    margin-top: 2.5rem;
+
+    &-info {
+      max-width: 54.3125rem;
+      width: 100%;
+    }
+
+    &-title {
+      @extend .font_heading-4;
+      color: $black-700;
+      font-weight: 600;
+    }
+
+    &-desc {
+      @extend .font_heading-6;
+      font-weight: 400;
+      color: $black-300;
+    }
+
+    &-more {
+      @extend .font_button;
+      font-weight: 600;
+      text-transform: uppercase;
+      color: $black-700;
+      cursor: pointer;
+    }
+
+    &-btn {
+      @extend .font_button;
+      font-weight: 600;
+      border: none;
+      border-radius: 2.5rem;
+      background: $green-50;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      padding: 1rem 1.5rem;
+      gap: 0.5rem;
+      color: $white;
+      cursor: pointer;
+
+      &:hover {
+        background: $btn-hover;
+      }
+    }
+  }
+
+  .background-1 {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url(/public/assets/images/accessories/background-access-1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    object-position: center;
+    background-size: cover;
+  }
+
+  .background-2 {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url(/public/assets/images/accessories/background-access-2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    object-position: center;
+    background-size: cover;
+  }
+
+  .background-3 {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url(/public/assets/images/accessories/background-access-3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    object-position: center;
+    background-size: cover;
+  }
+
+  .background-4 {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url(/public/assets/images/accessories/background-access-4.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    object-position: center;
+    background-size: cover;
+  }
+
+  .background-5 {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url(/public/assets/images/accessories/background-access-5.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    object-position: center;
+    background-size: cover;
+  }
+
+  .background-6 {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url(/public/assets/images/accessories/background-access-6.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    object-position: center;
+    background-size: cover;
+  }
+
+  .background-7 {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url(/public/assets/images/accessories/background-access-7.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    object-position: center;
+    background-size: cover;
+  }
+
+  .background-8 {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url(/public/assets/images/accessories/background-access-8.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    object-position: center;
+    background-size: cover;
+  }
+
+  .background-9 {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url(/public/assets/images/accessories/background-access-9.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    object-position: center;
+    background-size: cover;
+  }
+
+  .background-10 {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url(/public/assets/images/accessories/background-access-10.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    object-position: center;
+    background-size: cover;
+  }
+
+  .background-11 {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url(/public/assets/images/accessories/background-access-11.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    object-position: center;
+    background-size: cover;
+  }
+
+  .background-12 {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url(/public/assets/images/accessories/background-access-12.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    object-position: center;
+    background-size: cover;
+  }
+
+  .background-13 {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url(/public/assets/images/accessories/background-access-13.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    object-position: center;
+    background-size: cover;
+  }
+
+  .product {
+    &-wrapper {
+      width: 100%;
+      // height: 23rem;
+      height: 25rem;
+      margin-top: 1.5rem;
+
+      &--high {
+        // height: 41.25rem;
+        height: 45.25rem;
+        margin-bottom: 2rem;
+      }
+    }
+
+    &-inner {
+      width: 100%;
+      max-height: 18.875rem;
+
+      &--high {
+        max-height: 37.375rem;
+      }
+    }
+
+    &-list {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      align-items: flex-start;
+      margin: 0.75rem 0 0;
+      gap: 1.5rem;
+    }
+
+    &-title {
+      @extend .font_heading-4;
+      font-weight: 600;
+      color: $white;
+      padding: 1rem 0 0;
+    }
+
+    &-item {
+      display: flex;
+      flex-direction: column;
+      padding: 1.5rem 1rem;
+      gap: 1rem;
+      background: $white;
+      box-shadow: $card-shadow-4;
+      border-radius: 0.25rem;
+    }
+
+    &-image {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 0rem 0rem;
+      gap: 1rem;
+      border-bottom: 0.0625rem solid $black-100;
+    }
+
+    &-name {
+      @extend .font_subtitle-1;
+      color: $black-700;
+      font-weight: 600;
+      text-align: center;
+      height: 2.5rem;
+    }
+
+    &-content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0rem;
+      gap: 1rem;
+    }
+
+    &-price {
+      @extend .font_body-2;
+      font-weight: 600;
+      background: linear-gradient(0deg, #3d8705, #3d8705),
+        linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    &-add {
+      @extend .button_cart;
+
+      &:hover {
+        background: $btn-hover;
+      }
+
+      span {
+        @extend .font_button;
+        font-weight: 600;
+      }
+    }
+  }
+}
+
+/* Mobile: width < 768px */
+@media only screen and (max-width: 47.938em) {
+  #accessories {
+    padding-top: 3.125rem;
+
+    .hero {
+      padding: 2rem 0;
+
+      &-title {
+        font-size: 2rem;
+        line-height: 1.2;
+      }
+
+      &-content {
+        line-height: 1.2;
+        font-weight: 400;
+      }
+    }
+
+    .container {
+      margin-top: 0.625rem;
+      padding: 0.625rem 1.25rem;
+
+      .filter {
+        &-accessories {
+          padding: unset;
+        }
+
+        &-number {
+          margin: 1.563rem 0 0.75rem;
+
+          span {
+            font-size: 1rem;
+            line-height: 1.25rem;
+            letter-spacing: 0.125rem;
+          }
+        }
+
+        &-wrapper {
+          flex-direction: column;
+          gap: 1.875rem;
+        }
+
+        &-list {
+          flex-direction: column;
+        }
+      }
+    }
+
+    .banner {
+      flex-direction: column;
+      padding: 1.25rem 1.25rem 1.875rem;
+      gap: 0;
+
+      &-info {
+        text-align: center;
+        margin: 0.75rem 0rem 1.25rem;
+      }
+
+      &-title {
+        font-size: 1.25rem;
+        margin-bottom: 0.625rem;
+        font-weight: 700;
+      }
+
+      &-btn {
+        max-width: 12.5rem;
+        width: 100%;
+        padding: 0.625rem 0rem;
+      }
+    }
+
+    .product {
+      &-wrapper {
+        height: 100%;
+        max-height: unset;
+      }
+
+      &-add {
+        width: 100%;
+      }
+
+      &-inner {
+        height: 100%;
+        max-height: unset;
+      }
+
+      &-list {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 0.75rem;
+        height: 100%;
+      }
+    }
+  }
+}
+
+/* Tablet: width >= 768px and width < 1024px */
+@media only screen and (min-width: 48rem) and (max-width: 63.938rem) {
+  #accessories {
+    margin-top: 3.125rem;
+
+    .container {
+      margin-top: 0.625rem;
+      padding: 0.625rem 1.25rem;
+    }
+
+    .banner {
+      margin: 0 1.25rem;
+      padding: 1px 0;
+      gap: 1.25rem;
+
+      &-btn {
+        width: 50%;
+      }
+    }
+
+    .product {
+      &-wrapper {
+        height: 100%;
+        max-height: unset;
+      }
+
+      &-inner {
+        height: 100%;
+        max-height: unset;
+      }
+
+      &-list {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 0.75rem;
+        height: 100%;
+      }
+    }
+  }
+}

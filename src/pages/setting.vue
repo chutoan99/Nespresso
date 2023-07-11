@@ -1,5 +1,4 @@
 <script lang="ts">
-import "../css/pages/setting.css";
 import HeaderCustom from "@/containers/HeaderCustom.vue";
 import NavigationComponent from "@/containers/Nav.vue";
 import Footer from "@/containers/Footer.vue";

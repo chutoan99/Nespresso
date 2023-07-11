@@ -1,0 +1,307 @@
+#circularity {
+  .background-1 {
+    background-image: url(/public/assets/images/sustainability&recycling/circularity_1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-position: center;
+    width: 100%;
+    height: 21.875rem;
+    position: relative;
+  }
+
+  // circularity
+  .circularity {
+    width: 100%;
+
+    &_frame {
+      &-wrapper {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+
+        text-align: center;
+        color: $white;
+      }
+
+      &-heading {
+        @extend .font_heading-3;
+        width: 100%;
+        margin-bottom: unset;
+        font-weight: 600;
+      }
+
+      &-des {
+        @extend .font_heading-5;
+        width: 100%;
+        margin-top: 0.75rem;
+        margin-bottom: unset;
+        font-weight: 400;
+      }
+    }
+
+    &_frame1 {
+      padding: 2rem 0;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      column-gap: 1.5rem;
+      text-align: center;
+      color: $black-900;
+
+      &-heading {
+        text-align: center;
+        margin-top: 2.5rem;
+        @extend .font_heading-3;
+        font-weight: 600;
+        margin-bottom: unset;
+      }
+
+      &-title {
+        text-align: center;
+        @extend .font_heading-4;
+        margin-top: 1rem;
+        font-weight: 500;
+        color: $black-800;
+      }
+
+      &-des {
+        width: 100%;
+        text-align: center;
+        @extend .font_body-1;
+        margin-top: 1rem;
+        margin-bottom: unset;
+        font-weight: 400;
+        font-size: 1.25rem;
+        line-height: 2rem;
+      }
+
+      &-img {
+        height: 21.875rem;
+        display: flex;
+        justify-content: center;
+        margin-top: 1.5rem;
+        margin-bottom: 2rem;
+      }
+    }
+
+    &_frame2 {
+      padding: 2rem 0;
+      display: grid;
+      grid-template-columns: 5fr 7fr;
+      column-gap: 1.5rem;
+
+      &-left {
+        &-heading {
+          @extend .font_heading-3;
+          font-weight: 600;
+          align-items: center;
+          color: $black-800;
+          margin-bottom: unset;
+        }
+
+        &-des {
+          @extend .font_body-1;
+          margin-top: 1rem;
+          font-weight: 400;
+          color: $black-800;
+          margin-bottom: unset;
+        }
+
+        &-find {
+          @extend .font_button;
+          display: inline-block;
+          margin-top: 1.5rem;
+          font-weight: 600;
+          align-items: center;
+          color: $brown-500;
+          margin-bottom: unset;
+          cursor: pointer;
+
+          &:hover {
+            color: #655032;
+            text-decoration: underline;
+          }
+        }
+      }
+
+      &-right {
+        width: 100%;
+        height: 100%;
+
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+
+    &_frame3 {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      column-gap: 1.5rem;
+
+      &-item {
+        position: relative;
+        height: 25rem;
+        max-height: 27.4375rem;
+
+        &-heading {
+          @extend .font_heading-4;
+          margin-bottom: unset;
+          font-weight: 400;
+          color: $black-900;
+          text-align: center;
+          height: 5rem;
+          max-height: 11.25rem;
+        }
+
+        &-des {
+          @extend .font_body-1;
+          margin-top: 1.25rem;
+          margin-bottom: unset;
+          font-weight: 400;
+          color: $black-900;
+          text-align: center;
+        }
+
+        &-img {
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          content: "";
+          width: 100%;
+          height: 14.5rem;
+
+          img {
+            background-position: center;
+            object-fit: cover;
+            width: 100%;
+            height: 100%;
+          }
+        }
+      }
+    }
+
+    &_frame6 {
+      margin-bottom: 2rem;
+      text-align: center;
+      color: $black-800;
+
+      &-heading {
+        @extend .font_heading-3;
+        font-weight: 600;
+        margin-bottom: unset;
+      }
+
+      &-des {
+        margin-top: 1rem;
+        @extend .font_body-1;
+        margin-bottom: 1rem;
+        font-weight: 400;
+      }
+
+      &-title {
+        width: 100%;
+        @extend .font_heading-6;
+        display: inline-block;
+        font-weight: 600;
+        text-align: center;
+        margin-bottom: unset;
+      }
+    }
+  }
+}
+
+// circularity
+
+/* Tablet: width >= 768px and width < 1024px */
+@media only screen and (min-width: 48rem) and (max-width: 64rem) {
+  #circularity {
+    .circularity_frame1-heading,
+    .circularity_frame1-title,
+    .circularity_frame1-des,
+    .circularity_frame1-img,
+    .circularity_frame6,
+    .circularity_frame3,
+    .circularity_frame2 {
+      margin-left: 1.25rem;
+      margin-right: 1.25rem;
+    }
+
+    .circularity_frame3 .circularity_frame3-item-heading {
+      font-size: 1.575rem;
+    }
+  }
+}
+
+/* Mobile: width < 768px */
+@media only screen and (max-width: 48rem) {
+  #circularity {
+    .circularity_frame3 {
+      padding: 10px;
+      display: flex;
+      flex-direction: column;
+      gap: 3.125rem;
+      padding-bottom: 3.25rem !important;
+    }
+
+    .circularity_frame3-item {
+      display: flex;
+      align-items: baseline;
+      flex-direction: row !important;
+      justify-content: space-between;
+      box-sizing: border-box;
+      height: 21rem;
+    }
+
+    .circularity_frame3-item-des {
+      display: none;
+    }
+
+    .circularity_frame3-item-heading {
+      display: flex;
+      margin-left: 10px;
+      width: 100%;
+      margin-bottom: unset !important;
+      justify-content: center;
+      margin-bottom: 2.5rem;
+    }
+
+    .circularity_frame2 {
+      display: flex !important;
+      flex-direction: column;
+      gap: 0.625rem;
+      margin-left: 0.625rem !important;
+      margin-right: 0.625rem !important;
+    }
+
+    .circularity_frame1-heading,
+    .circularity_frame1-title,
+    .circularity_frame1-des,
+    .circularity_frame1-img,
+    .circularity_frame6 {
+      margin-left: 0.625rem !important;
+      margin-right: 0.625rem !important;
+    }
+
+    .circularity_frame1-img {
+      width: calc(100%-1.25rem);
+      height: 100%;
+      margin-left: 0.625rem !important;
+      margin-right: 0.625rem !important;
+
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+
+    .circularity_frame1-des {
+      width: unset !important;
+    }
+  }
+}

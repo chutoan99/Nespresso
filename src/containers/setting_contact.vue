@@ -1,5 +1,4 @@
 <script lang="ts">
-import "../css/pages/setting_contact.css";
 import { defineComponent } from "vue";
 
 export default defineComponent({

@@ -1,5 +1,4 @@
 <script lang="ts">
-import "../css/pages/404.css";
 import Header from "@/containers/Header.vue";
 import NavigationComponent from "@/containers/Nav.vue";
 import Footer from "@/containers/Footer.vue";

@@ -1,5 +1,4 @@
 <script lang="ts">
-import "../css/pages/contact_us.css";
 import Header from "@/containers/Header.vue";
 import NavigationComponent from "@/containers/Nav.vue";
 import Footer from "@/containers/Footer.vue";
@@ -18,14 +17,14 @@ export default defineComponent({
 <template>
   <div class="wrapper">
     <div class="wrapper-innner">
+      <Header />
+      <NavigationComponent />
       <div class="slideShow">
         <h2>
           Customer Service | E-Mail adress: nespressopro.romania@nespresso.com |
           Free Toll: 0800 008 500
         </h2>
       </div>
-      <Header />
-      <NavigationComponent />
       <main id="contact_us">
         <section class="tagLine-event">
           <svg

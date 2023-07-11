@@ -1,5 +1,4 @@
 <script lang="ts">
-import "../css/pages/signUp_private.css";
 import { defineComponent } from "vue";
 import HeaderCustom from "../containers/HeaderCustom.vue";
 import { data_cart } from "@/utils/data_cart";

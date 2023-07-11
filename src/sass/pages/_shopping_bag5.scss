@@ -1,0 +1,97 @@
+#shopping_step_5 {
+  margin-top: 0.75rem;
+  margin-bottom: 3.125rem;
+  .confirmation {
+    &_icon {
+      margin-top: 0.75rem;
+      display: flex;
+      justify-content: center;
+    }
+    &_heading {
+      @extend .font_body-1;
+      font-weight: 500;
+      margin-top: 0.75rem;
+      width: 100%;
+      text-align: center;
+      color: $black-800;
+    }
+    &_wrapper {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      margin-top: 0.75rem;
+      gap: 0.75rem;
+    }
+    &_btn {
+      box-sizing: border-box;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 2.5rem;
+      gap: 1.0625rem;
+      height: 3.5rem;
+      &:nth-child(1) {
+        padding: 1.4375rem 1.5rem 1.5rem;
+        border: 0.0625rem solid $black-900;
+        background-color: unset;
+        &:hover {
+          cursor: pointer;
+          transition: 0.3s;
+          background: #c5c5c5;
+        }
+        a {
+          @extend .font_button;
+          font-weight: 600;
+          color: $black-800;
+          text-decoration: none;
+          text-transform: uppercase;
+        }
+      }
+      &:nth-child(2) {
+        border: unset;
+        padding: 1rem 1.5rem;
+        background: $green-50;
+        &:hover {
+          cursor: pointer;
+          transition: 0.3s;
+          background: $btn-hover;
+        }
+        a {
+          @extend .font_button;
+          font-weight: 600;
+          color: $white;
+          text-transform: uppercase;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
+
+/* Tablet: width >= 768px and width < 1024px */
+@media only screen and (min-width: 48rem) and (max-width: 63.938rem) {
+  #shopping_step_5 {
+    .confirmation {
+      padding-left: 1.25rem;
+      padding-right: 1.25rem;
+    }
+  }
+}
+
+/* Mobile: width < 768px */
+@media only screen and (max-width: 47.938em) {
+  #shopping_step_5 {
+    .confirmation {
+      padding-left: 0.625rem;
+      padding-right: 0.625rem;
+    }
+    .confirmation_wrapper {
+      display: flex;
+      flex-direction: column;
+    }
+    .confirmation_btn {
+      width: 100%;
+      border-radius: 0.25rem !important;
+    }
+  }
+}

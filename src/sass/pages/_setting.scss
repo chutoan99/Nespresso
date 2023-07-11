@@ -1,0 +1,101 @@
+#setting {
+  background: #f9f9f9;
+  padding: 2.5rem 0;
+  .setting {
+    display: grid;
+    grid-template-columns: 3fr 9fr;
+    column-gap: 1.5rem;
+  }
+  .setting_aside {
+    &-heading {
+      font-weight: 700;
+      color: $black-800;
+      @extend .font_heading-5;
+      margin-bottom: 0.25rem;
+    }
+    &-title {
+      margin-top: 0.25rem;
+      display: flex;
+      gap: 0.5rem;
+      h3,
+      span {
+        font-weight: 600;
+        color: $black-800;
+        @extend .font_subtitle-2;
+      }
+    }
+    &-content {
+      margin-top: 0.75rem;
+    }
+    &-select {
+      margin-top: 0.25rem;
+      padding: 0.625rem 0.75rem;
+      width: 100%;
+      height: 2.75rem;
+      background: $white;
+      border: 0.0625rem solid $black-100;
+      border-radius: 0.25rem;
+      display: none;
+      option {
+        width: 100%;
+      }
+    }
+    &-list {
+      list-style: none;
+      border-top: 0.0625rem solid $black-100;
+    }
+    &-item {
+      box-sizing: border-box;
+      align-items: center;
+      padding: 1.1875rem 0rem;
+      height: 4.55rem;
+      border-bottom: 0.0625rem solid $black-100;
+      display: flex;
+      gap: 1.5625rem;
+    }
+    &-item-link {
+      text-decoration: none;
+      @extend .font_subtitle-2;
+      font-weight: 400;
+      color: $black-800;
+    }
+    .aside-active {
+      color: #876c43 !important;
+    }
+  }
+}
+
+/* Tablet: width >= 768px and width < 1024px */
+@media only screen and (min-width: 48rem) and (max-width: 63.938rem) {
+  #setting {
+    margin-top: 3.125rem;
+    .setting {
+      display: flex;
+      flex-direction: column;
+      gap: 0.625rem;
+      margin-right: 1.25rem;
+      margin-left: 1.25rem;
+    }
+  }
+}
+
+/* Mobile: width < 768px */
+@media only screen and (max-width: 47.938em) {
+  #setting {
+    margin-top: 3.125rem;
+    .setting {
+      display: flex;
+      flex-direction: column;
+      gap: 0.625rem;
+      margin-right: 0.625rem;
+      margin-left: 0.625rem;
+    }
+
+    .setting_aside-select {
+      display: block !important;
+    }
+    .setting_aside-list {
+      display: none !important;
+    }
+  }
+}

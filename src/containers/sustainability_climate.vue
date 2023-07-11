@@ -1,5 +1,4 @@
 <script lang="ts">
-import "../css/pages/sustainability_climate.css";
 import { defineComponent } from "vue";
 
 export default defineComponent({

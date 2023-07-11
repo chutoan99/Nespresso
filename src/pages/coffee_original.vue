@@ -1,5 +1,5 @@
 <script lang="ts">
-import "../css/pages/coffee_orgiginal.css";
+
 import Header from "@/containers/Header.vue";
 import NavigationComponent from "@/containers/Nav.vue";
 import Footer from "@/containers/Footer.vue";

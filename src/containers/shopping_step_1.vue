@@ -1,5 +1,4 @@
 <script lang="ts">
-import "../css/pages/shopping_bag1.css";
 import { data_recommen } from "@/utils/data_recommen";
 import ProductRecommenItem from "@/components/product_recommen_item.vue";
 import { defineComponent } from "vue";

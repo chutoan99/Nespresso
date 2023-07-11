@@ -1,5 +1,4 @@
 <script lang="ts">
-import "../css/pages/shopping_bag3.css";
 import Footer from "@/containers/Footer.vue";
 
 import { defineComponent } from "vue";
@@ -282,7 +281,7 @@ export default defineComponent({
                     fill="#876C43"
                   />
                 </svg>
-                <router-link to="/shopping_step_2"
+                <router-link to="/shopping/step_2"
                   >Back to shipping</router-link
                 >
               </div>

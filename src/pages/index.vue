@@ -1,5 +1,4 @@
 <script lang="ts">
-import "../css/pages/index.css";
 import { data_product } from "@/utils/data_product";
 import Header from "@/containers/Header.vue";
 import NavigationComponent from "@/containers/Nav.vue";

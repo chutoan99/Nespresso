@@ -1,0 +1,117 @@
+#setting_my_order {
+  .setting {
+    &_label {
+      @extend .font_body-2;
+      height: 3.25rem;
+      background: $black-200;
+      font-weight: 700;
+      color: $black-900;
+      display: flex;
+      align-items: center;
+      padding: 1rem;
+      margin-bottom: unset;
+    }
+  }
+  .form {
+    &_content {
+      padding: 1.5rem 0rem;
+      width: 100%;
+      background-color: white;
+    }
+    &_content-heading {
+      @extend .font_caption;
+      display: inline-block;
+      text-align: center;
+      width: 100%;
+      margin-bottom: unset;
+      font-weight: 400;
+      color: $black-900;
+    }
+    &_btn {
+      margin-top: 0.625rem;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      button {
+        @extend .font_button;
+        display: flex;
+        justify-content: space-between;
+        height: 3.5rem;
+        gap: 1.0625rem;
+        align-items: center;
+        padding: 1rem 1.5rem;
+        border: unset;
+        font-weight: 600;
+        text-align: center;
+        color: white;
+        background: $green-50;
+        border-radius: 2.5rem;
+        &:hover {
+          cursor: pointer;
+          transition: 0.3s;
+          background: $btn-hover;
+        }
+      }
+    }
+  }
+}
+
+/* Tablet: width >= 768px and width < 1024px */
+@media only screen and (min-width: 48rem) and (max-width: 63.938rem) {
+  #setting_my_order {
+    margin-top: 3.125rem;
+    .setting {
+      display: flex;
+      flex-direction: column;
+      gap: 0.625rem;
+      margin-right: 1.25rem;
+      margin-left: 1.25rem;
+    }
+  }
+}
+
+/* Mobile: width < 768px */
+@media only screen and (max-width: 47.938em) {
+  #setting_my_order {
+    margin-top: 3.125rem;
+    .setting {
+      display: flex;
+      flex-direction: column;
+      gap: 0.625rem;
+      margin-right: 0.625rem;
+      margin-left: 0.625rem;
+    }
+    .form_btn {
+      button {
+        width: 100%;
+        border-radius: 0.3125rem !important;
+      }
+    }
+    .form_content {
+      display: flex !important;
+      gap: 0.3125rem;
+      flex-direction: column;
+      padding: 1rem 0rem !important;
+      .form_content-left {
+        flex: 1;
+        order: 1;
+      }
+      .form_content-btn {
+        button {
+          width: 100%;
+          border-radius: 0.3125rem !important;
+        }
+      }
+      .form_btn {
+        padding-left: unset !important;
+        padding-right: unset !important;
+      }
+    }
+    .setting_aside-select {
+      display: block !important;
+    }
+    .setting_aside-list {
+      display: none !important;
+    }
+  }
+}

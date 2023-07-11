@@ -1,6 +1,4 @@
 <script lang="ts">
-import "../css/pages/shopping_bag5.css";
-
 import { defineComponent } from "vue";
 export default defineComponent({
   name: "ShoppingStep5",

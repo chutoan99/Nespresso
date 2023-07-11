@@ -1,0 +1,104 @@
+#progressbar {
+  background-color: $black-900;
+  width: 100%;
+  margin-top: 5rem;
+  .progressbar {
+    background: $black-700;
+    counter-reset: step;
+    width: 100%;
+    padding: 0.5rem 1rem;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 1fr;
+    height: 100%;
+
+    &_item {
+      padding: 1.125rem 0rem;
+      list-style: none;
+      cursor: pointer;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      position: relative;
+      height: 5.25rem;
+      width: 100%;
+    }
+    .item-active {
+      border-bottom: 0.125rem solid $green-50;
+    }
+    &_item-link {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      span {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        @extend .font_body-1;
+        font-weight: 600;
+        color: $white;
+      }
+    }
+  }
+}
+
+/* Tablet: width >= 768px and width < 1024px */
+@media only screen and (min-width: 48rem) and (max-width: 63.938rem) {
+  .progressbar_item {
+    padding: unset !important;
+  }
+  .progressbar {
+    margin-top: 50px;
+    padding-left: 1.25rem !important;
+    padding-right: 1.25rem !important;
+  }
+  .shopping_label {
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
+    width: unset !important;
+  }
+  .shopping_content,
+  .product-title {
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
+  }
+}
+
+/* Mobile: width < 768px */
+@media only screen and (max-width: 47.938em) {
+  .progressbar_item {
+    padding: unset !important;
+  }
+  .shopping_content-header {
+    height: 100% !important;
+  }
+  .progressbar {
+    margin-top: 50px;
+    padding-left: 0.625rem !important;
+    padding-right: 0.625rem !important;
+  }
+  .shopping_label {
+    display: flex;
+    flex-direction: unset !important;
+    margin-left: 0.625rem;
+    margin-right: 0.625rem;
+    padding-left: 0.3125rem !important;
+    padding-right: 0.3125rem !important;
+    height: 100% !important;
+    width: unset !important;
+  }
+  .shopping_content,
+  .product-title {
+    margin-left: 0.625rem;
+    margin-right: 0.625rem;
+  }
+
+  .progressbar {
+    width: 100% !important;
+    overflow-x: auto;
+    display: flex !important;
+  }
+  #progressbar .progressbar_item {
+    height: 2.25rem !important;
+  }
+}

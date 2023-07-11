@@ -1,0 +1,328 @@
+#account {
+  width: 100%;
+  background: $black-50;
+  .account {
+    padding: 3.75rem 0;
+    &_heading {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      gap: 5px;
+      h3 {
+        @extend .font_heading-4;
+        font-weight: 400;
+        color: $black-900;
+        text-align: center;
+      }
+      span {
+        @extend .font_heading-4;
+        font-weight: 700;
+        color: $black-900;
+        text-align: center;
+      }
+    }
+    &_title {
+      width: 100%;
+      margin-top: 1.25rem;
+      @extend .font_body-1;
+      font-weight: 400;
+      color: $black-900;
+      text-align: center;
+    }
+    &_body {
+      width: 100%;
+      padding-top: 2.5rem;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-column-gap: 1.5rem;
+      height: 100%;
+    }
+    &_body-login {
+      display: flex;
+      width: 100%;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: space-between;
+      padding: 1.25rem;
+      background: $white;
+      &-heading {
+        @extend .font_heading-5;
+        font-weight: 400;
+        color: $black-900;
+        margin-bottom: 0.5rem;
+      }
+      &-field {
+        align-items: center;
+        display: flex;
+        width: 100%;
+        gap: 3.125rem;
+        label {
+          width: 6.5rem;
+          height: 100%;
+          display: flex;
+          align-items: center;
+          font-weight: 500;
+          color: $black-900;
+          @extend .font_subtitle-1;
+        }
+        input {
+          flex: 1;
+          width: 100%;
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          padding: 0.75rem;
+          // width: 31.25rem;
+          height: 2.75rem;
+          background: $white;
+          border: 0.0625rem solid $black-100;
+          border-radius: 0.25rem;
+
+          @extend .font_body-2;
+          font-weight: 400;
+        }
+        &:nth-child(1) {
+          label {
+            color: #f51616;
+          }
+          input {
+            border: 0.0625rem solid #f51616;
+          }
+        }
+        &:nth-child(3) {
+          margin-top: 1.25rem;
+        }
+        + .account_body-login-field {
+          margin-top: 1.25rem;
+        }
+      }
+      .field_mess {
+        width: 100%;
+        display: flex;
+        margin-top: 0.75rem;
+        gap: 50px;
+        div {
+          width: 6.5rem;
+          height: 100%;
+        }
+        label {
+          @extend .font_body-2;
+          width: 100%;
+          font-weight: 400;
+          color: #f51616;
+          flex: 1;
+        }
+      }
+      &-forgot {
+        font-weight: 500;
+        color: $brown-500;
+        @extend .font_subtitle-2;
+      }
+      &-check {
+        margin-top: 0.5rem;
+        display: flex;
+        align-items: center;
+        input {
+          margin-right: 0.75rem;
+          width: 1.25rem;
+          height: 1.25rem;
+          background: #d9d9d9;
+          border: 0.0625rem solid $black-900;
+          border-radius: 0.25rem;
+        }
+        span {
+          @extend .font_body-2;
+          margin-bottom: unset;
+          margin-top: unset;
+          font-weight: 400;
+          color: $black-900;
+        }
+      }
+      &-btn {
+        margin-top: 0.5rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem 1.5rem;
+        width: 18.25rem;
+        box-sizing: border-box;
+        height: 2.5625rem;
+        background: $green-50;
+        border-radius: 0.25rem;
+        font-weight: 600;
+        color: $white;
+        border: unset;
+        @extend .font_button;
+        &:hover {
+          cursor: pointer;
+          transition: 0.3s;
+          background: $btn-hover;
+        }
+      }
+    }
+    &_body-info {
+      padding: 1.25rem;
+      background: $white;
+
+      &-inner {
+        display: flex;
+        gap: 1.5rem;
+      }
+
+      &-wrapper,
+      &-wrapper2 {
+        width: 13.125rem;
+        height: 18.3125rem;
+        flex: none;
+      }
+      &-heading {
+        @extend .font_heading-5;
+        font-weight: 400;
+        color: $black-900;
+        margin-bottom: 1rem;
+      }
+      &-title {
+        margin-bottom: 0.5rem;
+        display: inline-block;
+        font-weight: 400;
+        color: $black-900;
+      }
+      &-list {
+        padding-left: 1.25rem;
+        li {
+          @extend .font_body-1;
+          padding-left: 0.3125rem;
+          font-weight: 400;
+          color: $black-900;
+          line-height: 1.5625rem;
+        }
+      }
+      &-btn {
+        margin-top: 0.75rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem 1.5rem;
+        width: 18.4375rem;
+        height: 2.5625rem;
+        box-sizing: border-box;
+        background: $green-50;
+        border-radius: 0.25rem;
+        font-weight: 600;
+        color: $white;
+        border: unset;
+        @extend .font_button;
+        &:hover {
+          cursor: pointer;
+          transition: 0.3s;
+          background: $btn-hover;
+        }
+      }
+      &-img,
+      &-img2 {
+        width: 100%;
+        height: 100%;
+        background-image: url(/public/assets/images/account/backgound_account.png);
+      }
+    }
+  }
+}
+
+/* Tablet: width >= 768px and width < 1024px */
+@media only screen and (min-width: 48rem) and (max-width: 63.938rem) {
+  #account {
+    .account {
+      margin-top: 3.125rem;
+      &_heading {
+        padding-left: 1.25rem;
+        padding-right: 1.25rem;
+      }
+      &_title {
+        padding-left: 1.25rem;
+        padding-right: 1.25rem;
+      }
+      &_body {
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        padding-left: 1.25rem;
+        padding-right: 1.25rem;
+        gap: 1.25rem;
+      }
+
+      &_body-info-wrapper2 {
+        width: 100% !important;
+      }
+      &_body-info-img2 {
+        object-fit: COVER;
+        width: 55%;
+        background-position: center;
+        background-image: url(/public/assets/images/account/backgound_account-detail-3.png) !important;
+      }
+    }
+  }
+}
+/* Mobile: width < 768px */
+@media only screen and (max-width: 47.938em) {
+  #account {
+    margin-top: 3.125rem;
+    .account {
+      &_heading {
+        display: flex;
+        flex-direction: column;
+        gap: unset;
+        padding-left: 0.625rem;
+        padding-right: 0.625rem;
+      }
+      &_title {
+        padding-left: 0.625rem;
+        padding-right: 0.625rem;
+      }
+      &_body {
+        display: flex;
+        flex-direction: column;
+        padding-left: 0.625rem;
+        padding-right: 0.625rem;
+        gap: 1.25rem;
+      }
+      &_body-login-field {
+        display: flex;
+        flex-direction: column;
+        gap: 0.3125rem !important;
+        label {
+          width: 100% !important;
+        }
+      }
+      &_body-info-wrapper {
+        width: 100% !important;
+      }
+      &_body-info-img {
+        width: 100% !important;
+        object-fit: COVER;
+        background-position: center;
+        background-image: url(/public/assets/images/account/backgound_account-detail-3.png) !important;
+      }
+      &_body-info-btn {
+        width: 100% !important;
+      }
+      &_body-info-wrapper2 {
+        width: 100% !important;
+      }
+      &_body-info-img2 {
+        object-fit: COVER;
+        width: 55%;
+        background-position: center;
+        background-image: url(/public/assets/images/account/backgound_account-detail-3.png) !important;
+      }
+    }
+    .field {
+      &_mess {
+        div {
+          display: none;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,114 @@
+#tabs {
+  padding: 0.75rem 0rem;
+  padding-bottom: unset;
+  height: 5rem;
+
+  .tabs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+
+    &_heading {
+      text-decoration: none;
+      @extend .font_body-2;
+      font-weight: 400;
+      text-align: center;
+      padding: 1.125rem 0rem;
+      color: $black-800;
+    }
+  }
+
+  .tab_active {
+    border-bottom: 0.125rem solid #3d8705;
+  }
+}
+
+#tabs2 {
+  padding: 2.625rem 0rem;
+
+  .tabs2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+
+    input[type="radio"] {
+      display: none;
+
+      &:checked {
+        + {
+          label {
+            border-bottom: 0.125rem solid $green-50;
+            transition: 0.5s;
+
+            + {
+              .tab2 {
+                display: block;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    &_heading {
+      @extend .font_subtitle-1;
+      font-weight: 400;
+      text-align: center;
+      padding: 1.125rem 0rem;
+      color: $black-800;
+    }
+
+    .tab2 {
+      width: 100%;
+      background: $white;
+      order: 1;
+      display: none;
+    }
+  }
+}
+
+/* Tablet: width >= 768px and width < 1024px */
+@media only screen and (min-width: 48rem) and (max-width: 64rem) {
+  #tabs {
+    margin-top: 3.125rem;
+    padding: unset !important;
+  }
+}
+
+/* Mobile: width < 768px */
+@media only screen and (max-width: 48rem) {
+  #tabs {
+    margin-top: 3.125rem;
+    padding: unset !important;
+  }
+
+  #tabs .tabs {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    width: 100%;
+    gap: 24px;
+    justify-content: unset !important;
+    display: grid;
+    overflow-x: auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+
+    overflow-y: hidden;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+    -webkit-user-select: none;
+    user-select: none;
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+
+  #tabs .tabs_heading {
+    width: 100px;
+    text-align: center;
+    display: inline-block;
+    display: grid;
+  }
+}

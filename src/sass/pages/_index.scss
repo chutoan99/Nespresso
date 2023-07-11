@@ -1,0 +1,688 @@
+#indexPage {
+  #banner {
+    width: 100%;
+    height: 100%;
+    img {
+      width: 100%;
+    }
+  }
+
+  #index {
+    .tagLine-event {
+      height: 4.8125rem;
+      background: $brown-100;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.75rem;
+      margin: 0 auto;
+      h3 {
+        font-family: "Nespresso Lucas", Helvetica, Trebuchet, Arial, sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 1.25rem;
+        line-height: 2rem;
+        margin-bottom: unset;
+        color: $black-800;
+
+        span {
+          font-family: "Nespresso Lucas", Helvetica, Trebuchet, Arial,
+            sans-serif;
+          font-style: normal;
+          height: 100%;
+          font-weight: 600;
+          font-size: 0.875rem;
+          line-height: 1.25rem;
+          letter-spacing: 0.0781rem;
+          color: $brown-600;
+          margin-bottom: unset;
+          position: relative;
+          margin-right: 0.75rem;
+          cursor: pointer;
+
+          &::after {
+            position: absolute;
+            bottom: -0.3125rem;
+            left: 0;
+            content: "";
+            right: 0;
+            width: 100%;
+            height: 0.0625rem;
+            background-color: $brown-600;
+          }
+        }
+      }
+    }
+
+    .featured {
+      &_wrapper {
+        height: 100%;
+        padding: 3.75rem 0;
+        align-items: start;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 1.5rem;
+      }
+      background-color: white;
+      margin-top: 1.5rem;
+      margin-bottom: 2rem;
+
+      &_item-content {
+        align-items: flex-start;
+        justify-content: flex-start;
+        padding: 0 24px;
+        text-align: left;
+        transition: min-height 0s ease 0s;
+        width: 60%;
+        display: none;
+
+        &-heading {
+          @extend .font_heading-4;
+          font-weight: 600;
+          margin-top: 0.5rem;
+          margin-bottom: unset;
+          color: $black-900;
+        }
+
+        &-des {
+          margin-top: 1.5rem;
+          font-family: "Nespresso Lucas", Helvetica, Trebuchet, Arial,
+            sans-serif;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 0.75rem;
+          line-height: 1rem;
+          letter-spacing: 0.025rem;
+          color: $black-900;
+          margin-bottom: unset;
+        }
+
+        &-btn {
+          margin-top: 1.5rem;
+          margin-bottom: 1.5rem;
+          display: flex;
+
+          button {
+            background-color: unset;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            padding: 1rem 1.5rem;
+            background-color: #876c43;
+            border: 1px solid #876c43;
+            border-radius: 2.5rem;
+            cursor: pointer;
+
+            color: white;
+            font-family: "Nespresso Lucas", Helvetica, Trebuchet, Arial,
+              sans-serif;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 0.875rem;
+            line-height: 1.25rem;
+            letter-spacing: 0.0781rem;
+
+            span {
+              font-family: "Nespresso Lucas", Helvetica, Trebuchet, Arial,
+                sans-serif;
+              font-style: normal;
+              font-weight: 600;
+              font-size: 0.875rem;
+              line-height: 1.25rem;
+              letter-spacing: 0.0781rem;
+            }
+
+            &:hover {
+              background-color: unset;
+              border: 1px solid #876c43;
+              color: #876c43;
+            }
+          }
+        }
+      }
+
+      .open_featured {
+        display: block !important;
+      }
+
+      .open_inner {
+        display: flex;
+        flex-direction: column;
+        height: 300px;
+        justify-content: space-between;
+        width: 130px;
+        align-items: center;
+      }
+
+      &_item {
+        cursor: pointer;
+        height: 12.25rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        &-img {
+          width: 100%;
+          display: flex;
+          justify-content: center;
+
+          img {
+            width: 3rem;
+            height: 3rem;
+          }
+        }
+
+        &-header {
+          margin-top: 0.5rem;
+          font-family: "Nespresso Lucas", Helvetica, Trebuchet, Arial,
+            sans-serif;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 1rem;
+          line-height: 1.25rem;
+          text-align: center;
+          letter-spacing: 0.0125em;
+          margin-bottom: unset;
+          color: $black-900;
+        }
+
+        &-des {
+          margin-top: 0.25rem;
+          font-family: "Nespresso Lucas", Helvetica, Trebuchet, Arial,
+            sans-serif;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 0.75rem;
+          line-height: 1rem;
+          text-align: center;
+          letter-spacing: 0.025rem;
+          color: $black-900;
+          margin-bottom: unset;
+        }
+
+        &-btn {
+          display: flex;
+          justify-content: center;
+          margin-top: 0.5rem;
+
+          button {
+            width: 2rem;
+            height: 2rem;
+            background: $brown-500;
+            border-radius: 50%;
+            border: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            // &:hover {
+            //   background: $btn-hover;
+            // }
+          }
+        }
+
+        &:not(:last-child) {
+          border-right: 0.0625rem solid rgba(0, 0, 0, 0.2);
+        }
+      }
+
+      .icon_plus {
+        display: block;
+      }
+
+      .icon_minus {
+        display: none;
+      }
+    }
+
+    #product {
+      width: 100%;
+      background: $brown-50;
+      padding-top: 3.375rem;
+      padding-bottom: 3.5rem;
+
+      .product_heading {
+        text-transform: uppercase;
+        padding-bottom: 2rem;
+        font-family: "Nespresso Lucas", Helvetica, Trebuchet, Arial, sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 2.5rem;
+        line-height: 2.5rem;
+        text-align: center;
+        letter-spacing: 0.0025em;
+        color: $black-800;
+      }
+
+      .product {
+        &_list {
+          display: grid;
+          grid-template-columns: 1fr 1fr 1fr;
+          column-gap: 1.5rem;
+          row-gap: 2rem;
+        }
+
+        &_item {
+          background: $white;
+          box-shadow: $card-shadow-4;
+          border-radius: 0.25rem;
+          position: relative;
+        }
+
+        &_item-heading {
+          padding-bottom: 2.0625rem;
+          padding-top: 2.0625rem;
+          margin-bottom: unset;
+          font-family: "Nespresso Lucas", Helvetica, Trebuchet, Arial,
+            sans-serif;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 1.25rem;
+          line-height: 2rem;
+          text-align: center;
+          color: $black-800;
+        }
+
+        &_item-img {
+          display: flex;
+          justify-content: center;
+          width: 100%;
+          padding-top: 1.3125rem;
+          padding-bottom: 1.3125rem;
+        }
+
+        &_item-price {
+          margin-top: 0.75rem;
+          margin-bottom: 0.75rem;
+          display: flex;
+          align-items: center;
+          gap: 0.75rem;
+          justify-content: center;
+          font-family: "Nespresso Lucas", Helvetica, Trebuchet, Arial,
+            sans-serif;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 1rem;
+          line-height: 1.5rem;
+          text-align: center;
+          letter-spacing: 0.005em;
+
+          span {
+            color: #316c04;
+          }
+
+          label {
+            text-decoration-line: line-through;
+            color: $black-300;
+          }
+        }
+
+        &_item-btn {
+          border: unset;
+          margin-bottom: 3.5625rem;
+          display: flex;
+          justify-content: center;
+
+          button {
+            @extend .button_cart;
+
+            &:hover {
+              background: $btn-hover;
+            }
+
+            span {
+              font-family: "Nespresso Lucas", Helvetica, Trebuchet, Arial,
+                sans-serif;
+              font-style: normal;
+              font-weight: 600;
+              font-size: 0.875rem;
+              line-height: 1.25rem;
+              letter-spacing: 0.0781rem;
+              color: $white;
+            }
+          }
+        }
+
+        &_item-ticket {
+          position: absolute;
+          top: 0;
+          right: 0;
+          content: "";
+          padding: 0.25rem 0.5rem;
+          background: $brown-500;
+          font-family: "Nespresso Lucas", Helvetica, Trebuchet, Arial,
+            sans-serif;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 0.625rem;
+          line-height: 1rem;
+          text-align: center;
+          justify-content: center;
+          letter-spacing: 0.0938rem;
+          color: $white;
+        }
+      }
+
+      .product_seemore {
+        margin-top: 3rem;
+        display: flex;
+        justify-content: center;
+
+        span {
+          display: block;
+          text-align: center;
+          font-family: "Nespresso Lucas", Helvetica, Trebuchet, Arial,
+            sans-serif;
+          font-style: normal;
+          height: 100%;
+          font-weight: 600;
+          font-size: 0.875rem;
+          line-height: 1.25rem;
+          letter-spacing: 0.0781rem;
+          width: 4.55rem;
+          color: $brown-600;
+          position: relative;
+          cursor: pointer;
+
+          &::after {
+            position: absolute;
+            bottom: -0.3125rem;
+            left: 0;
+            content: "";
+            right: 0;
+            height: 0.0625rem;
+            background-color: $brown-600;
+          }
+        }
+      }
+    }
+
+    #moreInfo {
+      .moreInfo_list {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 1.875rem;
+        row-gap: 1.875rem;
+      }
+
+      .moreInfo_wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 1.875rem;
+      }
+
+      background: white;
+      margin-top: 3.5rem;
+      margin-bottom: 6.25rem;
+
+      .moreInfo_item {
+        background: $brown-100;
+        height: 28.4375rem;
+        box-shadow: $card-shadow-4;
+        border-radius: 0.25rem;
+        overflow: hidden;
+        position: relative;
+      }
+
+      .moreInfo_item-wrapper {
+        height: 15.8125rem;
+        display: flex;
+        flex-direction: column;
+      }
+
+      .moreInfo_item-heading {
+        padding-top: 1.5rem;
+        margin: 0 1.5rem;
+        font-family: "Nespresso Lucas", Helvetica, Trebuchet, Arial, sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 1.25rem;
+        line-height: 2rem;
+        text-align: center;
+        text-transform: uppercase;
+        color: $black-800;
+      }
+
+      .moreInfo_item-title {
+        margin: 0 1.5rem;
+        flex: 1;
+        margin-top: 0.75rem;
+        font-family: "Nespresso Lucas", Helvetica, Trebuchet, Arial, sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 0.875rem;
+        line-height: 1.25rem;
+        text-align: center;
+        letter-spacing: 0.01em;
+        color: $black-800;
+      }
+
+      .moreInfo_item-btn {
+        margin-bottom: 1.5rem;
+        display: flex;
+        justify-content: center;
+
+        button {
+          background-color: unset;
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+          padding: 1rem 1.5rem;
+          border: 0.0625rem solid $black-900;
+          border-radius: 2.5rem;
+          cursor: pointer;
+
+          span {
+            font-family: "Nespresso Lucas", Helvetica, Trebuchet, Arial,
+              sans-serif;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 0.875rem;
+            line-height: 1.25rem;
+            letter-spacing: 0.0781rem;
+            color: $black-800;
+          }
+
+          &:hover {
+            background-color: #c5c5c5;
+          }
+        }
+      }
+
+      .moreInfo_item-content {
+        .moreInfo_item-img {
+          width: 100%;
+          height: 100%;
+
+          img {
+            width: 100%;
+            background-position: center;
+            height: 12.625rem;
+            object-position: center;
+            object-fit: fill;
+          }
+        }
+      }
+    }
+  }
+}
+
+/* Tablet: width >= 768px and width < 1024px */
+@media only screen and (min-width: 48rem) and (max-width: 63.938rem) {
+  #indexPage {
+    #index {
+      .product {
+        &_list {
+          padding-left: 1.25rem;
+          padding-right: 1.25rem;
+          grid-template-columns: 1fr 1fr !important;
+        }
+      }
+
+      .moreInfo_list {
+        padding: 0 1rem;
+        max-width: 45.5rem !important;
+        grid-template-columns: 1fr !important;
+
+        .moreInfo_item {
+          display: flex;
+          max-height: 22.8125rem;
+        }
+
+        .moreInfo_item-img {
+          height: 100%;
+
+          img {
+            width: 318px;
+            height: 22.8125rem;
+            object-fit: cover;
+          }
+        }
+
+        .moreInfo_item-wrapper {
+          order: 1;
+          height: 100% !important;
+        }
+      }
+    }
+
+    #banner {
+      width: 100%;
+      height: 100%;
+      margin-top: 50px;
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
+
+/* Mobile: width < 768px */
+@media only screen and (max-width: 47.938em) {
+  #indexPage {
+    #index {
+      .product {
+        &_list {
+          padding-left: calc((100% - 350px) / 2) !important;
+          padding-right: calc((100% - 350px) / 2) !important;
+          grid-template-columns: 1fr !important;
+        }
+        &_item {
+          width: 350px !important;
+        }
+        &_item-heading {
+          width: 350px !important;
+        }
+
+        &_item-btn {
+          button {
+            width: 90%;
+          }
+        }
+      }
+
+      .moreInfo_list {
+        padding: 0 1rem;
+        max-width: 45.5rem !important;
+        grid-template-columns: 1fr !important;
+
+        .moreInfo_item {
+          display: flex;
+          flex-direction: column;
+        }
+
+        .moreInfo_item-img {
+          height: 12.0625rem;
+          order: 1;
+          flex: 1;
+
+          img {
+            width: 100%;
+            height: 12.0625rem;
+          }
+        }
+
+        .moreInfo_item-heading {
+          padding-top: 1rem !important;
+        }
+
+        .moreInfo_item-wrapper {
+          order: 1;
+          display: flex;
+          flex-direction: column;
+          height: 100% !important;
+        }
+      }
+
+      .featured {
+        &_wrapper {
+          padding-top: 1rem;
+          padding-bottom: 1rem;
+          padding-left: 20px;
+          padding-right: 20px;
+          margin: unset;
+        }
+        &_item {
+          display: flex;
+          flex-direction: column;
+          width: 100%;
+          height: unset !important;
+          padding: 1rem 0;
+          border-right: unset !important;
+          border-bottom: 0.0625rem solid rgba(0, 0, 0, 0.2);
+        }
+        &_item-content {
+          padding: unset !important;
+          width: 100% !important;
+          order: 1;
+        }
+        &_item-content-btn {
+          margin-bottom: unset !important;
+        }
+        &_item-inner {
+          width: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+        }
+        &_item-img {
+          width: unset !important;
+        }
+
+        &_item-header {
+          margin-top: unset !important;
+        }
+
+        &_item-btn {
+          margin-top: unset !important;
+        }
+      }
+
+      .tagLine-event {
+        padding: 0 1rem;
+        padding-top: 1rem;
+        display: flex;
+        gap: unset !important;
+        height: unset !important;
+        padding-bottom: 1rem;
+        flex-direction: column;
+
+        h3 {
+          font-size: 10px !important;
+        }
+
+        span {
+          font-size: 10px !important;
+        }
+      }
+    }
+
+    #banner {
+      margin-top: 50px;
+      img {
+        width: 100%;
+      }
+    }
+  }
+}

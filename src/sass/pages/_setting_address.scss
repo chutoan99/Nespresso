@@ -1,0 +1,180 @@
+#setting_my_address {
+  .setting {
+    &_label {
+      @extend .font_body-2;
+      height: 3.25rem;
+      background: $black-200;
+      font-weight: 700;
+      color: $black-900;
+      display: flex;
+      align-items: center;
+      padding: 1rem;
+      margin-bottom: unset;
+    }
+    &_label2 {
+      background: $black-50;
+      height: 4.5625rem;
+      display: flex;
+      align-items: center;
+      padding: 1rem;
+      margin-bottom: unset;
+    }
+  }
+  .form {
+    &_content {
+      padding: 1rem;
+      padding: 1.5rem 1rem;
+      width: 100%;
+      background-color: white;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: 1fr;
+      grid-column-gap: 0.625rem;
+    }
+    &_content-left {
+    }
+    &_content-info {
+      span {
+        @extend .font_caption;
+        width: 100%;
+        display: inline-block;
+        font-weight: 700;
+        color: $black-800;
+      }
+    }
+    &_content-btn {
+      margin-top: 0.5rem;
+      display: flex;
+      justify-content: start;
+      align-items: center;
+      button {
+        padding: 1rem 1.5rem;
+        height: 2.5625rem;
+        border: 0.0625rem solid $black-900;
+        border-radius: 2.5rem;
+        display: flex;
+        background-color: unset;
+        justify-content: start;
+        align-items: center;
+        span {
+          @extend .font_button;
+          font-weight: 600;
+          background-color: unset;
+          display: flex;
+          align-items: center;
+          text-align: center;
+          letter-spacing: 0.0781rem;
+          color: $black-800;
+        }
+        &:hover {
+          cursor: pointer;
+          transition: 0.3s;
+          background: #c5c5c5;
+        }
+      }
+    }
+    &_content-title {
+      margin-top: 0.75rem;
+      display: flex;
+      justify-content: start;
+      flex-direction: column;
+      div {
+        display: flex;
+        align-items: center;
+        gap: 0.75rem;
+        span {
+          padding: 0rem;
+          @extend .font_caption;
+          font-weight: 400;
+          color: $black-800;
+        }
+      }
+    }
+    &_content-heading {
+      @extend .font_caption;
+      font-weight: 700;
+      color: $black-800;
+    }
+    &_btn {
+      width: 100%;
+      display: flex;
+      justify-content: end;
+      align-items: center;
+      button {
+        @extend .font_button;
+        height: 2.5625rem;
+        padding: 1rem 1.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 600;
+        text-align: center;
+        color: $black-800;
+        border: 0.0625rem solid $black-900;
+        border-radius: 2.5rem;
+        background-color: unset;
+        &:hover {
+          cursor: pointer;
+          transition: 0.3s;
+          background: #c5c5c5;
+        }
+      }
+    }
+  }
+}
+
+/* Tablet: width >= 768px and width < 1024px */
+@media only screen and (min-width: 48rem) and (max-width: 63.938rem) {
+  #setting_my_address {
+    margin-top: 3.125rem;
+    .setting {
+      display: flex;
+      flex-direction: column;
+      gap: 0.625rem;
+      margin-right: 1.25rem;
+      margin-left: 1.25rem;
+    }
+  }
+}
+
+/* Mobile: width < 768px */
+@media only screen and (max-width: 47.938em) {
+  #setting_my_address {
+    margin-top: 3.125rem;
+    .setting {
+      display: flex;
+      flex-direction: column;
+      gap: 0.625rem;
+      margin-right: 0.625rem;
+      margin-left: 0.625rem;
+    }
+    .form_btn {
+      button {
+        width: 100%;
+        border-radius: 0.3125rem !important;
+      }
+    }
+    .form_content {
+      display: flex !important;
+      gap: 0.3125rem;
+      flex-direction: column;
+      padding: 1rem !important;
+      .form_content-left {
+        flex: 1;
+        order: 1;
+      }
+      .form_content-btn {
+        button {
+          width: 100%;
+          border-radius: 0.3125rem !important;
+        }
+      }
+    }
+    .setting_aside-select {
+      display: block !important;
+    }
+    .setting_aside-list {
+      display: none !important;
+    }
+  }
+}

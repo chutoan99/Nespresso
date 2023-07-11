@@ -1,6 +1,4 @@
 <script lang="ts">
-import "../css/layouts/nav.css";
-
 import { DataNavigation } from "@/utils/data_navigation";
 import { defineComponent } from "vue";
 export default defineComponent({

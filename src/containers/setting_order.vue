@@ -1,8 +1,5 @@
 <script lang="ts">
-import "../css/pages/setting_order.css";
-
 import { defineComponent } from "vue";
-
 export default defineComponent({
   name: "SettingOrder",
   components: {},

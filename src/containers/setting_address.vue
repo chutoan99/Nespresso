@@ -1,6 +1,5 @@
 <script lang="ts">
 import { Options, Vue } from "vue-class-component";
-import "../css/pages/setting_address.css";
 @Options({})
 export default class SettingAddress extends Vue {}
 </script>

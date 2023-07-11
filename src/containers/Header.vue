@@ -1,5 +1,4 @@
 <script lang="ts">
-import "../css/layouts/header.css";
 import { defineComponent } from "vue";
 
 export default defineComponent({
@@ -756,7 +755,7 @@ export default defineComponent({
                     >
                   </div>
                   <button class="modalCart_btn">
-                    <router-link to="/shopping_step_1"
+                    <router-link to="/shopping/step_1"
                       >GO TO SHOPPING BAG</router-link
                     >
                   </button>

@@ -1,5 +1,4 @@
 <script lang="ts">
-import "../css/pages/shopping.css";
 import Footer from "@/containers/Footer.vue";
 import HeaderCustom from "@/containers/HeaderCustom.vue";
 import { defineComponent } from "vue";

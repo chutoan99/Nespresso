@@ -1,5 +1,4 @@
 <script lang="ts">
-import "../css/pages/signUp_company.css";
 import HeaderCustom from "../containers/HeaderCustom.vue";
 import { defineComponent } from "vue";
 

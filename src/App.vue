@@ -1,5 +1,5 @@
 <script lang="ts">
-import "./css/layouts/orther.css";
+import "../src/css/index.css";
 
 import { Options, Vue } from "vue-class-component";
 
