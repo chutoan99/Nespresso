@@ -1,9 +1,10 @@
 <script lang="ts">
+import { defineComponent } from "vue";
+//? APP
 import Header from "@/containers/Header.vue";
 import NavigationComponent from "@/containers/Nav.vue";
 import Footer from "@/containers/Footer.vue";
 
-import { defineComponent } from "vue";
 export default defineComponent({
   name: "NotFound2Page",
   components: {

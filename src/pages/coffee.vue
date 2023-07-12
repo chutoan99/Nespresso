@@ -1,9 +1,10 @@
 <script lang="ts">
+import { defineComponent } from "vue";
+//? APP
 import Header from "@/containers/Header.vue";
 import NavigationComponent from "@/containers/Nav.vue";
 import Footer from "@/containers/Footer.vue";
 import ProductCoffeeItem from "@/components/product_coffe_item.vue";
-import { defineComponent } from "vue";
 import {
   dat_category,
   data_barista,
@@ -142,14 +143,14 @@ export default defineComponent({
                     v-for="category in dataCategory"
                     :key="category.id"
                   >
-                    <a :href="'#' + category.id">
+                    <router-link :to="'#' + category.id">
                       <img
                         class="category-img"
                         :src="category.image"
                         :alt="category.alt"
                       />
                       <p class="category-desc">{{ category.desc }}</p>
-                    </a>
+                    </router-link>
                   </li>
                 </ul>
               </div>
@@ -285,7 +286,9 @@ export default defineComponent({
                   Get 10% credit back in your accountwith Subscription by
                   Nespresso
                 </p>
-                <a href="#" class="product_ads__more">READ MORE</a>
+                <router-link to="#" class="product_ads__more"
+                  >READ MORE</router-link
+                >
               </div>
             </div>
           </section>

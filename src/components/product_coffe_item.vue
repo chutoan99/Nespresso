@@ -14,9 +14,9 @@ export default defineComponent({
     </div>
 
     <div class="product-image">
-      <a :href="'./coffee_detail?id=' + product.id">
+      <router-link :to="'./coffee_detail?id=' + product.id">
         <img :src="product.image" :alt="product.alt" />
-      </a>
+      </router-link>
     </div>
     <div class="product-content">
       <div class="product-desc">

@@ -1,6 +1,7 @@
 <script lang="ts">
-import HeaderCustom from "../containers/HeaderCustom.vue";
 import { defineComponent } from "vue";
+//? APP
+import HeaderCustom from "../containers/HeaderCustom.vue";
 
 export default defineComponent({
   name: "signUpPrivate1Page",

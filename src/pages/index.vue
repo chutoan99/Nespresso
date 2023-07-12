@@ -1,11 +1,12 @@
 <script lang="ts">
-import { data_product } from "@/utils/data_product";
+import { defineComponent } from "vue";
+//? APP
 import Header from "@/containers/Header.vue";
 import NavigationComponent from "@/containers/Nav.vue";
 import FooterComponent from "@/containers/Footer.vue";
 import ProductItem from "@/components/product_item.vue";
 import MoreItem from "@/components/more_item.vue";
-import { defineComponent } from "vue";
+import { data_product } from "@/utils/data_product";
 
 export default defineComponent({
   name: "IndexPage",

@@ -416,7 +416,7 @@
 // climate
 
 /* Tablet: width >= 768px and width < 1024px */
-@media only screen and (min-width: 48rem) and (max-width: 64rem) {
+@media only screen and (min-width: 48rem) and (max-width: 63.938rem) {
   #climate {
     .climate_frame1,
     .climate_frame8,
@@ -434,7 +434,7 @@
 }
 
 /* Mobile: width < 768px */
-@media only screen and (max-width: 48rem) {
+@media only screen and (max-width: 47.938em) {
   #climate {
     .climate_frame2 {
       padding: 3rem 0 !important;
@@ -486,6 +486,18 @@
 
     .climate_frame3-item {
       height: 26rem;
+    }
+    .climate_frame-wrapper {
+      padding: 50px 0;
+    }
+    .background-1,
+    .background-2,
+    .background-3 {
+      height: 100%;
+      min-height: 15.625rem;
+    }
+    .climate_frame4-wrapper {
+      position: absolute;
     }
   }
 }

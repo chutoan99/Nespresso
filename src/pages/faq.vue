@@ -1,10 +1,12 @@
 <script lang="ts">
+import { defineComponent } from "vue";
+//? APP
 import Header from "@/containers/Header.vue";
 import NavigationComponent from "@/containers/Nav.vue";
 import Footer from "@/containers/Footer.vue";
-import { defineComponent } from "vue";
-import { data_top, data_vertuo, data_return } from "@/utils/data_faq";
 import FaqItem from "@/components/faq_item.vue";
+import { data_top, data_vertuo, data_return } from "@/utils/data_faq";
+
 export default defineComponent({
   name: "FaqPage",
   components: {

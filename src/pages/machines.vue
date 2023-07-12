@@ -1,10 +1,12 @@
 <script lang="ts">
+import { defineComponent } from "vue";
+//? APP
 import Header from "@/containers/Header.vue";
 import NavigationComponent from "@/containers/Nav.vue";
 import Footer from "@/containers/Footer.vue";
-import { defineComponent } from "vue";
-import { data_product_machine } from "@/utils/data_produc_machine";
 import ProductMachineItem from "@/components/product_machine_item.vue";
+import { data_product_machine } from "@/utils/data_produc_machine";
+
 export default defineComponent({
   name: "MachinesPage",
   components: {

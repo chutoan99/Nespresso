@@ -1,7 +1,4 @@
 <script lang="ts">
-import Header from "@/containers/Header.vue";
-import NavigationComponent from "@/containers/Nav.vue";
-import Footer from "@/containers/Footer.vue";
 import { defineComponent } from "vue";
 
 export default defineComponent({

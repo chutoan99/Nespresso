@@ -1,8 +1,9 @@
 <script lang="ts">
+import { defineComponent } from "vue";
+//? APP
 import Header from "@/containers/Header.vue";
 import NavigationComponent from "@/containers/Nav.vue";
 import Footer from "@/containers/Footer.vue";
-import { defineComponent } from "vue";
 
 export default defineComponent({
   name: "MachinesDetailPage",
@@ -174,16 +175,16 @@ export default defineComponent({
                 <div class="product-card__type">
                   <p class="product-card__type-text">Colors:</p>
                   <div class="product-card__colors">
-                    <a
-                      href="#"
+                    <router-link
+                      to="#"
                       class="product-card__colors-link"
                       style="background-color: rgb(255, 0, 0)"
-                    ></a>
-                    <a
-                      href="#"
+                    ></router-link>
+                    <router-link
+                      to="#"
                       class="product-card__colors-link"
                       style="background-color: rgb(0, 0, 0)"
-                    ></a>
+                    ></router-link>
                   </div>
                 </div>
                 <div class="product-card__price">₫ 4,200,000</div>
@@ -219,7 +220,7 @@ export default defineComponent({
                 </p>
 
                 <p class="product-banner__text-more">
-                  <a href="">READ MORE</a>
+                  <router-link to="">READ MORE</router-link>
                 </p>
                 <!-- <div class="product-banner__text-more">
                   <button>
@@ -526,7 +527,7 @@ export default defineComponent({
                 <p class="faq-left__list-answer">{{ faq.answer }}</p>
               </details>
               <div class="faq-left__button">
-                <a href=""> Check user manual </a>
+                <router-link to=""> Check user manual </router-link>
               </div>
             </div>
           </div>

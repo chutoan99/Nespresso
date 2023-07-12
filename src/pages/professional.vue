@@ -1,17 +1,9 @@
 <script lang="ts">
-import Header from "@/containers/Header.vue";
-import NavigationComponent from "@/containers/Nav.vue";
-import Footer from "@/containers/Footer.vue";
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+import "swiper/css/scrollbar";
 import { defineComponent } from "vue";
-import {
-  data_capsules,
-  data_banner,
-  data_discover,
-  data_machine,
-  data_professional,
-  data_solution,
-} from "@/utils/data_professional";
-
 import { Swiper, SwiperSlide } from "swiper/vue";
 import {
   Navigation,
@@ -20,11 +12,18 @@ import {
   A11y,
   Autoplay,
 } from "swiper/modules";
-
-import "swiper/css";
-import "swiper/css/navigation";
-import "swiper/css/pagination";
-import "swiper/css/scrollbar";
+//? APP
+import Header from "@/containers/Header.vue";
+import NavigationComponent from "@/containers/Nav.vue";
+import Footer from "@/containers/Footer.vue";
+import {
+  data_capsules,
+  data_banner,
+  data_discover,
+  data_machine,
+  data_professional,
+  data_solution,
+} from "@/utils/data_professional";
 
 export default defineComponent({
   name: "ProfessionalPage",
@@ -35,6 +34,7 @@ export default defineComponent({
     Swiper,
     SwiperSlide,
   },
+
   data() {
     return {
       dataCapsules: data_capsules,
@@ -58,6 +58,39 @@ export default defineComponent({
       modules: [Navigation, Pagination, Scrollbar, A11y, Autoplay],
     };
   },
+  methods: {
+    getSlidesBanner() {
+      if (window.innerWidth >= 1024) {
+        return 5;
+      } else if (window.innerWidth >= 480) {
+        return 3;
+      } else {
+        return 1;
+      }
+    },
+
+    getSlidesCapsules() {
+      if (window.innerWidth >= 1024) {
+        return 3;
+      } else if (window.innerWidth >= 480) {
+        return 2;
+      } else {
+        return 1;
+      }
+    },
+    getSlidesPro() {
+      if (window.innerWidth >= 1024) {
+        return 3;
+      } else if (window.innerWidth >= 480) {
+        return 2;
+      } else {
+        return 1;
+      }
+    },
+    shouldShowNavigation() {
+      return window.innerWidth >= 480;
+    },
+  },
 });
 </script>
 
@@ -75,7 +108,7 @@ export default defineComponent({
               :slides-per-view="1"
               :space-between="0"
               :pagination="{ clickable: true }"
-              :speed="300"
+              :speed="500"
               :autoplay="true"
               @swiper="onSwiper"
               @slideChange="onSlideChange"
@@ -143,14 +176,10 @@ export default defineComponent({
             </div>
           </div>
 
-          <div
-            class="container"
-            id="professional_slide-list"
-            style="padding-bottom: 3.75rem"
-          >
+          <div class="container" id="professional_slide-list">
             <swiper
               :modules="modules"
-              :slides-per-view="5"
+              :slides-per-view="getSlidesBanner()"
               :space-between="24"
               :pagination="{ clickable: true }"
               :speed="300"
@@ -178,10 +207,11 @@ export default defineComponent({
               <div class="professional_slide-capsules">
                 <swiper
                   :modules="modules"
-                  :slides-per-view="3"
+                  :slides-per-view="getSlidesCapsules()"
                   :space-between="0"
                   :pagination="{ clickable: true }"
                   :speed="300"
+                  navigation
                   @swiper="onSwiper"
                   @slideChange="onSlideChange"
                 >
@@ -292,9 +322,10 @@ export default defineComponent({
               <div class="professional_pr-wrapper container">
                 <swiper
                   :modules="modules"
-                  :slides-per-view="3"
                   :space-between="24"
+                  :slides-per-view="getSlidesPro()"
                   :pagination="{ clickable: true }"
+                  :navigation="shouldShowNavigation()"
                   :speed="300"
                   @swiper="onSwiper"
                   @slideChange="onSlideChange"

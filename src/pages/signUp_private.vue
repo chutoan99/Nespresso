@@ -1,8 +1,10 @@
 <script lang="ts">
 import { defineComponent } from "vue";
+//? APP
 import HeaderCustom from "../containers/HeaderCustom.vue";
-import { data_cart } from "@/utils/data_cart";
 import ProductCartItem from "@/components/product_cart_item.vue";
+import { data_cart } from "@/utils/data_cart";
+
 export default defineComponent({
   name: "SignUpPrivatePage",
   components: { HeaderCustom, ProductCartItem },

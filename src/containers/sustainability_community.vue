@@ -1,50 +1,46 @@
 <script>
 import { defineComponent } from "vue";
-
+import { Swiper, SwiperSlide } from "swiper/vue";
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+import "swiper/css/scrollbar";
+import {
+  Navigation,
+  Pagination,
+  Scrollbar,
+  A11y,
+  Autoplay,
+} from "swiper/modules";
 export default defineComponent({
   name: "SustainabilityCommunityPage",
-  components: {},
-  data() {
-    return {
-      slickOptions: {
-        dots: false,
-        infinite: false,
-        speed: 300,
-        slidesToShow: 3,
-        slidesToScroll: 3,
-        responsive: [
-          {
-            breakpoint: 1024,
-            settings: {
-              slidesToShow: 3,
-              slidesToScroll: 3,
-              infinite: true,
-              dots: false,
-            },
-          },
-          {
-            breakpoint: 768,
-            settings: {
-              arrows: false,
-              slidesToShow: 1,
-              slidesToScroll: 1,
-            },
-          },
-          {
-            breakpoint: 480,
-            settings: {
-              arrows: false,
-              slidesToShow: 1,
-              slidesToScroll: 1,
-            },
-          },
-        ],
-        prevArrow:
-          '<button type="button" class="slick-prev"> <svg width="12" height="22" viewBox="0 0 12 22" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.0002 0.0122891C11.198 0.0123311 11.3913 0.071003 11.5557 0.180887C11.7201 0.290772 11.8482 0.446936 11.9239 0.629635C11.9996 0.812334 12.0194 1.01337 11.9808 1.20732C11.9422 1.40127 11.847 1.57944 11.7072 1.71929L2.41421 11.0123L11.7072 20.3053C11.8894 20.4939 11.9902 20.7465 11.9879 21.0087C11.9856 21.2709 11.8804 21.5217 11.695 21.7071C11.5096 21.8925 11.2588 21.9977 10.9966 22C10.7344 22.0022 10.4818 21.9014 10.2932 21.7193L0.293211 11.7193C0.10574 11.5318 0.000425355 11.2775 0.000425332 11.0123C0.000425309 10.7471 0.10574 10.4928 0.293211 10.3053L10.2932 0.305288C10.4807 0.117739 10.735 0.0123464 11.0002 0.0122891Z" fill="white"/></svg></button>',
-        nextArrow:
-          '<button type="button" class="slick-next"> <svg width="9" height="23" viewBox="0 0 9 23" fill="none" xmlns="http://www.w3.org/2000/svg"> <path fill-rule="evenodd" clip-rule="evenodd" d="M0.205949 0.0956672C0.429276 -0.0667519 0.741984 -0.0173769 0.904403 0.205949L8.9044 11.2059C9.03191 11.3813 9.03191 11.6188 8.9044 11.7941L0.904403 22.7941C0.741984 23.0174 0.429276 23.0668 0.205949 22.9044C-0.0173769 22.742 -0.0667519 22.4293 0.0956672 22.2059L7.88179 11.5L0.0956672 0.794121C-0.0667519 0.570795 -0.0173769 0.258086 0.205949 0.0956672Z" fill="white" /></svg></button>',
-      },
+  components: { Swiper, SwiperSlide },
+  setup() {
+    const onSwiper = (swiper) => {
+      console.log(swiper);
     };
+    const onSlideChange = () => {
+      console.log("slide change");
+    };
+    return {
+      onSwiper,
+      onSlideChange,
+      modules: [Navigation, Pagination, Scrollbar, A11y, Autoplay],
+    };
+  },
+  methods: {
+    getSlidesCommunity() {
+      if (window.innerWidth >= 1024) {
+        return 3;
+      } else if (window.innerWidth >= 480) {
+        return 2;
+      } else {
+        return 1;
+      }
+    },
+    shouldShowNavigation() {
+      return window.innerWidth >= 480;
+    },
   },
 });
 </script>
@@ -207,209 +203,197 @@ export default defineComponent({
     <div class="community_frame5">
       <div class="background-2">
         <div class="community_frame5-wrapper container">
-          <div class="community_frame5-item">
-            <h3 class="community_frame5-item-heading">INISSIA</h3>
-            <div class="community_frame5-item-img">
-              <img
-                src="/assets/images/sustainability&recycling/community_12.png"
-                alt="product"
-                width="160"
-                height="160"
-              />
-            </div>
-            <div class="community_frame5-item-price">
-              <span>đ4,200,000</span>
-            </div>
-            <div class="community_frame5-item-btn">
-              <button>
-                <svg
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    fill-rule="evenodd"
-                    clip-rule="evenodd"
-                    d="M8 3.75C8 1.67889 9.67889 0 11.75 0C13.8211 0 15.5 1.67889 15.5 3.75V6H20.75L21.5 24H2L2.75 6H8V3.75ZM8.75 6H14.75V3.75C14.75 2.09317 13.4068 0.75 11.75 0.75C10.0932 0.75 8.75 2.09317 8.75 3.75V6Z"
-                    fill="white"
+          <swiper
+            :modules="modules"
+            :slides-per-view="getSlidesCommunity()"
+            :space-between="24"
+            :pagination="{ clickable: true }"
+            :navigation="shouldShowNavigation()"
+            @swiper="onSwiper"
+            @slideChange="onSlideChange"
+          >
+            <swiper-slide>
+              <div class="community_frame5-item">
+                <h3 class="community_frame5-item-heading">INISSIA</h3>
+                <div class="community_frame5-item-img">
+                  <img
+                    src="/assets/images/sustainability&recycling/community_12.png"
+                    alt="product"
+                    width="160"
+                    height="160"
                   />
-                </svg>
-                <span> ADD TO BASKET </span>
-              </button>
-            </div>
-          </div>
-          <div class="community_frame5-item">
-            <h3 class="community_frame5-item-heading">INISSIA</h3>
-            <div class="community_frame5-item-img">
-              <img
-                src="/assets/images/sustainability&recycling/community_12.png"
-                alt="product"
-                width="160"
-                height="160"
-              />
-            </div>
-            <div class="community_frame5-item-price">
-              <span>đ4,200,000</span>
-            </div>
-            <div class="community_frame5-item-btn">
-              <button>
-                <svg
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    fill-rule="evenodd"
-                    clip-rule="evenodd"
-                    d="M8 3.75C8 1.67889 9.67889 0 11.75 0C13.8211 0 15.5 1.67889 15.5 3.75V6H20.75L21.5 24H2L2.75 6H8V3.75ZM8.75 6H14.75V3.75C14.75 2.09317 13.4068 0.75 11.75 0.75C10.0932 0.75 8.75 2.09317 8.75 3.75V6Z"
-                    fill="white"
+                </div>
+                <div class="community_frame5-item-price">
+                  <span>đ4,200,000</span>
+                </div>
+                <div class="community_frame5-item-btn">
+                  <button>
+                    <svg
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M8 3.75C8 1.67889 9.67889 0 11.75 0C13.8211 0 15.5 1.67889 15.5 3.75V6H20.75L21.5 24H2L2.75 6H8V3.75ZM8.75 6H14.75V3.75C14.75 2.09317 13.4068 0.75 11.75 0.75C10.0932 0.75 8.75 2.09317 8.75 3.75V6Z"
+                        fill="white"
+                      />
+                    </svg>
+                    <span> ADD TO BASKET </span>
+                  </button>
+                </div>
+              </div>
+            </swiper-slide>
+
+            <swiper-slide>
+              <div class="community_frame5-item">
+                <h3 class="community_frame5-item-heading">INISSIA</h3>
+                <div class="community_frame5-item-img">
+                  <img
+                    src="/assets/images/sustainability&recycling/community_12.png"
+                    alt="product"
+                    width="160"
+                    height="160"
                   />
-                </svg>
-                <span> ADD TO BASKET </span>
-              </button>
-            </div>
-          </div>
-          <div class="community_frame5-item">
-            <h3 class="community_frame5-item-heading">INISSIA</h3>
-            <div class="community_frame5-item-img">
-              <img
-                src="/assets/images/sustainability&recycling/community_12.png"
-                alt="product"
-                width="160"
-                height="160"
-              />
-            </div>
-            <div class="community_frame5-item-price">
-              <span>đ4,200,000</span>
-            </div>
-            <div class="community_frame5-item-btn">
-              <button>
-                <svg
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    fill-rule="evenodd"
-                    clip-rule="evenodd"
-                    d="M8 3.75C8 1.67889 9.67889 0 11.75 0C13.8211 0 15.5 1.67889 15.5 3.75V6H20.75L21.5 24H2L2.75 6H8V3.75ZM8.75 6H14.75V3.75C14.75 2.09317 13.4068 0.75 11.75 0.75C10.0932 0.75 8.75 2.09317 8.75 3.75V6Z"
-                    fill="white"
+                </div>
+                <div class="community_frame5-item-price">
+                  <span>đ4,200,000</span>
+                </div>
+                <div class="community_frame5-item-btn">
+                  <button>
+                    <svg
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M8 3.75C8 1.67889 9.67889 0 11.75 0C13.8211 0 15.5 1.67889 15.5 3.75V6H20.75L21.5 24H2L2.75 6H8V3.75ZM8.75 6H14.75V3.75C14.75 2.09317 13.4068 0.75 11.75 0.75C10.0932 0.75 8.75 2.09317 8.75 3.75V6Z"
+                        fill="white"
+                      />
+                    </svg>
+                    <span> ADD TO BASKET </span>
+                  </button>
+                </div>
+              </div>
+            </swiper-slide>
+
+            <swiper-slide>
+              <div class="community_frame5-item">
+                <h3 class="community_frame5-item-heading">INISSIA</h3>
+                <div class="community_frame5-item-img">
+                  <img
+                    src="/assets/images/sustainability&recycling/community_12.png"
+                    alt="product"
+                    width="160"
+                    height="160"
                   />
-                </svg>
-                <span> ADD TO BASKET </span>
-              </button>
-            </div>
-          </div>
-          <div class="community_frame5-item">
-            <h3 class="community_frame5-item-heading">INISSIA</h3>
-            <div class="community_frame5-item-img">
-              <img
-                src="/assets/images/sustainability&recycling/community_12.png"
-                alt="product"
-                width="160"
-                height="160"
-              />
-            </div>
-            <div class="community_frame5-item-price">
-              <span>đ4,200,000</span>
-            </div>
-            <div class="community_frame5-item-btn">
-              <button>
-                <svg
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    fill-rule="evenodd"
-                    clip-rule="evenodd"
-                    d="M8 3.75C8 1.67889 9.67889 0 11.75 0C13.8211 0 15.5 1.67889 15.5 3.75V6H20.75L21.5 24H2L2.75 6H8V3.75ZM8.75 6H14.75V3.75C14.75 2.09317 13.4068 0.75 11.75 0.75C10.0932 0.75 8.75 2.09317 8.75 3.75V6Z"
-                    fill="white"
+                </div>
+                <div class="community_frame5-item-price">
+                  <span>đ4,200,000</span>
+                </div>
+                <div class="community_frame5-item-btn">
+                  <button>
+                    <svg
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M8 3.75C8 1.67889 9.67889 0 11.75 0C13.8211 0 15.5 1.67889 15.5 3.75V6H20.75L21.5 24H2L2.75 6H8V3.75ZM8.75 6H14.75V3.75C14.75 2.09317 13.4068 0.75 11.75 0.75C10.0932 0.75 8.75 2.09317 8.75 3.75V6Z"
+                        fill="white"
+                      />
+                    </svg>
+                    <span> ADD TO BASKET </span>
+                  </button>
+                </div>
+              </div>
+            </swiper-slide>
+
+            <swiper-slide>
+              <div class="community_frame5-item">
+                <h3 class="community_frame5-item-heading">INISSIA</h3>
+                <div class="community_frame5-item-img">
+                  <img
+                    src="/assets/images/sustainability&recycling/community_12.png"
+                    alt="product"
+                    width="160"
+                    height="160"
                   />
-                </svg>
-                <span> ADD TO BASKET </span>
-              </button>
-            </div>
-          </div>
-          <div class="community_frame5-item">
-            <h3 class="community_frame5-item-heading">INISSIA</h3>
-            <div class="community_frame5-item-img">
-              <img
-                src="/assets/images/sustainability&recycling/community_12.png"
-                alt="product"
-                width="160"
-                height="160"
-              />
-            </div>
-            <div class="community_frame5-item-price">
-              <span>đ4,200,000</span>
-            </div>
-            <div class="community_frame5-item-btn">
-              <button>
-                <svg
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    fill-rule="evenodd"
-                    clip-rule="evenodd"
-                    d="M8 3.75C8 1.67889 9.67889 0 11.75 0C13.8211 0 15.5 1.67889 15.5 3.75V6H20.75L21.5 24H2L2.75 6H8V3.75ZM8.75 6H14.75V3.75C14.75 2.09317 13.4068 0.75 11.75 0.75C10.0932 0.75 8.75 2.09317 8.75 3.75V6Z"
-                    fill="white"
+                </div>
+                <div class="community_frame5-item-price">
+                  <span>đ4,200,000</span>
+                </div>
+                <div class="community_frame5-item-btn">
+                  <button>
+                    <svg
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M8 3.75C8 1.67889 9.67889 0 11.75 0C13.8211 0 15.5 1.67889 15.5 3.75V6H20.75L21.5 24H2L2.75 6H8V3.75ZM8.75 6H14.75V3.75C14.75 2.09317 13.4068 0.75 11.75 0.75C10.0932 0.75 8.75 2.09317 8.75 3.75V6Z"
+                        fill="white"
+                      />
+                    </svg>
+                    <span> ADD TO BASKET </span>
+                  </button>
+                </div>
+              </div>
+            </swiper-slide>
+
+            <swiper-slide>
+              <div class="community_frame5-item">
+                <h3 class="community_frame5-item-heading">INISSIA</h3>
+                <div class="community_frame5-item-img">
+                  <img
+                    src="/assets/images/sustainability&recycling/community_12.png"
+                    alt="product"
+                    width="160"
+                    height="160"
                   />
-                </svg>
-                <span> ADD TO BASKET </span>
-              </button>
-            </div>
-          </div>
-          <div class="community_frame5-item">
-            <h3 class="community_frame5-item-heading">INISSIA</h3>
-            <div class="community_frame5-item-img">
-              <img
-                src="/assets/images/sustainability&recycling/community_12.png"
-                alt="product"
-                width="160"
-                height="160"
-              />
-            </div>
-            <div class="community_frame5-item-price">
-              <span>đ4,200,000</span>
-            </div>
-            <div class="community_frame5-item-btn">
-              <button>
-                <svg
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    fill-rule="evenodd"
-                    clip-rule="evenodd"
-                    d="M8 3.75C8 1.67889 9.67889 0 11.75 0C13.8211 0 15.5 1.67889 15.5 3.75V6H20.75L21.5 24H2L2.75 6H8V3.75ZM8.75 6H14.75V3.75C14.75 2.09317 13.4068 0.75 11.75 0.75C10.0932 0.75 8.75 2.09317 8.75 3.75V6Z"
-                    fill="white"
-                  />
-                </svg>
-                <span> ADD TO BASKET </span>
-              </button>
-            </div>
-          </div>
+                </div>
+                <div class="community_frame5-item-price">
+                  <span>đ4,200,000</span>
+                </div>
+                <div class="community_frame5-item-btn">
+                  <button>
+                    <svg
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M8 3.75C8 1.67889 9.67889 0 11.75 0C13.8211 0 15.5 1.67889 15.5 3.75V6H20.75L21.5 24H2L2.75 6H8V3.75ZM8.75 6H14.75V3.75C14.75 2.09317 13.4068 0.75 11.75 0.75C10.0932 0.75 8.75 2.09317 8.75 3.75V6Z"
+                        fill="white"
+                      />
+                    </svg>
+                    <span> ADD TO BASKET </span>
+                  </button>
+                </div>
+              </div>
+            </swiper-slide>
+          </swiper>
         </div>
       </div>
-      <!-- <div class="community_frame5-number">
-          <span>1</span>/ <span>4</span>
-        </div> -->
     </div>
     <div class="container">
       <div class="community_frame1">

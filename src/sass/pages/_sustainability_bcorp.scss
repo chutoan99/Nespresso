@@ -279,7 +279,7 @@
 }
 
 /* Mobile: width < 768px */
-@media only screen and (max-width: 48rem) {
+@media only screen and (max-width: 47.938em) {
   #Bcorp {
     // BCorp
     .Bcorp_frame1-container {
@@ -395,6 +395,14 @@
 
     .Bcorp_frame3-item-wrapper {
       width: 100%;
+    }
+    .background-1,
+    .background-2 {
+      height: 100%;
+      min-height: 15.625rem;
+    }
+    .Bcorp_frame-content {
+      padding: 50px 0;
     }
   }
 }

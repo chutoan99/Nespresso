@@ -1,9 +1,9 @@
 <script lang="ts">
+import { defineComponent } from "vue";
+//? APP
 import Header from "@/containers/Header.vue";
 import NavigationComponent from "@/containers/Nav.vue";
 import Footer from "@/containers/Footer.vue";
-import { defineComponent } from "vue";
-
 export default defineComponent({
   name: "AboutUsPage",
   components: {
@@ -219,7 +219,7 @@ export default defineComponent({
                   FIND OUT MOREON OURSUSTAINABILITY PAGE
                 </h4>
                 <button class="intro__card-btn">
-                  <a href="#">
+                  <router-link to="#">
                     <svg
                       width="24"
                       height="24"
@@ -240,7 +240,7 @@ export default defineComponent({
                         fill="white"
                       />
                     </svg>
-                  </a>
+                  </router-link>
                 </button>
               </div>
             </div>
@@ -262,7 +262,7 @@ export default defineComponent({
                 </p>
 
                 <button class="intro__card-btn">
-                  <a href="#">
+                  <router-link to="#">
                     <svg
                       width="24"
                       height="24"
@@ -283,7 +283,7 @@ export default defineComponent({
                         fill="white"
                       />
                     </svg>
-                  </a>
+                  </router-link>
                 </button>
               </div>
             </div>

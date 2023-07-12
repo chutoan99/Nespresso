@@ -1,8 +1,21 @@
 <script lang="ts">
+import { defineComponent } from "vue";
+import { Swiper, SwiperSlide } from "swiper/vue";
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+import "swiper/css/scrollbar";
+import {
+  Navigation,
+  Pagination,
+  Scrollbar,
+  A11y,
+  Autoplay,
+} from "swiper/modules";
+//? APP
 import Header from "@/containers/Header.vue";
 import NavigationComponent from "@/containers/Nav.vue";
 import Footer from "@/containers/Footer.vue";
-import { defineComponent } from "vue";
 
 export default defineComponent({
   name: "BenefitsPage",
@@ -10,44 +23,34 @@ export default defineComponent({
     Header,
     NavigationComponent,
     Footer,
+    Swiper,
+    SwiperSlide,
+  },
+  setup() {
+    const onSwiper = (swiper: any) => {
+      console.log(swiper);
+    };
+    const onSlideChange = () => {
+      console.log("slide change");
+    };
+    return {
+      onSwiper,
+      onSlideChange,
+      modules: [Navigation, Pagination, Scrollbar, A11y, Autoplay],
+    };
   },
 
-  // $(document).ready(function () {
-  //       $(".slider_list").slick({
-  //         slidesToShow: 8,
-  //         slidesToScroll: 1,
-  //         dots: false,
-  //         centerMode: true,
-  //         focusOnSelect: true,
-  //         prevArrow:
-  //           '<button type="button" class="slick-prev"> <svg width="7" height="13" viewBox="0 0 7 13" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6.83728 0.162718C6.62032 -0.0542395 6.26857 -0.0542395 6.05161 0.162718L0.496052 5.71827C0.279094 5.93523 0.279094 6.28699 0.496052 6.50395L6.05161 12.0595C6.26857 12.2765 6.62032 12.2765 6.83728 12.0595C7.05424 11.8425 7.05424 11.4908 6.83728 11.2738L1.67456 6.11111L6.83728 0.948393C7.05424 0.731435 7.05424 0.379676 6.83728 0.162718Z" fill="#212121" fill="white"/></svg></button>',
-  //         nextArrow:
-  //           '<button type="button" class="slick-next"> <svg  width="7" height="13" viewBox="0 0 7 13" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M0.162718 0.162718C0.379676 -0.0542395 0.731435 -0.0542395 0.948393 0.162718L6.50395 5.71827C6.72091 5.93523 6.72091 6.28699 6.50395 6.50395L0.948393 12.0595C0.731435 12.2765 0.379676 12.2765 0.162718 12.0595C-0.0542395 11.8425 -0.0542395 11.4908 0.162718 11.2738L5.32544 6.11111L0.162718 0.948393C-0.0542395 0.731435 -0.0542395 0.379676 0.162718 0.162718Z" fill="#212121" fill="white" /></svg></button>',
-  //         responsive: [
-  //           {
-  //             breakpoint: 1024,
-  //             settings: {
-  //               slidesToShow: 8,
-  //               slidesToScroll: 1,
-  //               infinite: true,
-  //               dots: false,
-  //             },
-  //           },
-
-  //           {
-  //             breakpoint: 768,
-  //             settings: {
-  //               arrows: false,
-  //               centerMode: true,
-  //               Infinity: true,
-  //               slidesToShow: 4,
-  //               slidesToScroll: 2,
-  //               dots: false,
-  //             },
-  //           },
-  //         ],
-  //       });
-  //     });
+  methods: {
+    getSlidesBanner() {
+      if (window.innerWidth >= 1024) {
+        return 8;
+      } else if (window.innerWidth >= 480) {
+        return 6;
+      } else {
+        return 3;
+      }
+    },
+  },
 });
 </script>
 
@@ -86,123 +89,159 @@ export default defineComponent({
             </h3>
             <div class="container slider-wrapper">
               <div class="slider_list">
-                <div class="slider_item">
-                  <div class="slider_item-wrapper">
-                    <div class="slider_item-img">
-                      <img
-                        src="assets/images/benefits/car.png"
-                        alt="DELIVERY"
-                      />
+                <swiper
+                  :modules="modules"
+                  :slides-per-view="getSlidesBanner()"
+                  :space-between="0"
+                  :pagination="{ clickable: true }"
+                  navigation
+                  @swiper="onSwiper"
+                  @slideChange="onSlideChange"
+                >
+                  <swiper-slide>
+                    <div class="slider_item">
+                      <div class="slider_item-wrapper">
+                        <div class="slider_item-img">
+                          <img
+                            src="assets/images/benefits/car.png"
+                            alt="DELIVERY"
+                          />
+                        </div>
+                      </div>
+                      <div class="slider_item-title">
+                        <span>FREE DELIVERY</span>
+                      </div>
                     </div>
-                  </div>
-                  <div class="slider_item-title">
-                    <span>FREE DELIVERY</span>
-                  </div>
-                </div>
-                <div class="slider_item">
-                  <div class="slider_item-wrapper">
-                    <div class="slider_item-img">
-                      <img
-                        src="assets/images/benefits/RECYCLING_AT_HOME.png"
-                        alt="RECYCLING"
-                      />
+                  </swiper-slide>
+
+                  <swiper-slide>
+                    <div class="slider_item">
+                      <div class="slider_item-wrapper">
+                        <div class="slider_item-img">
+                          <img
+                            src="assets/images/benefits/RECYCLING_AT_HOME.png"
+                            alt="RECYCLING"
+                          />
+                        </div>
+                      </div>
+                      <div class="slider_item-title">
+                        <span>RECYCLING AT HOME</span>
+                      </div>
                     </div>
-                  </div>
-                  <div class="slider_item-title">
-                    <span>RECYCLING AT HOME</span>
-                  </div>
-                </div>
-                <div class="slider_item">
-                  <div class="slider_item-wrapper">
-                    <div class="slider_item-img">
-                      <img
-                        src="assets/images/benefits/LOAN_MACHINE_DURING_REPAIR.png"
-                        alt="MACHINE"
-                      />
+                  </swiper-slide>
+
+                  <swiper-slide>
+                    <div class="slider_item">
+                      <div class="slider_item-wrapper">
+                        <div class="slider_item-img">
+                          <img
+                            src="assets/images/benefits/LOAN_MACHINE_DURING_REPAIR.png"
+                            alt="MACHINE"
+                          />
+                        </div>
+                      </div>
+                      <div class="slider_item-title">
+                        <span>LOAN MACHINE DURING REPAIR</span>
+                      </div>
                     </div>
-                  </div>
-                  <div class="slider_item-title">
-                    <span>LOAN MACHINE DURING REPAIR</span>
-                  </div>
-                </div>
-                <div class="slider_item">
-                  <div class="slider_item-wrapper">
-                    <div class="slider_item-img">
-                      <img
-                        src="assets/images/benefits/MASTERCLASSES.png"
-                        alt="MASTERCLASSES"
-                      />
+                  </swiper-slide>
+
+                  <swiper-slide>
+                    <div class="slider_item">
+                      <div class="slider_item-wrapper">
+                        <div class="slider_item-img">
+                          <img
+                            src="assets/images/benefits/MASTERCLASSES.png"
+                            alt="MASTERCLASSES"
+                          />
+                        </div>
+                      </div>
+                      <div class="slider_item-title">
+                        <span>MASTERCLASSES</span>
+                      </div>
                     </div>
-                  </div>
-                  <div class="slider_item-title">
-                    <span>MASTERCLASSES</span>
-                  </div>
-                </div>
-                <div class="slider_item">
-                  <div class="slider_item-wrapper">
-                    <div class="slider_item-img">
-                      <img
-                        src="assets/images/benefits/DISCOUNT.png"
-                        alt="DISCOUNT"
-                      />
+                  </swiper-slide>
+
+                  <swiper-slide>
+                    <div class="slider_item">
+                      <div class="slider_item-wrapper">
+                        <div class="slider_item-img">
+                          <img
+                            src="assets/images/benefits/DISCOUNT.png"
+                            alt="DISCOUNT"
+                          />
+                        </div>
+                      </div>
+                      <div class="slider_item-title">
+                        <span>10% EXTRA DISCOUNT</span>
+                      </div>
                     </div>
-                  </div>
-                  <div class="slider_item-title">
-                    <span>10% EXTRA DISCOUNT</span>
-                  </div>
-                </div>
-                <div class="slider_item">
-                  <div class="slider_item-wrapper">
-                    <div class="slider_item-img">
-                      <img
-                        src="assets/images/benefits/FREE_DESCALING_KIT.png"
-                        alt="DESCALING"
-                      />
+                  </swiper-slide>
+
+                  <swiper-slide>
+                    <div class="slider_item">
+                      <div class="slider_item-wrapper">
+                        <div class="slider_item-img">
+                          <img
+                            src="assets/images/benefits/FREE_DESCALING_KIT.png"
+                            alt="DESCALING"
+                          />
+                        </div>
+                      </div>
+                      <div class="slider_item-title">
+                        <span>FREE DESCALING KIT</span>
+                      </div>
                     </div>
-                  </div>
-                  <div class="slider_item-title">
-                    <span>FREE DESCALING KIT</span>
-                  </div>
-                </div>
-                <div class="slider_item">
-                  <div class="slider_item-wrapper">
-                    <div class="slider_item-img">
-                      <img
-                        src="assets/images/benefits/REFFER_A_FRIEND.png"
-                        alt="REFFER"
-                      />
+                  </swiper-slide>
+
+                  <swiper-slide>
+                    <div class="slider_item">
+                      <div class="slider_item-wrapper">
+                        <div class="slider_item-img">
+                          <img
+                            src="assets/images/benefits/REFFER_A_FRIEND.png"
+                            alt="REFFER"
+                          />
+                        </div>
+                      </div>
+                      <div class="slider_item-title">
+                        <span>REFFER A FRIEND</span>
+                      </div>
+                    </div></swiper-slide
+                  >
+
+                  <swiper-slide>
+                    <div class="slider_item">
+                      <div class="slider_item-wrapper">
+                        <div class="slider_item-img">
+                          <img
+                            src="assets/images/benefits/EXTENDED_WARRANTY.png"
+                            alt="EXTENDED"
+                          />
+                        </div>
+                      </div>
+                      <div class="slider_item-title">
+                        <span>EXTENDED WARRANTY</span>
+                      </div>
+                    </div></swiper-slide
+                  >
+
+                  <swiper-slide>
+                    <div class="slider_item">
+                      <div class="slider_item-wrapper">
+                        <div class="slider_item-img">
+                          <img
+                            src="assets/images/benefits/EXTENDED_WARRANTY.png"
+                            alt="EXTENDED"
+                          />
+                        </div>
+                      </div>
+                      <div class="slider_item-title">
+                        <span>EXTENDED WARRANTY</span>
+                      </div>
                     </div>
-                  </div>
-                  <div class="slider_item-title">
-                    <span>REFFER A FRIEND</span>
-                  </div>
-                </div>
-                <div class="slider_item">
-                  <div class="slider_item-wrapper">
-                    <div class="slider_item-img">
-                      <img
-                        src="assets/images/benefits/EXTENDED_WARRANTY.png"
-                        alt="EXTENDED"
-                      />
-                    </div>
-                  </div>
-                  <div class="slider_item-title">
-                    <span>EXTENDED WARRANTY</span>
-                  </div>
-                </div>
-                <div class="slider_item">
-                  <div class="slider_item-wrapper">
-                    <div class="slider_item-img">
-                      <img
-                        src="assets/images/benefits/EXTENDED_WARRANTY.png"
-                        alt="EXTENDED"
-                      />
-                    </div>
-                  </div>
-                  <div class="slider_item-title">
-                    <span>EXTENDED WARRANTY</span>
-                  </div>
-                </div>
+                  </swiper-slide>
+                </swiper>
               </div>
             </div>
           </div>

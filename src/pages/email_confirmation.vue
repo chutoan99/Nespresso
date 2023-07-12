@@ -1,6 +1,7 @@
 <script lang="ts">
-import HeaderSimple from "@/containers/HeaderSimple.vue";
 import { defineComponent } from "vue";
+//? APP
+import HeaderSimple from "@/containers/HeaderSimple.vue";
 
 export default defineComponent({
   name: "OrderConfirmationPage",

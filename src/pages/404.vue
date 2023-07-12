@@ -1,9 +1,10 @@
 <script lang="ts">
+import { defineComponent } from "vue";
+//? APP
+import { data_product } from "@/utils/data_product_404";
 import Header from "@/containers/Header.vue";
 import NavigationComponent from "@/containers/Nav.vue";
 import Footer from "@/containers/Footer.vue";
-import { defineComponent } from "vue";
-import { data_product } from "@/utils/data_product_404";
 import ProductItem404 from "@/components/product_item_404.vue";
 export default defineComponent({
   name: "NotPoundPage",

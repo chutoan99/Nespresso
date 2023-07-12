@@ -1,6 +1,4 @@
 <script lang="ts">
-import Footer from "@/containers/Footer.vue";
-
 import { defineComponent } from "vue";
 export default defineComponent({
   name: "ShoppingStep3",

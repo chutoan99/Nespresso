@@ -1,7 +1,8 @@
 <script lang="ts">
-import Header from "@/containers/Header.vue";
-import NavigationComponent from "@/containers/Nav.vue";
-import Footer from "@/containers/Footer.vue";
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+import "swiper/css/scrollbar";
 import { defineComponent } from "vue";
 import { Swiper, SwiperSlide } from "swiper/vue";
 import {
@@ -11,11 +12,15 @@ import {
   A11y,
   Autoplay,
 } from "swiper/modules";
-// Import Swiper styles
-import "swiper/css";
-import "swiper/css/navigation";
-import "swiper/css/pagination";
-import "swiper/css/scrollbar";
+//? APP
+import Header from "@/containers/Header.vue";
+import Footer from "@/containers/Footer.vue";
+import NavigationComponent from "@/containers/Nav.vue";
+import {
+  data_questions,
+  data_productRelated,
+} from "@/utils/data_professional_detail";
+
 export default defineComponent({
   name: "ProfessionalDetailPage",
   components: {
@@ -27,64 +32,11 @@ export default defineComponent({
   },
   data() {
     return {
-      dataQuestions: [
-        {
-          question: "What is the caffeine content for the Vertuo capsules ?",
-          answer:
-            "The Momento Coffee 100 machine offers black coffee preparation in Ristretto (25ml), Espresso (40ml), Lungo (110ml), Americano (150ml) or Large Americano (210ml) sizes.",
-          rating: 0,
-        },
-        {
-          question: "Which business is suitable for this machine?",
-          answer:
-            "The Momento Coffee 100 machine offers black coffee preparation in Ristretto (25ml), Espresso (40ml), Lungo (110ml), Americano (150ml) or Large Americano (210ml) sizes.",
-          rating: 0,
-        },
-        {
-          question: "How do I buy a Momento Coffee 100 machine?",
-          answer:
-            "The Momento Coffee 100 machine offers black coffee preparation in Ristretto (25ml), Espresso (40ml), Lungo (110ml), Americano (150ml) or Large Americano (210ml) sizes.",
-          rating: 0,
-        },
-        {
-          question: "What are the delivery charges for the machine?",
-          answer:
-            "The Momento Coffee 100 machine offers black coffee preparation in Ristretto (25ml), Espresso (40ml), Lungo (110ml), Americano (150ml) or Large Americano (210ml) sizes.",
-          rating: 0,
-        },
-        {
-          question:
-            "How can I purchase more than one Momento Coffee 100 machine?",
-          answer:
-            "The Momento Coffee 100 machine offers black coffee preparation in Ristretto (25ml), Espresso (40ml), Lungo (110ml), Americano (150ml) or Large Americano (210ml) sizes.",
-          rating: 0,
-        },
-      ],
-
-      dataProductRelated: [
-        {
-          title: "Zenius",
-          price: "VND 16,000,000",
-          discount: null,
-        },
-        {
-          title: "Zenius Offer for Small Offices",
-          price: "VND 18,000,000",
-          discount: "VND 25,000,000",
-        },
-        {
-          title: "Zenius Offer for Small Offices",
-          price: "VND 18,000,000",
-          discount: "VND 25,000,000",
-        },
-        {
-          title: "Zenius Offer for Small Offices",
-          price: "VND 18,000,000",
-          discount: "VND 25,000,000",
-        },
-      ],
+      dataQuestions: data_questions,
+      dataProductRelated: data_productRelated,
     };
   },
+
   setup() {
     const onSwiper = (swiper: any) => {
       console.log(swiper);
@@ -97,6 +49,18 @@ export default defineComponent({
       onSlideChange,
       modules: [Navigation, Pagination, Scrollbar, A11y, Autoplay],
     };
+  },
+
+  methods: {
+    getSlidesBanner() {
+      if (window.innerWidth >= 1024) {
+        return 2;
+      } else if (window.innerWidth >= 480) {
+        return 2;
+      } else {
+        return 1;
+      }
+    },
   },
 });
 </script>
@@ -891,11 +855,13 @@ export default defineComponent({
         <section class="image-slider container">
           <swiper
             :modules="modules"
-            :slides-per-view="1"
+            :slides-per-view="getSlidesBanner()"
             :space-between="24"
             :pagination="{ clickable: true }"
             :speed="300"
             navigation
+            :clickable="true"
+            loop
             @swiper="onSwiper"
             @slideChange="onSlideChange"
           >

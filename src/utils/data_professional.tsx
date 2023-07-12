@@ -135,6 +135,18 @@ export const data_machine = [
     name: "Zenius",
     link: "/professional_detail",
   },
+  {
+    imageSrc: "assets/images/professional/slide2.png",
+    alt: "Nespresso Momento Coffee & Milk 120",
+    name: "Nespresso Momento Coffee & Milk 120",
+    link: "/professional_detail",
+  },
+  {
+    imageSrc: "assets/images/professional/slide5.png",
+    alt: "Zenius Offer for Small Offices",
+    name: "Zenius Offer for Small Offices",
+    link: "/professional_detail",
+  },
 ];
 
 export const data_professional = [
