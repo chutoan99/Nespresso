@@ -1,17 +1,9 @@
 <script lang="ts">
 import { defineComponent } from "vue";
 //? APP
-import Header from "@/containers/Header.vue";
-import NavigationComponent from "@/containers/Nav.vue";
-import Footer from "@/containers/Footer.vue";
 
 export default defineComponent({
   name: "SustainabilityPage",
-  components: {
-    Header,
-    NavigationComponent,
-    Footer,
-  },
 
   data() {
     return {
@@ -47,25 +39,18 @@ export default defineComponent({
 </script>
 
 <template>
-  <div class="wrapper">
-    <div class="wrapper-innner">
-      <Header />
-      <NavigationComponent />
-      <section id="tabs">
-        <div class="tabs">
-          <router-link
-            v-for="tab in tabs"
-            :key="tab.value"
-            :to="`/sustainability/${tab.value}`"
-            class="tabs_heading"
-            :class="{ tab_active: isActive(tab.value) }"
-          >
-            {{ tab.label }}
-          </router-link>
-        </div>
-      </section>
-      <router-view></router-view>
-      <Footer />
+  <section id="tabs">
+    <div class="tabs">
+      <router-link
+        v-for="tab in tabs"
+        :key="tab.value"
+        :to="`/sustainability/${tab.value}`"
+        class="tabs_heading"
+        :class="{ tab_active: isActive(tab.value) }"
+      >
+        {{ tab.label }}
+      </router-link>
     </div>
-  </div>
+  </section>
+  <router-view></router-view>
 </template>
