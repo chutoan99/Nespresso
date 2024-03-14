@@ -101,445 +101,247 @@ export default defineComponent({
 });
 </script>
 
-<template>
-  <main id="signUp_company">
-    <section class="signUp">
-      <div class="signUp_wrapper">
-        <div class="signUp_inner">
-          <form action="" method="post" id="form_signUp">
-            <div class="form_signUp-inner">
-              <div class="form_signUp-heading">
-                <span
-                  >New customer? Welcome! Fill the form below (fields with * are
-                  required) and create your account. Please be aware that, in
-                  order to deliver your order successfully, it is very important
-                  for you to provide the correct address, phone number and
-                  postal code.</span
-                >
-              </div>
-              <fieldset class="form_signUp-header">
-                <span>My delivery address is *</span>
-                <div class="form_signUp-header-wrapper">
-                  <div>
-                    <input type="radio" id="Private" checked />
-                    <label for="Private">Private</label>
-                  </div>
-                  <div>
-                    <input type="radio" id="Company" />
-                    <label for="Company">Company</label>
-                  </div>
-                </div>
-              </fieldset>
-
-              <div id="form_Private" v-show="privateChecked">
-                <fieldset class="form_signUp-content">
-                  <div>
-                    <label for="">Title *</label>
-                    <select>
-                      <option></option>
-                    </select>
-                  </div>
-                </fieldset>
-
-                <fieldset class="form_signUp-content">
-                  <div>
-                    <label for="">Country *</label>
-                    <input type="text" placeholder="" />
-                  </div>
-                </fieldset>
-
-                <fieldset class="form_signUp-content">
-                  <div>
-                    <label for="">First Name *</label>
-                    <input type="text" placeholder="" />
-                  </div>
-                </fieldset>
-
-                <fieldset class="form_signUp-content">
-                  <div>
-                    <label for="">Last Name *</label>
-                    <input type="text" placeholder="" />
-                  </div>
-                </fieldset>
-                <hr class="line" />
-
-                <fieldset class="form_signUp-content">
-                  <div>
-                    <label for="">Address line 1 *</label>
-                    <input type="text" placeholder="" />
-                  </div>
-                </fieldset>
-
-                <fieldset class="form_signUp-content">
-                  <div>
-                    <label for="">Address line 2</label>
-                    <input type="text" placeholder="" />
-                  </div>
-                </fieldset>
-
-                <fieldset class="form_signUp-content">
-                  <div>
-                    <label for="">Post code *</label>
-                    <input type="text" placeholder="" />
-                  </div>
-                </fieldset>
-
-                <fieldset class="form_signUp-content">
-                  <div>
-                    <label for="">City *</label>
-                    <input type="text" placeholder="" />
-                  </div>
-                </fieldset>
-
-                <hr class="line" />
-
-                <fieldset class="form_signUp-content">
-                  <div>
-                    <label for="">Phone number *</label>
-                    <input type="number" placeholder="" />
-                  </div>
-                </fieldset>
-
-                <fieldset class="form_signUp-content">
-                  <div>
-                    <label for="">Delivery Remark</label>
-                    <input type="text" placeholder="" />
-                  </div>
-                </fieldset>
-              </div>
-
-              <div
-                id="form_Company"
-                style="display: none"
-                v-show="companyChecked"
-              >
-                <fieldset class="form_signUp-content">
-                  <div>
-                    <label for="">Country *</label>
-                    <input type="text" placeholder="" />
-                  </div>
-                </fieldset>
-
-                <fieldset class="form_signUp-content">
-                  <div>
-                    <label for="">Contact name *</label>
-                    <input type="text" placeholder="" />
-                  </div>
-                </fieldset>
-
-                <fieldset class="form_signUp-content">
-                  <div>
-                    <label for="">Company name *</label>
-                    <input type="text" placeholder="" />
-                  </div>
-                </fieldset>
-                <hr class="line" />
-
-                <fieldset class="form_signUp-content">
-                  <div>
-                    <label for="">Address line 1 *</label>
-                    <input type="text" placeholder="" />
-                  </div>
-                </fieldset>
-
-                <fieldset class="form_signUp-content">
-                  <div>
-                    <label for="">Address line 2</label>
-                    <input type="text" placeholder="" />
-                  </div>
-                </fieldset>
-
-                <fieldset class="form_signUp-content">
-                  <div>
-                    <label for="">Post code *</label>
-                    <input type="text" placeholder="" />
-                  </div>
-                </fieldset>
-
-                <fieldset class="form_signUp-content">
-                  <div>
-                    <label for="">City *</label>
-                    <input type="text" placeholder="" />
-                  </div>
-                </fieldset>
-
-                <hr class="line" />
-
-                <fieldset class="form_signUp-content">
-                  <div>
-                    <label for="">Phone number *</label>
-                    <input type="number" placeholder="" />
-                  </div>
-                </fieldset>
-
-                <fieldset class="form_signUp-content">
-                  <div>
-                    <label for="">Delivery Remark</label>
-                    <input type="text" placeholder="" />
-                  </div>
-                </fieldset>
-
-                <fieldset class="form_signUp-content">
-                  <div>
-                    <label for="">Address line 2</label>
-                    <input type="text" placeholder="" />
-                  </div>
-                </fieldset>
-
-                <fieldset class="form_signUp-content">
-                  <div>
-                    <label for="">Post code *</label>
-                    <input type="text" placeholder="" />
-                  </div>
-                </fieldset>
-
-                <fieldset class="form_signUp-content">
-                  <div>
-                    <label for="">City *</label>
-                    <input type="text" placeholder="" />
-                  </div>
-                </fieldset>
-              </div>
-            </div>
-
-            <div class="form_signUp-label">
-              <span>BILLING ADDRESS</span>
-            </div>
-
-            <div class="form_signUp-inner" style="padding: 16px">
-              <fieldset class="form_signUp-header" style="margin: unset">
-                <span>My billing address</span>
-                <div class="form_signUp-header-wrapper">
-                  <div>
-                    <input type="radio" id="Same" checked />
-                    <label for="Same">is the same as my delivery address</label>
-                  </div>
-                  <div>
-                    <input type="radio" id="Different" />
-                    <label for="Different"
-                      >is different from my delivery address</label
-                    >
-                  </div>
-                </div>
-              </fieldset>
-              <div
-                style="display: none"
-                id="form_Different"
-                v-show="differentChecked"
-              >
-                <fieldset class="form_signUp-header">
-                  <span>My delivery address is *</span>
-                  <div class="form_signUp-header-wrapper">
-                    <div>
-                      <input type="radio" checked id="different_Private" />
-                      <label for="different_Private">Private</label>
-                    </div>
-                    <div>
-                      <input type="radio" id="different_Company" />
-                      <label for="different_Company">Company</label>
-                    </div>
-                  </div>
-                </fieldset>
-
-                <div
-                  id="form_Different_Private"
-                  v-show="differentPrivateChecked"
-                >
-                  <fieldset class="form_signUp-content">
-                    <div>
-                      <label for="">Title *</label>
-                      <select>
-                        <option></option>
-                      </select>
-                    </div>
-                  </fieldset>
-                  <fieldset class="form_signUp-content">
-                    <div>
-                      <label for="">First Name *</label>
-                      <input type="text" placeholder="" />
-                    </div>
-                  </fieldset>
-                  <fieldset class="form_signUp-content">
-                    <div>
-                      <label for="">Last Name *</label>
-                      <input type="text" placeholder="" />
-                    </div>
-                  </fieldset>
-
-                  <fieldset class="form_signUp-content">
-                    <div>
-                      <label for="">Phone number *</label>
-                      <input type="number" placeholder="" />
-                    </div>
-                  </fieldset>
-
-                  <hr class="line" />
-                </div>
-                <div
-                  id="form_Different_Company"
-                  style="display: none"
-                  v-show="differentCompanyChecked"
-                >
-                  <fieldset class="form_signUp-content">
-                    <div>
-                      <label for="">Country *</label>
-                      <select>
-                        <option></option>
-                      </select>
-                    </div>
-                  </fieldset>
-
-                  <fieldset class="form_signUp-content">
-                    <div>
-                      <label for="">Contact name *</label>
-                      <input type="text" placeholder="" />
-                    </div>
-                  </fieldset>
-
-                  <fieldset class="form_signUp-content">
-                    <div>
-                      <label for="">Company name *</label>
-                      <input type="text" placeholder="" />
-                    </div>
-                  </fieldset>
-
-                  <hr class="line" />
-                </div>
-                <fieldset class="form_signUp-content">
-                  <div>
-                    <label for="">Address line 1 *</label>
-                    <input type="text" placeholder="" />
-                  </div>
-                </fieldset>
-
-                <fieldset class="form_signUp-content">
-                  <div>
-                    <label for="">Address line 2</label>
-                    <input type="text" placeholder="" />
-                  </div>
-                </fieldset>
-
-                <fieldset class="form_signUp-content">
-                  <div>
-                    <label for="">Post code *</label>
-                    <input type="text" placeholder="" />
-                  </div>
-                </fieldset>
-
-                <fieldset class="form_signUp-content">
-                  <div>
-                    <label for="">City *</label>
-                    <input type="text" placeholder="" />
-                  </div>
-                </fieldset>
-                <hr class="line" />
-                <div class="form_signUp-inner">
-                  <fieldset class="form_signUp-content">
-                    <div>
-                      <label for="">Phone number *</label>
-                      <input type="number" placeholder="" />
-                    </div>
-                  </fieldset>
-                  <fieldset class="form_signUp-content">
-                    <div>
-                      <label for="">Type and country</label>
-                      <div
-                        style="display: flex; align-items: center; gap: 20px"
-                      >
-                        <select style="width: 100%">
-                          <option></option>
-                        </select>
-                        <select style="width: 100%">
-                          <option></option>
-                        </select>
-                      </div>
-                    </div>
-                  </fieldset>
-                  <fieldset class="form_signUp-content">
-                    <div>
-                      <label for="">Phone number 2 *</label>
-                      <input type="number" placeholder="" />
-                    </div>
-                  </fieldset>
-                  <fieldset class="form_signUp-content">
-                    <div>
-                      <label for="">Type and country</label>
-                      <div
-                        style="display: flex; align-items: center; gap: 20px"
-                      >
-                        <select style="width: 100%">
-                          <option></option>
-                        </select>
-                        <select style="width: 100%">
-                          <option></option>
-                        </select>
-                      </div>
-                    </div>
-                  </fieldset>
-                  <fieldset class="form_signUp-content">
-                    <div>
-                      <label for="">Delivery Remark</label>
-                      <textarea placeholder=""></textarea>
-                    </div>
-                  </fieldset>
-                </div>
-              </div>
-            </div>
-            <div class="form_signUp-label">
-              <span>TAX INFORMATION</span>
-            </div>
-            <div class="form_signUp-inner" style="padding: 16px">
-              <fieldset class="form_signUp-content">
-                <div>
-                  <label for="">Tax Identification Number *</label>
-                  <input type="text" placeholder="" />
-                </div>
-              </fieldset>
-
-              <fieldset class="form_signUp-content">
-                <div>
-                  <label for="">State Inscription Number *</label>
-                  <input type="text" placeholder="" />
-                </div>
-              </fieldset>
-            </div>
-            <div class="form_signUp-label">
-              <span>KEEP ME INFORMED</span>
-            </div>
-
-            <fieldset class="form_signUp-footer">
-              <div class="form_signUp-footer-wrapper">
-                <p>
-                  Stay in touch with Nespresso family*.Be the first to get the
-                  latest coffee news, offers and benefits for Nespresso Members.
-                  Simply let us know how you’d like us to contact you by
-                  selecting one or more of these options.
-                </p>
-                <div>
-                  <input type="checkbox" />
-                  <span>E-mail</span>
-                </div>
-                <div>
-                  <input type="checkbox" />
-                  <span
-                    >Phone – I understand that I may be contacted by phone by
-                    the Customer Relationship Center</span
-                  >
-                </div>
-                <div>
-                  <input type="checkbox" />
-                  <span>SMS (text messages on my phone number)</span>
-                </div>
-              </div>
-            </fieldset>
-            <div class="form_signUp-button">
-              <button>
-                <router-link to="/signUp_private">Continue</router-link>
-              </button>
-            </div>
-          </form>
-        </div>
-      </div>
-    </section>
-  </main>
+<template lang="pug">
+main#signUp_company
+  section.signUp
+    .signUp_wrapper
+      .signUp_inner
+        form#form_signUp(action, method="post")
+          .form_signUp-inner
+            .form_signUp-heading
+              span New customer? Welcome! Fill the form below (fields with * are required) and create your account. Please be aware that, in order to deliver your order successfully, it is very important for you to provide the correct address, phone number and postal code.
+            fieldset.form_signUp-header
+              span My delivery address is *
+              .form_signUp-header-wrapper
+                div
+                  input#Private(type="radio", checked)
+                  label(for="Private") Private
+                div
+                  input#Company(type="radio")
+                  label(for="Company") Company
+            #form_Private(v-show="privateChecked")
+              fieldset.form_signUp-content
+                div
+                  label(for) Title *
+                  select
+                    option
+              fieldset.form_signUp-content
+                div
+                  label(for) Country *
+                  input(type="text", placeholder)
+              fieldset.form_signUp-content
+                div
+                  label(for) First Name *
+                  input(type="text", placeholder)
+              fieldset.form_signUp-content
+                div
+                  label(for) Last Name *
+                  input(type="text", placeholder)
+              hr.line
+              fieldset.form_signUp-content
+                div
+                  label(for) Address line 1 *
+                  input(type="text", placeholder)
+              fieldset.form_signUp-content
+                div
+                  label(for) Address line 2
+                  input(type="text", placeholder)
+              fieldset.form_signUp-content
+                div
+                  label(for) Post code *
+                  input(type="text", placeholder)
+              fieldset.form_signUp-content
+                div
+                  label(for) City *
+                  input(type="text", placeholder)
+              hr.line
+              fieldset.form_signUp-content
+                div
+                  label(for) Phone number *
+                  input(type="number", placeholder)
+              fieldset.form_signUp-content
+                div
+                  label(for) Delivery Remark
+                  input(type="text", placeholder)
+            #form_Company(style="display: none", v-show="companyChecked")
+              fieldset.form_signUp-content
+                div
+                  label(for) Country *
+                  input(type="text", placeholder)
+              fieldset.form_signUp-content
+                div
+                  label(for) Contact name *
+                  input(type="text", placeholder)
+              fieldset.form_signUp-content
+                div
+                  label(for) Company name *
+                  input(type="text", placeholder)
+              hr.line
+              fieldset.form_signUp-content
+                div
+                  label(for) Address line 1 *
+                  input(type="text", placeholder)
+              fieldset.form_signUp-content
+                div
+                  label(for) Address line 2
+                  input(type="text", placeholder)
+              fieldset.form_signUp-content
+                div
+                  label(for) Post code *
+                  input(type="text", placeholder)
+              fieldset.form_signUp-content
+                div
+                  label(for) City *
+                  input(type="text", placeholder)
+              hr.line
+              fieldset.form_signUp-content
+                div
+                  label(for) Phone number *
+                  input(type="number", placeholder)
+              fieldset.form_signUp-content
+                div
+                  label(for) Delivery Remark
+                  input(type="text", placeholder)
+              fieldset.form_signUp-content
+                div
+                  label(for) Address line 2
+                  input(type="text", placeholder)
+              fieldset.form_signUp-content
+                div
+                  label(for) Post code *
+                  input(type="text", placeholder)
+              fieldset.form_signUp-content
+                div
+                  label(for) City *
+                  input(type="text", placeholder)
+          .form_signUp-label
+            span BILLING ADDRESS
+          .form_signUp-inner(style="padding: 16px")
+            fieldset.form_signUp-header(style="margin: unset")
+              span My billing address
+              .form_signUp-header-wrapper
+                div
+                  input#Same(type="radio", checked)
+                  label(for="Same") is the same as my delivery address
+                div
+                  input#Different(type="radio")
+                  label(for="Different") is different from my delivery address
+            #form_Different(style="display: none", v-show="differentChecked")
+              fieldset.form_signUp-header
+                span My delivery address is *
+                .form_signUp-header-wrapper
+                  div
+                    input#different_Private(type="radio", checked)
+                    label(for="different_Private") Private
+                  div
+                    input#different_Company(type="radio")
+                    label(for="different_Company") Company
+              #form_Different_Private(v-show="differentPrivateChecked")
+                fieldset.form_signUp-content
+                  div
+                    label(for) Title *
+                    select
+                      option
+                fieldset.form_signUp-content
+                  div
+                    label(for) First Name *
+                    input(type="text", placeholder)
+                fieldset.form_signUp-content
+                  div
+                    label(for) Last Name *
+                    input(type="text", placeholder)
+                fieldset.form_signUp-content
+                  div
+                    label(for) Phone number *
+                    input(type="number", placeholder)
+                hr.line
+              #form_Different_Company(style="display: none", v-show="differentCompanyChecked")
+                fieldset.form_signUp-content
+                  div
+                    label(for) Country *
+                    select
+                      option
+                fieldset.form_signUp-content
+                  div
+                    label(for) Contact name *
+                    input(type="text", placeholder)
+                fieldset.form_signUp-content
+                  div
+                    label(for) Company name *
+                    input(type="text", placeholder)
+                hr.line
+              fieldset.form_signUp-content
+                div
+                  label(for) Address line 1 *
+                  input(type="text", placeholder)
+              fieldset.form_signUp-content
+                div
+                  label(for) Address line 2
+                  input(type="text", placeholder)
+              fieldset.form_signUp-content
+                div
+                  label(for) Post code *
+                  input(type="text", placeholder)
+              fieldset.form_signUp-content
+                div
+                  label(for) City *
+                  input(type="text", placeholder)
+              hr.line
+              .form_signUp-inner
+                fieldset.form_signUp-content
+                  div
+                    label(for) Phone number *
+                    input(type="number", placeholder)
+                fieldset.form_signUp-content
+                  div
+                    label(for) Type and country
+                    div(style="display: flex; align-items: center; gap: 20px")
+                      select(style="width: 100%")
+                        option
+                      select(style="width: 100%")
+                        option
+                fieldset.form_signUp-content
+                  div
+                    label(for) Phone number 2 *
+                    input(type="number", placeholder)
+                fieldset.form_signUp-content
+                  div
+                    label(for) Type and country
+                    div(style="display: flex; align-items: center; gap: 20px")
+                      select(style="width: 100%")
+                        option
+                      select(style="width: 100%")
+                        option
+                fieldset.form_signUp-content
+                  div
+                    label(for) Delivery Remark
+                    textarea(placeholder)
+          .form_signUp-label
+            span TAX INFORMATION
+          .form_signUp-inner(style="padding: 16px")
+            fieldset.form_signUp-content
+              div
+                label(for) Tax Identification Number *
+                input(type="text", placeholder)
+            fieldset.form_signUp-content
+              div
+                label(for) State Inscription Number *
+                input(type="text", placeholder)
+          .form_signUp-label
+            span KEEP ME INFORMED
+          fieldset.form_signUp-footer
+            .form_signUp-footer-wrapper
+              p Stay in touch with Nespresso family*.Be the first to get the latest coffee news, offers and benefits for Nespresso Members. Simply let us know how you’d like us to contact you by selecting one or more of these options.
+              div
+                input(type="checkbox")
+                span E-mail
+              div
+                input(type="checkbox")
+                span Phone – I understand that I may be contacted by phone by the Customer Relationship Center
+              div
+                input(type="checkbox")
+                span SMS (text messages on my phone number)
+          .form_signUp-button
+            button
+              router-link(to="/signUp_private") Continue
 </template>

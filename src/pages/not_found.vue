@@ -7,10 +7,8 @@ export default defineComponent({
 });
 </script>
 
-<template>
-  <main id="pageNotFound">
-    <div class="container messages">
-      <p class="messages-text">Oops! That page can’t be found.</p>
-    </div>
-  </main>
+<template lang="pug">
+main#pageNotFound
+  .container.messages
+    p.messages-text Oops! That page can&rsquo;t be found.
 </template>

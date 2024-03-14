@@ -12,12 +12,10 @@ export default defineComponent({
 });
 </script>
 
-<template>
-  <div class="wrapper">
-    <div class="wrapper-innner">
-      <HeaderCustom />
-      <router-view></router-view>
-      <Footer />
-    </div>
-  </div>
+<template lang="pug">
+.wrapper
+  .wrapper-innner
+    HeaderCustom
+    router-view
+    Footer.
 </template>

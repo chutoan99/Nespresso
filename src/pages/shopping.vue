@@ -86,47 +86,17 @@ export default defineComponent({
 });
 </script>
 
-<template>
-  <section id="progressbar">
-    <ul class="progressbar container">
-      <li
-        v-for="step in progressSteps"
-        :key="step.id"
-        class="progressbar_item"
-        :class="{ 'item-active': step.isActive }"
-      >
-        <router-link
-          class="progressbar_item-link"
-          :to="step.path"
-          @click="handleLinkClick(step)"
-        >
-          <span
-            >{{ step.step }}
-            <svg
-              :style="{ display: step.isActive ? 'block' : 'none' }"
-              width="18"
-              height="13"
-              viewBox="0 0 18 13"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M17 1L6 12L1 7"
-                stroke="#3D8705"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              /></svg
-          ></span>
-
-          <span class="hide_on-mobile">{{ step.label }}</span>
-        </router-link>
-      </li>
-    </ul>
-    tạo file json tương ứng và render bằng vue giúp tôi
-  </section>
-
-  <main id="shopping_bag">
-    <router-view></router-view>
-  </main>
+<template lang="pug">
+section#progressbar
+  ul.progressbar.container
+    li.progressbar_item(v-for='step in progressSteps' :key='step.id' :class="{ 'item-active': step.isActive }")
+      router-link.progressbar_item-link(:to='step.path' @click='handleLinkClick(step)')
+        span
+          | {{ step?.step }}
+          svg(:style="{ display: step.isActive ? 'block' : 'none' }" width='18' height='13' viewbox='0 0 18 13' fill='none' xmlns='http://www.w3.org/2000/svg')
+            path(d='M17 1L6 12L1 7' stroke='#3D8705' stroke-width='2' stroke-linecap='round' stroke-linejoin='round')
+        span.hide_on-mobile {{ step.label }}
+  |     t&#x1EA1;o file json t&#x1B0;&#x1A1;ng &#x1EE9;ng v&agrave; render b&#x1EB1;ng vue gi&uacute;p t&ocirc;i
+main#shopping_bag
+  router-view
 </template>

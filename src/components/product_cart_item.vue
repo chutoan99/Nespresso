@@ -7,13 +7,10 @@ export default defineComponent({
 });
 </script>
 
-<template>
-  <div v-for="card in data" :key="card.image" class="card_item">
-    <div class="card_item-img">
-      <img :src="card.image" />
-    </div>
-    <div class="card_item-title">
-      <span>{{ card.title }}</span>
-    </div>
-  </div>
+<template lang="pug">
+.card_item(v-for="card in data", :key="card.image")
+  .card_item-img
+    img(:src="card?.image")
+  .card_item-title
+    span {{ card?.title }}
 </template>

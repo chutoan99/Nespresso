@@ -11,13 +11,10 @@ export default defineComponent({
 });
 </script>
 
-<template>
-  <div class="wrapper">
-    <main id="email_verification">
-      <div class="wrapper-sm">
-        <HeaderSimple />
-        <router-view></router-view>
-      </div>
-    </main>
-  </div>
+<template lang="pug">
+.wrapper
+  main#email_verification
+    .wrapper-sm
+      HeaderSimple
+        router-view
 </template>

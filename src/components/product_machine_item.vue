@@ -7,30 +7,23 @@ export default defineComponent({
 });
 </script>
 
-<template>
-  <div class="product-item" v-for="item in data" :key="item.id">
-    <div class="product-tag">
-      <span class="product-tag__name">{{ item.label }}</span>
-    </div>
-    <router-link to="/machines_detail" class="product-image">
-      <img :src="item.image" :alt="item.name" />
-    </router-link>
-    <p class="product-name">{{ item.name }}</p>
-    <p class="product-desc">{{ item.description }}</p>
-    <div class="product-type">
-      <p class="product-type__text">Available colors:</p>
-      <div class="product-type__color">
-        <span class="product-type__color--red"></span>
-        <span class="product-type__color--black"></span>
-        <span class="product-type__color--green"></span>
-        <span class="product-type__color--brick-red"></span>
-      </div>
-    </div>
-    <div class="product-price">
-      <p class="product-price__num">{{ item.price }}</p>
-    </div>
-    <div class="product-btn">
-      <router-link to="/machines_detail">VIEW MORE DETAILS </router-link>
-    </div>
-  </div>
+<template lang="pug">
+.product-item(v-for="item in data", :key="item.id")
+  .product-tag
+    span.product-tag__name {{ item.label }}
+  router-link.product-image(to="/machines_detail")
+    img(:src="item.image", :alt="item.name")
+  p.product-name {{ item.name }}
+  p.product-desc {{ item.description }}
+  .product-type
+    p.product-type__text Available colors:
+    .product-type__color
+      span.product-type__color--red
+      span.product-type__color--black
+      span.product-type__color--green
+      span.product-type__color--brick-red
+  .product-price
+    p.product-price__num {{ item.price }}
+  .product-btn
+    router-link(to="/machines_detail") VIEW MORE DETAILS
 </template>

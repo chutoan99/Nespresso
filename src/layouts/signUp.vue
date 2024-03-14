@@ -9,11 +9,9 @@ export default defineComponent({
 });
 </script>
 
-<template>
-  <div class="wrapper">
-    <div class="wrapper-inner">
-      <HeaderCustom />
-      <router-view></router-view>
-    </div>
-  </div>
+<template lang="pug">
+.wrapper
+  .wrapper-innner
+    HeaderCustom
+    router-view
 </template>

@@ -7,120 +7,62 @@ export default defineComponent({
 });
 </script>
 
-<template>
-  <main id="signUp_start">
-    <section class="signUp">
-      <div class="signUp-container">
-        <div class="signUp-head">
-          <p class="signUp-heading">
-            New customer? Welcome! Fill the form below (fields with * are
-            required) and create your account. Please be aware that, in order to
-            deliver your order successfully, it is very important for you to
-            provide the correct address, phone number and postal code.
-          </p>
-
-          <form action="" class="signUp-form">
-            <div class="signUp-form__content">
-              <label for="firstname" class="signUp-form__label"
-                >First name
-                <span>*</span>
-              </label>
-              <input
-                class="signUp-form__input"
-                type="text"
-                name="firstname"
-                id="firstname"
-              />
-            </div>
-
-            <div class="signUp-form__content">
-              <label for="lastname" class="signUp-form__label"
-                >Last name
-                <span>*</span>
-              </label>
-              <input
-                class="signUp-form__input"
-                type="text"
-                name="lastname"
-                id="lastname"
-              />
-            </div>
-
-            <div class="signUp-form__content">
-              <span class="signUp-form__label">
-                Sex
-                <span>*</span>
-              </span>
-              <div class="signUp-form__radio">
-                <div class="signUp-form__check">
-                  <input
-                    type="radio"
-                    name="sex"
-                    id="male"
-                    value="male"
-                    checked
-                  />
-                  <label for="male">Male</label>
-                </div>
-                <div class="signUp-form__check">
-                  <input type="radio" name="sex" id="female" value="female" />
-                  <label for="female">Female</label>
-                </div>
-              </div>
-            </div>
-
-            <div class="signUp-form__content">
-              <label for="email" class="signUp-form__label"
-                >Email address <span>*</span></label
-              >
-              <input
-                class="signUp-form__input"
-                type="email"
-                name="email"
-                id="email"
-              />
-            </div>
-
-            <div class="signUp-form__content">
-              <label for="password" class="signUp-form__label"
-                >Password
-                <span>*</span>
-              </label>
-              <input
-                class="signUp-form__input"
-                type="password"
-                name="password"
-                id="password"
-              />
-            </div>
-
-            <div class="signUp-form__required">
-              <span>Password must</span>
-              <ul>
-                <li>have at least 8 characters</li>
-                <li>contain a number</li>
-                <li>Contain a lower case letter</li>
-                <li>contain a capital letter</li>
-              </ul>
-            </div>
-          </form>
-        </div>
-
-        <div class="signUp-footer">
-          <div class="signUp-footer-wrapper">
-            <span class="signUp-footer__detail"
-              >By clicking the "CONTINUE" button, I declare I have read and I
-              agree with the
-              <router-link to="/privacy_policy"
-                >Nespresso Privacy policy</router-link
-              >.</span
-            >
-            <button class="signUp-footer__btn">
-              <router-link to="/signUp_private_1"> Continue </router-link>
-            </button>
-          </div>
-        </div>
-      </div>
-    </section>
-  </main>
+<template lang="pug">
+main#signUp_start
+  section.signUp
+    .signUp-container
+      .signUp-head
+        p.signUp-heading
+          | New customer? Welcome! Fill the form below (fields with * are
+          | required) and create your account. Please be aware that, in order to
+          | deliver your order successfully, it is very important for you to
+          | provide the correct address, phone number and postal code.
+        form.signUp-form(action='')
+          .signUp-form__content
+            label.signUp-form__label(for='firstname')
+              | First name
+              span *
+            input#firstname.signUp-form__input(type='text' name='firstname')
+          .signUp-form__content
+            label.signUp-form__label(for='lastname')
+              | Last name
+              span *
+            input#lastname.signUp-form__input(type='text' name='lastname')
+          .signUp-form__content
+            span.signUp-form__label
+              | Sex
+              span *
+            .signUp-form__radio
+              .signUp-form__check
+                input#male(type='radio' name='sex' value='male' checked='')
+                label(for='male') Male
+              .signUp-form__check
+                input#female(type='radio' name='sex' value='female')
+                label(for='female') Female
+          .signUp-form__content
+            label.signUp-form__label(for='email')
+              | Email address 
+              span *
+            input#email.signUp-form__input(type='email' name='email')
+          .signUp-form__content
+            label.signUp-form__label(for='password')
+              | Password
+              span *
+            input#password.signUp-form__input(type='password' name='password')
+          .signUp-form__required
+            span Password must
+            ul
+              li have at least 8 characters
+              li contain a number
+              li Contain a lower case letter
+              li contain a capital letter
+      .signUp-footer
+        .signUp-footer-wrapper
+          span.signUp-footer__detail
+            | By clicking the &quot;CONTINUE&quot; button, I declare I have read and I
+            | agree with the
+            router-link(to='/privacy_policy') Nespresso Privacy policy
+            | .
+          button.signUp-footer__btn
+            router-link(to='/signUp_private_1')  Continue 
 </template>

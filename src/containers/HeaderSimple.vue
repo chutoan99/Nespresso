@@ -5,12 +5,9 @@ import { Options, Vue } from "vue-class-component";
 export default class HeaderSimple extends Vue {}
 </script>
 
-<template>
-  <div class="header">
-    <div class="header-logo">
-      <router-link to="/">
-        <img src="assets/images/template/logo.png" alt="logoApp" />
-      </router-link>
-    </div>
-  </div>
+<template lang="pug">
+.header
+  .header-logo
+    router-link(to='/')
+      img(src='assets/images/template/logo.png' alt='logoApp')
 </template>

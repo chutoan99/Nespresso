@@ -135,6 +135,7 @@ const routes = [
       { path: "/email_confirmation", component: OrderConfirmationPage },
     ],
   },
+  //? SIGN UP LAYOUT
   {
     path: "/signUp",
     component: () => import("@/layouts/signUp.vue"),

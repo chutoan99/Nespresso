@@ -38,19 +38,10 @@ export default defineComponent({
 });
 </script>
 
-<template>
-  <section id="tabs">
-    <div class="tabs">
-      <router-link
-        v-for="tab in tabs"
-        :key="tab.value"
-        :to="`/sustainability/${tab.value}`"
-        class="tabs_heading"
-        :class="{ tab_active: isActive(tab.value) }"
-      >
-        {{ tab.label }}
-      </router-link>
-    </div>
-  </section>
-  <router-view></router-view>
+<template lang="pug">
+section#tabs
+  .tabs
+    router-link.tabs_heading(v-for='tab in tabs' :key='tab.value' :to='`/sustainability/${tab.value}`' :class='{ tab_active: isActive(tab.value) }')
+      | {{ tab.label }}
+router-view
 </template>

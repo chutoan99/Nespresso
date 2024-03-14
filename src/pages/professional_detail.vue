@@ -60,1081 +60,381 @@ export default defineComponent({
 });
 </script>
 
-<template>
-  <main id="professional_detail">
-    <section class="product">
-      <div class="container">
-        <button class="product-link">
-          <router-link to="/professional">SEE ALL MACHINE</router-link>
-        </button>
-
-        <div class="product-wrapper">
-          <div class="product-media">
-            <div class="product-media__image">
-              <img src="assets/images/pro-machines-detail/product.png" alt="" />
-            </div>
-            <button class="product-media__btn">
-              <router-link to="">VIEW IN REAL LIFE</router-link>
-              <svg
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                fill="white"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
-                  d="M14.368 3H20.526L21 3.474V9.632H20.053V4.617L10.105 14.565L9.435 13.895L19.383 3.947H14.368V3ZM5.368 6.79C4.588 6.79 3.948 7.43 3.948 8.21V18.632C3.948 19.0086 4.09761 19.3698 4.36391 19.6361C4.63021 19.9024 4.99139 20.052 5.368 20.052H15.79C15.9766 20.0521 16.1613 20.0155 16.3337 19.9442C16.5061 19.8729 16.6628 19.7683 16.7947 19.6364C16.9267 19.5046 17.0314 19.348 17.1028 19.1756C17.1742 19.0033 17.211 18.8186 17.211 18.632V13.422H18.159V18.632C18.159 18.9431 18.0977 19.2512 17.9786 19.5387C17.8594 19.8261 17.6848 20.0872 17.4647 20.3071C17.2446 20.5271 16.9833 20.7014 16.6958 20.8203C16.4083 20.9392 16.1001 21.0003 15.789 21H5.37C5.05886 21.0003 4.75072 20.9392 4.46319 20.8203C4.17566 20.7014 3.91438 20.5271 3.69428 20.3071C3.47418 20.0872 3.29957 19.8261 3.18044 19.5387C3.06132 19.2512 3 18.9431 3 18.632V8.21C3.00132 7.58228 3.2512 6.98063 3.69497 6.53668C4.13874 6.09272 4.74028 5.84259 5.368 5.841H9.632V6.788H5.368V6.79Z"
-                  fill="white"
-                />
-              </svg>
-            </button>
-          </div>
-
-          <div class="product-detail">
-            <div class="product-detail__heading">
-              <p>PRO</p>
-              <p>MOMENTO COFFEE 100</p>
-            </div>
-            <h4 class="product-detail__title">NESPRESSO MOMENTO COFFEE 100</h4>
-            <span class="product-detail__color"></span>
-            <button class="product-detail__btn">
-              <router-link to="">View Details</router-link>
-            </button>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="product-features">
-      <div class="product-features__list container">
-        <div class="product-features__item">
-          <svg
-            width="65"
-            height="64"
-            viewBox="0 0 65 64"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M45.334 4H19.334C18.134 4 14.334 4 14.334 8V56C14.334 60 18.134 60 19.334 60H45.334C46.534 60 50.334 60 50.334 56V8C50.334 4 46.534 4 45.334 4ZM48.334 56C48.334 57 48.334 58 45.334 58H19.334C16.334 58 16.334 57 16.334 56V8C16.334 7 16.334 6 19.334 6H45.334C48.334 6 48.334 7 48.334 8V56Z"
-              fill="black"
-            />
-            <path
-              d="M36.334 8H28.334V10H36.334V8ZM33.334 54H31.334V56H33.334V54Z"
-              fill="black"
-            />
-          </svg>
-
-          <span>TOUCHLESS REMOTE CONTROL</span>
-        </div>
-
-        <div class="product-features__item">
-          <svg
-            width="66"
-            height="64"
-            viewBox="0 0 66 64"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M33.7246 2.31152L33 1.54785L32.2754 2.31154C31.4882 3.13964 13 22.7988 13 40C13 52.543 21.5976 62 33 62C44.4024 62 53 52.543 53 40C53 22.7988 34.5118 3.13964 33.7246 2.31152ZM33 60C22.5704 60 15 51.5878 15 40C15 25.4698 29.5518 8.3379 33 4.4834C36.4492 8.3379 51 25.4698 51 40C51 51.5878 43.4296 60 33 60Z"
-              fill="black"
-            />
-          </svg>
-
-          <span>HOT WATER FUNCTION</span>
-        </div>
-
-        <div class="product-features__item">
-          <svg
-            width="65"
-            height="64"
-            viewBox="0 0 65 64"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M32.668 4C14.6123 4 4.66797 13.9443 4.66797 32C4.66797 50.0566 14.6123 60 32.668 60C50.7246 60 60.668 50.0566 60.668 32C60.668 13.9443 50.7246 4 32.668 4ZM58.6258 31H55.6328C55.4648 24.535 53.6858 19.4005 50.427 15.7231L52.7406 13.4089C56.167 17.2117 58.4476 22.8304 58.6258 31ZM16.3911 49.759C20.0685 53.0178 25.203 54.7968 31.668 54.9648V57.9752C25.5404 57.8416 18.9589 56.42 14.0771 52.0726L16.3911 49.759ZM33.668 54.9648C40.1336 54.7968 45.2682 53.0174 48.9456 49.7582L51.2594 52.0718C46.3776 56.4198 39.7958 57.8416 33.668 57.9752V54.9648ZM32.668 53C23.088 53 11.668 49.3574 11.668 32C11.668 14.6436 23.088 11 32.668 11C42.248 11 53.668 14.6436 53.668 32C53.668 49.3574 42.248 53 32.668 53ZM48.9456 14.2417C45.2682 10.9825 40.1336 9.20312 33.668 9.03528V6.0249C39.7958 6.15832 46.3774 7.57984 51.2594 11.9275L48.9456 14.2417ZM31.668 9.03528C25.203 9.20312 20.0687 10.9823 16.3912 14.2408L14.0773 11.9269C18.959 7.57958 25.5406 6.15832 31.668 6.0249V9.03528ZM12.595 13.4094L14.9088 15.7233C11.6503 19.4008 9.87109 24.535 9.70325 31H6.71009C6.88831 22.8306 9.16895 17.2123 12.595 13.4094ZM6.71009 33H9.70325C9.87109 39.4656 11.6505 44.6002 14.9097 48.2776L12.5956 50.591C9.16907 46.7882 6.88831 41.1696 6.71009 33ZM52.7398 50.5914L50.4262 48.2778C53.6854 44.6002 55.4648 39.4656 55.6328 33H58.6258C58.4476 41.1698 56.1666 46.7886 52.7398 50.5914Z"
-              fill="black"
-            />
-            <path
-              d="M28.668 36H36.668V28H28.668V36ZM30.668 30H34.668V34H30.668V30Z"
-              fill="black"
-            />
-          </svg>
-
-          <span>TOUCHLESS REMOTE CONTROL</span>
-        </div>
-      </div>
-    </section>
-
-    <section class="product-specs">
-      <div class="product-specs-wrapper container">
-        <h4 class="product-specs__heading">COFFEE PREPARATIONS</h4>
-
-        <div class="product-specs__list">
-          <div class="product-specs__item">
-            <div class="product-specs__item-image">
-              <img
-                src="assets/images/pro-machines-detail/Ristretto.png"
-                alt="Ristretto"
-              />
-            </div>
-            <p class="product-specs__item-name">Ristretto</p>
-            <span class="product-specs__item-type">(25 ml)</span>
-          </div>
-
-          <div class="product-specs__item">
-            <div class="product-specs__item-image">
-              <img
-                src="assets/images/pro-machines-detail/Espresso.png"
-                alt="Espresso"
-              />
-            </div>
-            <p class="product-specs__item-name">Espresso</p>
-            <span class="product-specs__item-type">(40 ml)</span>
-          </div>
-
-          <div class="product-specs__item">
-            <div class="product-specs__item-image">
-              <img
-                src="assets/images/pro-machines-detail/Lungo.png"
-                alt="Lungo"
-              />
-            </div>
-            <p class="product-specs__item-name">Lungo</p>
-            <span class="product-specs__item-type">(40 ml)</span>
-          </div>
-
-          <div class="product-specs__item">
-            <div class="product-specs__item-image">
-              <img
-                src="assets/images/pro-machines-detail/Americano.png"
-                alt="Americano"
-              />
-            </div>
-            <p class="product-specs__item-name">Americano</p>
-            <span class="product-specs__item-type">(150 ml) </span>
-          </div>
-
-          <div class="product-specs__item">
-            <div class="product-specs__item-image">
-              <img
-                src="assets/images/pro-machines-detail/Large-Americano.png"
-                alt="Large Americano"
-              />
-            </div>
-            <p class="product-specs__item-name">Large Americano</p>
-            <span class="product-specs__item-type">(210 ml)</span>
-          </div>
-        </div>
-
-        <div class="product-specs__content">
-          <h4 class="product-specs__heading">MACHINE SPECIFICATIONS</h4>
-
-          <ul class="product-specs__table">
-            <li class="product-specs__table-item">
-              <svg
-                width="48"
-                height="48"
-                viewBox="0 0 48 48"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M12.0818 15.75L8.90625 42.75H39.0938L35.9153 15.75H28.4993V11.25H35.7893L37.7888 5.25H10.2083L12.2093 11.25H19.4992V15.75H12.0818ZM13.2892 9.75L12.2903 6.75H35.7097L34.7092 9.75H13.2892ZM26.9993 11.25V15.75H20.9993V11.25H26.9993ZM34.5833 17.25L37.4048 41.25H10.5938L13.4183 17.25H34.5833Z"
-                  fill="black"
-                />
-                <path
-                  d="M24 38.25C28.9635 38.25 33 34.2135 33 29.25C33 24.2865 28.9635 20.25 24 20.25C19.0365 20.25 15 24.2865 15 29.25C15 34.2135 19.0365 38.25 24 38.25ZM24 21.75C28.1355 21.75 31.5 25.1145 31.5 29.25C31.5 33.3855 28.1355 36.75 24 36.75C19.8645 36.75 16.5 33.3855 16.5 29.25C16.5 25.1145 19.8645 21.75 24 21.75Z"
-                  fill="black"
-                />
-                <path
-                  d="M24 30.375C24.6195 30.375 25.125 29.8695 25.125 29.25C25.1239 29.0939 25.0899 28.9397 25.0253 28.7976C24.9607 28.6555 24.8669 28.5285 24.75 28.425V24H23.25V28.425C23.1331 28.5285 23.0392 28.6554 22.9746 28.7975C22.91 28.9397 22.8761 29.0939 22.875 29.25C22.875 29.8695 23.379 30.375 24 30.375Z"
-                  fill="black"
-                />
-              </svg>
-
-              <div class="product-specs__table-desc">
-                <p>WEIGHT</p>
-                <p>~16.0 kg</p>
-              </div>
-            </li>
-
-            <li class="product-specs__table-item">
-              <svg
-                width="48"
-                height="48"
-                viewBox="0 0 48 48"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M43.2352 34.626L41.3122 33.7305L42.7687 37.725L37.5007 35.313V18.8175L24.7507 12.8175V8.24998L27.7507 11.25V9.12598L24.0007 5.37598L20.2507 9.12598V11.25L23.2507 8.24998V12.819L10.5007 18.819V35.3145L5.23417 37.728L6.68917 33.732L4.76617 34.6275L2.95117 39.6105L7.93417 41.4255L9.85717 40.53L5.87917 39.0795L11.2447 36.6225L24.0007 42.624L36.7552 36.621L42.1222 39.0795L38.1442 40.5285L40.0672 41.424L45.0502 39.609L43.2352 34.626ZM23.2507 40.611L12.0007 35.319V20.478L23.2507 25.773V40.614V40.611ZM13.0132 19.296L24.0007 14.124L34.9882 19.2945L24.0007 24.465L13.0132 19.2945V19.296ZM36.0007 35.3175L24.7507 40.6125V25.77L36.0007 20.475V35.3175Z"
-                  fill="black"
-                />
-              </svg>
-
-              <div class="product-specs__table-desc">
-                <p>DIMENSIONS (W X D X H)</p>
-                <p>30 x 50 x 42cm</p>
-              </div>
-            </li>
-
-            <li class="product-specs__table-item">
-              <svg
-                width="48"
-                height="48"
-                viewBox="0 0 48 48"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
-                  d="M7 12H11V14H7V12ZM15 12H43V14H15V12ZM15 23.9902H43V25.9902H15V23.9902ZM43 36H15V38H43V36ZM11 23.9902H7V25.9902H11V23.9902ZM7 36H11V38H7V36Z"
-                  fill="black"
-                />
-              </svg>
-              <div class="product-specs__table-desc">
-                <p>CAPSULE CONTAINER CAPACITY</p>
-                <p>40</p>
-              </div>
-            </li>
-
-            <li class="product-specs__table-item">
-              <svg
-                width="48"
-                height="48"
-                viewBox="0 0 48 48"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <g clip-path="url(#clip0_730_58435)">
-                  <path
-                    d="M18.8137 20.9996H20.3317V10.1426H20.1832L16.3717 11.8586V13.1951L18.8137 12.0731V20.9996ZM28.6605 10.1426C26.2515 10.1426 24.9315 11.7431 24.9315 13.7726C24.9315 15.7691 26.301 17.1716 28.4295 17.1716C29.634 17.1716 30.3435 16.6601 30.69 16.2146C30.0795 17.9966 28.281 19.6796 26.466 20.9996H28.677C31.0695 19.2836 32.4555 16.7921 32.4555 14.2346C32.4555 11.5451 31.0365 10.1426 28.6605 10.1426ZM28.6605 15.8351C27.423 15.8351 26.499 15.0596 26.499 13.6901C26.499 12.3041 27.39 11.4791 28.677 11.4791C29.9475 11.4791 30.8385 12.3371 30.8385 13.6571C30.8385 14.9936 29.964 15.8351 28.6605 15.8351ZM19.0552 29.9126C19.4422 29.7956 19.8292 29.4446 19.8292 28.7336C19.8292 27.3296 18.6413 27.1676 17.4893 27.1676H16.0312V32.9996H17.9033C18.8213 32.9996 20.1802 32.8016 20.1802 31.3616C20.1802 30.3716 19.5862 30.0206 19.0552 29.9126ZM18.9742 28.7786C18.9742 29.6246 18.2093 29.6876 17.4893 29.6876H16.8773V27.8696H17.4802C18.2092 27.8696 18.9742 27.9236 18.9742 28.7786ZM17.8942 32.2796H16.8773V30.3806H17.9302C18.6952 30.3806 19.3162 30.5426 19.3162 31.3256C19.3162 32.0996 18.6772 32.2796 17.8942 32.2796ZM21.612 32.9996H22.485L22.98 31.8476H25.608L26.103 32.9996H27.003L24.357 27.0776H24.267L21.612 32.9996ZM23.268 31.1456L24.303 28.7426L25.338 31.1456H23.268ZM31.7145 30.7316C32.3535 30.5516 32.9295 30.0296 32.9295 29.0036C32.9295 27.5456 31.8765 27.1676 30.6435 27.1676H28.8615V32.9996H29.7075V30.8576H30.8505L32.2005 32.9996H33.2085L31.7145 30.7316ZM30.5625 30.1556H29.7075V27.8786H30.5355C31.2555 27.8786 32.0745 28.0406 32.0745 29.0126C32.0745 29.9756 31.3095 30.1556 30.5625 30.1556Z"
-                    fill="black"
-                  />
-                  <path
-                    fill-rule="evenodd"
-                    clip-rule="evenodd"
-                    d="M24 46.5C36.4268 46.5 46.5 36.4268 46.5 24C46.5 11.5732 36.4268 1.5 24 1.5C11.5732 1.5 1.5 11.5732 1.5 24C1.5 36.4268 11.5732 46.5 24 46.5ZM24 48C37.2547 48 48 37.2547 48 24C48 10.7452 37.2547 0 24 0C10.7452 0 0 10.7452 0 24C0 37.2547 10.7452 48 24 48Z"
-                    fill="black"
-                  />
-                </g>
-                <defs>
-                  <clipPath id="clip0_730_58435">
-                    <rect width="48" height="48" fill="white" />
-                  </clipPath>
-                </defs>
-              </svg>
-              <svg
-                width="48"
-                height="48"
-                viewBox="0 0 48 48"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M12.0818 15.75L8.90625 42.75H39.0938L35.9153 15.75H28.4993V11.25H35.7893L37.7888 5.25H10.2083L12.2093 11.25H19.4992V15.75H12.0818ZM13.2892 9.75L12.2903 6.75H35.7097L34.7092 9.75H13.2892ZM26.9993 11.25V15.75H20.9993V11.25H26.9993ZM34.5833 17.25L37.4048 41.25H10.5938L13.4183 17.25H34.5833Z"
-                  fill="black"
-                />
-                <path
-                  d="M24 38.25C28.9635 38.25 33 34.2135 33 29.25C33 24.2865 28.9635 20.25 24 20.25C19.0365 20.25 15 24.2865 15 29.25C15 34.2135 19.0365 38.25 24 38.25ZM24 21.75C28.1355 21.75 31.5 25.1145 31.5 29.25C31.5 33.3855 28.1355 36.75 24 36.75C19.8645 36.75 16.5 33.3855 16.5 29.25C16.5 25.1145 19.8645 21.75 24 21.75Z"
-                  fill="black"
-                />
-                <path
-                  d="M24 30.375C24.6195 30.375 25.125 29.8695 25.125 29.25C25.1239 29.0939 25.0899 28.9397 25.0253 28.7976C24.9607 28.6555 24.8669 28.5285 24.75 28.425V24H23.25V28.425C23.1331 28.5285 23.0392 28.6554 22.9746 28.7975C22.91 28.9397 22.8761 29.0939 22.875 29.25C22.875 29.8695 23.379 30.375 24 30.375Z"
-                  fill="black"
-                />
-              </svg>
-              <div class="product-specs__table-desc">
-                <p>PRESSURE</p>
-                <p>~16.0 kg</p>
-              </div>
-            </li>
-
-            <li class="product-specs__table-item">
-              <svg
-                width="48"
-                height="48"
-                viewBox="0 0 48 48"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M37.5 6V11.7825C36.708 11.7075 36.2145 11.5185 35.6745 11.3025C34.944 11.0115 34.1145 10.68 32.544 10.68C30.9735 10.68 30.144 11.01 29.412 11.304C28.719 11.58 28.122 11.82 26.838 11.82C25.5585 11.82 24.9615 11.58 24.2685 11.304C23.538 11.0115 22.71 10.68 21.141 10.68C19.572 10.68 18.744 11.01 18.0135 11.304C17.322 11.5815 16.7235 11.82 15.4455 11.82C14.166 11.82 13.5675 11.58 12.876 11.304C12.1213 10.9808 11.3186 10.7836 10.5 10.7205V6H9V42H39V6H37.5ZM10.5 40.5V12.2175C11.289 12.2925 11.7795 12.48 12.318 12.6975C13.0485 12.9885 13.8765 13.32 15.4455 13.32C17.013 13.32 17.8395 12.99 18.57 12.696C19.263 12.42 19.86 12.18 21.141 12.18C22.4205 12.18 23.019 12.42 23.712 12.696C24.441 12.9885 25.269 13.32 26.838 13.32C28.4085 13.32 29.238 12.99 29.97 12.696C30.6615 12.42 31.26 12.18 32.544 12.18C33.8265 12.18 34.425 12.42 35.118 12.696C35.718 12.936 36.4095 13.191 37.5 13.281V40.5H10.5Z"
-                  fill="black"
-                />
-              </svg>
-
-              <div class="product-specs__table-desc">
-                <p>REMOVABLE WATER TANK</p>
-                <p>3.0 L</p>
-              </div>
-            </li>
-
-            <li class="product-specs__table-item">
-              <svg
-                width="48"
-                height="48"
-                viewBox="0 0 48 48"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M2.9082 43.7434H10.1809V36.4707H2.9082V43.7434ZM4.36275 37.9252H8.72639V42.2889H4.36275V37.9252Z"
-                  fill="black"
-                />
-                <path
-                  d="M13.0918 43.7434H20.3645V36.4707H13.0918V43.7434ZM14.5463 37.9252H18.91V42.2889H14.5463V37.9252Z"
-                  fill="black"
-                />
-                <path
-                  d="M2.9082 33.5618H10.1809V26.2891H2.9082V33.5618ZM4.36275 27.7436H8.72639V32.1072H4.36275V27.7436Z"
-                  fill="black"
-                />
-                <path
-                  d="M13.0918 33.5618H20.3645V26.2891H13.0918V33.5618ZM14.5463 27.7436H18.91V32.1072H14.5463V27.7436Z"
-                  fill="black"
-                />
-                <path
-                  d="M2.9082 23.3801H10.1809V16.1074H2.9082V23.3801ZM4.36275 17.562H8.72639V21.9256H4.36275V17.562Z"
-                  fill="black"
-                />
-                <path
-                  d="M13.0918 23.3801H20.3645V16.1074H13.0918V23.3801ZM14.5463 17.562H18.91V21.9256H14.5463V17.562Z"
-                  fill="black"
-                />
-                <path
-                  d="M30.5462 16.1074H23.2734V23.3801H30.5462V16.1074ZM29.0916 21.9256H24.728V17.562H29.0916V21.9256Z"
-                  fill="black"
-                />
-                <path
-                  d="M42.998 15.718L35.9738 13.8359L34.0918 20.8594L41.1159 22.7429L42.998 15.718ZM35.873 19.8311L37.0023 15.6172L41.2167 16.7465L40.0876 20.9617L35.873 19.8311Z"
-                  fill="black"
-                />
-                <path
-                  d="M2.9082 13.1985H10.1809V5.92578H2.9082V13.1985ZM4.36275 7.38033H8.72639V11.744H4.36275V7.38033Z"
-                  fill="black"
-                />
-                <path
-                  d="M13.0918 13.1985H20.3645V5.92578H13.0918V13.1985ZM14.5463 7.38033H18.91V11.744H14.5463V7.38033Z"
-                  fill="black"
-                />
-                <path
-                  d="M32.8158 10.6789L30.9338 3.65332L23.9082 5.53541L25.7917 12.561L32.8158 10.6789ZM29.9054 5.43457L31.0346 9.65048L26.8201 10.7797L25.6894 6.56382L29.9054 5.43457Z"
-                  fill="black"
-                />
-                <path
-                  d="M44.941 4.98401L38.6442 1.34766L35.0078 7.64595L41.3047 11.2823L44.941 4.98401ZM36.9936 7.11327L39.1754 3.33485L42.9553 5.51667L40.7735 9.29508L36.9936 7.11327Z"
-                  fill="black"
-                />
-                <path
-                  d="M34.1825 24.834C27.3515 24.834 23.2734 28.9121 23.2734 35.7431C23.2734 42.5741 27.3515 46.6522 34.1825 46.6522C41.0135 46.6522 45.0916 42.5741 45.0916 35.7431C45.0916 28.9121 41.0135 24.834 34.1825 24.834ZM34.1825 45.1976C28.1739 45.1976 24.728 41.7515 24.728 35.7431C24.728 29.7345 28.1739 26.2885 34.1825 26.2885C40.1911 26.2885 43.6371 29.7345 43.6371 35.7431C43.6371 41.7515 40.1911 45.1976 34.1825 45.1976Z"
-                  fill="black"
-                />
-                <path
-                  d="M34.1827 42.6525C34.7852 42.6525 35.2736 42.1641 35.2736 41.5616C35.2736 40.9591 34.7852 40.4707 34.1827 40.4707C33.5802 40.4707 33.0918 40.9591 33.0918 41.5616C33.0918 42.1641 33.5802 42.6525 34.1827 42.6525Z"
-                  fill="black"
-                />
-                <path
-                  d="M34.9096 29.1982H33.4551V39.3801H34.9096V29.1982Z"
-                  fill="black"
-                />
-              </svg>
-
-              <div class="product-specs__table-desc">
-                <p>ALERTS</p>
-                <p>Descaling alert</p>
-              </div>
-            </li>
-
-            <li class="product-specs__table-item">
-              <svg
-                width="48"
-                height="48"
-                viewBox="0 0 48 48"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M2.9082 43.7434H10.1809V36.4707H2.9082V43.7434ZM4.36275 37.9252H8.72639V42.2889H4.36275V37.9252Z"
-                  fill="black"
-                />
-                <path
-                  d="M13.0918 43.7434H20.3645V36.4707H13.0918V43.7434ZM14.5463 37.9252H18.91V42.2889H14.5463V37.9252Z"
-                  fill="black"
-                />
-                <path
-                  d="M2.9082 33.5618H10.1809V26.2891H2.9082V33.5618ZM4.36275 27.7436H8.72639V32.1072H4.36275V27.7436Z"
-                  fill="black"
-                />
-                <path
-                  d="M13.0918 33.5618H20.3645V26.2891H13.0918V33.5618ZM14.5463 27.7436H18.91V32.1072H14.5463V27.7436Z"
-                  fill="black"
-                />
-                <path
-                  d="M2.9082 23.3801H10.1809V16.1074H2.9082V23.3801ZM4.36275 17.562H8.72639V21.9256H4.36275V17.562Z"
-                  fill="black"
-                />
-                <path
-                  d="M13.0918 23.3801H20.3645V16.1074H13.0918V23.3801ZM14.5463 17.562H18.91V21.9256H14.5463V17.562Z"
-                  fill="black"
-                />
-                <path
-                  d="M30.5462 16.1074H23.2734V23.3801H30.5462V16.1074ZM29.0916 21.9256H24.728V17.562H29.0916V21.9256Z"
-                  fill="black"
-                />
-                <path
-                  d="M42.998 15.718L35.9738 13.8359L34.0918 20.8594L41.1159 22.7429L42.998 15.718ZM35.873 19.8311L37.0023 15.6172L41.2167 16.7465L40.0876 20.9617L35.873 19.8311Z"
-                  fill="black"
-                />
-                <path
-                  d="M2.9082 13.1985H10.1809V5.92578H2.9082V13.1985ZM4.36275 7.38033H8.72639V11.744H4.36275V7.38033Z"
-                  fill="black"
-                />
-                <path
-                  d="M13.0918 13.1985H20.3645V5.92578H13.0918V13.1985ZM14.5463 7.38033H18.91V11.744H14.5463V7.38033Z"
-                  fill="black"
-                />
-                <path
-                  d="M32.8158 10.6789L30.9338 3.65332L23.9082 5.53541L25.7917 12.561L32.8158 10.6789ZM29.9054 5.43457L31.0346 9.65048L26.8201 10.7797L25.6894 6.56382L29.9054 5.43457Z"
-                  fill="black"
-                />
-                <path
-                  d="M44.941 4.98401L38.6442 1.34766L35.0078 7.64595L41.3047 11.2823L44.941 4.98401ZM36.9936 7.11327L39.1754 3.33485L42.9553 5.51667L40.7735 9.29508L36.9936 7.11327Z"
-                  fill="black"
-                />
-                <path
-                  d="M34.1825 24.834C27.3515 24.834 23.2734 28.9121 23.2734 35.7431C23.2734 42.5741 27.3515 46.6522 34.1825 46.6522C41.0135 46.6522 45.0916 42.5741 45.0916 35.7431C45.0916 28.9121 41.0135 24.834 34.1825 24.834ZM34.1825 45.1976C28.1739 45.1976 24.728 41.7515 24.728 35.7431C24.728 29.7345 28.1739 26.2885 34.1825 26.2885C40.1911 26.2885 43.6371 29.7345 43.6371 35.7431C43.6371 41.7515 40.1911 45.1976 34.1825 45.1976Z"
-                  fill="black"
-                />
-                <path
-                  d="M34.1827 42.6525C34.7852 42.6525 35.2736 42.1641 35.2736 41.5616C35.2736 40.9591 34.7852 40.4707 34.1827 40.4707C33.5802 40.4707 33.0918 40.9591 33.0918 41.5616C33.0918 42.1641 33.5802 42.6525 34.1827 42.6525Z"
-                  fill="black"
-                />
-                <path
-                  d="M34.9096 29.1982H33.4551V39.3801H34.9096V29.1982Z"
-                  fill="black"
-                />
-              </svg>
-
-              <div class="product-specs__table-desc">
-                <p>ENERGY SAVING MODES</p>
-                <p>Minimum 10 minutes / Maximum 8 hours</p>
-              </div>
-            </li>
-
-            <li class="product-specs__table-item">
-              <svg
-                width="48"
-                height="48"
-                viewBox="0 0 48 48"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M36.0569 27.9228C36.0569 17.2998 25.0409 4.19282 24.5714 3.64082L23.9999 2.96582L23.4284 3.64082C22.9589 4.19282 11.9414 17.2998 11.9414 27.9228C11.9414 35.3898 16.9514 41.5008 23.2499 41.9553V46.5003H24.7499V41.9553C31.0499 41.5008 36.0569 35.3898 36.0569 27.9228ZM24.7499 40.4553V34.5003H23.2499V40.4553C17.7779 39.9933 13.4414 34.5558 13.4414 27.9228C13.4414 19.1913 21.7229 8.17682 23.9999 5.31332C26.2769 8.17682 34.5569 19.1913 34.5569 27.9228C34.5569 34.5558 30.2219 39.9933 24.7499 40.4553Z"
-                  fill="black"
-                />
-                <path
-                  d="M27.531 19.2812L26.4705 18.2207L19.1895 25.5002H25.1895L20.4705 30.2192L21.531 31.2797L28.809 24.0002H22.809L27.528 19.2812H27.531Z"
-                  fill="black"
-                />
-              </svg>
-              <div class="product-specs__table-desc">
-                <p>WARRANTY</p>
-                <p>1 year</p>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </section>
-
-    <section class="discover">
-      <div class="container context-right">
-        <div class="discover-image">
-          <img
-            src="assets/images/pro-machines-detail/hero1.png"
-            alt="MOMENTO COFFEE 100"
-          />
-
-          <svg
-            width="60"
-            height="60"
-            viewBox="0 0 60 60"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <circle cx="30" cy="30" r="29.5" stroke="white" />
-            <path
-              d="M25.6 20.2C25.4514 20.0886 25.2748 20.0207 25.0898 20.004C24.9048 19.9874 24.7189 20.0225 24.5528 20.1056C24.3867 20.1886 24.247 20.3163 24.1493 20.4743C24.0517 20.6322 24 20.8143 24 21V39C24 39.1857 24.0517 39.3678 24.1493 39.5257C24.247 39.6837 24.3867 39.8114 24.5528 39.8944C24.7189 39.9775 24.9048 40.0126 25.0898 39.996C25.2748 39.9793 25.4514 39.9114 25.6 39.8L37.6 30.8C37.7242 30.7069 37.825 30.5861 37.8944 30.4472C37.9639 30.3084 38 30.1552 38 30C38 29.8448 37.9639 29.6916 37.8944 29.5528C37.825 29.4139 37.7242 29.2931 37.6 29.2L25.6 20.2Z"
-              fill="white"
-            />
-          </svg>
-        </div>
-        <div class="discover-content">
-          <h4 class="discover-content__heading">MOMENTO COFFEE 100</h4>
-          <p class="discover-content__desc">
-            Enjoy your favourite coffee with complete peace of mind thanks to
-            the Nespresso Momento Touchless remote control. Nespresso Momento
-            100 offers 5 black coffee sizes as well as a hot water function,
-            delivering cafe style coffee from an Espresso to an Americano. In
-            addition, with the help of the capsule recognition function, it can
-            provide recommendations for optimal coffee cup length, aromatic
-            coffee notes, and intensity for the selected coffee capsule.
-          </p>
-
-          <button class="discover-content__btn">
-            <router-link to=""> DISCOVER MORE </router-link>
-          </button>
-        </div>
-      </div>
-    </section>
-
-    <section class="tagLine">
-      <span class="tagLine-text">(SKU: NP100-SG-PR1)</span>
-      <button class="tagLine-btn">
-        <router-link to=""> DOWNLOAD USER MANUAL > </router-link>
-      </button>
-    </section>
-
-    <section class="discover">
-      <div class="container context-left">
-        <div class="discover-content">
-          <h4 class="discover-content__heading">
-            NEED A FLEXIBLE COFFEE SOLUTION?
-          </h4>
-          <p class="discover-content__desc">
-            Discover machine subscription where you can choose your preferred
-            machine, coffee selection and pay only a monthly fee
-          </p>
-          <div class="discover-content__detail">
-            <svg
-              width="24"
-              height="25"
-              viewBox="0 0 24 25"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
-                d="M22 7.262L8.96 19.5H8.148L2 13.73L2.812 12.967L8.555 18.357L21.188 6.5L22 7.262Z"
-                fill="black"
-              />
-            </svg>
-            <span>No upfront investment</span>
-          </div>
-          <div class="discover-content__detail">
-            <svg
-              width="24"
-              height="25"
-              viewBox="0 0 24 25"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
-                d="M22 7.262L8.96 19.5H8.148L2 13.73L2.812 12.967L8.555 18.357L21.188 6.5L22 7.262Z"
-                fill="black"
-              />
-            </svg>
-            <span>Pay a monthly fee</span>
-          </div>
-          <div class="discover-content__detail">
-            <svg
-              width="24"
-              height="25"
-              viewBox="0 0 24 25"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
-                d="M22 7.262L8.96 19.5H8.148L2 13.73L2.812 12.967L8.555 18.357L21.188 6.5L22 7.262Z"
-                fill="black"
-              />
-            </svg>
-            <span>Automated coffee delivery</span>
-          </div>
-          <div class="discover-content__detail">
-            <svg
-              width="24"
-              height="25"
-              viewBox="0 0 24 25"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
-                d="M22 7.262L8.96 19.5H8.148L2 13.73L2.812 12.967L8.555 18.357L21.188 6.5L22 7.262Z"
-                fill="black"
-              />
-            </svg>
-            <span>Repair and maintenance included</span>
-          </div>
-          <button class="discover-content__more">
-            <router-link to=""> DISCOVER MORE </router-link>
-          </button>
-        </div>
-
-        <div class="discover-image">
-          <img
-            src="assets/images/pro-machines-detail/hero2.png"
-            alt="NEED A FLEXIBLE COFFEE SOLUTION?"
-          />
-        </div>
-      </div>
-    </section>
-
-    <section class="discover">
-      <div class="container context-right">
-        <div class="discover-image">
-          <img
-            src="assets/images/pro-machines-detail/hero3.png"
-            alt="PAID SOLUTIONS AVAILABLE"
-          />
-        </div>
-        <div class="discover-content">
-          <h4 class="discover-content__heading">PAID SOLUTIONS AVAILABLE</h4>
-          <p class="discover-content__desc">
-            Complement your Momento machine with the Momento Paid Dispenser
-            where you can personalise a payment solution to fit your business
-            needs.
-          </p>
-
-          <button class="discover-content__more">
-            <router-link to=""> DISCOVER MORE </router-link>
-          </button>
-        </div>
-      </div>
-    </section>
-
-    <section class="recommend">
-      <h4 class="recommend-heading">NEED HELP CHOOSING THE RIGHT MACHINE?</h4>
-      <p class="recommend-title">
-        See a side-by-side comparison of Nespresso Professional machines
-      </p>
-      <button class="recommend-btn">
-        <router-link to="">COMPARE NOW</router-link>
-      </button>
-    </section>
-
-    <section class="customer-services-faq">
-      <div class="customer-services-main container">
-        <h4 class="customer-services-title">FREQUENTLY ASKED QUESTIONS</h4>
-        <div class="customer-services-list">
-          <details
-            class="customer-services-item"
-            v-for="(item, index) in dataQuestions"
-            :key="index"
-          >
-            <summary class="customer-services-item__question">
-              <svg
-                width="16"
-                height="16"
-                viewBox="0 0 16 16"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M8 4C8.27614 4 8.5 4.22386 8.5 4.5V7.5H11.5C11.7761 7.5 12 7.72386 12 8C12 8.27614 11.7761 8.5 11.5 8.5H8.5V11.5C8.5 11.7761 8.27614 12 8 12C7.72386 12 7.5 11.7761 7.5 11.5V8.5H4.5C4.22386 8.5 4 8.27614 4 8C4 7.72386 4.22386 7.5 4.5 7.5H7.5V4.5C7.5 4.22386 7.72386 4 8 4Z"
-                  fill="#876C43"
-                />
-                <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
-                  d="M0 8C0 3.58172 3.58172 0 8 0C12.4183 0 16 3.58172 16 8C16 12.4183 12.4183 16 8 16C3.58172 16 0 12.4183 0 8ZM8 1C4.13401 1 1 4.13401 1 8C1 11.866 4.13401 15 8 15C11.866 15 15 11.866 15 8C15 4.13401 11.866 1 8 1Z"
-                  fill="#876C43"
-                />
-              </svg>
-              <span>{{ item.question }}</span>
-            </summary>
-            <div class="customer-services-item__answer">
-              <p>{{ item.answer }}</p>
-              <div class="customer-services-item__rate">
-                <div class="customer-services-item__rate-icon">
-                  <svg
-                    width="16"
-                    height="16"
-                    viewBox="0 0 16 16"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M15.5 5.49095H10.1L8.477 0.312947C8.43664 0.219972 8.36999 0.140819 8.28525 0.0852198C8.2005 0.0296207 8.10136 0 8 0C7.89864 0 7.7995 0.0296207 7.71475 0.0852198C7.63001 0.140819 7.56336 0.219972 7.523 0.312947L5.9 5.49095H0.5C0.395059 5.49095 0.292778 5.52397 0.207645 5.58533C0.122512 5.64669 0.0588437 5.73328 0.0256584 5.83283C-0.00752698 5.93239 -0.00854684 6.03986 0.0227432 6.14003C0.0540333 6.2402 0.116047 6.32798 0.2 6.39095L4.5 9.62095L2.807 14.8279C2.77481 14.9282 2.77512 15.0361 2.80789 15.1362C2.84065 15.2364 2.90419 15.3236 2.98944 15.3854C3.07469 15.4473 3.1773 15.4806 3.28263 15.4807C3.38796 15.4808 3.49064 15.4477 3.576 15.3859L8 12.1719L12.424 15.3859C12.5094 15.4477 12.612 15.4808 12.7174 15.4807C12.8227 15.4806 12.9253 15.4473 13.0106 15.3854C13.0958 15.3236 13.1594 15.2364 13.1921 15.1362C13.2249 15.0361 13.2252 14.9282 13.193 14.8279L11.5 9.62095L15.8 6.39095C15.884 6.32798 15.946 6.2402 15.9773 6.14003C16.0085 6.03986 16.0075 5.93239 15.9743 5.83283C15.9412 5.73328 15.8775 5.64669 15.7924 5.58533C15.7072 5.52397 15.6049 5.49095 15.5 5.49095Z"
-                      fill="#FFC700"
-                    />
-                  </svg>
-                  <svg
-                    width="16"
-                    height="16"
-                    viewBox="0 0 16 16"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M15.5 5.49095H10.1L8.477 0.312947C8.43664 0.219972 8.36999 0.140819 8.28525 0.0852198C8.2005 0.0296207 8.10136 0 8 0C7.89864 0 7.7995 0.0296207 7.71475 0.0852198C7.63001 0.140819 7.56336 0.219972 7.523 0.312947L5.9 5.49095H0.5C0.395059 5.49095 0.292778 5.52397 0.207645 5.58533C0.122512 5.64669 0.0588437 5.73328 0.0256584 5.83283C-0.00752698 5.93239 -0.00854684 6.03986 0.0227432 6.14003C0.0540333 6.2402 0.116047 6.32798 0.2 6.39095L4.5 9.62095L2.807 14.8279C2.77481 14.9282 2.77512 15.0361 2.80789 15.1362C2.84065 15.2364 2.90419 15.3236 2.98944 15.3854C3.07469 15.4473 3.1773 15.4806 3.28263 15.4807C3.38796 15.4808 3.49064 15.4477 3.576 15.3859L8 12.1719L12.424 15.3859C12.5094 15.4477 12.612 15.4808 12.7174 15.4807C12.8227 15.4806 12.9253 15.4473 13.0106 15.3854C13.0958 15.3236 13.1594 15.2364 13.1921 15.1362C13.2249 15.0361 13.2252 14.9282 13.193 14.8279L11.5 9.62095L15.8 6.39095C15.884 6.32798 15.946 6.2402 15.9773 6.14003C16.0085 6.03986 16.0075 5.93239 15.9743 5.83283C15.9412 5.73328 15.8775 5.64669 15.7924 5.58533C15.7072 5.52397 15.6049 5.49095 15.5 5.49095Z"
-                      fill="#FFC700"
-                    />
-                  </svg>
-                  <svg
-                    width="16"
-                    height="16"
-                    viewBox="0 0 16 16"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M15.5 5.49095H10.1L8.477 0.312947C8.43664 0.219972 8.36999 0.140819 8.28525 0.0852198C8.2005 0.0296207 8.10136 0 8 0C7.89864 0 7.7995 0.0296207 7.71475 0.0852198C7.63001 0.140819 7.56336 0.219972 7.523 0.312947L5.9 5.49095H0.5C0.395059 5.49095 0.292778 5.52397 0.207645 5.58533C0.122512 5.64669 0.0588437 5.73328 0.0256584 5.83283C-0.00752698 5.93239 -0.00854684 6.03986 0.0227432 6.14003C0.0540333 6.2402 0.116047 6.32798 0.2 6.39095L4.5 9.62095L2.807 14.8279C2.77481 14.9282 2.77512 15.0361 2.80789 15.1362C2.84065 15.2364 2.90419 15.3236 2.98944 15.3854C3.07469 15.4473 3.1773 15.4806 3.28263 15.4807C3.38796 15.4808 3.49064 15.4477 3.576 15.3859L8 12.1719L12.424 15.3859C12.5094 15.4477 12.612 15.4808 12.7174 15.4807C12.8227 15.4806 12.9253 15.4473 13.0106 15.3854C13.0958 15.3236 13.1594 15.2364 13.1921 15.1362C13.2249 15.0361 13.2252 14.9282 13.193 14.8279L11.5 9.62095L15.8 6.39095C15.884 6.32798 15.946 6.2402 15.9773 6.14003C16.0085 6.03986 16.0075 5.93239 15.9743 5.83283C15.9412 5.73328 15.8775 5.64669 15.7924 5.58533C15.7072 5.52397 15.6049 5.49095 15.5 5.49095Z"
-                      fill="#FFC700"
-                    />
-                  </svg>
-                  <svg
-                    width="16"
-                    height="16"
-                    viewBox="0 0 16 16"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M15.5 5.49095H10.1L8.477 0.312947C8.43664 0.219972 8.36999 0.140819 8.28525 0.0852198C8.2005 0.0296207 8.10136 0 8 0C7.89864 0 7.7995 0.0296207 7.71475 0.0852198C7.63001 0.140819 7.56336 0.219972 7.523 0.312947L5.9 5.49095H0.5C0.395059 5.49095 0.292778 5.52397 0.207645 5.58533C0.122512 5.64669 0.0588437 5.73328 0.0256584 5.83283C-0.00752698 5.93239 -0.00854684 6.03986 0.0227432 6.14003C0.0540333 6.2402 0.116047 6.32798 0.2 6.39095L4.5 9.62095L2.807 14.8279C2.77481 14.9282 2.77512 15.0361 2.80789 15.1362C2.84065 15.2364 2.90419 15.3236 2.98944 15.3854C3.07469 15.4473 3.1773 15.4806 3.28263 15.4807C3.38796 15.4808 3.49064 15.4477 3.576 15.3859L8 12.1719L12.424 15.3859C12.5094 15.4477 12.612 15.4808 12.7174 15.4807C12.8227 15.4806 12.9253 15.4473 13.0106 15.3854C13.0958 15.3236 13.1594 15.2364 13.1921 15.1362C13.2249 15.0361 13.2252 14.9282 13.193 14.8279L11.5 9.62095L15.8 6.39095C15.884 6.32798 15.946 6.2402 15.9773 6.14003C16.0085 6.03986 16.0075 5.93239 15.9743 5.83283C15.9412 5.73328 15.8775 5.64669 15.7924 5.58533C15.7072 5.52397 15.6049 5.49095 15.5 5.49095Z"
-                      fill="#FFC700"
-                    />
-                  </svg>
-                  <svg
-                    width="16"
-                    height="16"
-                    viewBox="0 0 16 16"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M15.5 5.49095H10.1L8.477 0.312947C8.43664 0.219972 8.36999 0.140819 8.28525 0.0852198C8.2005 0.0296207 8.10136 0 8 0C7.89864 0 7.7995 0.0296207 7.71475 0.0852198C7.63001 0.140819 7.56336 0.219972 7.523 0.312947L5.9 5.49095H0.5C0.395059 5.49095 0.292778 5.52397 0.207645 5.58533C0.122512 5.64669 0.0588437 5.73328 0.0256584 5.83283C-0.00752698 5.93239 -0.00854684 6.03986 0.0227432 6.14003C0.0540333 6.2402 0.116047 6.32798 0.2 6.39095L4.5 9.62095L2.807 14.8279C2.77481 14.9282 2.77512 15.0361 2.80789 15.1362C2.84065 15.2364 2.90419 15.3236 2.98944 15.3854C3.07469 15.4473 3.1773 15.4806 3.28263 15.4807C3.38796 15.4808 3.49064 15.4477 3.576 15.3859L8 12.1719L12.424 15.3859C12.5094 15.4477 12.612 15.4808 12.7174 15.4807C12.8227 15.4806 12.9253 15.4473 13.0106 15.3854C13.0958 15.3236 13.1594 15.2364 13.1921 15.1362C13.2249 15.0361 13.2252 14.9282 13.193 14.8279L11.5 9.62095L15.8 6.39095C15.884 6.32798 15.946 6.2402 15.9773 6.14003C16.0085 6.03986 16.0075 5.93239 15.9743 5.83283C15.9412 5.73328 15.8775 5.64669 15.7924 5.58533C15.7072 5.52397 15.6049 5.49095 15.5 5.49095Z"
-                      fill="#C5C5C5"
-                    />
-                  </svg>
-                </div>
-                <span class="customer-services-item__rate-text"
-                  >Rate this answer</span
-                >
-              </div>
-            </div>
-          </details>
-        </div>
-      </div>
-    </section>
-    <section class="image-slider container">
-      <swiper
-        :modules="modules"
-        :slides-per-view="getSlidesBanner()"
-        :space-between="24"
-        :pagination="{ clickable: true }"
-        :speed="300"
-        navigation
-        :clickable="true"
-        loop
-        @swiper="onSwiper"
-        @slideChange="onSlideChange"
-      >
-        <swiper-slide>
-          <div class="image-item">
-            <img src="assets/images/pro-machines-detail/slide-1.png" />
-          </div>
-        </swiper-slide>
-        <swiper-slide>
-          <div class="image-item">
-            <img src="assets/images/pro-machines-detail/slide-2.png" />
-          </div>
-        </swiper-slide>
-        <swiper-slide>
-          <div class="image-item">
-            <img src="assets/images/pro-machines-detail/slide-3.png" />
-          </div>
-        </swiper-slide>
-        <swiper-slide>
-          <div class="image-item">
-            <img src="assets/images/pro-machines-detail/slide-4.png" />
-          </div>
-        </swiper-slide>
-        <swiper-slide>
-          <div class="image-item">
-            <img src="assets/images/pro-machines-detail/slide-5.png" />
-          </div>
-        </swiper-slide>
-      </swiper>
-    </section>
-
-    <section class="services">
-      <div class="services-main container">
-        <div class="services-item">
-          <svg
-            width="65"
-            height="64"
-            viewBox="0 0 65 64"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <g clip-path="url(#clip0_733_58750)">
-              <path
-                d="M43.1667 45.2855H24.5V47.9521H43.1667V45.2855ZM15.1667 39.9521C13.3992 39.9543 11.7047 40.6573 10.455 41.9071C9.20518 43.1569 8.50212 44.8514 8.5 46.6188C8.5 50.2988 11.492 53.2855 15.1667 53.2855C18.8413 53.2855 21.8333 50.2988 21.8333 46.6188C21.8333 42.9441 18.8413 39.9521 15.1667 39.9521ZM15.1667 50.6188C12.9613 50.6188 11.1667 48.8268 11.1667 46.6188C11.1667 44.4135 12.9613 42.6188 15.1667 42.6188C17.372 42.6188 19.1667 44.4135 19.1667 46.6188C19.1667 48.8268 17.372 50.6188 15.1667 50.6188ZM52.5 40.0001C50.7323 40.0016 49.0375 40.7044 47.7875 41.9543C46.5376 43.2043 45.8347 44.8991 45.8333 46.6668C45.8333 50.3441 48.8227 53.3335 52.5 53.3335C56.1773 53.3335 59.1667 50.3441 59.1667 46.6668C59.1667 42.9895 56.1773 40.0001 52.5 40.0001ZM52.5 50.6668C50.2947 50.6668 48.5 48.8721 48.5 46.6668C48.5 44.4615 50.2947 42.6668 52.5 42.6668C54.7053 42.6668 56.5 44.4615 56.5 46.6668C56.5 48.8721 54.7053 50.6668 52.5 50.6668Z"
-                fill="black"
-              />
-              <path
-                d="M56.4993 29.333H53.3233L45.3233 13.333H8.49935V15.9997H43.6753L46.342 21.333H37.318L40.8727 31.9997L56.4993 32.0023C60.9073 32.0023 61.8327 35.6237 61.8327 38.6663V47.9517H64.4993V38.6663C64.4993 32.8237 61.51 29.333 56.4993 29.333ZM42.7927 29.333L41.014 23.9997H47.6753L50.342 29.333H42.7953H42.7927ZM8.51535 29.333H5.81935L3.16602 43.9517V47.9517H5.83268L5.81135 44.1917L8.51535 29.333Z"
-                fill="black"
-              />
-              <path
-                d="M24.5 18.667H0.5V21.3337H24.5V18.667ZM16.5 24.0003H3.16667V26.667H16.5V24.0003Z"
-                fill="black"
-              />
-            </g>
-            <defs>
-              <clipPath id="clip0_733_58750">
-                <rect
-                  width="64"
-                  height="64"
-                  fill="white"
-                  transform="translate(0.5)"
-                />
-              </clipPath>
-            </defs>
-          </svg>
-
-          <div class="services-content">
-            <p class="services-content__heading">FREE DELIVERY</p>
-            <p class="services-content__desc">
-              Enjoy free delivery within 2 working days for any machine
-              purchased
-            </p>
-          </div>
-        </div>
-
-        <div class="services-item">
-          <svg
-            width="65"
-            height="64"
-            viewBox="0 0 65 64"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M56.4994 10.667H8.49935C3.16602 10.667 3.16602 15.6857 3.16602 17.3337V46.667C3.16602 48.315 3.16602 53.3337 8.49935 53.3337H56.4994C61.8327 53.3337 61.8327 48.315 61.8327 46.667V17.3337C61.8327 15.6857 61.8327 10.667 56.4994 10.667ZM59.166 46.667C59.166 50.667 57.75 50.667 56.4994 50.667H8.49935C7.24868 50.667 5.83268 50.667 5.83268 46.667V32.0003H59.166V46.667ZM59.166 29.3337H5.83268V24.0003H59.166V29.3337ZM59.166 21.3337H5.83268V17.3337C5.83268 13.3337 7.24868 13.3337 8.49935 13.3337H56.4994C57.75 13.3337 59.166 13.3337 59.166 17.3337V21.3337Z"
-              fill="black"
-            />
-            <path
-              d="M15.166 39.9997C15.638 39.9997 16.0727 40.7997 16.6407 41.9303C17.3607 43.3677 18.3393 45.333 20.4993 45.333C21.5313 45.333 22.3313 44.6717 23.102 44.0343C23.9127 43.3597 24.75 42.6663 25.8327 42.6663C27.5527 42.6663 29.5874 44.309 30.2247 44.9463L31.1687 45.8823L33.0487 43.997L32.11 43.0583C31.7953 42.7437 28.9634 39.9997 25.8327 39.9997C23.79 39.9997 22.4087 41.1437 21.4007 41.9783C21.0913 42.237 20.622 42.6237 20.4993 42.6663C20.0273 42.6663 19.5927 41.8663 19.0247 40.7357C18.3047 39.2983 17.326 37.333 15.166 37.333C11.358 37.333 11.166 43.997 11.166 45.333H13.8327C13.8353 42.5863 14.5873 39.9997 15.166 39.9997Z"
-              fill="black"
-            />
-          </svg>
-
-          <div class="services-content">
-            <p class="services-content__heading">FREE DELIVERY</p>
-            <p class="services-content__desc">
-              Payment can be made via Credit Card (Mastercard, Visa or American
-              Express)
-            </p>
-          </div>
-        </div>
-
-        <div class="services-item">
-          <svg
-            width="65"
-            height="64"
-            viewBox="0 0 65 64"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M58.8981 7.60449C56.7613 5.46777 53.2849 5.46777 51.1481 7.60449L34.9043 23.849L36.3177 25.2624L52.5621 9.01855C53.9177 7.66113 56.1285 7.66113 57.4841 9.01855C58.8395 10.376 58.8395 12.583 57.4841 13.9395L41.2393 30.1842L42.6533 31.5984L58.8981 15.3535C61.0329 13.2188 61.0329 9.74217 58.8981 7.60449Z"
-              fill="black"
-            />
-            <path
-              d="M17.0859 48.0003H14.0859L8.08594 54.0003L12.5 58.4143L18.5 52.4143V49.4143L28.9066 39.0077L27.4926 37.5938L17.0859 48.0003ZM16.5 51.5861L12.5 55.5861L10.9141 54.0003L14.9141 50.0003H16.5V51.5861Z"
-              fill="black"
-            />
-            <path
-              d="M29.5464 21.3204C31.265 16.5939 30.1216 11.338 26.5434 7.75987C22.6156 3.83019 16.6186 2.86925 11.6303 5.36729C11.1781 5.59091 10.8588 6.02645 10.7758 6.53133C10.6918 7.04599 10.8598 7.57137 11.226 7.93759L18.4369 15.1505L15.6264 17.9591L8.41545 10.7481C8.04923 10.381 7.51701 10.213 7.00919 10.298C6.50431 10.381 6.06877 10.7003 5.84611 11.1495C2.84319 17.1515 4.90665 24.3878 10.6479 27.9806C13.934 30.0352 18.1547 30.4474 21.8304 29.1026L49.1234 56.3966C50.1918 57.465 51.5942 57.9982 52.9964 57.9982C54.3988 57.9982 55.8032 57.465 56.8714 56.3966C59.0082 54.2598 59.0082 50.7834 56.8714 48.6466L29.5464 21.3204ZM55.4574 54.9826C54.102 56.338 51.893 56.338 50.5376 54.9826L22.3002 26.7442L21.6772 27.0118C18.4584 28.3946 14.6381 28.1164 11.7084 26.2852C7.01017 23.3438 5.21623 17.5274 7.39493 12.5558L15.6264 20.7872L21.265 15.1505L13.0336 6.91709C17.1479 5.11435 21.9438 5.98837 25.1294 9.17393C28.2894 12.3341 29.2026 17.045 27.4554 21.175L27.1928 21.795L55.4574 50.0606C56.1156 50.7188 56.477 51.5918 56.477 52.5216C56.477 53.4512 56.1156 54.3244 55.4574 54.9826Z"
-              fill="black"
-            />
-          </svg>
-
-          <div class="services-content">
-            <p class="services-content__heading">FREE DELIVERY</p>
-            <p class="services-content__desc">
-              Our Coffee Specialists are available to advise you on using your
-              office coffee machine
-            </p>
-          </div>
-        </div>
-
-        <div class="services-item">
-          <svg
-            width="65"
-            height="64"
-            viewBox="0 0 65 64"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M14.9551 32.3535L7.59766 37.4493L10.2236 30.6211L9.5381 30.1807C6.14844 28.0039 4.5 24.7119 4.5 20.1171C4.5 11.4912 10.5557 7.11719 22.5 7.11719C34.4434 7.11719 40.5 11.4912 40.5 20.1171C40.5 20.4863 40.4736 20.8367 40.4514 21.1901C41.1116 21.1615 41.751 21.1193 42.4548 21.1187C42.4716 20.7861 42.5 20.4611 42.5 20.1171C42.5 10.3037 35.584 5.11719 22.5 5.11719C9.41602 5.11719 2.5 10.3037 2.5 20.1171C2.5 25.0645 4.2754 28.8565 7.78124 31.4023L4.95348 38.7529L7.13036 40.2041L15.3887 34.4863C17.0277 34.8057 18.8478 34.9661 20.7474 35.0423C20.8496 34.3923 20.9876 33.7297 21.1762 33.0575C19.0911 32.9917 17.1194 32.8117 15.3769 32.4433L14.9551 32.3535Z"
-              fill="black"
-            />
-            <path
-              d="M62.5 38.1162C62.5 28.3028 55.584 23.1162 42.5 23.1162C29.416 23.1162 22.5 28.3028 22.5 38.1162C22.5 47.9288 29.416 53.1162 42.5 53.1162C45.0782 53.1162 47.4668 52.9034 49.6114 52.4854L58.8498 58.8832L60.4542 57.8134L57.2188 49.4014C60.7246 46.8546 62.5 43.0636 62.5 38.1162ZM57.4024 55.4464L50.045 50.3526L49.623 50.4424C47.5078 50.8898 45.1114 51.1162 42.5 51.1162C30.5556 51.1162 24.5 46.7432 24.5 38.1162C24.5 29.4904 30.5556 25.1162 42.5 25.1162C54.4434 25.1162 60.5 29.4904 60.5 38.1162C60.5 42.71 58.8516 46.003 55.461 48.1808L54.7754 48.6222L57.4024 55.4464Z"
-              fill="black"
-            />
-            <path
-              d="M34.5 39.6162C35.3284 39.6162 36 38.9448 36 38.1162C36 37.2878 35.3284 36.6162 34.5 36.6162C33.6716 36.6162 33 37.2878 33 38.1162C33 38.9448 33.6716 39.6162 34.5 39.6162Z"
-              fill="black"
-            />
-            <path
-              d="M50.5 39.6162C51.3284 39.6162 52 38.9448 52 38.1162C52 37.2878 51.3284 36.6162 50.5 36.6162C49.6716 36.6162 49 37.2878 49 38.1162C49 38.9448 49.6716 39.6162 50.5 39.6162Z"
-              fill="black"
-            />
-            <path
-              d="M42.5 39.6162C43.3284 39.6162 44 38.9448 44 38.1162C44 37.2878 43.3284 36.6162 42.5 36.6162C41.6716 36.6162 41 37.2878 41 38.1162C41 38.9448 41.6716 39.6162 42.5 39.6162Z"
-              fill="black"
-            />
-          </svg>
-
-          <div class="services-content">
-            <p class="services-content__heading">FREE DELIVERY</p>
-            <p class="services-content__desc">
-              Our Coffee Specialists are available to advise you on using your
-              office coffee machine
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Product Related  -->
-    <section class="product-related">
-      <div class="product-related-main container">
-        <h4 class="product-related__heading">OTHER MACHINES YOU MAY LIKE</h4>
-        <div class="product-related__list">
-          <div
-            class="product-related__item"
-            v-for="item in dataProductRelated"
-            :key="item.title"
-          >
-            <span class="product-related__item-label">BUY ONLINE</span>
-
-            <div class="product-related__item-head">
-              <h5>{{ item.title }}</h5>
-              <button>
-                <router-link to="">QUICK VIEW</router-link>
-              </button>
-            </div>
-
-            <div class="product-related__item-footer">
-              <span
-                v-if="item.discount"
-                class="product-related__item-footer--discount"
-                >{{ item.discount }}</span
-              >
-              <span>{{ item.price }}</span>
-
-              <button>
-                <svg
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    fill-rule="evenodd"
-                    clip-rule="evenodd"
-                    d="M8 3.75C8 1.67889 9.67889 0 11.75 0C13.8211 0 15.5 1.67889 15.5 3.75V6H20.75L21.5 24H2L2.75 6H8V3.75ZM8.75 6H14.75V3.75C14.75 2.09317 13.4068 0.75 11.75 0.75C10.0932 0.75 8.75 2.09317 8.75 3.75V6Z"
-                    fill="white"
-                  ></path>
-                </svg>
-                <router-link to="">ADD TO BASKET</router-link>
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Form Contact -->
-    <section class="contact">
-      <h4 class="contact-heading">Not a customer yet?</h4>
-
-      <p class="contact-title">
-        Fill in the form below to be contacted by a Nespresso Sales
-        representative.
-      </p>
-
-      <form action="" class="contact-form">
-        <p class="contact-form__title">Your contact details</p>
-
-        <div class="contact-form__content">
-          <label for="name"
-            >Name
-            <span>*</span>
-          </label>
-          <input type="text" name="name" id="name" />
-        </div>
-
-        <div class="contact-form__content">
-          <label for="companyName"
-            >Company Name
-            <span>*</span>
-          </label>
-          <input type="text" name="companyName" id="companyName" />
-        </div>
-
-        <div class="contact-form__content">
-          <label for="companyType"
-            >Company type
-            <span>*</span>
-          </label>
-          <select name="companyType" id="companyType">
-            <option value="volvo">Volvo</option>
-            <option value="saab">Saab</option>
-            <option value="opel">Opel</option>
-            <option value="audi">Audi</option>
-          </select>
-        </div>
-
-        <div class="contact-form__content">
-          <label for="phone"
-            >Phone number
-            <span>*</span>
-          </label>
-          <input type="number" name="phone" id="phone" />
-        </div>
-
-        <div class="contact-form__content">
-          <label for="email">Email address </label>
-          <input type="email" name="email" id="email" />
-        </div>
-
-        <p class="contact-form__title">Let us help you</p>
-
-        <div class="contact-form__content">
-          <label for="message">Message </label>
-          <textarea rows="6" name="message" id="message"> </textarea>
-        </div>
-
-        <span class="contact-form__detail"
-          >All information will be kept strictly confidential. For further
-          details, please read the Nespresso Privacy Policy.</span
-        >
-
-        <input class="contact-form__submit" type="submit" value="send" />
-      </form>
-    </section>
-  </main>
+<template lang="pug">
+main#professional_detail
+  section.product
+    .container
+      button.product-link
+        router-link(to='/professional') SEE ALL MACHINE
+      .product-wrapper
+        .product-media
+          .product-media__image
+            img(src='assets/images/pro-machines-detail/product.png' alt='')
+          button.product-media__btn
+            router-link(to='') VIEW IN REAL LIFE
+            svg(width='24' height='24' viewbox='0 0 24 24' fill='white' xmlns='http://www.w3.org/2000/svg')
+              path(fill-rule='evenodd' clip-rule='evenodd' d='M14.368 3H20.526L21 3.474V9.632H20.053V4.617L10.105 14.565L9.435 13.895L19.383 3.947H14.368V3ZM5.368 6.79C4.588 6.79 3.948 7.43 3.948 8.21V18.632C3.948 19.0086 4.09761 19.3698 4.36391 19.6361C4.63021 19.9024 4.99139 20.052 5.368 20.052H15.79C15.9766 20.0521 16.1613 20.0155 16.3337 19.9442C16.5061 19.8729 16.6628 19.7683 16.7947 19.6364C16.9267 19.5046 17.0314 19.348 17.1028 19.1756C17.1742 19.0033 17.211 18.8186 17.211 18.632V13.422H18.159V18.632C18.159 18.9431 18.0977 19.2512 17.9786 19.5387C17.8594 19.8261 17.6848 20.0872 17.4647 20.3071C17.2446 20.5271 16.9833 20.7014 16.6958 20.8203C16.4083 20.9392 16.1001 21.0003 15.789 21H5.37C5.05886 21.0003 4.75072 20.9392 4.46319 20.8203C4.17566 20.7014 3.91438 20.5271 3.69428 20.3071C3.47418 20.0872 3.29957 19.8261 3.18044 19.5387C3.06132 19.2512 3 18.9431 3 18.632V8.21C3.00132 7.58228 3.2512 6.98063 3.69497 6.53668C4.13874 6.09272 4.74028 5.84259 5.368 5.841H9.632V6.788H5.368V6.79Z' fill='white')
+        .product-detail
+          .product-detail__heading
+            p PRO
+            p MOMENTO COFFEE 100
+          h4.product-detail__title NESPRESSO MOMENTO COFFEE 100
+          span.product-detail__color
+          button.product-detail__btn
+            router-link(to='') View Details
+  section.product-features
+    .product-features__list.container
+      .product-features__item
+        svg(width='65' height='64' viewbox='0 0 65 64' fill='none' xmlns='http://www.w3.org/2000/svg')
+          path(d='M45.334 4H19.334C18.134 4 14.334 4 14.334 8V56C14.334 60 18.134 60 19.334 60H45.334C46.534 60 50.334 60 50.334 56V8C50.334 4 46.534 4 45.334 4ZM48.334 56C48.334 57 48.334 58 45.334 58H19.334C16.334 58 16.334 57 16.334 56V8C16.334 7 16.334 6 19.334 6H45.334C48.334 6 48.334 7 48.334 8V56Z' fill='black')
+          path(d='M36.334 8H28.334V10H36.334V8ZM33.334 54H31.334V56H33.334V54Z' fill='black')
+        span TOUCHLESS REMOTE CONTROL
+      .product-features__item
+        svg(width='66' height='64' viewbox='0 0 66 64' fill='none' xmlns='http://www.w3.org/2000/svg')
+          path(d='M33.7246 2.31152L33 1.54785L32.2754 2.31154C31.4882 3.13964 13 22.7988 13 40C13 52.543 21.5976 62 33 62C44.4024 62 53 52.543 53 40C53 22.7988 34.5118 3.13964 33.7246 2.31152ZM33 60C22.5704 60 15 51.5878 15 40C15 25.4698 29.5518 8.3379 33 4.4834C36.4492 8.3379 51 25.4698 51 40C51 51.5878 43.4296 60 33 60Z' fill='black')
+        span HOT WATER FUNCTION
+      .product-features__item
+        svg(width='65' height='64' viewbox='0 0 65 64' fill='none' xmlns='http://www.w3.org/2000/svg')
+          path(d='M32.668 4C14.6123 4 4.66797 13.9443 4.66797 32C4.66797 50.0566 14.6123 60 32.668 60C50.7246 60 60.668 50.0566 60.668 32C60.668 13.9443 50.7246 4 32.668 4ZM58.6258 31H55.6328C55.4648 24.535 53.6858 19.4005 50.427 15.7231L52.7406 13.4089C56.167 17.2117 58.4476 22.8304 58.6258 31ZM16.3911 49.759C20.0685 53.0178 25.203 54.7968 31.668 54.9648V57.9752C25.5404 57.8416 18.9589 56.42 14.0771 52.0726L16.3911 49.759ZM33.668 54.9648C40.1336 54.7968 45.2682 53.0174 48.9456 49.7582L51.2594 52.0718C46.3776 56.4198 39.7958 57.8416 33.668 57.9752V54.9648ZM32.668 53C23.088 53 11.668 49.3574 11.668 32C11.668 14.6436 23.088 11 32.668 11C42.248 11 53.668 14.6436 53.668 32C53.668 49.3574 42.248 53 32.668 53ZM48.9456 14.2417C45.2682 10.9825 40.1336 9.20312 33.668 9.03528V6.0249C39.7958 6.15832 46.3774 7.57984 51.2594 11.9275L48.9456 14.2417ZM31.668 9.03528C25.203 9.20312 20.0687 10.9823 16.3912 14.2408L14.0773 11.9269C18.959 7.57958 25.5406 6.15832 31.668 6.0249V9.03528ZM12.595 13.4094L14.9088 15.7233C11.6503 19.4008 9.87109 24.535 9.70325 31H6.71009C6.88831 22.8306 9.16895 17.2123 12.595 13.4094ZM6.71009 33H9.70325C9.87109 39.4656 11.6505 44.6002 14.9097 48.2776L12.5956 50.591C9.16907 46.7882 6.88831 41.1696 6.71009 33ZM52.7398 50.5914L50.4262 48.2778C53.6854 44.6002 55.4648 39.4656 55.6328 33H58.6258C58.4476 41.1698 56.1666 46.7886 52.7398 50.5914Z' fill='black')
+          path(d='M28.668 36H36.668V28H28.668V36ZM30.668 30H34.668V34H30.668V30Z' fill='black')
+        span TOUCHLESS REMOTE CONTROL
+  section.product-specs
+    .product-specs-wrapper.container
+      h4.product-specs__heading COFFEE PREPARATIONS
+      .product-specs__list
+        .product-specs__item
+          .product-specs__item-image
+            img(src='assets/images/pro-machines-detail/Ristretto.png' alt='Ristretto')
+          p.product-specs__item-name Ristretto
+          span.product-specs__item-type (25 ml)
+        .product-specs__item
+          .product-specs__item-image
+            img(src='assets/images/pro-machines-detail/Espresso.png' alt='Espresso')
+          p.product-specs__item-name Espresso
+          span.product-specs__item-type (40 ml)
+        .product-specs__item
+          .product-specs__item-image
+            img(src='assets/images/pro-machines-detail/Lungo.png' alt='Lungo')
+          p.product-specs__item-name Lungo
+          span.product-specs__item-type (40 ml)
+        .product-specs__item
+          .product-specs__item-image
+            img(src='assets/images/pro-machines-detail/Americano.png' alt='Americano')
+          p.product-specs__item-name Americano
+          span.product-specs__item-type (150 ml) 
+        .product-specs__item
+          .product-specs__item-image
+            img(src='assets/images/pro-machines-detail/Large-Americano.png' alt='Large Americano')
+          p.product-specs__item-name Large Americano
+          span.product-specs__item-type (210 ml)
+      .product-specs__content
+        h4.product-specs__heading MACHINE SPECIFICATIONS
+        ul.product-specs__table
+          li.product-specs__table-item
+            svg(width='48' height='48' viewbox='0 0 48 48' fill='none' xmlns='http://www.w3.org/2000/svg')
+              path(d='M12.0818 15.75L8.90625 42.75H39.0938L35.9153 15.75H28.4993V11.25H35.7893L37.7888 5.25H10.2083L12.2093 11.25H19.4992V15.75H12.0818ZM13.2892 9.75L12.2903 6.75H35.7097L34.7092 9.75H13.2892ZM26.9993 11.25V15.75H20.9993V11.25H26.9993ZM34.5833 17.25L37.4048 41.25H10.5938L13.4183 17.25H34.5833Z' fill='black')
+              path(d='M24 38.25C28.9635 38.25 33 34.2135 33 29.25C33 24.2865 28.9635 20.25 24 20.25C19.0365 20.25 15 24.2865 15 29.25C15 34.2135 19.0365 38.25 24 38.25ZM24 21.75C28.1355 21.75 31.5 25.1145 31.5 29.25C31.5 33.3855 28.1355 36.75 24 36.75C19.8645 36.75 16.5 33.3855 16.5 29.25C16.5 25.1145 19.8645 21.75 24 21.75Z' fill='black')
+              path(d='M24 30.375C24.6195 30.375 25.125 29.8695 25.125 29.25C25.1239 29.0939 25.0899 28.9397 25.0253 28.7976C24.9607 28.6555 24.8669 28.5285 24.75 28.425V24H23.25V28.425C23.1331 28.5285 23.0392 28.6554 22.9746 28.7975C22.91 28.9397 22.8761 29.0939 22.875 29.25C22.875 29.8695 23.379 30.375 24 30.375Z' fill='black')
+            .product-specs__table-desc
+              p WEIGHT
+              p ~16.0 kg
+          li.product-specs__table-item
+            svg(width='48' height='48' viewbox='0 0 48 48' fill='none' xmlns='http://www.w3.org/2000/svg')
+              path(d='M43.2352 34.626L41.3122 33.7305L42.7687 37.725L37.5007 35.313V18.8175L24.7507 12.8175V8.24998L27.7507 11.25V9.12598L24.0007 5.37598L20.2507 9.12598V11.25L23.2507 8.24998V12.819L10.5007 18.819V35.3145L5.23417 37.728L6.68917 33.732L4.76617 34.6275L2.95117 39.6105L7.93417 41.4255L9.85717 40.53L5.87917 39.0795L11.2447 36.6225L24.0007 42.624L36.7552 36.621L42.1222 39.0795L38.1442 40.5285L40.0672 41.424L45.0502 39.609L43.2352 34.626ZM23.2507 40.611L12.0007 35.319V20.478L23.2507 25.773V40.614V40.611ZM13.0132 19.296L24.0007 14.124L34.9882 19.2945L24.0007 24.465L13.0132 19.2945V19.296ZM36.0007 35.3175L24.7507 40.6125V25.77L36.0007 20.475V35.3175Z' fill='black')
+            .product-specs__table-desc
+              p DIMENSIONS (W X D X H)
+              p 30 x 50 x 42cm
+          li.product-specs__table-item
+            svg(width='48' height='48' viewbox='0 0 48 48' fill='none' xmlns='http://www.w3.org/2000/svg')
+              path(fill-rule='evenodd' clip-rule='evenodd' d='M7 12H11V14H7V12ZM15 12H43V14H15V12ZM15 23.9902H43V25.9902H15V23.9902ZM43 36H15V38H43V36ZM11 23.9902H7V25.9902H11V23.9902ZM7 36H11V38H7V36Z' fill='black')
+            .product-specs__table-desc
+              p CAPSULE CONTAINER CAPACITY
+              p 40
+          li.product-specs__table-item
+            svg(width='48' height='48' viewbox='0 0 48 48' fill='none' xmlns='http://www.w3.org/2000/svg')
+              g(clip-path='url(#clip0_730_58435)')
+                path(d='M18.8137 20.9996H20.3317V10.1426H20.1832L16.3717 11.8586V13.1951L18.8137 12.0731V20.9996ZM28.6605 10.1426C26.2515 10.1426 24.9315 11.7431 24.9315 13.7726C24.9315 15.7691 26.301 17.1716 28.4295 17.1716C29.634 17.1716 30.3435 16.6601 30.69 16.2146C30.0795 17.9966 28.281 19.6796 26.466 20.9996H28.677C31.0695 19.2836 32.4555 16.7921 32.4555 14.2346C32.4555 11.5451 31.0365 10.1426 28.6605 10.1426ZM28.6605 15.8351C27.423 15.8351 26.499 15.0596 26.499 13.6901C26.499 12.3041 27.39 11.4791 28.677 11.4791C29.9475 11.4791 30.8385 12.3371 30.8385 13.6571C30.8385 14.9936 29.964 15.8351 28.6605 15.8351ZM19.0552 29.9126C19.4422 29.7956 19.8292 29.4446 19.8292 28.7336C19.8292 27.3296 18.6413 27.1676 17.4893 27.1676H16.0312V32.9996H17.9033C18.8213 32.9996 20.1802 32.8016 20.1802 31.3616C20.1802 30.3716 19.5862 30.0206 19.0552 29.9126ZM18.9742 28.7786C18.9742 29.6246 18.2093 29.6876 17.4893 29.6876H16.8773V27.8696H17.4802C18.2092 27.8696 18.9742 27.9236 18.9742 28.7786ZM17.8942 32.2796H16.8773V30.3806H17.9302C18.6952 30.3806 19.3162 30.5426 19.3162 31.3256C19.3162 32.0996 18.6772 32.2796 17.8942 32.2796ZM21.612 32.9996H22.485L22.98 31.8476H25.608L26.103 32.9996H27.003L24.357 27.0776H24.267L21.612 32.9996ZM23.268 31.1456L24.303 28.7426L25.338 31.1456H23.268ZM31.7145 30.7316C32.3535 30.5516 32.9295 30.0296 32.9295 29.0036C32.9295 27.5456 31.8765 27.1676 30.6435 27.1676H28.8615V32.9996H29.7075V30.8576H30.8505L32.2005 32.9996H33.2085L31.7145 30.7316ZM30.5625 30.1556H29.7075V27.8786H30.5355C31.2555 27.8786 32.0745 28.0406 32.0745 29.0126C32.0745 29.9756 31.3095 30.1556 30.5625 30.1556Z' fill='black')
+                path(fill-rule='evenodd' clip-rule='evenodd' d='M24 46.5C36.4268 46.5 46.5 36.4268 46.5 24C46.5 11.5732 36.4268 1.5 24 1.5C11.5732 1.5 1.5 11.5732 1.5 24C1.5 36.4268 11.5732 46.5 24 46.5ZM24 48C37.2547 48 48 37.2547 48 24C48 10.7452 37.2547 0 24 0C10.7452 0 0 10.7452 0 24C0 37.2547 10.7452 48 24 48Z' fill='black')
+              defs
+                clippath#clip0_730_58435
+                  rect(width='48' height='48' fill='white')
+            svg(width='48' height='48' viewbox='0 0 48 48' fill='none' xmlns='http://www.w3.org/2000/svg')
+              path(d='M12.0818 15.75L8.90625 42.75H39.0938L35.9153 15.75H28.4993V11.25H35.7893L37.7888 5.25H10.2083L12.2093 11.25H19.4992V15.75H12.0818ZM13.2892 9.75L12.2903 6.75H35.7097L34.7092 9.75H13.2892ZM26.9993 11.25V15.75H20.9993V11.25H26.9993ZM34.5833 17.25L37.4048 41.25H10.5938L13.4183 17.25H34.5833Z' fill='black')
+              path(d='M24 38.25C28.9635 38.25 33 34.2135 33 29.25C33 24.2865 28.9635 20.25 24 20.25C19.0365 20.25 15 24.2865 15 29.25C15 34.2135 19.0365 38.25 24 38.25ZM24 21.75C28.1355 21.75 31.5 25.1145 31.5 29.25C31.5 33.3855 28.1355 36.75 24 36.75C19.8645 36.75 16.5 33.3855 16.5 29.25C16.5 25.1145 19.8645 21.75 24 21.75Z' fill='black')
+              path(d='M24 30.375C24.6195 30.375 25.125 29.8695 25.125 29.25C25.1239 29.0939 25.0899 28.9397 25.0253 28.7976C24.9607 28.6555 24.8669 28.5285 24.75 28.425V24H23.25V28.425C23.1331 28.5285 23.0392 28.6554 22.9746 28.7975C22.91 28.9397 22.8761 29.0939 22.875 29.25C22.875 29.8695 23.379 30.375 24 30.375Z' fill='black')
+            .product-specs__table-desc
+              p PRESSURE
+              p ~16.0 kg
+          li.product-specs__table-item
+            svg(width='48' height='48' viewbox='0 0 48 48' fill='none' xmlns='http://www.w3.org/2000/svg')
+              path(d='M37.5 6V11.7825C36.708 11.7075 36.2145 11.5185 35.6745 11.3025C34.944 11.0115 34.1145 10.68 32.544 10.68C30.9735 10.68 30.144 11.01 29.412 11.304C28.719 11.58 28.122 11.82 26.838 11.82C25.5585 11.82 24.9615 11.58 24.2685 11.304C23.538 11.0115 22.71 10.68 21.141 10.68C19.572 10.68 18.744 11.01 18.0135 11.304C17.322 11.5815 16.7235 11.82 15.4455 11.82C14.166 11.82 13.5675 11.58 12.876 11.304C12.1213 10.9808 11.3186 10.7836 10.5 10.7205V6H9V42H39V6H37.5ZM10.5 40.5V12.2175C11.289 12.2925 11.7795 12.48 12.318 12.6975C13.0485 12.9885 13.8765 13.32 15.4455 13.32C17.013 13.32 17.8395 12.99 18.57 12.696C19.263 12.42 19.86 12.18 21.141 12.18C22.4205 12.18 23.019 12.42 23.712 12.696C24.441 12.9885 25.269 13.32 26.838 13.32C28.4085 13.32 29.238 12.99 29.97 12.696C30.6615 12.42 31.26 12.18 32.544 12.18C33.8265 12.18 34.425 12.42 35.118 12.696C35.718 12.936 36.4095 13.191 37.5 13.281V40.5H10.5Z' fill='black')
+            .product-specs__table-desc
+              p REMOVABLE WATER TANK
+              p 3.0 L
+          li.product-specs__table-item
+            svg(width='48' height='48' viewbox='0 0 48 48' fill='none' xmlns='http://www.w3.org/2000/svg')
+              path(d='M2.9082 43.7434H10.1809V36.4707H2.9082V43.7434ZM4.36275 37.9252H8.72639V42.2889H4.36275V37.9252Z' fill='black')
+              path(d='M13.0918 43.7434H20.3645V36.4707H13.0918V43.7434ZM14.5463 37.9252H18.91V42.2889H14.5463V37.9252Z' fill='black')
+              path(d='M2.9082 33.5618H10.1809V26.2891H2.9082V33.5618ZM4.36275 27.7436H8.72639V32.1072H4.36275V27.7436Z' fill='black')
+              path(d='M13.0918 33.5618H20.3645V26.2891H13.0918V33.5618ZM14.5463 27.7436H18.91V32.1072H14.5463V27.7436Z' fill='black')
+              path(d='M2.9082 23.3801H10.1809V16.1074H2.9082V23.3801ZM4.36275 17.562H8.72639V21.9256H4.36275V17.562Z' fill='black')
+              path(d='M13.0918 23.3801H20.3645V16.1074H13.0918V23.3801ZM14.5463 17.562H18.91V21.9256H14.5463V17.562Z' fill='black')
+              path(d='M30.5462 16.1074H23.2734V23.3801H30.5462V16.1074ZM29.0916 21.9256H24.728V17.562H29.0916V21.9256Z' fill='black')
+              path(d='M42.998 15.718L35.9738 13.8359L34.0918 20.8594L41.1159 22.7429L42.998 15.718ZM35.873 19.8311L37.0023 15.6172L41.2167 16.7465L40.0876 20.9617L35.873 19.8311Z' fill='black')
+              path(d='M2.9082 13.1985H10.1809V5.92578H2.9082V13.1985ZM4.36275 7.38033H8.72639V11.744H4.36275V7.38033Z' fill='black')
+              path(d='M13.0918 13.1985H20.3645V5.92578H13.0918V13.1985ZM14.5463 7.38033H18.91V11.744H14.5463V7.38033Z' fill='black')
+              path(d='M32.8158 10.6789L30.9338 3.65332L23.9082 5.53541L25.7917 12.561L32.8158 10.6789ZM29.9054 5.43457L31.0346 9.65048L26.8201 10.7797L25.6894 6.56382L29.9054 5.43457Z' fill='black')
+              path(d='M44.941 4.98401L38.6442 1.34766L35.0078 7.64595L41.3047 11.2823L44.941 4.98401ZM36.9936 7.11327L39.1754 3.33485L42.9553 5.51667L40.7735 9.29508L36.9936 7.11327Z' fill='black')
+              path(d='M34.1825 24.834C27.3515 24.834 23.2734 28.9121 23.2734 35.7431C23.2734 42.5741 27.3515 46.6522 34.1825 46.6522C41.0135 46.6522 45.0916 42.5741 45.0916 35.7431C45.0916 28.9121 41.0135 24.834 34.1825 24.834ZM34.1825 45.1976C28.1739 45.1976 24.728 41.7515 24.728 35.7431C24.728 29.7345 28.1739 26.2885 34.1825 26.2885C40.1911 26.2885 43.6371 29.7345 43.6371 35.7431C43.6371 41.7515 40.1911 45.1976 34.1825 45.1976Z' fill='black')
+              path(d='M34.1827 42.6525C34.7852 42.6525 35.2736 42.1641 35.2736 41.5616C35.2736 40.9591 34.7852 40.4707 34.1827 40.4707C33.5802 40.4707 33.0918 40.9591 33.0918 41.5616C33.0918 42.1641 33.5802 42.6525 34.1827 42.6525Z' fill='black')
+              path(d='M34.9096 29.1982H33.4551V39.3801H34.9096V29.1982Z' fill='black')
+            .product-specs__table-desc
+              p ALERTS
+              p Descaling alert
+          li.product-specs__table-item
+            svg(width='48' height='48' viewbox='0 0 48 48' fill='none' xmlns='http://www.w3.org/2000/svg')
+              path(d='M2.9082 43.7434H10.1809V36.4707H2.9082V43.7434ZM4.36275 37.9252H8.72639V42.2889H4.36275V37.9252Z' fill='black')
+              path(d='M13.0918 43.7434H20.3645V36.4707H13.0918V43.7434ZM14.5463 37.9252H18.91V42.2889H14.5463V37.9252Z' fill='black')
+              path(d='M2.9082 33.5618H10.1809V26.2891H2.9082V33.5618ZM4.36275 27.7436H8.72639V32.1072H4.36275V27.7436Z' fill='black')
+              path(d='M13.0918 33.5618H20.3645V26.2891H13.0918V33.5618ZM14.5463 27.7436H18.91V32.1072H14.5463V27.7436Z' fill='black')
+              path(d='M2.9082 23.3801H10.1809V16.1074H2.9082V23.3801ZM4.36275 17.562H8.72639V21.9256H4.36275V17.562Z' fill='black')
+              path(d='M13.0918 23.3801H20.3645V16.1074H13.0918V23.3801ZM14.5463 17.562H18.91V21.9256H14.5463V17.562Z' fill='black')
+              path(d='M30.5462 16.1074H23.2734V23.3801H30.5462V16.1074ZM29.0916 21.9256H24.728V17.562H29.0916V21.9256Z' fill='black')
+              path(d='M42.998 15.718L35.9738 13.8359L34.0918 20.8594L41.1159 22.7429L42.998 15.718ZM35.873 19.8311L37.0023 15.6172L41.2167 16.7465L40.0876 20.9617L35.873 19.8311Z' fill='black')
+              path(d='M2.9082 13.1985H10.1809V5.92578H2.9082V13.1985ZM4.36275 7.38033H8.72639V11.744H4.36275V7.38033Z' fill='black')
+              path(d='M13.0918 13.1985H20.3645V5.92578H13.0918V13.1985ZM14.5463 7.38033H18.91V11.744H14.5463V7.38033Z' fill='black')
+              path(d='M32.8158 10.6789L30.9338 3.65332L23.9082 5.53541L25.7917 12.561L32.8158 10.6789ZM29.9054 5.43457L31.0346 9.65048L26.8201 10.7797L25.6894 6.56382L29.9054 5.43457Z' fill='black')
+              path(d='M44.941 4.98401L38.6442 1.34766L35.0078 7.64595L41.3047 11.2823L44.941 4.98401ZM36.9936 7.11327L39.1754 3.33485L42.9553 5.51667L40.7735 9.29508L36.9936 7.11327Z' fill='black')
+              path(d='M34.1825 24.834C27.3515 24.834 23.2734 28.9121 23.2734 35.7431C23.2734 42.5741 27.3515 46.6522 34.1825 46.6522C41.0135 46.6522 45.0916 42.5741 45.0916 35.7431C45.0916 28.9121 41.0135 24.834 34.1825 24.834ZM34.1825 45.1976C28.1739 45.1976 24.728 41.7515 24.728 35.7431C24.728 29.7345 28.1739 26.2885 34.1825 26.2885C40.1911 26.2885 43.6371 29.7345 43.6371 35.7431C43.6371 41.7515 40.1911 45.1976 34.1825 45.1976Z' fill='black')
+              path(d='M34.1827 42.6525C34.7852 42.6525 35.2736 42.1641 35.2736 41.5616C35.2736 40.9591 34.7852 40.4707 34.1827 40.4707C33.5802 40.4707 33.0918 40.9591 33.0918 41.5616C33.0918 42.1641 33.5802 42.6525 34.1827 42.6525Z' fill='black')
+              path(d='M34.9096 29.1982H33.4551V39.3801H34.9096V29.1982Z' fill='black')
+            .product-specs__table-desc
+              p ENERGY SAVING MODES
+              p Minimum 10 minutes / Maximum 8 hours
+          li.product-specs__table-item
+            svg(width='48' height='48' viewbox='0 0 48 48' fill='none' xmlns='http://www.w3.org/2000/svg')
+              path(d='M36.0569 27.9228C36.0569 17.2998 25.0409 4.19282 24.5714 3.64082L23.9999 2.96582L23.4284 3.64082C22.9589 4.19282 11.9414 17.2998 11.9414 27.9228C11.9414 35.3898 16.9514 41.5008 23.2499 41.9553V46.5003H24.7499V41.9553C31.0499 41.5008 36.0569 35.3898 36.0569 27.9228ZM24.7499 40.4553V34.5003H23.2499V40.4553C17.7779 39.9933 13.4414 34.5558 13.4414 27.9228C13.4414 19.1913 21.7229 8.17682 23.9999 5.31332C26.2769 8.17682 34.5569 19.1913 34.5569 27.9228C34.5569 34.5558 30.2219 39.9933 24.7499 40.4553Z' fill='black')
+              path(d='M27.531 19.2812L26.4705 18.2207L19.1895 25.5002H25.1895L20.4705 30.2192L21.531 31.2797L28.809 24.0002H22.809L27.528 19.2812H27.531Z' fill='black')
+            .product-specs__table-desc
+              p WARRANTY
+              p 1 year
+  section.discover
+    .container.context-right
+      .discover-image
+        img(src='assets/images/pro-machines-detail/hero1.png' alt='MOMENTO COFFEE 100')
+        svg(width='60' height='60' viewbox='0 0 60 60' fill='none' xmlns='http://www.w3.org/2000/svg')
+          circle(cx='30' cy='30' r='29.5' stroke='white')
+          path(d='M25.6 20.2C25.4514 20.0886 25.2748 20.0207 25.0898 20.004C24.9048 19.9874 24.7189 20.0225 24.5528 20.1056C24.3867 20.1886 24.247 20.3163 24.1493 20.4743C24.0517 20.6322 24 20.8143 24 21V39C24 39.1857 24.0517 39.3678 24.1493 39.5257C24.247 39.6837 24.3867 39.8114 24.5528 39.8944C24.7189 39.9775 24.9048 40.0126 25.0898 39.996C25.2748 39.9793 25.4514 39.9114 25.6 39.8L37.6 30.8C37.7242 30.7069 37.825 30.5861 37.8944 30.4472C37.9639 30.3084 38 30.1552 38 30C38 29.8448 37.9639 29.6916 37.8944 29.5528C37.825 29.4139 37.7242 29.2931 37.6 29.2L25.6 20.2Z' fill='white')
+      .discover-content
+        h4.discover-content__heading MOMENTO COFFEE 100
+        p.discover-content__desc
+          | Enjoy your favourite coffee with complete peace of mind thanks to
+          | the Nespresso Momento Touchless remote control. Nespresso Momento
+          | 100 offers 5 black coffee sizes as well as a hot water function,
+          | delivering cafe style coffee from an Espresso to an Americano. In
+          | addition, with the help of the capsule recognition function, it can
+          | provide recommendations for optimal coffee cup length, aromatic
+          | coffee notes, and intensity for the selected coffee capsule.
+        button.discover-content__btn
+          router-link(to='')  DISCOVER MORE 
+  section.tagLine
+    span.tagLine-text (SKU: NP100-SG-PR1)
+    button.tagLine-btn
+      router-link(to='')  DOWNLOAD USER MANUAL &gt; 
+  section.discover
+    .container.context-left
+      .discover-content
+        h4.discover-content__heading
+          | NEED A FLEXIBLE COFFEE SOLUTION?
+        p.discover-content__desc
+          | Discover machine subscription where you can choose your preferred
+          | machine, coffee selection and pay only a monthly fee
+        .discover-content__detail
+          svg(width='24' height='25' viewbox='0 0 24 25' fill='none' xmlns='http://www.w3.org/2000/svg')
+            path(fill-rule='evenodd' clip-rule='evenodd' d='M22 7.262L8.96 19.5H8.148L2 13.73L2.812 12.967L8.555 18.357L21.188 6.5L22 7.262Z' fill='black')
+          span No upfront investment
+        .discover-content__detail
+          svg(width='24' height='25' viewbox='0 0 24 25' fill='none' xmlns='http://www.w3.org/2000/svg')
+            path(fill-rule='evenodd' clip-rule='evenodd' d='M22 7.262L8.96 19.5H8.148L2 13.73L2.812 12.967L8.555 18.357L21.188 6.5L22 7.262Z' fill='black')
+          span Pay a monthly fee
+        .discover-content__detail
+          svg(width='24' height='25' viewbox='0 0 24 25' fill='none' xmlns='http://www.w3.org/2000/svg')
+            path(fill-rule='evenodd' clip-rule='evenodd' d='M22 7.262L8.96 19.5H8.148L2 13.73L2.812 12.967L8.555 18.357L21.188 6.5L22 7.262Z' fill='black')
+          span Automated coffee delivery
+        .discover-content__detail
+          svg(width='24' height='25' viewbox='0 0 24 25' fill='none' xmlns='http://www.w3.org/2000/svg')
+            path(fill-rule='evenodd' clip-rule='evenodd' d='M22 7.262L8.96 19.5H8.148L2 13.73L2.812 12.967L8.555 18.357L21.188 6.5L22 7.262Z' fill='black')
+          span Repair and maintenance included
+        button.discover-content__more
+          router-link(to='')  DISCOVER MORE 
+      .discover-image
+        img(src='assets/images/pro-machines-detail/hero2.png' alt='NEED A FLEXIBLE COFFEE SOLUTION?')
+  section.discover
+    .container.context-right
+      .discover-image
+        img(src='assets/images/pro-machines-detail/hero3.png' alt='PAID SOLUTIONS AVAILABLE')
+      .discover-content
+        h4.discover-content__heading PAID SOLUTIONS AVAILABLE
+        p.discover-content__desc
+          | Complement your Momento machine with the Momento Paid Dispenser
+          | where you can personalise a payment solution to fit your business
+          | needs.
+        button.discover-content__more
+          router-link(to='')  DISCOVER MORE 
+  section.recommend
+    h4.recommend-heading NEED HELP CHOOSING THE RIGHT MACHINE?
+    p.recommend-title
+      | See a side-by-side comparison of Nespresso Professional machines
+    button.recommend-btn
+      router-link(to='') COMPARE NOW
+  section.customer-services-faq
+    .customer-services-main.container
+      h4.customer-services-title FREQUENTLY ASKED QUESTIONS
+      .customer-services-list
+        details.customer-services-item(v-for='(item, index) in dataQuestions' :key='index')
+          summary.customer-services-item__question
+            svg(width='16' height='16' viewbox='0 0 16 16' fill='none' xmlns='http://www.w3.org/2000/svg')
+              path(d='M8 4C8.27614 4 8.5 4.22386 8.5 4.5V7.5H11.5C11.7761 7.5 12 7.72386 12 8C12 8.27614 11.7761 8.5 11.5 8.5H8.5V11.5C8.5 11.7761 8.27614 12 8 12C7.72386 12 7.5 11.7761 7.5 11.5V8.5H4.5C4.22386 8.5 4 8.27614 4 8C4 7.72386 4.22386 7.5 4.5 7.5H7.5V4.5C7.5 4.22386 7.72386 4 8 4Z' fill='#876C43')
+              path(fill-rule='evenodd' clip-rule='evenodd' d='M0 8C0 3.58172 3.58172 0 8 0C12.4183 0 16 3.58172 16 8C16 12.4183 12.4183 16 8 16C3.58172 16 0 12.4183 0 8ZM8 1C4.13401 1 1 4.13401 1 8C1 11.866 4.13401 15 8 15C11.866 15 15 11.866 15 8C15 4.13401 11.866 1 8 1Z' fill='#876C43')
+            span {{ item.question }}
+          .customer-services-item__answer
+            p {{ item.answer }}
+            .customer-services-item__rate
+              .customer-services-item__rate-icon
+                svg(width='16' height='16' viewbox='0 0 16 16' fill='none' xmlns='http://www.w3.org/2000/svg')
+                  path(d='M15.5 5.49095H10.1L8.477 0.312947C8.43664 0.219972 8.36999 0.140819 8.28525 0.0852198C8.2005 0.0296207 8.10136 0 8 0C7.89864 0 7.7995 0.0296207 7.71475 0.0852198C7.63001 0.140819 7.56336 0.219972 7.523 0.312947L5.9 5.49095H0.5C0.395059 5.49095 0.292778 5.52397 0.207645 5.58533C0.122512 5.64669 0.0588437 5.73328 0.0256584 5.83283C-0.00752698 5.93239 -0.00854684 6.03986 0.0227432 6.14003C0.0540333 6.2402 0.116047 6.32798 0.2 6.39095L4.5 9.62095L2.807 14.8279C2.77481 14.9282 2.77512 15.0361 2.80789 15.1362C2.84065 15.2364 2.90419 15.3236 2.98944 15.3854C3.07469 15.4473 3.1773 15.4806 3.28263 15.4807C3.38796 15.4808 3.49064 15.4477 3.576 15.3859L8 12.1719L12.424 15.3859C12.5094 15.4477 12.612 15.4808 12.7174 15.4807C12.8227 15.4806 12.9253 15.4473 13.0106 15.3854C13.0958 15.3236 13.1594 15.2364 13.1921 15.1362C13.2249 15.0361 13.2252 14.9282 13.193 14.8279L11.5 9.62095L15.8 6.39095C15.884 6.32798 15.946 6.2402 15.9773 6.14003C16.0085 6.03986 16.0075 5.93239 15.9743 5.83283C15.9412 5.73328 15.8775 5.64669 15.7924 5.58533C15.7072 5.52397 15.6049 5.49095 15.5 5.49095Z' fill='#FFC700')
+                svg(width='16' height='16' viewbox='0 0 16 16' fill='none' xmlns='http://www.w3.org/2000/svg')
+                  path(d='M15.5 5.49095H10.1L8.477 0.312947C8.43664 0.219972 8.36999 0.140819 8.28525 0.0852198C8.2005 0.0296207 8.10136 0 8 0C7.89864 0 7.7995 0.0296207 7.71475 0.0852198C7.63001 0.140819 7.56336 0.219972 7.523 0.312947L5.9 5.49095H0.5C0.395059 5.49095 0.292778 5.52397 0.207645 5.58533C0.122512 5.64669 0.0588437 5.73328 0.0256584 5.83283C-0.00752698 5.93239 -0.00854684 6.03986 0.0227432 6.14003C0.0540333 6.2402 0.116047 6.32798 0.2 6.39095L4.5 9.62095L2.807 14.8279C2.77481 14.9282 2.77512 15.0361 2.80789 15.1362C2.84065 15.2364 2.90419 15.3236 2.98944 15.3854C3.07469 15.4473 3.1773 15.4806 3.28263 15.4807C3.38796 15.4808 3.49064 15.4477 3.576 15.3859L8 12.1719L12.424 15.3859C12.5094 15.4477 12.612 15.4808 12.7174 15.4807C12.8227 15.4806 12.9253 15.4473 13.0106 15.3854C13.0958 15.3236 13.1594 15.2364 13.1921 15.1362C13.2249 15.0361 13.2252 14.9282 13.193 14.8279L11.5 9.62095L15.8 6.39095C15.884 6.32798 15.946 6.2402 15.9773 6.14003C16.0085 6.03986 16.0075 5.93239 15.9743 5.83283C15.9412 5.73328 15.8775 5.64669 15.7924 5.58533C15.7072 5.52397 15.6049 5.49095 15.5 5.49095Z' fill='#FFC700')
+                svg(width='16' height='16' viewbox='0 0 16 16' fill='none' xmlns='http://www.w3.org/2000/svg')
+                  path(d='M15.5 5.49095H10.1L8.477 0.312947C8.43664 0.219972 8.36999 0.140819 8.28525 0.0852198C8.2005 0.0296207 8.10136 0 8 0C7.89864 0 7.7995 0.0296207 7.71475 0.0852198C7.63001 0.140819 7.56336 0.219972 7.523 0.312947L5.9 5.49095H0.5C0.395059 5.49095 0.292778 5.52397 0.207645 5.58533C0.122512 5.64669 0.0588437 5.73328 0.0256584 5.83283C-0.00752698 5.93239 -0.00854684 6.03986 0.0227432 6.14003C0.0540333 6.2402 0.116047 6.32798 0.2 6.39095L4.5 9.62095L2.807 14.8279C2.77481 14.9282 2.77512 15.0361 2.80789 15.1362C2.84065 15.2364 2.90419 15.3236 2.98944 15.3854C3.07469 15.4473 3.1773 15.4806 3.28263 15.4807C3.38796 15.4808 3.49064 15.4477 3.576 15.3859L8 12.1719L12.424 15.3859C12.5094 15.4477 12.612 15.4808 12.7174 15.4807C12.8227 15.4806 12.9253 15.4473 13.0106 15.3854C13.0958 15.3236 13.1594 15.2364 13.1921 15.1362C13.2249 15.0361 13.2252 14.9282 13.193 14.8279L11.5 9.62095L15.8 6.39095C15.884 6.32798 15.946 6.2402 15.9773 6.14003C16.0085 6.03986 16.0075 5.93239 15.9743 5.83283C15.9412 5.73328 15.8775 5.64669 15.7924 5.58533C15.7072 5.52397 15.6049 5.49095 15.5 5.49095Z' fill='#FFC700')
+                svg(width='16' height='16' viewbox='0 0 16 16' fill='none' xmlns='http://www.w3.org/2000/svg')
+                  path(d='M15.5 5.49095H10.1L8.477 0.312947C8.43664 0.219972 8.36999 0.140819 8.28525 0.0852198C8.2005 0.0296207 8.10136 0 8 0C7.89864 0 7.7995 0.0296207 7.71475 0.0852198C7.63001 0.140819 7.56336 0.219972 7.523 0.312947L5.9 5.49095H0.5C0.395059 5.49095 0.292778 5.52397 0.207645 5.58533C0.122512 5.64669 0.0588437 5.73328 0.0256584 5.83283C-0.00752698 5.93239 -0.00854684 6.03986 0.0227432 6.14003C0.0540333 6.2402 0.116047 6.32798 0.2 6.39095L4.5 9.62095L2.807 14.8279C2.77481 14.9282 2.77512 15.0361 2.80789 15.1362C2.84065 15.2364 2.90419 15.3236 2.98944 15.3854C3.07469 15.4473 3.1773 15.4806 3.28263 15.4807C3.38796 15.4808 3.49064 15.4477 3.576 15.3859L8 12.1719L12.424 15.3859C12.5094 15.4477 12.612 15.4808 12.7174 15.4807C12.8227 15.4806 12.9253 15.4473 13.0106 15.3854C13.0958 15.3236 13.1594 15.2364 13.1921 15.1362C13.2249 15.0361 13.2252 14.9282 13.193 14.8279L11.5 9.62095L15.8 6.39095C15.884 6.32798 15.946 6.2402 15.9773 6.14003C16.0085 6.03986 16.0075 5.93239 15.9743 5.83283C15.9412 5.73328 15.8775 5.64669 15.7924 5.58533C15.7072 5.52397 15.6049 5.49095 15.5 5.49095Z' fill='#FFC700')
+                svg(width='16' height='16' viewbox='0 0 16 16' fill='none' xmlns='http://www.w3.org/2000/svg')
+                  path(d='M15.5 5.49095H10.1L8.477 0.312947C8.43664 0.219972 8.36999 0.140819 8.28525 0.0852198C8.2005 0.0296207 8.10136 0 8 0C7.89864 0 7.7995 0.0296207 7.71475 0.0852198C7.63001 0.140819 7.56336 0.219972 7.523 0.312947L5.9 5.49095H0.5C0.395059 5.49095 0.292778 5.52397 0.207645 5.58533C0.122512 5.64669 0.0588437 5.73328 0.0256584 5.83283C-0.00752698 5.93239 -0.00854684 6.03986 0.0227432 6.14003C0.0540333 6.2402 0.116047 6.32798 0.2 6.39095L4.5 9.62095L2.807 14.8279C2.77481 14.9282 2.77512 15.0361 2.80789 15.1362C2.84065 15.2364 2.90419 15.3236 2.98944 15.3854C3.07469 15.4473 3.1773 15.4806 3.28263 15.4807C3.38796 15.4808 3.49064 15.4477 3.576 15.3859L8 12.1719L12.424 15.3859C12.5094 15.4477 12.612 15.4808 12.7174 15.4807C12.8227 15.4806 12.9253 15.4473 13.0106 15.3854C13.0958 15.3236 13.1594 15.2364 13.1921 15.1362C13.2249 15.0361 13.2252 14.9282 13.193 14.8279L11.5 9.62095L15.8 6.39095C15.884 6.32798 15.946 6.2402 15.9773 6.14003C16.0085 6.03986 16.0075 5.93239 15.9743 5.83283C15.9412 5.73328 15.8775 5.64669 15.7924 5.58533C15.7072 5.52397 15.6049 5.49095 15.5 5.49095Z' fill='#C5C5C5')
+              span.customer-services-item__rate-text Rate this answer
+  section.image-slider.container
+    swiper(:modules='modules' :slides-per-view='getSlidesBanner()' :space-between='24' :pagination='{ clickable: true }' :speed='300' navigation='' :clickable='true' loop='' @swiper='onSwiper' @slidechange='onSlideChange')
+      swiper-slide
+        .image-item
+          img(src='assets/images/pro-machines-detail/slide-1.png')
+      swiper-slide
+        .image-item
+          img(src='assets/images/pro-machines-detail/slide-2.png')
+      swiper-slide
+        .image-item
+          img(src='assets/images/pro-machines-detail/slide-3.png')
+      swiper-slide
+        .image-item
+          img(src='assets/images/pro-machines-detail/slide-4.png')
+      swiper-slide
+        .image-item
+          img(src='assets/images/pro-machines-detail/slide-5.png')
+  section.services
+    .services-main.container
+      .services-item
+        svg(width='65' height='64' viewbox='0 0 65 64' fill='none' xmlns='http://www.w3.org/2000/svg')
+          g(clip-path='url(#clip0_733_58750)')
+            path(d='M43.1667 45.2855H24.5V47.9521H43.1667V45.2855ZM15.1667 39.9521C13.3992 39.9543 11.7047 40.6573 10.455 41.9071C9.20518 43.1569 8.50212 44.8514 8.5 46.6188C8.5 50.2988 11.492 53.2855 15.1667 53.2855C18.8413 53.2855 21.8333 50.2988 21.8333 46.6188C21.8333 42.9441 18.8413 39.9521 15.1667 39.9521ZM15.1667 50.6188C12.9613 50.6188 11.1667 48.8268 11.1667 46.6188C11.1667 44.4135 12.9613 42.6188 15.1667 42.6188C17.372 42.6188 19.1667 44.4135 19.1667 46.6188C19.1667 48.8268 17.372 50.6188 15.1667 50.6188ZM52.5 40.0001C50.7323 40.0016 49.0375 40.7044 47.7875 41.9543C46.5376 43.2043 45.8347 44.8991 45.8333 46.6668C45.8333 50.3441 48.8227 53.3335 52.5 53.3335C56.1773 53.3335 59.1667 50.3441 59.1667 46.6668C59.1667 42.9895 56.1773 40.0001 52.5 40.0001ZM52.5 50.6668C50.2947 50.6668 48.5 48.8721 48.5 46.6668C48.5 44.4615 50.2947 42.6668 52.5 42.6668C54.7053 42.6668 56.5 44.4615 56.5 46.6668C56.5 48.8721 54.7053 50.6668 52.5 50.6668Z' fill='black')
+            path(d='M56.4993 29.333H53.3233L45.3233 13.333H8.49935V15.9997H43.6753L46.342 21.333H37.318L40.8727 31.9997L56.4993 32.0023C60.9073 32.0023 61.8327 35.6237 61.8327 38.6663V47.9517H64.4993V38.6663C64.4993 32.8237 61.51 29.333 56.4993 29.333ZM42.7927 29.333L41.014 23.9997H47.6753L50.342 29.333H42.7953H42.7927ZM8.51535 29.333H5.81935L3.16602 43.9517V47.9517H5.83268L5.81135 44.1917L8.51535 29.333Z' fill='black')
+            path(d='M24.5 18.667H0.5V21.3337H24.5V18.667ZM16.5 24.0003H3.16667V26.667H16.5V24.0003Z' fill='black')
+          defs
+            clippath#clip0_733_58750
+              rect(width='64' height='64' fill='white' transform='translate(0.5)')
+        .services-content
+          p.services-content__heading FREE DELIVERY
+          p.services-content__desc
+            | Enjoy free delivery within 2 working days for any machine
+            | purchased
+      .services-item
+        svg(width='65' height='64' viewbox='0 0 65 64' fill='none' xmlns='http://www.w3.org/2000/svg')
+          path(d='M56.4994 10.667H8.49935C3.16602 10.667 3.16602 15.6857 3.16602 17.3337V46.667C3.16602 48.315 3.16602 53.3337 8.49935 53.3337H56.4994C61.8327 53.3337 61.8327 48.315 61.8327 46.667V17.3337C61.8327 15.6857 61.8327 10.667 56.4994 10.667ZM59.166 46.667C59.166 50.667 57.75 50.667 56.4994 50.667H8.49935C7.24868 50.667 5.83268 50.667 5.83268 46.667V32.0003H59.166V46.667ZM59.166 29.3337H5.83268V24.0003H59.166V29.3337ZM59.166 21.3337H5.83268V17.3337C5.83268 13.3337 7.24868 13.3337 8.49935 13.3337H56.4994C57.75 13.3337 59.166 13.3337 59.166 17.3337V21.3337Z' fill='black')
+          path(d='M15.166 39.9997C15.638 39.9997 16.0727 40.7997 16.6407 41.9303C17.3607 43.3677 18.3393 45.333 20.4993 45.333C21.5313 45.333 22.3313 44.6717 23.102 44.0343C23.9127 43.3597 24.75 42.6663 25.8327 42.6663C27.5527 42.6663 29.5874 44.309 30.2247 44.9463L31.1687 45.8823L33.0487 43.997L32.11 43.0583C31.7953 42.7437 28.9634 39.9997 25.8327 39.9997C23.79 39.9997 22.4087 41.1437 21.4007 41.9783C21.0913 42.237 20.622 42.6237 20.4993 42.6663C20.0273 42.6663 19.5927 41.8663 19.0247 40.7357C18.3047 39.2983 17.326 37.333 15.166 37.333C11.358 37.333 11.166 43.997 11.166 45.333H13.8327C13.8353 42.5863 14.5873 39.9997 15.166 39.9997Z' fill='black')
+        .services-content
+          p.services-content__heading FREE DELIVERY
+          p.services-content__desc
+            | Payment can be made via Credit Card (Mastercard, Visa or American
+            | Express)
+      .services-item
+        svg(width='65' height='64' viewbox='0 0 65 64' fill='none' xmlns='http://www.w3.org/2000/svg')
+          path(d='M58.8981 7.60449C56.7613 5.46777 53.2849 5.46777 51.1481 7.60449L34.9043 23.849L36.3177 25.2624L52.5621 9.01855C53.9177 7.66113 56.1285 7.66113 57.4841 9.01855C58.8395 10.376 58.8395 12.583 57.4841 13.9395L41.2393 30.1842L42.6533 31.5984L58.8981 15.3535C61.0329 13.2188 61.0329 9.74217 58.8981 7.60449Z' fill='black')
+          path(d='M17.0859 48.0003H14.0859L8.08594 54.0003L12.5 58.4143L18.5 52.4143V49.4143L28.9066 39.0077L27.4926 37.5938L17.0859 48.0003ZM16.5 51.5861L12.5 55.5861L10.9141 54.0003L14.9141 50.0003H16.5V51.5861Z' fill='black')
+          path(d='M29.5464 21.3204C31.265 16.5939 30.1216 11.338 26.5434 7.75987C22.6156 3.83019 16.6186 2.86925 11.6303 5.36729C11.1781 5.59091 10.8588 6.02645 10.7758 6.53133C10.6918 7.04599 10.8598 7.57137 11.226 7.93759L18.4369 15.1505L15.6264 17.9591L8.41545 10.7481C8.04923 10.381 7.51701 10.213 7.00919 10.298C6.50431 10.381 6.06877 10.7003 5.84611 11.1495C2.84319 17.1515 4.90665 24.3878 10.6479 27.9806C13.934 30.0352 18.1547 30.4474 21.8304 29.1026L49.1234 56.3966C50.1918 57.465 51.5942 57.9982 52.9964 57.9982C54.3988 57.9982 55.8032 57.465 56.8714 56.3966C59.0082 54.2598 59.0082 50.7834 56.8714 48.6466L29.5464 21.3204ZM55.4574 54.9826C54.102 56.338 51.893 56.338 50.5376 54.9826L22.3002 26.7442L21.6772 27.0118C18.4584 28.3946 14.6381 28.1164 11.7084 26.2852C7.01017 23.3438 5.21623 17.5274 7.39493 12.5558L15.6264 20.7872L21.265 15.1505L13.0336 6.91709C17.1479 5.11435 21.9438 5.98837 25.1294 9.17393C28.2894 12.3341 29.2026 17.045 27.4554 21.175L27.1928 21.795L55.4574 50.0606C56.1156 50.7188 56.477 51.5918 56.477 52.5216C56.477 53.4512 56.1156 54.3244 55.4574 54.9826Z' fill='black')
+        .services-content
+          p.services-content__heading FREE DELIVERY
+          p.services-content__desc
+            | Our Coffee Specialists are available to advise you on using your
+            | office coffee machine
+      .services-item
+        svg(width='65' height='64' viewbox='0 0 65 64' fill='none' xmlns='http://www.w3.org/2000/svg')
+          path(d='M14.9551 32.3535L7.59766 37.4493L10.2236 30.6211L9.5381 30.1807C6.14844 28.0039 4.5 24.7119 4.5 20.1171C4.5 11.4912 10.5557 7.11719 22.5 7.11719C34.4434 7.11719 40.5 11.4912 40.5 20.1171C40.5 20.4863 40.4736 20.8367 40.4514 21.1901C41.1116 21.1615 41.751 21.1193 42.4548 21.1187C42.4716 20.7861 42.5 20.4611 42.5 20.1171C42.5 10.3037 35.584 5.11719 22.5 5.11719C9.41602 5.11719 2.5 10.3037 2.5 20.1171C2.5 25.0645 4.2754 28.8565 7.78124 31.4023L4.95348 38.7529L7.13036 40.2041L15.3887 34.4863C17.0277 34.8057 18.8478 34.9661 20.7474 35.0423C20.8496 34.3923 20.9876 33.7297 21.1762 33.0575C19.0911 32.9917 17.1194 32.8117 15.3769 32.4433L14.9551 32.3535Z' fill='black')
+          path(d='M62.5 38.1162C62.5 28.3028 55.584 23.1162 42.5 23.1162C29.416 23.1162 22.5 28.3028 22.5 38.1162C22.5 47.9288 29.416 53.1162 42.5 53.1162C45.0782 53.1162 47.4668 52.9034 49.6114 52.4854L58.8498 58.8832L60.4542 57.8134L57.2188 49.4014C60.7246 46.8546 62.5 43.0636 62.5 38.1162ZM57.4024 55.4464L50.045 50.3526L49.623 50.4424C47.5078 50.8898 45.1114 51.1162 42.5 51.1162C30.5556 51.1162 24.5 46.7432 24.5 38.1162C24.5 29.4904 30.5556 25.1162 42.5 25.1162C54.4434 25.1162 60.5 29.4904 60.5 38.1162C60.5 42.71 58.8516 46.003 55.461 48.1808L54.7754 48.6222L57.4024 55.4464Z' fill='black')
+          path(d='M34.5 39.6162C35.3284 39.6162 36 38.9448 36 38.1162C36 37.2878 35.3284 36.6162 34.5 36.6162C33.6716 36.6162 33 37.2878 33 38.1162C33 38.9448 33.6716 39.6162 34.5 39.6162Z' fill='black')
+          path(d='M50.5 39.6162C51.3284 39.6162 52 38.9448 52 38.1162C52 37.2878 51.3284 36.6162 50.5 36.6162C49.6716 36.6162 49 37.2878 49 38.1162C49 38.9448 49.6716 39.6162 50.5 39.6162Z' fill='black')
+          path(d='M42.5 39.6162C43.3284 39.6162 44 38.9448 44 38.1162C44 37.2878 43.3284 36.6162 42.5 36.6162C41.6716 36.6162 41 37.2878 41 38.1162C41 38.9448 41.6716 39.6162 42.5 39.6162Z' fill='black')
+        .services-content
+          p.services-content__heading FREE DELIVERY
+          p.services-content__desc
+            | Our Coffee Specialists are available to advise you on using your
+            | office coffee machine
+  // Product Related
+  section.product-related
+    .product-related-main.container
+      h4.product-related__heading OTHER MACHINES YOU MAY LIKE
+      .product-related__list
+        .product-related__item(v-for='item in dataProductRelated' :key='item.title')
+          span.product-related__item-label BUY ONLINE
+          .product-related__item-head
+            h5 {{ item.title }}
+            button
+              router-link(to='') QUICK VIEW
+          .product-related__item-footer
+            span.product-related__item-footer--discount(v-if='item.discount') {{ item.discount }}
+            span {{ item.price }}
+            button
+              svg(width='24' height='24' viewbox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg')
+                path(fill-rule='evenodd' clip-rule='evenodd' d='M8 3.75C8 1.67889 9.67889 0 11.75 0C13.8211 0 15.5 1.67889 15.5 3.75V6H20.75L21.5 24H2L2.75 6H8V3.75ZM8.75 6H14.75V3.75C14.75 2.09317 13.4068 0.75 11.75 0.75C10.0932 0.75 8.75 2.09317 8.75 3.75V6Z' fill='white')
+              router-link(to='') ADD TO BASKET
+  // Form Contact
+  section.contact
+    h4.contact-heading Not a customer yet?
+    p.contact-title
+      | Fill in the form below to be contacted by a Nespresso Sales
+      | representative.
+    form.contact-form(action='')
+      p.contact-form__title Your contact details
+      .contact-form__content
+        label(for='name')
+          | Name
+          span *
+        input#name(type='text' name='name')
+      .contact-form__content
+        label(for='companyName')
+          | Company Name
+          span *
+        input#companyName(type='text' name='companyName')
+      .contact-form__content
+        label(for='companyType')
+          | Company type
+          span *
+        select#companyType(name='companyType')
+          option(value='volvo') Volvo
+          option(value='saab') Saab
+          option(value='opel') Opel
+          option(value='audi') Audi
+      .contact-form__content
+        label(for='phone')
+          | Phone number
+          span *
+        input#phone(type='number' name='phone')
+      .contact-form__content
+        label(for='email') Email address 
+        input#email(type='email' name='email')
+      p.contact-form__title Let us help you
+      .contact-form__content
+        label(for='message') Message 
+        textarea#message(rows='6' name='message')  
+      span.contact-form__detail
+        | All information will be kept strictly confidential. For further
+        | details, please read the Nespresso Privacy Policy.
+      input.contact-form__submit(type='submit' value='send')
 </template>
