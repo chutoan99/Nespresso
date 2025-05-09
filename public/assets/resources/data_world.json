@@ -1,0 +1,171 @@
+[
+  {
+    "image": "assets/images/product/espresso_1.png",
+    "name": "Volluto Decaffeinato",
+    "sleeve": "Sweet and Light",
+    "sizes": [
+      { "image": "assets/svgs/sizeM.svg", "size": "25ml" },
+      { "image": "assets/svgs/sizeL.svg", "size": "40ml" }
+    ],
+    "intensity": "13",
+    "price": "22,00 RON/MONTH",
+    "capsule": "1 sleeve (10 capsules)",
+    "capsulePrice": "Capsule price: 2,20 RON"
+  },
+  {
+    "image": "assets/images/product/espresso_2.png",
+    "name": "Volluto",
+    "sleeve": "Sweet and Light",
+    "sizes": [
+      { "image": "assets/svgs/sizeM.svg", "size": "25ml" },
+      { "image": "assets/svgs/sizeL.svg", "size": "40ml" }
+    ],
+    "intensity": "13",
+    "price": "22,00 RON/MONTH",
+    "capsule": "1 sleeve (10 capsules)",
+    "capsulePrice": "Capsule price: 2,20 RON"
+  },
+  {
+    "image": "assets/images/product/espresso_3.png",
+    "name": "Cosi",
+    "sleeve": "Mild and Delicately Toasted",
+    "sizes": [
+      { "image": "assets/svgs/sizeM.svg", "size": "25ml" },
+      { "image": "assets/svgs/sizeL.svg", "size": "40ml" }
+    ],
+    "intensity": "13",
+    "price": "22,00 RON/MONTH",
+    "capsule": "1 sleeve (10 capsules)",
+    "capsulePrice": "Capsule price: 2,20 RON"
+  },
+  {
+    "image": "assets/images/product/espresso_4.png",
+    "name": "Capriccio",
+    "sleeve": "Rich and Distinctive",
+    "sizes": [
+      { "image": "assets/svgs/sizeM.svg", "size": "25ml" },
+      { "image": "assets/svgs/sizeL.svg", "size": "40ml" }
+    ],
+    "intensity": "13",
+    "price": "22,00 RON/MONTH",
+    "capsule": "1 sleeve (10 capsules)",
+    "capsulePrice": "Capsule price: 2,20 RON"
+  },
+  {
+    "image": "assets/images/product/world_1.png",
+    "name": "Shanghai Lungo",
+    "sleeve": "Fruity with Fine Acidity",
+    "sizes": [
+      { "image": "assets/svgs/sizeM.svg", "size": "25ml" },
+      { "image": "assets/svgs/sizeL.svg", "size": "40ml" }
+    ],
+    "intensity": "13",
+    "price": "22,00 RON/MONTH",
+    "capsule": "1 sleeve (10 capsules)",
+    "capsulePrice": "Capsule price: 2,20 RON"
+  },
+  {
+    "image": "assets/images/product/world_2.png",
+    "name": "Buenos Aires Lungo",
+    "sleeve": "Sweet and Cereal",
+    "sizes": [
+      { "image": "assets/svgs/sizeM.svg", "size": "25ml" },
+      { "image": "assets/svgs/sizeL.svg", "size": "40ml" }
+    ],
+    "intensity": "13",
+    "price": "22,00 RON/MONTH",
+    "capsule": "1 sleeve (10 capsules)",
+    "capsulePrice": "Capsule price: 2,20 RON"
+  },
+  {
+    "image": "assets/images/product/world_3.png",
+    "name": "Tokyo Lungo",
+    "sleeve": "Flowery and Complex",
+    "sizes": [
+      { "image": "assets/svgs/sizeM.svg", "size": "25ml" },
+      { "image": "assets/svgs/sizeL.svg", "size": "40ml" }
+    ],
+    "intensity": "13",
+    "price": "22,00 RON/MONTH",
+    "capsule": "1 sleeve (10 capsules)",
+    "capsulePrice": "Capsule price: 2,20 RON"
+  },
+  {
+    "image": "assets/images/product/world_4.png",
+    "name": "Vienna Lungo",
+    "sleeve": "Round and Smooth",
+    "sizes": [
+      { "image": "assets/svgs/sizeM.svg", "size": "25ml" },
+      { "image": "assets/svgs/sizeL.svg", "size": "40ml" }
+    ],
+    "intensity": "13",
+    "price": "22,00 RON/MONTH",
+    "capsule": "1 sleeve (10 capsules)",
+    "capsulePrice": "Capsule price: 2,20 RON"
+  },
+  {
+    "image": "assets/images/product/world_5.png",
+    "name": "Stockholm Lungo",
+    "sleeve": "Rich and Full-Bodied",
+    "sizes": [
+      { "image": "assets/svgs/sizeM.svg", "size": "25ml" },
+      { "image": "assets/svgs/sizeL.svg", "size": "40ml" }
+    ],
+    "intensity": "13",
+    "price": "22,00 RON/MONTH",
+    "capsule": "1 sleeve (10 capsules)",
+    "capsulePrice": "Capsule price: 2,20 RON"
+  },
+  {
+    "image": "assets/images/product/world_6.png",
+    "name": "Cape Town Lungo",
+    "sleeve": "Intense and Roasted",
+    "sizes": [
+      { "image": "assets/svgs/sizeM.svg", "size": "25ml" },
+      { "image": "assets/svgs/sizeL.svg", "size": "40ml" }
+    ],
+    "intensity": "13",
+    "price": "22,00 RON/MONTH",
+    "capsule": "1 sleeve (10 capsules)",
+    "capsulePrice": "Capsule price: 2,20 RON"
+  },
+  {
+    "image": "assets/images/product/world_7.png",
+    "name": "Rio De Janeiro Espresso",
+    "sleeve": "Herbal & Spicy",
+    "sizes": [
+      { "image": "assets/svgs/sizeM.svg", "size": "25ml" },
+      { "image": "assets/svgs/sizeL.svg", "size": "40ml" }
+    ],
+    "intensity": "13",
+    "price": "22,00 RON/MONTH",
+    "capsule": "1 sleeve (10 capsules)",
+    "capsulePrice": "Capsule price: 2,20 RON"
+  },
+  {
+    "image": "assets/images/product/world_8.png",
+    "name": "Istanbul Espresso",
+    "sleeve": "Roasted & Fruity",
+    "sizes": [
+      { "image": "assets/svgs/sizeM.svg", "size": "25ml" },
+      { "image": "assets/svgs/sizeL.svg", "size": "40ml" }
+    ],
+    "intensity": "13",
+    "price": "22,00 RON/MONTH",
+    "capsule": "1 sleeve (10 capsules)",
+    "capsulePrice": "Capsule price: 2,20 RON"
+  },
+  {
+    "image": "assets/images/product/world_9.png",
+    "name": "Paris Espresso",
+    "sleeve": "Mild & Balanced",
+    "sizes": [
+      { "image": "assets/svgs/sizeM.svg", "size": "25ml" },
+      { "image": "assets/svgs/sizeL.svg", "size": "40ml" }
+    ],
+    "intensity": "13",
+    "price": "22,00 RON/MONTH",
+    "capsule": "1 sleeve (10 capsules)",
+    "capsulePrice": "Capsule price: 2,20 RON"
+  }
+]

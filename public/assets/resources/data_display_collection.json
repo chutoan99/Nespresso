@@ -1,0 +1,32 @@
+[
+  {
+    "image": "assets/images/accessories/accessories-22.png",
+    "name": "DISPLAY DISCOVERY BOX",
+    "price": "₫1,200,000"
+  },
+  {
+    "image": "assets/images/accessories/accessories-23.png",
+    "name": "DISPLAY BONBONNIERE CAPSULE DISPENSER",
+    "price": "₫480,000"
+  },
+  {
+    "image": "assets/images/accessories/accessories-24.png",
+    "name": "DISPLAY CUBE CAPSULE DISPENSER",
+    "price": "₫583,000"
+  },
+  {
+    "image": "assets/images/accessories/accessories-25.png",
+    "name": "DISPLAY VERSILO CAPSULE DISPENSER",
+    "price": "₫1,100,000"
+  },
+  {
+    "image": "assets/images/accessories/accessories-26.png",
+    "name": "DISPLAY PURE ROCK CAPSULE DISPENSER",
+    "price": "₫820,000"
+  },
+  {
+    "image": "assets/images/accessories/accessories-27.png",
+    "name": "DISPLAY MIA CAPSULE DISPENSER",
+    "price": "₫640,000"
+  }
+]

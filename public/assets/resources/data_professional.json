@@ -1,0 +1,42 @@
+[
+  {
+    "item_img": {
+      "src": "assets/images/professional/image_78.png"
+    },
+    "item_title": {
+      "span": "Installation & coffee training"
+    }
+  },
+  {
+    "item_img": {
+      "src": "assets/images/professional/image_79.png"
+    },
+    "item_title": {
+      "span": "Easy ordering & live chat & live chat"
+    }
+  },
+  {
+    "item_img": {
+      "src": "assets/images/professional/image_80.png"
+    },
+    "item_title": {
+      "span": "Delivery within 48 hours"
+    }
+  },
+  {
+    "item_img": {
+      "src": "assets/images/professional/image_81.png"
+    },
+    "item_title": {
+      "span": "Fast repair & loan machine"
+    }
+  },
+  {
+    "item_img": {
+      "src": "assets/images/professional/image_82.png"
+    },
+    "item_title": {
+      "span": "Recycling & collection"
+    }
+  }
+]

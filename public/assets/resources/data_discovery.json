@@ -1,0 +1,15 @@
+[
+  {
+    "image": "assets/images/product/discovery.png",
+    "name": "Welcome Offer Coffee Pack",
+    "sleeve": "10-sleeve assortment",
+    "sizes": [
+      { "image": "assets/svgs/sizeM.svg", "size": "25ml" },
+      { "image": "assets/svgs/sizeL.svg", "size": "40ml" }
+    ],
+    "intensity": "13",
+    "price": "₫1,706,000",
+    "capsule": "1 sleeve (10 capsules)",
+    "capsulePrice": "Capsule price: 2,20 RON"
+  }
+]

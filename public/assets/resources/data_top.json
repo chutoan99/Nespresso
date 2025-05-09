@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "question": "What is the caffeine content for the Vertuo capsules ?",
+    "answer": "The caffeine content may vary for each assortment and is influenced by two major factors: the amount of Robusta used in a capsule (Robusta contains twice as much caffeine as Arabica),as well as the quantity of ground coffee used to prepare the cup. For instance, the caffeine level for Espresso and Gran Lungo sizes ranges from 70 to 150 mg, and for Mug and Alto it may vary from 170 to 200 mg.For Carafe, the caffeine content is between 220 and 250 mg, but this particular coffee size is recommended to be drank in 2 or 3 portions.",
+    "rating": 4.5
+  },
+  {
+    "id": 2,
+    "question": "What is the caffeine content of a Original Nespresso capsule?",
+    "answer": "The caffeine content may vary for each assortment and is influenced by two major factors: the amount of Robusta used in a capsule (Robusta contains twice as much caffeine as Arabica),as well as the quantity of ground coffee used to prepare the cup. For instance, the caffeine level for Espresso and Gran Lungo sizes ranges from 70 to 150 mg, and for Mug and Alto it may vary from 170 to 200 mg.For Carafe, the caffeine content is between 220 and 250 mg, but this particular coffee size is recommended to be drank in 2 or 3 portions.",
+    "rating": 4.5
+  },
+  {
+    "id": 3,
+    "question": "Does a strong coffee according to the Nespresso intensity scale contain more caffeine than the lower intensity rating coffees?",
+    "answer": "The caffeine content may vary for each assortment and is influenced by two major factors: the amount of Robusta used in a capsule (Robusta contains twice as much caffeine as Arabica),as well as the quantity of ground coffee used to prepare the cup. For instance, the caffeine level for Espresso and Gran Lungo sizes ranges from 70 to 150 mg, and for Mug and Alto it may vary from 170 to 200 mg.For Carafe, the caffeine content is between 220 and 250 mg, but this particular coffee size is recommended to be drank in 2 or 3 portions.",
+    "rating": 4.5
+  },
+  {
+    "id": 4,
+    "question": "How much coffee do the Nespresso capsules contain?",
+    "answer": "The caffeine content may vary for each assortment and is influenced by two major factors: the amount of Robusta used in a capsule (Robusta contains twice as much caffeine as Arabica),as well as the quantity of ground coffee used to prepare the cup. For instance, the caffeine level for Espresso and Gran Lungo sizes ranges from 70 to 150 mg, and for Mug and Alto it may vary from 170 to 200 mg.For Carafe, the caffeine content is between 220 and 250 mg, but this particular coffee size is recommended to be drank in 2 or 3 portions.",
+    "rating": 4.5
+  },
+  {
+    "id": 5,
+    "question": "What is Vertuo?",
+    "answer": "The caffeine content may vary for each assortment and is influenced by two major factors: the amount of Robusta used in a capsule (Robusta contains twice as much caffeine as Arabica),as well as the quantity of ground coffee used to prepare the cup. For instance, the caffeine level for Espresso and Gran Lungo sizes ranges from 70 to 150 mg, and for Mug and Alto it may vary from 170 to 200 mg.For Carafe, the caffeine content is between 220 and 250 mg, but this particular coffee size is recommended to be drank in 2 or 3 portions.",
+    "rating": 3.8
+  }
+]

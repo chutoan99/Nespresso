@@ -1,0 +1,147 @@
+[
+  {
+    "tag": "LIMITED",
+    "image": "assets/images/product/product_1.png",
+    "name": "Ispirazione Italiana Selection",
+    "sleeve": "10-sleeve assortment",
+    "sizes": [
+      { "image": "assets/svgs/sizeM.svg", "size": "25ml" },
+      { "image": "assets/svgs/sizeL.svg", "size": "40ml" }
+    ],
+    "intensity": "13",
+    "price": "₫1,658,000",
+    "capsule": "1 sleeve (10 capsules)",
+    "capsulePrice": "Capsule price: 2,20 RON"
+  },
+  {
+    "tag": "LIMITED",
+    "image": "assets/images/product/product_2.png",
+    "name": "Ispirazione Italiana Intense Selection",
+    "sleeve": "5-sleeve assortment",
+    "sizes": [
+      { "image": "assets/svgs/sizeM.svg", "size": "25ml" },
+      { "image": "assets/svgs/sizeL.svg", "size": "40ml" }
+    ],
+    "intensity": "8",
+    "price": "₫883,000",
+    "capsule": "1 sleeve (10 capsules)",
+    "capsulePrice": "Capsule price: 2,20 RON"
+  },
+  {
+    "image": "assets/images/product/product_3.png",
+    "name": "Roma",
+    "sleeve": "Full and Balanced",
+    "sizes": [
+      { "image": "assets/svgs/sizeM.svg", "size": "25ml" },
+      { "image": "assets/svgs/sizeL.svg", "size": "40ml" }
+    ],
+    "intensity": "13",
+    "price": "₫15,500",
+    "capsule": "1 sleeve (10 capsules)",
+    "capsulePrice": "Capsule price: 2,20 RON"
+  },
+  {
+    "image": "assets/images/product/product_4.png",
+    "name": "Livanto",
+    "sleeve": "Round and Balanced",
+    "sizes": [
+      { "image": "assets/svgs/sizeM.svg", "size": "25ml" },
+      { "image": "assets/svgs/sizeL.svg", "size": "40ml" }
+    ],
+    "intensity": "13",
+    "price": "₫15,500",
+    "capsule": "1 sleeve (10 capsules)",
+    "capsulePrice": "Capsule price: 2,20 RON"
+  },
+  {
+    "image": "assets/images/product/product_5.png",
+    "name": "Arpeggio",
+    "sleeve": "Intense and Cream",
+    "sizes": [
+      { "image": "assets/svgs/sizeM.svg", "size": "25ml" },
+      { "image": "assets/svgs/sizeL.svg", "size": "40ml" }
+    ],
+    "intensity": "13",
+    "price": "₫15,500",
+    "capsule": "1 sleeve (10 capsules)",
+    "capsulePrice": "Capsule price: 2,20 RON"
+  },
+  {
+    "image": "assets/images/product/product_6.png",
+    "name": "Arpeggio Decaffeinato",
+    "sleeve": "Intense and Cream",
+    "sizes": [
+      { "image": "assets/svgs/sizeM.svg", "size": "25ml" },
+      { "image": "assets/svgs/sizeL.svg", "size": "40ml" }
+    ],
+    "intensity": "13",
+    "price": "₫17,900",
+    "capsule": "1 sleeve (10 capsules)",
+    "capsulePrice": "Capsule price: 2,20 RON"
+  },
+  {
+    "image": "assets/images/product/product_7.png",
+    "name": "Kazzar",
+    "sleeve": "Intense and Syrupy",
+    "sizes": [
+      { "image": "assets/svgs/sizeM.svg", "size": "25ml" },
+      { "image": "assets/svgs/sizeL.svg", "size": "40ml" }
+    ],
+    "intensity": "13",
+    "price": "₫15,500",
+    "capsule": "1 sleeve (10 capsules)",
+    "capsulePrice": "Capsule price: 2,20 RON"
+  },
+  {
+    "image": "assets/images/product/product_8.png",
+    "name": "Napoli",
+    "sleeve": "Dark and Creamy",
+    "sizes": [
+      { "image": "assets/svgs/sizeM.svg", "size": "25ml" },
+      { "image": "assets/svgs/sizeL.svg", "size": "40ml" }
+    ],
+    "intensity": "13",
+    "price": "₫15,500",
+    "capsule": "1 sleeve (10 capsules)",
+    "capsulePrice": "Capsule price: 2,20 RON"
+  },
+  {
+    "image": "assets/images/product/product_9.png",
+    "name": "Ristretto",
+    "sleeve": "Powerful and Contrasting",
+    "sizes": [
+      { "image": "assets/svgs/sizeM.svg", "size": "25ml" },
+      { "image": "assets/svgs/sizeL.svg", "size": "40ml" }
+    ],
+    "intensity": "13",
+    "price": "₫15,500",
+    "capsule": "1 sleeve (10 capsules)",
+    "capsulePrice": "Capsule price: 2,20 RON"
+  },
+  {
+    "image": "assets/images/product/product_10.png",
+    "name": "Ristretto Decaffeinato",
+    "sleeve": "Powerful and Contrasting",
+    "sizes": [
+      { "image": "assets/svgs/sizeM.svg", "size": "25ml" },
+      { "image": "assets/svgs/sizeL.svg", "size": "40ml" }
+    ],
+    "intensity": "13",
+    "price": "₫17,900",
+    "capsule": "1 sleeve (10 capsules)",
+    "capsulePrice": "Capsule price: 2,20 RON"
+  },
+  {
+    "image": "assets/images/product/product_11.png",
+    "name": "Venezia",
+    "sleeve": "Balanced and Thick Body",
+    "sizes": [
+      { "image": "assets/svgs/sizeM.svg", "size": "25ml" },
+      { "image": "assets/svgs/sizeL.svg", "size": "40ml" }
+    ],
+    "intensity": "13",
+    "price": "₫15,500",
+    "capsule": "1 sleeve (10 capsules)",
+    "capsulePrice": "Capsule price: 2,20 RON"
+  }
+]

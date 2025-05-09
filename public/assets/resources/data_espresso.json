@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Volluto Decaffeinato",
+    "image": "assets/images/product/espresso_1.png",
+    "alt": "Volluto Decaffeinato",
+    "sleeve": "Sweet and Light",
+    "sizes": [
+      { "image": "assets/svgs/sizeM.svg", "size": "25ml" },
+      { "image": "assets/svgs/sizeL.svg", "size": "40ml" }
+    ],
+    "intensity": 13,
+    "price": "22,00 RON/MONTH",
+    "capsule": "1 sleeve (10 capsules)",
+    "capsulePrice": "Capsule price: 2,20 RON"
+  },
+  {
+    "name": "Volluto",
+    "image": "assets/images/product/espresso_2.png",
+    "alt": "Volluto",
+    "sleeve": "Sweet and Light",
+    "sizes": [
+      { "image": "assets/svgs/sizeM.svg", "size": "25ml" },
+      { "image": "assets/svgs/sizeL.svg", "size": "40ml" }
+    ],
+    "intensity": 13,
+    "price": "22,00 RON/MONTH",
+    "capsule": "1 sleeve (10 capsules)",
+    "capsulePrice": "Capsule price: 2,20 RON"
+  },
+  {
+    "name": "Cosi",
+    "image": "assets/images/product/espresso_3.png",
+    "alt": "Cosi",
+    "sleeve": "Mild and Delicately Toasted",
+    "sizes": [
+      { "image": "assets/svgs/sizeM.svg", "size": "25ml" },
+      { "image": "assets/svgs/sizeL.svg", "size": "40ml" }
+    ],
+    "intensity": 13,
+    "price": "22,00 RON/MONTH",
+    "capsule": "1 sleeve (10 capsules)",
+    "capsulePrice": "Capsule price: 2,20 RON"
+  },
+  {
+    "name": "Capriccio",
+    "image": "assets/images/product/espresso_4.png",
+    "alt": "Capriccio",
+    "sleeve": "Rich and Distinctive",
+    "sizes": [
+      { "image": "assets/svgs/sizeM.svg", "size": "25ml" },
+      { "image": "assets/svgs/sizeL.svg", "size": "40ml" }
+    ],
+    "intensity": 13,
+    "price": "22,00 RON/MONTH",
+    "capsule": "1 sleeve (10 capsules)",
+    "capsulePrice": "Capsule price: 2,20 RON"
+  }
+]

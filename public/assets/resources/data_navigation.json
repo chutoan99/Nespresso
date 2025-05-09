@@ -1,0 +1,199 @@
+[
+  {
+    "name": "Coffee",
+    "image": "/assets/images/header/coffee-capsule.png",
+    "image_b": "/assets/images/header/coffee-capsule_b.png",
+    "path": "/coffee",
+    "sub_nav": [
+      {
+        "name": "Order Your Capsules",
+        "content": "Enjoy free delivery from 500,000đ",
+        "image": "/assets/images/image_56_2.png",
+        "path": "/coffee"
+      },
+      {
+        "name": "Discover the Range",
+        "content": "Explore Nespresso coffee selection",
+        "image": "/assets/images/image_56.png",
+        "path": "/"
+      }
+    ],
+    "sub_nav_2": [
+      {
+        "name": "Our Coffee Stories",
+        "content": "Journey to the perfect cup",
+        "image": "/assets/images/image_56_1.png",
+        "path": "/"
+      },
+      {
+        "name": "Recipes",
+        "content": "Be your own barista",
+        "image": "/assets/images/image_56_1.png",
+        "path": "/"
+      }
+    ],
+    "background": "/assets/images/image_59.png"
+  },
+  {
+    "name": "Machines",
+    "image": "/assets/images/header/machine.png",
+    "image_b": "/assets/images/header/machine_b.png",
+    "path": "/machines",
+    "sub_nav": [
+      {
+        "name": "Order Your Machine",
+        "content": "Free delivery for every machine purchase",
+        "image": "/assets/images/machine_1.png",
+        "path": "/coffee"
+      },
+      {
+        "name": "Compare machine",
+        "content": "Benefit from 2 years warranty",
+        "image": "/assets/images/machine_1.png",
+        "path": "/"
+      }
+    ],
+    "sub_nav_2": [
+      {
+        "name": "Descaling your machine regularly",
+        "content": "",
+        "image": "/assets/images/machine_3.png",
+        "path": "/"
+      },
+      {
+        "name": "Register your machine",
+        "content": "",
+        "image": "/assets/images/machine_2.png",
+        "path": "/"
+      }
+    ],
+    "background": "/assets/images/image_59.png"
+  },
+  {
+    "name": "Accessories",
+    "image": "/assets/images/header/accessories.png",
+    "image_b": "/assets/images/header/accessories_b.png",
+    "path": "/accessories",
+    "sub_nav": [
+      {
+        "name": "Order Your Accessories",
+        "content": "Save your Nespresso in style",
+        "image": "/assets/images/accessories_1.png",
+        "path": "/coffee"
+      },
+      {
+        "name": "Register your machine",
+        "content": "Create light or creamy, cold or hot coffee with our milk frother",
+        "image": "/assets/images/accessories_3.png",
+        "path": "/"
+      }
+    ],
+    "sub_nav_2": [
+      {
+        "name": "Descaling Kit",
+        "content": "Care for your coffee machine",
+        "image": "/assets/images/accessories_2.png",
+        "path": "/"
+      },
+      {
+        "name": "promote another accessories",
+        "content": "",
+        "image": "/assets/images/accessories_4.png",
+        "path": "/"
+      }
+    ],
+    "background": "/assets/images/image_60.png"
+  },
+  {
+    "name": "New To Nespresso",
+    "image": "/assets/images/LogoN.png",
+    "image_b": "/assets/images/LogoN.png",
+    "path": "/",
+    "sub_nav": [],
+    "sub_nav_2": [],
+    "background": "/assets/images/image_59.png"
+  },
+  {
+    "name": "Service",
+    "image": "/assets/images/header/service.png",
+    "image_b": "/assets/images/header/service_b.png",
+    "path": "/service",
+    "sub_nav": [
+      {
+        "name": "Order",
+        "content": "Our coffee specialists are ready to assist you",
+        "image": "/assets/images/service_1.png",
+        "path": "/coffee"
+      },
+      {
+        "name": "Delivery",
+        "content": "Learn about delivery terms",
+        "image": "/assets/images/service_1.png",
+        "path": "/"
+      },
+      {
+        "name": "Customer care",
+        "content": "Do you need assistance for your machine",
+        "image": "/assets/images/service_2.png",
+        "path": "/"
+      }
+    ],
+    "sub_nav_2": [],
+    "background": "/assets/images/image_61.png"
+  },
+  {
+    "name": "Sustainability & Recycling",
+    "image": "/assets/images/header/recycle.png",
+    "image_b": "/assets/images/header/recycle_b.png",
+    "path": "/Sustainability",
+    "sub_nav": [],
+    "sub_nav_2": [],
+    "background": "/assets/images/image_59.png"
+  },
+  {
+    "name": "Store Locator",
+    "image": "/assets/images/header/location.png",
+    "image_b": "/assets/images/header/pro_b.png",
+    "path": "/store_location",
+    "sub_nav": [],
+    "sub_nav_2": [],
+    "background": "/assets/images/image_59.png"
+  },
+  {
+    "name": "Contact",
+    "image": "/assets/images/header/contact.png",
+    "image_b": "/assets/images/header/contact_b.png",
+    "path": "/contact_us",
+    "sub_nav": [
+      {
+        "name": "FAQs",
+        "content": "We answer your frequently asked questions",
+        "image": "/assets/images/service_2.png",
+        "path": "/coffee"
+      },
+      {
+        "name": "Email us",
+        "content": "Our coffee specialists are ready to help you",
+        "image": "/assets/images/contact_1.png",
+        "path": "/"
+      },
+      {
+        "name": "Call us 1800 234 506",
+        "content": "Lines are open Mon - Sat, from 8:30 am to 6pm",
+        "image": "/assets/images/contact_2.png",
+        "path": "/"
+      }
+    ],
+    "sub_nav_2": [],
+    "background": "/assets/images/image_62.png"
+  },
+  {
+    "name": "Professional",
+    "image": "/assets/images/header/pro.png",
+    "image_b": "/assets/images/header/location_b.png",
+    "path": "/professional",
+    "sub_nav": [],
+    "sub_nav_2": [],
+    "background": "/assets/images/image_59.png"
+  }
+]

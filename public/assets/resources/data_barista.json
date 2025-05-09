@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "name": "Cocoa Truffle",
+    "image": "assets/images/product/barista_1.png",
+    "alt": "Cocoa Truffle",
+    "sleeve": "Cocoa Flavoured",
+    "sizes": [
+      { "id": 1, "image": "assets/svgs/sizeM.svg", "size": "25ml" },
+      { "id": 2, "image": "assets/svgs/sizeL.svg", "size": "40ml" }
+    ],
+    "intensity": 13,
+    "price": "₫19,900",
+    "capsule": "1 sleeve (10 capsules)",
+    "capsulePrice": "Capsule price: 2,20 RON"
+  },
+  {
+    "id": 2,
+    "name": "Vanilla Éclair",
+    "image": "assets/images/product/barista_2.png",
+    "alt": "Vanilla Éclair",
+    "sleeve": "Vanilla Flavoured",
+    "sizes": [
+      { "id": 1, "image": "assets/svgs/sizeM.svg", "size": "25ml" },
+      { "id": 2, "image": "assets/svgs/sizeL.svg", "size": "40ml" }
+    ],
+    "intensity": 13,
+    "price": "₫19,900",
+    "capsule": "1 sleeve (10 capsules)",
+    "capsulePrice": "Capsule price: 2,20 RON"
+  },
+  {
+    "id": 3,
+    "name": "Caramel Crème Brûlée",
+    "image": "assets/images/product/barista_3.png",
+    "alt": "Caramel Crème Brûlée",
+    "sleeve": "Caramel Flavoured",
+    "sizes": [
+      { "id": 1, "image": "assets/svgs/sizeM.svg", "size": "25ml" },
+      { "id": 2, "image": "assets/svgs/sizeL.svg", "size": "40ml" }
+    ],
+    "intensity": 13,
+    "price": "₫19,900",
+    "capsule": "1 sleeve (10 capsules)",
+    "capsulePrice": "Capsule price: 2,20 RON"
+  },
+  {
+    "id": 4,
+    "name": "Chiaro",
+    "image": "assets/images/product/barista_4.png",
+    "alt": "Chiaro",
+    "sleeve": "Sweet Biscuit",
+    "sizes": [
+      { "id": 1, "image": "assets/svgs/sizeM.svg", "size": "25ml" },
+      { "id": 2, "image": "assets/svgs/sizeL.svg", "size": "40ml" }
+    ],
+    "intensity": 13,
+    "price": "₫18,500",
+    "capsule": "1 sleeve (10 capsules)",
+    "capsulePrice": "Capsule price: 2,20 RON"
+  },
+  {
+    "id": 5,
+    "name": "Scuro",
+    "image": "assets/images/product/barista_5.png",
+    "alt": "Scuro",
+    "sleeve": "Roasted and Balanced",
+    "sizes": [
+      { "id": 1, "image": "assets/svgs/sizeM.svg", "size": "25ml" },
+      { "id": 2, "image": "assets/svgs/sizeL.svg", "size": "40ml" }
+    ],
+    "intensity": 13,
+    "price": "₫18,500",
+    "capsule": "1 sleeve (10 capsules)",
+    "capsulePrice": "Capsule price: 2,20 RON"
+  },
+  {
+    "id": 6,
+    "name": "Corto",
+    "image": "assets/images/product/barista_6.png",
+    "alt": "Corto",
+    "sleeve": "For extra intense recipes with milk",
+    "sizes": [
+      { "id": 1, "image": "assets/svgs/sizeM.svg", "size": "25ml" },
+      { "id": 2, "image": "assets/svgs/sizeL.svg", "size": "40ml" }
+    ],
+    "intensity": 13,
+    "price": "₫18,500",
+    "capsule": "1 sleeve (10 capsules)",
+    "capsulePrice": "Capsule price: 2,20 RON"
+  }
+]

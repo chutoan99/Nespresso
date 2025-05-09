@@ -1,0 +1,67 @@
+[
+  {
+    "image": "assets/images/product/master_1.png",
+    "name": "Ispirazione Napoli",
+    "sleeve": "Sweet and Harmonious",
+    "sizes": [
+      { "image": "assets/svgs/sizeM.svg", "size": "25ml" },
+      { "image": "assets/svgs/sizeL.svg", "size": "40ml" }
+    ],
+    "intensity": "13",
+    "capsule": "1 sleeve (10 capsules)",
+    "capsulePrice": "Capsule price: 2,20 RON",
+    "price": "₫19,900"
+  },
+  {
+    "image": "assets/images/product/master_2.png",
+    "name": "Ispirazione Napoli",
+    "sleeve": "Intense and Spicy",
+    "sizes": [
+      { "image": "assets/svgs/sizeM.svg", "size": "25ml" },
+      { "image": "assets/svgs/sizeL.svg", "size": "40ml" }
+    ],
+    "intensity": "13",
+    "capsule": "1 sleeve (10 capsules)",
+    "capsulePrice": "Capsule price: 2,20 RON",
+    "price": "₫19,900"
+  },
+  {
+    "image": "assets/images/product/master_3.png",
+    "name": "Ispirazione Napoli",
+    "sleeve": "Rich and Woody",
+    "sizes": [
+      { "image": "assets/svgs/sizeM.svg", "size": "25ml" },
+      { "image": "assets/svgs/sizeL.svg", "size": "40ml" }
+    ],
+    "intensity": "13",
+    "capsule": "1 sleeve (10 capsules)",
+    "capsulePrice": "Capsule price: 2,20 RON",
+    "price": "₫19,900"
+  },
+  {
+    "image": "assets/images/product/master_4.png",
+    "name": "Ispirazione Napoli",
+    "sleeve": "Flowery and Bright",
+    "sizes": [
+      { "image": "assets/svgs/sizeM.svg", "size": "25ml" },
+      { "image": "assets/svgs/sizeL.svg", "size": "40ml" }
+    ],
+    "intensity": "13",
+    "capsule": "1 sleeve (10 capsules)",
+    "capsulePrice": "Capsule price: 2,20 RON",
+    "price": "₫19,900"
+  },
+  {
+    "image": "assets/images/product/master_5.png",
+    "name": "Ispirazione Napoli",
+    "sleeve": "Fruity and Vibrant",
+    "sizes": [
+      { "image": "assets/svgs/sizeM.svg", "size": "25ml" },
+      { "image": "assets/svgs/sizeL.svg", "size": "40ml" }
+    ],
+    "intensity": "13",
+    "capsule": "1 sleeve (10 capsules)",
+    "capsulePrice": "Capsule price: 2,20 RON",
+    "price": "₫19,900"
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "id": "ispirazione",
+    "image": "assets/images/product/Ellipse_1.png",
+    "alt": "Ispirazione Italiana",
+    "desc": "Ispirazione Italiana"
+  },
+  {
+    "id": "discovery",
+    "image": "assets/images/product/Ellipse_2.png",
+    "alt": "Discovery Offer",
+    "desc": "Discovery Offer"
+  },
+  {
+    "id": "master",
+    "image": "assets/images/product/Ellipse_3.png",
+    "alt": "Master Origins",
+    "desc": "Master Origins"
+  },
+  {
+    "id": "world",
+    "image": "assets/images/product/Ellipse_4.png",
+    "alt": "World Exploration",
+    "desc": "World Exploration"
+  },
+  {
+    "id": "barista",
+    "image": "assets/images/product/Ellipse_5.png",
+    "alt": "Barista Creations",
+    "desc": "Barista Creations"
+  },
+  {
+    "id": "espresso",
+    "image": "assets/images/product/Ellipse_6.png",
+    "alt": "Espresso",
+    "desc": "Espresso"
+  }
+]

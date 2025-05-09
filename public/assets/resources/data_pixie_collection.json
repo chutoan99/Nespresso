@@ -1,0 +1,42 @@
+[
+  {
+    "image": "assets/images/accessories/accessories-14.png",
+    "name": "PIXIE ESPRESSO SET (RISTRETTO & DECAFFEINATO)",
+    "price": "₫750,000"
+  },
+  {
+    "image": "assets/images/accessories/accessories-15.png",
+    "name": "PIXIE ESPRESSO SET (ARPEGGIO & VOLLUTO)",
+    "price": "₫830,000"
+  },
+  {
+    "image": "assets/images/accessories/accessories-16.png",
+    "name": "PIXIE LUNGO SET (ENVIVO & LINIZIO)",
+    "price": "₫980,000"
+  },
+  {
+    "image": "assets/images/accessories/accessories-17.png",
+    "name": "PIXIE LUNGO SET (BUENOS AIRES & SHANGHAI)",
+    "price": "₫3,700,000"
+  },
+  {
+    "image": "assets/images/accessories/accessories-18.png",
+    "name": "PIXIE LUNGO SET (FORTISSIO & VIVALTO)",
+    "price": "₫750,000"
+  },
+  {
+    "image": "assets/images/accessories/accessories-19.png",
+    "name": "PIXIE ESPRESSO CUP, RIO DE JANEIRO",
+    "price": "₫830,000"
+  },
+  {
+    "image": "assets/images/accessories/accessories-20.png",
+    "name": "PIXIE ESPRESSO CUP, PARIS",
+    "price": "₫980,000"
+  },
+  {
+    "image": "assets/images/accessories/accessories-21.png",
+    "name": "PIXIE ESPRESSO CUP, ISTANBUL",
+    "price": "₫3,700,000"
+  }
+]
